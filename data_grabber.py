@@ -3,7 +3,7 @@ import os
 
 
 def grab_data():
-    walk_dir = 'output/output_1951'
+    walk_dir = 'data/output_1951'
 
     data = list()
 
