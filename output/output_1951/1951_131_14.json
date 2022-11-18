@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-14-B451,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "451, Lucas (Arthur), 19, Rotfluhstrasse, Zollikon (Zurich). A 105, 356a, 556, 647, 874, 1469, C 1129, 1159, 1170, 1185, 1201, 1209, 1210",
+        "corrected": "451, Lucas (Arthur), 19, Rotfluhstrasse, Zollikon (Zurich).A 105, 356a, 556, 647, 874, 1469, C 1129, 1159, 1170, 1185, 1201, 1209, 1210"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1109,1265,80/max/0/default.jpg",
+            "xywh": "316, 1109, 1265, 80"
+        }
+    },
+    "short_id": "B451,",
+    "label": "Lucas (Arthur)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-14-A105",
+                    "short_id": "A105"
+                },
+                {
+                    "id": "BSCC-1951-131-14-A356a",
+                    "short_id": "A356a"
+                },
+                {
+                    "id": "BSCC-1951-131-14-A556",
+                    "short_id": "A556"
+                },
+                {
+                    "id": "BSCC-1951-131-14-A647",
+                    "short_id": "A647"
+                },
+                {
+                    "id": "BSCC-1951-131-14-A874",
+                    "short_id": "A874"
+                },
+                {
+                    "id": "BSCC-1951-131-14-A1469",
+                    "short_id": "A1469"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-14-C1129",
+                    "short_id": "C1129"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1159",
+                    "short_id": "C1159"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1170",
+                    "short_id": "C1170"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1185",
+                    "short_id": "C1185"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1201",
+                    "short_id": "C1201"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1209",
+                    "short_id": "C1209"
+                },
+                {
+                    "id": "BSCC-1951-131-14-C1210",
+                    "short_id": "C1210"
+                }
+            ],
+            "description": "The swiss company B451, trades with the british company A105 and A356a and A556 and A647 and A874 and A1469 in the goods C1129 and C1159 and C1170 and C1185 and C1201 and C1209 and C1210"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lucas (Arthur)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657912",
+            "lat": "47.34019",
+            "lng": "8.57407",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zollikon",
+            "transcription": "19, Rotfluhstrasse, Zollikon (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

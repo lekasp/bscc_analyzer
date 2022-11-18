@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-9-A501",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "501. Creed & Co. Ltd., Croydon. B 707, C 559, 561.",
+        "corrected": "501. Creed & Co. Ltd., Croydon. B 707, C 559, 561"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,624,1261,39/max/0/default.jpg",
+            "xywh": "205, 624, 1261, 39"
+        }
+    },
+    "short_id": "A501",
+    "label": "Creed & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-9-B707",
+                    "short_id": "B707"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-9-C559",
+                    "short_id": "C559"
+                },
+                {
+                    "id": "BSCC-1951-36-9-C561",
+                    "short_id": "C561"
+                }
+            ],
+            "description": "The british company A501 trades with the swiss company B707 in the goods C559 and C561"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Creed & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651817",
+            "lat": "51.38333",
+            "lng": "-0.1",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Croydon",
+            "transcription": " Croydon. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

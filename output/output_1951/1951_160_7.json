@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-160-1951-7-C316",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "316. Knitting machines, circular. A 183, 210, 1294, 2125, B 380, 526, 613.",
+        "corrected": "316. Knitting machines, circular. A 183, 210, 1294, 2125, B 380, 526, 613"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 160,
+            "canvas": "http://localhost:8182/iiif/3/0160.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0160.jpg/155,521,1307,37/max/0/default.jpg",
+            "xywh": "155, 521, 1307, 37"
+        }
+    },
+    "short_id": "C316",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-160-7-A183",
+                    "short_id": "A183"
+                },
+                {
+                    "id": "BSCC-1951-160-7-A210",
+                    "short_id": "A210"
+                },
+                {
+                    "id": "BSCC-1951-160-7-A1294",
+                    "short_id": "A1294"
+                },
+                {
+                    "id": "BSCC-1951-160-7-A2125",
+                    "short_id": "A2125"
+                },
+                {
+                    "id": "BSCC-1951-160-7-B380",
+                    "short_id": "B380"
+                },
+                {
+                    "id": "BSCC-1951-160-7-B526",
+                    "short_id": "B526"
+                },
+                {
+                    "id": "BSCC-1951-160-7-B613",
+                    "short_id": "B613"
+                }
+            ],
+            "description": "with the british company A183 and A210 and A1294 and A2125 and B526 and B613"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

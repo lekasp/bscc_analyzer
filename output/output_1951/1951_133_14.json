@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-14-B506",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "506. Monnier (René), 2, avenue J. J. Mercier, Lausanne. A 495, 1674, C 957, 1010, 1011, 1036, 1037.",
+        "corrected": "506. Monnier (René), 2, avenue J. J. Mercier, Lausanne.A 495, 1674, C 957, 1010, 1011, 1036, 1037"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1219,1317,78/max/0/default.jpg",
+            "xywh": "305, 1219, 1317, 78"
+        }
+    },
+    "short_id": "B506",
+    "label": "Monnier (René)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-14-A495",
+                    "short_id": "A495"
+                },
+                {
+                    "id": "BSCC-1951-133-14-A1674",
+                    "short_id": "A1674"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-14-C957",
+                    "short_id": "C957"
+                },
+                {
+                    "id": "BSCC-1951-133-14-C1010",
+                    "short_id": "C1010"
+                },
+                {
+                    "id": "BSCC-1951-133-14-C1011",
+                    "short_id": "C1011"
+                },
+                {
+                    "id": "BSCC-1951-133-14-C1036",
+                    "short_id": "C1036"
+                },
+                {
+                    "id": "BSCC-1951-133-14-C1037",
+                    "short_id": "C1037"
+                }
+            ],
+            "description": "The swiss company B506 trades with the british company A495 and A1674 in the goods C957 and C1010 and C1011 and C1036 and C1037"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Monnier (René)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "2, avenue J. J. Mercier, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

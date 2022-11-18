@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-23-A1371",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1371. M. S. S. Recording Co. Ltd., Colnbrook, Bucks. B 524, C 1444.",
+        "corrected": "1371. M. S. S. Recording Co. Ltd., Colnbrook, Bucks. B 524, C 1444"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1366,1249,43/max/0/default.jpg",
+            "xywh": "184, 1366, 1249, 43"
+        }
+    },
+    "short_id": "A1371",
+    "label": "M. S. S. Recording Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-23-B524",
+                    "short_id": "B524"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-23-C1444",
+                    "short_id": "C1444"
+                }
+            ],
+            "description": "The british company A1371 trades with the swiss company B524 in the goods C1444"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "M. S. S. Recording Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652546",
+            "lat": "51.48384",
+            "lng": "-0.52142",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Colnbrook",
+            "transcription": " Colnbrook, Bucks. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

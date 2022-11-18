@@ -1,0 +1,140 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-20-B803",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 803. Weiss (Alex.), 37, Seestrasse, Zurich. A 138, 239, 346, 1147, 1192, 1814, C 1157, 1159, 1162, 1163, 1164, 1166, 1180, 1183, 1202, 1208, 1410.",
+        "corrected": "803. Weiss (Alex.), 37, Seestrasse, Zurich.A 138, 239, 346, 1147, 1192, 1814, C 1157, 1159, 1162, 1163, 1164, 1166, 1180, 1183, 1202, 1208, 1410"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1629,1304,117/max/0/default.jpg",
+            "xywh": "297, 1629, 1304, 117"
+        }
+    },
+    "short_id": "B803",
+    "label": "Weiss (Alex.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-20-A138",
+                    "short_id": "A138"
+                },
+                {
+                    "id": "BSCC-1951-143-20-A239",
+                    "short_id": "A239"
+                },
+                {
+                    "id": "BSCC-1951-143-20-A346",
+                    "short_id": "A346"
+                },
+                {
+                    "id": "BSCC-1951-143-20-A1147",
+                    "short_id": "A1147"
+                },
+                {
+                    "id": "BSCC-1951-143-20-A1192",
+                    "short_id": "A1192"
+                },
+                {
+                    "id": "BSCC-1951-143-20-A1814",
+                    "short_id": "A1814"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-20-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1159",
+                    "short_id": "C1159"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1162",
+                    "short_id": "C1162"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1163",
+                    "short_id": "C1163"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1164",
+                    "short_id": "C1164"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1166",
+                    "short_id": "C1166"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1180",
+                    "short_id": "C1180"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1202",
+                    "short_id": "C1202"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1208",
+                    "short_id": "C1208"
+                },
+                {
+                    "id": "BSCC-1951-143-20-C1410",
+                    "short_id": "C1410"
+                }
+            ],
+            "description": "The swiss company B803 trades with the british company A138 and A239 and A346 and A1147 and A1192 and A1814 in the goods C1157 and C1159 and C1162 and C1163 and C1164 and C1166 and C1180 and C1183 and C1202 and C1208 and C1410"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weiss (Alex.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "37, Seestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

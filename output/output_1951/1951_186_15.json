@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-15-C1230",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1230. Corset trade metal accessories. A 1408, 1842, B 476, 684.",
+        "corrected": "1230. Corset trade metal accessories. A 1408, 1842, B 476, 684"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,944,1267,41/max/0/default.jpg",
+            "xywh": "216, 944, 1267, 41"
+        }
+    },
+    "short_id": "C1230",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-15-A1408",
+                    "short_id": "A1408"
+                },
+                {
+                    "id": "BSCC-1951-186-15-A1842",
+                    "short_id": "A1842"
+                },
+                {
+                    "id": "BSCC-1951-186-15-B476",
+                    "short_id": "B476"
+                },
+                {
+                    "id": "BSCC-1951-186-15-B684",
+                    "short_id": "B684"
+                }
+            ],
+            "description": "with the british company A1408 and A1842 and B684"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

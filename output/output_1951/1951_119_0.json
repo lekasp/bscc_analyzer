@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-0-B71",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "71. Benz & Cie., 69, Universitätstrasse, Zurich. A 976, C 1312, 1320.",
+        "corrected": "71. Benz & Cie., 69, Universitätstrasse, Zurich. A 976, C 1312, 1320"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,201,1336,87/max/0/default.jpg",
+            "xywh": "276, 201, 1336, 87"
+        }
+    },
+    "short_id": "B71",
+    "label": "Benz & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-0-A976",
+                    "short_id": "A976"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-0-C1312",
+                    "short_id": "C1312"
+                },
+                {
+                    "id": "BSCC-1951-119-0-C1320",
+                    "short_id": "C1320"
+                }
+            ],
+            "description": "The swiss company B71 trades with the british company A976 in the goods C1312 and C1320"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Benz & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 69, Universitätstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

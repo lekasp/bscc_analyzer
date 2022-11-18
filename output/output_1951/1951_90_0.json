@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-0-A1696",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1696. St. Andrews Weaving Co. Ltd., St. Andrews. B 63, C 1127, 1129, 1209.",
+        "corrected": "1696. St. Andrews Weaving Co. Ltd., St. Andrews. B 63, C 1127, 1129, 1209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,210,1298,73/max/0/default.jpg",
+            "xywh": "171, 210, 1298, 73"
+        }
+    },
+    "short_id": "A1696",
+    "label": "St. Andrews Weaving Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-0-B63",
+                    "short_id": "B63"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-0-C1127",
+                    "short_id": "C1127"
+                },
+                {
+                    "id": "BSCC-1951-90-0-C1129",
+                    "short_id": "C1129"
+                },
+                {
+                    "id": "BSCC-1951-90-0-C1209",
+                    "short_id": "C1209"
+                }
+            ],
+            "description": "The british company A1696 trades with the swiss company B63 in the goods C1127 and C1129 and C1209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "St. Andrews Weaving Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " St. Andrews. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

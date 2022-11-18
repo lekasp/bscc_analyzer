@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-29-A1996",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1996. Universal Dampers Ltd., Shirley, Birmingham. B 44, C 600.",
+        "corrected": "1996. Universal Dampers Ltd., Shirley, Birmingham. B 44, C 600"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,1567,1247,40/max/0/default.jpg",
+            "xywh": "346, 1567, 1247, 40"
+        }
+    },
+    "short_id": "A1996",
+    "label": "Universal Dampers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-29-B44",
+                    "short_id": "B44"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-29-C600",
+                    "short_id": "C600"
+                }
+            ],
+            "description": "The british company A1996 trades with the swiss company B44 in the goods C600"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Universal Dampers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637935",
+            "lat": "51.37762",
+            "lng": "-0.04961",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Shirley",
+            "transcription": " Shirley, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Shirley, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

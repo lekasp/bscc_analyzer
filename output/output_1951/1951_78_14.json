@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-14-A1446",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1446. Old Bleach Linen Co. Ltd., Randalstown, N. I. B 746, C 1145.",
+        "corrected": "1446. Old Bleach Linen Co. Ltd., Randalstown, N. I. B 746, C 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1009,1263,39/max/0/default.jpg",
+            "xywh": "180, 1009, 1263, 39"
+        }
+    },
+    "short_id": "A1446",
+    "label": "Old Bleach Linen Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-14-B746",
+                    "short_id": "B746"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-14-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The british company A1446 trades with the swiss company B746 in the goods C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Old Bleach Linen Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639653",
+            "lat": "54.75",
+            "lng": "-6.3",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Randalstown",
+            "transcription": " Randalstown, N. I. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

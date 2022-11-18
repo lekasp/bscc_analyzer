@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-18-B484",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "484. Meienberg & Co., 4, Waisenhausstrasse, Zurich. A 200, 1270, 1424, C 178, 232, 266, 334, 405.",
+        "corrected": "484. Meienberg & Co., 4, Waisenhausstrasse, Zurich.A 200, 1270, 1424, C 178, 232, 266, 334, 405"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,1647,1311,79/max/0/default.jpg",
+            "xywh": "167, 1647, 1311, 79"
+        }
+    },
+    "short_id": "B484",
+    "label": "Meienberg & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-18-A200",
+                    "short_id": "A200"
+                },
+                {
+                    "id": "BSCC-1951-132-18-A1270",
+                    "short_id": "A1270"
+                },
+                {
+                    "id": "BSCC-1951-132-18-A1424",
+                    "short_id": "A1424"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-18-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-132-18-C232",
+                    "short_id": "C232"
+                },
+                {
+                    "id": "BSCC-1951-132-18-C266",
+                    "short_id": "C266"
+                },
+                {
+                    "id": "BSCC-1951-132-18-C334",
+                    "short_id": "C334"
+                },
+                {
+                    "id": "BSCC-1951-132-18-C405",
+                    "short_id": "C405"
+                }
+            ],
+            "description": "The swiss company B484 trades with the british company A200 and A1270 and A1424 in the goods C178 and C232 and C266 and C334 and C405"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Meienberg & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 4, Waisenhausstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-12-A892",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "892. Hayward-Tyler & Co. Ltd., Luton. B 397, C 243, 244, 446, 448.",
+        "corrected": "892. Hayward-Tyler & Co. Ltd., Luton. B 397, C 243, 244, 446, 448"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,1694,1254,37/max/0/default.jpg",
+            "xywh": "182, 1694, 1254, 37"
+        }
+    },
+    "short_id": "A892",
+    "label": "Hayward-Tyler & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-12-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-12-C243",
+                    "short_id": "C243"
+                },
+                {
+                    "id": "BSCC-1951-52-12-C244",
+                    "short_id": "C244"
+                },
+                {
+                    "id": "BSCC-1951-52-12-C446",
+                    "short_id": "C446"
+                },
+                {
+                    "id": "BSCC-1951-52-12-C448",
+                    "short_id": "C448"
+                }
+            ],
+            "description": "The british company A892 trades with the swiss company B397 in the goods C243 and C244 and C446 and C448"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hayward-Tyler & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643339",
+            "lat": "51.87967",
+            "lng": "-0.41748",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Luton",
+            "transcription": " Luton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

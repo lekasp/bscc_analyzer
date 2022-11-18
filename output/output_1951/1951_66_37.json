@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-37-A1203",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1203. Lucking (Stephen) Ltd., Chester. B 160, C 885.",
+        "corrected": "1203. Lucking (Stephen) Ltd., Chester. B 160, C 885"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,1935,1288,37/max/0/default.jpg",
+            "xywh": "170, 1935, 1288, 37"
+        }
+    },
+    "short_id": "A1203",
+    "label": "Lucking (Stephen) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-37-B160",
+                    "short_id": "B160"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-37-C885",
+                    "short_id": "C885"
+                }
+            ],
+            "description": "The british company A1203 trades with the swiss company B160 in the goods C885"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lucking (Stephen) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653228",
+            "lat": "53.1905",
+            "lng": "-2.89189",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Chester",
+            "transcription": " Chester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

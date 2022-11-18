@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-26-C926",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "926. Organic chemicals. A 363, 1156, 1422, 1521, 1663, 1877, B 68, 140, 308, 714, 776.",
+        "corrected": "926. Organic chemicals.A 363, 1156, 1422, 1521, 1663, 1877, B 68, 140, 308, 714, 776"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1630,1293,78/max/0/default.jpg",
+            "xywh": "228, 1630, 1293, 78"
+        }
+    },
+    "short_id": "C926",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-26-A363",
+                    "short_id": "A363"
+                },
+                {
+                    "id": "BSCC-1951-176-26-A1156",
+                    "short_id": "A1156"
+                },
+                {
+                    "id": "BSCC-1951-176-26-A1422",
+                    "short_id": "A1422"
+                },
+                {
+                    "id": "BSCC-1951-176-26-A1521",
+                    "short_id": "A1521"
+                },
+                {
+                    "id": "BSCC-1951-176-26-A1663",
+                    "short_id": "A1663"
+                },
+                {
+                    "id": "BSCC-1951-176-26-A1877",
+                    "short_id": "A1877"
+                },
+                {
+                    "id": "BSCC-1951-176-26-B68",
+                    "short_id": "B68"
+                },
+                {
+                    "id": "BSCC-1951-176-26-B140",
+                    "short_id": "B140"
+                },
+                {
+                    "id": "BSCC-1951-176-26-B308",
+                    "short_id": "B308"
+                },
+                {
+                    "id": "BSCC-1951-176-26-B714",
+                    "short_id": "B714"
+                },
+                {
+                    "id": "BSCC-1951-176-26-B776",
+                    "short_id": "B776"
+                }
+            ],
+            "description": "with the british company A363 and A1156 and A1422 and A1521 and A1663 and A1877 and B140 and B308 and B714 and B776"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

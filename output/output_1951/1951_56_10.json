@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-10-A958",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "958. Hounsells (Bridport) Ltd., Bridport. B 701, C 1407.",
+        "corrected": "958. Hounsells (Bridport) Ltd., Bridport. B 701, C 1407"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,683,1276,39/max/0/default.jpg",
+            "xywh": "158, 683, 1276, 39"
+        }
+    },
+    "short_id": "A958",
+    "label": "Hounsells (Bridport) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-10-B701",
+                    "short_id": "B701"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-10-C1407",
+                    "short_id": "C1407"
+                }
+            ],
+            "description": "The british company A958 trades with the swiss company B701 in the goods C1407"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hounsells (Bridport) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654726",
+            "lat": "50.7338",
+            "lng": "-2.75831",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bridport",
+            "transcription": " Bridport. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

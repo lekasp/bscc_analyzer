@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-22-A66",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "66. Anglo-Scottish Tool Co. Ltd., Gateshead. B 164, C 396; B 745, C 331.",
+        "corrected": "66. Anglo-Scottish Tool Co. Ltd., Gateshead. B 164, C 396; B 745, C 331"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,1200,1233,40/max/0/default.jpg",
+            "xywh": "192, 1200, 1233, 40"
+        }
+    },
+    "short_id": "A66",
+    "label": "Anglo-Scottish Tool Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-22-B164",
+                    "short_id": "B164"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-22-C396",
+                    "short_id": "C396"
+                }
+            ],
+            "description": "The british company A66 trades with the swiss company B164 in the goods C396"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-22-B745",
+                    "short_id": "B745"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-22-C331",
+                    "short_id": "C331"
+                }
+            ],
+            "description": "The british company A66 trades with the swiss company B745 in the goods C331"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Anglo-Scottish Tool Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648773",
+            "lat": "54.96209",
+            "lng": "-1.60168",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Gateshead",
+            "transcription": " Gateshead. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-16-B213",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "213. Erdöl- und Teerprodukte (AG. für), 2, Löwenstrasse, Zurich, A 1902, C 59, 69, 80, 82, 83, 823, 994, 1001.",
+        "corrected": "213. Erdöl- und Teerprodukte (AG. für), 2, Löwenstrasse, Zurich,A 1902, C 59, 69, 80, 82, 83, 823, 994, 1001"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1217,1247,78/max/0/default.jpg",
+            "xywh": "304, 1217, 1247, 78"
+        }
+    },
+    "short_id": "B213",
+    "label": "Erdöl- und Teerprodukte (AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-16-A1902",
+                    "short_id": "A1902"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-16-C59",
+                    "short_id": "C59"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C69",
+                    "short_id": "C69"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C80",
+                    "short_id": "C80"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C82",
+                    "short_id": "C82"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C83",
+                    "short_id": "C83"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C823",
+                    "short_id": "C823"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C994",
+                    "short_id": "C994"
+                },
+                {
+                    "id": "BSCC-1951-123-16-C1001",
+                    "short_id": "C1001"
+                }
+            ],
+            "description": "The swiss company B213 trades with the british company A1902 in the goods C59 and C69 and C80 and C82 and C83 and C823 and C994 and C1001"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Erdöl- und Teerprodukte (AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " für), 2, Löwenstrasse, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

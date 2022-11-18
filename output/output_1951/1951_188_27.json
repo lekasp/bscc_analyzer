@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-27-C1312",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿1312. Dish-washing machines. A 976, 1507, 2126, B 71, 247, 407.",
+        "corrected": "1312. Dish-washing machines. A 976, 1507, 2126, B 71, 247, 407"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,1471,1281,40/max/0/default.jpg",
+            "xywh": "223, 1471, 1281, 40"
+        }
+    },
+    "short_id": "C1312",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-27-A976",
+                    "short_id": "A976"
+                },
+                {
+                    "id": "BSCC-1951-188-27-A1507",
+                    "short_id": "A1507"
+                },
+                {
+                    "id": "BSCC-1951-188-27-A2126",
+                    "short_id": "A2126"
+                },
+                {
+                    "id": "BSCC-1951-188-27-B71",
+                    "short_id": "B71"
+                },
+                {
+                    "id": "BSCC-1951-188-27-B247",
+                    "short_id": "B247"
+                },
+                {
+                    "id": "BSCC-1951-188-27-B407",
+                    "short_id": "B407"
+                }
+            ],
+            "description": "with the british company A976 and A1507 and A2126 and B247 and B407"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

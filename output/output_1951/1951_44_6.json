@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-6-A679",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "679. Felco Hoists Ltd., London SW 1. B 396, C 361.",
+        "corrected": "679. Felco Hoists Ltd., London SW 1. B 396, C 361"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,495,1269,40/max/0/default.jpg",
+            "xywh": "189, 495, 1269, 40"
+        }
+    },
+    "short_id": "A679",
+    "label": "Felco Hoists Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-6-B396",
+                    "short_id": "B396"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-6-C361",
+                    "short_id": "C361"
+                }
+            ],
+            "description": "The british company A679 trades with the swiss company B396 in the goods C361"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Felco Hoists Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SW 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

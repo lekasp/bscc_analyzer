@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-26-B97",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "97. Born & Stucki AG., 74, Grellingerstrasse, Basle. A 614, 1847, C 65, 89, 91.",
+        "corrected": "97. Born & Stucki AG., 74, Grellingerstrasse, Basle. A 614, 1847, C 65, 89, 91"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1749,1336,42/max/0/default.jpg",
+            "xywh": "276, 1749, 1336, 42"
+        }
+    },
+    "short_id": "B97",
+    "label": "Born & Stucki AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-26-A614",
+                    "short_id": "A614"
+                },
+                {
+                    "id": "BSCC-1951-119-26-A1847",
+                    "short_id": "A1847"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-26-C65",
+                    "short_id": "C65"
+                },
+                {
+                    "id": "BSCC-1951-119-26-C89",
+                    "short_id": "C89"
+                },
+                {
+                    "id": "BSCC-1951-119-26-C91",
+                    "short_id": "C91"
+                }
+            ],
+            "description": "The swiss company B97 trades with the british company A614 and A1847 in the goods C65 and C89 and C91"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Born & Stucki AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 74, Grellingerstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

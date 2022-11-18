@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-30-A30",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "30. Airspeed Ltd., Christchurch, Hants. B 10, C 639. A. J. S. — see Associated Motor Cycles Ltd.",
+        "corrected": "30. Airspeed Ltd., Christchurch, Hants. B 10, C 639.A. J. S. — see Associated Motor Cycles Ltd"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1481,1220,76/max/0/default.jpg",
+            "xywh": "212, 1481, 1220, 76"
+        }
+    },
+    "short_id": "A30",
+    "label": "Airspeed Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-30-B10",
+                    "short_id": "B10"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-30-C639",
+                    "short_id": "C639"
+                }
+            ],
+            "description": "The british company A30 trades with the swiss company B10 in the goods C639"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Airspeed Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653075",
+            "lat": "50.73583",
+            "lng": "-1.78129",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Christchurch",
+            "transcription": " Christchurch, Hants. A. J. S. — see Associated Motor Cycles Ltd"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

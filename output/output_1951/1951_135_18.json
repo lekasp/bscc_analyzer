@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-18-B569",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "569. Pharmacal & Cie., 4, rue de la Scie, Geneva. A 649, C 939.",
+        "corrected": "569. Pharmacal & Cie., 4, rue de la Scie, Geneva. A 649, C 939"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1588,1298,41/max/0/default.jpg",
+            "xywh": "298, 1588, 1298, 41"
+        }
+    },
+    "short_id": "B569",
+    "label": "Pharmacal & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-18-A649",
+                    "short_id": "A649"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-18-C939",
+                    "short_id": "C939"
+                }
+            ],
+            "description": "The swiss company B569 trades with the british company A649 in the goods C939"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pharmacal & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 4, rue de la Scie, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

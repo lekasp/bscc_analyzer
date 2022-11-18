@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-30-A478",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "478. Ccry (Wm.) & Son Ltd., London EC 3. B 475, C 58, 60.",
+        "corrected": "478. Ccry (Wm.) & Son Ltd., London EC 3. B 475, C 58, 60"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,1631,1292,40/max/0/default.jpg",
+            "xywh": "157, 1631, 1292, 40"
+        }
+    },
+    "short_id": "A478",
+    "label": "Ccry (Wm.) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-30-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-30-C58",
+                    "short_id": "C58"
+                },
+                {
+                    "id": "BSCC-1951-34-30-C60",
+                    "short_id": "C60"
+                }
+            ],
+            "description": "The british company A478 trades with the swiss company B475 in the goods C58 and C60"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ccry (Wm.) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 3. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

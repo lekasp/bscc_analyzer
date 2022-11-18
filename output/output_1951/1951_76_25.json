@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-25-A1414",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1414. Newsome & Spedding Ltd., Dewsbury. B 731, C 1212.",
+        "corrected": "1414. Newsome & Spedding Ltd., Dewsbury. B 731, C 1212"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1409,1323,42/max/0/default.jpg",
+            "xywh": "174, 1409, 1323, 42"
+        }
+    },
+    "short_id": "A1414",
+    "label": "Newsome & Spedding Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-25-B731",
+                    "short_id": "B731"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-25-C1212",
+                    "short_id": "C1212"
+                }
+            ],
+            "description": "The british company A1414 trades with the swiss company B731 in the goods C1212"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Newsome & Spedding Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651286",
+            "lat": "53.69076",
+            "lng": "-1.62907",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Dewsbury",
+            "transcription": " Dewsbury. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

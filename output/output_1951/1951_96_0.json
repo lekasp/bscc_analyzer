@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-0-A1922",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1922. Tecalemit Ltd., Brentford, Middx. B 737a, C 444, 465, 467, 470, 594, 613, 622, 626, 683.",
+        "corrected": "1922. Tecalemit Ltd., Brentford, Middx.B 737a, C 444, 465, 467, 470, 594, 613, 622, 626, 683"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,197,1288,121/max/0/default.jpg",
+            "xywh": "164, 197, 1288, 121"
+        }
+    },
+    "short_id": "A1922",
+    "label": "Tecalemit Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-0-B737a",
+                    "short_id": "B737a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-0-C444",
+                    "short_id": "C444"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C465",
+                    "short_id": "C465"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C467",
+                    "short_id": "C467"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C470",
+                    "short_id": "C470"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C594",
+                    "short_id": "C594"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C613",
+                    "short_id": "C613"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C622",
+                    "short_id": "C622"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C626",
+                    "short_id": "C626"
+                },
+                {
+                    "id": "BSCC-1951-96-0-C683",
+                    "short_id": "C683"
+                }
+            ],
+            "description": "The british company A1922 trades with the swiss company B737a in the goods C444 and C465 and C467 and C470 and C594 and C613 and C622 and C626 and C683"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tecalemit Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654787",
+            "lat": "51.48619",
+            "lng": "-0.3083",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Brentford",
+            "transcription": " Brentford, Middx."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

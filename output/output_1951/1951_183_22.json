@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-22-C1140",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1140. Silk, printed. A 1660, B 33.",
+        "corrected": "1140. Silk, printed. A 1660, B 33"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1462,1290,55/max/0/default.jpg",
+            "xywh": "316, 1462, 1290, 55"
+        }
+    },
+    "short_id": "C1140",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-22-A1660",
+                    "short_id": "A1660"
+                },
+                {
+                    "id": "BSCC-1951-183-22-B33",
+                    "short_id": "B33"
+                }
+            ],
+            "description": "with the british company A1660"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

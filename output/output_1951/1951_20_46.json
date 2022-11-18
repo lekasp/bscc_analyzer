@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-46-A178",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿178. Ben Line Steamers Ltd., Edinburgh. B 287, C 1457.",
+        "corrected": "178. Ben Line Steamers Ltd., Edinburgh. B 287, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,2091,1238,39/max/0/default.jpg",
+            "xywh": "213, 2091, 1238, 39"
+        }
+    },
+    "short_id": "A178",
+    "label": "Ben Line Steamers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-46-B287",
+                    "short_id": "B287"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-46-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The british company A178 trades with the swiss company B287 in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ben Line Steamers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650225",
+            "lat": "55.95206",
+            "lng": "-3.19648",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Edinburgh",
+            "transcription": " Edinburgh. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

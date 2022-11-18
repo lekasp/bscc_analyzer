@@ -1,0 +1,103 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-40-A1962",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1962. Tucker (George) Eyelet Co. Ltd., Birmingham. B 505, C 761, 1057, 1231; B 773, C 885.",
+        "corrected": "1962. Tucker (George) Eyelet Co. Ltd., Birmingham.B 505, C 761, 1057, 1231; B 773, C 885"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1976,1288,78/max/0/default.jpg",
+            "xywh": "164, 1976, 1288, 78"
+        }
+    },
+    "short_id": "A1962",
+    "label": "Tucker (George) Eyelet Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-40-B505",
+                    "short_id": "B505"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-40-C761",
+                    "short_id": "C761"
+                },
+                {
+                    "id": "BSCC-1951-96-40-C1057",
+                    "short_id": "C1057"
+                },
+                {
+                    "id": "BSCC-1951-96-40-C1231",
+                    "short_id": "C1231"
+                }
+            ],
+            "description": "The british company A1962 trades with the swiss company B505 in the goods C761 and C1057 and C1231"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-40-B773",
+                    "short_id": "B773"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-40-C885",
+                    "short_id": "C885"
+                }
+            ],
+            "description": "The british company A1962 trades with the swiss company B773 in the goods C885"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tucker (George) Eyelet Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

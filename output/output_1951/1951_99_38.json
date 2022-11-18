@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-38-A2088",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2088. Webb & Corbett (Thos.) Ltd., Amblecote, Stourbridge. B 50, C 1372.",
+        "corrected": "2088. Webb & Corbett (Thos.) Ltd., Amblecote, Stourbridge. B 50, C 1372"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,1899,1278,39/max/0/default.jpg",
+            "xywh": "348, 1899, 1278, 39"
+        }
+    },
+    "short_id": "A2088",
+    "label": "Webb & Corbett (Thos.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-38-B50",
+                    "short_id": "B50"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-38-C1372",
+                    "short_id": "C1372"
+                }
+            ],
+            "description": "The british company A2088 trades with the swiss company B50 in the goods C1372"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Webb & Corbett (Thos.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636769",
+            "lat": "52.45608",
+            "lng": "-2.14317",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stourbridge",
+            "transcription": " Amblecote, Stourbridge. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

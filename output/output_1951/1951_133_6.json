@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-6-B498",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "498. Meylan (Theophil), Oberaegeri (Zug). A 583, C 1117.",
+        "corrected": "498. Meylan (Theophil), Oberaegeri (Zug). A 583, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,706,1317,40/max/0/default.jpg",
+            "xywh": "305, 706, 1317, 40"
+        }
+    },
+    "short_id": "B498",
+    "label": "Meylan (Theophil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-6-A583",
+                    "short_id": "A583"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-6-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The swiss company B498 trades with the british company A583 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Meylan (Theophil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "8029943",
+            "lat": "47.13614",
+            "lng": "8.6144",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oberägeri",
+            "transcription": "Oberaegeri (Zug). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

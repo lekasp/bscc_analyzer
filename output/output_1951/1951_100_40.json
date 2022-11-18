@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-40-A2136",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2136. Wilson (Grant) & Co. Ltd., Liverpool. B 475, C 897.",
+        "corrected": "2136. Wilson (Grant) & Co. Ltd., Liverpool. B 475, C 897"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,1942,1286,38/max/0/default.jpg",
+            "xywh": "176, 1942, 1286, 38"
+        }
+    },
+    "short_id": "A2136",
+    "label": "Wilson (Grant) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-40-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-40-C897",
+                    "short_id": "C897"
+                }
+            ],
+            "description": "The british company A2136 trades with the swiss company B475 in the goods C897"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wilson (Grant) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644210",
+            "lat": "53.41058",
+            "lng": "-2.97794",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Liverpool",
+            "transcription": " Liverpool. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

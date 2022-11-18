@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-29-C1146",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1146. Gabardines, wool and cotton. A 893, 917, 1491, 1494, B 95, 452, 695.",
+        "corrected": "1146. Gabardines, wool and cotton. A 893, 917, 1491, 1494, B 95, 452, 695"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1918,1290,37/max/0/default.jpg",
+            "xywh": "316, 1918, 1290, 37"
+        }
+    },
+    "short_id": "C1146",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-29-A893",
+                    "short_id": "A893"
+                },
+                {
+                    "id": "BSCC-1951-183-29-A917",
+                    "short_id": "A917"
+                },
+                {
+                    "id": "BSCC-1951-183-29-A1491",
+                    "short_id": "A1491"
+                },
+                {
+                    "id": "BSCC-1951-183-29-A1494",
+                    "short_id": "A1494"
+                },
+                {
+                    "id": "BSCC-1951-183-29-B95",
+                    "short_id": "B95"
+                },
+                {
+                    "id": "BSCC-1951-183-29-B452",
+                    "short_id": "B452"
+                },
+                {
+                    "id": "BSCC-1951-183-29-B695",
+                    "short_id": "B695"
+                }
+            ],
+            "description": "with the british company A893 and A917 and A1491 and A1494 and B452 and B695"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

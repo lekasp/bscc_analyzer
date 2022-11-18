@@ -1,0 +1,164 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-7-B8",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "8. Aeberhardt (E. D.) AG., 19, Bergstrasse, Winterthur. A 297, 329, 447, 464, 719, 818, 1402, 1662, 1675, 1901, C 259, 262, 263, 265. 268, 269, 270, 271, 274, 353, 362, 369, 401, 444.",
+        "corrected": "8. Aeberhardt (E. D.) AG., 19, Bergstrasse, Winterthur.A 297, 329, 447, 464, 719, 818, 1402, 1662, 1675, 1901, C 259, 262, 263, 265. 268, 269, 270, 271, 274, 353, 362, 369, 401, 444"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,524,1350,116/max/0/default.jpg",
+            "xywh": "278, 524, 1350, 116"
+        }
+    },
+    "short_id": "B8",
+    "label": "Aeberhardt (E. D.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-7-A297",
+                    "short_id": "A297"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A329",
+                    "short_id": "A329"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A447",
+                    "short_id": "A447"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A464",
+                    "short_id": "A464"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A719",
+                    "short_id": "A719"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A818",
+                    "short_id": "A818"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A1402",
+                    "short_id": "A1402"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A1662",
+                    "short_id": "A1662"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A1675",
+                    "short_id": "A1675"
+                },
+                {
+                    "id": "BSCC-1951-117-7-A1901",
+                    "short_id": "A1901"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-7-C259",
+                    "short_id": "C259"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C262",
+                    "short_id": "C262"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C263",
+                    "short_id": "C263"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C265268",
+                    "short_id": "C265268"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C269",
+                    "short_id": "C269"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C270",
+                    "short_id": "C270"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C271",
+                    "short_id": "C271"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C274",
+                    "short_id": "C274"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C353",
+                    "short_id": "C353"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C362",
+                    "short_id": "C362"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C369",
+                    "short_id": "C369"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C401",
+                    "short_id": "C401"
+                },
+                {
+                    "id": "BSCC-1951-117-7-C444",
+                    "short_id": "C444"
+                }
+            ],
+            "description": "The swiss company B8 trades with the british company A297 and A329 and A447 and A464 and A719 and A818 and A1402 and A1662 and A1675 and A1901 in the goods C259 and C262 and C263 and C265268 and C269 and C270 and C271 and C274 and C353 and C362 and C369 and C401 and C444"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aeberhardt (E. D.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657970",
+            "lat": "47.50564",
+            "lng": "8.72413",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Winterthur",
+            "transcription": " 19, Bergstrasse, Winterthur."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

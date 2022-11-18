@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-24-A1190",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1190. Lockwood (Charles) & Sons Ltd., Linthwaite, Huddersfield. B 828, C 1129.",
+        "corrected": "1190. Lockwood (Charles) & Sons Ltd., Linthwaite, Huddersfield. B 828, C 1129"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,1386,1288,36/max/0/default.jpg",
+            "xywh": "170, 1386, 1288, 36"
+        }
+    },
+    "short_id": "A1190",
+    "label": "Lockwood (Charles) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-24-B828",
+                    "short_id": "B828"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-24-C1129",
+                    "short_id": "C1129"
+                }
+            ],
+            "description": "The british company A1190 trades with the swiss company B828 in the goods C1129"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lockwood (Charles) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644437",
+            "lat": "53.62418",
+            "lng": "-1.85017",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Linthwaite",
+            "transcription": " Linthwaite, Huddersfield. "
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Linthwaite, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

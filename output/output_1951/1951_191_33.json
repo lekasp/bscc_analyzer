@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-33-C1428",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1428. Miniature toys. A 660, B 284.",
+        "corrected": "1428. Miniature toys. A 660, B 284"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,1614,1305,37/max/0/default.jpg",
+            "xywh": "304, 1614, 1305, 37"
+        }
+    },
+    "short_id": "C1428",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-33-A660",
+                    "short_id": "A660"
+                },
+                {
+                    "id": "BSCC-1951-191-33-B284",
+                    "short_id": "B284"
+                }
+            ],
+            "description": "with the british company A660"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

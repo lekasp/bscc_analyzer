@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-29-A1863",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1863. Stothert & Pitt Ltd., Bath. B 374, C 349.",
+        "corrected": "1863. Stothert & Pitt Ltd., Bath. B 374, C 349"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,1482,1254,37/max/0/default.jpg",
+            "xywh": "182, 1482, 1254, 37"
+        }
+    },
+    "short_id": "A1863",
+    "label": "Stothert & Pitt Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-29-B374",
+                    "short_id": "B374"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-29-C349",
+                    "short_id": "C349"
+                }
+            ],
+            "description": "The british company A1863 trades with the swiss company B374 in the goods C349"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stothert & Pitt Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656173",
+            "lat": "51.3751",
+            "lng": "-2.36172",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bath",
+            "transcription": " Bath. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

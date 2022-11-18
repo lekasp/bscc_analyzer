@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-0-B604",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "604. Rickenmann (Ernst), 7, Friedaustrasse, Zurich. A 173, 871, 889, 1181, 1242, 1836, 1865, 2043, C 283, 284, 289, 293, 295, 298, 300, 331.",
+        "corrected": "604. Rickenmann (Ernst), 7, Friedaustrasse, Zurich.A 173, 871, 889, 1181, 1242, 1836, 1865, 2043, C 283, 284, 289, 293, 295, 298, 300, 331"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,212,1255,146/max/0/default.jpg",
+            "xywh": "303, 212, 1255, 146"
+        }
+    },
+    "short_id": "B604",
+    "label": "Rickenmann (Ernst)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-0-A173",
+                    "short_id": "A173"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A871",
+                    "short_id": "A871"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A889",
+                    "short_id": "A889"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A1181",
+                    "short_id": "A1181"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A1242",
+                    "short_id": "A1242"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A1836",
+                    "short_id": "A1836"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A1865",
+                    "short_id": "A1865"
+                },
+                {
+                    "id": "BSCC-1951-137-0-A2043",
+                    "short_id": "A2043"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-0-C283",
+                    "short_id": "C283"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C284",
+                    "short_id": "C284"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C289",
+                    "short_id": "C289"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C293",
+                    "short_id": "C293"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C295",
+                    "short_id": "C295"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C298",
+                    "short_id": "C298"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C300",
+                    "short_id": "C300"
+                },
+                {
+                    "id": "BSCC-1951-137-0-C331",
+                    "short_id": "C331"
+                }
+            ],
+            "description": "The swiss company B604 trades with the british company A173 and A871 and A889 and A1181 and A1242 and A1836 and A1865 and A2043 in the goods C283 and C284 and C289 and C293 and C295 and C298 and C300 and C331"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rickenmann (Ernst)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "7, Friedaustrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-8-B474",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "474. Mathez-Sordet (W.), Tramelan (J. B.). A 563, 1620, C 747, 754.",
+        "corrected": "474. Mathez-Sordet (W.), Tramelan (J. B.). A 563, 1620, C 747, 754"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,779,1311,38/max/0/default.jpg",
+            "xywh": "167, 779, 1311, 38"
+        }
+    },
+    "short_id": "B474",
+    "label": "Mathez-Sordet (W.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-8-A563",
+                    "short_id": "A563"
+                },
+                {
+                    "id": "BSCC-1951-132-8-A1620",
+                    "short_id": "A1620"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-8-C747",
+                    "short_id": "C747"
+                },
+                {
+                    "id": "BSCC-1951-132-8-C754",
+                    "short_id": "C754"
+                }
+            ],
+            "description": "The swiss company B474 trades with the british company A563 and A1620 in the goods C747 and C754"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mathez-Sordet (W.)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "Tramelan (J. B.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

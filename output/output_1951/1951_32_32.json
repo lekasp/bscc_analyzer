@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-32-A432",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "432. Clarkson Brothers Ltd., Leeds. B 63, C 1236.",
+        "corrected": "432. Clarkson Brothers Ltd., Leeds. B 63, C 1236"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1545,1184,40/max/0/default.jpg",
+            "xywh": "223, 1545, 1184, 40"
+        }
+    },
+    "short_id": "A432",
+    "label": "Clarkson Brothers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-32-B63",
+                    "short_id": "B63"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-32-C1236",
+                    "short_id": "C1236"
+                }
+            ],
+            "description": "The british company A432 trades with the swiss company B63 in the goods C1236"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clarkson Brothers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

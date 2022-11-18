@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-17-B123",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 123. Brütsch, Rüegger & Co., 53, Löwenstrasse, Zurich. A 167, 199, 337, 433, 985, 1041, 2084, C 118, 133, 136, 137, 139, 174, 218, 762, 763.",
+        "corrected": "123. Brütsch, Rüegger & Co., 53, Löwenstrasse, Zurich.A 167, 199, 337, 433, 985, 1041, 2084, C 118, 133, 136, 137, 139, 174, 218, 762, 763"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1421,1348,116/max/0/default.jpg",
+            "xywh": "159, 1421, 1348, 116"
+        }
+    },
+    "short_id": "B123",
+    "label": "Brütsch, Rüegger & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-17-A167",
+                    "short_id": "A167"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A199",
+                    "short_id": "A199"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A337",
+                    "short_id": "A337"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A433",
+                    "short_id": "A433"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A985",
+                    "short_id": "A985"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A1041",
+                    "short_id": "A1041"
+                },
+                {
+                    "id": "BSCC-1951-120-17-A2084",
+                    "short_id": "A2084"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-17-C118",
+                    "short_id": "C118"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C133",
+                    "short_id": "C133"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C137",
+                    "short_id": "C137"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C139",
+                    "short_id": "C139"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C174",
+                    "short_id": "C174"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C218",
+                    "short_id": "C218"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C762",
+                    "short_id": "C762"
+                },
+                {
+                    "id": "BSCC-1951-120-17-C763",
+                    "short_id": "C763"
+                }
+            ],
+            "description": "The swiss company B123 trades with the british company A167 and A199 and A337 and A433 and A985 and A1041 and A2084 in the goods C118 and C133 and C136 and C137 and C139 and C174 and C218 and C762 and C763"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brütsch, Rüegger & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 53, Löwenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

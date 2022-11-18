@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-13-B505",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "505. Mohr (Emil), Wallisellen (Zurich). A 181, 1570, 1962, C 761, 1057, 1058, 1063, 1066, 1067, 1231.",
+        "corrected": "505. Mohr (Emil), Wallisellen (Zurich).A 181, 1570, 1962, C 761, 1057, 1058, 1063, 1066, 1067, 1231"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1140,1317,79/max/0/default.jpg",
+            "xywh": "305, 1140, 1317, 79"
+        }
+    },
+    "short_id": "B505",
+    "label": "Mohr (Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-13-A181",
+                    "short_id": "A181"
+                },
+                {
+                    "id": "BSCC-1951-133-13-A1570",
+                    "short_id": "A1570"
+                },
+                {
+                    "id": "BSCC-1951-133-13-A1962",
+                    "short_id": "A1962"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-13-C761",
+                    "short_id": "C761"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1057",
+                    "short_id": "C1057"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1058",
+                    "short_id": "C1058"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1063",
+                    "short_id": "C1063"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1066",
+                    "short_id": "C1066"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1067",
+                    "short_id": "C1067"
+                },
+                {
+                    "id": "BSCC-1951-133-13-C1231",
+                    "short_id": "C1231"
+                }
+            ],
+            "description": "The swiss company B505 trades with the british company A181 and A1570 and A1962 in the goods C761 and C1057 and C1058 and C1063 and C1066 and C1067 and C1231"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mohr (Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658060",
+            "lat": "47.41499",
+            "lng": "8.59672",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wallisellen",
+            "transcription": "Wallisellen (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

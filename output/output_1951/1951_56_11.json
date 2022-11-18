@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-11-A959",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "959. Hounsfield Ltd., Croydon. B 780, C 1333.",
+        "corrected": "959. Hounsfield Ltd., Croydon. B 780, C 1333"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,722,1276,41/max/0/default.jpg",
+            "xywh": "158, 722, 1276, 41"
+        }
+    },
+    "short_id": "A959",
+    "label": "Hounsfield Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-11-B780",
+                    "short_id": "B780"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-11-C1333",
+                    "short_id": "C1333"
+                }
+            ],
+            "description": "The british company A959 trades with the swiss company B780 in the goods C1333"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hounsfield Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651817",
+            "lat": "51.38333",
+            "lng": "-0.1",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Croydon",
+            "transcription": " Croydon. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

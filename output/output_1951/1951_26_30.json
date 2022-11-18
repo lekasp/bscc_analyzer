@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-30-A304",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿304. British Schering Ltd., London W 1. B 570, C 933. British Sisalkraft Ltd. — see J. H. Sankey & Son Ltd.",
+        "corrected": "304. British Schering Ltd., London W 1. B 570, C 933.British Sisalkraft Ltd. — see J. H. Sankey & Son Ltd"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1575,1290,77/max/0/default.jpg",
+            "xywh": "189, 1575, 1290, 77"
+        }
+    },
+    "short_id": "A304",
+    "label": "British Schering Ltd., London W 1. British Sisalkraft Ltd. — see J. H. Sankey & Son",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-30-B570",
+                    "short_id": "B570"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-30-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The british company A304 trades with the swiss company B570 in the goods C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Schering Ltd., London W 1. British Sisalkraft Ltd. — see J. H. Sankey & Son"
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Ltd"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

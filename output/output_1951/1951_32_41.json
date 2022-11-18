@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-41-A441",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "441. Clyde Soyameal Factory Ltd., Glasgow. B 315, C 23, 77.",
+        "corrected": "441. Clyde Soyameal Factory Ltd., Glasgow. B 315, C 23, 77"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1903,1184,38/max/0/default.jpg",
+            "xywh": "223, 1903, 1184, 38"
+        }
+    },
+    "short_id": "A441",
+    "label": "Clyde Soyameal Factory Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-41-B315",
+                    "short_id": "B315"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-41-C23",
+                    "short_id": "C23"
+                },
+                {
+                    "id": "BSCC-1951-32-41-C77",
+                    "short_id": "C77"
+                }
+            ],
+            "description": "The british company A441 trades with the swiss company B315 in the goods C23 and C77"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clyde Soyameal Factory Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

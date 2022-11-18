@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-24-B312",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "312. Hartmann (Arthur) & Co., 10, Freigutstrasse, Zurich. A 245, 246, C 106, 109.",
+        "corrected": "312. Hartmann (Arthur) & Co., 10, Freigutstrasse, Zurich. A 245, 246, C 106, 109"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1947,1299,39/max/0/default.jpg",
+            "xywh": "175, 1947, 1299, 39"
+        }
+    },
+    "short_id": "B312",
+    "label": "Hartmann (Arthur) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-24-A245",
+                    "short_id": "A245"
+                },
+                {
+                    "id": "BSCC-1951-126-24-A246",
+                    "short_id": "A246"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-24-C106",
+                    "short_id": "C106"
+                },
+                {
+                    "id": "BSCC-1951-126-24-C109",
+                    "short_id": "C109"
+                }
+            ],
+            "description": "The swiss company B312 trades with the british company A245 and A246 in the goods C106 and C109"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hartmann (Arthur) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 10, Freigutstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

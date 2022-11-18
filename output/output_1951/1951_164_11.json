@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-11-C477",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "477. Spraying guns. A 23, B 676.",
+        "corrected": "477. Spraying guns. A 23, B 676"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,728,1332,41/max/0/default.jpg",
+            "xywh": "142, 728, 1332, 41"
+        }
+    },
+    "short_id": "C477",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-11-A23",
+                    "short_id": "A23"
+                },
+                {
+                    "id": "BSCC-1951-164-11-B676",
+                    "short_id": "B676"
+                }
+            ],
+            "description": "with the british company A23"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

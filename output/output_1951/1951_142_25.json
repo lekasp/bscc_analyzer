@@ -1,0 +1,106 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-25-B780",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 780. Von May & Co., 74, Kramgasse, Berne. A 83, 409, 924, 959, 1104, 2197, C 833, 1333, 1335, 1452, 1464.",
+        "corrected": "780. Von May & Co., 74, Kramgasse, Berne.A 83, 409, 924, 959, 1104, 2197, C 833, 1333, 1335, 1452, 1464"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1874,1294,83/max/0/default.jpg",
+            "xywh": "185, 1874, 1294, 83"
+        }
+    },
+    "short_id": "B780",
+    "label": "Von May & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-25-A83",
+                    "short_id": "A83"
+                },
+                {
+                    "id": "BSCC-1951-142-25-A409",
+                    "short_id": "A409"
+                },
+                {
+                    "id": "BSCC-1951-142-25-A924",
+                    "short_id": "A924"
+                },
+                {
+                    "id": "BSCC-1951-142-25-A959",
+                    "short_id": "A959"
+                },
+                {
+                    "id": "BSCC-1951-142-25-A1104",
+                    "short_id": "A1104"
+                },
+                {
+                    "id": "BSCC-1951-142-25-A2197",
+                    "short_id": "A2197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-25-C833",
+                    "short_id": "C833"
+                },
+                {
+                    "id": "BSCC-1951-142-25-C1333",
+                    "short_id": "C1333"
+                },
+                {
+                    "id": "BSCC-1951-142-25-C1335",
+                    "short_id": "C1335"
+                },
+                {
+                    "id": "BSCC-1951-142-25-C1452",
+                    "short_id": "C1452"
+                },
+                {
+                    "id": "BSCC-1951-142-25-C1464",
+                    "short_id": "C1464"
+                }
+            ],
+            "description": "The swiss company B780 trades with the british company A83 and A409 and A924 and A959 and A1104 and A2197 in the goods C833 and C1333 and C1335 and C1452 and C1464"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Von May & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": ", 74, Kramgasse, Berne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

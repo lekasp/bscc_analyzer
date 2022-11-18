@@ -1,0 +1,72 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-19-C369",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "369. Road rollers. A 117, 818, B 8, 383, 614.",
+        "corrected": "369. Road rollers. A 117, 818, B 8, 383, 614"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,1038,1322,43/max/0/default.jpg",
+            "xywh": "290, 1038, 1322, 43"
+        }
+    },
+    "short_id": "C369",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-19-A117",
+                    "short_id": "A117"
+                },
+                {
+                    "id": "BSCC-1951-161-19-A818",
+                    "short_id": "A818"
+                },
+                {
+                    "id": "BSCC-1951-161-19-B8",
+                    "short_id": "B8"
+                },
+                {
+                    "id": "BSCC-1951-161-19-B383",
+                    "short_id": "B383"
+                },
+                {
+                    "id": "BSCC-1951-161-19-B614",
+                    "short_id": "B614"
+                }
+            ],
+            "description": "with the british company A117 and A818 and B383 and B614"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

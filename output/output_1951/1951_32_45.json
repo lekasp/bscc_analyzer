@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-45-A445",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "445. Cole (E. K.) Ltd., Southend-on-Sea. B 197, C 552.",
+        "corrected": "445. Cole (E. K.) Ltd., Southend-on-Sea. B 197, C 552"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,2060,1184,39/max/0/default.jpg",
+            "xywh": "223, 2060, 1184, 39"
+        }
+    },
+    "short_id": "A445",
+    "label": "Cole (E. K.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-45-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-45-C552",
+                    "short_id": "C552"
+                }
+            ],
+            "description": "The british company A445 trades with the swiss company B197 in the goods C552"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cole (E. K.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637433",
+            "lat": "51.53782",
+            "lng": "0.71433",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Southend-on-Sea",
+            "transcription": " Southend-on-Sea. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

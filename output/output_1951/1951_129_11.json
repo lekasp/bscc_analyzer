@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-11-B388",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "388. Kämpfen-Hieronymi & Co., 8/10, Mühlebachstrasse, Zurich. A 1885, 2030, C 627, 629.",
+        "corrected": "388. Kämpfen-Hieronymi & Co., 8/10, Mühlebachstrasse, Zurich.A 1885, 2030, C 627, 629"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,998,1292,81/max/0/default.jpg",
+            "xywh": "294, 998, 1292, 81"
+        }
+    },
+    "short_id": "B388",
+    "label": "Kämpfen-Hieronymi & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-11-A1885",
+                    "short_id": "A1885"
+                },
+                {
+                    "id": "BSCC-1951-129-11-A2030",
+                    "short_id": "A2030"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-11-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-129-11-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The swiss company B388 trades with the british company A1885 and A2030 in the goods C627 and C629"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kämpfen-Hieronymi & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 8/10, Mühlebachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

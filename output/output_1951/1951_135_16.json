@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-16-B567",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 567. Pfister-Leuthold AG., 30, Löwenstrasse, Zurich. A 764, C 1056, 1069, 1070.",
+        "corrected": "567. Pfister-Leuthold AG., 30, Löwenstrasse, Zurich.A 764, C 1056, 1069, 1070"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1472,1298,78/max/0/default.jpg",
+            "xywh": "298, 1472, 1298, 78"
+        }
+    },
+    "short_id": "B567",
+    "label": "Pfister-Leuthold AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-16-A764",
+                    "short_id": "A764"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-16-C1056",
+                    "short_id": "C1056"
+                },
+                {
+                    "id": "BSCC-1951-135-16-C1069",
+                    "short_id": "C1069"
+                },
+                {
+                    "id": "BSCC-1951-135-16-C1070",
+                    "short_id": "C1070"
+                }
+            ],
+            "description": "The swiss company B567 trades with the british company A764 in the goods C1056 and C1069 and C1070"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pfister-Leuthold AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 30, Löwenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-40-C902",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "902. Hat leathers. A 1423, 1717, B 591, 631.",
+        "corrected": "902. Hat leathers. A 1423, 1717, B 591, 631"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,2177,1247,81/max/0/default.jpg",
+            "xywh": "296, 2177, 1247, 81"
+        }
+    },
+    "short_id": "C902",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-40-A1423",
+                    "short_id": "A1423"
+                },
+                {
+                    "id": "BSCC-1951-175-40-A1717",
+                    "short_id": "A1717"
+                },
+                {
+                    "id": "BSCC-1951-175-40-B591",
+                    "short_id": "B591"
+                },
+                {
+                    "id": "BSCC-1951-175-40-B631",
+                    "short_id": "B631"
+                }
+            ],
+            "description": "with the british company A1423 and A1717 and B631"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

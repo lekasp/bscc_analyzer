@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-13-A1223",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1223. MacLellan (Geo.) & Co. Ltd., Maryhill, Glasgow. B 116, C 792.",
+        "corrected": "1223. MacLellan (Geo.) & Co. Ltd., Maryhill, Glasgow. B 116, C 792"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,859,1283,38/max/0/default.jpg",
+            "xywh": "167, 859, 1283, 38"
+        }
+    },
+    "short_id": "A1223",
+    "label": "MacLellan (Geo.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-13-B116",
+                    "short_id": "B116"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-13-C792",
+                    "short_id": "C792"
+                }
+            ],
+            "description": "The british company A1223 trades with the swiss company B116 in the goods C792"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "MacLellan (Geo.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642930",
+            "lat": "55.89063",
+            "lng": "-4.29037",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Maryhill",
+            "transcription": " Maryhill, Glasgow. "
+        },
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Maryhill, Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

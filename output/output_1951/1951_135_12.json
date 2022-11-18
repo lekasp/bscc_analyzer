@@ -1,0 +1,200 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-12-B563",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "563. Peter (F.) & Co., 14, Zollstrasse, Zurich. A 139, 240, 505, 625, 670, 752, 1323, 1328, 1559, 1763, 2118, C 139, 144, 207, 260, 261, 267, 393, 424, 438, 457, 655, 755, 756, 758, 759, 768, 770, 771, 786, 787, 796a.",
+        "corrected": "563. Peter (F.) & Co., 14, Zollstrasse, Zurich.A 139, 240, 505, 625, 670, 752, 1323, 1328, 1559, 1763, 2118, C 139, 144, 207, 260, 261, 267, 393, 424, 438, 457, 655, 755, 756, 758, 759, 768, 770, 771, 786, 787, 796a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1078,1298,157/max/0/default.jpg",
+            "xywh": "298, 1078, 1298, 157"
+        }
+    },
+    "short_id": "B563",
+    "label": "Peter (F.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-12-A139",
+                    "short_id": "A139"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A240",
+                    "short_id": "A240"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A505",
+                    "short_id": "A505"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A625",
+                    "short_id": "A625"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A670",
+                    "short_id": "A670"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A752",
+                    "short_id": "A752"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A1323",
+                    "short_id": "A1323"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A1328",
+                    "short_id": "A1328"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A1559",
+                    "short_id": "A1559"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A1763",
+                    "short_id": "A1763"
+                },
+                {
+                    "id": "BSCC-1951-135-12-A2118",
+                    "short_id": "A2118"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-12-C139",
+                    "short_id": "C139"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C144",
+                    "short_id": "C144"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C207",
+                    "short_id": "C207"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C260",
+                    "short_id": "C260"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C261",
+                    "short_id": "C261"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C267",
+                    "short_id": "C267"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C393",
+                    "short_id": "C393"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C424",
+                    "short_id": "C424"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C438",
+                    "short_id": "C438"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C457",
+                    "short_id": "C457"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C655",
+                    "short_id": "C655"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C755",
+                    "short_id": "C755"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C756",
+                    "short_id": "C756"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C758",
+                    "short_id": "C758"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C759",
+                    "short_id": "C759"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C768",
+                    "short_id": "C768"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C770",
+                    "short_id": "C770"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C771",
+                    "short_id": "C771"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C786",
+                    "short_id": "C786"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C787",
+                    "short_id": "C787"
+                },
+                {
+                    "id": "BSCC-1951-135-12-C796a",
+                    "short_id": "C796a"
+                }
+            ],
+            "description": "The swiss company B563 trades with the british company A139 and A240 and A505 and A625 and A670 and A752 and A1323 and A1328 and A1559 and A1763 and A2118 in the goods C139 and C144 and C207 and C260 and C261 and C267 and C393 and C424 and C438 and C457 and C655 and C755 and C756 and C758 and C759 and C768 and C770 and C771 and C786 and C787 and C796a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Peter (F.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 14, Zollstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

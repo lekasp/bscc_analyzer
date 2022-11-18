@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-13-B825",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 825. Wild (J.), 45, Nüschelerstrasse, Zurich. A 450, 717, C 1460.",
+        "corrected": "825. Wild (J.), 45, Nüschelerstrasse, Zurich. A 450, 717, C 1460"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1191,1324,44/max/0/default.jpg",
+            "xywh": "195, 1191, 1324, 44"
+        }
+    },
+    "short_id": "B825",
+    "label": "Wild (J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-13-A450",
+                    "short_id": "A450"
+                },
+                {
+                    "id": "BSCC-1951-144-13-A717",
+                    "short_id": "A717"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-13-C1460",
+                    "short_id": "C1460"
+                }
+            ],
+            "description": "The swiss company B825 trades with the british company A450 and A717 in the goods C1460"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wild (J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "45, Nüschelerstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

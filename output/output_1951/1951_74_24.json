@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-24-A1372",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1372. Muirhead & Co. Ltd., Elmers End, Beckenham. B 57, C 660.",
+        "corrected": "1372. Muirhead & Co. Ltd., Elmers End, Beckenham. B 57, C 660"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1409,1249,37/max/0/default.jpg",
+            "xywh": "184, 1409, 1249, 37"
+        }
+    },
+    "short_id": "A1372",
+    "label": "Muirhead & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-24-B57",
+                    "short_id": "B57"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-24-C660",
+                    "short_id": "C660"
+                }
+            ],
+            "description": "The british company A1372 trades with the swiss company B57 in the goods C660"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Muirhead & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656065",
+            "lat": "51.40878",
+            "lng": "-0.02526",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Beckenham",
+            "transcription": " Elmers End, Beckenham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-102-1951-3-A2192",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿2192. York Street Flax Spinning Co. Ltd., Belfast. B 3, C 1096, 1098, 1397; B 449, C 1131, 1133, 1215, 1216, 1221, 1223,1224.",
+        "corrected": "2192. York Street Flax Spinning Co. Ltd., Belfast.B 3, C 1096, 1098, 1397; B 449, C 1131, 1133, 1215, 1216, 1221, 1223,1224"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 102,
+            "canvas": "http://localhost:8182/iiif/3/0102.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0102.jpg/169,475,1247,82/max/0/default.jpg",
+            "xywh": "169, 475, 1247, 82"
+        }
+    },
+    "short_id": "A2192",
+    "label": "York Street Flax Spinning Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-102-3-B3",
+                    "short_id": "B3"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-102-3-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1098",
+                    "short_id": "C1098"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1397",
+                    "short_id": "C1397"
+                }
+            ],
+            "description": "The british company A2192 trades with the swiss company B3 in the goods C1096 and C1098 and C1397"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-102-3-B449",
+                    "short_id": "B449"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-102-3-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1133",
+                    "short_id": "C1133"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1215",
+                    "short_id": "C1215"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1216",
+                    "short_id": "C1216"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1221",
+                    "short_id": "C1221"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1223",
+                    "short_id": "C1223"
+                },
+                {
+                    "id": "BSCC-1951-102-3-C1224",
+                    "short_id": "C1224"
+                }
+            ],
+            "description": "The british company A2192 trades with the swiss company B449 in the goods C1131 and C1133 and C1215 and C1216 and C1221 and C1223 and C1224"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "York Street Flax Spinning Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655984",
+            "lat": "54.59682",
+            "lng": "-5.92541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Belfast",
+            "transcription": " Belfast."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

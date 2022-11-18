@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-86-1951-7-A1611",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1611. Regent Mills Ltd., Manchester. B 325, C 1108.",
+        "corrected": "1611. Regent Mills Ltd., Manchester. B 325, C 1108"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 86,
+            "canvas": "http://localhost:8182/iiif/3/0086.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0086.jpg/171,519,1280,42/max/0/default.jpg",
+            "xywh": "171, 519, 1280, 42"
+        }
+    },
+    "short_id": "A1611",
+    "label": "Regent Mills Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-86-7-B325",
+                    "short_id": "B325"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-86-7-C1108",
+                    "short_id": "C1108"
+                }
+            ],
+            "description": "The british company A1611 trades with the swiss company B325 in the goods C1108"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Regent Mills Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

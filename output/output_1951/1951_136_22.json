@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-22-B601",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "601. Renz (Jean), 12, Sonnhaldenstrasse, Zurich. A 533, C 1030.",
+        "corrected": "601. Renz (Jean), 12, Sonnhaldenstrasse, Zurich. A 533, C 1030"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,1973,1317,40/max/0/default.jpg",
+            "xywh": "183, 1973, 1317, 40"
+        }
+    },
+    "short_id": "B601",
+    "label": "Renz (Jean)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-22-A533",
+                    "short_id": "A533"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-22-C1030",
+                    "short_id": "C1030"
+                }
+            ],
+            "description": "The swiss company B601 trades with the british company A533 in the goods C1030"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Renz (Jean)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "12, Sonnhaldenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-40-C427",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "427. Chains and accessories, driving. A 1363, 1615, B 98, 427.",
+        "corrected": "427. Chains and accessories, driving. A 1363, 1615, B 98, 427"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,2152,1336,42/max/0/default.jpg",
+            "xywh": "172, 2152, 1336, 42"
+        }
+    },
+    "short_id": "C427",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-40-A1363",
+                    "short_id": "A1363"
+                },
+                {
+                    "id": "BSCC-1951-162-40-A1615",
+                    "short_id": "A1615"
+                },
+                {
+                    "id": "BSCC-1951-162-40-B98",
+                    "short_id": "B98"
+                },
+                {
+                    "id": "BSCC-1951-162-40-B427",
+                    "short_id": "B427"
+                }
+            ],
+            "description": "with the british company A1363 and A1615 and B427"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

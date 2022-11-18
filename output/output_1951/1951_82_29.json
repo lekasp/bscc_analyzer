@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-29-A1547",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1547. Poetic Knitwear Co., Glasgow. B 207, C 1186.",
+        "corrected": "1547. Poetic Knitwear Co., Glasgow. B 207, C 1186"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,1386,1308,40/max/0/default.jpg",
+            "xywh": "205, 1386, 1308, 40"
+        }
+    },
+    "short_id": "A1547",
+    "label": "Poetic Knitwear Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-29-B207",
+                    "short_id": "B207"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-29-C1186",
+                    "short_id": "C1186"
+                }
+            ],
+            "description": "The british company A1547 trades with the swiss company B207 in the goods C1186"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Poetic Knitwear Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": ", Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

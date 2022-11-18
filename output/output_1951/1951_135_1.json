@@ -1,0 +1,152 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-1-B552",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "552. Pajoma S.A., 17, rue du Marché, Geneva. A 163, 671, 672, 729, 1256, 1310, 1320, 1493, 1942, 2158, C 903, 1196, 1204, 1205, 1344, 1347, 1351, 1433, 1436, 1448.",
+        "corrected": "552. Pajoma S.A., 17, rue du Marché, Geneva.A 163, 671, 672, 729, 1256, 1310, 1320, 1493, 1942, 2158, C 903, 1196, 1204, 1205, 1344, 1347, 1351, 1433, 1436, 1448"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,391,1298,132/max/0/default.jpg",
+            "xywh": "298, 391, 1298, 132"
+        }
+    },
+    "short_id": "B552",
+    "label": "Pajoma S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-1-A163",
+                    "short_id": "A163"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A671",
+                    "short_id": "A671"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A672",
+                    "short_id": "A672"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A729",
+                    "short_id": "A729"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A1256",
+                    "short_id": "A1256"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A1310",
+                    "short_id": "A1310"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A1320",
+                    "short_id": "A1320"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A1493",
+                    "short_id": "A1493"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A1942",
+                    "short_id": "A1942"
+                },
+                {
+                    "id": "BSCC-1951-135-1-A2158",
+                    "short_id": "A2158"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-1-C903",
+                    "short_id": "C903"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1196",
+                    "short_id": "C1196"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1204",
+                    "short_id": "C1204"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1205",
+                    "short_id": "C1205"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1344",
+                    "short_id": "C1344"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1347",
+                    "short_id": "C1347"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1351",
+                    "short_id": "C1351"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1433",
+                    "short_id": "C1433"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1436",
+                    "short_id": "C1436"
+                },
+                {
+                    "id": "BSCC-1951-135-1-C1448",
+                    "short_id": "C1448"
+                }
+            ],
+            "description": "The swiss company B552 trades with the british company A163 and A671 and A672 and A729 and A1256 and A1310 and A1320 and A1493 and A1942 and A2158 in the goods C903 and C1196 and C1204 and C1205 and C1344 and C1347 and C1351 and C1433 and C1436 and C1448"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pajoma S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 17, rue du Marché, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

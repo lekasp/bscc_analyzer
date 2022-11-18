@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-17-B772",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 772. Verband Schweiz. Garnkonsumenten, 51, Bahnhofstrasse, Zurich. A 377, 1629, C 1096, 1097.",
+        "corrected": "772.Verband Schweiz. Garnkonsumenten, 51, Bahnhofstrasse, Zurich. A 377, 1629, C 1096, 1097"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1362,1294,81/max/0/default.jpg",
+            "xywh": "185, 1362, 1294, 81"
+        }
+    },
+    "short_id": "B772",
+    "label": "Verband Schweiz. Garnkonsumenten",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-17-A377",
+                    "short_id": "A377"
+                },
+                {
+                    "id": "BSCC-1951-142-17-A1629",
+                    "short_id": "A1629"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-17-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-142-17-C1097",
+                    "short_id": "C1097"
+                }
+            ],
+            "description": "The swiss company B772 trades with the british company A377 and A1629 in the goods C1096 and C1097"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Verband Schweiz. Garnkonsumenten"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "51, Bahnhofstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

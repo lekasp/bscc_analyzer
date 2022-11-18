@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-20-B126",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 126. Büchi (H.), 4, Waisenhausstrasse, Zurich. A 641, 707, 1529, 1882, C 383, 753, 1308, 1321, 1328, 1329, 1359.",
+        "corrected": "126. Büchi (H.), 4, Waisenhausstrasse, Zurich.A 641, 707, 1529, 1882, C 383, 753, 1308, 1321, 1328, 1329, 1359"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1656,1348,81/max/0/default.jpg",
+            "xywh": "159, 1656, 1348, 81"
+        }
+    },
+    "short_id": "B126",
+    "label": "Büchi (H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-20-A641",
+                    "short_id": "A641"
+                },
+                {
+                    "id": "BSCC-1951-120-20-A707",
+                    "short_id": "A707"
+                },
+                {
+                    "id": "BSCC-1951-120-20-A1529",
+                    "short_id": "A1529"
+                },
+                {
+                    "id": "BSCC-1951-120-20-A1882",
+                    "short_id": "A1882"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-20-C383",
+                    "short_id": "C383"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C753",
+                    "short_id": "C753"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C1308",
+                    "short_id": "C1308"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C1321",
+                    "short_id": "C1321"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C1328",
+                    "short_id": "C1328"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C1329",
+                    "short_id": "C1329"
+                },
+                {
+                    "id": "BSCC-1951-120-20-C1359",
+                    "short_id": "C1359"
+                }
+            ],
+            "description": "The swiss company B126 trades with the british company A641 and A707 and A1529 and A1882 in the goods C383 and C753 and C1308 and C1321 and C1328 and C1329 and C1359"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Büchi (H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "4, Waisenhausstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

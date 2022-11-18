@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-189-1951-7-C1336",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1336. Mattress spring units. A 1576, B 731.",
+        "corrected": "1336. Mattress spring units. A 1576, B 731"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 189,
+            "canvas": "http://localhost:8182/iiif/3/0189.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0189.jpg/268,532,1341,55/max/0/default.jpg",
+            "xywh": "268, 532, 1341, 55"
+        }
+    },
+    "short_id": "C1336",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-189-7-A1576",
+                    "short_id": "A1576"
+                },
+                {
+                    "id": "BSCC-1951-189-7-B731",
+                    "short_id": "B731"
+                }
+            ],
+            "description": "with the british company A1576"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

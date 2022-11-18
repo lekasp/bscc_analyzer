@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-165-1951-3-C508",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "508. Insulators, ceramic. A 257, 1991, 2041, B 473, 654, 831.",
+        "corrected": "508. Insulators, ceramic. A 257, 1991, 2041, B 473, 654, 831"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 165,
+            "canvas": "http://localhost:8182/iiif/3/0165.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0165.jpg/299,368,1273,37/max/0/default.jpg",
+            "xywh": "299, 368, 1273, 37"
+        }
+    },
+    "short_id": "C508",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-165-3-A257",
+                    "short_id": "A257"
+                },
+                {
+                    "id": "BSCC-1951-165-3-A1991",
+                    "short_id": "A1991"
+                },
+                {
+                    "id": "BSCC-1951-165-3-A2041",
+                    "short_id": "A2041"
+                },
+                {
+                    "id": "BSCC-1951-165-3-B473",
+                    "short_id": "B473"
+                },
+                {
+                    "id": "BSCC-1951-165-3-B654",
+                    "short_id": "B654"
+                },
+                {
+                    "id": "BSCC-1951-165-3-B831",
+                    "short_id": "B831"
+                }
+            ],
+            "description": "with the british company A257 and A1991 and A2041 and B654 and B831"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

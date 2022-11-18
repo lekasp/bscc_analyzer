@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-24-B603",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "603. Rhein (Gustave), 15, Innere Margarethenstrasse, Basle. A 125, 126, 797, 823, 905, 1356, 1934, C 883, 1095, 1185, 1229, 1237, 1241, 1242, 1245, 1246.",
+        "corrected": "603. Rhein (Gustave), 15, Innere Margarethenstrasse, Basle.A 125, 126, 797, 823, 905, 1356, 1934, C 883, 1095, 1185, 1229, 1237, 1241, 1242, 1245, 1246"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,2091,1317,155/max/0/default.jpg",
+            "xywh": "183, 2091, 1317, 155"
+        }
+    },
+    "short_id": "B603",
+    "label": "Rhein (Gustave)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-24-A125",
+                    "short_id": "A125"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A126",
+                    "short_id": "A126"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A797",
+                    "short_id": "A797"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A823",
+                    "short_id": "A823"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A905",
+                    "short_id": "A905"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A1356",
+                    "short_id": "A1356"
+                },
+                {
+                    "id": "BSCC-1951-136-24-A1934",
+                    "short_id": "A1934"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-24-C883",
+                    "short_id": "C883"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1095",
+                    "short_id": "C1095"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1185",
+                    "short_id": "C1185"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1229",
+                    "short_id": "C1229"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1237",
+                    "short_id": "C1237"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1241",
+                    "short_id": "C1241"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1242",
+                    "short_id": "C1242"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1245",
+                    "short_id": "C1245"
+                },
+                {
+                    "id": "BSCC-1951-136-24-C1246",
+                    "short_id": "C1246"
+                }
+            ],
+            "description": "The swiss company B603 trades with the british company A125 and A126 and A797 and A823 and A905 and A1356 and A1934 in the goods C883 and C1095 and C1185 and C1229 and C1237 and C1241 and C1242 and C1245 and C1246"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rhein (Gustave)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "15, Innere Margarethenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-11-B615",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "615. Rölli (Dr. Fritz), 8, Reckenbühlstrasse, Lucerne. A 182, 710, 994, 1448, 1520, C 276, 304, 322, 323, 1008, 1009, 1013.",
+        "corrected": "615. Rölli (Dr. Fritz), 8, Reckenbühlstrasse, Lucerne.A 182, 710, 994, 1448, 1520, C 276, 304, 322, 323, 1008, 1009, 1013"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,910,1255,80/max/0/default.jpg",
+            "xywh": "303, 910, 1255, 80"
+        }
+    },
+    "short_id": "B615",
+    "label": "Rölli (Dr. Fritz)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-11-A182",
+                    "short_id": "A182"
+                },
+                {
+                    "id": "BSCC-1951-137-11-A710",
+                    "short_id": "A710"
+                },
+                {
+                    "id": "BSCC-1951-137-11-A994",
+                    "short_id": "A994"
+                },
+                {
+                    "id": "BSCC-1951-137-11-A1448",
+                    "short_id": "A1448"
+                },
+                {
+                    "id": "BSCC-1951-137-11-A1520",
+                    "short_id": "A1520"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-11-C276",
+                    "short_id": "C276"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C304",
+                    "short_id": "C304"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C322",
+                    "short_id": "C322"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C323",
+                    "short_id": "C323"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C1008",
+                    "short_id": "C1008"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C1009",
+                    "short_id": "C1009"
+                },
+                {
+                    "id": "BSCC-1951-137-11-C1013",
+                    "short_id": "C1013"
+                }
+            ],
+            "description": "The swiss company B615 trades with the british company A182 and A710 and A994 and A1448 and A1520 in the goods C276 and C304 and C322 and C323 and C1008 and C1009 and C1013"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rölli (Dr. Fritz)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659811",
+            "lat": "47.05048",
+            "lng": "8.30635",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lucerne",
+            "transcription": "8, Reckenbühlstrasse, Lucerne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

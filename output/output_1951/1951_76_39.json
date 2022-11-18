@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-39-A1427",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1427. North British Boot Lace Co. Ltd., Johnstone, Scotland. B 783, C 883.",
+        "corrected": "1427. North British Boot Lace Co. Ltd., Johnstone, Scotland. B 783, C 883"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,2000,1323,43/max/0/default.jpg",
+            "xywh": "174, 2000, 1323, 43"
+        }
+    },
+    "short_id": "A1427",
+    "label": "North British Boot Lace Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-39-B783",
+                    "short_id": "B783"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-39-C883",
+                    "short_id": "C883"
+                }
+            ],
+            "description": "The british company A1427 trades with the swiss company B783 in the goods C883"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "North British Boot Lace Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645951",
+            "lat": "55.82906",
+            "lng": "-4.51605",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Johnstone",
+            "transcription": " Johnstone, Scotland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

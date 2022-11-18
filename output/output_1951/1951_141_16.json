@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-16-B742",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "742. Titan Auto-Service AG., 527, Badenerstrasse, Zurich. A 1670+ C 562, 563.",
+        "corrected": "742. Titan Auto-Service AG., 527, Badenerstrasse, Zurich.A 1670+ C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1357,1309,82/max/0/default.jpg",
+            "xywh": "290, 1357, 1309, 82"
+        }
+    },
+    "short_id": "B742",
+    "label": "Titan Auto-Service AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-16-A1670+C562",
+                    "short_id": "A1670+C562"
+                },
+                {
+                    "id": "BSCC-1951-141-16-A563",
+                    "short_id": "A563"
+                }
+            ],
+            "description": "The swiss company B742 trades with the british company A1670+C562 and A563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Titan Auto-Service AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 527, Badenerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-16-C1453",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1453. Smokers' requisites, various. A 560, 607, 730, 1453, 1481, 1605, B 5, 196, 326, 771, 808.",
+        "corrected": "1453. Smokers' requisites, various.A 560, 607, 730, 1453, 1481, 1605, B 5, 196, 326, 771, 808"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1014,1257,77/max/0/default.jpg",
+            "xywh": "222, 1014, 1257, 77"
+        }
+    },
+    "short_id": "C1453",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-16-A560",
+                    "short_id": "A560"
+                },
+                {
+                    "id": "BSCC-1951-192-16-A607",
+                    "short_id": "A607"
+                },
+                {
+                    "id": "BSCC-1951-192-16-A730",
+                    "short_id": "A730"
+                },
+                {
+                    "id": "BSCC-1951-192-16-A1453",
+                    "short_id": "A1453"
+                },
+                {
+                    "id": "BSCC-1951-192-16-A1481",
+                    "short_id": "A1481"
+                },
+                {
+                    "id": "BSCC-1951-192-16-A1605",
+                    "short_id": "A1605"
+                },
+                {
+                    "id": "BSCC-1951-192-16-B5",
+                    "short_id": "B5"
+                },
+                {
+                    "id": "BSCC-1951-192-16-B196",
+                    "short_id": "B196"
+                },
+                {
+                    "id": "BSCC-1951-192-16-B326",
+                    "short_id": "B326"
+                },
+                {
+                    "id": "BSCC-1951-192-16-B771",
+                    "short_id": "B771"
+                },
+                {
+                    "id": "BSCC-1951-192-16-B808",
+                    "short_id": "B808"
+                }
+            ],
+            "description": "with the british company A560 and A607 and A730 and A1453 and A1481 and A1605 and B196 and B326 and B771 and B808"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

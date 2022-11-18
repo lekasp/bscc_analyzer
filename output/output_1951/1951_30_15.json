@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-15-A374",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "374. Calico Printers' Association Ltd., Manchester. B 332, C 1110, 1138a.",
+        "corrected": "374. Calico Printers' Association Ltd., Manchester. B 332, C 1110, 1138a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,1000,1260,37/max/0/default.jpg",
+            "xywh": "197, 1000, 1260, 37"
+        }
+    },
+    "short_id": "A374",
+    "label": "Calico Printers' Association Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-15-B332",
+                    "short_id": "B332"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-15-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-30-15-C1138a",
+                    "short_id": "C1138a"
+                }
+            ],
+            "description": "The british company A374 trades with the swiss company B332 in the goods C1110 and C1138a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Calico Printers' Association Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

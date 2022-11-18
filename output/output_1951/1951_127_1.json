@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-1-B318",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "318. Hausamann (J. R.), 38, Aeschenvorstadt, Basle. A 639, C 998.",
+        "corrected": "318. Hausamann (J. R.), 38, Aeschenvorstadt, Basle. A 639, C 998"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,295,1233,39/max/0/default.jpg",
+            "xywh": "316, 295, 1233, 39"
+        }
+    },
+    "short_id": "B318",
+    "label": "Hausamann (J. R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-1-A639",
+                    "short_id": "A639"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-1-C998",
+                    "short_id": "C998"
+                }
+            ],
+            "description": "The swiss company B318 trades with the british company A639 in the goods C998"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hausamann (J. R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "38, Aeschenvorstadt, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

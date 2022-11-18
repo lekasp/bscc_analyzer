@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-11-C911",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "911. Disinfectants. A 471, 1341, 1501, 1504, B 55, 837.",
+        "corrected": "911. Disinfectants. A 471, 1341, 1501, 1504, B 55, 837"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1035,1293,41/max/0/default.jpg",
+            "xywh": "228, 1035, 1293, 41"
+        }
+    },
+    "short_id": "C911",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-11-A471",
+                    "short_id": "A471"
+                },
+                {
+                    "id": "BSCC-1951-176-11-A1341",
+                    "short_id": "A1341"
+                },
+                {
+                    "id": "BSCC-1951-176-11-A1501",
+                    "short_id": "A1501"
+                },
+                {
+                    "id": "BSCC-1951-176-11-A1504",
+                    "short_id": "A1504"
+                },
+                {
+                    "id": "BSCC-1951-176-11-B55",
+                    "short_id": "B55"
+                },
+                {
+                    "id": "BSCC-1951-176-11-B837",
+                    "short_id": "B837"
+                }
+            ],
+            "description": "with the british company A471 and A1341 and A1501 and A1504 and B837"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

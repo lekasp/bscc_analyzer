@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-3-B582",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 582. Pondil S.A., 1, Tour de l’Ile, Geneva. A 72, 1489, C 144, 486.",
+        "corrected": "582. Pondil S.A., 1, Tour de l’Ile, Geneva. A 72, 1489, C 144, 486"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,424,1317,40/max/0/default.jpg",
+            "xywh": "183, 424, 1317, 40"
+        }
+    },
+    "short_id": "B582",
+    "label": "Pondil S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-3-A72",
+                    "short_id": "A72"
+                },
+                {
+                    "id": "BSCC-1951-136-3-A1489",
+                    "short_id": "A1489"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-3-C144",
+                    "short_id": "C144"
+                },
+                {
+                    "id": "BSCC-1951-136-3-C486",
+                    "short_id": "C486"
+                }
+            ],
+            "description": "The swiss company B582 trades with the british company A72 and A1489 in the goods C144 and C486"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pondil S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 1, Tour de l’Ile, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

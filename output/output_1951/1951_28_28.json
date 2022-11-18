@@ -1,0 +1,107 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-28-A344",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "344. B. S. A. Tools Ltd., Marston Green, nr Birmingham. B 485, C 234; B 768, C 180, 200, 208, 209.",
+        "corrected": "344. B. S. A. Tools Ltd., Marston Green, nr Birmingham.B 485, C 234; B 768, C 180, 200, 208, 209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,1428,1233,77/max/0/default.jpg",
+            "xywh": "228, 1428, 1233, 77"
+        }
+    },
+    "short_id": "A344",
+    "label": "B. S. A. Tools Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-28-B485",
+                    "short_id": "B485"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-28-C234",
+                    "short_id": "C234"
+                }
+            ],
+            "description": "The british company A344 trades with the swiss company B485 in the goods C234"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-28-B768",
+                    "short_id": "B768"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-28-C180",
+                    "short_id": "C180"
+                },
+                {
+                    "id": "BSCC-1951-28-28-C200",
+                    "short_id": "C200"
+                },
+                {
+                    "id": "BSCC-1951-28-28-C208",
+                    "short_id": "C208"
+                },
+                {
+                    "id": "BSCC-1951-28-28-C209",
+                    "short_id": "C209"
+                }
+            ],
+            "description": "The british company A344 trades with the swiss company B768 in the goods C180 and C200 and C208 and C209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "B. S. A. Tools Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Marston Green, nr Birmingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

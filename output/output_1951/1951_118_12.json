@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-12-B50",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "50. Baehler (F. P.), 97/98, Galeries du Commerce, Lausanne. A 272, 571, 850, 1816, 2088, C 406, 412, 1359, 1374, 1376, 1382.",
+        "corrected": "50. Baehler (F. P.), 97/98, Galeries du Commerce, Lausanne.A 272, 571, 850, 1816, 2088, C 406, 412, 1359, 1374, 1376, 1382"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1060,1300,80/max/0/default.jpg",
+            "xywh": "187, 1060, 1300, 80"
+        }
+    },
+    "short_id": "B50",
+    "label": "Baehler (F. P.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-12-A272",
+                    "short_id": "A272"
+                },
+                {
+                    "id": "BSCC-1951-118-12-A571",
+                    "short_id": "A571"
+                },
+                {
+                    "id": "BSCC-1951-118-12-A850",
+                    "short_id": "A850"
+                },
+                {
+                    "id": "BSCC-1951-118-12-A1816",
+                    "short_id": "A1816"
+                },
+                {
+                    "id": "BSCC-1951-118-12-A2088",
+                    "short_id": "A2088"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-12-C406",
+                    "short_id": "C406"
+                },
+                {
+                    "id": "BSCC-1951-118-12-C412",
+                    "short_id": "C412"
+                },
+                {
+                    "id": "BSCC-1951-118-12-C1359",
+                    "short_id": "C1359"
+                },
+                {
+                    "id": "BSCC-1951-118-12-C1374",
+                    "short_id": "C1374"
+                },
+                {
+                    "id": "BSCC-1951-118-12-C1376",
+                    "short_id": "C1376"
+                },
+                {
+                    "id": "BSCC-1951-118-12-C1382",
+                    "short_id": "C1382"
+                }
+            ],
+            "description": "The swiss company B50 trades with the british company A272 and A571 and A850 and A1816 and A2088 in the goods C406 and C412 and C1359 and C1374 and C1376 and C1382"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Baehler (F. P.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "97/98, Galeries du Commerce, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-11-B645",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "645. Schiltknecht (Ing. Ernst), 34, Neptunstrasse, Zurich. A 119, 663, 1604, C 528, 558, 660, 1279.",
+        "corrected": "645. Schiltknecht (Ing. Ernst), 34, Neptunstrasse, Zurich.A 119, 663, 1604, C 528, 558, 660, 1279"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,745,1287,78/max/0/default.jpg",
+            "xywh": "197, 745, 1287, 78"
+        }
+    },
+    "short_id": "B645",
+    "label": "Schiltknecht (Ing. Ernst)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-11-A119",
+                    "short_id": "A119"
+                },
+                {
+                    "id": "BSCC-1951-138-11-A663",
+                    "short_id": "A663"
+                },
+                {
+                    "id": "BSCC-1951-138-11-A1604",
+                    "short_id": "A1604"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-11-C528",
+                    "short_id": "C528"
+                },
+                {
+                    "id": "BSCC-1951-138-11-C558",
+                    "short_id": "C558"
+                },
+                {
+                    "id": "BSCC-1951-138-11-C660",
+                    "short_id": "C660"
+                },
+                {
+                    "id": "BSCC-1951-138-11-C1279",
+                    "short_id": "C1279"
+                }
+            ],
+            "description": "The swiss company B645 trades with the british company A119 and A663 and A1604 in the goods C528 and C558 and C660 and C1279"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schiltknecht (Ing. Ernst)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "34, Neptunstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-14-B241",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "241. Forrer (Hans G.) & Co., 72, Klosbachstrasse, Zurich, A 111, 777, C 465, 1373, 1378.",
+        "corrected": "241. Forrer (Hans G.) & Co., 72, Klosbachstrasse, Zurich,A 111, 777, C 465, 1373, 1378"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1242,1320,77/max/0/default.jpg",
+            "xywh": "166, 1242, 1320, 77"
+        }
+    },
+    "short_id": "B241",
+    "label": "Forrer (Hans G.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-14-A111",
+                    "short_id": "A111"
+                },
+                {
+                    "id": "BSCC-1951-124-14-A777",
+                    "short_id": "A777"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-14-C465",
+                    "short_id": "C465"
+                },
+                {
+                    "id": "BSCC-1951-124-14-C1373",
+                    "short_id": "C1373"
+                },
+                {
+                    "id": "BSCC-1951-124-14-C1378",
+                    "short_id": "C1378"
+                }
+            ],
+            "description": "The swiss company B241 trades with the british company A111 and A777 in the goods C465 and C1373 and C1378"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Forrer (Hans G.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 72, Klosbachstrasse, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

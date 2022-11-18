@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-20-B21",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "21. American Colours Import AG. (Colora Ltd.), 15, Zähringerstrasse, Berne. A 1034, 2000, C 967, 972.",
+        "corrected": "21. American Colours Import AG. (Colora Ltd.), 15, Zähringerstrasse, Berne.A 1034, 2000, C 967, 972"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1196,1350,76/max/0/default.jpg",
+            "xywh": "278, 1196, 1350, 76"
+        }
+    },
+    "short_id": "B21",
+    "label": "American Colours Import AG. (Colora Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-20-A1034",
+                    "short_id": "A1034"
+                },
+                {
+                    "id": "BSCC-1951-117-20-A2000",
+                    "short_id": "A2000"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-20-C967",
+                    "short_id": "C967"
+                },
+                {
+                    "id": "BSCC-1951-117-20-C972",
+                    "short_id": "C972"
+                }
+            ],
+            "description": "The swiss company B21 trades with the british company A1034 and A2000 in the goods C967 and C972"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "American Colours Import AG. (Colora Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": "), 15, Zähringerstrasse, Berne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

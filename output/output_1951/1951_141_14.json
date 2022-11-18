@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-14-B740",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "740. Tettamanti (E.) & Co., 75, Stampfenbachstrasse, Zurich. A 104, 319, 745, 1069, C 950, 951, 952, 1337, 1348, 1350, 1356.",
+        "corrected": "740. Tettamanti (E.) & Co., 75, Stampfenbachstrasse, Zurich.A 104, 319, 745, 1069, C 950, 951, 952, 1337, 1348, 1350, 1356"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1200,1309,79/max/0/default.jpg",
+            "xywh": "290, 1200, 1309, 79"
+        }
+    },
+    "short_id": "B740",
+    "label": "Tettamanti (E.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-14-A104",
+                    "short_id": "A104"
+                },
+                {
+                    "id": "BSCC-1951-141-14-A319",
+                    "short_id": "A319"
+                },
+                {
+                    "id": "BSCC-1951-141-14-A745",
+                    "short_id": "A745"
+                },
+                {
+                    "id": "BSCC-1951-141-14-A1069",
+                    "short_id": "A1069"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-14-C950",
+                    "short_id": "C950"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C951",
+                    "short_id": "C951"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C952",
+                    "short_id": "C952"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C1337",
+                    "short_id": "C1337"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C1348",
+                    "short_id": "C1348"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C1350",
+                    "short_id": "C1350"
+                },
+                {
+                    "id": "BSCC-1951-141-14-C1356",
+                    "short_id": "C1356"
+                }
+            ],
+            "description": "The swiss company B740 trades with the british company A104 and A319 and A745 and A1069 in the goods C950 and C951 and C952 and C1337 and C1348 and C1350 and C1356"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tettamanti (E.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 75, Stampfenbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

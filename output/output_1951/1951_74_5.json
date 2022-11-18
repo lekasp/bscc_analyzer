@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-5-A1353",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1353. Morganite Resistors Ltd., Jarrow, Co. Durham. B 512, C 517, 541, 547, 597.",
+        "corrected": "1353. Morganite Resistors Ltd., Jarrow, Co. Durham.B 512, C 517, 541, 547, 597"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,537,1249,77/max/0/default.jpg",
+            "xywh": "184, 537, 1249, 77"
+        }
+    },
+    "short_id": "A1353",
+    "label": "Morganite Resistors Ltd., Jarrow, Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-5-B512",
+                    "short_id": "B512"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-5-C517",
+                    "short_id": "C517"
+                },
+                {
+                    "id": "BSCC-1951-74-5-C541",
+                    "short_id": "C541"
+                },
+                {
+                    "id": "BSCC-1951-74-5-C547",
+                    "short_id": "C547"
+                },
+                {
+                    "id": "BSCC-1951-74-5-C597",
+                    "short_id": "C597"
+                }
+            ],
+            "description": "The british company A1353 trades with the swiss company B512 in the goods C517 and C541 and C547 and C597"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Morganite Resistors Ltd., Jarrow, Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650628",
+            "lat": "54.77676",
+            "lng": "-1.57566",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Durham",
+            "transcription": " Durham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

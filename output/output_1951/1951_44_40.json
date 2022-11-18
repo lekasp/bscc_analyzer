@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-40-A713",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "713. Flexy Brushes Ltd., Glossop. B 735, C 1337.",
+        "corrected": "713. Flexy Brushes Ltd., Glossop. B 735, C 1337"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,1876,1269,39/max/0/default.jpg",
+            "xywh": "189, 1876, 1269, 39"
+        }
+    },
+    "short_id": "A713",
+    "label": "Flexy Brushes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-40-B735",
+                    "short_id": "B735"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-40-C1337",
+                    "short_id": "C1337"
+                }
+            ],
+            "description": "The british company A713 trades with the swiss company B735 in the goods C1337"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Flexy Brushes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648405",
+            "lat": "53.44325",
+            "lng": "-1.949",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glossop",
+            "transcription": " Glossop. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-26-B809",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 809. Weltex AG., 2, Blochmonterstrasse, Basle. A 581, C 1095.",
+        "corrected": "809. Weltex AG., 2, Blochmonterstrasse, Basle. A 581, C 1095"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,2029,1304,42/max/0/default.jpg",
+            "xywh": "297, 2029, 1304, 42"
+        }
+    },
+    "short_id": "B809",
+    "label": "Weltex AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-26-A581",
+                    "short_id": "A581"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-26-C1095",
+                    "short_id": "C1095"
+                }
+            ],
+            "description": "The swiss company B809 trades with the british company A581 in the goods C1095"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weltex AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 2, Blochmonterstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-22-A786",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿786. Gloster Aircraft Co. Ltd., Hucclescote, Glos. B 35, C 639.",
+        "corrected": "786. Gloster Aircraft Co. Ltd., Hucclescote, Glos. B 35, C 639"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,1121,1259,39/max/0/default.jpg",
+            "xywh": "200, 1121, 1259, 39"
+        }
+    },
+    "short_id": "A786",
+    "label": "Gloster Aircraft Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-22-B35",
+                    "short_id": "B35"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-22-C639",
+                    "short_id": "C639"
+                }
+            ],
+            "description": "The british company A786 trades with the swiss company B35 in the goods C639"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gloster Aircraft Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646463",
+            "lat": "51.85362",
+            "lng": "-2.18784",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hucclecote",
+            "transcription": " Hucclescote, Glos. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

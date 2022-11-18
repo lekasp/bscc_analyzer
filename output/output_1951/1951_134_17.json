@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-17-B538",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "538. Nussbaumer (Walter), 12, Rütiweg, Rüschlikon (Zurich). A 475, 1776, 1806, 1920, 2145, C 979, 1119, 1141, 1145, 1247, 1251.",
+        "corrected": "538. Nussbaumer (Walter), 12, Rütiweg, Rüschlikon (Zurich).A 475, 1776, 1806, 1920, 2145, C 979, 1119, 1141, 1145, 1247, 1251"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1240,1276,88/max/0/default.jpg",
+            "xywh": "187, 1240, 1276, 88"
+        }
+    },
+    "short_id": "B538",
+    "label": "Nussbaumer (Walter)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-17-A475",
+                    "short_id": "A475"
+                },
+                {
+                    "id": "BSCC-1951-134-17-A1776",
+                    "short_id": "A1776"
+                },
+                {
+                    "id": "BSCC-1951-134-17-A1806",
+                    "short_id": "A1806"
+                },
+                {
+                    "id": "BSCC-1951-134-17-A1920",
+                    "short_id": "A1920"
+                },
+                {
+                    "id": "BSCC-1951-134-17-A2145",
+                    "short_id": "A2145"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-17-C979",
+                    "short_id": "C979"
+                },
+                {
+                    "id": "BSCC-1951-134-17-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-134-17-C1141",
+                    "short_id": "C1141"
+                },
+                {
+                    "id": "BSCC-1951-134-17-C1145",
+                    "short_id": "C1145"
+                },
+                {
+                    "id": "BSCC-1951-134-17-C1247",
+                    "short_id": "C1247"
+                },
+                {
+                    "id": "BSCC-1951-134-17-C1251",
+                    "short_id": "C1251"
+                }
+            ],
+            "description": "The swiss company B538 trades with the british company A475 and A1776 and A1806 and A1920 and A2145 in the goods C979 and C1119 and C1141 and C1145 and C1247 and C1251"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Nussbaumer (Walter)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658919",
+            "lat": "47.30688",
+            "lng": "8.55135",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rüschlikon",
+            "transcription": "12, Rütiweg, Rüschlikon (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-39-A1340",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1340. Monotype Corp. Ltd., Salfords, Surrey. B 507, C 286.",
+        "corrected": "1340. Monotype Corp. Ltd., Salfords, Surrey. B 507, C 286"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,1833,1267,38/max/0/default.jpg",
+            "xywh": "205, 1833, 1267, 38"
+        }
+    },
+    "short_id": "A1340",
+    "label": "Monotype Corp. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-39-B507",
+                    "short_id": "B507"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-39-C286",
+                    "short_id": "C286"
+                }
+            ],
+            "description": "The british company A1340 trades with the swiss company B507 in the goods C286"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Monotype Corp. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638669",
+            "lat": "51.2043",
+            "lng": "-0.16947",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Salfords",
+            "transcription": " Salfords, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

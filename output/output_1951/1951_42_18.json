@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-18-A645",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "645. Enfield Cycle Co. Ltd., Redditch. B 379, C 627.",
+        "corrected": "645. Enfield Cycle Co. Ltd., Redditch. B 379, C 627"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,970,1259,41/max/0/default.jpg",
+            "xywh": "194, 970, 1259, 41"
+        }
+    },
+    "short_id": "A645",
+    "label": "Enfield Cycle Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-18-B379",
+                    "short_id": "B379"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-18-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The british company A645 trades with the swiss company B379 in the goods C627"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Enfield Cycle Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639557",
+            "lat": "52.3065",
+            "lng": "-1.94569",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redditch",
+            "transcription": " Redditch. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

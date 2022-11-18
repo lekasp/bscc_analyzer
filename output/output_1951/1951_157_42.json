@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-42-C222",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿222. Planing machines. A 365, 636, 1891, B 485, 494, 726.",
+        "corrected": "222. Planing machines. A 365, 636, 1891, B 485, 494, 726"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,2102,1281,37/max/0/default.jpg",
+            "xywh": "303, 2102, 1281, 37"
+        }
+    },
+    "short_id": "C222",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-42-A365",
+                    "short_id": "A365"
+                },
+                {
+                    "id": "BSCC-1951-157-42-A636",
+                    "short_id": "A636"
+                },
+                {
+                    "id": "BSCC-1951-157-42-A1891",
+                    "short_id": "A1891"
+                },
+                {
+                    "id": "BSCC-1951-157-42-B485",
+                    "short_id": "B485"
+                },
+                {
+                    "id": "BSCC-1951-157-42-B494",
+                    "short_id": "B494"
+                },
+                {
+                    "id": "BSCC-1951-157-42-B726",
+                    "short_id": "B726"
+                }
+            ],
+            "description": "with the british company A365 and A636 and A1891 and B494 and B726"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

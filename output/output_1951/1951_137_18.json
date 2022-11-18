@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-18-B622",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "622. Roveda (Attilio), Rowat, Locarno. A 2003, C 1318, 1328.",
+        "corrected": "622. Roveda (Attilio), Rowat, Locarno. A 2003, C 1318, 1328"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1384,1255,41/max/0/default.jpg",
+            "xywh": "303, 1384, 1255, 41"
+        }
+    },
+    "short_id": "B622",
+    "label": "Roveda (Attilio)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-18-A2003",
+                    "short_id": "A2003"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-18-C1318",
+                    "short_id": "C1318"
+                },
+                {
+                    "id": "BSCC-1951-137-18-C1328",
+                    "short_id": "C1328"
+                }
+            ],
+            "description": "The swiss company B622 trades with the british company A2003 in the goods C1318 and C1328"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Roveda (Attilio)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "Rowat, Locarno. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

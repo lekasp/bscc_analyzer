@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-35-A2131",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2131. Williams (Hounslow) Ltd., Hounslow, Middx. B 715, C 912.",
+        "corrected": "2131. Williams (Hounslow) Ltd., Hounslow, Middx. B 715, C 912"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,1744,1286,39/max/0/default.jpg",
+            "xywh": "176, 1744, 1286, 39"
+        }
+    },
+    "short_id": "A2131",
+    "label": "Williams (Hounslow) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-35-B715",
+                    "short_id": "B715"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-35-C912",
+                    "short_id": "C912"
+                }
+            ],
+            "description": "The british company A2131 trades with the swiss company B715 in the goods C912"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Williams (Hounslow) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646517",
+            "lat": "51.46839",
+            "lng": "-0.36092",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hounslow",
+            "transcription": " Hounslow, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-20-C413",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "413. Tool bits. A 1668, 2068, B 396, 483.",
+        "corrected": "413. Tool bits. A 1668, 2068, B 396, 483"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,1070,1336,39/max/0/default.jpg",
+            "xywh": "172, 1070, 1336, 39"
+        }
+    },
+    "short_id": "C413",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-20-A1668",
+                    "short_id": "A1668"
+                },
+                {
+                    "id": "BSCC-1951-162-20-A2068",
+                    "short_id": "A2068"
+                },
+                {
+                    "id": "BSCC-1951-162-20-B396",
+                    "short_id": "B396"
+                },
+                {
+                    "id": "BSCC-1951-162-20-B483",
+                    "short_id": "B483"
+                }
+            ],
+            "description": "with the british company A1668 and A2068 and B483"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-12-A412",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "412. Chaseside Engineering Co. Ltd., Hertford. B 656, C 343, 354, 372.",
+        "corrected": "412. Chaseside Engineering Co. Ltd., Hertford. B 656, C 343, 354, 372"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,755,1184,42/max/0/default.jpg",
+            "xywh": "223, 755, 1184, 42"
+        }
+    },
+    "short_id": "A412",
+    "label": "Chaseside Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-12-B656",
+                    "short_id": "B656"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-12-C343",
+                    "short_id": "C343"
+                },
+                {
+                    "id": "BSCC-1951-32-12-C354",
+                    "short_id": "C354"
+                },
+                {
+                    "id": "BSCC-1951-32-12-C372",
+                    "short_id": "C372"
+                }
+            ],
+            "description": "The british company A412 trades with the swiss company B656 in the goods C343 and C354 and C372"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Chaseside Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647044",
+            "lat": "51.79588",
+            "lng": "-0.07854",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hertford",
+            "transcription": " Hertford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

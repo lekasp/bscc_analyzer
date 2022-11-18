@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-145-1951-5-B846",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "846. Zullig (K.), 8, Bruggerstrasse, Baden (Aarg.). A 1755, C 1204.",
+        "corrected": "846. Zullig (K.), 8, Bruggerstrasse, Baden (Aarg.). A 1755, C 1204"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 145,
+            "canvas": "http://localhost:8182/iiif/3/0145.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0145.jpg/311,552,1268,40/max/0/default.jpg",
+            "xywh": "311, 552, 1268, 40"
+        }
+    },
+    "short_id": "B846",
+    "label": "Zullig (K.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-145-5-A1755",
+                    "short_id": "A1755"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-145-5-C1204",
+                    "short_id": "C1204"
+                }
+            ],
+            "description": "The swiss company B846 trades with the british company A1755 in the goods C1204"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Zullig (K.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661646",
+            "lat": "47.47333",
+            "lng": "8.30592",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Baden",
+            "transcription": "8, Bruggerstrasse, Baden (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

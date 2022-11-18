@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-19-B623",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "623. Rubag Rollmaterial & Baumaschinen AG., 30, Davidsbodenstrasse, Basle. A 305, 1594, C 347, 355, 357, 365, 371, 377.",
+        "corrected": "623. Rubag Rollmaterial & Baumaschinen AG., 30, Davidsbodenstrasse, Basle.A 305, 1594, C 347, 355, 357, 365, 371, 377"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1425,1255,79/max/0/default.jpg",
+            "xywh": "303, 1425, 1255, 79"
+        }
+    },
+    "short_id": "B623",
+    "label": "Rubag Rollmaterial & Baumaschinen AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-19-A305",
+                    "short_id": "A305"
+                },
+                {
+                    "id": "BSCC-1951-137-19-A1594",
+                    "short_id": "A1594"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-19-C347",
+                    "short_id": "C347"
+                },
+                {
+                    "id": "BSCC-1951-137-19-C355",
+                    "short_id": "C355"
+                },
+                {
+                    "id": "BSCC-1951-137-19-C357",
+                    "short_id": "C357"
+                },
+                {
+                    "id": "BSCC-1951-137-19-C365",
+                    "short_id": "C365"
+                },
+                {
+                    "id": "BSCC-1951-137-19-C371",
+                    "short_id": "C371"
+                },
+                {
+                    "id": "BSCC-1951-137-19-C377",
+                    "short_id": "C377"
+                }
+            ],
+            "description": "The swiss company B623 trades with the british company A305 and A1594 in the goods C347 and C355 and C357 and C365 and C371 and C377"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rubag Rollmaterial & Baumaschinen AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 30, Davidsbodenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

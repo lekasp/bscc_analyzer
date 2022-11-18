@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-27-C1144",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1144. Fur fabrics. A 180, 690, B 186, 695.",
+        "corrected": "1144. Fur fabrics. A 180, 690, B 186, 695"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1717,1290,38/max/0/default.jpg",
+            "xywh": "316, 1717, 1290, 38"
+        }
+    },
+    "short_id": "C1144",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-27-A180",
+                    "short_id": "A180"
+                },
+                {
+                    "id": "BSCC-1951-183-27-A690",
+                    "short_id": "A690"
+                },
+                {
+                    "id": "BSCC-1951-183-27-B186",
+                    "short_id": "B186"
+                },
+                {
+                    "id": "BSCC-1951-183-27-B695",
+                    "short_id": "B695"
+                }
+            ],
+            "description": "with the british company A180 and A690 and B695"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

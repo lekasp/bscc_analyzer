@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-10-A1312",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1312. Mica Mfg. Co. Ltd., Bromley, Kent. B 473, C 88.",
+        "corrected": "1312. Mica Mfg. Co. Ltd., Bromley, Kent. B 473, C 88"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,646,1267,40/max/0/default.jpg",
+            "xywh": "205, 646, 1267, 40"
+        }
+    },
+    "short_id": "A1312",
+    "label": "Mica Mfg. Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-10-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-10-C88",
+                    "short_id": "C88"
+                }
+            ],
+            "description": "The british company A1312 trades with the swiss company B473 in the goods C88"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mica Mfg. Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654588",
+            "lat": "51.40606",
+            "lng": "0.01519",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bromley",
+            "transcription": " Bromley, Kent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

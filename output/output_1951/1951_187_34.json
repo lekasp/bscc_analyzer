@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-187-1951-34-C1282",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1282. Anaesthetic apparatus and accessories. A 530, 1292, 1951, B 255.",
+        "corrected": "1282. Anaesthetic apparatus and accessories. A 530, 1292, 1951, B 255"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 187,
+            "canvas": "http://localhost:8182/iiif/3/0187.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0187.jpg/318,1970,1281,40/max/0/default.jpg",
+            "xywh": "318, 1970, 1281, 40"
+        }
+    },
+    "short_id": "C1282",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-187-34-A530",
+                    "short_id": "A530"
+                },
+                {
+                    "id": "BSCC-1951-187-34-A1292",
+                    "short_id": "A1292"
+                },
+                {
+                    "id": "BSCC-1951-187-34-A1951",
+                    "short_id": "A1951"
+                },
+                {
+                    "id": "BSCC-1951-187-34-B255",
+                    "short_id": "B255"
+                }
+            ],
+            "description": "with the british company A530 and A1292 and A1951"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

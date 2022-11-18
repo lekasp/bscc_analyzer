@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-21-A969",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "969. Hudson & Middleton Ltd., Longton, Stoke-on-Trent. B 103, C 1358. Humber Ltd., Coventry — see Rootes Group. Humber Ltd., Lenton, Nottingham — see Raleigh Industries Ltd.",
+        "corrected": "969. Hudson & Middleton Ltd., Longton, Stoke-on-Trent. B 103, C 1358.Humber Ltd., Coventry — see Rootes Group. Humber Ltd., Lenton, Nottingham — see Raleigh Industries Ltd"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1118,1276,115/max/0/default.jpg",
+            "xywh": "158, 1118, 1276, 115"
+        }
+    },
+    "short_id": "A969",
+    "label": "Hudson & Middleton Ltd., Longton, Stoke-on-Trent. Humber Ltd., Coventry — see Rootes Group. Humber Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-21-B103",
+                    "short_id": "B103"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-21-C1358",
+                    "short_id": "C1358"
+                }
+            ],
+            "description": "The british company A969 trades with the swiss company B103 in the goods C1358"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hudson & Middleton Ltd., Longton, Stoke-on-Trent. Humber Ltd., Coventry — see Rootes Group. Humber Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644620",
+            "lat": "52.86089",
+            "lng": "-0.47876",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lenton",
+            "transcription": " Lenton, Nottingham — see Raleigh Industries Ltd"
+        },
+        {
+            "id": "2641170",
+            "lat": "52.9536",
+            "lng": "-1.15047",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nottingham",
+            "transcription": " Lenton, Nottingham — see Raleigh Industries Ltd"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

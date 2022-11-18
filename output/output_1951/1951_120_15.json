@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-15-B121",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "121. Britma, British-American Manufacturers' Agency, Hochdorf (Lucerne). A 2083, C 1380.",
+        "corrected": "121. Britma, British-American Manufacturers' Agency, Hochdorf (Lucerne).A 2083, C 1380"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1265,1348,77/max/0/default.jpg",
+            "xywh": "159, 1265, 1348, 77"
+        }
+    },
+    "short_id": "B121",
+    "label": "Britma",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-15-A2083",
+                    "short_id": "A2083"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-15-C1380",
+                    "short_id": "C1380"
+                }
+            ],
+            "description": "The swiss company B121 trades with the british company A2083 in the goods C1380"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Britma"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660332",
+            "lat": "47.16841",
+            "lng": "8.29179",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hochdorf",
+            "transcription": "British-American Manufacturers' Agency, Hochdorf (Lucerne)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

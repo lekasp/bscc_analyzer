@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-14-B826",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "826. Wild (Jean), 94, Birsigstrasse, Basle. A 751, C 1097.",
+        "corrected": "826. Wild (Jean), 94, Birsigstrasse, Basle. A 751, C 1097"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1235,1324,36/max/0/default.jpg",
+            "xywh": "195, 1235, 1324, 36"
+        }
+    },
+    "short_id": "B826",
+    "label": "Wild (Jean)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-14-A751",
+                    "short_id": "A751"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-14-C1097",
+                    "short_id": "C1097"
+                }
+            ],
+            "description": "The swiss company B826 trades with the british company A751 in the goods C1097"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wild (Jean)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "94, Birsigstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

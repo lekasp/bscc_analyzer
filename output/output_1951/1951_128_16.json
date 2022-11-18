@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-16-B363",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 363. Imperial Chemical Industries (Export) Ltd., 46, Schützenmattstrasse, Basle, A 309, 985, 1541, C 905, 918, 921, 932.",
+        "corrected": "363. Imperial Chemical Industries (Export) Ltd., 46, Schützenmattstrasse, Basle,A 309, 985, 1541, C 905, 918, 921, 932"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1353,1277,81/max/0/default.jpg",
+            "xywh": "185, 1353, 1277, 81"
+        }
+    },
+    "short_id": "B363",
+    "label": "Imperial Chemical Industries (Export) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-16-A309",
+                    "short_id": "A309"
+                },
+                {
+                    "id": "BSCC-1951-128-16-A985",
+                    "short_id": "A985"
+                },
+                {
+                    "id": "BSCC-1951-128-16-A1541",
+                    "short_id": "A1541"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-16-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-128-16-C918",
+                    "short_id": "C918"
+                },
+                {
+                    "id": "BSCC-1951-128-16-C921",
+                    "short_id": "C921"
+                },
+                {
+                    "id": "BSCC-1951-128-16-C932",
+                    "short_id": "C932"
+                }
+            ],
+            "description": "The swiss company B363 trades with the british company A309 and A985 and A1541 in the goods C905 and C918 and C921 and C932"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Imperial Chemical Industries (Export) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 46, Schützenmattstrasse, Basle,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

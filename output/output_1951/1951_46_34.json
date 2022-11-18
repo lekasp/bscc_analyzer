@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-34-A755",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "755. Gear Grinding Co. Ltd., Shirley, Birmingham. B 646, C 197.",
+        "corrected": "755. Gear Grinding Co. Ltd., Shirley, Birmingham. B 646, C 197"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1788,1256,41/max/0/default.jpg",
+            "xywh": "190, 1788, 1256, 41"
+        }
+    },
+    "short_id": "A755",
+    "label": "Gear Grinding Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-34-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-34-C197",
+                    "short_id": "C197"
+                }
+            ],
+            "description": "The british company A755 trades with the swiss company B646 in the goods C197"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gear Grinding Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637935",
+            "lat": "51.37762",
+            "lng": "-0.04961",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Shirley",
+            "transcription": " Shirley, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Shirley, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

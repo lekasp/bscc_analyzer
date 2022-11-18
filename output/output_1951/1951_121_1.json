@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-1-B136",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "136. Cassell (J. W.), 23, Alfred-Escher-Strasse, Zurich. A 1149, 1416, 1435, C 1074, 1117, 1126, 1190, 1192, 1193.",
+        "corrected": "136. Cassell (J. W.), 23, Alfred-Escher-Strasse, Zurich.A 1149, 1416, 1435, C 1074, 1117, 1126, 1190, 1192, 1193"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,278,1272,79/max/0/default.jpg",
+            "xywh": "309, 278, 1272, 79"
+        }
+    },
+    "short_id": "B136",
+    "label": "Cassell (J. W.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-1-A1149",
+                    "short_id": "A1149"
+                },
+                {
+                    "id": "BSCC-1951-121-1-A1416",
+                    "short_id": "A1416"
+                },
+                {
+                    "id": "BSCC-1951-121-1-A1435",
+                    "short_id": "A1435"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-1-C1074",
+                    "short_id": "C1074"
+                },
+                {
+                    "id": "BSCC-1951-121-1-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-121-1-C1126",
+                    "short_id": "C1126"
+                },
+                {
+                    "id": "BSCC-1951-121-1-C1190",
+                    "short_id": "C1190"
+                },
+                {
+                    "id": "BSCC-1951-121-1-C1192",
+                    "short_id": "C1192"
+                },
+                {
+                    "id": "BSCC-1951-121-1-C1193",
+                    "short_id": "C1193"
+                }
+            ],
+            "description": "The swiss company B136 trades with the british company A1149 and A1416 and A1435 in the goods C1074 and C1117 and C1126 and C1190 and C1192 and C1193"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cassell (J. W.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "23, Alfred-Escher-Strasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-5-A1570",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1570. Proctor, Avery & Wood Ltd., Birmingham. B 505, C 1066, 1067.",
+        "corrected": "1570. Proctor, Avery & Wood Ltd., Birmingham. B 505, C 1066, 1067"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,435,1278,42/max/0/default.jpg",
+            "xywh": "168, 435, 1278, 42"
+        }
+    },
+    "short_id": "A1570",
+    "label": "Proctor, Avery & Wood Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-5-B505",
+                    "short_id": "B505"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-5-C1066",
+                    "short_id": "C1066"
+                },
+                {
+                    "id": "BSCC-1951-84-5-C1067",
+                    "short_id": "C1067"
+                }
+            ],
+            "description": "The british company A1570 trades with the swiss company B505 in the goods C1066 and C1067"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Proctor, Avery & Wood Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

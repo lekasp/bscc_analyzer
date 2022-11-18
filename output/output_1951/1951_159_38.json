@@ -1,0 +1,72 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-38-C302",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "302. TEXTILE MACHINERY COMPONENTS, GENERAL. A 328, 466, 1285, B 427, 657.",
+        "corrected": "302. TEXTILE MACHINERY COMPONENTS, GENERAL. A 328, 466, 1285, B 427, 657"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,1950,1277,40/max/0/default.jpg",
+            "xywh": "306, 1950, 1277, 40"
+        }
+    },
+    "short_id": "C302",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-38-A328",
+                    "short_id": "A328"
+                },
+                {
+                    "id": "BSCC-1951-159-38-A466",
+                    "short_id": "A466"
+                },
+                {
+                    "id": "BSCC-1951-159-38-A1285",
+                    "short_id": "A1285"
+                },
+                {
+                    "id": "BSCC-1951-159-38-B427",
+                    "short_id": "B427"
+                },
+                {
+                    "id": "BSCC-1951-159-38-B657",
+                    "short_id": "B657"
+                }
+            ],
+            "description": "with the british company A328 and A466 and A1285 and B657"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

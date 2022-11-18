@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-24-B779",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 779. Vollmoeller Wirkwarenfabrik, Uster (Zurich). A 1210, C 1183.",
+        "corrected": "779. Vollmoeller Wirkwarenfabrik, Uster (Zurich). A 1210, C 1183"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1834,1294,40/max/0/default.jpg",
+            "xywh": "185, 1834, 1294, 40"
+        }
+    },
+    "short_id": "B779",
+    "label": "Vollmoeller Wirkwarenfabrik",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-24-A1210",
+                    "short_id": "A1210"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-24-C1183",
+                    "short_id": "C1183"
+                }
+            ],
+            "description": "The swiss company B779 trades with the british company A1210 in the goods C1183"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vollmoeller Wirkwarenfabrik"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658216",
+            "lat": "47.34713",
+            "lng": "8.72091",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Uster",
+            "transcription": "Uster (Zurich). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

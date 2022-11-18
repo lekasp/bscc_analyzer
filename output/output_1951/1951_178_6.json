@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-6-C976",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "976. Varnishes. A 1238, 1477, 1536, B 80, 504, 634.",
+        "corrected": "976. Varnishes. A 1238, 1477, 1536, B 80, 504, 634"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,477,1240,62/max/0/default.jpg",
+            "xywh": "229, 477, 1240, 62"
+        }
+    },
+    "short_id": "C976",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-6-A1238",
+                    "short_id": "A1238"
+                },
+                {
+                    "id": "BSCC-1951-178-6-A1477",
+                    "short_id": "A1477"
+                },
+                {
+                    "id": "BSCC-1951-178-6-A1536",
+                    "short_id": "A1536"
+                },
+                {
+                    "id": "BSCC-1951-178-6-B80",
+                    "short_id": "B80"
+                },
+                {
+                    "id": "BSCC-1951-178-6-B504",
+                    "short_id": "B504"
+                },
+                {
+                    "id": "BSCC-1951-178-6-B634",
+                    "short_id": "B634"
+                }
+            ],
+            "description": "with the british company A1238 and A1477 and A1536 and B504 and B634"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

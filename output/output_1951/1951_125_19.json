@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-19-B276",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "276. Gietz (Joh.) & Co., 40, Baumackerstrasse, Zurich-Oerlikon. A 510, 1668, C 291, 292.",
+        "corrected": "276. Gietz (Joh.) & Co., 40, Baumackerstrasse, Zurich-Oerlikon.A 510, 1668, C 291, 292"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1524,1317,80/max/0/default.jpg",
+            "xywh": "288, 1524, 1317, 80"
+        }
+    },
+    "short_id": "B276",
+    "label": "Gietz (Joh.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-19-A510",
+                    "short_id": "A510"
+                },
+                {
+                    "id": "BSCC-1951-125-19-A1668",
+                    "short_id": "A1668"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-19-C291",
+                    "short_id": "C291"
+                },
+                {
+                    "id": "BSCC-1951-125-19-C292",
+                    "short_id": "C292"
+                }
+            ],
+            "description": "The swiss company B276 trades with the british company A510 and A1668 in the goods C291 and C292"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gietz (Joh.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": ", 40, Baumackerstrasse, Zurich-Oerlikon."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-29-A1418",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1418. Nicholson (J. & W.) & Co. Ltd., London EC 1. B 581, C 45.",
+        "corrected": "1418. Nicholson (J. & W.) & Co. Ltd., London EC 1. B 581, C 45"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1572,1323,35/max/0/default.jpg",
+            "xywh": "174, 1572, 1323, 35"
+        }
+    },
+    "short_id": "A1418",
+    "label": "Nicholson (J. & W.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-29-B581",
+                    "short_id": "B581"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-29-C45",
+                    "short_id": "C45"
+                }
+            ],
+            "description": "The british company A1418 trades with the swiss company B581 in the goods C45"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Nicholson (J. & W.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

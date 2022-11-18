@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-15-B741",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 741. Titan AG., 45, Stauffacherstrasse, Zurich. A 80, 100, 1485, 1589, 1954, C 627, 1438.",
+        "corrected": "741. Titan AG., 45, Stauffacherstrasse, Zurich.A 80, 100, 1485, 1589, 1954, C 627, 1438"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1279,1309,78/max/0/default.jpg",
+            "xywh": "290, 1279, 1309, 78"
+        }
+    },
+    "short_id": "B741",
+    "label": "Titan AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-15-A80",
+                    "short_id": "A80"
+                },
+                {
+                    "id": "BSCC-1951-141-15-A100",
+                    "short_id": "A100"
+                },
+                {
+                    "id": "BSCC-1951-141-15-A1485",
+                    "short_id": "A1485"
+                },
+                {
+                    "id": "BSCC-1951-141-15-A1589",
+                    "short_id": "A1589"
+                },
+                {
+                    "id": "BSCC-1951-141-15-A1954",
+                    "short_id": "A1954"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-15-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-141-15-C1438",
+                    "short_id": "C1438"
+                }
+            ],
+            "description": "The swiss company B741 trades with the british company A80 and A100 and A1485 and A1589 and A1954 in the goods C627 and C1438"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Titan AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 45, Stauffacherstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

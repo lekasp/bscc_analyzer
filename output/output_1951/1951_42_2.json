@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-2-A629",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "629. Electro Methods Ltd., London NW 4. B 348, C 479, 510, 516.",
+        "corrected": "629. Electro Methods Ltd., London NW 4. B 348, C 479, 510, 516"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,336,1259,41/max/0/default.jpg",
+            "xywh": "194, 336, 1259, 41"
+        }
+    },
+    "short_id": "A629",
+    "label": "Electro Methods Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-2-B348",
+                    "short_id": "B348"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-2-C479",
+                    "short_id": "C479"
+                },
+                {
+                    "id": "BSCC-1951-42-2-C510",
+                    "short_id": "C510"
+                },
+                {
+                    "id": "BSCC-1951-42-2-C516",
+                    "short_id": "C516"
+                }
+            ],
+            "description": "The british company A629 trades with the swiss company B348 in the goods C479 and C510 and C516"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Electro Methods Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London NW 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-19-A1670",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1670. Rover Co. Ltd., Solihull, Birmingham. B 742, C 562, 563.",
+        "corrected": "1670. Rover Co. Ltd., Solihull, Birmingham. B 742, C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1031,1195,38/max/0/default.jpg",
+            "xywh": "208, 1031, 1195, 38"
+        }
+    },
+    "short_id": "A1670",
+    "label": "Rover Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-19-B742",
+                    "short_id": "B742"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-19-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-88-19-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The british company A1670 trades with the swiss company B742 in the goods C562 and C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rover Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637546",
+            "lat": "52.41426",
+            "lng": "-1.78094",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Solihull",
+            "transcription": " Solihull, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Solihull, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

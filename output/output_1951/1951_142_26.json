@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-26-B781",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "781. Waag (Charles), 4, Manège, Neuchâtel. A 13, C 1329.",
+        "corrected": "781. Waag (Charles), 4, Manège, Neuchâtel. A 13, C 1329"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,2041,1294,54/max/0/default.jpg",
+            "xywh": "185, 2041, 1294, 54"
+        }
+    },
+    "short_id": "B781",
+    "label": "Waag (Charles)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-26-A13",
+                    "short_id": "A13"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-26-C1329",
+                    "short_id": "C1329"
+                }
+            ],
+            "description": "The swiss company B781 trades with the british company A13 in the goods C1329"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waag (Charles)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "4, Manège, Neuchâtel. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

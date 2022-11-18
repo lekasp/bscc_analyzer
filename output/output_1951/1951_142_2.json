@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-2-B757",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "757. Tschudi (W.), 26, Dreikönigstrasse, Zurich. A 1392, 1906, C 1145.",
+        "corrected": "757. Tschudi (W.), 26, Dreikönigstrasse, Zurich. A 1392, 1906, C 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,357,1294,39/max/0/default.jpg",
+            "xywh": "185, 357, 1294, 39"
+        }
+    },
+    "short_id": "B757",
+    "label": "Tschudi (W.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-2-A1392",
+                    "short_id": "A1392"
+                },
+                {
+                    "id": "BSCC-1951-142-2-A1906",
+                    "short_id": "A1906"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-2-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The swiss company B757 trades with the british company A1392 and A1906 in the goods C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tschudi (W.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "26, Dreikönigstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-60-1951-38-A1069",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1069. Kent (G. B.) & Sons Ltd., London W 1. B 740, C 1337, 1348, 1350.",
+        "corrected": "1069. Kent (G. B.) & Sons Ltd., London W 1. B 740, C 1337, 1348, 1350"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 60,
+            "canvas": "http://localhost:8182/iiif/3/0060.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0060.jpg/175,2109,1270,44/max/0/default.jpg",
+            "xywh": "175, 2109, 1270, 44"
+        }
+    },
+    "short_id": "A1069",
+    "label": "Kent (G. B.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-60-38-B740",
+                    "short_id": "B740"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-60-38-C1337",
+                    "short_id": "C1337"
+                },
+                {
+                    "id": "BSCC-1951-60-38-C1348",
+                    "short_id": "C1348"
+                },
+                {
+                    "id": "BSCC-1951-60-38-C1350",
+                    "short_id": "C1350"
+                }
+            ],
+            "description": "The british company A1069 trades with the swiss company B740 in the goods C1337 and C1348 and C1350"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kent (G. B.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

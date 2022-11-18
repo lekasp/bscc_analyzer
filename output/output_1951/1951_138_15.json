@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-15-B649",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "649. Schlör (Jules) AG., Menziken (Aarg.). A 394a, 1571, C 56, 977.",
+        "corrected": "649. Schlör (Jules) AG., Menziken (Aarg.). A 394a, 1571, C 56, 977"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1140,1287,39/max/0/default.jpg",
+            "xywh": "197, 1140, 1287, 39"
+        }
+    },
+    "short_id": "B649",
+    "label": "Schlör (Jules) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-15-A394a",
+                    "short_id": "A394a"
+                },
+                {
+                    "id": "BSCC-1951-138-15-A1571",
+                    "short_id": "A1571"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-15-C56",
+                    "short_id": "C56"
+                },
+                {
+                    "id": "BSCC-1951-138-15-C977",
+                    "short_id": "C977"
+                }
+            ],
+            "description": "The swiss company B649 trades with the british company A394a and A1571 in the goods C56 and C977"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schlör (Jules) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659687",
+            "lat": "47.23965",
+            "lng": "8.18996",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Menziken",
+            "transcription": " Menziken (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

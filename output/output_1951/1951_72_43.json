@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-43-A1344",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1344. Moon Bros. Ltd., Birkenhead. B 827, C 339.",
+        "corrected": "1344. Moon Bros. Ltd., Birkenhead. B 827, C 339"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,2068,1267,37/max/0/default.jpg",
+            "xywh": "205, 2068, 1267, 37"
+        }
+    },
+    "short_id": "A1344",
+    "label": "Moon Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-43-B827",
+                    "short_id": "B827"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-43-C339",
+                    "short_id": "C339"
+                }
+            ],
+            "description": "The british company A1344 trades with the swiss company B827 in the goods C339"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Moon Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655613",
+            "lat": "53.39337",
+            "lng": "-3.01479",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birkenhead",
+            "transcription": " Birkenhead. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

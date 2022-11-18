@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-15-B683",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "683. Sigg (N.) & Co. AG., 33, Rämistrasse, Zurich. A 678, 802, 1139, 1633, 1990, C 2, 3, 4, 7, 12.",
+        "corrected": "683. Sigg (N.) & Co. AG., 33, Rämistrasse, Zurich.A 678, 802, 1139, 1633, 1990, C 2, 3, 4, 7, 12"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,1142,1319,81/max/0/default.jpg",
+            "xywh": "272, 1142, 1319, 81"
+        }
+    },
+    "short_id": "B683",
+    "label": "Sigg (N.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-15-A678",
+                    "short_id": "A678"
+                },
+                {
+                    "id": "BSCC-1951-139-15-A802",
+                    "short_id": "A802"
+                },
+                {
+                    "id": "BSCC-1951-139-15-A1139",
+                    "short_id": "A1139"
+                },
+                {
+                    "id": "BSCC-1951-139-15-A1633",
+                    "short_id": "A1633"
+                },
+                {
+                    "id": "BSCC-1951-139-15-A1990",
+                    "short_id": "A1990"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-15-C2",
+                    "short_id": "C2"
+                },
+                {
+                    "id": "BSCC-1951-139-15-C3",
+                    "short_id": "C3"
+                },
+                {
+                    "id": "BSCC-1951-139-15-C4",
+                    "short_id": "C4"
+                },
+                {
+                    "id": "BSCC-1951-139-15-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-139-15-C12",
+                    "short_id": "C12"
+                }
+            ],
+            "description": "The swiss company B683 trades with the british company A678 and A802 and A1139 and A1633 and A1990 in the goods C2 and C3 and C4 and C7 and C12"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sigg (N.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 33, Rämistrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

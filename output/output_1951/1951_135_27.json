@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-27-B578",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿578. Plüss (Wilh.), 66, Talstrasse, Zurich. A 70, 225, 915, C 352, 426, 473, 603, 629, 633, 635.",
+        "corrected": "578. Plüss (Wilh.), 66, Talstrasse, Zurich.A 70, 225, 915, C 352, 426, 473, 603, 629, 633, 635"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,2064,1298,75/max/0/default.jpg",
+            "xywh": "298, 2064, 1298, 75"
+        }
+    },
+    "short_id": "B578",
+    "label": "Plüss (Wilh.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-27-A70",
+                    "short_id": "A70"
+                },
+                {
+                    "id": "BSCC-1951-135-27-A225",
+                    "short_id": "A225"
+                },
+                {
+                    "id": "BSCC-1951-135-27-A915",
+                    "short_id": "A915"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-27-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C473",
+                    "short_id": "C473"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C603",
+                    "short_id": "C603"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C629",
+                    "short_id": "C629"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C633",
+                    "short_id": "C633"
+                },
+                {
+                    "id": "BSCC-1951-135-27-C635",
+                    "short_id": "C635"
+                }
+            ],
+            "description": "The swiss company B578 trades with the british company A70 and A225 and A915 in the goods C352 and C426 and C473 and C603 and C629 and C633 and C635"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Plüss (Wilh.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "66, Talstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

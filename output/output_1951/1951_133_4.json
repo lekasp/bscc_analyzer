@@ -1,0 +1,164 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-4-B496",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 496. Meyer-Gasser (Max) AG., 18, Burgfelderstrasse, Basle. A 116, 318a, 413, 931, 1247, 1358, 1526, 1544, 1603, 1653, 1677, 2035, 2148, C 719, 777, 804, 807, 808, 870, 882, 887, 891, 893.",
+        "corrected": "496. Meyer-Gasser (Max) AG., 18, Burgfelderstrasse, Basle.A 116, 318a, 413, 931, 1247, 1358, 1526, 1544, 1603, 1653, 1677, 2035, 2148, C 719, 777, 804, 807, 808, 870, 882, 887, 891, 893"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,509,1317,123/max/0/default.jpg",
+            "xywh": "305, 509, 1317, 123"
+        }
+    },
+    "short_id": "B496",
+    "label": "Meyer-Gasser (Max) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-4-A116",
+                    "short_id": "A116"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A318a",
+                    "short_id": "A318a"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A413",
+                    "short_id": "A413"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A931",
+                    "short_id": "A931"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1247",
+                    "short_id": "A1247"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1358",
+                    "short_id": "A1358"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1526",
+                    "short_id": "A1526"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1544",
+                    "short_id": "A1544"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1603",
+                    "short_id": "A1603"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1653",
+                    "short_id": "A1653"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A1677",
+                    "short_id": "A1677"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A2035",
+                    "short_id": "A2035"
+                },
+                {
+                    "id": "BSCC-1951-133-4-A2148",
+                    "short_id": "A2148"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-4-C719",
+                    "short_id": "C719"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C777",
+                    "short_id": "C777"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C804",
+                    "short_id": "C804"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C807",
+                    "short_id": "C807"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C808",
+                    "short_id": "C808"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C870",
+                    "short_id": "C870"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C882",
+                    "short_id": "C882"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C887",
+                    "short_id": "C887"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C891",
+                    "short_id": "C891"
+                },
+                {
+                    "id": "BSCC-1951-133-4-C893",
+                    "short_id": "C893"
+                }
+            ],
+            "description": "The swiss company B496 trades with the british company A116 and A318a and A413 and A931 and A1247 and A1358 and A1526 and A1544 and A1603 and A1653 and A1677 and A2035 and A2148 in the goods C719 and C777 and C804 and C807 and C808 and C870 and C882 and C887 and C891 and C893"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Meyer-Gasser (Max) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 18, Burgfelderstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

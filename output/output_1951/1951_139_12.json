@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-12-B680",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 680. Siber, Hegner & Co. AG., 14, Talstrasse, Zurich. A 1062, 1282, 1988, C 29, 905, 933.",
+        "corrected": "680. Siber, Hegner & Co. AG., 14, Talstrasse, Zurich.A 1062, 1282, 1988, C 29, 905, 933"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,945,1319,79/max/0/default.jpg",
+            "xywh": "272, 945, 1319, 79"
+        }
+    },
+    "short_id": "B680",
+    "label": "Siber, Hegner & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-12-A1062",
+                    "short_id": "A1062"
+                },
+                {
+                    "id": "BSCC-1951-139-12-A1282",
+                    "short_id": "A1282"
+                },
+                {
+                    "id": "BSCC-1951-139-12-A1988",
+                    "short_id": "A1988"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-12-C29",
+                    "short_id": "C29"
+                },
+                {
+                    "id": "BSCC-1951-139-12-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-139-12-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The swiss company B680 trades with the british company A1062 and A1282 and A1988 in the goods C29 and C905 and C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Siber, Hegner & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 14, Talstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

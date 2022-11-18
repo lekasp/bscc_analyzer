@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-7-A2059",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2059. Holmes Chapel Branch. B 660, C 1034.",
+        "corrected": "2059. Holmes Chapel Branch. B 660, C 1034"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,596,1278,39/max/0/default.jpg",
+            "xywh": "348, 596, 1278, 39"
+        }
+    },
+    "short_id": "A2059",
+    "label": "Holmes Chapel Branch.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-7-B660",
+                    "short_id": "B660"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-7-C1034",
+                    "short_id": "C1034"
+                }
+            ],
+            "description": "The british company A2059 trades with the swiss company B660 in the goods C1034"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Holmes Chapel Branch."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

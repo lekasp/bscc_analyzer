@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-3-A1837",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1837. Stanton Ironworks Co. Ltd., Stanton-by-Dale, Nottingham. B 681, C 125.",
+        "corrected": "1837. Stanton Ironworks Co. Ltd., Stanton-by-Dale, Nottingham.B 681, C 125"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,414,1254,75/max/0/default.jpg",
+            "xywh": "182, 414, 1254, 75"
+        }
+    },
+    "short_id": "A1837",
+    "label": "Stanton Ironworks Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-3-B681",
+                    "short_id": "B681"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-3-C125",
+                    "short_id": "C125"
+                }
+            ],
+            "description": "The british company A1837 trades with the swiss company B681 in the goods C125"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stanton Ironworks Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637046",
+            "lat": "52.93732",
+            "lng": "-1.30931",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stanton by Dale",
+            "transcription": " Stanton-by-Dale, Nottingham."
+        },
+        {
+            "id": "2641170",
+            "lat": "52.9536",
+            "lng": "-1.15047",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nottingham",
+            "transcription": " Stanton-by-Dale, Nottingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

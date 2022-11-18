@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-4-A1885",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1885. Sun Cycle Co., Birmingham. B 388, C 629. Sunbeam cycles — see B. S. A. Sunbeam-Talbot Ltd., Coventry — see Rootes Group.",
+        "corrected": "1885. Sun Cycle Co., Birmingham. B 388, C 629.Sunbeam cycles — see B. S. A. Sunbeam-Talbot Ltd., Coventry — see Rootes Group"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,459,1285,114/max/0/default.jpg",
+            "xywh": "340, 459, 1285, 114"
+        }
+    },
+    "short_id": "A1885",
+    "label": "Sun Cycle Co., Birmingham. Sunbeam cycles — see B. S. A. Sunbeam-Talbot Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-4-B388",
+                    "short_id": "B388"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-4-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The british company A1885 trades with the swiss company B388 in the goods C629"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sun Cycle Co., Birmingham. Sunbeam cycles — see B. S. A. Sunbeam-Talbot Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652221",
+            "lat": "52.40656",
+            "lng": "-1.51217",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coventry",
+            "transcription": " Coventry — see Rootes Group"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

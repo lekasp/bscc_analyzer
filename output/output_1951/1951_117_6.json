@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-6-B7",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 7. Adroka AG., 63, Nauenstrasse, Basle. A 172, 236, 421, C 917, 933, 942.",
+        "corrected": "7. Adroka AG., 63, Nauenstrasse, Basle. A 172, 236, 421, C 917, 933, 942"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,484,1350,40/max/0/default.jpg",
+            "xywh": "278, 484, 1350, 40"
+        }
+    },
+    "short_id": "B7",
+    "label": "Adroka AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-6-A172",
+                    "short_id": "A172"
+                },
+                {
+                    "id": "BSCC-1951-117-6-A236",
+                    "short_id": "A236"
+                },
+                {
+                    "id": "BSCC-1951-117-6-A421",
+                    "short_id": "A421"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-6-C917",
+                    "short_id": "C917"
+                },
+                {
+                    "id": "BSCC-1951-117-6-C933",
+                    "short_id": "C933"
+                },
+                {
+                    "id": "BSCC-1951-117-6-C942",
+                    "short_id": "C942"
+                }
+            ],
+            "description": "The swiss company B7 trades with the british company A172 and A236 and A421 in the goods C917 and C933 and C942"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Adroka AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 63, Nauenstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

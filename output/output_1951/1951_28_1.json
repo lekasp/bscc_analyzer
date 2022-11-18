@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-1-A318",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "318. Brocklehurst-Whiston Amalgamated Ltd., Macclesfield. B 89, C 1099, 1103, 1104.",
+        "corrected": "318. Brocklehurst-Whiston Amalgamated Ltd., Macclesfield.B 89, C 1099, 1103, 1104"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,321,1233,77/max/0/default.jpg",
+            "xywh": "228, 321, 1233, 77"
+        }
+    },
+    "short_id": "A318",
+    "label": "Brocklehurst-Whiston Amalgamated Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-1-B89",
+                    "short_id": "B89"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-1-C1099",
+                    "short_id": "C1099"
+                },
+                {
+                    "id": "BSCC-1951-28-1-C1103",
+                    "short_id": "C1103"
+                },
+                {
+                    "id": "BSCC-1951-28-1-C1104",
+                    "short_id": "C1104"
+                }
+            ],
+            "description": "The british company A318 trades with the swiss company B89 in the goods C1099 and C1103 and C1104"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brocklehurst-Whiston Amalgamated Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643266",
+            "lat": "53.26023",
+            "lng": "-2.12564",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Macclesfield",
+            "transcription": " Macclesfield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

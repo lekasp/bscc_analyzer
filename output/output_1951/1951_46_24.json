@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-24-A745",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "745. Gala of London Ltd., Surbiton, Surrey. B 740, C 950, 951.",
+        "corrected": "745. Gala of London Ltd., Surbiton, Surrey. B 740, C 950, 951"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1375,1256,59/max/0/default.jpg",
+            "xywh": "190, 1375, 1256, 59"
+        }
+    },
+    "short_id": "A745",
+    "label": "Gala of London Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-24-B740",
+                    "short_id": "B740"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-24-C950",
+                    "short_id": "C950"
+                },
+                {
+                    "id": "BSCC-1951-46-24-C951",
+                    "short_id": "C951"
+                }
+            ],
+            "description": "The british company A745 trades with the swiss company B740 in the goods C950 and C951"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gala of London Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "6690866",
+            "lat": "51.39148",
+            "lng": "-0.29825",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Surbiton",
+            "transcription": " Surbiton, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

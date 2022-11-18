@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-41-C503",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "503. Furnaces, industrial. A 624, B 663.",
+        "corrected": "503. Furnaces, industrial. A 624, B 663"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,2163,1332,38/max/0/default.jpg",
+            "xywh": "142, 2163, 1332, 38"
+        }
+    },
+    "short_id": "C503",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-41-A624",
+                    "short_id": "A624"
+                },
+                {
+                    "id": "BSCC-1951-164-41-B663",
+                    "short_id": "B663"
+                }
+            ],
+            "description": "with the british company A624"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

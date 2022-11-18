@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-40-A1558",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1558. Power Specialities Ltd., Slough. B 737, C 753.",
+        "corrected": "1558. Power Specialities Ltd., Slough. B 737, C 753"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,1897,1308,41/max/0/default.jpg",
+            "xywh": "205, 1897, 1308, 41"
+        }
+    },
+    "short_id": "A1558",
+    "label": "Power Specialities Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-40-B737",
+                    "short_id": "B737"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-40-C753",
+                    "short_id": "C753"
+                }
+            ],
+            "description": "The british company A1558 trades with the swiss company B737 in the goods C753"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Power Specialities Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637627",
+            "lat": "51.50949",
+            "lng": "-0.59541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Slough",
+            "transcription": " Slough. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

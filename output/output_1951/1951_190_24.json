@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-24-C1382",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1382. Pewter ware. A 571, 1135, 1878, B 50, 479, 495.",
+        "corrected": "1382. Pewter ware. A 571, 1135, 1878, B 50, 479, 495"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1436,1327,45/max/0/default.jpg",
+            "xywh": "181, 1436, 1327, 45"
+        }
+    },
+    "short_id": "C1382",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-24-A571",
+                    "short_id": "A571"
+                },
+                {
+                    "id": "BSCC-1951-190-24-A1135",
+                    "short_id": "A1135"
+                },
+                {
+                    "id": "BSCC-1951-190-24-A1878",
+                    "short_id": "A1878"
+                },
+                {
+                    "id": "BSCC-1951-190-24-B50",
+                    "short_id": "B50"
+                },
+                {
+                    "id": "BSCC-1951-190-24-B479",
+                    "short_id": "B479"
+                },
+                {
+                    "id": "BSCC-1951-190-24-B495",
+                    "short_id": "B495"
+                }
+            ],
+            "description": "with the british company A571 and A1135 and A1878 and B479 and B495"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

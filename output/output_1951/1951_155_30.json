@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-30-C134",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "134. Tubing, seamless. A 1412, B 473.",
+        "corrected": "134. Tubing, seamless. A 1412, B 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,1682,1337,40/max/0/default.jpg",
+            "xywh": "264, 1682, 1337, 40"
+        }
+    },
+    "short_id": "C134",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-30-A1412",
+                    "short_id": "A1412"
+                },
+                {
+                    "id": "BSCC-1951-155-30-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "description": "with the british company A1412"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

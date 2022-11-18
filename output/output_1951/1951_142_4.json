@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-4-B759",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 759. Uhler (Oscar) & Cie., 23, Schützengasse, Zurich. A 96, 592, C 12, 20.",
+        "corrected": "759. Uhler (Oscar) & Cie., 23, Schützengasse, Zurich. A 96, 592, C 12, 20"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,528,1294,51/max/0/default.jpg",
+            "xywh": "185, 528, 1294, 51"
+        }
+    },
+    "short_id": "B759",
+    "label": "Uhler (Oscar) & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-4-A96",
+                    "short_id": "A96"
+                },
+                {
+                    "id": "BSCC-1951-142-4-A592",
+                    "short_id": "A592"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-4-C12",
+                    "short_id": "C12"
+                },
+                {
+                    "id": "BSCC-1951-142-4-C20",
+                    "short_id": "C20"
+                }
+            ],
+            "description": "The swiss company B759 trades with the british company A96 and A592 in the goods C12 and C20"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Uhler (Oscar) & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 23, Schützengasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

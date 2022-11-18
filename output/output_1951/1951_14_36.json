@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-36-A36",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿36. Alexander (G. H.), (Machinery) Ltd., Birmingham. B 485, C 203a, 220, 221, 229.",
+        "corrected": "36. Alexander (G. H.), (Machinery) Ltd., Birmingham. B 485, C 203a, 220, 221, 229"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1755,1220,42/max/0/default.jpg",
+            "xywh": "212, 1755, 1220, 42"
+        }
+    },
+    "short_id": "A36",
+    "label": "Alexander (G. H.), (Machinery) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-36-B485",
+                    "short_id": "B485"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-36-C203a",
+                    "short_id": "C203a"
+                },
+                {
+                    "id": "BSCC-1951-14-36-C220",
+                    "short_id": "C220"
+                },
+                {
+                    "id": "BSCC-1951-14-36-C221",
+                    "short_id": "C221"
+                },
+                {
+                    "id": "BSCC-1951-14-36-C229",
+                    "short_id": "C229"
+                }
+            ],
+            "description": "The british company A36 trades with the swiss company B485 in the goods C203a and C220 and C221 and C229"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Alexander (G. H.), (Machinery) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

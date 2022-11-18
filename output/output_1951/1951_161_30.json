@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-30-C379",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "379. Bandsaws. A 1979, B 483.",
+        "corrected": "379. Bandsaws. A 1979, B 483"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,1598,1322,45/max/0/default.jpg",
+            "xywh": "290, 1598, 1322, 45"
+        }
+    },
+    "short_id": "C379",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-30-A1979",
+                    "short_id": "A1979"
+                },
+                {
+                    "id": "BSCC-1951-161-30-B483",
+                    "short_id": "B483"
+                }
+            ],
+            "description": "with the british company A1979"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-6-A2102",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2102. Westland Aircraft Ltd., Yeovil, Somerset. B 12, C 646.",
+        "corrected": "2102. Westland Aircraft Ltd., Yeovil, Somerset. B 12, C 646"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,523,1286,38/max/0/default.jpg",
+            "xywh": "176, 523, 1286, 38"
+        }
+    },
+    "short_id": "A2102",
+    "label": "Westland Aircraft Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-6-B12",
+                    "short_id": "B12"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-6-C646",
+                    "short_id": "C646"
+                }
+            ],
+            "description": "The british company A2102 trades with the swiss company B12 in the goods C646"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Westland Aircraft Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633373",
+            "lat": "50.94159",
+            "lng": "-2.63211",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Yeovil",
+            "transcription": " Yeovil, Somerset. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

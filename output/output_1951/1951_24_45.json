@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-45-A273",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿273. British Belting & Asbestos Ltd., London SE 1. B 114, C 352, 426, 575, 824, 831.",
+        "corrected": "273. British Belting & Asbestos Ltd., London SE 1.B 114, C 352, 426, 575, 824, 831"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,2099,1252,77/max/0/default.jpg",
+            "xywh": "194, 2099, 1252, 77"
+        }
+    },
+    "short_id": "A273",
+    "label": "British Belting & Asbestos Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-45-B114",
+                    "short_id": "B114"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-45-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-24-45-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-24-45-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-24-45-C824",
+                    "short_id": "C824"
+                },
+                {
+                    "id": "BSCC-1951-24-45-C831",
+                    "short_id": "C831"
+                }
+            ],
+            "description": "The british company A273 trades with the swiss company B114 in the goods C352 and C426 and C575 and C824 and C831"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Belting & Asbestos Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SE 1."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

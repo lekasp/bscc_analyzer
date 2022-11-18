@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-1-B228",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿228. Fierz (Walter) & Co., 12, Freigutstrasse, Zurich. A 486, 937, 1208, C 303, 321, 1099a, 1100, 1101.",
+        "corrected": "228. Fierz (Walter) & Co., 12, Freigutstrasse, Zurich.A 486, 937, 1208, C 303, 321, 1099a, 1100, 1101"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,370,1320,82/max/0/default.jpg",
+            "xywh": "166, 370, 1320, 82"
+        }
+    },
+    "short_id": "B228",
+    "label": "Fierz (Walter) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-1-A486",
+                    "short_id": "A486"
+                },
+                {
+                    "id": "BSCC-1951-124-1-A937",
+                    "short_id": "A937"
+                },
+                {
+                    "id": "BSCC-1951-124-1-A1208",
+                    "short_id": "A1208"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-1-C303",
+                    "short_id": "C303"
+                },
+                {
+                    "id": "BSCC-1951-124-1-C321",
+                    "short_id": "C321"
+                },
+                {
+                    "id": "BSCC-1951-124-1-C1099a",
+                    "short_id": "C1099a"
+                },
+                {
+                    "id": "BSCC-1951-124-1-C1100",
+                    "short_id": "C1100"
+                },
+                {
+                    "id": "BSCC-1951-124-1-C1101",
+                    "short_id": "C1101"
+                }
+            ],
+            "description": "The swiss company B228 trades with the british company A486 and A937 and A1208 in the goods C303 and C321 and C1099a and C1100 and C1101"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fierz (Walter) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 12, Freigutstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-21-B337",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "337. Hoch & Schenkel, 11, Talstrasse, Zurich. A 437, 2085, 2171, C 1079, 1080, 1089, 1091, 1094.",
+        "corrected": "337. Hoch & Schenkel, 11, Talstrasse, Zurich.A 437, 2085, 2171, C 1079, 1080, 1089, 1091, 1094"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,1560,1233,77/max/0/default.jpg",
+            "xywh": "316, 1560, 1233, 77"
+        }
+    },
+    "short_id": "B337",
+    "label": "Hoch & Schenkel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-21-A437",
+                    "short_id": "A437"
+                },
+                {
+                    "id": "BSCC-1951-127-21-A2085",
+                    "short_id": "A2085"
+                },
+                {
+                    "id": "BSCC-1951-127-21-A2171",
+                    "short_id": "A2171"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-21-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-127-21-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-127-21-C1089",
+                    "short_id": "C1089"
+                },
+                {
+                    "id": "BSCC-1951-127-21-C1091",
+                    "short_id": "C1091"
+                },
+                {
+                    "id": "BSCC-1951-127-21-C1094",
+                    "short_id": "C1094"
+                }
+            ],
+            "description": "The swiss company B337 trades with the british company A437 and A2085 and A2171 in the goods C1079 and C1080 and C1089 and C1091 and C1094"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hoch & Schenkel"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "11, Talstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

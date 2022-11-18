@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-2-B379",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "379. Jan S.A., 6, rue Petit-Rocher, Lausanne. A 645+ 1656, C 627, 784.",
+        "corrected": "379. Jan S.A., 6, rue Petit-Rocher, Lausanne. A 645+ 1656, C 627, 784"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,399,1292,39/max/0/default.jpg",
+            "xywh": "294, 399, 1292, 39"
+        }
+    },
+    "short_id": "B379",
+    "label": "Jan S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-2-A645+1656",
+                    "short_id": "A645+1656"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-2-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-129-2-C784",
+                    "short_id": "C784"
+                }
+            ],
+            "description": "The swiss company B379 trades with the british company A645+1656 in the goods C627 and C784"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jan S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 6, rue Petit-Rocher, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

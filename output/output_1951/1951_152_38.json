@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-38-C35",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "35. Egg products. A 1131, B 435.",
+        "corrected": "35. Egg products. A 1131, B 435"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,2192,1293,59/max/0/default.jpg",
+            "xywh": "202, 2192, 1293, 59"
+        }
+    },
+    "short_id": "C35",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-38-A1131",
+                    "short_id": "A1131"
+                },
+                {
+                    "id": "BSCC-1951-152-38-B435",
+                    "short_id": "B435"
+                }
+            ],
+            "description": "with the british company A1131"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-11-A1129",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1129. Laycock Engineering Co. Ltd., Millhouses, Sheffield. B 173, C 583, 605; B 389, C 458.",
+        "corrected": "1129. Laycock Engineering Co. Ltd., Millhouses, Sheffield.B 173, C 583, 605; B 389, C 458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,681,1283,79/max/0/default.jpg",
+            "xywh": "195, 681, 1283, 79"
+        }
+    },
+    "short_id": "A1129",
+    "label": "Laycock Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-11-B173",
+                    "short_id": "B173"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-11-C583",
+                    "short_id": "C583"
+                },
+                {
+                    "id": "BSCC-1951-64-11-C605",
+                    "short_id": "C605"
+                }
+            ],
+            "description": "The british company A1129 trades with the swiss company B173 in the goods C583 and C605"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-11-B389",
+                    "short_id": "B389"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-11-C458",
+                    "short_id": "C458"
+                }
+            ],
+            "description": "The british company A1129 trades with the swiss company B389 in the goods C458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Laycock Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Millhouses, Sheffield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

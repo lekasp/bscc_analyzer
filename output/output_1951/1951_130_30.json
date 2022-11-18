@@ -1,0 +1,144 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-30-B436",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 436. Leder-Import AG., Freilager, Basle. A 207, 568, 767, 1084, 1085, 1184, 1267, 1420, 1426, 1443, 2090, C 844. 847. 850, 852, 856, 857, 863, 864, 865.",
+        "corrected": "436. Leder-Import AG., Freilager, Basle.A 207, 568, 767, 1084, 1085, 1184, 1267, 1420, 1426, 1443, 2090, C 844. 847. 850, 852, 856, 857, 863, 864, 865"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,2054,1294,118/max/0/default.jpg",
+            "xywh": "162, 2054, 1294, 118"
+        }
+    },
+    "short_id": "B436",
+    "label": "Leder-Import AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-30-A207",
+                    "short_id": "A207"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A568",
+                    "short_id": "A568"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A767",
+                    "short_id": "A767"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1084",
+                    "short_id": "A1084"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1085",
+                    "short_id": "A1085"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1184",
+                    "short_id": "A1184"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1267",
+                    "short_id": "A1267"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1420",
+                    "short_id": "A1420"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1426",
+                    "short_id": "A1426"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A1443",
+                    "short_id": "A1443"
+                },
+                {
+                    "id": "BSCC-1951-130-30-A2090",
+                    "short_id": "A2090"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-30-C844847850",
+                    "short_id": "C844847850"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C852",
+                    "short_id": "C852"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C857",
+                    "short_id": "C857"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C863",
+                    "short_id": "C863"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C864",
+                    "short_id": "C864"
+                },
+                {
+                    "id": "BSCC-1951-130-30-C865",
+                    "short_id": "C865"
+                }
+            ],
+            "description": "The swiss company B436 trades with the british company A207 and A568 and A767 and A1084 and A1085 and A1184 and A1267 and A1420 and A1426 and A1443 and A2090 in the goods C844847850 and C852 and C856 and C857 and C863 and C864 and C865"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Leder-Import AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " Freilager, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-22-A1232",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1232. Magnetic & Electrical Alloys Ltd., London W 1. B 598, C 163.",
+        "corrected": "1232. Magnetic & Electrical Alloys Ltd., London W 1. B 598, C 163"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,1252,1283,40/max/0/default.jpg",
+            "xywh": "167, 1252, 1283, 40"
+        }
+    },
+    "short_id": "A1232",
+    "label": "Magnetic & Electrical Alloys Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-22-B598",
+                    "short_id": "B598"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-22-C163",
+                    "short_id": "C163"
+                }
+            ],
+            "description": "The british company A1232 trades with the swiss company B598 in the goods C163"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Magnetic & Electrical Alloys Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

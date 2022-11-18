@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-173-1951-20-C813",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "813. Leathercloth. A 81, 985, 1133, 1861, B 49, 238, 316, 647.",
+        "corrected": "813. Leathercloth. A 81, 985, 1133, 1861, B 49, 238, 316, 647"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 173,
+            "canvas": "http://localhost:8182/iiif/3/0173.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0173.jpg/275,1244,1300,41/max/0/default.jpg",
+            "xywh": "275, 1244, 1300, 41"
+        }
+    },
+    "short_id": "C813",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-173-20-A81",
+                    "short_id": "A81"
+                },
+                {
+                    "id": "BSCC-1951-173-20-A985",
+                    "short_id": "A985"
+                },
+                {
+                    "id": "BSCC-1951-173-20-A1133",
+                    "short_id": "A1133"
+                },
+                {
+                    "id": "BSCC-1951-173-20-A1861",
+                    "short_id": "A1861"
+                },
+                {
+                    "id": "BSCC-1951-173-20-B49",
+                    "short_id": "B49"
+                },
+                {
+                    "id": "BSCC-1951-173-20-B238",
+                    "short_id": "B238"
+                },
+                {
+                    "id": "BSCC-1951-173-20-B316",
+                    "short_id": "B316"
+                },
+                {
+                    "id": "BSCC-1951-173-20-B647",
+                    "short_id": "B647"
+                }
+            ],
+            "description": "with the british company A81 and A985 and A1133 and A1861 and B238 and B316 and B647"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

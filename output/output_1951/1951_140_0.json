@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-0-B699",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 699. Spiro (J.), 73, Stampfenbachstrasse, Zurich. A 35, 223, 323, 602, 724, 828, 1227, 1555, 1641, 1680, 1702, 1853, C 1117. 1209, 1219.",
+        "corrected": "699. Spiro (J.), 73, Stampfenbachstrasse, Zurich.A 35, 223, 323, 602, 724, 828, 1227, 1555, 1641, 1680, 1702, 1853, C 1117. 1209, 1219"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,206,1265,151/max/0/default.jpg",
+            "xywh": "219, 206, 1265, 151"
+        }
+    },
+    "short_id": "B699",
+    "label": "Spiro (J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-0-A35",
+                    "short_id": "A35"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A223",
+                    "short_id": "A223"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A323",
+                    "short_id": "A323"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A602",
+                    "short_id": "A602"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A724",
+                    "short_id": "A724"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A828",
+                    "short_id": "A828"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1227",
+                    "short_id": "A1227"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1555",
+                    "short_id": "A1555"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1641",
+                    "short_id": "A1641"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1680",
+                    "short_id": "A1680"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1702",
+                    "short_id": "A1702"
+                },
+                {
+                    "id": "BSCC-1951-140-0-A1853",
+                    "short_id": "A1853"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-0-C11171209",
+                    "short_id": "C11171209"
+                },
+                {
+                    "id": "BSCC-1951-140-0-C1219",
+                    "short_id": "C1219"
+                }
+            ],
+            "description": "The swiss company B699 trades with the british company A35 and A223 and A323 and A602 and A724 and A828 and A1227 and A1555 and A1641 and A1680 and A1702 and A1853 in the goods C11171209 and C1219"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Spiro (J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "73, Stampfenbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

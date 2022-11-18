@@ -1,0 +1,72 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-167-1951-12-C592",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "592. Heating equipment. A 435, 1788, 1800, B 362, 844.",
+        "corrected": "592. Heating equipment. A 435, 1788, 1800, B 362, 844"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 167,
+            "canvas": "http://localhost:8182/iiif/3/0167.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0167.jpg/346,757,1229,39/max/0/default.jpg",
+            "xywh": "346, 757, 1229, 39"
+        }
+    },
+    "short_id": "C592",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-167-12-A435",
+                    "short_id": "A435"
+                },
+                {
+                    "id": "BSCC-1951-167-12-A1788",
+                    "short_id": "A1788"
+                },
+                {
+                    "id": "BSCC-1951-167-12-A1800",
+                    "short_id": "A1800"
+                },
+                {
+                    "id": "BSCC-1951-167-12-B362",
+                    "short_id": "B362"
+                },
+                {
+                    "id": "BSCC-1951-167-12-B844",
+                    "short_id": "B844"
+                }
+            ],
+            "description": "with the british company A435 and A1788 and A1800 and B844"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

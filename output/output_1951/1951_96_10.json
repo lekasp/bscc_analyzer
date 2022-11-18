@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-10-A1932",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1932. Thermal Syndicate Ltd., Wallsend, Northumberland. B 81, C 1364, 1368.",
+        "corrected": "1932. Thermal Syndicate Ltd., Wallsend, Northumberland.B 81, C 1364, 1368"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,714,1288,74/max/0/default.jpg",
+            "xywh": "164, 714, 1288, 74"
+        }
+    },
+    "short_id": "A1932",
+    "label": "Thermal Syndicate Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-10-B81",
+                    "short_id": "B81"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-10-C1364",
+                    "short_id": "C1364"
+                },
+                {
+                    "id": "BSCC-1951-96-10-C1368",
+                    "short_id": "C1368"
+                }
+            ],
+            "description": "The british company A1932 trades with the swiss company B81 in the goods C1364 and C1368"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Thermal Syndicate Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634864",
+            "lat": "54.99111",
+            "lng": "-1.53397",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wallsend",
+            "transcription": " Wallsend, Northumberland."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

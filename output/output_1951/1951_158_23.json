@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-23-C246",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "246. Chemical machinery. A 1240, 1685, B 330, 745.",
+        "corrected": "246. Chemical machinery. A 1240, 1685, B 330, 745"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,1244,1303,41/max/0/default.jpg",
+            "xywh": "194, 1244, 1303, 41"
+        }
+    },
+    "short_id": "C246",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-23-A1240",
+                    "short_id": "A1240"
+                },
+                {
+                    "id": "BSCC-1951-158-23-A1685",
+                    "short_id": "A1685"
+                },
+                {
+                    "id": "BSCC-1951-158-23-B330",
+                    "short_id": "B330"
+                },
+                {
+                    "id": "BSCC-1951-158-23-B745",
+                    "short_id": "B745"
+                }
+            ],
+            "description": "with the british company A1240 and A1685 and B745"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

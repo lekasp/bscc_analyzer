@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-14-B682",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿682. Siegenthaler (F.) S.A., 2, rue Etraz, Lausanne. A 356, 541, 593, 1664, 2048, 2051, C 45, 46, 48, 49, 57.",
+        "corrected": "682. Siegenthaler (F.) S.A., 2, rue Etraz, Lausanne.A 356, 541, 593, 1664, 2048, 2051, C 45, 46, 48, 49, 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,1062,1319,80/max/0/default.jpg",
+            "xywh": "272, 1062, 1319, 80"
+        }
+    },
+    "short_id": "B682",
+    "label": "Siegenthaler (F.) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-14-A356",
+                    "short_id": "A356"
+                },
+                {
+                    "id": "BSCC-1951-139-14-A541",
+                    "short_id": "A541"
+                },
+                {
+                    "id": "BSCC-1951-139-14-A593",
+                    "short_id": "A593"
+                },
+                {
+                    "id": "BSCC-1951-139-14-A1664",
+                    "short_id": "A1664"
+                },
+                {
+                    "id": "BSCC-1951-139-14-A2048",
+                    "short_id": "A2048"
+                },
+                {
+                    "id": "BSCC-1951-139-14-A2051",
+                    "short_id": "A2051"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-14-C45",
+                    "short_id": "C45"
+                },
+                {
+                    "id": "BSCC-1951-139-14-C46",
+                    "short_id": "C46"
+                },
+                {
+                    "id": "BSCC-1951-139-14-C48",
+                    "short_id": "C48"
+                },
+                {
+                    "id": "BSCC-1951-139-14-C49",
+                    "short_id": "C49"
+                },
+                {
+                    "id": "BSCC-1951-139-14-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The swiss company B682 trades with the british company A356 and A541 and A593 and A1664 and A2048 and A2051 in the goods C45 and C46 and C48 and C49 and C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Siegenthaler (F.) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 2, rue Etraz, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

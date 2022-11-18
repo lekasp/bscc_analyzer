@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-18-B245",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 245. Francillon & Cie. S.A., 7, rue St-François, Lausanne. A 1650, C 749.",
+        "corrected": "245. Francillon & Cie. S.A., 7, rue St-François, Lausanne. A 1650, C 749"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1477,1320,43/max/0/default.jpg",
+            "xywh": "166, 1477, 1320, 43"
+        }
+    },
+    "short_id": "B245",
+    "label": "Francillon & Cie. S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-18-A1650",
+                    "short_id": "A1650"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-18-C749",
+                    "short_id": "C749"
+                }
+            ],
+            "description": "The swiss company B245 trades with the british company A1650 in the goods C749"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Francillon & Cie. S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 7, rue St-François, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

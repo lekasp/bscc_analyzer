@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-24-C888",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "888. Internal steel toe protectors, industrial. A 1002, B 313.",
+        "corrected": "888. Internal steel toe protectors, industrial. A 1002, B 313"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,1339,1247,40/max/0/default.jpg",
+            "xywh": "296, 1339, 1247, 40"
+        }
+    },
+    "short_id": "C888",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-24-A1002",
+                    "short_id": "A1002"
+                },
+                {
+                    "id": "BSCC-1951-175-24-B313",
+                    "short_id": "B313"
+                }
+            ],
+            "description": "with the british company A1002"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

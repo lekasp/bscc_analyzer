@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-3-B638",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "638. Schaerer (M.) AG., Wabern (Berne). A 2010, C 1299.",
+        "corrected": "638. Schaerer (M.) AG., Wabern (Berne). A 2010, C 1299"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,350,1287,42/max/0/default.jpg",
+            "xywh": "197, 350, 1287, 42"
+        }
+    },
+    "short_id": "B638",
+    "label": "Schaerer (M.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-3-A2010",
+                    "short_id": "A2010"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-3-C1299",
+                    "short_id": "C1299"
+                }
+            ],
+            "description": "The swiss company B638 trades with the british company A2010 in the goods C1299"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schaerer (M.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658084",
+            "lat": "46.92987",
+            "lng": "7.45079",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wabern",
+            "transcription": " Wabern (Berne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

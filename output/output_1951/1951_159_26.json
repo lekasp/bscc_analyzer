@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-26-C291",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "291. Guillotines, paper-cutting machines. A 510, 545, 1431a, B 276, 443, 492.",
+        "corrected": "291. Guillotines, paper-cutting machines. A 510, 545, 1431a, B 276, 443, 492"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,1431,1277,40/max/0/default.jpg",
+            "xywh": "306, 1431, 1277, 40"
+        }
+    },
+    "short_id": "C291",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-26-A510",
+                    "short_id": "A510"
+                },
+                {
+                    "id": "BSCC-1951-159-26-A545",
+                    "short_id": "A545"
+                },
+                {
+                    "id": "BSCC-1951-159-26-A1431a",
+                    "short_id": "A1431a"
+                },
+                {
+                    "id": "BSCC-1951-159-26-B276",
+                    "short_id": "B276"
+                },
+                {
+                    "id": "BSCC-1951-159-26-B443",
+                    "short_id": "B443"
+                },
+                {
+                    "id": "BSCC-1951-159-26-B492",
+                    "short_id": "B492"
+                }
+            ],
+            "description": "with the british company A510 and A545 and A1431a and B443 and B492"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

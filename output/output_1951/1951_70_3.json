@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-3-A1258",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1258. Mars Ltd., Slough. B 13, C 32.",
+        "corrected": "1258. Mars Ltd., Slough. B 13, C 32"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,364,1227,40/max/0/default.jpg",
+            "xywh": "199, 364, 1227, 40"
+        }
+    },
+    "short_id": "A1258",
+    "label": "Mars Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-3-B13",
+                    "short_id": "B13"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-3-C32",
+                    "short_id": "C32"
+                }
+            ],
+            "description": "The british company A1258 trades with the swiss company B13 in the goods C32"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mars Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637627",
+            "lat": "51.50949",
+            "lng": "-0.59541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Slough",
+            "transcription": " Slough. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

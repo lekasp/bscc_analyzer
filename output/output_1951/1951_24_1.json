@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-1-A230",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "230. Boldsworth Industries Ltd., Burnley. B 251, C 826, 895.",
+        "corrected": "230. Boldsworth Industries Ltd., Burnley. B 251, C 826, 895"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,321,1252,40/max/0/default.jpg",
+            "xywh": "194, 321, 1252, 40"
+        }
+    },
+    "short_id": "A230",
+    "label": "Boldsworth Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-1-B251",
+                    "short_id": "B251"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-1-C826",
+                    "short_id": "C826"
+                },
+                {
+                    "id": "BSCC-1951-24-1-C895",
+                    "short_id": "C895"
+                }
+            ],
+            "description": "The british company A230 trades with the swiss company B251 in the goods C826 and C895"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Boldsworth Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654264",
+            "lat": "53.8",
+            "lng": "-2.23333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Burnley",
+            "transcription": " Burnley. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-86-1951-16-A1619",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1619. Revertex Ltd., London EC 4. B 124, C 777.",
+        "corrected": "1619. Revertex Ltd., London EC 4. B 124, C 777"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 86,
+            "canvas": "http://localhost:8182/iiif/3/0086.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0086.jpg/171,877,1280,39/max/0/default.jpg",
+            "xywh": "171, 877, 1280, 39"
+        }
+    },
+    "short_id": "A1619",
+    "label": "Revertex Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-86-16-B124",
+                    "short_id": "B124"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-86-16-C777",
+                    "short_id": "C777"
+                }
+            ],
+            "description": "The british company A1619 trades with the swiss company B124 in the goods C777"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Revertex Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

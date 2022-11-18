@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-15-B536",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 536. Novavita AG., 53, Parkring, Zurich. A 5, 907, 1809, C 952, 1348, 1349, 1383, 1384.",
+        "corrected": "536. Novavita AG., 53, Parkring, Zurich.A 5, 907, 1809, C 952, 1348, 1349, 1383, 1384"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1120,1276,81/max/0/default.jpg",
+            "xywh": "187, 1120, 1276, 81"
+        }
+    },
+    "short_id": "B536",
+    "label": "Novavita AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-15-A5",
+                    "short_id": "A5"
+                },
+                {
+                    "id": "BSCC-1951-134-15-A907",
+                    "short_id": "A907"
+                },
+                {
+                    "id": "BSCC-1951-134-15-A1809",
+                    "short_id": "A1809"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-15-C952",
+                    "short_id": "C952"
+                },
+                {
+                    "id": "BSCC-1951-134-15-C1348",
+                    "short_id": "C1348"
+                },
+                {
+                    "id": "BSCC-1951-134-15-C1349",
+                    "short_id": "C1349"
+                },
+                {
+                    "id": "BSCC-1951-134-15-C1383",
+                    "short_id": "C1383"
+                },
+                {
+                    "id": "BSCC-1951-134-15-C1384",
+                    "short_id": "C1384"
+                }
+            ],
+            "description": "The swiss company B536 trades with the british company A5 and A907 and A1809 in the goods C952 and C1348 and C1349 and C1383 and C1384"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Novavita AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 53, Parkring, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

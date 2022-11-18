@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-5-B442",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "442. Liebmann (H.), 20, Wildbachstrasse, Zurich. A 490, 736, 1496, 1502, 2189, C 1117, 1119, 1134, 1138, 1220, 1221.",
+        "corrected": "442. Liebmann (H.), 20, Wildbachstrasse, Zurich.A 490, 736, 1496, 1502, 2189, C 1117, 1119, 1134, 1138, 1220, 1221"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,519,1265,74/max/0/default.jpg",
+            "xywh": "316, 519, 1265, 74"
+        }
+    },
+    "short_id": "B442",
+    "label": "Liebmann (H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-5-A490",
+                    "short_id": "A490"
+                },
+                {
+                    "id": "BSCC-1951-131-5-A736",
+                    "short_id": "A736"
+                },
+                {
+                    "id": "BSCC-1951-131-5-A1496",
+                    "short_id": "A1496"
+                },
+                {
+                    "id": "BSCC-1951-131-5-A1502",
+                    "short_id": "A1502"
+                },
+                {
+                    "id": "BSCC-1951-131-5-A2189",
+                    "short_id": "A2189"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-5-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-131-5-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-131-5-C1134",
+                    "short_id": "C1134"
+                },
+                {
+                    "id": "BSCC-1951-131-5-C1138",
+                    "short_id": "C1138"
+                },
+                {
+                    "id": "BSCC-1951-131-5-C1220",
+                    "short_id": "C1220"
+                },
+                {
+                    "id": "BSCC-1951-131-5-C1221",
+                    "short_id": "C1221"
+                }
+            ],
+            "description": "The swiss company B442 trades with the british company A490 and A736 and A1496 and A1502 and A2189 in the goods C1117 and C1119 and C1134 and C1138 and C1220 and C1221"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Liebmann (H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "20, Wildbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

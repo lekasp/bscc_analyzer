@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-6-B112",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 112. Braunschweig (Emmanuel), 13, rue de Bourg, Lausanne. A 64a, 608, 787, 1049, 1401, 1673, 1930, C 1084, 1088, 1095, 1108, 1157, 1168, 1176, 1178, 1247.",
+        "corrected": "112. Braunschweig (Emmanuel), 13, rue de Bourg, Lausanne.A 64a, 608, 787, 1049, 1401, 1673, 1930, C 1084, 1088, 1095, 1108, 1157, 1168, 1176, 1178, 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,633,1348,118/max/0/default.jpg",
+            "xywh": "159, 633, 1348, 118"
+        }
+    },
+    "short_id": "B112",
+    "label": "Braunschweig (Emmanuel)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-6-A64a",
+                    "short_id": "A64a"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A608",
+                    "short_id": "A608"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A787",
+                    "short_id": "A787"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A1049",
+                    "short_id": "A1049"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A1401",
+                    "short_id": "A1401"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A1673",
+                    "short_id": "A1673"
+                },
+                {
+                    "id": "BSCC-1951-120-6-A1930",
+                    "short_id": "A1930"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-6-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1088",
+                    "short_id": "C1088"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1095",
+                    "short_id": "C1095"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1168",
+                    "short_id": "C1168"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1176",
+                    "short_id": "C1176"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1178",
+                    "short_id": "C1178"
+                },
+                {
+                    "id": "BSCC-1951-120-6-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The swiss company B112 trades with the british company A64a and A608 and A787 and A1049 and A1401 and A1673 and A1930 in the goods C1084 and C1088 and C1095 and C1108 and C1157 and C1168 and C1176 and C1178 and C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Braunschweig (Emmanuel)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "13, rue de Bourg, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

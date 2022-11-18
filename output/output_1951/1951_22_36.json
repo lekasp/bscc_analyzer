@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-36-A216",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿216. Blankhorn, Richardson & Co. Ltd., Hawick. B 95, C 1117.",
+        "corrected": "216. Blankhorn, Richardson & Co. Ltd., Hawick. B 95, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,1662,1260,41/max/0/default.jpg",
+            "xywh": "205, 1662, 1260, 41"
+        }
+    },
+    "short_id": "A216",
+    "label": "Blankhorn, Richardson & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-36-B95",
+                    "short_id": "B95"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-36-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The british company A216 trades with the swiss company B95 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blankhorn, Richardson & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647383",
+            "lat": "51.94194",
+            "lng": "1.28437",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Harwich",
+            "transcription": " Hawick. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

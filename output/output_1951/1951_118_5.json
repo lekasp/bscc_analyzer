@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-5-B43",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "43. Bachem (R.), 5, Am Krayenrain, Basle. A 312, C 523.",
+        "corrected": "43. Bachem (R.), 5, Am Krayenrain, Basle. A 312, C 523"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,626,1300,42/max/0/default.jpg",
+            "xywh": "187, 626, 1300, 42"
+        }
+    },
+    "short_id": "B43",
+    "label": "Bachem (R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-5-A312",
+                    "short_id": "A312"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-5-C523",
+                    "short_id": "C523"
+                }
+            ],
+            "description": "The swiss company B43 trades with the british company A312 in the goods C523"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bachem (R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "5, Am Krayenrain, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

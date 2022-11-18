@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-9-A1311",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1311. M. G. Car Co. Ltd., Abingdon-on-Thames, Berks. B 393, C 562.",
+        "corrected": "1311. M. G. Car Co. Ltd., Abingdon-on-Thames, Berks. B 393, C 562"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,607,1267,39/max/0/default.jpg",
+            "xywh": "205, 607, 1267, 39"
+        }
+    },
+    "short_id": "A1311",
+    "label": "M. G. Car Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-9-B393",
+                    "short_id": "B393"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-9-C562",
+                    "short_id": "C562"
+                }
+            ],
+            "description": "The british company A1311 trades with the swiss company B393 in the goods C562"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "M. G. Car Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657780",
+            "lat": "51.67109",
+            "lng": "-1.28278",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Abingdon",
+            "transcription": " Abingdon-on-Thames, Berks. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

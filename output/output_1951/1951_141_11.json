@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-11-B737a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "737a. Tecalemit AG., 28, Falkenstrasse, Zurich. A 1922, C 444, 465, 467, 470, 594, 613, 622, 626, 683.",
+        "corrected": "737a. Tecalemit AG., 28, Falkenstrasse, Zurich.A 1922, C 444, 465, 467, 470, 594, 613, 622, 626, 683"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1044,1309,78/max/0/default.jpg",
+            "xywh": "290, 1044, 1309, 78"
+        }
+    },
+    "short_id": "B737a",
+    "label": "Tecalemit AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-11-A1922",
+                    "short_id": "A1922"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-11-C444",
+                    "short_id": "C444"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C465",
+                    "short_id": "C465"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C467",
+                    "short_id": "C467"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C470",
+                    "short_id": "C470"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C594",
+                    "short_id": "C594"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C613",
+                    "short_id": "C613"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C622",
+                    "short_id": "C622"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C626",
+                    "short_id": "C626"
+                },
+                {
+                    "id": "BSCC-1951-141-11-C683",
+                    "short_id": "C683"
+                }
+            ],
+            "description": "The swiss company B737a trades with the british company A1922 in the goods C444 and C465 and C467 and C470 and C594 and C613 and C622 and C626 and C683"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tecalemit AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 28, Falkenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

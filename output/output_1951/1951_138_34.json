@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-34-B668",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "668. Schweizer (Otto), 89, Sälistrasse, Olten. A 416, 2021, C 94, 385, 397.",
+        "corrected": "668. Schweizer (Otto), 89, Sälistrasse, Olten. A 416, 2021, C 94, 385, 397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,2169,1287,88/max/0/default.jpg",
+            "xywh": "197, 2169, 1287, 88"
+        }
+    },
+    "short_id": "B668",
+    "label": "Schweizer (Otto)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-34-A416",
+                    "short_id": "A416"
+                },
+                {
+                    "id": "BSCC-1951-138-34-A2021",
+                    "short_id": "A2021"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-34-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-138-34-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-138-34-C397",
+                    "short_id": "C397"
+                }
+            ],
+            "description": "The swiss company B668 trades with the british company A416 and A2021 in the goods C94 and C385 and C397"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schweizer (Otto)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659297",
+            "lat": "47.34999",
+            "lng": "7.90329",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Olten",
+            "transcription": "89, Sälistrasse, Olten. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

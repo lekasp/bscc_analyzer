@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-14-B52",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "52. Barbezat & Cie., Fleurier (Neuchâtel). A 342, 485, 532, C 947, 949.",
+        "corrected": "52. Barbezat & Cie., Fleurier (Neuchâtel). A 342, 485, 532, C 947, 949"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1179,1300,40/max/0/default.jpg",
+            "xywh": "187, 1179, 1300, 40"
+        }
+    },
+    "short_id": "B52",
+    "label": "Barbezat & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-14-A342",
+                    "short_id": "A342"
+                },
+                {
+                    "id": "BSCC-1951-118-14-A485",
+                    "short_id": "A485"
+                },
+                {
+                    "id": "BSCC-1951-118-14-A532",
+                    "short_id": "A532"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-14-C947",
+                    "short_id": "C947"
+                },
+                {
+                    "id": "BSCC-1951-118-14-C949",
+                    "short_id": "C949"
+                }
+            ],
+            "description": "The swiss company B52 trades with the british company A342 and A485 and A532 in the goods C947 and C949"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Barbezat & Cie."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Fleurier (Neuchâtel). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

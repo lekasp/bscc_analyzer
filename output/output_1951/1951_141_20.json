@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-20-B746,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 746, Trachsler (J. H.) AG., 21, Effingerstrasse, Berne. A 1446, C 1145.",
+        "corrected": "746, Trachsler (J. H.) AG., 21, Effingerstrasse, Berne. A 1446, C 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1753,1309,43/max/0/default.jpg",
+            "xywh": "290, 1753, 1309, 43"
+        }
+    },
+    "short_id": "B746,",
+    "label": "Trachsler (J. H.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-20-A1446",
+                    "short_id": "A1446"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-20-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The swiss company B746, trades with the british company A1446 in the goods C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Trachsler (J. H.) AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 21, Effingerstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-28-B811",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 811. Weltifurrer Internationale Transport AG., 8, Pelikanstrasse, Zurich. A 224, 479, 780, 878, 1810, C 1457, 1458.",
+        "corrected": "811. Weltifurrer Internationale Transport AG., 8, Pelikanstrasse, Zurich.A 224, 479, 780, 878, 1810, C 1457, 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,2149,1304,92/max/0/default.jpg",
+            "xywh": "297, 2149, 1304, 92"
+        }
+    },
+    "short_id": "B811",
+    "label": "Weltifurrer Internationale Transport AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-28-A224",
+                    "short_id": "A224"
+                },
+                {
+                    "id": "BSCC-1951-143-28-A479",
+                    "short_id": "A479"
+                },
+                {
+                    "id": "BSCC-1951-143-28-A780",
+                    "short_id": "A780"
+                },
+                {
+                    "id": "BSCC-1951-143-28-A878",
+                    "short_id": "A878"
+                },
+                {
+                    "id": "BSCC-1951-143-28-A1810",
+                    "short_id": "A1810"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-28-C1457",
+                    "short_id": "C1457"
+                },
+                {
+                    "id": "BSCC-1951-143-28-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B811 trades with the british company A224 and A479 and A780 and A878 and A1810 in the goods C1457 and C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weltifurrer Internationale Transport AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 8, Pelikanstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

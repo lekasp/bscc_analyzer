@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-2-A1212",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1212. Lyons (J.) & Co. Ltd., London W 4. B 2, 274, 277, C 22.",
+        "corrected": "1212. Lyons (J.) & Co. Ltd., London W 4. B 2, 274, 277, C 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,306,1283,40/max/0/default.jpg",
+            "xywh": "167, 306, 1283, 40"
+        }
+    },
+    "short_id": "A1212",
+    "label": "Lyons (J.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-2-B2",
+                    "short_id": "B2"
+                },
+                {
+                    "id": "BSCC-1951-68-2-B274",
+                    "short_id": "B274"
+                },
+                {
+                    "id": "BSCC-1951-68-2-B277",
+                    "short_id": "B277"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-2-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The british company A1212 trades with the swiss company B2 and B274 and B277 in the goods C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lyons (J.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

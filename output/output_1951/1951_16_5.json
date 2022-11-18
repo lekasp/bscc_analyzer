@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-5-A51",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "51. Alvis Ltd., Coventry. B 319, C 562.",
+        "corrected": "51. Alvis Ltd., Coventry. B 319, C 562"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,452,1233,37/max/0/default.jpg",
+            "xywh": "192, 452, 1233, 37"
+        }
+    },
+    "short_id": "A51",
+    "label": "Alvis Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-5-B319",
+                    "short_id": "B319"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-5-C562",
+                    "short_id": "C562"
+                }
+            ],
+            "description": "The british company A51 trades with the swiss company B319 in the goods C562"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Alvis Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652221",
+            "lat": "52.40656",
+            "lng": "-1.51217",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coventry",
+            "transcription": " Coventry. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

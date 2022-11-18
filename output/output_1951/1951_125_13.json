@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-13-B270",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "270. Geistlich (Ed.) Söhne AG., Wolhusen (Lucerne). A 758, 986, C 923, 934, 943.",
+        "corrected": "270. Geistlich (Ed.) Söhne AG., Wolhusen (Lucerne). A 758, 986, C 923, 934, 943"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1046,1317,41/max/0/default.jpg",
+            "xywh": "288, 1046, 1317, 41"
+        }
+    },
+    "short_id": "B270",
+    "label": "Geistlich (Ed.) Söhne AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-13-A758",
+                    "short_id": "A758"
+                },
+                {
+                    "id": "BSCC-1951-125-13-A986",
+                    "short_id": "A986"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-13-C923",
+                    "short_id": "C923"
+                },
+                {
+                    "id": "BSCC-1951-125-13-C934",
+                    "short_id": "C934"
+                },
+                {
+                    "id": "BSCC-1951-125-13-C943",
+                    "short_id": "C943"
+                }
+            ],
+            "description": "The swiss company B270 trades with the british company A758 and A986 in the goods C923 and C934 and C943"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Geistlich (Ed.) Söhne AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657956",
+            "lat": "47.05983",
+            "lng": "8.07389",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolhusen",
+            "transcription": " Wolhusen (Lucerne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

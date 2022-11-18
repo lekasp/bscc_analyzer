@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-30-A978",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "978. Hutchings (G. F.) & Co. Ltd., Bristol. B 797, C 874.",
+        "corrected": "978. Hutchings (G. F.) & Co. Ltd., Bristol. B 797, C 874"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1551,1276,39/max/0/default.jpg",
+            "xywh": "158, 1551, 1276, 39"
+        }
+    },
+    "short_id": "A978",
+    "label": "Hutchings (G. F.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-30-B797",
+                    "short_id": "B797"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-30-C874",
+                    "short_id": "C874"
+                }
+            ],
+            "description": "The british company A978 trades with the swiss company B797 in the goods C874"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hutchings (G. F.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654675",
+            "lat": "51.45523",
+            "lng": "-2.59665",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bristol",
+            "transcription": " Bristol. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

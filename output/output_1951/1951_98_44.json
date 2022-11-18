@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-44-A2051",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2051. Walker (John) & Sons, Kilmarnock. B 682, C 57.",
+        "corrected": "2051. Walker (John) & Sons, Kilmarnock. B 682, C 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,2168,1270,56/max/0/default.jpg",
+            "xywh": "180, 2168, 1270, 56"
+        }
+    },
+    "short_id": "A2051",
+    "label": "Walker (John) & Sons",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-44-B682",
+                    "short_id": "B682"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-44-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The british company A2051 trades with the swiss company B682 in the goods C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Walker (John) & Sons"
+        }
+    ],
+    "location": [
+        {
+            "id": "2645605",
+            "lat": "55.61171",
+            "lng": "-4.49581",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Kilmarnock",
+            "transcription": " Kilmarnock. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

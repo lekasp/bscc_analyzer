@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-27-A1816",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1816. Spear & Jackson Ltd., Sheffield. B 50, C 406; B 269, C 404.",
+        "corrected": "1816. Spear & Jackson Ltd., Sheffield. B 50, C 406; B 269, C 404"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,1449,1183,39/max/0/default.jpg",
+            "xywh": "355, 1449, 1183, 39"
+        }
+    },
+    "short_id": "A1816",
+    "label": "Spear & Jackson Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-27-B50",
+                    "short_id": "B50"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-27-C406",
+                    "short_id": "C406"
+                }
+            ],
+            "description": "The british company A1816 trades with the swiss company B50 in the goods C406"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-27-B269",
+                    "short_id": "B269"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-27-C404",
+                    "short_id": "C404"
+                }
+            ],
+            "description": "The british company A1816 trades with the swiss company B269 in the goods C404"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Spear & Jackson Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

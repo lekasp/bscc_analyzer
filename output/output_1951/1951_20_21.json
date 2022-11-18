@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-21-A153",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "153. Bates & Co. (Huddersfield) Ltd., Huddersfield. B 426, C 1088.",
+        "corrected": "153. Bates & Co. (Huddersfield) Ltd., Huddersfield. B 426, C 1088"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,1063,1238,43/max/0/default.jpg",
+            "xywh": "213, 1063, 1238, 43"
+        }
+    },
+    "short_id": "A153",
+    "label": "Bates & Co. (Huddersfield) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-21-B426",
+                    "short_id": "B426"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-21-C1088",
+                    "short_id": "C1088"
+                }
+            ],
+            "description": "The british company A153 trades with the swiss company B426 in the goods C1088"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bates & Co. (Huddersfield) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

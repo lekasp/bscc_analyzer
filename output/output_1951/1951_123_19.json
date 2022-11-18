@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-19-B216",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "216. Eschmann (A.) GmbH., 14, Eulerstrasse, Basle. A 251, 253, C 132, 241.",
+        "corrected": "216. Eschmann (A.) GmbH., 14, Eulerstrasse, Basle. A 251, 253, C 132, 241"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1494,1247,39/max/0/default.jpg",
+            "xywh": "304, 1494, 1247, 39"
+        }
+    },
+    "short_id": "B216",
+    "label": "Eschmann (A.) GmbH.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-19-A251",
+                    "short_id": "A251"
+                },
+                {
+                    "id": "BSCC-1951-123-19-A253",
+                    "short_id": "A253"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-19-C132",
+                    "short_id": "C132"
+                },
+                {
+                    "id": "BSCC-1951-123-19-C241",
+                    "short_id": "C241"
+                }
+            ],
+            "description": "The swiss company B216 trades with the british company A251 and A253 in the goods C132 and C241"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Eschmann (A.) GmbH."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 14, Eulerstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-2-B671",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 671. Schweiz. Sprengstoff-Fabrik AG., Dottikon (Aarg.). A 985, 1056, 1336, 1341, C 821, 822, 905, 911, 920, 921, 925.",
+        "corrected": "671. Schweiz. Sprengstoff-Fabrik AG., Dottikon (Aarg.).A 985, 1056, 1336, 1341, C 821, 822, 905, 911, 920, 921, 925"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,391,1319,84/max/0/default.jpg",
+            "xywh": "272, 391, 1319, 84"
+        }
+    },
+    "short_id": "B671",
+    "label": "Schweiz. Sprengstoff-Fabrik AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-2-A985",
+                    "short_id": "A985"
+                },
+                {
+                    "id": "BSCC-1951-139-2-A1056",
+                    "short_id": "A1056"
+                },
+                {
+                    "id": "BSCC-1951-139-2-A1336",
+                    "short_id": "A1336"
+                },
+                {
+                    "id": "BSCC-1951-139-2-A1341",
+                    "short_id": "A1341"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-2-C821",
+                    "short_id": "C821"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C822",
+                    "short_id": "C822"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C911",
+                    "short_id": "C911"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C920",
+                    "short_id": "C920"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C921",
+                    "short_id": "C921"
+                },
+                {
+                    "id": "BSCC-1951-139-2-C925",
+                    "short_id": "C925"
+                }
+            ],
+            "description": "The swiss company B671 trades with the british company A985 and A1056 and A1336 and A1341 in the goods C821 and C822 and C905 and C911 and C920 and C921 and C925"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schweiz. Sprengstoff-Fabrik AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660986",
+            "lat": "47.38437",
+            "lng": "8.23981",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Dottikon",
+            "transcription": " Dottikon (Aarg.)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

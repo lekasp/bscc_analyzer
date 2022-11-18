@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-172-1951-36-C794",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "794. Railway equipment. A 1819, B 98.",
+        "corrected": "794. Railway equipment. A 1819, B 98"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 172,
+            "canvas": "http://localhost:8182/iiif/3/0172.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0172.jpg/205,2067,1259,40/max/0/default.jpg",
+            "xywh": "205, 2067, 1259, 40"
+        }
+    },
+    "short_id": "C794",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-172-36-A1819",
+                    "short_id": "A1819"
+                },
+                {
+                    "id": "BSCC-1951-172-36-B98",
+                    "short_id": "B98"
+                }
+            ],
+            "description": "with the british company A1819"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

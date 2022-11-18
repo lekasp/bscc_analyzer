@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-39-A943",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "943. Holdsworth (Robert), (Merino) Ltd., Bradford. B 58, C 1080.",
+        "corrected": "943. Holdsworth (Robert), (Merino) Ltd., Bradford. B 58, C 1080"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,2039,1211,39/max/0/default.jpg",
+            "xywh": "137, 2039, 1211, 39"
+        }
+    },
+    "short_id": "A943",
+    "label": "Holdsworth (Robert), (Merino) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-39-B58",
+                    "short_id": "B58"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-39-C1080",
+                    "short_id": "C1080"
+                }
+            ],
+            "description": "The british company A943 trades with the swiss company B58 in the goods C1080"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Holdsworth (Robert), (Merino) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

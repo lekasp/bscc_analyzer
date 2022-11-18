@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-22-A111",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "111. Auto-Klean Strainers Ltd., Hounslow, Middx. B 241, C 465.",
+        "corrected": "111. Auto-Klean Strainers Ltd., Hounslow, Middx. B 241, C 465"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,1172,1236,40/max/0/default.jpg",
+            "xywh": "219, 1172, 1236, 40"
+        }
+    },
+    "short_id": "A111",
+    "label": "Auto-Klean Strainers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-22-B241",
+                    "short_id": "B241"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-22-C465",
+                    "short_id": "C465"
+                }
+            ],
+            "description": "The british company A111 trades with the swiss company B241 in the goods C465"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Auto-Klean Strainers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646517",
+            "lat": "51.46839",
+            "lng": "-0.36092",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hounslow",
+            "transcription": " Hounslow, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

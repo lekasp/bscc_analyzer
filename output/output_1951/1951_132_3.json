@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-3-B469",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿469. Maschinen AG., 61, Monbijoustrasse, Berne. A 1174, 1805, C 283.",
+        "corrected": "469. Maschinen AG., 61, Monbijoustrasse, Berne. A 1174, 1805, C 283"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,386,1311,40/max/0/default.jpg",
+            "xywh": "167, 386, 1311, 40"
+        }
+    },
+    "short_id": "B469",
+    "label": "Maschinen AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-3-A1174",
+                    "short_id": "A1174"
+                },
+                {
+                    "id": "BSCC-1951-132-3-A1805",
+                    "short_id": "A1805"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-3-C283",
+                    "short_id": "C283"
+                }
+            ],
+            "description": "The swiss company B469 trades with the british company A1174 and A1805 in the goods C283"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Maschinen AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 61, Monbijoustrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

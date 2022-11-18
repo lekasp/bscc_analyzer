@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-13-A1179",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1179. Lister & Co. (Knitting Wools) Ltd., Bradford. B 708, C 136, 1145.",
+        "corrected": "1179. Lister & Co. (Knitting Wools) Ltd., Bradford. B 708, C 136, 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,794,1288,37/max/0/default.jpg",
+            "xywh": "170, 794, 1288, 37"
+        }
+    },
+    "short_id": "A1179",
+    "label": "Lister & Co. (Knitting Wools) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-13-B708",
+                    "short_id": "B708"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-13-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-66-13-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The british company A1179 trades with the swiss company B708 in the goods C136 and C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lister & Co. (Knitting Wools) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

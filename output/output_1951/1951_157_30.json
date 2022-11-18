@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-30-C210",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "210. Lathes, cam turning. A 1729, B 596.",
+        "corrected": "210. Lathes, cam turning. A 1729, B 596"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,1579,1281,43/max/0/default.jpg",
+            "xywh": "303, 1579, 1281, 43"
+        }
+    },
+    "short_id": "C210",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-30-A1729",
+                    "short_id": "A1729"
+                },
+                {
+                    "id": "BSCC-1951-157-30-B596",
+                    "short_id": "B596"
+                }
+            ],
+            "description": "with the british company A1729"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

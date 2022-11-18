@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-24-B575",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "575. Pista S.A., 8, rue Diday, Geneva. A 1045, 1492, C 729, 732.",
+        "corrected": "575. Pista S.A., 8, rue Diday, Geneva. A 1045, 1492, C 729, 732"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1905,1298,38/max/0/default.jpg",
+            "xywh": "298, 1905, 1298, 38"
+        }
+    },
+    "short_id": "B575",
+    "label": "Pista S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-24-A1045",
+                    "short_id": "A1045"
+                },
+                {
+                    "id": "BSCC-1951-135-24-A1492",
+                    "short_id": "A1492"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-24-C729",
+                    "short_id": "C729"
+                },
+                {
+                    "id": "BSCC-1951-135-24-C732",
+                    "short_id": "C732"
+                }
+            ],
+            "description": "The swiss company B575 trades with the british company A1045 and A1492 in the goods C729 and C732"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pista S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 8, rue Diday, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

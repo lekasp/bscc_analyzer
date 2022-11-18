@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-1-A1790",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1790. Smith (Sidney), (Industries) Ltd., London W 4. B 776, C 332.",
+        "corrected": "1790. Smith (Sidney), (Industries) Ltd., London W 4. B 776, C 332"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,301,1183,41/max/0/default.jpg",
+            "xywh": "355, 301, 1183, 41"
+        }
+    },
+    "short_id": "A1790",
+    "label": "Smith (Sidney), (Industries) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-1-B776",
+                    "short_id": "B776"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-1-C332",
+                    "short_id": "C332"
+                }
+            ],
+            "description": "The british company A1790 trades with the swiss company B776 in the goods C332"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smith (Sidney), (Industries) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

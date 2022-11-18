@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-40-A1388",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1388. Myers (Wayne V.) & Co. Ltd., London SE 1. B 460, C 74.",
+        "corrected": "1388. Myers (Wayne V.) & Co. Ltd., London SE 1. B 460, C 74"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,2156,1249,37/max/0/default.jpg",
+            "xywh": "184, 2156, 1249, 37"
+        }
+    },
+    "short_id": "A1388",
+    "label": "Myers (Wayne V.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-40-B460",
+                    "short_id": "B460"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-40-C74",
+                    "short_id": "C74"
+                }
+            ],
+            "description": "The british company A1388 trades with the swiss company B460 in the goods C74"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Myers (Wayne V.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SE 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

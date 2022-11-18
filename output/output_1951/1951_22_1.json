@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-1-A181",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "181. Benson’s Toolworks Ltd., Handsworth, Birmingham. B 505, C 1058, 1063.",
+        "corrected": "181. Benson’s Toolworks Ltd., Handsworth, Birmingham. B 505, C 1058, 1063"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,283,1260,39/max/0/default.jpg",
+            "xywh": "205, 283, 1260, 39"
+        }
+    },
+    "short_id": "A181",
+    "label": "Benson’s Toolworks Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-1-B505",
+                    "short_id": "B505"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-1-C1058",
+                    "short_id": "C1058"
+                },
+                {
+                    "id": "BSCC-1951-22-1-C1063",
+                    "short_id": "C1063"
+                }
+            ],
+            "description": "The british company A181 trades with the swiss company B505 in the goods C1058 and C1063"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Benson’s Toolworks Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "11551175",
+            "lat": "52.51006",
+            "lng": "-1.92673",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Handsworth",
+            "transcription": " Handsworth, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Handsworth, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-15-B619",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 619. Rosenthal (Albrecht), 41, Talacker, Zurich. A 872, 2139, C 1117, 1166, 1171, 1173, 1183, 1187.",
+        "corrected": "619. Rosenthal (Albrecht), 41, Talacker, Zurich.A 872, 2139, C 1117, 1166, 1171, 1173, 1183, 1187"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1185,1255,78/max/0/default.jpg",
+            "xywh": "303, 1185, 1255, 78"
+        }
+    },
+    "short_id": "B619",
+    "label": "Rosenthal (Albrecht)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-15-A872",
+                    "short_id": "A872"
+                },
+                {
+                    "id": "BSCC-1951-137-15-A2139",
+                    "short_id": "A2139"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-15-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-137-15-C1166",
+                    "short_id": "C1166"
+                },
+                {
+                    "id": "BSCC-1951-137-15-C1171",
+                    "short_id": "C1171"
+                },
+                {
+                    "id": "BSCC-1951-137-15-C1173",
+                    "short_id": "C1173"
+                },
+                {
+                    "id": "BSCC-1951-137-15-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-137-15-C1187",
+                    "short_id": "C1187"
+                }
+            ],
+            "description": "The swiss company B619 trades with the british company A872 and A2139 in the goods C1117 and C1166 and C1171 and C1173 and C1183 and C1187"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rosenthal (Albrecht)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "41, Talacker, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

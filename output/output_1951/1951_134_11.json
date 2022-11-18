@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-11-B532",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "532. Nessi (Pierre), 4/6, rue du Closelet, Lausanne. A 894, C 562.",
+        "corrected": "532. Nessi (Pierre), 4/6, rue du Closelet, Lausanne. A 894, C 562"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,926,1276,37/max/0/default.jpg",
+            "xywh": "187, 926, 1276, 37"
+        }
+    },
+    "short_id": "B532",
+    "label": "Nessi (Pierre)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-11-A894",
+                    "short_id": "A894"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-11-C562",
+                    "short_id": "C562"
+                }
+            ],
+            "description": "The swiss company B532 trades with the british company A894 in the goods C562"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Nessi (Pierre)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "4/6, rue du Closelet, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

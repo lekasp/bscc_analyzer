@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-32-A753",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "753. Gaunt (Reuben) & Sons Ltd., Farsley, Leeds. B 841, C 1120, 1126.",
+        "corrected": "753. Gaunt (Reuben) & Sons Ltd., Farsley, Leeds. B 841, C 1120, 1126"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1709,1256,40/max/0/default.jpg",
+            "xywh": "190, 1709, 1256, 40"
+        }
+    },
+    "short_id": "A753",
+    "label": "Gaunt (Reuben) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-32-B841",
+                    "short_id": "B841"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-32-C1120",
+                    "short_id": "C1120"
+                },
+                {
+                    "id": "BSCC-1951-46-32-C1126",
+                    "short_id": "C1126"
+                }
+            ],
+            "description": "The british company A753 trades with the swiss company B841 in the goods C1120 and C1126"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gaunt (Reuben) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2649641",
+            "lat": "53.8083",
+            "lng": "-1.67164",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Farsley",
+            "transcription": " Farsley, Leeds. "
+        },
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Farsley, Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

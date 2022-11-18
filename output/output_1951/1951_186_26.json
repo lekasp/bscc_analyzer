@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-26-C1241",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1241. Knitting needles. A 1356, 1398, B 603, 849.",
+        "corrected": "1241. Knitting needles. A 1356, 1398, B 603, 849"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,1381,1267,39/max/0/default.jpg",
+            "xywh": "216, 1381, 1267, 39"
+        }
+    },
+    "short_id": "C1241",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-26-A1356",
+                    "short_id": "A1356"
+                },
+                {
+                    "id": "BSCC-1951-186-26-A1398",
+                    "short_id": "A1398"
+                },
+                {
+                    "id": "BSCC-1951-186-26-B603",
+                    "short_id": "B603"
+                },
+                {
+                    "id": "BSCC-1951-186-26-B849",
+                    "short_id": "B849"
+                }
+            ],
+            "description": "with the british company A1356 and A1398 and B849"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

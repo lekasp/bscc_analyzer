@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-21-A1943",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1943. Towers (J. W.) & Co. Ltd., Widnes, Lancs. B 616, C 682, 1293.",
+        "corrected": "1943. Towers (J. W.) & Co. Ltd., Widnes, Lancs. B 616, C 682, 1293"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1227,1288,38/max/0/default.jpg",
+            "xywh": "164, 1227, 1288, 38"
+        }
+    },
+    "short_id": "A1943",
+    "label": "Towers (J. W.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-21-B616",
+                    "short_id": "B616"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-21-C682",
+                    "short_id": "C682"
+                },
+                {
+                    "id": "BSCC-1951-96-21-C1293",
+                    "short_id": "C1293"
+                }
+            ],
+            "description": "The british company A1943 trades with the swiss company B616 in the goods C682 and C1293"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Towers (J. W.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633954",
+            "lat": "53.3618",
+            "lng": "-2.73406",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Widnes",
+            "transcription": " Widnes, Lancs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

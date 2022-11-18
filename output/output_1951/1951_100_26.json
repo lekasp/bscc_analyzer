@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-26-A2122",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2122. Wiggin (Henry) & Co. Ltd., Birmingham. B 32, C 526; B 602, C 330; B 670, C 160.",
+        "corrected": "2122. Wiggin (Henry) & Co. Ltd., Birmingham.B 32, C 526; B 602, C 330; B 670, C 160"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,1312,1286,77/max/0/default.jpg",
+            "xywh": "176, 1312, 1286, 77"
+        }
+    },
+    "short_id": "A2122",
+    "label": "Wiggin (Henry) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-26-B32",
+                    "short_id": "B32"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-26-C526",
+                    "short_id": "C526"
+                }
+            ],
+            "description": "The british company A2122 trades with the swiss company B32 in the goods C526"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-26-B602",
+                    "short_id": "B602"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-26-C330",
+                    "short_id": "C330"
+                }
+            ],
+            "description": "The british company A2122 trades with the swiss company B602 in the goods C330"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-26-B670",
+                    "short_id": "B670"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-26-C160",
+                    "short_id": "C160"
+                }
+            ],
+            "description": "The british company A2122 trades with the swiss company B670 in the goods C160"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wiggin (Henry) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

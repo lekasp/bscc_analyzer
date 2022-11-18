@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-2-A1791",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1791. Smith (Stanley) & Co., Isleworth, Middx. B 476, C 809.",
+        "corrected": "1791. Smith (Stanley) & Co., Isleworth, Middx. B 476, C 809"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,342,1183,38/max/0/default.jpg",
+            "xywh": "355, 342, 1183, 38"
+        }
+    },
+    "short_id": "A1791",
+    "label": "Smith (Stanley) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-2-B476",
+                    "short_id": "B476"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-2-C809",
+                    "short_id": "C809"
+                }
+            ],
+            "description": "The british company A1791 trades with the swiss company B476 in the goods C809"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smith (Stanley) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646004",
+            "lat": "51.47518",
+            "lng": "-0.34246",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Isleworth",
+            "transcription": ", Isleworth, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

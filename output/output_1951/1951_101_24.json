@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-24-A2167",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2167. Woodhouse, Carey & Browne, London EC 3. B 267, C 1.",
+        "corrected": "2167. Woodhouse, Carey & Browne, London EC 3. B 267, C 1"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,1274,1264,40/max/0/default.jpg",
+            "xywh": "343, 1274, 1264, 40"
+        }
+    },
+    "short_id": "A2167",
+    "label": "Woodhouse",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-24-B267",
+                    "short_id": "B267"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-24-C1",
+                    "short_id": "C1"
+                }
+            ],
+            "description": "The british company A2167 trades with the swiss company B267 in the goods C1"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Woodhouse"
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": "Carey & Browne, London EC 3. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

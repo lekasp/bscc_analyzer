@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-21-A337",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "337. Bruntons (Musselburgh) Ltd., Musselburgh. B 123, C 136, 137, 174.",
+        "corrected": "337. Bruntons (Musselburgh) Ltd., Musselburgh. B 123, C 136, 137, 174"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,1150,1233,39/max/0/default.jpg",
+            "xywh": "228, 1150, 1233, 39"
+        }
+    },
+    "short_id": "A337",
+    "label": "Bruntons (Musselburgh) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-21-B123",
+                    "short_id": "B123"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-21-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-28-21-C137",
+                    "short_id": "C137"
+                },
+                {
+                    "id": "BSCC-1951-28-21-C174",
+                    "short_id": "C174"
+                }
+            ],
+            "description": "The british company A337 trades with the swiss company B123 in the goods C136 and C137 and C174"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bruntons (Musselburgh) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641942",
+            "lat": "55.9417",
+            "lng": "-3.04991",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Musselburgh",
+            "transcription": " Musselburgh. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

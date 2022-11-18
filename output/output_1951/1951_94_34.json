@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-34-A1868",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1868. Stratton & Co. Ltd., West Heath, Birmingham. B 747, C 545.",
+        "corrected": "1868. Stratton & Co. Ltd., West Heath, Birmingham. B 747, C 545"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,1677,1254,38/max/0/default.jpg",
+            "xywh": "182, 1677, 1254, 38"
+        }
+    },
+    "short_id": "A1868",
+    "label": "Stratton & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-34-B747",
+                    "short_id": "B747"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-34-C545",
+                    "short_id": "C545"
+                }
+            ],
+            "description": "The british company A1868 trades with the swiss company B747 in the goods C545"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stratton & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " West Heath, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

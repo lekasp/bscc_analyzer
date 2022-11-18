@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-30-A1499",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1499. Peake (W. O.) Ltd., St. Albans. B 381, C 1158, 1165.",
+        "corrected": "1499. Peake (W. O.) Ltd., St. Albans. B 381, C 1158, 1165"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,1429,1303,37/max/0/default.jpg",
+            "xywh": "200, 1429, 1303, 37"
+        }
+    },
+    "short_id": "A1499",
+    "label": "Peake (W. O.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-30-B381",
+                    "short_id": "B381"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-30-C1158",
+                    "short_id": "C1158"
+                },
+                {
+                    "id": "BSCC-1951-80-30-C1165",
+                    "short_id": "C1165"
+                }
+            ],
+            "description": "The british company A1499 trades with the swiss company B381 in the goods C1158 and C1165"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Peake (W. O.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " St. Albans. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

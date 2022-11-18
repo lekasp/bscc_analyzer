@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-28-B549",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 549. Ott & Co., Zofingen (Aarg.). A 34, 982, C 1269, 1278.",
+        "corrected": "549. Ott & Co., Zofingen (Aarg.). A 34, 982, C 1269, 1278"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,2129,1276,42/max/0/default.jpg",
+            "xywh": "187, 2129, 1276, 42"
+        }
+    },
+    "short_id": "B549",
+    "label": "Ott & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-28-A34",
+                    "short_id": "A34"
+                },
+                {
+                    "id": "BSCC-1951-134-28-A982",
+                    "short_id": "A982"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-28-C1269",
+                    "short_id": "C1269"
+                },
+                {
+                    "id": "BSCC-1951-134-28-C1278",
+                    "short_id": "C1278"
+                }
+            ],
+            "description": "The swiss company B549 trades with the british company A34 and A982 in the goods C1269 and C1278"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ott & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657915",
+            "lat": "47.28779",
+            "lng": "7.94586",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zofingen",
+            "transcription": ", Zofingen (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-4-B525",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "525. Musso & Co., 6, Alfred-Escher-Strasse, Zurich. A 242, C 39.",
+        "corrected": "525. Musso & Co., 6, Alfred-Escher-Strasse, Zurich. A 242, C 39"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,465,1276,43/max/0/default.jpg",
+            "xywh": "187, 465, 1276, 43"
+        }
+    },
+    "short_id": "B525",
+    "label": "Musso & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-4-A242",
+                    "short_id": "A242"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-4-C39",
+                    "short_id": "C39"
+                }
+            ],
+            "description": "The swiss company B525 trades with the british company A242 in the goods C39"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Musso & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 6, Alfred-Escher-Strasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

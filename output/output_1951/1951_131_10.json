@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-10-B447",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 447. Lloyds & National Provincial Foreign Bank Ltd., 1, Place Bel Air, Geneva. A 1188, C 1461.",
+        "corrected": "447. Lloyds & National Provincial Foreign Bank Ltd., 1, Place Bel Air, Geneva.A 1188, C 1461"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,870,1265,79/max/0/default.jpg",
+            "xywh": "316, 870, 1265, 79"
+        }
+    },
+    "short_id": "B447",
+    "label": "Lloyds & National Provincial Foreign Bank Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-10-A1188",
+                    "short_id": "A1188"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-10-C1461",
+                    "short_id": "C1461"
+                }
+            ],
+            "description": "The swiss company B447 trades with the british company A1188 in the goods C1461"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lloyds & National Provincial Foreign Bank Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 1, Place Bel Air, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

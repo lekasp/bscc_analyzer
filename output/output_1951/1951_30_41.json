@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-41-A399",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "399. Celestion Ltd., Thames Ditton, Surrey. B 197, C 538, 550.",
+        "corrected": "399. Celestion Ltd., Thames Ditton, Surrey. B 197, C 538, 550"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,2184,1260,74/max/0/default.jpg",
+            "xywh": "197, 2184, 1260, 74"
+        }
+    },
+    "short_id": "A399",
+    "label": "Celestion Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-41-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-41-C538",
+                    "short_id": "C538"
+                },
+                {
+                    "id": "BSCC-1951-30-41-C550",
+                    "short_id": "C550"
+                }
+            ],
+            "description": "The british company A399 trades with the swiss company B197 in the goods C538 and C550"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Celestion Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Thames Ditton, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

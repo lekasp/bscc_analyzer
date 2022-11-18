@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-45-A1563",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1563. Preston Brooke & Co. Ltd., Leeds. B 618, C 1158.",
+        "corrected": "1563. Preston Brooke & Co. Ltd., Leeds. B 618, C 1158"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,2099,1308,39/max/0/default.jpg",
+            "xywh": "205, 2099, 1308, 39"
+        }
+    },
+    "short_id": "A1563",
+    "label": "Preston Brooke & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-45-B618",
+                    "short_id": "B618"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-45-C1158",
+                    "short_id": "C1158"
+                }
+            ],
+            "description": "The british company A1563 trades with the swiss company B618 in the goods C1158"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Preston Brooke & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

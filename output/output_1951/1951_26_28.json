@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-28-A302",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "302. British Rola Ltd., Thames Ditton, Surrey. B 197, C 538, 550.",
+        "corrected": "302. British Rola Ltd., Thames Ditton, Surrey. B 197, C 538, 550"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1501,1290,39/max/0/default.jpg",
+            "xywh": "189, 1501, 1290, 39"
+        }
+    },
+    "short_id": "A302",
+    "label": "British Rola Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-28-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-28-C538",
+                    "short_id": "C538"
+                },
+                {
+                    "id": "BSCC-1951-26-28-C550",
+                    "short_id": "C550"
+                }
+            ],
+            "description": "The british company A302 trades with the swiss company B197 in the goods C538 and C550"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Rola Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Thames Ditton, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

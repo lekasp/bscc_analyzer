@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-2-B73",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿73. Berger & Co., Langnau (Berne). A 235, 1700, 2115, C 45, 51, 53, 57.",
+        "corrected": "73. Berger & Co., Langnau (Berne). A 235, 1700, 2115, C 45, 51, 53, 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,328,1336,39/max/0/default.jpg",
+            "xywh": "276, 328, 1336, 39"
+        }
+    },
+    "short_id": "B73",
+    "label": "Berger & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-2-A235",
+                    "short_id": "A235"
+                },
+                {
+                    "id": "BSCC-1951-119-2-A1700",
+                    "short_id": "A1700"
+                },
+                {
+                    "id": "BSCC-1951-119-2-A2115",
+                    "short_id": "A2115"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-2-C45",
+                    "short_id": "C45"
+                },
+                {
+                    "id": "BSCC-1951-119-2-C51",
+                    "short_id": "C51"
+                },
+                {
+                    "id": "BSCC-1951-119-2-C53",
+                    "short_id": "C53"
+                },
+                {
+                    "id": "BSCC-1951-119-2-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The swiss company B73 trades with the british company A235 and A1700 and A2115 in the goods C45 and C51 and C53 and C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Berger & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660032",
+            "lat": "46.93936",
+            "lng": "7.78738",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Langnau",
+            "transcription": ", Langnau (Berne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

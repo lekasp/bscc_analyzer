@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-0-A1967",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1967. Turner (William) & Son Ltd., Sheffield. B 229, C 94, 103, 111, 118, 141, 385, 389, 391.",
+        "corrected": "1967. Turner (William) & Son Ltd., Sheffield.B 229, C 94, 103, 111, 118, 141, 385, 389, 391"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,226,1247,95/max/0/default.jpg",
+            "xywh": "346, 226, 1247, 95"
+        }
+    },
+    "short_id": "A1967",
+    "label": "Turner (William) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-0-B229",
+                    "short_id": "B229"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-0-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C103",
+                    "short_id": "C103"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C111",
+                    "short_id": "C111"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C118",
+                    "short_id": "C118"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C141",
+                    "short_id": "C141"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C389",
+                    "short_id": "C389"
+                },
+                {
+                    "id": "BSCC-1951-97-0-C391",
+                    "short_id": "C391"
+                }
+            ],
+            "description": "The british company A1967 trades with the swiss company B229 in the goods C94 and C103 and C111 and C118 and C141 and C385 and C389 and C391"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Turner (William) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

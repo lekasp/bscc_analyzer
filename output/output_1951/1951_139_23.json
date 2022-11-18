@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-23-B691",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "691. Solatex S.A., 1, rue du Commerce, Geneva. A 1927, C 1157.",
+        "corrected": "691. Solatex S.A., 1, rue du Commerce, Geneva. A 1927, C 1157"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,1696,1319,39/max/0/default.jpg",
+            "xywh": "272, 1696, 1319, 39"
+        }
+    },
+    "short_id": "B691",
+    "label": "Solatex S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-23-A1927",
+                    "short_id": "A1927"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-23-C1157",
+                    "short_id": "C1157"
+                }
+            ],
+            "description": "The swiss company B691 trades with the british company A1927 in the goods C1157"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Solatex S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 1, rue du Commerce, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

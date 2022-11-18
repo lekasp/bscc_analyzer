@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-38-A438",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "438. Clover Leaf Products Ltd., London SE 13. B 62, C 1032, 1341.",
+        "corrected": "438. Clover Leaf Products Ltd., London SE 13. B 62, C 1032, 1341"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1782,1184,40/max/0/default.jpg",
+            "xywh": "223, 1782, 1184, 40"
+        }
+    },
+    "short_id": "A438",
+    "label": "Clover Leaf Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-38-B62",
+                    "short_id": "B62"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-38-C1032",
+                    "short_id": "C1032"
+                },
+                {
+                    "id": "BSCC-1951-32-38-C1341",
+                    "short_id": "C1341"
+                }
+            ],
+            "description": "The british company A438 trades with the swiss company B62 in the goods C1032 and C1341"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clover Leaf Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SE 13. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

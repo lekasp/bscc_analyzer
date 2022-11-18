@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-18-A107",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "107. Audley Engineering Co. Ltd., Newport, Shropshire. B 806, C 258.",
+        "corrected": "107. Audley Engineering Co. Ltd., Newport, Shropshire. B 806, C 258"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,1015,1236,41/max/0/default.jpg",
+            "xywh": "219, 1015, 1236, 41"
+        }
+    },
+    "short_id": "A107",
+    "label": "Audley Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-18-B806",
+                    "short_id": "B806"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-18-C258",
+                    "short_id": "C258"
+                }
+            ],
+            "description": "The british company A107 trades with the swiss company B806 in the goods C258"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Audley Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641598",
+            "lat": "51.58774",
+            "lng": "-2.99835",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Newport",
+            "transcription": " Newport, Shropshire. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

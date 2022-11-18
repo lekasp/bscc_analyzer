@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-26-A1014",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1014. ackson (Harold) Ltd., Garstang, nr Preston. B 345, C 469.",
+        "corrected": "1014. ackson (Harold) Ltd., Garstang, nr Preston. B 345, C 469"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,1491,1267,62/max/0/default.jpg",
+            "xywh": "165, 1491, 1267, 62"
+        }
+    },
+    "short_id": "A1014",
+    "label": "ackson (Harold) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-26-B345",
+                    "short_id": "B345"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-26-C469",
+                    "short_id": "C469"
+                }
+            ],
+            "description": "The british company A1014 trades with the swiss company B345 in the goods C469"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "ackson (Harold) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648829",
+            "lat": "53.90081",
+            "lng": "-2.77417",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Garstang",
+            "transcription": " Garstang, nr Preston. "
+        },
+        {
+            "id": "2639912",
+            "lat": "53.76282",
+            "lng": "-2.70452",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Preston",
+            "transcription": " Garstang, nr Preston. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-4-B555",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "555. Papierhof AG., Buchs (St. G.). A 540, C 329.",
+        "corrected": "555. Papierhof AG., Buchs (St. G.). A 540, C 329"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,602,1298,40/max/0/default.jpg",
+            "xywh": "298, 602, 1298, 40"
+        }
+    },
+    "short_id": "B555",
+    "label": "Papierhof AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-4-A540",
+                    "short_id": "A540"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-4-C329",
+                    "short_id": "C329"
+                }
+            ],
+            "description": "The swiss company B555 trades with the british company A540 in the goods C329"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Papierhof AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661348",
+            "lat": "47.39358",
+            "lng": "8.08233",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Buchs",
+            "transcription": " Buchs (St. G.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

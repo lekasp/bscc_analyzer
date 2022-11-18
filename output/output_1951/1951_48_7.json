@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-7-A771",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿771. Gildesgame Bros. Ltd., Earl Shilton, Leics. B 486, C 1183, 1188.",
+        "corrected": "771. Gildesgame Bros. Ltd., Earl Shilton, Leics. B 486, C 1183, 1188"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,528,1259,40/max/0/default.jpg",
+            "xywh": "200, 528, 1259, 40"
+        }
+    },
+    "short_id": "A771",
+    "label": "Gildesgame Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-7-B486",
+                    "short_id": "B486"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-7-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-48-7-C1188",
+                    "short_id": "C1188"
+                }
+            ],
+            "description": "The british company A771 trades with the swiss company B486 in the goods C1183 and C1188"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gildesgame Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Earl Shilton, Leics. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-29-A750",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "750. Garrard Engineering & Mfg. Co. Ltd., Swindon. B 29, C 1442, 1443.",
+        "corrected": "750. Garrard Engineering & Mfg. Co. Ltd., Swindon. B 29, C 1442, 1443"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1591,1256,41/max/0/default.jpg",
+            "xywh": "190, 1591, 1256, 41"
+        }
+    },
+    "short_id": "A750",
+    "label": "Garrard Engineering & Mfg. Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-29-B29",
+                    "short_id": "B29"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-29-C1442",
+                    "short_id": "C1442"
+                },
+                {
+                    "id": "BSCC-1951-46-29-C1443",
+                    "short_id": "C1443"
+                }
+            ],
+            "description": "The british company A750 trades with the swiss company B29 in the goods C1442 and C1443"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Garrard Engineering & Mfg. Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636389",
+            "lat": "51.55797",
+            "lng": "-1.78116",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Swindon",
+            "transcription": " Swindon. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

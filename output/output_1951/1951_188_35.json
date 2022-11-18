@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-35-C1320",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1320. Laundry machines. A 951, 976, B 71, 340.",
+        "corrected": "1320. Laundry machines. A 951, 976, B 71, 340"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,1828,1281,38/max/0/default.jpg",
+            "xywh": "223, 1828, 1281, 38"
+        }
+    },
+    "short_id": "C1320",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-35-A951",
+                    "short_id": "A951"
+                },
+                {
+                    "id": "BSCC-1951-188-35-A976",
+                    "short_id": "A976"
+                },
+                {
+                    "id": "BSCC-1951-188-35-B71",
+                    "short_id": "B71"
+                },
+                {
+                    "id": "BSCC-1951-188-35-B340",
+                    "short_id": "B340"
+                }
+            ],
+            "description": "with the british company A951 and A976 and B340"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

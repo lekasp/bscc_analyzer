@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-14-B797",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "797. Weber (Jean), 30, Monbijoustrasse, Berne. A 122, 978, 980, 1342, C 872, 874, 876, 877.",
+        "corrected": "797. Weber (Jean), 30, Monbijoustrasse, Berne.A 122, 978, 980, 1342, C 872, 874, 876, 877"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1153,1304,80/max/0/default.jpg",
+            "xywh": "297, 1153, 1304, 80"
+        }
+    },
+    "short_id": "B797",
+    "label": "Weber (Jean)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-14-A122",
+                    "short_id": "A122"
+                },
+                {
+                    "id": "BSCC-1951-143-14-A978",
+                    "short_id": "A978"
+                },
+                {
+                    "id": "BSCC-1951-143-14-A980",
+                    "short_id": "A980"
+                },
+                {
+                    "id": "BSCC-1951-143-14-A1342",
+                    "short_id": "A1342"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-14-C872",
+                    "short_id": "C872"
+                },
+                {
+                    "id": "BSCC-1951-143-14-C874",
+                    "short_id": "C874"
+                },
+                {
+                    "id": "BSCC-1951-143-14-C876",
+                    "short_id": "C876"
+                },
+                {
+                    "id": "BSCC-1951-143-14-C877",
+                    "short_id": "C877"
+                }
+            ],
+            "description": "The swiss company B797 trades with the british company A122 and A978 and A980 and A1342 in the goods C872 and C874 and C876 and C877"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weber (Jean)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "30, Monbijoustrasse, Berne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

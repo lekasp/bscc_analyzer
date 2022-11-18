@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-43-A1253",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1253. Markt & Co. (London) Ltd., London EC 1. B 503, C 378.",
+        "corrected": "1253. Markt & Co. (London) Ltd., London EC 1. B 503, C 378"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,2119,1283,38/max/0/default.jpg",
+            "xywh": "167, 2119, 1283, 38"
+        }
+    },
+    "short_id": "A1253",
+    "label": "Markt & Co. (London) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-43-B503",
+                    "short_id": "B503"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-43-C378",
+                    "short_id": "C378"
+                }
+            ],
+            "description": "The british company A1253 trades with the swiss company B503 in the goods C378"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Markt & Co. (London) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

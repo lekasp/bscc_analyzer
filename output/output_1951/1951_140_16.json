@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-16-B714",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 714. Stehelin (P.H.) & Cie., 2, Spalenberg, Basle. (from 1.10.51: 62, Spalentorweg, Basle). A 363, 1162, 1787, C 9, 71, 926, 964, 973.",
+        "corrected": "714. Stehelin (P.H.) & Cie., 2, Spalenberg, Basle. (from 1.10.51: 62, Spalentorweg,Basle). A 363, 1162, 1787, C 9, 71, 926, 964, 973"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1341,1265,121/max/0/default.jpg",
+            "xywh": "219, 1341, 1265, 121"
+        }
+    },
+    "short_id": "B714",
+    "label": "Stehelin (P.H.) & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-16-A363",
+                    "short_id": "A363"
+                },
+                {
+                    "id": "BSCC-1951-140-16-A1162",
+                    "short_id": "A1162"
+                },
+                {
+                    "id": "BSCC-1951-140-16-A1787",
+                    "short_id": "A1787"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-16-C9",
+                    "short_id": "C9"
+                },
+                {
+                    "id": "BSCC-1951-140-16-C71",
+                    "short_id": "C71"
+                },
+                {
+                    "id": "BSCC-1951-140-16-C926",
+                    "short_id": "C926"
+                },
+                {
+                    "id": "BSCC-1951-140-16-C964",
+                    "short_id": "C964"
+                },
+                {
+                    "id": "BSCC-1951-140-16-C973",
+                    "short_id": "C973"
+                }
+            ],
+            "description": "The swiss company B714 trades with the british company A363 and A1162 and A1787 in the goods C9 and C71 and C926 and C964 and C973"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stehelin (P.H.) & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 2, Spalenberg, Basle. (from 1.10.51: 62, Spalentorweg,Basle). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-27-B315",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 315. Haessig (C.) AG., 172, Bruderholzallee, Basle. A 441, C 23, 77.",
+        "corrected": "315. Haessig (C.) AG., 172, Bruderholzallee, Basle. A 441, C 23, 77"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,2140,1299,45/max/0/default.jpg",
+            "xywh": "175, 2140, 1299, 45"
+        }
+    },
+    "short_id": "B315",
+    "label": "Haessig (C.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-27-A441",
+                    "short_id": "A441"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-27-C23",
+                    "short_id": "C23"
+                },
+                {
+                    "id": "BSCC-1951-126-27-C77",
+                    "short_id": "C77"
+                }
+            ],
+            "description": "The swiss company B315 trades with the british company A441 in the goods C23 and C77"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Haessig (C.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 172, Bruderholzallee, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

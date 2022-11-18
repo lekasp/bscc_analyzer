@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-20-B718",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "718. Steyling (Hermann J.), 10, Manessestrasse, Zurich. A 498, 812, 2170, C 1247, 1252.",
+        "corrected": "718. Steyling (Hermann J.), 10, Manessestrasse, Zurich.A 498, 812, 2170, C 1247, 1252"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1618,1265,79/max/0/default.jpg",
+            "xywh": "219, 1618, 1265, 79"
+        }
+    },
+    "short_id": "B718",
+    "label": "Steyling (Hermann J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-20-A498",
+                    "short_id": "A498"
+                },
+                {
+                    "id": "BSCC-1951-140-20-A812",
+                    "short_id": "A812"
+                },
+                {
+                    "id": "BSCC-1951-140-20-A2170",
+                    "short_id": "A2170"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-20-C1247",
+                    "short_id": "C1247"
+                },
+                {
+                    "id": "BSCC-1951-140-20-C1252",
+                    "short_id": "C1252"
+                }
+            ],
+            "description": "The swiss company B718 trades with the british company A498 and A812 and A2170 in the goods C1247 and C1252"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Steyling (Hermann J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "10, Manessestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

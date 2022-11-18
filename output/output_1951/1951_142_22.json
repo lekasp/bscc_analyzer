@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-22-B777",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "777. Vogel & Braun GmbH., 48, Murtenstrasse, Biel (Bienne). A 159, 843, 1373, 1759, 2086, C 607, 611, 612, 869, 999a.",
+        "corrected": "777. Vogel & Braun GmbH., 48, Murtenstrasse, Biel (Bienne).A 159, 843, 1373, 1759, 2086, C 607, 611, 612, 869, 999a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1716,1294,80/max/0/default.jpg",
+            "xywh": "185, 1716, 1294, 80"
+        }
+    },
+    "short_id": "B777",
+    "label": "Vogel & Braun GmbH.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-22-A159",
+                    "short_id": "A159"
+                },
+                {
+                    "id": "BSCC-1951-142-22-A843",
+                    "short_id": "A843"
+                },
+                {
+                    "id": "BSCC-1951-142-22-A1373",
+                    "short_id": "A1373"
+                },
+                {
+                    "id": "BSCC-1951-142-22-A1759",
+                    "short_id": "A1759"
+                },
+                {
+                    "id": "BSCC-1951-142-22-A2086",
+                    "short_id": "A2086"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-22-C607",
+                    "short_id": "C607"
+                },
+                {
+                    "id": "BSCC-1951-142-22-C611",
+                    "short_id": "C611"
+                },
+                {
+                    "id": "BSCC-1951-142-22-C612",
+                    "short_id": "C612"
+                },
+                {
+                    "id": "BSCC-1951-142-22-C869",
+                    "short_id": "C869"
+                },
+                {
+                    "id": "BSCC-1951-142-22-C999a",
+                    "short_id": "C999a"
+                }
+            ],
+            "description": "The swiss company B777 trades with the british company A159 and A843 and A1373 and A1759 and A2086 in the goods C607 and C611 and C612 and C869 and C999a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vogel & Braun GmbH."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 48, Murtenstrasse, Biel (Bienne)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

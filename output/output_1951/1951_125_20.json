@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-20-B277",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "277. Giger (Hans), 3, Gutenbergstrasse, Berne. A 1212, C 22.",
+        "corrected": "277. Giger (Hans), 3, Gutenbergstrasse, Berne. A 1212, C 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1604,1317,38/max/0/default.jpg",
+            "xywh": "288, 1604, 1317, 38"
+        }
+    },
+    "short_id": "B277",
+    "label": "Giger (Hans)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-20-A1212",
+                    "short_id": "A1212"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-20-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The swiss company B277 trades with the british company A1212 in the goods C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Giger (Hans)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "3, Gutenbergstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

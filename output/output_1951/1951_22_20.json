@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-20-A200",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "200. Bigwood (Joshua) & Son Ltd., Wolverhampton. B 484, C 232, 334.",
+        "corrected": "200. Bigwood (Joshua) & Son Ltd., Wolverhampton. B 484, C 232, 334"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,1030,1260,39/max/0/default.jpg",
+            "xywh": "205, 1030, 1260, 39"
+        }
+    },
+    "short_id": "A200",
+    "label": "Bigwood (Joshua) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-20-B484",
+                    "short_id": "B484"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-20-C232",
+                    "short_id": "C232"
+                },
+                {
+                    "id": "BSCC-1951-22-20-C334",
+                    "short_id": "C334"
+                }
+            ],
+            "description": "The british company A200 trades with the swiss company B484 in the goods C232 and C334"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bigwood (Joshua) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633691",
+            "lat": "52.58547",
+            "lng": "-2.12296",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolverhampton",
+            "transcription": " Wolverhampton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

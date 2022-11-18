@@ -1,0 +1,111 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-40-A1341",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1341. Monsanto Chemicals Ltd., London SW 1. B 671, C 905, 911, 921; B 702, C 978, 986, 1007.",
+        "corrected": "1341. Monsanto Chemicals Ltd., London SW 1.B 671, C 905, 911, 921; B 702, C 978, 986, 1007"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,1871,1267,77/max/0/default.jpg",
+            "xywh": "205, 1871, 1267, 77"
+        }
+    },
+    "short_id": "A1341",
+    "label": "Monsanto Chemicals Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-40-B671",
+                    "short_id": "B671"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-40-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-72-40-C911",
+                    "short_id": "C911"
+                },
+                {
+                    "id": "BSCC-1951-72-40-C921",
+                    "short_id": "C921"
+                }
+            ],
+            "description": "The british company A1341 trades with the swiss company B671 in the goods C905 and C911 and C921"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-40-B702",
+                    "short_id": "B702"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-40-C978",
+                    "short_id": "C978"
+                },
+                {
+                    "id": "BSCC-1951-72-40-C986",
+                    "short_id": "C986"
+                },
+                {
+                    "id": "BSCC-1951-72-40-C1007",
+                    "short_id": "C1007"
+                }
+            ],
+            "description": "The british company A1341 trades with the swiss company B702 in the goods C978 and C986 and C1007"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Monsanto Chemicals Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SW 1."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

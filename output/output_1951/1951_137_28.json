@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-28-B632",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "632. Salvaj & Cie. S.A., 3, rue Adrien Lachenal, Geneva. A 712, 1012, 1213, 1633, 1971, C 7, 22.",
+        "corrected": "632. Salvaj & Cie. S.A., 3, rue Adrien Lachenal, Geneva.A 712, 1012, 1213, 1633, 1971, C 7, 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,2027,1255,80/max/0/default.jpg",
+            "xywh": "303, 2027, 1255, 80"
+        }
+    },
+    "short_id": "B632",
+    "label": "Salvaj & Cie. S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-28-A712",
+                    "short_id": "A712"
+                },
+                {
+                    "id": "BSCC-1951-137-28-A1012",
+                    "short_id": "A1012"
+                },
+                {
+                    "id": "BSCC-1951-137-28-A1213",
+                    "short_id": "A1213"
+                },
+                {
+                    "id": "BSCC-1951-137-28-A1633",
+                    "short_id": "A1633"
+                },
+                {
+                    "id": "BSCC-1951-137-28-A1971",
+                    "short_id": "A1971"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-28-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-137-28-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The swiss company B632 trades with the british company A712 and A1012 and A1213 and A1633 and A1971 in the goods C7 and C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Salvaj & Cie. S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 3, rue Adrien Lachenal, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

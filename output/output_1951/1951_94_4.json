@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-4-A1838",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1838. Stead (Chas. F.) & Co. Ltd., Leeds. B 488, C 843, 845, 851, 853, 864, 894.",
+        "corrected": "1838. Stead (Chas. F.) & Co. Ltd., Leeds. B 488, C 843, 845, 851, 853, 864, 894"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,489,1254,41/max/0/default.jpg",
+            "xywh": "182, 489, 1254, 41"
+        }
+    },
+    "short_id": "A1838",
+    "label": "Stead (Chas. F.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-4-B488",
+                    "short_id": "B488"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-4-C843",
+                    "short_id": "C843"
+                },
+                {
+                    "id": "BSCC-1951-94-4-C845",
+                    "short_id": "C845"
+                },
+                {
+                    "id": "BSCC-1951-94-4-C851",
+                    "short_id": "C851"
+                },
+                {
+                    "id": "BSCC-1951-94-4-C853",
+                    "short_id": "C853"
+                },
+                {
+                    "id": "BSCC-1951-94-4-C864",
+                    "short_id": "C864"
+                },
+                {
+                    "id": "BSCC-1951-94-4-C894",
+                    "short_id": "C894"
+                }
+            ],
+            "description": "The british company A1838 trades with the swiss company B488 in the goods C843 and C845 and C851 and C853 and C864 and C894"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stead (Chas. F.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

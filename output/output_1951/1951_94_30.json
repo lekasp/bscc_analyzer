@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-30-A1864",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1864. Stott & Smith Ltd., Manchester. B 635, C 1108.",
+        "corrected": "1864. Stott & Smith Ltd., Manchester. B 635, C 1108"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,1519,1254,39/max/0/default.jpg",
+            "xywh": "182, 1519, 1254, 39"
+        }
+    },
+    "short_id": "A1864",
+    "label": "Stott & Smith Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-30-B635",
+                    "short_id": "B635"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-30-C1108",
+                    "short_id": "C1108"
+                }
+            ],
+            "description": "The british company A1864 trades with the swiss company B635 in the goods C1108"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stott & Smith Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

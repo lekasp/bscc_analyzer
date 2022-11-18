@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-12-B591",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "591. Pult (C.), 24, Schützengasse, Zurich. A 1142, 1239, 1717, C 902, 1150, 1206, 1207.",
+        "corrected": "591. Pult (C.), 24, Schützengasse, Zurich.A 1142, 1239, 1717, C 902, 1150, 1206, 1207"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,860,1317,82/max/0/default.jpg",
+            "xywh": "183, 860, 1317, 82"
+        }
+    },
+    "short_id": "B591",
+    "label": "Pult (C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-12-A1142",
+                    "short_id": "A1142"
+                },
+                {
+                    "id": "BSCC-1951-136-12-A1239",
+                    "short_id": "A1239"
+                },
+                {
+                    "id": "BSCC-1951-136-12-A1717",
+                    "short_id": "A1717"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-12-C902",
+                    "short_id": "C902"
+                },
+                {
+                    "id": "BSCC-1951-136-12-C1150",
+                    "short_id": "C1150"
+                },
+                {
+                    "id": "BSCC-1951-136-12-C1206",
+                    "short_id": "C1206"
+                },
+                {
+                    "id": "BSCC-1951-136-12-C1207",
+                    "short_id": "C1207"
+                }
+            ],
+            "description": "The swiss company B591 trades with the british company A1142 and A1239 and A1717 in the goods C902 and C1150 and C1206 and C1207"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pult (C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "24, Schützengasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

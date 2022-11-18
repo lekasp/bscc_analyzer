@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-17-B214",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "214. E. S. A., Einkaufsgenossenschaft für das Schweizerische Autogewerbe, 8. Oberburgstrasse, Burgdorf. A 189, 244, 909, 1639, C 577, 621, 781, 984, 995.",
+        "corrected": "214. E. S. A., Einkaufsgenossenschaft für das Schweizerische Autogewerbe, 8.Oberburgstrasse, Burgdorf. A 189, 244, 909, 1639, C 577, 621, 781, 984, 995"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1295,1247,118/max/0/default.jpg",
+            "xywh": "304, 1295, 1247, 118"
+        }
+    },
+    "short_id": "B214",
+    "label": "E. S. A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-17-A189",
+                    "short_id": "A189"
+                },
+                {
+                    "id": "BSCC-1951-123-17-A244",
+                    "short_id": "A244"
+                },
+                {
+                    "id": "BSCC-1951-123-17-A909",
+                    "short_id": "A909"
+                },
+                {
+                    "id": "BSCC-1951-123-17-A1639",
+                    "short_id": "A1639"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-17-C577",
+                    "short_id": "C577"
+                },
+                {
+                    "id": "BSCC-1951-123-17-C621",
+                    "short_id": "C621"
+                },
+                {
+                    "id": "BSCC-1951-123-17-C781",
+                    "short_id": "C781"
+                },
+                {
+                    "id": "BSCC-1951-123-17-C984",
+                    "short_id": "C984"
+                },
+                {
+                    "id": "BSCC-1951-123-17-C995",
+                    "short_id": "C995"
+                }
+            ],
+            "description": "The swiss company B214 trades with the british company A189 and A244 and A909 and A1639 in the goods C577 and C621 and C781 and C984 and C995"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "E. S. A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661321",
+            "lat": "47.05901",
+            "lng": "7.62786",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Burgdorf",
+            "transcription": "Einkaufsgenossenschaft für das Schweizerische Autogewerbe, 8.Oberburgstrasse, Burgdorf. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

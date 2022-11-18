@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-23-A744",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "744. Furnivals (1913) Ltd., Cobridge, Stoke-on-Trent. B 553, C 1359.",
+        "corrected": "744. Furnivals (1913) Ltd., Cobridge, Stoke-on-Trent. B 553, C 1359"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1241,1256,43/max/0/default.jpg",
+            "xywh": "190, 1241, 1256, 43"
+        }
+    },
+    "short_id": "A744",
+    "label": "Furnivals (1913) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-23-B553",
+                    "short_id": "B553"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-23-C1359",
+                    "short_id": "C1359"
+                }
+            ],
+            "description": "The british company A744 trades with the swiss company B553 in the goods C1359"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Furnivals (1913) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "8063571",
+            "lat": "53.03364",
+            "lng": "-2.18786",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cobridge",
+            "transcription": " Cobridge, Stoke-on-Trent. "
+        },
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Cobridge, Stoke-on-Trent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

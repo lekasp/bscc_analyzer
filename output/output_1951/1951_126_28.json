@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-28-B316",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "316. Hassler (Hans) & Co. AG., 19, Casinostrasse, Aarau. A 1861, C 813,818, 1137.",
+        "corrected": "316. Hassler (Hans) & Co. AG., 19, Casinostrasse, Aarau. A 1861, C 813,818, 1137"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,2185,1299,71/max/0/default.jpg",
+            "xywh": "175, 2185, 1299, 71"
+        }
+    },
+    "short_id": "B316",
+    "label": "Hassler (Hans) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-28-A1861",
+                    "short_id": "A1861"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-28-C813",
+                    "short_id": "C813"
+                },
+                {
+                    "id": "BSCC-1951-126-28-C818",
+                    "short_id": "C818"
+                },
+                {
+                    "id": "BSCC-1951-126-28-C1137",
+                    "short_id": "C1137"
+                }
+            ],
+            "description": "The swiss company B316 trades with the british company A1861 in the goods C813 and C818 and C1137"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hassler (Hans) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661881",
+            "lat": "47.39254",
+            "lng": "8.04422",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Aarau",
+            "transcription": " 19, Casinostrasse, Aarau. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-40-1951-32-A615",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "615. Dynatron Radio Ltd., Maidenhead, Berks. B 197, C 543.",
+        "corrected": "615. Dynatron Radio Ltd., Maidenhead, Berks. B 197, C 543"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 40,
+            "canvas": "http://localhost:8182/iiif/3/0040.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0040.jpg/154,1540,1304,43/max/0/default.jpg",
+            "xywh": "154, 1540, 1304, 43"
+        }
+    },
+    "short_id": "A615",
+    "label": "Dynatron Radio Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-40-32-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-40-32-C543",
+                    "short_id": "C543"
+                }
+            ],
+            "description": "The british company A615 trades with the swiss company B197 in the goods C543"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dynatron Radio Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643186",
+            "lat": "51.52279",
+            "lng": "-0.71986",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Maidenhead",
+            "transcription": " Maidenhead, Berks. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

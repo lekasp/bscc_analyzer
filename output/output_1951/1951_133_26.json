@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-26-B518",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿518. Müller (Ernst) & Co., 14, Stockerstrasse, Zurich. A 709, 972, 2073, C 1117, 1120, 1145, 1148, 1149.",
+        "corrected": "518. Müller (Ernst) & Co., 14, Stockerstrasse, Zurich.A 709, 972, 2073, C 1117, 1120, 1145, 1148, 1149"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,2047,1317,78/max/0/default.jpg",
+            "xywh": "305, 2047, 1317, 78"
+        }
+    },
+    "short_id": "B518",
+    "label": "Müller (Ernst) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-26-A709",
+                    "short_id": "A709"
+                },
+                {
+                    "id": "BSCC-1951-133-26-A972",
+                    "short_id": "A972"
+                },
+                {
+                    "id": "BSCC-1951-133-26-A2073",
+                    "short_id": "A2073"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-26-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-133-26-C1120",
+                    "short_id": "C1120"
+                },
+                {
+                    "id": "BSCC-1951-133-26-C1145",
+                    "short_id": "C1145"
+                },
+                {
+                    "id": "BSCC-1951-133-26-C1148",
+                    "short_id": "C1148"
+                },
+                {
+                    "id": "BSCC-1951-133-26-C1149",
+                    "short_id": "C1149"
+                }
+            ],
+            "description": "The swiss company B518 trades with the british company A709 and A972 and A2073 in the goods C1117 and C1120 and C1145 and C1148 and C1149"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Müller (Ernst) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 14, Stockerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

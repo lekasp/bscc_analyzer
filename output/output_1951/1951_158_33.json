@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-33-C256",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿256. Plated equipment for the dairy, foodstuff and chemical industries. A 74, B 550.",
+        "corrected": "256. Plated equipment for the dairy, foodstuff and chemical industries.A 74, B 550"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,1640,1303,76/max/0/default.jpg",
+            "xywh": "194, 1640, 1303, 76"
+        }
+    },
+    "short_id": "C256",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-33-A74",
+                    "short_id": "A74"
+                },
+                {
+                    "id": "BSCC-1951-158-33-B550",
+                    "short_id": "B550"
+                }
+            ],
+            "description": "with the british company A74"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

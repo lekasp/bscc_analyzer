@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-13-C1409",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1409. Skates. A 2129, 2137, B 116, 235.",
+        "corrected": "1409. Skates. A 2129, 2137, B 116, 235"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,749,1305,38/max/0/default.jpg",
+            "xywh": "304, 749, 1305, 38"
+        }
+    },
+    "short_id": "C1409",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-13-A2129",
+                    "short_id": "A2129"
+                },
+                {
+                    "id": "BSCC-1951-191-13-A2137",
+                    "short_id": "A2137"
+                },
+                {
+                    "id": "BSCC-1951-191-13-B116",
+                    "short_id": "B116"
+                },
+                {
+                    "id": "BSCC-1951-191-13-B235",
+                    "short_id": "B235"
+                }
+            ],
+            "description": "with the british company A2129 and A2137 and B235"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

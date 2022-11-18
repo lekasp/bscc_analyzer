@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-20-A1489",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1489. Partridge, Wilson & Co. Ltd., Leicester. B 47, C 485, 514; B 582, C 486.",
+        "corrected": "1489. Partridge, Wilson & Co. Ltd., Leicester. B 47, C 485, 514; B 582, C 486"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,1031,1303,40/max/0/default.jpg",
+            "xywh": "200, 1031, 1303, 40"
+        }
+    },
+    "short_id": "A1489",
+    "label": "Partridge, Wilson & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-20-B47",
+                    "short_id": "B47"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-20-C485",
+                    "short_id": "C485"
+                },
+                {
+                    "id": "BSCC-1951-80-20-C514",
+                    "short_id": "C514"
+                }
+            ],
+            "description": "The british company A1489 trades with the swiss company B47 in the goods C485 and C514"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-20-B582",
+                    "short_id": "B582"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-20-C486",
+                    "short_id": "C486"
+                }
+            ],
+            "description": "The british company A1489 trades with the swiss company B582 in the goods C486"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Partridge, Wilson & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

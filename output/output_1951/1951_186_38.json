@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-38-C1252",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1252. Rugs, mohair. A 498, B 718.",
+        "corrected": "1252. Rugs, mohair. A 498, B 718"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,1999,1267,65/max/0/default.jpg",
+            "xywh": "216, 1999, 1267, 65"
+        }
+    },
+    "short_id": "C1252",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-38-A498",
+                    "short_id": "A498"
+                },
+                {
+                    "id": "BSCC-1951-186-38-B718",
+                    "short_id": "B718"
+                }
+            ],
+            "description": "with the british company A498"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

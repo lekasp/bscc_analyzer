@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-1-B438",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "438. Leopold (Fr.) & Cie. AG., 3, Hofstetten, Thun. A 987, 1350, C 1323, 1327.",
+        "corrected": "438. Leopold (Fr.) & Cie. AG., 3, Hofstetten, Thun. A 987, 1350, C 1323, 1327"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,278,1265,40/max/0/default.jpg",
+            "xywh": "316, 278, 1265, 40"
+        }
+    },
+    "short_id": "B438",
+    "label": "Leopold (Fr.) & Cie. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-1-A987",
+                    "short_id": "A987"
+                },
+                {
+                    "id": "BSCC-1951-131-1-A1350",
+                    "short_id": "A1350"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-1-C1323",
+                    "short_id": "C1323"
+                },
+                {
+                    "id": "BSCC-1951-131-1-C1327",
+                    "short_id": "C1327"
+                }
+            ],
+            "description": "The swiss company B438 trades with the british company A987 and A1350 in the goods C1323 and C1327"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Leopold (Fr.) & Cie. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658377",
+            "lat": "46.75118",
+            "lng": "7.62166",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Thun",
+            "transcription": " 3, Hofstetten, Thun. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-3-A1792",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1792. Smith (Sydney) & Sons Ltd., Nottingham. B 307, C 678, 697, 730, 746.",
+        "corrected": "1792. Smith (Sydney) & Sons Ltd., Nottingham.B 307, C 678, 697, 730, 746"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,380,1183,80/max/0/default.jpg",
+            "xywh": "355, 380, 1183, 80"
+        }
+    },
+    "short_id": "A1792",
+    "label": "Smith (Sydney) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-3-B307",
+                    "short_id": "B307"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-3-C678",
+                    "short_id": "C678"
+                },
+                {
+                    "id": "BSCC-1951-93-3-C697",
+                    "short_id": "C697"
+                },
+                {
+                    "id": "BSCC-1951-93-3-C730",
+                    "short_id": "C730"
+                },
+                {
+                    "id": "BSCC-1951-93-3-C746",
+                    "short_id": "C746"
+                }
+            ],
+            "description": "The british company A1792 trades with the swiss company B307 in the goods C678 and C697 and C730 and C746"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smith (Sydney) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641170",
+            "lat": "52.9536",
+            "lng": "-1.15047",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nottingham",
+            "transcription": " Nottingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

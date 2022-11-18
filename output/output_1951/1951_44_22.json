@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-22-A695",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "695. Finlayson, Bousfield & Co. Ltd., Johnstone, Scotland. B 783, C 1097.",
+        "corrected": "695. Finlayson, Bousfield & Co. Ltd., Johnstone, Scotland. B 783, C 1097"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,1165,1269,41/max/0/default.jpg",
+            "xywh": "189, 1165, 1269, 41"
+        }
+    },
+    "short_id": "A695",
+    "label": "Finlayson, Bousfield & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-22-B783",
+                    "short_id": "B783"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-22-C1097",
+                    "short_id": "C1097"
+                }
+            ],
+            "description": "The british company A695 trades with the swiss company B783 in the goods C1097"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Finlayson, Bousfield & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645951",
+            "lat": "55.82906",
+            "lng": "-4.51605",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Johnstone",
+            "transcription": " Johnstone, Scotland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

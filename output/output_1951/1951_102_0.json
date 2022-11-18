@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-102-1951-0-A2189",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2189. Wynne (T. W.) & Co., Belfast. B 442, C 1134.",
+        "corrected": "2189. Wynne (T. W.) & Co., Belfast. B 442, C 1134"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 102,
+            "canvas": "http://localhost:8182/iiif/3/0102.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0102.jpg/169,228,1247,77/max/0/default.jpg",
+            "xywh": "169, 228, 1247, 77"
+        }
+    },
+    "short_id": "A2189",
+    "label": "Wynne (T. W.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-102-0-B442",
+                    "short_id": "B442"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-102-0-C1134",
+                    "short_id": "C1134"
+                }
+            ],
+            "description": "The british company A2189 trades with the swiss company B442 in the goods C1134"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wynne (T. W.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655984",
+            "lat": "54.59682",
+            "lng": "-5.92541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Belfast",
+            "transcription": ", Belfast. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

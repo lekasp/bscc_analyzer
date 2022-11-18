@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-25-B191",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "191. Dumas (L.), 2, avenue Mon Repos, Lausanne. A 1334, C 1194.",
+        "corrected": "191. Dumas (L.), 2, avenue Mon Repos, Lausanne. A 1334, C 1194"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,1784,1285,39/max/0/default.jpg",
+            "xywh": "169, 1784, 1285, 39"
+        }
+    },
+    "short_id": "B191",
+    "label": "Dumas (L.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-25-A1334",
+                    "short_id": "A1334"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-25-C1194",
+                    "short_id": "C1194"
+                }
+            ],
+            "description": "The swiss company B191 trades with the british company A1334 in the goods C1194"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dumas (L.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "2, avenue Mon Repos, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

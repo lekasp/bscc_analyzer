@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-10-A1844",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1844. Steels Engineering Products Ltd., Sunderland. B 9, C 355.",
+        "corrected": "1844. Steels Engineering Products Ltd., Sunderland. B 9, C 355"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,730,1254,41/max/0/default.jpg",
+            "xywh": "182, 730, 1254, 41"
+        }
+    },
+    "short_id": "A1844",
+    "label": "Steels Engineering Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-10-B9",
+                    "short_id": "B9"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-10-C355",
+                    "short_id": "C355"
+                }
+            ],
+            "description": "The british company A1844 trades with the swiss company B9 in the goods C355"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Steels Engineering Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636531",
+            "lat": "54.90465",
+            "lng": "-1.38222",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sunderland",
+            "transcription": " Sunderland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

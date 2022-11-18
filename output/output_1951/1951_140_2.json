@@ -1,0 +1,156 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-2-B701",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 701. Sporting Goods AG., 30, Casinostrasse, Aarau. A 9, 38, 694, 772, 840, 958, 1132, 1772, 1781, 1945, 2110, C 1155, 1157, 1387. 1393, 1401, 1407, 1408, 1410, 1412, 1416, 1419.",
+        "corrected": "701. Sporting Goods AG., 30, Casinostrasse, Aarau.A 9, 38, 694, 772, 840, 958, 1132, 1772, 1781, 1945, 2110, C 1155, 1157, 1387. 1393, 1401, 1407, 1408, 1410, 1412, 1416, 1419"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,396,1265,122/max/0/default.jpg",
+            "xywh": "219, 396, 1265, 122"
+        }
+    },
+    "short_id": "B701",
+    "label": "Sporting Goods AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-2-A9",
+                    "short_id": "A9"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A38",
+                    "short_id": "A38"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A694",
+                    "short_id": "A694"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A772",
+                    "short_id": "A772"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A840",
+                    "short_id": "A840"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A958",
+                    "short_id": "A958"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A1132",
+                    "short_id": "A1132"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A1772",
+                    "short_id": "A1772"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A1781",
+                    "short_id": "A1781"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A1945",
+                    "short_id": "A1945"
+                },
+                {
+                    "id": "BSCC-1951-140-2-A2110",
+                    "short_id": "A2110"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-2-C1155",
+                    "short_id": "C1155"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C13871393",
+                    "short_id": "C13871393"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1401",
+                    "short_id": "C1401"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1407",
+                    "short_id": "C1407"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1408",
+                    "short_id": "C1408"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1410",
+                    "short_id": "C1410"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1412",
+                    "short_id": "C1412"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1416",
+                    "short_id": "C1416"
+                },
+                {
+                    "id": "BSCC-1951-140-2-C1419",
+                    "short_id": "C1419"
+                }
+            ],
+            "description": "The swiss company B701 trades with the british company A9 and A38 and A694 and A772 and A840 and A958 and A1132 and A1772 and A1781 and A1945 and A2110 in the goods C1155 and C1157 and C13871393 and C1401 and C1407 and C1408 and C1410 and C1412 and C1416 and C1419"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sporting Goods AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661881",
+            "lat": "47.39254",
+            "lng": "8.04422",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Aarau",
+            "transcription": " 30, Casinostrasse, Aarau."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

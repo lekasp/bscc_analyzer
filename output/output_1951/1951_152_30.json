@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-30-C27",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "27. FOOD PRODUCTS, GENERAL. A 419, 511, 900, 1131, 1866, B 274, 309, 435, 574, 722.",
+        "corrected": "27. FOOD PRODUCTS, GENERAL.A 419, 511, 900, 1131, 1866, B 274, 309, 435, 574, 722"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,1755,1293,82/max/0/default.jpg",
+            "xywh": "202, 1755, 1293, 82"
+        }
+    },
+    "short_id": "C27",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-30-A419",
+                    "short_id": "A419"
+                },
+                {
+                    "id": "BSCC-1951-152-30-A511",
+                    "short_id": "A511"
+                },
+                {
+                    "id": "BSCC-1951-152-30-A900",
+                    "short_id": "A900"
+                },
+                {
+                    "id": "BSCC-1951-152-30-A1131",
+                    "short_id": "A1131"
+                },
+                {
+                    "id": "BSCC-1951-152-30-A1866",
+                    "short_id": "A1866"
+                },
+                {
+                    "id": "BSCC-1951-152-30-B274",
+                    "short_id": "B274"
+                },
+                {
+                    "id": "BSCC-1951-152-30-B309",
+                    "short_id": "B309"
+                },
+                {
+                    "id": "BSCC-1951-152-30-B435",
+                    "short_id": "B435"
+                },
+                {
+                    "id": "BSCC-1951-152-30-B574",
+                    "short_id": "B574"
+                },
+                {
+                    "id": "BSCC-1951-152-30-B722",
+                    "short_id": "B722"
+                }
+            ],
+            "description": "with the british company A419 and A511 and A900 and A1131 and A1866 and B309 and B435 and B574 and B722"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

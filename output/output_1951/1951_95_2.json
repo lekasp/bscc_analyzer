@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-2-A1884",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1884. Summers (John) & Sons Ltd., Shotton, Chester. B 224, C 108.",
+        "corrected": "1884. Summers (John) & Sons Ltd., Shotton, Chester. B 224, C 108"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,376,1285,42/max/0/default.jpg",
+            "xywh": "340, 376, 1285, 42"
+        }
+    },
+    "short_id": "A1884",
+    "label": "Summers (John) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-2-B224",
+                    "short_id": "B224"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-2-C108",
+                    "short_id": "C108"
+                }
+            ],
+            "description": "The british company A1884 trades with the swiss company B224 in the goods C108"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Summers (John) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653228",
+            "lat": "53.1905",
+            "lng": "-2.89189",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Chester",
+            "transcription": " Shotton, Chester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

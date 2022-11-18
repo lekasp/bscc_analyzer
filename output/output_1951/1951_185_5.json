@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-185-1951-5-C1187",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1187. Knitwear, general. A 45a, 338, 996, 1027, 1150, 1343, 1378, 1569, B 93, 289, 619, 739, 743, 840.",
+        "corrected": "1187. Knitwear, general.A 45a, 338, 996, 1027, 1150, 1343, 1378, 1569, B 93, 289, 619, 739, 743, 840"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 185,
+            "canvas": "http://localhost:8182/iiif/3/0185.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0185.jpg/298,569,1365,80/max/0/default.jpg",
+            "xywh": "298, 569, 1365, 80"
+        }
+    },
+    "short_id": "C1187",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-185-5-A45a",
+                    "short_id": "A45a"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A338",
+                    "short_id": "A338"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A996",
+                    "short_id": "A996"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A1027",
+                    "short_id": "A1027"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A1150",
+                    "short_id": "A1150"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A1343",
+                    "short_id": "A1343"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A1378",
+                    "short_id": "A1378"
+                },
+                {
+                    "id": "BSCC-1951-185-5-A1569",
+                    "short_id": "A1569"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B93",
+                    "short_id": "B93"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B289",
+                    "short_id": "B289"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B619",
+                    "short_id": "B619"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B739",
+                    "short_id": "B739"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B743",
+                    "short_id": "B743"
+                },
+                {
+                    "id": "BSCC-1951-185-5-B840",
+                    "short_id": "B840"
+                }
+            ],
+            "description": "with the british company A45a and A338 and A996 and A1027 and A1150 and A1343 and A1378 and A1569 and B289 and B619 and B739 and B743 and B840"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

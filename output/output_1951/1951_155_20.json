@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-20-C124",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "124. Magnets, permanent. A 43,925, 1257,1379, 1400, 1890, B 47,111, 473, 696, 705.",
+        "corrected": "124. Magnets, permanent. A 43,925, 1257,1379, 1400, 1890, B 47,111, 473, 696, 705"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,1207,1337,43/max/0/default.jpg",
+            "xywh": "264, 1207, 1337, 43"
+        }
+    },
+    "short_id": "C124",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-20-A43",
+                    "short_id": "A43"
+                },
+                {
+                    "id": "BSCC-1951-155-20-A925",
+                    "short_id": "A925"
+                },
+                {
+                    "id": "BSCC-1951-155-20-A1257",
+                    "short_id": "A1257"
+                },
+                {
+                    "id": "BSCC-1951-155-20-A1379",
+                    "short_id": "A1379"
+                },
+                {
+                    "id": "BSCC-1951-155-20-A1400",
+                    "short_id": "A1400"
+                },
+                {
+                    "id": "BSCC-1951-155-20-A1890",
+                    "short_id": "A1890"
+                },
+                {
+                    "id": "BSCC-1951-155-20-B47",
+                    "short_id": "B47"
+                },
+                {
+                    "id": "BSCC-1951-155-20-B111",
+                    "short_id": "B111"
+                },
+                {
+                    "id": "BSCC-1951-155-20-B473",
+                    "short_id": "B473"
+                },
+                {
+                    "id": "BSCC-1951-155-20-B696",
+                    "short_id": "B696"
+                },
+                {
+                    "id": "BSCC-1951-155-20-B705",
+                    "short_id": "B705"
+                }
+            ],
+            "description": "with the british company A43 and A925 and A1257 and A1379 and A1400 and A1890 and B111 and B473 and B696 and B705"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

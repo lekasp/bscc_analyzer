@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-21-B542",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "542. Oederlin (AG.) & Co., Baden (Aarg.). A 1230, 2187, C 155, 733.",
+        "corrected": "542. Oederlin (AG.) & Co., Baden (Aarg.). A 1230, 2187, C 155, 733"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1702,1276,40/max/0/default.jpg",
+            "xywh": "187, 1702, 1276, 40"
+        }
+    },
+    "short_id": "B542",
+    "label": "Oederlin (AG.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-21-A1230",
+                    "short_id": "A1230"
+                },
+                {
+                    "id": "BSCC-1951-134-21-A2187",
+                    "short_id": "A2187"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-21-C155",
+                    "short_id": "C155"
+                },
+                {
+                    "id": "BSCC-1951-134-21-C733",
+                    "short_id": "C733"
+                }
+            ],
+            "description": "The swiss company B542 trades with the british company A1230 and A2187 in the goods C155 and C733"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Oederlin (AG.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661646",
+            "lat": "47.47333",
+            "lng": "8.30592",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Baden",
+            "transcription": ", Baden (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

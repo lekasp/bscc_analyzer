@@ -1,0 +1,132 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-18-B89",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "89. Bloch (Albert), 34, Grand’rue, Montreux. A 128, 213, 318, 984, 1087, 2175, C 1088, 1099, 1103, 1104, 1117, 1145, 1212, 1219, 1247.",
+        "corrected": "89. Bloch (Albert), 34, Grand’rue, Montreux.A 128, 213, 318, 984, 1087, 2175, C 1088, 1099, 1103, 1104, 1117, 1145, 1212, 1219, 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1196,1336,119/max/0/default.jpg",
+            "xywh": "276, 1196, 1336, 119"
+        }
+    },
+    "short_id": "B89",
+    "label": "Bloch (Albert)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-18-A128",
+                    "short_id": "A128"
+                },
+                {
+                    "id": "BSCC-1951-119-18-A213",
+                    "short_id": "A213"
+                },
+                {
+                    "id": "BSCC-1951-119-18-A318",
+                    "short_id": "A318"
+                },
+                {
+                    "id": "BSCC-1951-119-18-A984",
+                    "short_id": "A984"
+                },
+                {
+                    "id": "BSCC-1951-119-18-A1087",
+                    "short_id": "A1087"
+                },
+                {
+                    "id": "BSCC-1951-119-18-A2175",
+                    "short_id": "A2175"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-18-C1088",
+                    "short_id": "C1088"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1099",
+                    "short_id": "C1099"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1103",
+                    "short_id": "C1103"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1104",
+                    "short_id": "C1104"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1145",
+                    "short_id": "C1145"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1212",
+                    "short_id": "C1212"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1219",
+                    "short_id": "C1219"
+                },
+                {
+                    "id": "BSCC-1951-119-18-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The swiss company B89 trades with the british company A128 and A213 and A318 and A984 and A1087 and A2175 in the goods C1088 and C1099 and C1103 and C1104 and C1117 and C1145 and C1212 and C1219 and C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bloch (Albert)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659601",
+            "lat": "46.43301",
+            "lng": "6.91143",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Montreux",
+            "transcription": "34, Grand’rue, Montreux."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

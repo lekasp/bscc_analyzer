@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-23-B61",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "61. Baumann (Theodor) & Co., 2, Sophienstrasse, Zurich. A 165, 201, 1057, 1438, C 253, 254, 823, 905, 969.",
+        "corrected": "61. Baumann (Theodor) & Co., 2, Sophienstrasse, Zurich.A 165, 201, 1057, 1438, C 253, 254, 823, 905, 969"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1652,1300,79/max/0/default.jpg",
+            "xywh": "187, 1652, 1300, 79"
+        }
+    },
+    "short_id": "B61",
+    "label": "Baumann (Theodor) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-23-A165",
+                    "short_id": "A165"
+                },
+                {
+                    "id": "BSCC-1951-118-23-A201",
+                    "short_id": "A201"
+                },
+                {
+                    "id": "BSCC-1951-118-23-A1057",
+                    "short_id": "A1057"
+                },
+                {
+                    "id": "BSCC-1951-118-23-A1438",
+                    "short_id": "A1438"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-23-C253",
+                    "short_id": "C253"
+                },
+                {
+                    "id": "BSCC-1951-118-23-C254",
+                    "short_id": "C254"
+                },
+                {
+                    "id": "BSCC-1951-118-23-C823",
+                    "short_id": "C823"
+                },
+                {
+                    "id": "BSCC-1951-118-23-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-118-23-C969",
+                    "short_id": "C969"
+                }
+            ],
+            "description": "The swiss company B61 trades with the british company A165 and A201 and A1057 and A1438 in the goods C253 and C254 and C823 and C905 and C969"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Baumann (Theodor) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 2, Sophienstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

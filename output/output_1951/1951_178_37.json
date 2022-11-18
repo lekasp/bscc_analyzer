@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-37-C1005",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1005. Waterproofing compounds. A 1183, B 237.",
+        "corrected": "1005. Waterproofing compounds. A 1183, B 237"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,1792,1240,43/max/0/default.jpg",
+            "xywh": "229, 1792, 1240, 43"
+        }
+    },
+    "short_id": "C1005",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-37-A1183",
+                    "short_id": "A1183"
+                },
+                {
+                    "id": "BSCC-1951-178-37-B237",
+                    "short_id": "B237"
+                }
+            ],
+            "description": "with the british company A1183"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

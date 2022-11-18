@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-4-C354",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "354. Cranes — see also: “ Garage Equipment\" (6. D.). A 187, 412, 1033, 1090, 1396, B 122, 374, 459, 656, 727.",
+        "corrected": "354. Cranes — see also: “ Garage Equipment\" (6. D.).A 187, 412, 1033, 1090, 1396, B 122, 374, 459, 656, 727"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,409,1322,75/max/0/default.jpg",
+            "xywh": "290, 409, 1322, 75"
+        }
+    },
+    "short_id": "C354",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-4-A187",
+                    "short_id": "A187"
+                },
+                {
+                    "id": "BSCC-1951-161-4-A412",
+                    "short_id": "A412"
+                },
+                {
+                    "id": "BSCC-1951-161-4-A1033",
+                    "short_id": "A1033"
+                },
+                {
+                    "id": "BSCC-1951-161-4-A1090",
+                    "short_id": "A1090"
+                },
+                {
+                    "id": "BSCC-1951-161-4-A1396",
+                    "short_id": "A1396"
+                },
+                {
+                    "id": "BSCC-1951-161-4-B122",
+                    "short_id": "B122"
+                },
+                {
+                    "id": "BSCC-1951-161-4-B374",
+                    "short_id": "B374"
+                },
+                {
+                    "id": "BSCC-1951-161-4-B459",
+                    "short_id": "B459"
+                },
+                {
+                    "id": "BSCC-1951-161-4-B656",
+                    "short_id": "B656"
+                },
+                {
+                    "id": "BSCC-1951-161-4-B727",
+                    "short_id": "B727"
+                }
+            ],
+            "description": "with the british company A187 and A412 and A1033 and A1090 and A1396 and B374 and B459 and B656 and B727"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

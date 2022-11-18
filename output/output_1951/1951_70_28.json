@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-28-A1282",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1282. May & Baker Ltd., Dagenham, Essex. B 680, C 905, 933.",
+        "corrected": "1282. May & Baker Ltd., Dagenham, Essex. B 680, C 905, 933"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,1424,1227,42/max/0/default.jpg",
+            "xywh": "199, 1424, 1227, 42"
+        }
+    },
+    "short_id": "A1282",
+    "label": "May & Baker Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-28-B680",
+                    "short_id": "B680"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-28-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-70-28-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The british company A1282 trades with the swiss company B680 in the goods C905 and C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "May & Baker Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651621",
+            "lat": "51.55",
+            "lng": "0.16667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Dagenham",
+            "transcription": " Dagenham, Essex. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

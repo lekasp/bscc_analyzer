@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-7-B323",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "323. Helvepharm GmbH., 15, Missionsstrasse, Basle. A 44, 659, 2032, C 71, 933.",
+        "corrected": "323. Helvepharm GmbH., 15, Missionsstrasse, Basle. A 44, 659, 2032, C 71, 933"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,649,1233,40/max/0/default.jpg",
+            "xywh": "316, 649, 1233, 40"
+        }
+    },
+    "short_id": "B323",
+    "label": "Helvepharm GmbH.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-7-A44",
+                    "short_id": "A44"
+                },
+                {
+                    "id": "BSCC-1951-127-7-A659",
+                    "short_id": "A659"
+                },
+                {
+                    "id": "BSCC-1951-127-7-A2032",
+                    "short_id": "A2032"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-7-C71",
+                    "short_id": "C71"
+                },
+                {
+                    "id": "BSCC-1951-127-7-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The swiss company B323 trades with the british company A44 and A659 and A2032 in the goods C71 and C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Helvepharm GmbH."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 15, Missionsstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

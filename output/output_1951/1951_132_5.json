@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-5-B471",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 471. M. A. T. Transport AG., 9, Centralbahnstrasse, Basle. x A 1273, C 1458.",
+        "corrected": "471. M. A. T. Transport AG., 9, Centralbahnstrasse, Basle. x A 1273, C 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,502,1311,41/max/0/default.jpg",
+            "xywh": "167, 502, 1311, 41"
+        }
+    },
+    "short_id": "B471",
+    "label": "M. A. T. Transport AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-5-A1273",
+                    "short_id": "A1273"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-5-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B471 trades with the british company A1273 in the goods C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "M. A. T. Transport AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 9, Centralbahnstrasse, Basle. x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-19-A2027",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2027. Vigzol Oil Refining Co. (London) Ltd., London SE 10. B 193, C 66, 67.",
+        "corrected": "2027. Vigzol Oil Refining Co. (London) Ltd., London SE 10. B 193, C 66, 67"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,980,1270,39/max/0/default.jpg",
+            "xywh": "180, 980, 1270, 39"
+        }
+    },
+    "short_id": "A2027",
+    "label": "Vigzol Oil Refining Co. (London) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-19-B193",
+                    "short_id": "B193"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-19-C66",
+                    "short_id": "C66"
+                },
+                {
+                    "id": "BSCC-1951-98-19-C67",
+                    "short_id": "C67"
+                }
+            ],
+            "description": "The british company A2027 trades with the swiss company B193 in the goods C66 and C67"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vigzol Oil Refining Co. (London) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SE 10. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

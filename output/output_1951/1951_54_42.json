@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-42-A946",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "946. Hollins (Wm.) & Co. Ltd., Nottingham. B 557, C 1126.",
+        "corrected": "946. Hollins (Wm.) & Co. Ltd., Nottingham. B 557, C 1126"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,2156,1211,40/max/0/default.jpg",
+            "xywh": "137, 2156, 1211, 40"
+        }
+    },
+    "short_id": "A946",
+    "label": "Hollins (Wm.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-42-B557",
+                    "short_id": "B557"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-42-C1126",
+                    "short_id": "C1126"
+                }
+            ],
+            "description": "The british company A946 trades with the swiss company B557 in the goods C1126"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hollins (Wm.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641170",
+            "lat": "52.9536",
+            "lng": "-1.15047",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nottingham",
+            "transcription": " Nottingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

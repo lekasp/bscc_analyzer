@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-16-B508",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "508. Montana-Sport, 76, Baselstrasse, Lucerne. A 120, 340, 619, 721, 793, 811, C 1402, 1403, 1407, 1408, 1410.",
+        "corrected": "508. Montana-Sport, 76, Baselstrasse, Lucerne.A 120, 340, 619, 721, 793, 811, C 1402, 1403, 1407, 1408, 1410"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1339,1317,80/max/0/default.jpg",
+            "xywh": "305, 1339, 1317, 80"
+        }
+    },
+    "short_id": "B508",
+    "label": "Montana-Sport",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-16-A120",
+                    "short_id": "A120"
+                },
+                {
+                    "id": "BSCC-1951-133-16-A340",
+                    "short_id": "A340"
+                },
+                {
+                    "id": "BSCC-1951-133-16-A619",
+                    "short_id": "A619"
+                },
+                {
+                    "id": "BSCC-1951-133-16-A721",
+                    "short_id": "A721"
+                },
+                {
+                    "id": "BSCC-1951-133-16-A793",
+                    "short_id": "A793"
+                },
+                {
+                    "id": "BSCC-1951-133-16-A811",
+                    "short_id": "A811"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-16-C1402",
+                    "short_id": "C1402"
+                },
+                {
+                    "id": "BSCC-1951-133-16-C1403",
+                    "short_id": "C1403"
+                },
+                {
+                    "id": "BSCC-1951-133-16-C1407",
+                    "short_id": "C1407"
+                },
+                {
+                    "id": "BSCC-1951-133-16-C1408",
+                    "short_id": "C1408"
+                },
+                {
+                    "id": "BSCC-1951-133-16-C1410",
+                    "short_id": "C1410"
+                }
+            ],
+            "description": "The swiss company B508 trades with the british company A120 and A340 and A619 and A721 and A793 and A811 in the goods C1402 and C1403 and C1407 and C1408 and C1410"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Montana-Sport"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659811",
+            "lat": "47.05048",
+            "lng": "8.30635",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lucerne",
+            "transcription": "76, Baselstrasse, Lucerne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

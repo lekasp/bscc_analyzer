@@ -1,0 +1,103 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-36-A264",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "264. Bristol Aeroplane Co. Ltd., Bristol. B 35, C 639, 640; B 183, 537, C 562.",
+        "corrected": "264. Bristol Aeroplane Co. Ltd., Bristol. B 35, C 639, 640; B 183, 537, C 562"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1744,1252,39/max/0/default.jpg",
+            "xywh": "194, 1744, 1252, 39"
+        }
+    },
+    "short_id": "A264",
+    "label": "Bristol Aeroplane Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-36-B35",
+                    "short_id": "B35"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-36-C639",
+                    "short_id": "C639"
+                },
+                {
+                    "id": "BSCC-1951-24-36-C640",
+                    "short_id": "C640"
+                }
+            ],
+            "description": "The british company A264 trades with the swiss company B35 in the goods C639 and C640"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-36-B183",
+                    "short_id": "B183"
+                },
+                {
+                    "id": "BSCC-1951-24-36-B537",
+                    "short_id": "B537"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-36-C562",
+                    "short_id": "C562"
+                }
+            ],
+            "description": "The british company A264 trades with the swiss company B183 and B537 in the goods C562"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bristol Aeroplane Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654675",
+            "lat": "51.45523",
+            "lng": "-2.59665",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bristol",
+            "transcription": " Bristol. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

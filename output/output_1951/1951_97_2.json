@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-2-A1969",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1969. Turner Bros. Asbestos Co. Ltd., Rochdale. B 26, C 468; B 647, C 831.",
+        "corrected": "1969. Turner Bros. Asbestos Co. Ltd., Rochdale. B 26, C 468; B 647, C 831"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,364,1247,37/max/0/default.jpg",
+            "xywh": "346, 364, 1247, 37"
+        }
+    },
+    "short_id": "A1969",
+    "label": "Turner Bros. Asbestos Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-2-B26",
+                    "short_id": "B26"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-2-C468",
+                    "short_id": "C468"
+                }
+            ],
+            "description": "The british company A1969 trades with the swiss company B26 in the goods C468"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-2-B647",
+                    "short_id": "B647"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-2-C831",
+                    "short_id": "C831"
+                }
+            ],
+            "description": "The british company A1969 trades with the swiss company B647 in the goods C831"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Turner Bros. Asbestos Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639272",
+            "lat": "53.61766",
+            "lng": "-2.1552",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rochdale",
+            "transcription": " Rochdale. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

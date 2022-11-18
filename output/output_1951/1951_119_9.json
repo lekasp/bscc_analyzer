@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-9-B80",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "80. Bischoff (P.), 19, Vadianstrasse, St. Gall. A 1238, C 956, 976.",
+        "corrected": "80. Bischoff (P.), 19, Vadianstrasse, St. Gall. A 1238, C 956, 976"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,722,1336,39/max/0/default.jpg",
+            "xywh": "276, 722, 1336, 39"
+        }
+    },
+    "short_id": "B80",
+    "label": "Bischoff (P.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-9-A1238",
+                    "short_id": "A1238"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-9-C956",
+                    "short_id": "C956"
+                },
+                {
+                    "id": "BSCC-1951-119-9-C976",
+                    "short_id": "C976"
+                }
+            ],
+            "description": "The swiss company B80 trades with the british company A1238 in the goods C956 and C976"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bischoff (P.)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "19, Vadianstrasse, St. Gall. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

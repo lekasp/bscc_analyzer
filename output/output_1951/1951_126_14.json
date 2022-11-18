@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-14-B302",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 302. Gummi Hug AG., 38, Lindenstrasse, Zurich. A 491, 1007, 1513, 1556, 1603, C 784, 793, 797, 808, 1150, 1391.",
+        "corrected": "302. Gummi Hug AG., 38, Lindenstrasse, Zurich.A 491, 1007, 1513, 1556, 1603, C 784, 793, 797, 808, 1150, 1391"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1151,1299,81/max/0/default.jpg",
+            "xywh": "175, 1151, 1299, 81"
+        }
+    },
+    "short_id": "B302",
+    "label": "Gummi Hug AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-14-A491",
+                    "short_id": "A491"
+                },
+                {
+                    "id": "BSCC-1951-126-14-A1007",
+                    "short_id": "A1007"
+                },
+                {
+                    "id": "BSCC-1951-126-14-A1513",
+                    "short_id": "A1513"
+                },
+                {
+                    "id": "BSCC-1951-126-14-A1556",
+                    "short_id": "A1556"
+                },
+                {
+                    "id": "BSCC-1951-126-14-A1603",
+                    "short_id": "A1603"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-14-C784",
+                    "short_id": "C784"
+                },
+                {
+                    "id": "BSCC-1951-126-14-C793",
+                    "short_id": "C793"
+                },
+                {
+                    "id": "BSCC-1951-126-14-C797",
+                    "short_id": "C797"
+                },
+                {
+                    "id": "BSCC-1951-126-14-C808",
+                    "short_id": "C808"
+                },
+                {
+                    "id": "BSCC-1951-126-14-C1150",
+                    "short_id": "C1150"
+                },
+                {
+                    "id": "BSCC-1951-126-14-C1391",
+                    "short_id": "C1391"
+                }
+            ],
+            "description": "The swiss company B302 trades with the british company A491 and A1007 and A1513 and A1556 and A1603 in the goods C784 and C793 and C797 and C808 and C1150 and C1391"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gummi Hug AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 38, Lindenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-15-B362",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "362. Imex S.A., 8, rue Ph. Plantamour, Geneva. A 31, 327, 1091, 1535, 1788, 1789, 1798, 1800, C 554, 568, 584, 592, 593, 601. 606, 621, 633, 634, 636, 642.",
+        "corrected": "362. Imex S.A., 8, rue Ph. Plantamour, Geneva.A 31, 327, 1091, 1535, 1788, 1789, 1798, 1800, C 554, 568, 584, 592, 593, 601. 606, 621, 633, 634, 636, 642"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1238,1277,115/max/0/default.jpg",
+            "xywh": "185, 1238, 1277, 115"
+        }
+    },
+    "short_id": "B362",
+    "label": "Imex S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-15-A31",
+                    "short_id": "A31"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A327",
+                    "short_id": "A327"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1091",
+                    "short_id": "A1091"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1535",
+                    "short_id": "A1535"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1788",
+                    "short_id": "A1788"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1789",
+                    "short_id": "A1789"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1798",
+                    "short_id": "A1798"
+                },
+                {
+                    "id": "BSCC-1951-128-15-A1800",
+                    "short_id": "A1800"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-15-C554",
+                    "short_id": "C554"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C568",
+                    "short_id": "C568"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C584",
+                    "short_id": "C584"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C592",
+                    "short_id": "C592"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C593",
+                    "short_id": "C593"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C601606",
+                    "short_id": "C601606"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C621",
+                    "short_id": "C621"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C633",
+                    "short_id": "C633"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C634",
+                    "short_id": "C634"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C636",
+                    "short_id": "C636"
+                },
+                {
+                    "id": "BSCC-1951-128-15-C642",
+                    "short_id": "C642"
+                }
+            ],
+            "description": "The swiss company B362 trades with the british company A31 and A327 and A1091 and A1535 and A1788 and A1789 and A1798 and A1800 in the goods C554 and C568 and C584 and C592 and C593 and C601606 and C621 and C633 and C634 and C636 and C642"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Imex S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 8, rue Ph. Plantamour, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-45-A580",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "580. Doniger (M.) Ltd., Manchester. B 192, C 1199, 1206.",
+        "corrected": "580. Doniger (M.) Ltd., Manchester. B 192, C 1199, 1206"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,2095,1111,39/max/0/default.jpg",
+            "xywh": "192, 2095, 1111, 39"
+        }
+    },
+    "short_id": "A580",
+    "label": "Doniger (M.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-45-B192",
+                    "short_id": "B192"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-45-C1199",
+                    "short_id": "C1199"
+                },
+                {
+                    "id": "BSCC-1951-38-45-C1206",
+                    "short_id": "C1206"
+                }
+            ],
+            "description": "The british company A580 trades with the swiss company B192 in the goods C1199 and C1206"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Doniger (M.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

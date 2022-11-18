@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-10-B416",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "416. Koenig (Dr. Ing. M.), 8, Tiefenhöfe, Zurich. A 27, 118, 468, 1264, 1308, 1834, 2024, C 156, 403, 582, 604, 643, 650, 676. 680, 761, 1265.",
+        "corrected": "416. Koenig (Dr. Ing. M.), 8, Tiefenhöfe, Zurich.A 27, 118, 468, 1264, 1308, 1834, 2024, C 156, 403, 582, 604, 643, 650, 676. 680, 761, 1265"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,666,1294,117/max/0/default.jpg",
+            "xywh": "162, 666, 1294, 117"
+        }
+    },
+    "short_id": "B416",
+    "label": "Koenig (Dr. Ing. M.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-10-A27",
+                    "short_id": "A27"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A118",
+                    "short_id": "A118"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A468",
+                    "short_id": "A468"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A1264",
+                    "short_id": "A1264"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A1308",
+                    "short_id": "A1308"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A1834",
+                    "short_id": "A1834"
+                },
+                {
+                    "id": "BSCC-1951-130-10-A2024",
+                    "short_id": "A2024"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-10-C156",
+                    "short_id": "C156"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C403",
+                    "short_id": "C403"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C582",
+                    "short_id": "C582"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C604",
+                    "short_id": "C604"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C643",
+                    "short_id": "C643"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C650",
+                    "short_id": "C650"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C676680",
+                    "short_id": "C676680"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C761",
+                    "short_id": "C761"
+                },
+                {
+                    "id": "BSCC-1951-130-10-C1265",
+                    "short_id": "C1265"
+                }
+            ],
+            "description": "The swiss company B416 trades with the british company A27 and A118 and A468 and A1264 and A1308 and A1834 and A2024 in the goods C156 and C403 and C582 and C604 and C643 and C650 and C676680 and C761 and C1265"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Koenig (Dr. Ing. M.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "8, Tiefenhöfe, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

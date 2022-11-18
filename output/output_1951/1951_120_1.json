@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-1-B107",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "107. Brack (William), 18, rue de la Confédération, Geneva. A 866, 1509, C 1399, 1400.",
+        "corrected": "107. Brack (William), 18, rue de la Confédération, Geneva.A 866, 1509, C 1399, 1400"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,322,1348,80/max/0/default.jpg",
+            "xywh": "159, 322, 1348, 80"
+        }
+    },
+    "short_id": "B107",
+    "label": "Brack (William)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-1-A866",
+                    "short_id": "A866"
+                },
+                {
+                    "id": "BSCC-1951-120-1-A1509",
+                    "short_id": "A1509"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-1-C1399",
+                    "short_id": "C1399"
+                },
+                {
+                    "id": "BSCC-1951-120-1-C1400",
+                    "short_id": "C1400"
+                }
+            ],
+            "description": "The swiss company B107 trades with the british company A866 and A1509 in the goods C1399 and C1400"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brack (William)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "18, rue de la Confédération, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

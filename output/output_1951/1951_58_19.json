@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-19-A1007",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1007. Ioco Ltd., Anniesland, Glasgow. B 302, C 784, 797, 1150; B 818, C 506.",
+        "corrected": "1007. Ioco Ltd., Anniesland, Glasgow. B 302, C 784, 797, 1150; B 818, C 506"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,1114,1267,41/max/0/default.jpg",
+            "xywh": "165, 1114, 1267, 41"
+        }
+    },
+    "short_id": "A1007",
+    "label": "Ioco Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-19-B302",
+                    "short_id": "B302"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-19-C784",
+                    "short_id": "C784"
+                },
+                {
+                    "id": "BSCC-1951-58-19-C797",
+                    "short_id": "C797"
+                },
+                {
+                    "id": "BSCC-1951-58-19-C1150",
+                    "short_id": "C1150"
+                }
+            ],
+            "description": "The british company A1007 trades with the swiss company B302 in the goods C784 and C797 and C1150"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-19-B818",
+                    "short_id": "B818"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-19-C506",
+                    "short_id": "C506"
+                }
+            ],
+            "description": "The british company A1007 trades with the swiss company B818 in the goods C506"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ioco Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657280",
+            "lat": "55.8914",
+            "lng": "-4.32144",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Anniesland",
+            "transcription": " Anniesland, Glasgow. "
+        },
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Anniesland, Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

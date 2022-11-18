@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-0-B466",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "466. Marti (E.) & Co., 10, Spitalgasse, Langenthal. A 176, 512, C 469, 473, 827, 829.",
+        "corrected": "466. Marti (E.) & Co., 10, Spitalgasse, Langenthal.A 176, 512, C 469, 473, 827, 829"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,181,1311,128/max/0/default.jpg",
+            "xywh": "167, 181, 1311, 128"
+        }
+    },
+    "short_id": "B466",
+    "label": "Marti (E.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-0-A176",
+                    "short_id": "A176"
+                },
+                {
+                    "id": "BSCC-1951-132-0-A512",
+                    "short_id": "A512"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-0-C469",
+                    "short_id": "C469"
+                },
+                {
+                    "id": "BSCC-1951-132-0-C473",
+                    "short_id": "C473"
+                },
+                {
+                    "id": "BSCC-1951-132-0-C827",
+                    "short_id": "C827"
+                },
+                {
+                    "id": "BSCC-1951-132-0-C829",
+                    "short_id": "C829"
+                }
+            ],
+            "description": "The swiss company B466 trades with the british company A176 and A512 in the goods C469 and C473 and C827 and C829"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Marti (E.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660034",
+            "lat": "47.21526",
+            "lng": "7.79607",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Langenthal",
+            "transcription": ", 10, Spitalgasse, Langenthal."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

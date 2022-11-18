@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-34-C496",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "496. Commutators. A 2080, B 782.",
+        "corrected": "496. Commutators. A 2080, B 782"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,1883,1332,40/max/0/default.jpg",
+            "xywh": "142, 1883, 1332, 40"
+        }
+    },
+    "short_id": "C496",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-34-A2080",
+                    "short_id": "A2080"
+                },
+                {
+                    "id": "BSCC-1951-164-34-B782",
+                    "short_id": "B782"
+                }
+            ],
+            "description": "with the british company A2080"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

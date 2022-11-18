@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-9-B10",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "10. Aeromnium S.A., 5, rue du Marché, Geneva. A 30, 550, 590, 1514, 1714, 1757, C 595, 639, 640, 644, 647, 649, 651.",
+        "corrected": "10. Aeromnium S.A., 5, rue du Marché, Geneva.A 30, 550, 590, 1514, 1714, 1757, C 595, 639, 640, 644, 647, 649, 651"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,723,1350,76/max/0/default.jpg",
+            "xywh": "278, 723, 1350, 76"
+        }
+    },
+    "short_id": "B10",
+    "label": "Aeromnium S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-9-A30",
+                    "short_id": "A30"
+                },
+                {
+                    "id": "BSCC-1951-117-9-A550",
+                    "short_id": "A550"
+                },
+                {
+                    "id": "BSCC-1951-117-9-A590",
+                    "short_id": "A590"
+                },
+                {
+                    "id": "BSCC-1951-117-9-A1514",
+                    "short_id": "A1514"
+                },
+                {
+                    "id": "BSCC-1951-117-9-A1714",
+                    "short_id": "A1714"
+                },
+                {
+                    "id": "BSCC-1951-117-9-A1757",
+                    "short_id": "A1757"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-9-C595",
+                    "short_id": "C595"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C639",
+                    "short_id": "C639"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C640",
+                    "short_id": "C640"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C644",
+                    "short_id": "C644"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C647",
+                    "short_id": "C647"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C649",
+                    "short_id": "C649"
+                },
+                {
+                    "id": "BSCC-1951-117-9-C651",
+                    "short_id": "C651"
+                }
+            ],
+            "description": "The swiss company B10 trades with the british company A30 and A550 and A590 and A1514 and A1714 and A1757 in the goods C595 and C639 and C640 and C644 and C647 and C649 and C651"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aeromnium S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 5, rue du Marché, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

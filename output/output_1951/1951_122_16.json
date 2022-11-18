@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-16-B182",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "182. Dreifuss-Guggenheim & Cie., 19, Bärenfelserstrasse, Basle. A 1399, C 688.",
+        "corrected": "182. Dreifuss-Guggenheim & Cie., 19, Bärenfelserstrasse, Basle. A 1399, C 688"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,1229,1285,40/max/0/default.jpg",
+            "xywh": "169, 1229, 1285, 40"
+        }
+    },
+    "short_id": "B182",
+    "label": "Dreifuss-Guggenheim & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-16-A1399",
+                    "short_id": "A1399"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-16-C688",
+                    "short_id": "C688"
+                }
+            ],
+            "description": "The swiss company B182 trades with the british company A1399 in the goods C688"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dreifuss-Guggenheim & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 19, Bärenfelserstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

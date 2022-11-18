@@ -1,0 +1,132 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-23-B311",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "311. Haller (Albert), 37, rue Liotard, Geneva. A 400, 526, 604, 746, 948, 2130, C 1115, 1120, 1127, 1142, 1151, 1157, 1179, 1182, 1186.",
+        "corrected": "311. Haller (Albert), 37, rue Liotard, Geneva.A 400, 526, 604, 746, 948, 2130, C 1115, 1120, 1127, 1142, 1151, 1157, 1179, 1182, 1186"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1829,1299,118/max/0/default.jpg",
+            "xywh": "175, 1829, 1299, 118"
+        }
+    },
+    "short_id": "B311",
+    "label": "Haller (Albert)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-23-A400",
+                    "short_id": "A400"
+                },
+                {
+                    "id": "BSCC-1951-126-23-A526",
+                    "short_id": "A526"
+                },
+                {
+                    "id": "BSCC-1951-126-23-A604",
+                    "short_id": "A604"
+                },
+                {
+                    "id": "BSCC-1951-126-23-A746",
+                    "short_id": "A746"
+                },
+                {
+                    "id": "BSCC-1951-126-23-A948",
+                    "short_id": "A948"
+                },
+                {
+                    "id": "BSCC-1951-126-23-A2130",
+                    "short_id": "A2130"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-23-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1120",
+                    "short_id": "C1120"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1127",
+                    "short_id": "C1127"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1142",
+                    "short_id": "C1142"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1151",
+                    "short_id": "C1151"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1179",
+                    "short_id": "C1179"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1182",
+                    "short_id": "C1182"
+                },
+                {
+                    "id": "BSCC-1951-126-23-C1186",
+                    "short_id": "C1186"
+                }
+            ],
+            "description": "The swiss company B311 trades with the british company A400 and A526 and A604 and A746 and A948 and A2130 in the goods C1115 and C1120 and C1127 and C1142 and C1151 and C1157 and C1179 and C1182 and C1186"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Haller (Albert)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "37, rue Liotard, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

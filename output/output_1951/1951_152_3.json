@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-3-C2",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2. Cocoa beans. A 678, 727, 802, 1990, B 431, 683.",
+        "corrected": "2. Cocoa beans. A 678, 727, 802, 1990, B 431, 683"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,417,1293,39/max/0/default.jpg",
+            "xywh": "202, 417, 1293, 39"
+        }
+    },
+    "short_id": "C2",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-3-A678",
+                    "short_id": "A678"
+                },
+                {
+                    "id": "BSCC-1951-152-3-A727",
+                    "short_id": "A727"
+                },
+                {
+                    "id": "BSCC-1951-152-3-A802",
+                    "short_id": "A802"
+                },
+                {
+                    "id": "BSCC-1951-152-3-A1990",
+                    "short_id": "A1990"
+                },
+                {
+                    "id": "BSCC-1951-152-3-B431",
+                    "short_id": "B431"
+                },
+                {
+                    "id": "BSCC-1951-152-3-B683",
+                    "short_id": "B683"
+                }
+            ],
+            "description": "with the british company A678 and A727 and A802 and A1990 and B683"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

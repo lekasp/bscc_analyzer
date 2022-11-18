@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-15-B594",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "594. Raphael (Jules), 27, avenue de Rumine, Lausanne. A 1218, 1566, C 1157, 1160, 1192.",
+        "corrected": "594. Raphael (Jules), 27, avenue de Rumine, Lausanne.A 1218, 1566, C 1157, 1160, 1192"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,1380,1317,80/max/0/default.jpg",
+            "xywh": "183, 1380, 1317, 80"
+        }
+    },
+    "short_id": "B594",
+    "label": "Raphael (Jules)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-15-A1218",
+                    "short_id": "A1218"
+                },
+                {
+                    "id": "BSCC-1951-136-15-A1566",
+                    "short_id": "A1566"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-15-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-136-15-C1160",
+                    "short_id": "C1160"
+                },
+                {
+                    "id": "BSCC-1951-136-15-C1192",
+                    "short_id": "C1192"
+                }
+            ],
+            "description": "The swiss company B594 trades with the british company A1218 and A1566 in the goods C1157 and C1160 and C1192"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Raphael (Jules)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "27, avenue de Rumine, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

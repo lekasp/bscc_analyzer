@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-43-A223",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿223. Blond Bros., Cheetham, Manchester. B 699, C 1209.",
+        "corrected": "223. Blond Bros., Cheetham, Manchester. B 699, C 1209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,1940,1260,38/max/0/default.jpg",
+            "xywh": "205, 1940, 1260, 38"
+        }
+    },
+    "short_id": "A223",
+    "label": "Blond Bros.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-43-B699",
+                    "short_id": "B699"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-43-C1209",
+                    "short_id": "C1209"
+                }
+            ],
+            "description": "The british company A223 trades with the swiss company B699 in the goods C1209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blond Bros."
+        }
+    ],
+    "location": [
+        {
+            "id": "6691216",
+            "lat": "53.49862",
+            "lng": "-2.23846",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cheetham Hill",
+            "transcription": " Cheetham, Manchester. "
+        },
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Cheetham, Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

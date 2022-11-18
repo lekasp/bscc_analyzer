@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-23-C1459",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1459. Travel organisations. A 467, B 787.",
+        "corrected": "1459. Travel organisations. A 467, B 787"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1698,1257,71/max/0/default.jpg",
+            "xywh": "222, 1698, 1257, 71"
+        }
+    },
+    "short_id": "C1459",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-23-A467",
+                    "short_id": "A467"
+                },
+                {
+                    "id": "BSCC-1951-192-23-B787",
+                    "short_id": "B787"
+                }
+            ],
+            "description": "with the british company A467"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

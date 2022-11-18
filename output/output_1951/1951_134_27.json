@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-27-B548",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "548. Orvent AG., 60, Dufourstrasse, Zollikon (Zurich). A 2149, C 905, 936, 941, 1006.",
+        "corrected": "548. Orvent AG., 60, Dufourstrasse, Zollikon (Zurich).A 2149, C 905, 936, 941, 1006"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,2052,1276,77/max/0/default.jpg",
+            "xywh": "187, 2052, 1276, 77"
+        }
+    },
+    "short_id": "B548",
+    "label": "Orvent AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-27-A2149",
+                    "short_id": "A2149"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-27-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-134-27-C936",
+                    "short_id": "C936"
+                },
+                {
+                    "id": "BSCC-1951-134-27-C941",
+                    "short_id": "C941"
+                },
+                {
+                    "id": "BSCC-1951-134-27-C1006",
+                    "short_id": "C1006"
+                }
+            ],
+            "description": "The swiss company B548 trades with the british company A2149 in the goods C905 and C936 and C941 and C1006"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Orvent AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657912",
+            "lat": "47.34019",
+            "lng": "8.57407",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zollikon",
+            "transcription": " 60, Dufourstrasse, Zollikon (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

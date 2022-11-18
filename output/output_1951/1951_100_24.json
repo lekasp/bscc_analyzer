@@ -1,0 +1,107 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-24-A2120",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2120. Wickman (A. C.) Ltd., Coventry. B 646, C 179, 201; B 704, C 100, 394, 435.",
+        "corrected": "2120. Wickman (A. C.) Ltd., Coventry. B 646, C 179, 201; B 704, C 100, 394, 435"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,1231,1286,40/max/0/default.jpg",
+            "xywh": "176, 1231, 1286, 40"
+        }
+    },
+    "short_id": "A2120",
+    "label": "Wickman (A. C.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-24-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-24-C179",
+                    "short_id": "C179"
+                },
+                {
+                    "id": "BSCC-1951-100-24-C201",
+                    "short_id": "C201"
+                }
+            ],
+            "description": "The british company A2120 trades with the swiss company B646 in the goods C179 and C201"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-24-B704",
+                    "short_id": "B704"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-24-C100",
+                    "short_id": "C100"
+                },
+                {
+                    "id": "BSCC-1951-100-24-C394",
+                    "short_id": "C394"
+                },
+                {
+                    "id": "BSCC-1951-100-24-C435",
+                    "short_id": "C435"
+                }
+            ],
+            "description": "The british company A2120 trades with the swiss company B704 in the goods C100 and C394 and C435"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wickman (A. C.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652221",
+            "lat": "52.40656",
+            "lng": "-1.51217",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coventry",
+            "transcription": " Coventry. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-4-A1436",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1436. Novalam Furs Ltd., London EC 4. B 510, C 838. Nuffield Exports Ltd. — see individual manufacturers.",
+        "corrected": "1436. Novalam Furs Ltd., London EC 4. B 510, C 838.Nuffield Exports Ltd. — see individual manufacturers"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,414,1263,77/max/0/default.jpg",
+            "xywh": "180, 414, 1263, 77"
+        }
+    },
+    "short_id": "A1436",
+    "label": "Novalam Furs Ltd., London EC 4. Nuffield Exports Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-4-B510",
+                    "short_id": "B510"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-4-C838",
+                    "short_id": "C838"
+                }
+            ],
+            "description": "The british company A1436 trades with the swiss company B510 in the goods C838"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Novalam Furs Ltd., London EC 4. Nuffield Exports Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " — see individual manufacturers"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

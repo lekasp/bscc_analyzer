@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-92-1951-3-A1745",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1745. Shaw (John) & Sons Ltd., Honley, Huddersfield. B 443, C 287, 294.",
+        "corrected": "1745. Shaw (John) & Sons Ltd., Honley, Huddersfield. B 443, C 287, 294"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 92,
+            "canvas": "http://localhost:8182/iiif/3/0092.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0092.jpg/190,366,1276,40/max/0/default.jpg",
+            "xywh": "190, 366, 1276, 40"
+        }
+    },
+    "short_id": "A1745",
+    "label": "Shaw (John) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-92-3-B443",
+                    "short_id": "B443"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-92-3-C287",
+                    "short_id": "C287"
+                },
+                {
+                    "id": "BSCC-1951-92-3-C294",
+                    "short_id": "C294"
+                }
+            ],
+            "description": "The british company A1745 trades with the swiss company B443 in the goods C287 and C294"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Shaw (John) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646657",
+            "lat": "53.60264",
+            "lng": "-1.79393",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Honley",
+            "transcription": " Honley, Huddersfield. "
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Honley, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

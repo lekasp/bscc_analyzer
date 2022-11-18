@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-3-A231a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "231a. Boneham & Turner Ltd., Mansfield, Notts. B 701a, C 202a.",
+        "corrected": "231a. Boneham & Turner Ltd., Mansfield, Notts. B 701a, C 202a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,400,1252,40/max/0/default.jpg",
+            "xywh": "194, 400, 1252, 40"
+        }
+    },
+    "short_id": "A231a",
+    "label": "Boneham & Turner Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-3-B701a",
+                    "short_id": "B701a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-3-C202a",
+                    "short_id": "C202a"
+                }
+            ],
+            "description": "The british company A231a trades with the swiss company B701a in the goods C202a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Boneham & Turner Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643097",
+            "lat": "53.13333",
+            "lng": "-1.2",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Mansfield",
+            "transcription": " Mansfield, Notts. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

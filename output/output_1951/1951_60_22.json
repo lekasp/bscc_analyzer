@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-60-1951-22-A1053",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1053. Kay’s Industries Ltd., London W 5. B 817, C 1024.",
+        "corrected": "1053. Kay’s Industries Ltd., London W 5. B 817, C 1024"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 60,
+            "canvas": "http://localhost:8182/iiif/3/0060.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0060.jpg/175,1481,1270,40/max/0/default.jpg",
+            "xywh": "175, 1481, 1270, 40"
+        }
+    },
+    "short_id": "A1053",
+    "label": "Kay’s Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-60-22-B817",
+                    "short_id": "B817"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-60-22-C1024",
+                    "short_id": "C1024"
+                }
+            ],
+            "description": "The british company A1053 trades with the swiss company B817 in the goods C1024"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kay’s Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 5. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

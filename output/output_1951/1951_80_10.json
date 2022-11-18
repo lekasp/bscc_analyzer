@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-10-A1479",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1479. Parker (Frederick) Ltd., Leicester. B 562, C 344, 350.",
+        "corrected": "1479. Parker (Frederick) Ltd., Leicester. B 562, C 344, 350"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,642,1303,37/max/0/default.jpg",
+            "xywh": "200, 642, 1303, 37"
+        }
+    },
+    "short_id": "A1479",
+    "label": "Parker (Frederick) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-10-B562",
+                    "short_id": "B562"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-10-C344",
+                    "short_id": "C344"
+                },
+                {
+                    "id": "BSCC-1951-80-10-C350",
+                    "short_id": "C350"
+                }
+            ],
+            "description": "The british company A1479 trades with the swiss company B562 in the goods C344 and C350"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Parker (Frederick) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

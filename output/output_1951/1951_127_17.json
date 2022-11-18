@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-17-B333",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 333. Hirsch (Fritz), 8, General-Wille-Strasse, Zurich. A 932, 1447, 1704, 1796, 1856, C 1074, 1117, 1120, 1147, 1152, 1247.",
+        "corrected": "333. Hirsch (Fritz), 8, General-Wille-Strasse, Zurich.A 932, 1447, 1704, 1796, 1856, C 1074, 1117, 1120, 1147, 1152, 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,1241,1233,81/max/0/default.jpg",
+            "xywh": "316, 1241, 1233, 81"
+        }
+    },
+    "short_id": "B333",
+    "label": "Hirsch (Fritz)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-17-A932",
+                    "short_id": "A932"
+                },
+                {
+                    "id": "BSCC-1951-127-17-A1447",
+                    "short_id": "A1447"
+                },
+                {
+                    "id": "BSCC-1951-127-17-A1704",
+                    "short_id": "A1704"
+                },
+                {
+                    "id": "BSCC-1951-127-17-A1796",
+                    "short_id": "A1796"
+                },
+                {
+                    "id": "BSCC-1951-127-17-A1856",
+                    "short_id": "A1856"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-17-C1074",
+                    "short_id": "C1074"
+                },
+                {
+                    "id": "BSCC-1951-127-17-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-127-17-C1120",
+                    "short_id": "C1120"
+                },
+                {
+                    "id": "BSCC-1951-127-17-C1147",
+                    "short_id": "C1147"
+                },
+                {
+                    "id": "BSCC-1951-127-17-C1152",
+                    "short_id": "C1152"
+                },
+                {
+                    "id": "BSCC-1951-127-17-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The swiss company B333 trades with the british company A932 and A1447 and A1704 and A1796 and A1856 in the goods C1074 and C1117 and C1120 and C1147 and C1152 and C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hirsch (Fritz)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "8, General-Wille-Strasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

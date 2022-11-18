@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-5-C230",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "230. Semi-automatics. A 913, B 646.",
+        "corrected": "230. Semi-automatics. A 913, B 646"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,452,1303,39/max/0/default.jpg",
+            "xywh": "194, 452, 1303, 39"
+        }
+    },
+    "short_id": "C230",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-5-A913",
+                    "short_id": "A913"
+                },
+                {
+                    "id": "BSCC-1951-158-5-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "description": "with the british company A913"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

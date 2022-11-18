@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-33-B667",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "667. Schütz (W.) S.A., 3, avenue Ruchonnet, Lausanne. A 493, C 479, 521.",
+        "corrected": "667. Schütz (W.) S.A., 3, avenue Ruchonnet, Lausanne. A 493, C 479, 521"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,2124,1287,45/max/0/default.jpg",
+            "xywh": "197, 2124, 1287, 45"
+        }
+    },
+    "short_id": "B667",
+    "label": "Schütz (W.) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-33-A493",
+                    "short_id": "A493"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-33-C479",
+                    "short_id": "C479"
+                },
+                {
+                    "id": "BSCC-1951-138-33-C521",
+                    "short_id": "C521"
+                }
+            ],
+            "description": "The swiss company B667 trades with the british company A493 in the goods C479 and C521"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schütz (W.) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 3, avenue Ruchonnet, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

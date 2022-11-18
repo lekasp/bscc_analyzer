@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-18-A292",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "292. British Jeffrey-Diamond Ltd., Wakefield. B 397, C 245, 332, 344.",
+        "corrected": "292. British Jeffrey-Diamond Ltd., Wakefield. B 397, C 245, 332, 344"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1104,1290,38/max/0/default.jpg",
+            "xywh": "189, 1104, 1290, 38"
+        }
+    },
+    "short_id": "A292",
+    "label": "British Jeffrey-Diamond Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-18-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-18-C245",
+                    "short_id": "C245"
+                },
+                {
+                    "id": "BSCC-1951-26-18-C332",
+                    "short_id": "C332"
+                },
+                {
+                    "id": "BSCC-1951-26-18-C344",
+                    "short_id": "C344"
+                }
+            ],
+            "description": "The british company A292 trades with the swiss company B397 in the goods C245 and C332 and C344"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Jeffrey-Diamond Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634910",
+            "lat": "53.68331",
+            "lng": "-1.49768",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wakefield",
+            "transcription": " Wakefield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

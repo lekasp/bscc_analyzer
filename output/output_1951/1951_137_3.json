@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-3-B607",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "607. Rieser (Ing. H.), 24, Dufourstrasse, Berne. A 2024, C 120.",
+        "corrected": "607. Rieser (Ing. H.), 24, Dufourstrasse, Berne. A 2024, C 120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,479,1255,40/max/0/default.jpg",
+            "xywh": "303, 479, 1255, 40"
+        }
+    },
+    "short_id": "B607",
+    "label": "Rieser (Ing. H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-3-A2024",
+                    "short_id": "A2024"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-3-C120",
+                    "short_id": "C120"
+                }
+            ],
+            "description": "The swiss company B607 trades with the british company A2024 in the goods C120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rieser (Ing. H.)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "24, Dufourstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

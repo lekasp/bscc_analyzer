@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-19-A1137",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1137. Lee (M.) & Son Ltd., Redditch. B 234, C 1400.",
+        "corrected": "1137. Lee (M.) & Son Ltd., Redditch. B 234, C 1400"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,1036,1283,38/max/0/default.jpg",
+            "xywh": "195, 1036, 1283, 38"
+        }
+    },
+    "short_id": "A1137",
+    "label": "Lee (M.) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-19-B234",
+                    "short_id": "B234"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-19-C1400",
+                    "short_id": "C1400"
+                }
+            ],
+            "description": "The british company A1137 trades with the swiss company B234 in the goods C1400"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lee (M.) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639557",
+            "lat": "52.3065",
+            "lng": "-1.94569",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redditch",
+            "transcription": " Redditch. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

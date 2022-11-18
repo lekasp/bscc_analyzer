@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-11-C438",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "438. Solder. A 597, 714, 739, 1328, B 197, 249, 434, 563.",
+        "corrected": "438. Solder. A 597, 714, 739, 1328, B 197, 249, 434, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,785,1245,37/max/0/default.jpg",
+            "xywh": "294, 785, 1245, 37"
+        }
+    },
+    "short_id": "C438",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-11-A597",
+                    "short_id": "A597"
+                },
+                {
+                    "id": "BSCC-1951-163-11-A714",
+                    "short_id": "A714"
+                },
+                {
+                    "id": "BSCC-1951-163-11-A739",
+                    "short_id": "A739"
+                },
+                {
+                    "id": "BSCC-1951-163-11-A1328",
+                    "short_id": "A1328"
+                },
+                {
+                    "id": "BSCC-1951-163-11-B197",
+                    "short_id": "B197"
+                },
+                {
+                    "id": "BSCC-1951-163-11-B249",
+                    "short_id": "B249"
+                },
+                {
+                    "id": "BSCC-1951-163-11-B434",
+                    "short_id": "B434"
+                },
+                {
+                    "id": "BSCC-1951-163-11-B563",
+                    "short_id": "B563"
+                }
+            ],
+            "description": "with the british company A597 and A714 and A739 and A1328 and B249 and B434 and B563"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

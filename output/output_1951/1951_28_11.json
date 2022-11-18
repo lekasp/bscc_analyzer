@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-11-A327",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "327. Brooks (J. B.) & Co. Ltd., Birmingham. B 86, C 900; B 362, C 636.",
+        "corrected": "327. Brooks (J. B.) & Co. Ltd., Birmingham. B 86, C 900; B 362, C 636"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,757,1233,37/max/0/default.jpg",
+            "xywh": "228, 757, 1233, 37"
+        }
+    },
+    "short_id": "A327",
+    "label": "Brooks (J. B.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-11-B86",
+                    "short_id": "B86"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-11-C900",
+                    "short_id": "C900"
+                }
+            ],
+            "description": "The british company A327 trades with the swiss company B86 in the goods C900"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-11-B362",
+                    "short_id": "B362"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-11-C636",
+                    "short_id": "C636"
+                }
+            ],
+            "description": "The british company A327 trades with the swiss company B362 in the goods C636"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brooks (J. B.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

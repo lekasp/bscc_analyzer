@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-39-A1828",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1828. Stamm & Partners Ltd., London WC 2. B 42, C 802.",
+        "corrected": "1828. Stamm & Partners Ltd., London WC 2. B 42, C 802"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,1967,1183,38/max/0/default.jpg",
+            "xywh": "355, 1967, 1183, 38"
+        }
+    },
+    "short_id": "A1828",
+    "label": "Stamm & Partners Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-39-B42",
+                    "short_id": "B42"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-39-C802",
+                    "short_id": "C802"
+                }
+            ],
+            "description": "The british company A1828 trades with the swiss company B42 in the goods C802"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stamm & Partners Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London WC 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

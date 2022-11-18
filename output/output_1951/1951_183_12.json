@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-12-C1132",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1132. Cambric. A 1009, 1206, 1286, 1899, B 64, 125, 568, 761.",
+        "corrected": "1132. Cambric. A 1009, 1206, 1286, 1899, B 64, 125, 568, 761"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,936,1290,40/max/0/default.jpg",
+            "xywh": "316, 936, 1290, 40"
+        }
+    },
+    "short_id": "C1132",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-12-A1009",
+                    "short_id": "A1009"
+                },
+                {
+                    "id": "BSCC-1951-183-12-A1206",
+                    "short_id": "A1206"
+                },
+                {
+                    "id": "BSCC-1951-183-12-A1286",
+                    "short_id": "A1286"
+                },
+                {
+                    "id": "BSCC-1951-183-12-A1899",
+                    "short_id": "A1899"
+                },
+                {
+                    "id": "BSCC-1951-183-12-B64",
+                    "short_id": "B64"
+                },
+                {
+                    "id": "BSCC-1951-183-12-B125",
+                    "short_id": "B125"
+                },
+                {
+                    "id": "BSCC-1951-183-12-B568",
+                    "short_id": "B568"
+                },
+                {
+                    "id": "BSCC-1951-183-12-B761",
+                    "short_id": "B761"
+                }
+            ],
+            "description": "with the british company A1009 and A1206 and A1286 and A1899 and B125 and B568 and B761"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

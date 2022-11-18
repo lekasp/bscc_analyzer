@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-15-A919",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "919. Heydemann (N.) & Co. Ltd., Bradford. B 248, C 1088, 1089, 1092, 1093, 1094.",
+        "corrected": "919. Heydemann (N.) & Co. Ltd., Bradford.B 248, C 1088, 1089, 1092, 1093, 1094"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,891,1211,73/max/0/default.jpg",
+            "xywh": "137, 891, 1211, 73"
+        }
+    },
+    "short_id": "A919",
+    "label": "Heydemann (N.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-15-B248",
+                    "short_id": "B248"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-15-C1088",
+                    "short_id": "C1088"
+                },
+                {
+                    "id": "BSCC-1951-54-15-C1089",
+                    "short_id": "C1089"
+                },
+                {
+                    "id": "BSCC-1951-54-15-C1092",
+                    "short_id": "C1092"
+                },
+                {
+                    "id": "BSCC-1951-54-15-C1093",
+                    "short_id": "C1093"
+                },
+                {
+                    "id": "BSCC-1951-54-15-C1094",
+                    "short_id": "C1094"
+                }
+            ],
+            "description": "The british company A919 trades with the swiss company B248 in the goods C1088 and C1089 and C1092 and C1093 and C1094"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Heydemann (N.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

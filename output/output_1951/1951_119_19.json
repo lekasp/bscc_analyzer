@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-19-B90",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "90. Bloch-Wyler (Moritz), 7, Rheinländerstrasse, Basle. A 876, C 147.",
+        "corrected": "90. Bloch-Wyler (Moritz), 7, Rheinländerstrasse, Basle. A 876, C 147"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1315,1336,42/max/0/default.jpg",
+            "xywh": "276, 1315, 1336, 42"
+        }
+    },
+    "short_id": "B90",
+    "label": "Bloch-Wyler (Moritz)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-19-A876",
+                    "short_id": "A876"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-19-C147",
+                    "short_id": "C147"
+                }
+            ],
+            "description": "The swiss company B90 trades with the british company A876 in the goods C147"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bloch-Wyler (Moritz)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "7, Rheinländerstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

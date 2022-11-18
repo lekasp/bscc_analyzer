@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-3-B319a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "319a. Heer & Co. AG., Oberuzwil (St. G.). A 1389a, C 1084.",
+        "corrected": "319a. Heer & Co. AG., Oberuzwil (St. G.). A 1389a, C 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,415,1233,37/max/0/default.jpg",
+            "xywh": "316, 415, 1233, 37"
+        }
+    },
+    "short_id": "B319a",
+    "label": "Heer & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-3-A1389a",
+                    "short_id": "A1389a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-3-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The swiss company B319a trades with the british company A1389a in the goods C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Heer & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659331",
+            "lat": "47.43076",
+            "lng": "9.12724",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oberuzwil",
+            "transcription": " Oberuzwil (St. G.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

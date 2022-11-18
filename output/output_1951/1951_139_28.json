@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-28-B696",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿696. Spengler (R.), 80, Ausstellungsstrasse, Zurich. A 606, 628, 1400, C 105, 121, 124, 186, 364, 388, 391, 471.",
+        "corrected": "696. Spengler (R.), 80, Ausstellungsstrasse, Zurich.A 606, 628, 1400, C 105, 121, 124, 186, 364, 388, 391, 471"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,2005,1319,84/max/0/default.jpg",
+            "xywh": "272, 2005, 1319, 84"
+        }
+    },
+    "short_id": "B696",
+    "label": "Spengler (R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-28-A606",
+                    "short_id": "A606"
+                },
+                {
+                    "id": "BSCC-1951-139-28-A628",
+                    "short_id": "A628"
+                },
+                {
+                    "id": "BSCC-1951-139-28-A1400",
+                    "short_id": "A1400"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-28-C105",
+                    "short_id": "C105"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C121",
+                    "short_id": "C121"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C124",
+                    "short_id": "C124"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C186",
+                    "short_id": "C186"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C364",
+                    "short_id": "C364"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C388",
+                    "short_id": "C388"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C391",
+                    "short_id": "C391"
+                },
+                {
+                    "id": "BSCC-1951-139-28-C471",
+                    "short_id": "C471"
+                }
+            ],
+            "description": "The swiss company B696 trades with the british company A606 and A628 and A1400 in the goods C105 and C121 and C124 and C186 and C364 and C388 and C391 and C471"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Spengler (R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "80, Ausstellungsstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

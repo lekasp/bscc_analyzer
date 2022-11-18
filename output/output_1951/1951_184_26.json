@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-184-1951-26-C1173",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1173. Skirts. A 675, 779, 798, 872, B 93, 368, 612, 619.",
+        "corrected": "1173. Skirts. A 675, 779, 798, 872, B 93, 368, 612, 619"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 184,
+            "canvas": "http://localhost:8182/iiif/3/0184.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0184.jpg/236,1569,1310,57/max/0/default.jpg",
+            "xywh": "236, 1569, 1310, 57"
+        }
+    },
+    "short_id": "C1173",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-184-26-A675",
+                    "short_id": "A675"
+                },
+                {
+                    "id": "BSCC-1951-184-26-A779",
+                    "short_id": "A779"
+                },
+                {
+                    "id": "BSCC-1951-184-26-A798",
+                    "short_id": "A798"
+                },
+                {
+                    "id": "BSCC-1951-184-26-A872",
+                    "short_id": "A872"
+                },
+                {
+                    "id": "BSCC-1951-184-26-B93",
+                    "short_id": "B93"
+                },
+                {
+                    "id": "BSCC-1951-184-26-B368",
+                    "short_id": "B368"
+                },
+                {
+                    "id": "BSCC-1951-184-26-B612",
+                    "short_id": "B612"
+                },
+                {
+                    "id": "BSCC-1951-184-26-B619",
+                    "short_id": "B619"
+                }
+            ],
+            "description": "with the british company A675 and A779 and A798 and A872 and B368 and B612 and B619"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

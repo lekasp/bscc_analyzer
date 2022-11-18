@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-30-A162",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "162. Beasley, French & Co. Ltd., Bristol. B 443, C 276.",
+        "corrected": "162. Beasley, French & Co. Ltd., Bristol. B 443, C 276"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,1463,1238,36/max/0/default.jpg",
+            "xywh": "213, 1463, 1238, 36"
+        }
+    },
+    "short_id": "A162",
+    "label": "Beasley, French & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-30-B443",
+                    "short_id": "B443"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-30-C276",
+                    "short_id": "C276"
+                }
+            ],
+            "description": "The british company A162 trades with the swiss company B443 in the goods C276"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Beasley, French & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654675",
+            "lat": "51.45523",
+            "lng": "-2.59665",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bristol",
+            "transcription": " Bristol. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

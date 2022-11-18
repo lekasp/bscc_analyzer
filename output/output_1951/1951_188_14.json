@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-14-C1302",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1302. Surgical rubber products. A 525, 1152, 1331, 2014, 2072, B 83, 724, 738, 812.",
+        "corrected": "1302. Surgical rubber products.A 525, 1152, 1331, 2014, 2072, B 83, 724, 738, 812"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,794,1281,78/max/0/default.jpg",
+            "xywh": "223, 794, 1281, 78"
+        }
+    },
+    "short_id": "C1302",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-14-A525",
+                    "short_id": "A525"
+                },
+                {
+                    "id": "BSCC-1951-188-14-A1152",
+                    "short_id": "A1152"
+                },
+                {
+                    "id": "BSCC-1951-188-14-A1331",
+                    "short_id": "A1331"
+                },
+                {
+                    "id": "BSCC-1951-188-14-A2014",
+                    "short_id": "A2014"
+                },
+                {
+                    "id": "BSCC-1951-188-14-A2072",
+                    "short_id": "A2072"
+                },
+                {
+                    "id": "BSCC-1951-188-14-B83",
+                    "short_id": "B83"
+                },
+                {
+                    "id": "BSCC-1951-188-14-B724",
+                    "short_id": "B724"
+                },
+                {
+                    "id": "BSCC-1951-188-14-B738",
+                    "short_id": "B738"
+                },
+                {
+                    "id": "BSCC-1951-188-14-B812",
+                    "short_id": "B812"
+                }
+            ],
+            "description": "with the british company A525 and A1152 and A1331 and A2014 and A2072 and B724 and B738 and B812"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

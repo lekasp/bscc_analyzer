@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-16-B393",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 393. Keller (J. H.) AG., 30/32, Neumühlequai, Zurich. + A 109, 1311, 1362, 1637, 2159, C 562, 563, 639.",
+        "corrected": "393. Keller (J. H.) AG., 30/32, Neumühlequai, Zurich.+ A 109, 1311, 1362, 1637, 2159, C 562, 563, 639"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1352,1292,83/max/0/default.jpg",
+            "xywh": "294, 1352, 1292, 83"
+        }
+    },
+    "short_id": "B393",
+    "label": "Keller (J. H.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-16-A109",
+                    "short_id": "A109"
+                },
+                {
+                    "id": "BSCC-1951-129-16-A1311",
+                    "short_id": "A1311"
+                },
+                {
+                    "id": "BSCC-1951-129-16-A1362",
+                    "short_id": "A1362"
+                },
+                {
+                    "id": "BSCC-1951-129-16-A1637",
+                    "short_id": "A1637"
+                },
+                {
+                    "id": "BSCC-1951-129-16-A2159",
+                    "short_id": "A2159"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-16-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-129-16-C563",
+                    "short_id": "C563"
+                },
+                {
+                    "id": "BSCC-1951-129-16-C639",
+                    "short_id": "C639"
+                }
+            ],
+            "description": "The swiss company B393 trades with the british company A109 and A1311 and A1362 and A1637 and A2159 in the goods C562 and C563 and C639"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Keller (J. H.) AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 30/32, Neumühlequai, Zurich.+ "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

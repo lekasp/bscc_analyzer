@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-0-A813",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "813. Grayson’s Overseas Co., Wolverhampton. B 475, C 108, 114. 150.",
+        "corrected": "813. Grayson’s Overseas Co., Wolverhampton. B 475, C 108, 114. 150"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,181,1261,89/max/0/default.jpg",
+            "xywh": "153, 181, 1261, 89"
+        }
+    },
+    "short_id": "A813",
+    "label": "Grayson’s Overseas Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-0-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-0-C108",
+                    "short_id": "C108"
+                },
+                {
+                    "id": "BSCC-1951-50-0-C114150",
+                    "short_id": "C114150"
+                }
+            ],
+            "description": "The british company A813 trades with the swiss company B475 in the goods C108 and C114150"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Grayson’s Overseas Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633691",
+            "lat": "52.58547",
+            "lng": "-2.12296",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolverhampton",
+            "transcription": ", Wolverhampton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

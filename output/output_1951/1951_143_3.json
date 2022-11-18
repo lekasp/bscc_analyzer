@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-3-B786",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "786. Waetjen (C. H.), Lubrifiants Macmillan S.A., 6, rue du Rhône, Geneva. A 566, 1952, C 64, 575, 581.",
+        "corrected": "786. Waetjen (C. H.), Lubrifiants Macmillan S.A., 6, rue du Rhône, Geneva.A 566, 1952, C 64, 575, 581"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,522,1304,78/max/0/default.jpg",
+            "xywh": "297, 522, 1304, 78"
+        }
+    },
+    "short_id": "B786",
+    "label": "Waetjen (C. H.), Lubrifiants Macmillan S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-3-A566",
+                    "short_id": "A566"
+                },
+                {
+                    "id": "BSCC-1951-143-3-A1952",
+                    "short_id": "A1952"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-3-C64",
+                    "short_id": "C64"
+                },
+                {
+                    "id": "BSCC-1951-143-3-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-143-3-C581",
+                    "short_id": "C581"
+                }
+            ],
+            "description": "The swiss company B786 trades with the british company A566 and A1952 in the goods C64 and C575 and C581"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waetjen (C. H.), Lubrifiants Macmillan S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 6, rue du Rhône, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

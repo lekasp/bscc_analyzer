@@ -1,0 +1,64 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-10-C403",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "403. Riveting machines. A 27, 118, B 416.",
+        "corrected": "403. Riveting machines. A 27, 118, B 416"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,632,1336,39/max/0/default.jpg",
+            "xywh": "172, 632, 1336, 39"
+        }
+    },
+    "short_id": "C403",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-10-A27",
+                    "short_id": "A27"
+                },
+                {
+                    "id": "BSCC-1951-162-10-A118",
+                    "short_id": "A118"
+                },
+                {
+                    "id": "BSCC-1951-162-10-B416",
+                    "short_id": "B416"
+                }
+            ],
+            "description": "with the british company A27 and A118"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

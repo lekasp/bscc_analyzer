@@ -1,0 +1,184 @@
+page	line	text
+184	3	D. Garments
+184	4	a) OUTERWEAR:— 1. GENERAL
+184	9	2. MEN'S
+184	17	3. LADIES'
+184	27	4. CHILDREN'S
+184	29	b) UNDERWEAR
+192	8	22. Tobacco and Smokers' Requisites
+192	18	23. Travel and Transport
+192	24	24. Finance, Insurance, Publicity, General Trading
+188	20	18. Catering Equipment, Domestic Articles, Furni¬ture, Toilet Requisites
+188	21	A. Domestic and Catering Machines and Appliances
+167	34	D. Garage Equipment
+167	35	See also: “ Electrical Equipment" (5. A.),"General Engineering Equipment" (4. E.)
+171	0	C. Heating, Ventilation, Water Circulation
+171	1	See also: “General Engineering Equipment" (4. E.), "Measuring, Control andScientific Instruments" (7. B.)
+171	17	D. Gas Appliances
+171	23	E. Hardware and Ironmongery
+171	24	See also: Sub-section A, and “ Haberdashery" (15. F.).For Insulating Materials see: “ Electrical Equipment and Supplies" (5. A.)
+62	2	1074. Kerr (John) & Co., Kirkby Trading Estate, ur Liverpool. B 273,C 703. 714
+62	3	1075. Kershaw (Hugh) & Sons Ltd., Mossley, Manchester. B 657. C1256
+170	13	8. Building Materials and Fittings, SanitaryEquipment, Heating, Ventilation, Gas and Water Circulation, Hardware and Ironmongery
+170	14	A. Building Materials and Fittings
+170	15	See also: “ Asbestos" (9. C.)
+170	35	B. Sanitary Equipment
+170	36	See also: Sub-section C
+189	0	B. Furniture
+189	8	C. Sundry Domestic Goods
+189	9	See also: "Hardware and Ironmongery" (8. E.), “ Rubber Products, domestic'(9. A. d))
+189	20	D. Toilet Requisites
+189	21	See also: “ Cosmetics and Perfumery" (11. C.)
+189	32	19. Ceramics and Glassware
+189	33	A. Ceramic Products
+189	34	See also: "Electrical Equipment and Supplies" (5. A.), “ Sanitary Equipment"'(8. B.)
+166	9	D. Communications
+166	17	6. Vehicles and Accessories, Aircraft
+166	18	A. Motor Cars
+166	20	B. Commercial Vehicles
+166	26	C. Motor Vehicle Accessories and Components
+185	0	C) HOSIERY, KNITWEAR, SWIMWEAR
+185	7	1189. Pullovers — see “ Knitted Outerwear" “ Cashmere Outerwear"
+185	14	d) HATS, GLOVES, NECKWEAR, ETC
+185	31	E. Other Finished Textile Products
+161	28	D. Tools
+177	10	C. Cosmetics, Perfumery
+177	11	See also: “ Domestic Articles — Toilet Requisites" (18. D.)
+177	24	12. Paints, Varnishes, Cleaning and other Compounds
+177	25	A. Paints, Colours, etc., and Supplies for the Paint Industry
+177	26	See also:“ Raw Materials" (2. D.), "Toys and Games" (21. B.)
+182	0	f) SILK
+182	2	g) VARIOUS
+182	4	Elastic. A 622, B 784.1105a
+182	7	C. Piece Goods
+182	8	a) COTTON
+182	9	FABRICS, GENERAL.1108. A 102, 142, 735, 888, 954, 1259, 1367, 1463, 1611, 1741, 1864, 1930, 1939, 2119, 2165 - B 93, 112, 186, 227, 320, 324, 325, 452, 635, 642, 674, 743,788, 802, 804
+182	18	D) WOOLLENS AND WORSTEDS
+44	45	718. Ford Motor Co. Ltd., Dagenham. — no main agent for Switzerland. Distri¬butors in principal centres. Names will be furnished on request. C 562, 563
+156	29	C. Unspecified
+156	37	4. Machines and Engineering Equipment
+156	38	A. Machine Tools and Attachments
+183	10	C) LINEN
+183	15	d) SILK, RAYON AND NYLON
+183	23	e) UNSPECIFIED AND VARIOUS
+176	2	11. Chemicals, Pharmaceuticals, Cosmetics andPerfumery
+176	3	A. Chemicals
+176	4	See also: "Fuel, Oils and Fats, Raw Materials" (2.), “ Photographic Equipmentand Supplies" (16. B.), “ Paints, Colours, etc." (12. A.)
+176	33	B. Pharmaceuticals
+160	15	1) OTHER INDUSTRIES AND TRADES
+160	35	C. Construction and Mechanical Handling Equipment
+160	36	See also: "Technical Rubber Products" (9. A. c)) and "Technical LeatherProducts" (10. D.)
+159	8	C) PAPER MANUFACTURE
+159	16	d) PRINTING
+159	17	See also: "Technical Rubber Products" (9. A. c))
+159	36	e) TEXTILES
+175	3	B. Footwear
+175	4	See also:“ Rubber Products; Footwear" (9. A. e.)
+175	12	C. Footwear Components and Accessories, Shoemakers' Supplies
+175	13	See also:“ Rubber Products; Footwear" (9. A. e.)
+175	30	D. Technical Leather Products, Tanning Supplies
+175	37	E. Travel and other Leather Goods
+163	0	C) ABRASIVES
+163	8	d) WELDING AND SOLDERING
+163	18	e) PUMPS, VALVES, PNEUMATIC EQUIPMENT
+163	28	f) SUNDRY EQUIPMENT
+163	29	See also: “Hardware and Ironmongery" (8. E.)
+155	14	D) IRON AND STEEL PRODUCTS
+155	15	See also: " Machine and Engineering Equipment" (4.);"Building Materials, etc." (8.)
+155	34	B. Alloys and Non-Ferrous Metals
+179	26	B. Various Stationery Products, Artists' Materials
+179	27	See also: “ Paints, Colours, etc." (12. A.)
+179	35	C. Publications
+180	0	14. Office Equipment and Appliances
+180	1	See also:“ Paper, Stationery, Artists' Materials, etc." (13.)
+180	27	15. Textiles, Clothing, Carpets, etc
+180	29	A. Textile Raw Materials
+181	3	B. Yarns, Thread, Knitting Wools
+181	4	a) COTTON
+181	5	YARN, GENERAL.1084. A 64, 373, 382, 457, 513, 570, 814, 881, 882, 897, 902, 918, 957, 1010, 1049, 1228, 1260, 1266, 1284, 1385, 1389a, 1449, 1458, 1892, 1947, 2121 -B 112, 125, 202, 221, 242, 248, 319a, 341, 426, 539, 540, 642, 665, 730, 754, 783, 810, 842, 848
+181	9	b) WOOL
+181	19	C) LINEN
+181	23	d) RAYON
+181	29	e) NYLON
+178	7	B. Protective Compounds, Cleaning Materials, Adhesives, etc
+178	40	13. Paper, Stationery, Artists' Materials, etc
+178	41	See also: "Office Equipment and Appliances" (14.)
+178	42	A. Paper and Paper Products
+154	2	C. Other Oils, Fats and Lubricants
+154	12	D. Raw Materials not specified elsewhere
+154	26	3. Metals, Semi-finished and Heavy Metal Products
+154	27	A. Iron and Steel
+154	28	a) METALS AND SEMI-FABRICATED PRODUCTS
+162	23	E. General Engineering Equipment
+162	24	See also: "Iron and Steel Products" (3. A. b)), “ Garage Equipment" (6. D.),"Measuring, Control and Scientific Instruments" (7.), “ Heating, Ventilation and Water Circulation" (8. C.)
+162	25	a) ENGINES AND COMPONENTS
+162	26	See also: "Motor Vehicle Accessories and Components" (6. C.)
+162	31	D) POWER TRANSMISSION
+162	32	See also: "Technical Rubber Products" (9. A. c)), "Technical Leather Products"(10. D.), "Technical Textile Products" (15. H.)
+174	2	10. Leather, Leather Goods, Footwear
+174	3	A. Hides, Skins and Leather
+174	4	a) HIDES AND SKINS
+174	5	For Furs, see “Garments, Outerwear" (15. D. a))
+174	14	b) LEATHERS:— 1. KINDS
+174	32	LEATHERS: 2. USES
+66	21	1187. Lloyd’s, London EC 3. C 1463.— Mandataire Général in Switzerland forLloyd's Underwriters:— Dr. Franz Reichenbach, 9, Nüschelerstrasse, Zurich. Insurances to be effected through the authorized Swiss brokers in all principal centres; addresses will be furnished on application
+66	42	1208. Lustre Fibres Ltd., — see Courtaulds Ltd
+158	16	B. Machinery and Equipment for specific industries
+158	17	a) FOOD AND CHEMICAL INDUSTRIES
+158	36	D) FOUNDRIES
+153	9	D. Beverages
+153	24	2. Fuel, Oils and Fats, Raw Materials
+153	25	See also: “Metals" (3.); “ Rubber" (9. A.); “Chemicals" (11. A.);"Textiles" (15.A.)
+153	26	A. Coal and Coal Products
+153	30	B. Petroleum and Petroleum Products
+82	32	1550. Pompadour Products Ltd., London NW 11. B 801C 1381
+190	7	B. Glassware
+190	14	20. Cutlery, Silverware, Jewellery, etc
+190	29	21. Sports, Games, Toys, Music
+190	30	A. Sports Goods
+190	31	(For Sportswear see: "Textiles" 15. D. a.)
+169	0	J. Road Traffic Equipment
+169	4	7. Measuring, Control and Scientific Instruments
+169	5	See also: “ Electronics (General)" (5. B.), “ Garage Equipment" (6. D.), “ Heating,Ventilation, Water Circulation, Gas Appliances" (8. C/D.), “Optical Pro¬ ducts" (16. A.)
+169	6	A. Electric and Electronic
+169	24	B. General
+186	9	F. Haberdashery
+186	32	G. Carpets, Rugs and Linoleum
+186	39	H. Technical Textile Products
+173	0	d) DOMESTIC
+173	9	e) FOOTWEAR
+173	14	B. Plastic Materials and Products
+173	15	See also: “ Building Materials" (8. A.), “ Garments" (15. D, a.), “ Sports.Games, Toys" (21. A/B.)
+173	31	C. Asbestos
+173	32	See also: “ Motor Vehicle Accessories and Components" (6. C.)
+165	22	B. Electronics, general
+165	23	See also: “ Measuring, Control and Scientific Instruments" (7. A.)
+165	27	C. Radio Receivers, Components and Accessories
+165	28	(for Gramophones and Records, see Section 21. C.)
+164	13	5. Electrical Equipment, Electronics, Radio,Communications
+164	14	A. Electric Equipment and Supplies, general
+164	15	See also: "Measuring, Control and Scientific Instruments" (7. A.), “ Domesticand Catering Machines and Appliances (18. A.)
+172	10	9. Rubber, Plastics, Asbestos
+172	11	A. Rubber and Rubber Products
+172	12	See also: "Medical and Surgical Products" (17.), “ Sports, Games, Toys" (21. A/B.)
+172	13	a) RAW MATERIALS
+172	20	D) TYRES AND TUBES
+172	25	C) TECHNICAL RUBBER PRODUCTS
+168	6	E. Motor Cycles
+168	9	F. Bicycles
+168	11	G. Cycle Accessories and Components
+168	19	H. Marine Engines, Outboard Motors
+168	22	I. Aircraft and Aircraft Equipment
+187	9	16. Photography, Optical Products
+187	10	See also: “ Measuring, Control and Scientific Instruments" (7.)
+187	11	A. Optical Products
+187	18	B. Photographic Equipment and Supplies
+187	31	17. Medical and Surgical Products
+187	32	See also: “ Measuring, Control and Scientific Instruments" (7.). “Ceramics andGlassware" (19.)
+191	24	B. Toys and Games
+191	43	C. Music
+191	44	See also:“ Radio Receivers" (5. C.), “ Publications" (13. C.)
+152	0	1. Foodstuffs and Beverages
+152	1	A. Raw Foodstuffs
+152	25	B. Animal Products
+152	29	C. Manufactured Food Products

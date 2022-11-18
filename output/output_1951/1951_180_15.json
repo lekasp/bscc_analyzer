@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-180-1951-15-C1062",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1062. Loose-leaf binders. A 1050, B 392.",
+        "corrected": "1062. Loose-leaf binders. A 1050, B 392"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 180,
+            "canvas": "http://localhost:8182/iiif/3/0180.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0180.jpg/175,973,1390,42/max/0/default.jpg",
+            "xywh": "175, 973, 1390, 42"
+        }
+    },
+    "short_id": "C1062",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-180-15-A1050",
+                    "short_id": "A1050"
+                },
+                {
+                    "id": "BSCC-1951-180-15-B392",
+                    "short_id": "B392"
+                }
+            ],
+            "description": "with the british company A1050"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

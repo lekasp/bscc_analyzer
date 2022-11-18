@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-15-B272",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿272. General Motors Suisse S.A., 21, Salzhausstrasse, Biel (Bienne). A 8, 166+, 552, 737, 2011+, C 562, 563, 586, 601, 1325.",
+        "corrected": "272. General Motors Suisse S.A., 21, Salzhausstrasse, Biel (Bienne).A 8, 166+, 552, 737, 2011+, C 562, 563, 586, 601, 1325"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1166,1317,78/max/0/default.jpg",
+            "xywh": "288, 1166, 1317, 78"
+        }
+    },
+    "short_id": "B272",
+    "label": "General Motors Suisse S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-15-A8",
+                    "short_id": "A8"
+                },
+                {
+                    "id": "BSCC-1951-125-15-A552",
+                    "short_id": "A552"
+                },
+                {
+                    "id": "BSCC-1951-125-15-A737",
+                    "short_id": "A737"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-15-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-125-15-C563",
+                    "short_id": "C563"
+                },
+                {
+                    "id": "BSCC-1951-125-15-C586",
+                    "short_id": "C586"
+                },
+                {
+                    "id": "BSCC-1951-125-15-C601",
+                    "short_id": "C601"
+                },
+                {
+                    "id": "BSCC-1951-125-15-C1325",
+                    "short_id": "C1325"
+                }
+            ],
+            "description": "The swiss company B272 trades with the british company A8 and A552 and A737 in the goods C562 and C563 and C586 and C601 and C1325"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "General Motors Suisse S.A."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 21, Salzhausstrasse, Biel (Bienne)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-174-1951-27-C853",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "853. Sheep. A 228, 1182, 1359, 1838, B 222, 488, 775.",
+        "corrected": "853. Sheep. A 228, 1182, 1359, 1838, B 222, 488, 775"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 174,
+            "canvas": "http://localhost:8182/iiif/3/0174.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0174.jpg/224,1515,1334,39/max/0/default.jpg",
+            "xywh": "224, 1515, 1334, 39"
+        }
+    },
+    "short_id": "C853",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-174-27-A228",
+                    "short_id": "A228"
+                },
+                {
+                    "id": "BSCC-1951-174-27-A1182",
+                    "short_id": "A1182"
+                },
+                {
+                    "id": "BSCC-1951-174-27-A1359",
+                    "short_id": "A1359"
+                },
+                {
+                    "id": "BSCC-1951-174-27-A1838",
+                    "short_id": "A1838"
+                },
+                {
+                    "id": "BSCC-1951-174-27-B222",
+                    "short_id": "B222"
+                },
+                {
+                    "id": "BSCC-1951-174-27-B488",
+                    "short_id": "B488"
+                },
+                {
+                    "id": "BSCC-1951-174-27-B775",
+                    "short_id": "B775"
+                }
+            ],
+            "description": "with the british company A228 and A1182 and A1359 and A1838 and B488 and B775"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

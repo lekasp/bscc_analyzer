@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-1-A1167",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1167. Lines Bros. Ltd., London SW 19. B 749, C 1343, 1345.",
+        "corrected": "1167. Lines Bros. Ltd., London SW 19. B 749, C 1343, 1345"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,279,1288,41/max/0/default.jpg",
+            "xywh": "170, 279, 1288, 41"
+        }
+    },
+    "short_id": "A1167",
+    "label": "Lines Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-1-B749",
+                    "short_id": "B749"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-1-C1343",
+                    "short_id": "C1343"
+                },
+                {
+                    "id": "BSCC-1951-66-1-C1345",
+                    "short_id": "C1345"
+                }
+            ],
+            "description": "The british company A1167 trades with the swiss company B749 in the goods C1343 and C1345"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lines Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SW 19. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-7-C113",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "113. Stainless steel strip. A 175, 335, 701, 880, B 232, 475, 509.",
+        "corrected": "113. Stainless steel strip. A 175, 335, 701, 880, B 232, 475, 509"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,521,1337,36/max/0/default.jpg",
+            "xywh": "264, 521, 1337, 36"
+        }
+    },
+    "short_id": "C113",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-7-A175",
+                    "short_id": "A175"
+                },
+                {
+                    "id": "BSCC-1951-155-7-A335",
+                    "short_id": "A335"
+                },
+                {
+                    "id": "BSCC-1951-155-7-A701",
+                    "short_id": "A701"
+                },
+                {
+                    "id": "BSCC-1951-155-7-A880",
+                    "short_id": "A880"
+                },
+                {
+                    "id": "BSCC-1951-155-7-B232",
+                    "short_id": "B232"
+                },
+                {
+                    "id": "BSCC-1951-155-7-B475",
+                    "short_id": "B475"
+                },
+                {
+                    "id": "BSCC-1951-155-7-B509",
+                    "short_id": "B509"
+                }
+            ],
+            "description": "with the british company A175 and A335 and A701 and A880 and B475 and B509"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

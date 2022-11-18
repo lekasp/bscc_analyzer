@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-26-B462",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "462. Magnin (Etablissements Marcel), 14, rue Céard, Geneva. A 369, 2152, C 568, 1314.",
+        "corrected": "462. Magnin (Etablissements Marcel), 14, rue Céard, Geneva.A 369, 2152, C 568, 1314"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1990,1265,74/max/0/default.jpg",
+            "xywh": "316, 1990, 1265, 74"
+        }
+    },
+    "short_id": "B462",
+    "label": "Magnin (Etablissements Marcel)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-26-A369",
+                    "short_id": "A369"
+                },
+                {
+                    "id": "BSCC-1951-131-26-A2152",
+                    "short_id": "A2152"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-26-C568",
+                    "short_id": "C568"
+                },
+                {
+                    "id": "BSCC-1951-131-26-C1314",
+                    "short_id": "C1314"
+                }
+            ],
+            "description": "The swiss company B462 trades with the british company A369 and A2152 in the goods C568 and C1314"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Magnin (Etablissements Marcel)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "14, rue Céard, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

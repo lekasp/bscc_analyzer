@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-5-B352",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 352. Hugentobler (E.), 44, Mainaustrasse, Zurich. A 693, 967, 1432, 1564, 1795, C 778, 779, 905, 930, 1257.",
+        "corrected": "352. Hugentobler (E.), 44, Mainaustrasse, Zurich.A 693, 967, 1432, 1564, 1795, C 778, 779, 905, 930, 1257"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,516,1277,84/max/0/default.jpg",
+            "xywh": "185, 516, 1277, 84"
+        }
+    },
+    "short_id": "B352",
+    "label": "Hugentobler (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-5-A693",
+                    "short_id": "A693"
+                },
+                {
+                    "id": "BSCC-1951-128-5-A967",
+                    "short_id": "A967"
+                },
+                {
+                    "id": "BSCC-1951-128-5-A1432",
+                    "short_id": "A1432"
+                },
+                {
+                    "id": "BSCC-1951-128-5-A1564",
+                    "short_id": "A1564"
+                },
+                {
+                    "id": "BSCC-1951-128-5-A1795",
+                    "short_id": "A1795"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-5-C778",
+                    "short_id": "C778"
+                },
+                {
+                    "id": "BSCC-1951-128-5-C779",
+                    "short_id": "C779"
+                },
+                {
+                    "id": "BSCC-1951-128-5-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-128-5-C930",
+                    "short_id": "C930"
+                },
+                {
+                    "id": "BSCC-1951-128-5-C1257",
+                    "short_id": "C1257"
+                }
+            ],
+            "description": "The swiss company B352 trades with the british company A693 and A967 and A1432 and A1564 and A1795 in the goods C778 and C779 and C905 and C930 and C1257"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hugentobler (E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "44, Mainaustrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

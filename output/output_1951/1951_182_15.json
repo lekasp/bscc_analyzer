@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-182-1951-15-C1114",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1114. Pyjama materials. A 1583, 1939, 2119, B 95, 227, 324.",
+        "corrected": "1114. Pyjama materials. A 1583, 1939, 2119, B 95, 227, 324"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 182,
+            "canvas": "http://localhost:8182/iiif/3/0182.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0182.jpg/181,1218,1323,41/max/0/default.jpg",
+            "xywh": "181, 1218, 1323, 41"
+        }
+    },
+    "short_id": "C1114",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-182-15-A1583",
+                    "short_id": "A1583"
+                },
+                {
+                    "id": "BSCC-1951-182-15-A1939",
+                    "short_id": "A1939"
+                },
+                {
+                    "id": "BSCC-1951-182-15-A2119",
+                    "short_id": "A2119"
+                },
+                {
+                    "id": "BSCC-1951-182-15-B95",
+                    "short_id": "B95"
+                },
+                {
+                    "id": "BSCC-1951-182-15-B227",
+                    "short_id": "B227"
+                },
+                {
+                    "id": "BSCC-1951-182-15-B324",
+                    "short_id": "B324"
+                }
+            ],
+            "description": "with the british company A1583 and A1939 and A2119 and B227 and B324"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-38-C260",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "260. FOUNDRY SUPPLIES, GENERAL. A 19, 625, 715, 1351, B 230, 281, 512, 563.",
+        "corrected": "260. FOUNDRY SUPPLIES, GENERAL. A 19, 625, 715, 1351, B 230, 281, 512, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,1925,1303,41/max/0/default.jpg",
+            "xywh": "194, 1925, 1303, 41"
+        }
+    },
+    "short_id": "C260",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-38-A19",
+                    "short_id": "A19"
+                },
+                {
+                    "id": "BSCC-1951-158-38-A625",
+                    "short_id": "A625"
+                },
+                {
+                    "id": "BSCC-1951-158-38-A715",
+                    "short_id": "A715"
+                },
+                {
+                    "id": "BSCC-1951-158-38-A1351",
+                    "short_id": "A1351"
+                },
+                {
+                    "id": "BSCC-1951-158-38-B230",
+                    "short_id": "B230"
+                },
+                {
+                    "id": "BSCC-1951-158-38-B281",
+                    "short_id": "B281"
+                },
+                {
+                    "id": "BSCC-1951-158-38-B512",
+                    "short_id": "B512"
+                },
+                {
+                    "id": "BSCC-1951-158-38-B563",
+                    "short_id": "B563"
+                }
+            ],
+            "description": "with the british company A19 and A625 and A715 and A1351 and B281 and B512 and B563"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

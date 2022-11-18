@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-14-B480",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "480. Mayer (M.) vorm. H. & M. Mayer, 46, Solothurnerstrasse, Basle. A 791, 1317, 1326, C 192, 209, 219, 764.",
+        "corrected": "480. Mayer (M.) vorm. H. & M. Mayer, 46, Solothurnerstrasse, Basle.A 791, 1317, 1326, C 192, 209, 219, 764"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,1370,1311,82/max/0/default.jpg",
+            "xywh": "167, 1370, 1311, 82"
+        }
+    },
+    "short_id": "B480",
+    "label": "Mayer (M.) vorm. H. & M. Mayer",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-14-A791",
+                    "short_id": "A791"
+                },
+                {
+                    "id": "BSCC-1951-132-14-A1317",
+                    "short_id": "A1317"
+                },
+                {
+                    "id": "BSCC-1951-132-14-A1326",
+                    "short_id": "A1326"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-14-C192",
+                    "short_id": "C192"
+                },
+                {
+                    "id": "BSCC-1951-132-14-C209",
+                    "short_id": "C209"
+                },
+                {
+                    "id": "BSCC-1951-132-14-C219",
+                    "short_id": "C219"
+                },
+                {
+                    "id": "BSCC-1951-132-14-C764",
+                    "short_id": "C764"
+                }
+            ],
+            "description": "The swiss company B480 trades with the british company A791 and A1317 and A1326 in the goods C192 and C209 and C219 and C764"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mayer (M.) vorm. H. & M. Mayer"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "46, Solothurnerstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

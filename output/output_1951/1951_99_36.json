@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-36-A2086",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2086. Weathershields Ltd., Birmingham. B 777, C 607.",
+        "corrected": "2086. Weathershields Ltd., Birmingham. B 777, C 607"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,1820,1278,39/max/0/default.jpg",
+            "xywh": "348, 1820, 1278, 39"
+        }
+    },
+    "short_id": "A2086",
+    "label": "Weathershields Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-36-B777",
+                    "short_id": "B777"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-36-C607",
+                    "short_id": "C607"
+                }
+            ],
+            "description": "The british company A2086 trades with the swiss company B777 in the goods C607"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weathershields Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

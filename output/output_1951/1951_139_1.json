@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-1-B670",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 670. Schweiz. Metallurgische Gesellschaft, Muttenz (Basle). A 1632, 2122, C 160, 176.",
+        "corrected": "670. Schweiz. Metallurgische Gesellschaft, Muttenz (Basle).A 1632, 2122, C 160, 176"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,311,1319,80/max/0/default.jpg",
+            "xywh": "272, 311, 1319, 80"
+        }
+    },
+    "short_id": "B670",
+    "label": "Schweiz. Metallurgische Gesellschaft",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-1-A1632",
+                    "short_id": "A1632"
+                },
+                {
+                    "id": "BSCC-1951-139-1-A2122",
+                    "short_id": "A2122"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-1-C160",
+                    "short_id": "C160"
+                },
+                {
+                    "id": "BSCC-1951-139-1-C176",
+                    "short_id": "C176"
+                }
+            ],
+            "description": "The swiss company B670 trades with the british company A1632 and A2122 in the goods C160 and C176"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schweiz. Metallurgische Gesellschaft"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "Muttenz (Basle)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

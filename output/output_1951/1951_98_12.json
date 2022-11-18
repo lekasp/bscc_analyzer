@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-12-A2020",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2020. Vernon & Co. Ltd., Preston. B 661, C 1286.",
+        "corrected": "2020. Vernon & Co. Ltd., Preston. B 661, C 1286"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,704,1270,38/max/0/default.jpg",
+            "xywh": "180, 704, 1270, 38"
+        }
+    },
+    "short_id": "A2020",
+    "label": "Vernon & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-12-B661",
+                    "short_id": "B661"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-12-C1286",
+                    "short_id": "C1286"
+                }
+            ],
+            "description": "The british company A2020 trades with the swiss company B661 in the goods C1286"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vernon & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639912",
+            "lat": "53.76282",
+            "lng": "-2.70452",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Preston",
+            "transcription": " Preston. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

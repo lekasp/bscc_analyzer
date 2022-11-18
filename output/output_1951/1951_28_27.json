@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-27-A343",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "343. B. S. A. Cycles Ltd., Birmingham. B 226, 769, C 627, 629.",
+        "corrected": "343. B. S. A. Cycles Ltd., Birmingham. B 226, 769, C 627, 629"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,1389,1233,39/max/0/default.jpg",
+            "xywh": "228, 1389, 1233, 39"
+        }
+    },
+    "short_id": "A343",
+    "label": "B. S. A. Cycles Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-27-B226",
+                    "short_id": "B226"
+                },
+                {
+                    "id": "BSCC-1951-28-27-B769",
+                    "short_id": "B769"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-27-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-28-27-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The british company A343 trades with the swiss company B226 and B769 in the goods C627 and C629"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "B. S. A. Cycles Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

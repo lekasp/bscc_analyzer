@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-28-A1679",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 1679. Rubberware Ltd., Harefield. B 617, C 800, 803.",
+        "corrected": "1679. Rubberware Ltd., Harefield. B 617, C 800, 803"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1424,1195,41/max/0/default.jpg",
+            "xywh": "208, 1424, 1195, 41"
+        }
+    },
+    "short_id": "A1679",
+    "label": "Rubberware Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-28-B617",
+                    "short_id": "B617"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-28-C800",
+                    "short_id": "C800"
+                },
+                {
+                    "id": "BSCC-1951-88-28-C803",
+                    "short_id": "C803"
+                }
+            ],
+            "description": "The british company A1679 trades with the swiss company B617 in the goods C800 and C803"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rubberware Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647487",
+            "lat": "51.60333",
+            "lng": "-0.48546",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Harefield",
+            "transcription": " Harefield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

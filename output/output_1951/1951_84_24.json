@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-24-A1589",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1589. Raleigh Industries Ltd., Lenton, Nottingham. B 174a, 439, C 629 (Rudge-Whitworth); B 183, C 629 (Raleigh); B 741, C 627 (Humber).",
+        "corrected": "1589. Raleigh Industries Ltd., Lenton, Nottingham.B 174a, 439, C 629 (Rudge-Whitworth); B 183, C 629 (Raleigh); B 741, C 627 (Humber)"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1425,1278,113/max/0/default.jpg",
+            "xywh": "168, 1425, 1278, 113"
+        }
+    },
+    "short_id": "A1589",
+    "label": "Raleigh Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-24-B174a",
+                    "short_id": "B174a"
+                },
+                {
+                    "id": "BSCC-1951-84-24-B439",
+                    "short_id": "B439"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-24-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The british company A1589 trades with the swiss company B174a and B439 in the goods C629"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-24-B183",
+                    "short_id": "B183"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-24-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The british company A1589 trades with the swiss company B183 in the goods C629"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-24-B741",
+                    "short_id": "B741"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-24-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The british company A1589 trades with the swiss company B741 in the goods C627"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Raleigh Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644620",
+            "lat": "52.86089",
+            "lng": "-0.47876",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lenton",
+            "transcription": " Lenton, Nottingham.(Rudge-Whitworth); (Raleigh); (Humber)"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

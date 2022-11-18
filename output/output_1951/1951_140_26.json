@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-26-B723",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "723. Straub (C.), Ing., 3, Spiserstrasse, Zurich. A 940, C 422, 425.",
+        "corrected": "723. Straub (C.), Ing., 3, Spiserstrasse, Zurich. A 940, C 422, 425"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1934,1265,41/max/0/default.jpg",
+            "xywh": "219, 1934, 1265, 41"
+        }
+    },
+    "short_id": "B723",
+    "label": "Straub (C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-26-A940",
+                    "short_id": "A940"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-26-C422",
+                    "short_id": "C422"
+                },
+                {
+                    "id": "BSCC-1951-140-26-C425",
+                    "short_id": "C425"
+                }
+            ],
+            "description": "The swiss company B723 trades with the british company A940 in the goods C422 and C425"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Straub (C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Ing., 3, Spiserstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

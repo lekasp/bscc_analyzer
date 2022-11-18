@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-12-A2155",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2155. Winsor & Newton Ltd., Wealdstone, Harrow, Middx. B 390, C 957, 959, 962, 964, 1037.",
+        "corrected": "2155. Winsor & Newton Ltd., Wealdstone, Harrow, Middx.B 390, C 957, 959, 962, 964, 1037"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,721,1264,76/max/0/default.jpg",
+            "xywh": "343, 721, 1264, 76"
+        }
+    },
+    "short_id": "A2155",
+    "label": "Winsor & Newton Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-12-B390",
+                    "short_id": "B390"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-12-C957",
+                    "short_id": "C957"
+                },
+                {
+                    "id": "BSCC-1951-101-12-C959",
+                    "short_id": "C959"
+                },
+                {
+                    "id": "BSCC-1951-101-12-C962",
+                    "short_id": "C962"
+                },
+                {
+                    "id": "BSCC-1951-101-12-C964",
+                    "short_id": "C964"
+                },
+                {
+                    "id": "BSCC-1951-101-12-C1037",
+                    "short_id": "C1037"
+                }
+            ],
+            "description": "The british company A2155 trades with the swiss company B390 in the goods C957 and C959 and C962 and C964 and C1037"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Winsor & Newton Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634636",
+            "lat": "51.59398",
+            "lng": "-0.33362",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wealdstone",
+            "transcription": " Wealdstone, Harrow, Middx."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-22-B514",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "514. Muggli (Theo) AG., 50, Gessnerallee, Zurich. A 988, C 1049, 1072.",
+        "corrected": "514. Muggli (Theo) AG., 50, Gessnerallee, Zurich. A 988, C 1049, 1072"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1812,1317,40/max/0/default.jpg",
+            "xywh": "305, 1812, 1317, 40"
+        }
+    },
+    "short_id": "B514",
+    "label": "Muggli (Theo) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-22-A988",
+                    "short_id": "A988"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-22-C1049",
+                    "short_id": "C1049"
+                },
+                {
+                    "id": "BSCC-1951-133-22-C1072",
+                    "short_id": "C1072"
+                }
+            ],
+            "description": "The swiss company B514 trades with the british company A988 in the goods C1049 and C1072"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Muggli (Theo) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 50, Gessnerallee, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

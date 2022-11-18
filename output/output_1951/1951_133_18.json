@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-18-B510",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 510. Moos (Fritz) Sohn & Co., 12, Gartenstrasse, Zurich. A 28, 219, 848, 1128, 1276, 1436, C 834, 1117, 1127, 1131, 1228.",
+        "corrected": "510. Moos (Fritz) Sohn & Co., 12, Gartenstrasse, Zurich.A 28, 219, 848, 1128, 1276, 1436, C 834, 1117, 1127, 1131, 1228"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1498,1317,77/max/0/default.jpg",
+            "xywh": "305, 1498, 1317, 77"
+        }
+    },
+    "short_id": "B510",
+    "label": "Moos (Fritz) Sohn & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-18-A28",
+                    "short_id": "A28"
+                },
+                {
+                    "id": "BSCC-1951-133-18-A219",
+                    "short_id": "A219"
+                },
+                {
+                    "id": "BSCC-1951-133-18-A848",
+                    "short_id": "A848"
+                },
+                {
+                    "id": "BSCC-1951-133-18-A1128",
+                    "short_id": "A1128"
+                },
+                {
+                    "id": "BSCC-1951-133-18-A1276",
+                    "short_id": "A1276"
+                },
+                {
+                    "id": "BSCC-1951-133-18-A1436",
+                    "short_id": "A1436"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-18-C834",
+                    "short_id": "C834"
+                },
+                {
+                    "id": "BSCC-1951-133-18-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-133-18-C1127",
+                    "short_id": "C1127"
+                },
+                {
+                    "id": "BSCC-1951-133-18-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-133-18-C1228",
+                    "short_id": "C1228"
+                }
+            ],
+            "description": "The swiss company B510 trades with the british company A28 and A219 and A848 and A1128 and A1276 and A1436 in the goods C834 and C1117 and C1127 and C1131 and C1228"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Moos (Fritz) Sohn & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 12, Gartenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

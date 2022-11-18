@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-27-B631",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "631. Sager & Co., Dürrenäsch (Aarg.). A 703, 1423, C 902, 1207.",
+        "corrected": "631. Sager & Co., Dürrenäsch (Aarg.). A 703, 1423, C 902, 1207"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1988,1255,39/max/0/default.jpg",
+            "xywh": "303, 1988, 1255, 39"
+        }
+    },
+    "short_id": "B631",
+    "label": "Sager & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-27-A703",
+                    "short_id": "A703"
+                },
+                {
+                    "id": "BSCC-1951-137-27-A1423",
+                    "short_id": "A1423"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-27-C902",
+                    "short_id": "C902"
+                },
+                {
+                    "id": "BSCC-1951-137-27-C1207",
+                    "short_id": "C1207"
+                }
+            ],
+            "description": "The swiss company B631 trades with the british company A703 and A1423 in the goods C902 and C1207"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sager & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": ", Dürrenäsch (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

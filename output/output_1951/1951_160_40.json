@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-160-1951-40-C346",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "346. Coal and ore handling plant. A 998, 1333, B 273, 397.",
+        "corrected": "346. Coal and ore handling plant. A 998, 1333, B 273, 397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 160,
+            "canvas": "http://localhost:8182/iiif/3/0160.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0160.jpg/155,2069,1307,44/max/0/default.jpg",
+            "xywh": "155, 2069, 1307, 44"
+        }
+    },
+    "short_id": "C346",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-160-40-A998",
+                    "short_id": "A998"
+                },
+                {
+                    "id": "BSCC-1951-160-40-A1333",
+                    "short_id": "A1333"
+                },
+                {
+                    "id": "BSCC-1951-160-40-B273",
+                    "short_id": "B273"
+                },
+                {
+                    "id": "BSCC-1951-160-40-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "description": "with the british company A998 and A1333 and B397"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

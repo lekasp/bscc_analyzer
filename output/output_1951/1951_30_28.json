@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-28-A387",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "387. Carfin Leather Co. Ltd., Motherwell. B 222, C 864.",
+        "corrected": "387. Carfin Leather Co. Ltd., Motherwell. B 222, C 864"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,1591,1260,41/max/0/default.jpg",
+            "xywh": "197, 1591, 1260, 41"
+        }
+    },
+    "short_id": "A387",
+    "label": "Carfin Leather Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-28-B222",
+                    "short_id": "B222"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-28-C864",
+                    "short_id": "C864"
+                }
+            ],
+            "description": "The british company A387 trades with the swiss company B222 in the goods C864"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Carfin Leather Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642135",
+            "lat": "55.78924",
+            "lng": "-3.99187",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Motherwell",
+            "transcription": " Motherwell. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

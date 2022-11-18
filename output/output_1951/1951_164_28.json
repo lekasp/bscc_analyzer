@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-28-C490",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "490. Cables, electric, general. A 3, 462, 644, 1926, 2069, B 397, 433, 598, 729.",
+        "corrected": "490. Cables, electric, general. A 3, 462, 644, 1926, 2069, B 397, 433, 598, 729"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,1647,1332,40/max/0/default.jpg",
+            "xywh": "142, 1647, 1332, 40"
+        }
+    },
+    "short_id": "C490",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-28-A3",
+                    "short_id": "A3"
+                },
+                {
+                    "id": "BSCC-1951-164-28-A462",
+                    "short_id": "A462"
+                },
+                {
+                    "id": "BSCC-1951-164-28-A644",
+                    "short_id": "A644"
+                },
+                {
+                    "id": "BSCC-1951-164-28-A1926",
+                    "short_id": "A1926"
+                },
+                {
+                    "id": "BSCC-1951-164-28-A2069",
+                    "short_id": "A2069"
+                },
+                {
+                    "id": "BSCC-1951-164-28-B397",
+                    "short_id": "B397"
+                },
+                {
+                    "id": "BSCC-1951-164-28-B433",
+                    "short_id": "B433"
+                },
+                {
+                    "id": "BSCC-1951-164-28-B598",
+                    "short_id": "B598"
+                },
+                {
+                    "id": "BSCC-1951-164-28-B729",
+                    "short_id": "B729"
+                }
+            ],
+            "description": "with the british company A3 and A462 and A644 and A1926 and A2069 and B433 and B598 and B729"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

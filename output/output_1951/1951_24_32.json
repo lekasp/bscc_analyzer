@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-32-A260",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "260. Brennan (Joseph) & Sons Ltd., Bradford. B 426, C 1079, 1080, 1081, 1082.",
+        "corrected": "260. Brennan (Joseph) & Sons Ltd., Bradford. B 426, C 1079, 1080, 1081, 1082"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1548,1252,37/max/0/default.jpg",
+            "xywh": "194, 1548, 1252, 37"
+        }
+    },
+    "short_id": "A260",
+    "label": "Brennan (Joseph) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-32-B426",
+                    "short_id": "B426"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-32-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-24-32-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-24-32-C1081",
+                    "short_id": "C1081"
+                },
+                {
+                    "id": "BSCC-1951-24-32-C1082",
+                    "short_id": "C1082"
+                }
+            ],
+            "description": "The british company A260 trades with the swiss company B426 in the goods C1079 and C1080 and C1081 and C1082"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brennan (Joseph) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

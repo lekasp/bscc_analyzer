@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-1-A536",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "536. Dalbec Ltd., Wattstown, Rhondda. B 295, C 1238.",
+        "corrected": "536. Dalbec Ltd., Wattstown, Rhondda. B 295, C 1238"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,283,1111,40/max/0/default.jpg",
+            "xywh": "192, 283, 1111, 40"
+        }
+    },
+    "short_id": "A536",
+    "label": "Dalbec Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-1-B295",
+                    "short_id": "B295"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-1-C1238",
+                    "short_id": "C1238"
+                }
+            ],
+            "description": "The british company A536 trades with the swiss company B295 in the goods C1238"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dalbec Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "12263547",
+            "lat": "51.63419",
+            "lng": "-3.41946",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wattstown",
+            "transcription": " Wattstown, Rhondda. "
+        },
+        {
+            "id": "2639447",
+            "lat": "51.65896",
+            "lng": "-3.44885",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rhondda",
+            "transcription": " Wattstown, Rhondda. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

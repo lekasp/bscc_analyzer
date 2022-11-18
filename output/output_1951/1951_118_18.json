@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-18-B56",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿56. Basler Lagerhausgesellschaft AG., 1, Erlenstrasse, Basle. A 2008, C 1458.",
+        "corrected": "56. Basler Lagerhausgesellschaft AG., 1, Erlenstrasse, Basle. A 2008, C 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1453,1300,39/max/0/default.jpg",
+            "xywh": "187, 1453, 1300, 39"
+        }
+    },
+    "short_id": "B56",
+    "label": "Basler Lagerhausgesellschaft AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-18-A2008",
+                    "short_id": "A2008"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-18-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B56 trades with the british company A2008 in the goods C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Basler Lagerhausgesellschaft AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 1, Erlenstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

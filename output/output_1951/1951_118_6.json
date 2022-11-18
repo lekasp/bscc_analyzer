@@ -1,0 +1,122 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-6-B44",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "44. Bachmann (Henri), 12b, rue de l’Hôpital, Bienne (Biel). A 330, 459,651, 1110, 1807, 1950, 1996, C 568, 578,584, 585, 592a, 598, 600, 621.",
+        "corrected": "44. Bachmann (Henri), 12b, rue de l’Hôpital, Bienne (Biel).A 330, 459,651, 1110, 1807, 1950, 1996, C 568, 578,584, 585, 592a, 598, 600, 621"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,668,1300,77/max/0/default.jpg",
+            "xywh": "187, 668, 1300, 77"
+        }
+    },
+    "short_id": "B44",
+    "label": "Bachmann (Henri)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-6-A330",
+                    "short_id": "A330"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A459",
+                    "short_id": "A459"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A651",
+                    "short_id": "A651"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A1110",
+                    "short_id": "A1110"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A1807",
+                    "short_id": "A1807"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A1950",
+                    "short_id": "A1950"
+                },
+                {
+                    "id": "BSCC-1951-118-6-A1996",
+                    "short_id": "A1996"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-6-C568",
+                    "short_id": "C568"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C578",
+                    "short_id": "C578"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C584",
+                    "short_id": "C584"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C585",
+                    "short_id": "C585"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C592a",
+                    "short_id": "C592a"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C598",
+                    "short_id": "C598"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C600",
+                    "short_id": "C600"
+                },
+                {
+                    "id": "BSCC-1951-118-6-C621",
+                    "short_id": "C621"
+                }
+            ],
+            "description": "The swiss company B44 trades with the british company A330 and A459 and A651 and A1110 and A1807 and A1950 and A1996 in the goods C568 and C578 and C584 and C585 and C592a and C598 and C600 and C621"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bachmann (Henri)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "12b, rue de l’Hôpital, Bienne (Biel)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

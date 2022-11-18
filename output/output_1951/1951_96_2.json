@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-2-A1924",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1924. Teleflex Products Ltd., Chadwell Heath. B 137, C 475.",
+        "corrected": "1924. Teleflex Products Ltd., Chadwell Heath. B 137, C 475"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,356,1288,41/max/0/default.jpg",
+            "xywh": "164, 356, 1288, 41"
+        }
+    },
+    "short_id": "A1924",
+    "label": "Teleflex Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-2-B137",
+                    "short_id": "B137"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-2-C475",
+                    "short_id": "C475"
+                }
+            ],
+            "description": "The british company A1924 trades with the swiss company B137 in the goods C475"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Teleflex Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Chadwell Heath. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

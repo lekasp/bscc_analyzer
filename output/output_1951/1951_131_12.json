@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-12-B449",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "449. Longini (René), 17, Im eisernen Zeit, Zurich. A 1077, 2192, C 1131, 1133, 1185, 1215, 1216, 1221, 1223, 1224.",
+        "corrected": "449. Longini (René), 17, Im eisernen Zeit, Zurich.A 1077, 2192, C 1131, 1133, 1185, 1215, 1216, 1221, 1223, 1224"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,993,1265,77/max/0/default.jpg",
+            "xywh": "316, 993, 1265, 77"
+        }
+    },
+    "short_id": "B449",
+    "label": "Longini (René)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-12-A1077",
+                    "short_id": "A1077"
+                },
+                {
+                    "id": "BSCC-1951-131-12-A2192",
+                    "short_id": "A2192"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-12-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1133",
+                    "short_id": "C1133"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1185",
+                    "short_id": "C1185"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1215",
+                    "short_id": "C1215"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1216",
+                    "short_id": "C1216"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1221",
+                    "short_id": "C1221"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1223",
+                    "short_id": "C1223"
+                },
+                {
+                    "id": "BSCC-1951-131-12-C1224",
+                    "short_id": "C1224"
+                }
+            ],
+            "description": "The swiss company B449 trades with the british company A1077 and A2192 in the goods C1131 and C1133 and C1185 and C1215 and C1216 and C1221 and C1223 and C1224"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Longini (René)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "17, Im eisernen Zeit, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

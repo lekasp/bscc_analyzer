@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-26-B223",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "223. Fein-Kaller & Co., 84, Bahnhofstrasse, Zurich. + A 1189, C 1206.",
+        "corrected": "223. Fein-Kaller & Co., 84, Bahnhofstrasse, Zurich. + A 1189, C 1206"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1987,1247,41/max/0/default.jpg",
+            "xywh": "304, 1987, 1247, 41"
+        }
+    },
+    "short_id": "B223",
+    "label": "Fein-Kaller & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-26-A1189",
+                    "short_id": "A1189"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-26-C1206",
+                    "short_id": "C1206"
+                }
+            ],
+            "description": "The swiss company B223 trades with the british company A1189 in the goods C1206"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fein-Kaller & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 84, Bahnhofstrasse, Zurich. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

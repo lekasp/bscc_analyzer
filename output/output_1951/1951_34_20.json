@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-20-A468",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "468. Cooke, Troughton & Simms Ltd., York. B 262, C 662, 692; B 416, C 1265.",
+        "corrected": "468. Cooke, Troughton & Simms Ltd., York. B 262, C 662, 692; B 416, C 1265"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,1161,1292,40/max/0/default.jpg",
+            "xywh": "157, 1161, 1292, 40"
+        }
+    },
+    "short_id": "A468",
+    "label": "Cooke, Troughton & Simms Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-20-B262",
+                    "short_id": "B262"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-20-C662",
+                    "short_id": "C662"
+                },
+                {
+                    "id": "BSCC-1951-34-20-C692",
+                    "short_id": "C692"
+                }
+            ],
+            "description": "The british company A468 trades with the swiss company B262 in the goods C662 and C692"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-20-B416",
+                    "short_id": "B416"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-20-C1265",
+                    "short_id": "C1265"
+                }
+            ],
+            "description": "The british company A468 trades with the swiss company B416 in the goods C1265"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cooke, Troughton & Simms Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633352",
+            "lat": "53.95763",
+            "lng": "-1.08271",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "York",
+            "transcription": " York. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

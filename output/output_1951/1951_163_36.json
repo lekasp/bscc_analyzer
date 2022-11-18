@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-36-C459",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "459. Dampers, anti-vibration. A 1305, B 427.",
+        "corrected": "459. Dampers, anti-vibration. A 1305, B 427"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,1956,1245,38/max/0/default.jpg",
+            "xywh": "294, 1956, 1245, 38"
+        }
+    },
+    "short_id": "C459",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-36-A1305",
+                    "short_id": "A1305"
+                },
+                {
+                    "id": "BSCC-1951-163-36-B427",
+                    "short_id": "B427"
+                }
+            ],
+            "description": "with the british company A1305"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

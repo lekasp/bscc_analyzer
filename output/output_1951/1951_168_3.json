@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-3-C624",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿624. Pressure gauges. A 1968, 2064, B 655, 676.",
+        "corrected": "624. Pressure gauges. A 1968, 2064, B 655, 676"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,365,1239,38/max/0/default.jpg",
+            "xywh": "200, 365, 1239, 38"
+        }
+    },
+    "short_id": "C624",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-3-A1968",
+                    "short_id": "A1968"
+                },
+                {
+                    "id": "BSCC-1951-168-3-A2064",
+                    "short_id": "A2064"
+                },
+                {
+                    "id": "BSCC-1951-168-3-B655",
+                    "short_id": "B655"
+                },
+                {
+                    "id": "BSCC-1951-168-3-B676",
+                    "short_id": "B676"
+                }
+            ],
+            "description": "with the british company A1968 and A2064 and B676"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

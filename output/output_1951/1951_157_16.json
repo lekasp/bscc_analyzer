@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-16-C198",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "198. Gear shaper cutters. A 1910, B 329.",
+        "corrected": "198. Gear shaper cutters. A 1910, B 329"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,906,1281,39/max/0/default.jpg",
+            "xywh": "303, 906, 1281, 39"
+        }
+    },
+    "short_id": "C198",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-16-A1910",
+                    "short_id": "A1910"
+                },
+                {
+                    "id": "BSCC-1951-157-16-B329",
+                    "short_id": "B329"
+                }
+            ],
+            "description": "with the british company A1910"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

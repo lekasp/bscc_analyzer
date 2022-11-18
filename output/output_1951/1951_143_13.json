@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-13-B796",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "796. Waspeba AG., 62, Leimenstrasse, Basle. A 993, 1140, 1775, 1957, C 522, 1373, 1374.",
+        "corrected": "796. Waspeba AG., 62, Leimenstrasse, Basle.A 993, 1140, 1775, 1957, C 522, 1373, 1374"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1077,1304,76/max/0/default.jpg",
+            "xywh": "297, 1077, 1304, 76"
+        }
+    },
+    "short_id": "B796",
+    "label": "Waspeba AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-13-A993",
+                    "short_id": "A993"
+                },
+                {
+                    "id": "BSCC-1951-143-13-A1140",
+                    "short_id": "A1140"
+                },
+                {
+                    "id": "BSCC-1951-143-13-A1775",
+                    "short_id": "A1775"
+                },
+                {
+                    "id": "BSCC-1951-143-13-A1957",
+                    "short_id": "A1957"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-13-C522",
+                    "short_id": "C522"
+                },
+                {
+                    "id": "BSCC-1951-143-13-C1373",
+                    "short_id": "C1373"
+                },
+                {
+                    "id": "BSCC-1951-143-13-C1374",
+                    "short_id": "C1374"
+                }
+            ],
+            "description": "The swiss company B796 trades with the british company A993 and A1140 and A1775 and A1957 in the goods C522 and C1373 and C1374"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waspeba AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 62, Leimenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-6-B173",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "173. Derendinger (J. J.) GmbH., 18/20, Stauffacherquai, Zurich. x A 238, 449, 711, 775, 1129, 1497, 1600, 1782, 1907, 2106, C 70, 472, 574, 575, 580, 583, 591, 605, 615, 748, 990.",
+        "corrected": "173. Derendinger (J. J.) GmbH., 18/20, Stauffacherquai, Zurich.x A 238, 449, 711, 775, 1129, 1497, 1600, 1782, 1907, 2106, C 70, 472, 574, 575, 580, 583, 591, 605, 615, 748, 990"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,557,1285,119/max/0/default.jpg",
+            "xywh": "169, 557, 1285, 119"
+        }
+    },
+    "short_id": "B173",
+    "label": "Derendinger (J. J.) GmbH.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-6-A238",
+                    "short_id": "A238"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A449",
+                    "short_id": "A449"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A711",
+                    "short_id": "A711"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A775",
+                    "short_id": "A775"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A1129",
+                    "short_id": "A1129"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A1497",
+                    "short_id": "A1497"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A1600",
+                    "short_id": "A1600"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A1782",
+                    "short_id": "A1782"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A1907",
+                    "short_id": "A1907"
+                },
+                {
+                    "id": "BSCC-1951-122-6-A2106",
+                    "short_id": "A2106"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-6-C70",
+                    "short_id": "C70"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C472",
+                    "short_id": "C472"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C574",
+                    "short_id": "C574"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C580",
+                    "short_id": "C580"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C583",
+                    "short_id": "C583"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C591",
+                    "short_id": "C591"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C605",
+                    "short_id": "C605"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C615",
+                    "short_id": "C615"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C748",
+                    "short_id": "C748"
+                },
+                {
+                    "id": "BSCC-1951-122-6-C990",
+                    "short_id": "C990"
+                }
+            ],
+            "description": "The swiss company B173 trades with the british company A238 and A449 and A711 and A775 and A1129 and A1497 and A1600 and A1782 and A1907 and A2106 in the goods C70 and C472 and C574 and C575 and C580 and C583 and C591 and C605 and C615 and C748 and C990"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Derendinger (J. J.) GmbH."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 18/20, Stauffacherquai, Zurich.x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-26-A206",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "206. Bitulac Ltd., Newcastle-on-Tyne. B 174, C 956, 963, 983.",
+        "corrected": "206. Bitulac Ltd., Newcastle-on-Tyne. B 174, C 956, 963, 983"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,1269,1260,37/max/0/default.jpg",
+            "xywh": "205, 1269, 1260, 37"
+        }
+    },
+    "short_id": "A206",
+    "label": "Bitulac Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-26-B174",
+                    "short_id": "B174"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-26-C956",
+                    "short_id": "C956"
+                },
+                {
+                    "id": "BSCC-1951-22-26-C963",
+                    "short_id": "C963"
+                },
+                {
+                    "id": "BSCC-1951-22-26-C983",
+                    "short_id": "C983"
+                }
+            ],
+            "description": "The british company A206 trades with the swiss company B174 in the goods C956 and C963 and C983"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bitulac Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641673",
+            "lat": "54.97328",
+            "lng": "-1.61396",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Newcastle upon Tyne",
+            "transcription": " Newcastle-on-Tyne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

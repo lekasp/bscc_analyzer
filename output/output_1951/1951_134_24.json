@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-24-B545",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "545. Opopharma GmbH., 6, Marktgasse, Zurich. A 56, 1036, 1459, C 905, 933, 1298.",
+        "corrected": "545. Opopharma GmbH., 6, Marktgasse, Zurich.A 56, 1036, 1459, C 905, 933, 1298"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1854,1276,81/max/0/default.jpg",
+            "xywh": "187, 1854, 1276, 81"
+        }
+    },
+    "short_id": "B545",
+    "label": "Opopharma GmbH.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-24-A56",
+                    "short_id": "A56"
+                },
+                {
+                    "id": "BSCC-1951-134-24-A1036",
+                    "short_id": "A1036"
+                },
+                {
+                    "id": "BSCC-1951-134-24-A1459",
+                    "short_id": "A1459"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-24-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-134-24-C933",
+                    "short_id": "C933"
+                },
+                {
+                    "id": "BSCC-1951-134-24-C1298",
+                    "short_id": "C1298"
+                }
+            ],
+            "description": "The swiss company B545 trades with the british company A56 and A1036 and A1459 in the goods C905 and C933 and C1298"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Opopharma GmbH."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 6, Marktgasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

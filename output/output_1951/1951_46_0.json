@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-0-A721",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿721. Forgan (Robert) & Son Ltd., St. Andrews, Fife. B 508, C 1403.",
+        "corrected": "721. Forgan (Robert) & Son Ltd., St. Andrews, Fife. B 508, C 1403"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,224,1256,68/max/0/default.jpg",
+            "xywh": "190, 224, 1256, 68"
+        }
+    },
+    "short_id": "A721",
+    "label": "Forgan (Robert) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-0-B508",
+                    "short_id": "B508"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-0-C1403",
+                    "short_id": "C1403"
+                }
+            ],
+            "description": "The british company A721 trades with the swiss company B508 in the goods C1403"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Forgan (Robert) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " St. Andrews, Fife. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

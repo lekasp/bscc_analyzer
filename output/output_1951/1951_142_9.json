@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-9-B764",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "764. Unitrade AG., 10, Tiefenhöfe, Zurich. A 307, C 679, 696, 697, 698.",
+        "corrected": "764. Unitrade AG., 10, Tiefenhöfe, Zurich. A 307, C 679, 696, 697, 698"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,896,1294,41/max/0/default.jpg",
+            "xywh": "185, 896, 1294, 41"
+        }
+    },
+    "short_id": "B764",
+    "label": "Unitrade AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-9-A307",
+                    "short_id": "A307"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-9-C679",
+                    "short_id": "C679"
+                },
+                {
+                    "id": "BSCC-1951-142-9-C696",
+                    "short_id": "C696"
+                },
+                {
+                    "id": "BSCC-1951-142-9-C697",
+                    "short_id": "C697"
+                },
+                {
+                    "id": "BSCC-1951-142-9-C698",
+                    "short_id": "C698"
+                }
+            ],
+            "description": "The swiss company B764 trades with the british company A307 in the goods C679 and C696 and C697 and C698"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Unitrade AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 10, Tiefenhöfe, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

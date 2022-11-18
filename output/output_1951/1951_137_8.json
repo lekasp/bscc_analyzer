@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-8-B612",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "612. Rocatex AG., 2, Löwenstrasse, Zurich. A 145, 779, 1116, C 1157, 1173, 1183, 1188.",
+        "corrected": "612. Rocatex AG., 2, Löwenstrasse, Zurich.A 145, 779, 1116, C 1157, 1173, 1183, 1188"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,715,1255,75/max/0/default.jpg",
+            "xywh": "303, 715, 1255, 75"
+        }
+    },
+    "short_id": "B612",
+    "label": "Rocatex AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-8-A145",
+                    "short_id": "A145"
+                },
+                {
+                    "id": "BSCC-1951-137-8-A779",
+                    "short_id": "A779"
+                },
+                {
+                    "id": "BSCC-1951-137-8-A1116",
+                    "short_id": "A1116"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-8-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-137-8-C1173",
+                    "short_id": "C1173"
+                },
+                {
+                    "id": "BSCC-1951-137-8-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-137-8-C1188",
+                    "short_id": "C1188"
+                }
+            ],
+            "description": "The swiss company B612 trades with the british company A145 and A779 and A1116 in the goods C1157 and C1173 and C1183 and C1188"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rocatex AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 2, Löwenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

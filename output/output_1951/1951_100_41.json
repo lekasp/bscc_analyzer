@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-100-1951-41-A2137",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2137. Wilson (John), Marsden Bros. & Co., Sheffield. B 235, C 1409.",
+        "corrected": "2137. Wilson (John), Marsden Bros. & Co., Sheffield. B 235, C 1409"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 100,
+            "canvas": "http://localhost:8182/iiif/3/0100.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0100.jpg/176,1980,1286,40/max/0/default.jpg",
+            "xywh": "176, 1980, 1286, 40"
+        }
+    },
+    "short_id": "A2137",
+    "label": "Wilson (John), Marsden Bros. & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-100-41-B235",
+                    "short_id": "B235"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-100-41-C1409",
+                    "short_id": "C1409"
+                }
+            ],
+            "description": "The british company A2137 trades with the swiss company B235 in the goods C1409"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wilson (John), Marsden Bros. & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": ", Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

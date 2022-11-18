@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-6-C1128",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1128. Jersey. A 1209, 1983, B 77, 464.",
+        "corrected": "1128. Jersey. A 1209, 1983, B 77, 464"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,488,1290,38/max/0/default.jpg",
+            "xywh": "316, 488, 1290, 38"
+        }
+    },
+    "short_id": "C1128",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-6-A1209",
+                    "short_id": "A1209"
+                },
+                {
+                    "id": "BSCC-1951-183-6-A1983",
+                    "short_id": "A1983"
+                },
+                {
+                    "id": "BSCC-1951-183-6-B77",
+                    "short_id": "B77"
+                },
+                {
+                    "id": "BSCC-1951-183-6-B464",
+                    "short_id": "B464"
+                }
+            ],
+            "description": "with the british company A1209 and A1983 and B464"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

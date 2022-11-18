@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-6-C274",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "274. Shot-blasting machines. A 464, B 8.",
+        "corrected": "274. Shot-blasting machines. A 464, B 8"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,482,1277,38/max/0/default.jpg",
+            "xywh": "306, 482, 1277, 38"
+        }
+    },
+    "short_id": "C274",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-6-A464",
+                    "short_id": "A464"
+                },
+                {
+                    "id": "BSCC-1951-159-6-B8",
+                    "short_id": "B8"
+                }
+            ],
+            "description": "with the british company A464"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

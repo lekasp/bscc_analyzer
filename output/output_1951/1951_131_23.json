@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-23-B459,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "459, Lutz & Stocker AG., 80, Talstrasse, Zurich. A 187, C 354.",
+        "corrected": "459, Lutz & Stocker AG., 80, Talstrasse, Zurich. A 187, C 354"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1661,1265,41/max/0/default.jpg",
+            "xywh": "316, 1661, 1265, 41"
+        }
+    },
+    "short_id": "B459,",
+    "label": "Lutz & Stocker AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-23-A187",
+                    "short_id": "A187"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-23-C354",
+                    "short_id": "C354"
+                }
+            ],
+            "description": "The swiss company B459, trades with the british company A187 in the goods C354"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lutz & Stocker AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 80, Talstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

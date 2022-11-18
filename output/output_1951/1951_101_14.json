@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-14-A2157",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2157. Wolf Electric Tools Ltd., London W 5. B 676, C 387.",
+        "corrected": "2157. Wolf Electric Tools Ltd., London W 5. B 676, C 387"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,837,1264,42/max/0/default.jpg",
+            "xywh": "343, 837, 1264, 42"
+        }
+    },
+    "short_id": "A2157",
+    "label": "Wolf Electric Tools Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-14-B676",
+                    "short_id": "B676"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-14-C387",
+                    "short_id": "C387"
+                }
+            ],
+            "description": "The british company A2157 trades with the swiss company B676 in the goods C387"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wolf Electric Tools Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 5. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

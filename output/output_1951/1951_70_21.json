@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-21-A1275",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1275. Mather & Platt Ltd., Newton Heath, Manchester. B 188, C 301; B 231, C 703.",
+        "corrected": "1275. Mather & Platt Ltd., Newton Heath, Manchester.B 188, C 301; B 231, C 703"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,1110,1227,81/max/0/default.jpg",
+            "xywh": "199, 1110, 1227, 81"
+        }
+    },
+    "short_id": "A1275",
+    "label": "Mather & Platt Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-21-B188",
+                    "short_id": "B188"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-21-C301",
+                    "short_id": "C301"
+                }
+            ],
+            "description": "The british company A1275 trades with the swiss company B188 in the goods C301"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-21-B231",
+                    "short_id": "B231"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-21-C703",
+                    "short_id": "C703"
+                }
+            ],
+            "description": "The british company A1275 trades with the swiss company B231 in the goods C703"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mather & Platt Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Newton Heath, Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

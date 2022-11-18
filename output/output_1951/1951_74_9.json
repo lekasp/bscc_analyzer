@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-9-A1357",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1357. Morries & Yeomans Ltd., Astwood Bank, Redditch. B 160, C 880, 889.",
+        "corrected": "1357. Morries & Yeomans Ltd., Astwood Bank, Redditch. B 160, C 880, 889"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,736,1249,38/max/0/default.jpg",
+            "xywh": "184, 736, 1249, 38"
+        }
+    },
+    "short_id": "A1357",
+    "label": "Morries & Yeomans Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-9-B160",
+                    "short_id": "B160"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-9-C880",
+                    "short_id": "C880"
+                },
+                {
+                    "id": "BSCC-1951-74-9-C889",
+                    "short_id": "C889"
+                }
+            ],
+            "description": "The british company A1357 trades with the swiss company B160 in the goods C880 and C889"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Morries & Yeomans Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639557",
+            "lat": "52.3065",
+            "lng": "-1.94569",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redditch",
+            "transcription": " Astwood Bank, Redditch. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

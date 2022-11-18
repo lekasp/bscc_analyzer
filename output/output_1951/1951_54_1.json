@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-1-A906",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "906. Henderson (John M.) & Co. Ltd., Aberdeen. B 273, C 345, 358, 370.",
+        "corrected": "906. Henderson (John M.) & Co. Ltd., Aberdeen. B 273, C 345, 358, 370"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,294,1211,38/max/0/default.jpg",
+            "xywh": "137, 294, 1211, 38"
+        }
+    },
+    "short_id": "A906",
+    "label": "Henderson (John M.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-1-B273",
+                    "short_id": "B273"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-1-C345",
+                    "short_id": "C345"
+                },
+                {
+                    "id": "BSCC-1951-54-1-C358",
+                    "short_id": "C358"
+                },
+                {
+                    "id": "BSCC-1951-54-1-C370",
+                    "short_id": "C370"
+                }
+            ],
+            "description": "The british company A906 trades with the swiss company B273 in the goods C345 and C358 and C370"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Henderson (John M.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657832",
+            "lat": "57.14369",
+            "lng": "-2.09814",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Aberdeen",
+            "transcription": " Aberdeen. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

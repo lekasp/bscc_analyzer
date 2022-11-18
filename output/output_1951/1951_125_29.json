@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-29-B286",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 286. Goldmann (K), 23, Tödistrasse, Zurich. A 150, 845, 901, C 1129, 1195, 1201.",
+        "corrected": "286. Goldmann (K), 23, Tödistrasse, Zurich. A 150, 845, 901, C 1129, 1195, 1201"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,2153,1317,41/max/0/default.jpg",
+            "xywh": "288, 2153, 1317, 41"
+        }
+    },
+    "short_id": "B286",
+    "label": "Goldmann (K)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-29-A150",
+                    "short_id": "A150"
+                },
+                {
+                    "id": "BSCC-1951-125-29-A845",
+                    "short_id": "A845"
+                },
+                {
+                    "id": "BSCC-1951-125-29-A901",
+                    "short_id": "A901"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-29-C1129",
+                    "short_id": "C1129"
+                },
+                {
+                    "id": "BSCC-1951-125-29-C1195",
+                    "short_id": "C1195"
+                },
+                {
+                    "id": "BSCC-1951-125-29-C1201",
+                    "short_id": "C1201"
+                }
+            ],
+            "description": "The swiss company B286 trades with the british company A150 and A845 and A901 in the goods C1129 and C1195 and C1201"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Goldmann (K)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "23, Tödistrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

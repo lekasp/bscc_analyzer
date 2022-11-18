@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-34-A1685",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1685. Russell Constructions Ltd., London WC 2. B 330, C 246, 248, 332.",
+        "corrected": "1685. Russell Constructions Ltd., London WC 2. B 330, C 246, 248, 332"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1700,1195,40/max/0/default.jpg",
+            "xywh": "208, 1700, 1195, 40"
+        }
+    },
+    "short_id": "A1685",
+    "label": "Russell Constructions Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-34-B330",
+                    "short_id": "B330"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-34-C246",
+                    "short_id": "C246"
+                },
+                {
+                    "id": "BSCC-1951-88-34-C248",
+                    "short_id": "C248"
+                },
+                {
+                    "id": "BSCC-1951-88-34-C332",
+                    "short_id": "C332"
+                }
+            ],
+            "description": "The british company A1685 trades with the swiss company B330 in the goods C246 and C248 and C332"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Russell Constructions Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London WC 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

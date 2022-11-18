@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-25-A516",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "516. Crowther (John Edward) Ltd., Marsden, Huddersfield. B 186, C 1117.",
+        "corrected": "516. Crowther (John Edward) Ltd., Marsden, Huddersfield. B 186, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,1296,1261,38/max/0/default.jpg",
+            "xywh": "205, 1296, 1261, 38"
+        }
+    },
+    "short_id": "A516",
+    "label": "Crowther (John Edward) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-25-B186",
+                    "short_id": "B186"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-25-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The british company A516 trades with the swiss company B186 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Crowther (John Edward) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642992",
+            "lat": "53.6",
+            "lng": "-1.91667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Marsden",
+            "transcription": " Marsden, Huddersfield. "
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Marsden, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

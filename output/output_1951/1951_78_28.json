@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-28-A1460",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1460. Osborn (Samuel) & Co. Ltd., Wicker, Sheffield. B 224, C 118; B 663, C 126.",
+        "corrected": "1460. Osborn (Samuel) & Co. Ltd., Wicker, Sheffield. B 224, C 118; B 663, C 126"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1681,1263,40/max/0/default.jpg",
+            "xywh": "180, 1681, 1263, 40"
+        }
+    },
+    "short_id": "A1460",
+    "label": "Osborn (Samuel) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-28-B224",
+                    "short_id": "B224"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-28-C118",
+                    "short_id": "C118"
+                }
+            ],
+            "description": "The british company A1460 trades with the swiss company B224 in the goods C118"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-28-B663",
+                    "short_id": "B663"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-28-C126",
+                    "short_id": "C126"
+                }
+            ],
+            "description": "The british company A1460 trades with the swiss company B663 in the goods C126"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Osborn (Samuel) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Wicker, Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-14-C81",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "81. Beeswax. A 1197, B 706.",
+        "corrected": "81. Beeswax. A 1197, B 706"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,882,1243,37/max/0/default.jpg",
+            "xywh": "202, 882, 1243, 37"
+        }
+    },
+    "short_id": "C81",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-14-A1197",
+                    "short_id": "A1197"
+                },
+                {
+                    "id": "BSCC-1951-154-14-B706",
+                    "short_id": "B706"
+                }
+            ],
+            "description": "with the british company A1197"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

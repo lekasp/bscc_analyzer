@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-44-A1562",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1562. Pressed Steel Co. Ltd., Cowley, Oxford. B 620, C 515, 1325.",
+        "corrected": "1562. Pressed Steel Co. Ltd., Cowley, Oxford. B 620, C 515, 1325"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,2058,1308,41/max/0/default.jpg",
+            "xywh": "205, 2058, 1308, 41"
+        }
+    },
+    "short_id": "A1562",
+    "label": "Pressed Steel Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-44-B620",
+                    "short_id": "B620"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-44-C515",
+                    "short_id": "C515"
+                },
+                {
+                    "id": "BSCC-1951-82-44-C1325",
+                    "short_id": "C1325"
+                }
+            ],
+            "description": "The british company A1562 trades with the swiss company B620 in the goods C515 and C1325"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pressed Steel Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652191",
+            "lat": "51.73213",
+            "lng": "-1.20631",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cowley",
+            "transcription": " Cowley, Oxford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

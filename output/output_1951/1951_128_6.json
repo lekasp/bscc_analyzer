@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-6-B353",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "353. Hulftegger & Co., Stäfa (Zurich). A 1161, C 437, 442a.",
+        "corrected": "353. Hulftegger & Co., Stäfa (Zurich). A 1161, C 437, 442a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,600,1277,39/max/0/default.jpg",
+            "xywh": "185, 600, 1277, 39"
+        }
+    },
+    "short_id": "B353",
+    "label": "Hulftegger & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-6-A1161",
+                    "short_id": "A1161"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-6-C437",
+                    "short_id": "C437"
+                },
+                {
+                    "id": "BSCC-1951-128-6-C442a",
+                    "short_id": "C442a"
+                }
+            ],
+            "description": "The swiss company B353 trades with the british company A1161 in the goods C437 and C442a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hulftegger & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": ", Stäfa (Zurich). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-20-B832",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 832. World Transport Agency Ltd., 8, Viaduktstrasse, Basle. A 2174, C 1458.",
+        "corrected": "832. World Transport Agency Ltd., 8, Viaduktstrasse, Basle. A 2174, C 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1545,1324,41/max/0/default.jpg",
+            "xywh": "195, 1545, 1324, 41"
+        }
+    },
+    "short_id": "B832",
+    "label": "World Transport Agency Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-20-A2174",
+                    "short_id": "A2174"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-20-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B832 trades with the british company A2174 in the goods C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "World Transport Agency Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 8, Viaduktstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

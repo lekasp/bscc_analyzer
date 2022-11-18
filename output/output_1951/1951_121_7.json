@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-7-B142",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "142. Christ (Theodor), 77, Engelgasse, Basle. A 931, 2031, C 777, 822, 972.",
+        "corrected": "142. Christ (Theodor), 77, Engelgasse, Basle. A 931, 2031, C 777, 822, 972"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,634,1272,40/max/0/default.jpg",
+            "xywh": "309, 634, 1272, 40"
+        }
+    },
+    "short_id": "B142",
+    "label": "Christ (Theodor)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-7-A931",
+                    "short_id": "A931"
+                },
+                {
+                    "id": "BSCC-1951-121-7-A2031",
+                    "short_id": "A2031"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-7-C777",
+                    "short_id": "C777"
+                },
+                {
+                    "id": "BSCC-1951-121-7-C822",
+                    "short_id": "C822"
+                },
+                {
+                    "id": "BSCC-1951-121-7-C972",
+                    "short_id": "C972"
+                }
+            ],
+            "description": "The swiss company B142 trades with the british company A931 and A2031 in the goods C777 and C822 and C972"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Christ (Theodor)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "77, Engelgasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

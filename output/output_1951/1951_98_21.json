@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-21-A2029",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2029. Villiers Engineering Co. Ltd., Wolverhampton. B 427, C 632; B 676, C 419.",
+        "corrected": "2029. Villiers Engineering Co. Ltd., Wolverhampton.B 427, C 632; B 676, C 419"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,1057,1270,79/max/0/default.jpg",
+            "xywh": "180, 1057, 1270, 79"
+        }
+    },
+    "short_id": "A2029",
+    "label": "Villiers Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-21-B427",
+                    "short_id": "B427"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-21-C632",
+                    "short_id": "C632"
+                }
+            ],
+            "description": "The british company A2029 trades with the swiss company B427 in the goods C632"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-21-B676",
+                    "short_id": "B676"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-21-C419",
+                    "short_id": "C419"
+                }
+            ],
+            "description": "The british company A2029 trades with the swiss company B676 in the goods C419"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Villiers Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633691",
+            "lat": "52.58547",
+            "lng": "-2.12296",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolverhampton",
+            "transcription": " Wolverhampton."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

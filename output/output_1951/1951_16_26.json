@@ -1,0 +1,118 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-26-A70",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿70. Angus (George) Ltd., Newcastle. B 26, C 472; B 345, C 790; B 578, C 352, 426, 473.",
+        "corrected": "70. Angus (George) Ltd., Newcastle.B 26, C 472; B 345, C 790; B 578, C 352, 426, 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,1356,1233,80/max/0/default.jpg",
+            "xywh": "192, 1356, 1233, 80"
+        }
+    },
+    "short_id": "A70",
+    "label": "Angus (George) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-26-B26",
+                    "short_id": "B26"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-26-C472",
+                    "short_id": "C472"
+                }
+            ],
+            "description": "The british company A70 trades with the swiss company B26 in the goods C472"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-26-B345",
+                    "short_id": "B345"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-26-C790",
+                    "short_id": "C790"
+                }
+            ],
+            "description": "The british company A70 trades with the swiss company B345 in the goods C790"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-26-B578",
+                    "short_id": "B578"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-26-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-16-26-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-16-26-C473",
+                    "short_id": "C473"
+                }
+            ],
+            "description": "The british company A70 trades with the swiss company B578 in the goods C352 and C426 and C473"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Angus (George) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641679",
+            "lat": "52.43333",
+            "lng": "-3.11667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Newcastle",
+            "transcription": " Newcastle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

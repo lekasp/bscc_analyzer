@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-171-1951-14-C737",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "737. Water control equipment. A 784, B 397.",
+        "corrected": "737. Water control equipment. A 784, B 397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 171,
+            "canvas": "http://localhost:8182/iiif/3/0171.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0171.jpg/285,833,1300,38/max/0/default.jpg",
+            "xywh": "285, 833, 1300, 38"
+        }
+    },
+    "short_id": "C737",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-171-14-A784",
+                    "short_id": "A784"
+                },
+                {
+                    "id": "BSCC-1951-171-14-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "description": "with the british company A784"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

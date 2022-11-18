@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-22-A1856",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1856. Stoddard (A. F.) & Co. Ltd., Johnstone, Scotland. B 333, C 1247.",
+        "corrected": "1856. Stoddard (A. F.) & Co. Ltd., Johnstone, Scotland. B 333, C 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,1203,1254,41/max/0/default.jpg",
+            "xywh": "182, 1203, 1254, 41"
+        }
+    },
+    "short_id": "A1856",
+    "label": "Stoddard (A. F.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-22-B333",
+                    "short_id": "B333"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-22-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The british company A1856 trades with the swiss company B333 in the goods C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stoddard (A. F.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645951",
+            "lat": "55.82906",
+            "lng": "-4.51605",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Johnstone",
+            "transcription": " Johnstone, Scotland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

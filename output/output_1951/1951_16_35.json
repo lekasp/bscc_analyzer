@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-35-A79",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "79. Archdale (James) & Co. Ltd., Birmingham. B 205, C 219; B 646, C 193, 194 195.",
+        "corrected": "79. Archdale (James) & Co. Ltd., Birmingham.B 205, C 219; B 646, C 193, 194 195"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,1749,1233,79/max/0/default.jpg",
+            "xywh": "192, 1749, 1233, 79"
+        }
+    },
+    "short_id": "A79",
+    "label": "Archdale (James) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-35-B205",
+                    "short_id": "B205"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-35-C219",
+                    "short_id": "C219"
+                }
+            ],
+            "description": "The british company A79 trades with the swiss company B205 in the goods C219"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-35-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-35-C193",
+                    "short_id": "C193"
+                },
+                {
+                    "id": "BSCC-1951-16-35-C194195",
+                    "short_id": "C194195"
+                }
+            ],
+            "description": "The british company A79 trades with the swiss company B646 in the goods C193 and C194195"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Archdale (James) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

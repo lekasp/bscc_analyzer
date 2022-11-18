@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-174-1951-1-C832",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "832. Woven asbestos. A 2112, B 397.",
+        "corrected": "832. Woven asbestos. A 2112, B 397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 174,
+            "canvas": "http://localhost:8182/iiif/3/0174.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0174.jpg/224,296,1334,61/max/0/default.jpg",
+            "xywh": "224, 296, 1334, 61"
+        }
+    },
+    "short_id": "C832",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-174-1-A2112",
+                    "short_id": "A2112"
+                },
+                {
+                    "id": "BSCC-1951-174-1-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "description": "with the british company A2112"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

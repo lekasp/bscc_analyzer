@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-24-A880",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "880. Harwood (Edgar) Ltd., Huddington, nr Droitwich. B 475, C 112, 113.",
+        "corrected": "880. Harwood (Edgar) Ltd., Huddington, nr Droitwich. B 475, C 112, 113"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,1219,1254,40/max/0/default.jpg",
+            "xywh": "182, 1219, 1254, 40"
+        }
+    },
+    "short_id": "A880",
+    "label": "Harwood (Edgar) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-24-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-24-C112",
+                    "short_id": "C112"
+                },
+                {
+                    "id": "BSCC-1951-52-24-C113",
+                    "short_id": "C113"
+                }
+            ],
+            "description": "The british company A880 trades with the swiss company B475 in the goods C112 and C113"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Harwood (Edgar) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "7291733",
+            "lat": "52.2195",
+            "lng": "-2.09315",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddington",
+            "transcription": " Huddington, nr Droitwich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

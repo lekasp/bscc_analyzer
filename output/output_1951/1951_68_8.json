@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-8-A1218",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1218. Macintosh (Chas.) & Co. Ltd., London N 18. B 594, C 1157, 1160.",
+        "corrected": "1218. Macintosh (Chas.) & Co. Ltd., London N 18. B 594, C 1157, 1160"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,662,1283,40/max/0/default.jpg",
+            "xywh": "167, 662, 1283, 40"
+        }
+    },
+    "short_id": "A1218",
+    "label": "Macintosh (Chas.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-8-B594",
+                    "short_id": "B594"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-8-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-68-8-C1160",
+                    "short_id": "C1160"
+                }
+            ],
+            "description": "The british company A1218 trades with the swiss company B594 in the goods C1157 and C1160"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Macintosh (Chas.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London N 18. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

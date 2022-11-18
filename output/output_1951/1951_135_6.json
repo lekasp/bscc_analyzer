@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-6-B557",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 557. Partridge (J. E.), 22, Maupas, Lausanne. A 378, 819, 946, C 1126, 1157, 1163, 1164, 1289.",
+        "corrected": "557. Partridge (J. E.), 22, Maupas, Lausanne.A 378, 819, 946, C 1126, 1157, 1163, 1164, 1289"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,719,1298,82/max/0/default.jpg",
+            "xywh": "298, 719, 1298, 82"
+        }
+    },
+    "short_id": "B557",
+    "label": "Partridge (J. E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-6-A378",
+                    "short_id": "A378"
+                },
+                {
+                    "id": "BSCC-1951-135-6-A819",
+                    "short_id": "A819"
+                },
+                {
+                    "id": "BSCC-1951-135-6-A946",
+                    "short_id": "A946"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-6-C1126",
+                    "short_id": "C1126"
+                },
+                {
+                    "id": "BSCC-1951-135-6-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-135-6-C1163",
+                    "short_id": "C1163"
+                },
+                {
+                    "id": "BSCC-1951-135-6-C1164",
+                    "short_id": "C1164"
+                },
+                {
+                    "id": "BSCC-1951-135-6-C1289",
+                    "short_id": "C1289"
+                }
+            ],
+            "description": "The swiss company B557 trades with the british company A378 and A819 and A946 in the goods C1126 and C1157 and C1163 and C1164 and C1289"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Partridge (J. E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "22, Maupas, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

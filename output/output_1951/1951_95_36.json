@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-36-A1917",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1917. Taylor, Taylor & Hobson Ltd., Leicester. B 559, C 1273; B 646, C 288, 695.",
+        "corrected": "1917. Taylor, Taylor & Hobson Ltd., Leicester. B 559, C 1273; B 646, C 288, 695"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,2003,1285,39/max/0/default.jpg",
+            "xywh": "340, 2003, 1285, 39"
+        }
+    },
+    "short_id": "A1917",
+    "label": "Taylor, Taylor & Hobson Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-36-B559",
+                    "short_id": "B559"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-36-C1273",
+                    "short_id": "C1273"
+                }
+            ],
+            "description": "The british company A1917 trades with the swiss company B559 in the goods C1273"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-36-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-36-C288",
+                    "short_id": "C288"
+                },
+                {
+                    "id": "BSCC-1951-95-36-C695",
+                    "short_id": "C695"
+                }
+            ],
+            "description": "The british company A1917 trades with the swiss company B646 in the goods C288 and C695"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Taylor, Taylor & Hobson Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-0-A627",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "627. Electro-Chemical Engineering Co. Ltd., Weybridge. B 602, C 328.",
+        "corrected": "627. Electro-Chemical Engineering Co. Ltd., Weybridge. B 602, C 328"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,239,1259,58/max/0/default.jpg",
+            "xywh": "194, 239, 1259, 58"
+        }
+    },
+    "short_id": "A627",
+    "label": "Electro-Chemical Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-0-B602",
+                    "short_id": "B602"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-0-C328",
+                    "short_id": "C328"
+                }
+            ],
+            "description": "The british company A627 trades with the swiss company B602 in the goods C328"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Electro-Chemical Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634204",
+            "lat": "51.37178",
+            "lng": "-0.45975",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Weybridge",
+            "transcription": " Weybridge. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

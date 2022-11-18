@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-31-A1420",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1420. Nickols (Richard) & Son Ltd., Leeds. B 436, C 856, 865.",
+        "corrected": "1420. Nickols (Richard) & Son Ltd., Leeds. B 436, C 856, 865"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1648,1323,40/max/0/default.jpg",
+            "xywh": "174, 1648, 1323, 40"
+        }
+    },
+    "short_id": "A1420",
+    "label": "Nickols (Richard) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-31-B436",
+                    "short_id": "B436"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-31-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-76-31-C865",
+                    "short_id": "C865"
+                }
+            ],
+            "description": "The british company A1420 trades with the swiss company B436 in the goods C856 and C865"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Nickols (Richard) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

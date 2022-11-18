@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-32-B33",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "33., Arensberg (H.), 72, Klosbachstrasse, Zurich. A 1660, 1765, 1869, C 1117, 1140, 1148.",
+        "corrected": "33., Arensberg (H.), 72, Klosbachstrasse, Zurich.A 1660, 1765, 1869, C 1117, 1140, 1148"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1869,1350,77/max/0/default.jpg",
+            "xywh": "278, 1869, 1350, 77"
+        }
+    },
+    "short_id": "B33",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-32-A1660",
+                    "short_id": "A1660"
+                },
+                {
+                    "id": "BSCC-1951-117-32-A1765",
+                    "short_id": "A1765"
+                },
+                {
+                    "id": "BSCC-1951-117-32-A1869",
+                    "short_id": "A1869"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-32-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-117-32-C1140",
+                    "short_id": "C1140"
+                },
+                {
+                    "id": "BSCC-1951-117-32-C1148",
+                    "short_id": "C1148"
+                }
+            ],
+            "description": "The swiss company B33 trades with the british company A1660 and A1765 and A1869 in the goods C1117 and C1140 and C1148"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": ""
+        }
+    ],
+    "location": [
+        {
+            "transcription": "Arensberg (H.)72KlosbachstrasseZurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

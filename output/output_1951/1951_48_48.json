@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-48-A812",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "812. Gray (William C.) & Sons Ltd., Ayr. B 718, C 1247.",
+        "corrected": "812. Gray (William C.) & Sons Ltd., Ayr. B 718, C 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,2185,1259,59/max/0/default.jpg",
+            "xywh": "200, 2185, 1259, 59"
+        }
+    },
+    "short_id": "A812",
+    "label": "Gray (William C.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-48-B718",
+                    "short_id": "B718"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-48-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The british company A812 trades with the swiss company B718 in the goods C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gray (William C.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656708",
+            "lat": "55.46273",
+            "lng": "-4.63393",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Ayr",
+            "transcription": " Ayr. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

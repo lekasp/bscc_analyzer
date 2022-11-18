@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-27-B810",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "810. Welti (Paul), Teufen (Appenzell). A 333, 351, 902, C 1084, 1112, 1113, 1215, 1221.",
+        "corrected": "810. Welti (Paul), Teufen (Appenzell).A 333, 351, 902, C 1084, 1112, 1113, 1215, 1221"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,2071,1304,78/max/0/default.jpg",
+            "xywh": "297, 2071, 1304, 78"
+        }
+    },
+    "short_id": "B810",
+    "label": "Welti (Paul)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-27-A333",
+                    "short_id": "A333"
+                },
+                {
+                    "id": "BSCC-1951-143-27-A351",
+                    "short_id": "A351"
+                },
+                {
+                    "id": "BSCC-1951-143-27-A902",
+                    "short_id": "A902"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-27-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-143-27-C1112",
+                    "short_id": "C1112"
+                },
+                {
+                    "id": "BSCC-1951-143-27-C1113",
+                    "short_id": "C1113"
+                },
+                {
+                    "id": "BSCC-1951-143-27-C1215",
+                    "short_id": "C1215"
+                },
+                {
+                    "id": "BSCC-1951-143-27-C1221",
+                    "short_id": "C1221"
+                }
+            ],
+            "description": "The swiss company B810 trades with the british company A333 and A351 and A902 in the goods C1084 and C1112 and C1113 and C1215 and C1221"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Welti (Paul)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658397",
+            "lat": "47.3908",
+            "lng": "9.38644",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Teufen AR",
+            "transcription": "Teufen (Appenzell)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-19-A1538",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1538. Pirelli Ltd., Burton-on-Trent. B 847, C 805.",
+        "corrected": "1538. Pirelli Ltd., Burton-on-Trent. B 847, C 805"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,989,1308,43/max/0/default.jpg",
+            "xywh": "205, 989, 1308, 43"
+        }
+    },
+    "short_id": "A1538",
+    "label": "Pirelli Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-19-B847",
+                    "short_id": "B847"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-19-C805",
+                    "short_id": "C805"
+                }
+            ],
+            "description": "The british company A1538 trades with the swiss company B847 in the goods C805"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pirelli Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654200",
+            "lat": "52.80728",
+            "lng": "-1.64263",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Burton-on-Trent",
+            "transcription": " Burton-on-Trent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

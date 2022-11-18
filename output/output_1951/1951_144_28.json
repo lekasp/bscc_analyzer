@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-28-B840",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "840. Zimmermann (Charles) & Co., 44, Bahnhofstrasse, Zurich. A 1150, 1472, C 1175, 1187.",
+        "corrected": "840. Zimmermann (Charles) & Co., 44, Bahnhofstrasse, Zurich.A 1150, 1472, C 1175, 1187"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,2140,1324,107/max/0/default.jpg",
+            "xywh": "195, 2140, 1324, 107"
+        }
+    },
+    "short_id": "B840",
+    "label": "Zimmermann (Charles) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-28-A1150",
+                    "short_id": "A1150"
+                },
+                {
+                    "id": "BSCC-1951-144-28-A1472",
+                    "short_id": "A1472"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-28-C1175",
+                    "short_id": "C1175"
+                },
+                {
+                    "id": "BSCC-1951-144-28-C1187",
+                    "short_id": "C1187"
+                }
+            ],
+            "description": "The swiss company B840 trades with the british company A1150 and A1472 in the goods C1175 and C1187"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Zimmermann (Charles) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 44, Bahnhofstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

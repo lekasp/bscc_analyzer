@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-13-A1709",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1709. Sauven Perforating Machine Co., London EC 1. B 745, C 1060.",
+        "corrected": "1709. Sauven Perforating Machine Co., London EC 1. B 745, C 1060"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,831,1298,41/max/0/default.jpg",
+            "xywh": "171, 831, 1298, 41"
+        }
+    },
+    "short_id": "A1709",
+    "label": "Sauven Perforating Machine Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-13-B745",
+                    "short_id": "B745"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-13-C1060",
+                    "short_id": "C1060"
+                }
+            ],
+            "description": "The british company A1709 trades with the swiss company B745 in the goods C1060"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sauven Perforating Machine Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": ", London EC 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

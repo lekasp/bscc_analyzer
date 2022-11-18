@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-12-C362",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "362. Idler rollers. A 1402, B 8.",
+        "corrected": "362. Idler rollers. A 1402, B 8"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,762,1322,41/max/0/default.jpg",
+            "xywh": "290, 762, 1322, 41"
+        }
+    },
+    "short_id": "C362",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-12-A1402",
+                    "short_id": "A1402"
+                },
+                {
+                    "id": "BSCC-1951-161-12-B8",
+                    "short_id": "B8"
+                }
+            ],
+            "description": "with the british company A1402"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

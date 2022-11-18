@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-30-A1952",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1952. Trist (Hubert H. P.) & Co., Brislington, Bristol. B 786, C 575, 581.",
+        "corrected": "1952. Trist (Hubert H. P.) & Co., Brislington, Bristol. B 786, C 575, 581"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1583,1288,35/max/0/default.jpg",
+            "xywh": "164, 1583, 1288, 35"
+        }
+    },
+    "short_id": "A1952",
+    "label": "Trist (Hubert H. P.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-30-B786",
+                    "short_id": "B786"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-30-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-96-30-C581",
+                    "short_id": "C581"
+                }
+            ],
+            "description": "The british company A1952 trades with the swiss company B786 in the goods C575 and C581"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Trist (Hubert H. P.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654675",
+            "lat": "51.45523",
+            "lng": "-2.59665",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bristol",
+            "transcription": ", Brislington, Bristol. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-20-B397",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 397. Kihm (Ing. Oscar), 1, In der Hub, Zurich. A 3, 292, 502, 784, 892, 922, 998, 1008, 1013, 1397, 1739, 1887, 2112, C 168, 243, 244, 245, 258, 332, 344, 346, 352, 353, 375, 446, 448, 453, 454, 463, 464, 466, 474, 478, 490, 491, 684, 706, 726, 729, 730, 731, 737, 738, 803, 825, 827, 828, 829, 832.",
+        "corrected": "397. Kihm (Ing. Oscar), 1, In der Hub, Zurich.A 3, 292, 502, 784, 892, 922, 998, 1008, 1013, 1397, 1739, 1887, 2112, C 168, 243, 244, 245, 258, 332, 344, 346, 352, 353, 375, 446, 448, 453, 454, 463, 464, 466, 474, 478, 490, 491, 684, 706, 726, 729, 730, 731, 737, 738, 803, 825, 827, 828, 829, 832"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1629,1292,199/max/0/default.jpg",
+            "xywh": "294, 1629, 1292, 199"
+        }
+    },
+    "short_id": "B397",
+    "label": "Kihm (Ing. Oscar)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-20-A3",
+                    "short_id": "A3"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A292",
+                    "short_id": "A292"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A502",
+                    "short_id": "A502"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A784",
+                    "short_id": "A784"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A892",
+                    "short_id": "A892"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A922",
+                    "short_id": "A922"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A998",
+                    "short_id": "A998"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A1008",
+                    "short_id": "A1008"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A1013",
+                    "short_id": "A1013"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A1397",
+                    "short_id": "A1397"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A1739",
+                    "short_id": "A1739"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A1887",
+                    "short_id": "A1887"
+                },
+                {
+                    "id": "BSCC-1951-129-20-A2112",
+                    "short_id": "A2112"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-20-C168",
+                    "short_id": "C168"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C243",
+                    "short_id": "C243"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C244",
+                    "short_id": "C244"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C245",
+                    "short_id": "C245"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C258",
+                    "short_id": "C258"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C332",
+                    "short_id": "C332"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C344",
+                    "short_id": "C344"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C346",
+                    "short_id": "C346"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C353",
+                    "short_id": "C353"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C375",
+                    "short_id": "C375"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C446",
+                    "short_id": "C446"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C448",
+                    "short_id": "C448"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C453",
+                    "short_id": "C453"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C454",
+                    "short_id": "C454"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C463",
+                    "short_id": "C463"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C464",
+                    "short_id": "C464"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C466",
+                    "short_id": "C466"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C474",
+                    "short_id": "C474"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C478",
+                    "short_id": "C478"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C490",
+                    "short_id": "C490"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C491",
+                    "short_id": "C491"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C684",
+                    "short_id": "C684"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C706",
+                    "short_id": "C706"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C726",
+                    "short_id": "C726"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C729",
+                    "short_id": "C729"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C730",
+                    "short_id": "C730"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C731",
+                    "short_id": "C731"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C737",
+                    "short_id": "C737"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C738",
+                    "short_id": "C738"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C803",
+                    "short_id": "C803"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C825",
+                    "short_id": "C825"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C827",
+                    "short_id": "C827"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C828",
+                    "short_id": "C828"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C829",
+                    "short_id": "C829"
+                },
+                {
+                    "id": "BSCC-1951-129-20-C832",
+                    "short_id": "C832"
+                }
+            ],
+            "description": "The swiss company B397 trades with the british company A3 and A292 and A502 and A784 and A892 and A922 and A998 and A1008 and A1013 and A1397 and A1739 and A1887 and A2112 in the goods C168 and C243 and C244 and C245 and C258 and C332 and C344 and C346 and C352 and C353 and C375 and C446 and C448 and C453 and C454 and C463 and C464 and C466 and C474 and C478 and C490 and C491 and C684 and C706 and C726 and C729 and C730 and C731 and C737 and C738 and C803 and C825 and C827 and C828 and C829 and C832"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kihm (Ing. Oscar)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "1, In der Hub, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

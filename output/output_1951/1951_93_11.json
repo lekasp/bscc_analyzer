@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-11-A1800",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1800. Smiths Motor Accessories Ltd., London NW 2. B 362, C 568, 584, 592, 593, 606, 621.",
+        "corrected": "1800. Smiths Motor Accessories Ltd., London NW 2.B 362, C 568, 584, 592, 593, 606, 621"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,739,1183,77/max/0/default.jpg",
+            "xywh": "355, 739, 1183, 77"
+        }
+    },
+    "short_id": "A1800",
+    "label": "Smiths Motor Accessories Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-11-B362",
+                    "short_id": "B362"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-11-C568",
+                    "short_id": "C568"
+                },
+                {
+                    "id": "BSCC-1951-93-11-C584",
+                    "short_id": "C584"
+                },
+                {
+                    "id": "BSCC-1951-93-11-C592",
+                    "short_id": "C592"
+                },
+                {
+                    "id": "BSCC-1951-93-11-C593",
+                    "short_id": "C593"
+                },
+                {
+                    "id": "BSCC-1951-93-11-C606",
+                    "short_id": "C606"
+                },
+                {
+                    "id": "BSCC-1951-93-11-C621",
+                    "short_id": "C621"
+                }
+            ],
+            "description": "The british company A1800 trades with the swiss company B362 in the goods C568 and C584 and C592 and C593 and C606 and C621"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smiths Motor Accessories Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London NW 2."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

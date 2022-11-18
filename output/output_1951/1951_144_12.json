@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-12-B824",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "824. Wild (D.), Richterswil (Zurich). A 591, 1508, 1636, 2141, C 305, 307, 309, 310, 314, 317.",
+        "corrected": "824. Wild (D.), Richterswil (Zurich).A 591, 1508, 1636, 2141, C 305, 307, 309, 310, 314, 317"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1114,1324,77/max/0/default.jpg",
+            "xywh": "195, 1114, 1324, 77"
+        }
+    },
+    "short_id": "B824",
+    "label": "Wild (D.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-12-A591",
+                    "short_id": "A591"
+                },
+                {
+                    "id": "BSCC-1951-144-12-A1508",
+                    "short_id": "A1508"
+                },
+                {
+                    "id": "BSCC-1951-144-12-A1636",
+                    "short_id": "A1636"
+                },
+                {
+                    "id": "BSCC-1951-144-12-A2141",
+                    "short_id": "A2141"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-12-C305",
+                    "short_id": "C305"
+                },
+                {
+                    "id": "BSCC-1951-144-12-C307",
+                    "short_id": "C307"
+                },
+                {
+                    "id": "BSCC-1951-144-12-C309",
+                    "short_id": "C309"
+                },
+                {
+                    "id": "BSCC-1951-144-12-C310",
+                    "short_id": "C310"
+                },
+                {
+                    "id": "BSCC-1951-144-12-C314",
+                    "short_id": "C314"
+                },
+                {
+                    "id": "BSCC-1951-144-12-C317",
+                    "short_id": "C317"
+                }
+            ],
+            "description": "The swiss company B824 trades with the british company A591 and A1508 and A1636 and A2141 in the goods C305 and C307 and C309 and C310 and C314 and C317"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wild (D.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659050",
+            "lat": "47.20622",
+            "lng": "8.69686",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Richterswil",
+            "transcription": "Richterswil (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

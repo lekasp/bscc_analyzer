@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-25-C1383",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1383. Razor blades. A 774, 1809, 2067, B 278, 536, 836.",
+        "corrected": "1383. Razor blades. A 774, 1809, 2067, B 278, 536, 836"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1481,1327,35/max/0/default.jpg",
+            "xywh": "181, 1481, 1327, 35"
+        }
+    },
+    "short_id": "C1383",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-25-A774",
+                    "short_id": "A774"
+                },
+                {
+                    "id": "BSCC-1951-190-25-A1809",
+                    "short_id": "A1809"
+                },
+                {
+                    "id": "BSCC-1951-190-25-A2067",
+                    "short_id": "A2067"
+                },
+                {
+                    "id": "BSCC-1951-190-25-B278",
+                    "short_id": "B278"
+                },
+                {
+                    "id": "BSCC-1951-190-25-B536",
+                    "short_id": "B536"
+                },
+                {
+                    "id": "BSCC-1951-190-25-B836",
+                    "short_id": "B836"
+                }
+            ],
+            "description": "with the british company A774 and A1809 and A2067 and B536 and B836"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

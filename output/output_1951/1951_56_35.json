@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-35-A983",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "983. Illingworth (E.) & Co. (Bradford) Ltd., Shelf, nr Halifax. B 674, C 1145.",
+        "corrected": "983. Illingworth (E.) & Co. (Bradford) Ltd., Shelf, nr Halifax. B 674, C 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1864,1276,41/max/0/default.jpg",
+            "xywh": "158, 1864, 1276, 41"
+        }
+    },
+    "short_id": "A983",
+    "label": "Illingworth (E.) & Co. (Bradford) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-35-B674",
+                    "short_id": "B674"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-35-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The british company A983 trades with the swiss company B674 in the goods C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Illingworth (E.) & Co. (Bradford) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637958",
+            "lat": "53.83333",
+            "lng": "-1.76667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Shipley",
+            "transcription": " Shelf, nr Halifax. "
+        },
+        {
+            "id": "2647632",
+            "lat": "53.71667",
+            "lng": "-1.85",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Halifax",
+            "transcription": " Shelf, nr Halifax. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

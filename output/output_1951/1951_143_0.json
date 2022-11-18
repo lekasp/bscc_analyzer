@@ -1,0 +1,168 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-0-B783",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "783. Waeffler & Co. AG., 1a, Augustinerstrasse, Basle. A 25, 60, 140, 500, 603, 695, 856, 890, 1098, 1164, 1166, 1266, 1427, 1631 1852, 1892, C 784, 883, 1084, 1096, 1097, 1213, 1245, 1257a, 1301.",
+        "corrected": "783. Waeffler & Co. AG., 1a, Augustinerstrasse, Basle.A 25, 60, 140, 500, 603, 695, 856, 890, 1098, 1164, 1166, 1266, 1427, 1631 1852, 1892, C 784, 883, 1084, 1096, 1097, 1213, 1245, 1257a, 1301"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,220,1304,147/max/0/default.jpg",
+            "xywh": "297, 220, 1304, 147"
+        }
+    },
+    "short_id": "B783",
+    "label": "Waeffler & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-0-A25",
+                    "short_id": "A25"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A60",
+                    "short_id": "A60"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A140",
+                    "short_id": "A140"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A500",
+                    "short_id": "A500"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A603",
+                    "short_id": "A603"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A695",
+                    "short_id": "A695"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A856",
+                    "short_id": "A856"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A890",
+                    "short_id": "A890"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1098",
+                    "short_id": "A1098"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1164",
+                    "short_id": "A1164"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1166",
+                    "short_id": "A1166"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1266",
+                    "short_id": "A1266"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1427",
+                    "short_id": "A1427"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A16311852",
+                    "short_id": "A16311852"
+                },
+                {
+                    "id": "BSCC-1951-143-0-A1892",
+                    "short_id": "A1892"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-0-C784",
+                    "short_id": "C784"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C883",
+                    "short_id": "C883"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1097",
+                    "short_id": "C1097"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1213",
+                    "short_id": "C1213"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1245",
+                    "short_id": "C1245"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1257a",
+                    "short_id": "C1257a"
+                },
+                {
+                    "id": "BSCC-1951-143-0-C1301",
+                    "short_id": "C1301"
+                }
+            ],
+            "description": "The swiss company B783 trades with the british company A25 and A60 and A140 and A500 and A603 and A695 and A856 and A890 and A1098 and A1164 and A1166 and A1266 and A1427 and A16311852 and A1892 in the goods C784 and C883 and C1084 and C1096 and C1097 and C1213 and C1245 and C1257a and C1301"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waeffler & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 1a, Augustinerstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

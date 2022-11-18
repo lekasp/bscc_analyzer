@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-36-A1337",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1337. Monk (S. A.) Ltd., Sutton in Ashfield. B 753, C 308.",
+        "corrected": "1337. Monk (S. A.) Ltd., Sutton in Ashfield. B 753, C 308"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,1717,1267,36/max/0/default.jpg",
+            "xywh": "205, 1717, 1267, 36"
+        }
+    },
+    "short_id": "A1337",
+    "label": "Monk (S. A.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-36-B753",
+                    "short_id": "B753"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-36-C308",
+                    "short_id": "C308"
+                }
+            ],
+            "description": "The british company A1337 trades with the swiss company B753 in the goods C308"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Monk (S. A.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Sutton in Ashfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

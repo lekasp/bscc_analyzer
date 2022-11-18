@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-12-B269",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "269. Geiger (Ernest) S.A., 32, rue Ch. Neuhaus, Bienne (Biel). A 667, 1816, C 144, 148, 404.",
+        "corrected": "269. Geiger (Ernest) S.A., 32, rue Ch. Neuhaus, Bienne (Biel).A 667, 1816, C 144, 148, 404"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,967,1317,79/max/0/default.jpg",
+            "xywh": "288, 967, 1317, 79"
+        }
+    },
+    "short_id": "B269",
+    "label": "Geiger (Ernest) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-12-A667",
+                    "short_id": "A667"
+                },
+                {
+                    "id": "BSCC-1951-125-12-A1816",
+                    "short_id": "A1816"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-12-C144",
+                    "short_id": "C144"
+                },
+                {
+                    "id": "BSCC-1951-125-12-C148",
+                    "short_id": "C148"
+                },
+                {
+                    "id": "BSCC-1951-125-12-C404",
+                    "short_id": "C404"
+                }
+            ],
+            "description": "The swiss company B269 trades with the british company A667 and A1816 in the goods C144 and C148 and C404"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Geiger (Ernest) S.A."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 32, rue Ch. Neuhaus, Bienne (Biel)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

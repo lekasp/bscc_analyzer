@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-39-A760",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "760. General Radiological Ltd., London W 1. B 770, C 1297, 1305.",
+        "corrected": "760. General Radiological Ltd., London W 1. B 770, C 1297, 1305"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,2025,1256,43/max/0/default.jpg",
+            "xywh": "190, 2025, 1256, 43"
+        }
+    },
+    "short_id": "A760",
+    "label": "General Radiological Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-39-B770",
+                    "short_id": "B770"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-39-C1297",
+                    "short_id": "C1297"
+                },
+                {
+                    "id": "BSCC-1951-46-39-C1305",
+                    "short_id": "C1305"
+                }
+            ],
+            "description": "The british company A760 trades with the swiss company B770 in the goods C1297 and C1305"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "General Radiological Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

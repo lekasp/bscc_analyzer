@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-33-B34",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "34. Arlaud (Marcel), 60, rue du Stand, Geneva. A 370, C 555.",
+        "corrected": "34. Arlaud (Marcel), 60, rue du Stand, Geneva. A 370, C 555"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1946,1350,43/max/0/default.jpg",
+            "xywh": "278, 1946, 1350, 43"
+        }
+    },
+    "short_id": "B34",
+    "label": "Arlaud (Marcel)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-33-A370",
+                    "short_id": "A370"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-33-C555",
+                    "short_id": "C555"
+                }
+            ],
+            "description": "The swiss company B34 trades with the british company A370 in the goods C555"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Arlaud (Marcel)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "60, rue du Stand, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

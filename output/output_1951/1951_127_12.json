@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-12-B328",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "328. Hess (Hans), Ing., 221, Bellerivestrasse, Zurich. A 94, 193, 1205, C 182, 194, 200, 204.",
+        "corrected": "328. Hess (Hans), Ing., 221, Bellerivestrasse, Zurich.A 94, 193, 1205, C 182, 194, 200, 204"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,966,1233,80/max/0/default.jpg",
+            "xywh": "316, 966, 1233, 80"
+        }
+    },
+    "short_id": "B328",
+    "label": "Hess (Hans)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-12-A94",
+                    "short_id": "A94"
+                },
+                {
+                    "id": "BSCC-1951-127-12-A193",
+                    "short_id": "A193"
+                },
+                {
+                    "id": "BSCC-1951-127-12-A1205",
+                    "short_id": "A1205"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-12-C182",
+                    "short_id": "C182"
+                },
+                {
+                    "id": "BSCC-1951-127-12-C194",
+                    "short_id": "C194"
+                },
+                {
+                    "id": "BSCC-1951-127-12-C200",
+                    "short_id": "C200"
+                },
+                {
+                    "id": "BSCC-1951-127-12-C204",
+                    "short_id": "C204"
+                }
+            ],
+            "description": "The swiss company B328 trades with the british company A94 and A193 and A1205 in the goods C182 and C194 and C200 and C204"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hess (Hans)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Ing., 221, Bellerivestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

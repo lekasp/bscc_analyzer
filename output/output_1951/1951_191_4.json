@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-4-C1400",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1400. Fishing tackle. A 866, 1137, 1444, 1509, B 107, 234.",
+        "corrected": "1400. Fishing tackle. A 866, 1137, 1444, 1509, B 107, 234"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,395,1305,37/max/0/default.jpg",
+            "xywh": "304, 395, 1305, 37"
+        }
+    },
+    "short_id": "C1400",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-4-A866",
+                    "short_id": "A866"
+                },
+                {
+                    "id": "BSCC-1951-191-4-A1137",
+                    "short_id": "A1137"
+                },
+                {
+                    "id": "BSCC-1951-191-4-A1444",
+                    "short_id": "A1444"
+                },
+                {
+                    "id": "BSCC-1951-191-4-A1509",
+                    "short_id": "A1509"
+                },
+                {
+                    "id": "BSCC-1951-191-4-B107",
+                    "short_id": "B107"
+                },
+                {
+                    "id": "BSCC-1951-191-4-B234",
+                    "short_id": "B234"
+                }
+            ],
+            "description": "with the british company A866 and A1137 and A1444 and A1509 and B234"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

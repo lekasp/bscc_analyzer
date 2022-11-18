@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-12-B504",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "504. Minerva Agentur für Farben & Lacke, 14, Bahnhofplatz, Zurich. A 576, 1536, 1602, 2128, C 956, 958, 963, 968, 970, 976, 980, 981, 989.",
+        "corrected": "504. Minerva Agentur für Farben & Lacke, 14, Bahnhofplatz, Zurich.A 576, 1536, 1602, 2128, C 956, 958, 963, 968, 970, 976, 980, 981, 989"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1058,1317,82/max/0/default.jpg",
+            "xywh": "305, 1058, 1317, 82"
+        }
+    },
+    "short_id": "B504",
+    "label": "Minerva Agentur für Farben & Lacke",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-12-A576",
+                    "short_id": "A576"
+                },
+                {
+                    "id": "BSCC-1951-133-12-A1536",
+                    "short_id": "A1536"
+                },
+                {
+                    "id": "BSCC-1951-133-12-A1602",
+                    "short_id": "A1602"
+                },
+                {
+                    "id": "BSCC-1951-133-12-A2128",
+                    "short_id": "A2128"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-12-C956",
+                    "short_id": "C956"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C958",
+                    "short_id": "C958"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C963",
+                    "short_id": "C963"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C968",
+                    "short_id": "C968"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C970",
+                    "short_id": "C970"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C976",
+                    "short_id": "C976"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C980",
+                    "short_id": "C980"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C981",
+                    "short_id": "C981"
+                },
+                {
+                    "id": "BSCC-1951-133-12-C989",
+                    "short_id": "C989"
+                }
+            ],
+            "description": "The swiss company B504 trades with the british company A576 and A1536 and A1602 and A2128 in the goods C956 and C958 and C963 and C968 and C970 and C976 and C980 and C981 and C989"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Minerva Agentur für Farben & Lacke"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "14, Bahnhofplatz, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

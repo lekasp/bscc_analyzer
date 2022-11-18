@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-14-A462",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "462. Connollys (Blackley) Ltd., Manchester. B 729, C 168, 490, 491, 492, 522, 524, 525.",
+        "corrected": "462. Connollys (Blackley) Ltd., Manchester.B 729, C 168, 490, 491, 492, 522, 524, 525"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,846,1292,77/max/0/default.jpg",
+            "xywh": "157, 846, 1292, 77"
+        }
+    },
+    "short_id": "A462",
+    "label": "Connollys (Blackley) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-14-B729",
+                    "short_id": "B729"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-14-C168",
+                    "short_id": "C168"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C490",
+                    "short_id": "C490"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C491",
+                    "short_id": "C491"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C492",
+                    "short_id": "C492"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C522",
+                    "short_id": "C522"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C524",
+                    "short_id": "C524"
+                },
+                {
+                    "id": "BSCC-1951-34-14-C525",
+                    "short_id": "C525"
+                }
+            ],
+            "description": "The british company A462 trades with the swiss company B729 in the goods C168 and C490 and C491 and C492 and C522 and C524 and C525"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Connollys (Blackley) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

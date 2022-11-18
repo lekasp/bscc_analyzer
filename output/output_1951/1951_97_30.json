@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-30-A1997",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1997. Universal Grinding Wheel Co. Ltd., Stafford. B 201, C 435.",
+        "corrected": "1997. Universal Grinding Wheel Co. Ltd., Stafford. B 201, C 435"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,1607,1247,38/max/0/default.jpg",
+            "xywh": "346, 1607, 1247, 38"
+        }
+    },
+    "short_id": "A1997",
+    "label": "Universal Grinding Wheel Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-30-B201",
+                    "short_id": "B201"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-30-C435",
+                    "short_id": "C435"
+                }
+            ],
+            "description": "The british company A1997 trades with the swiss company B201 in the goods C435"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Universal Grinding Wheel Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637142",
+            "lat": "52.80521",
+            "lng": "-2.11636",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stafford",
+            "transcription": " Stafford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

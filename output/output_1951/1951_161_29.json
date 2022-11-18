@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-29-C378",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "378. TOOLS, GENERAL. A 43, 131, 699, 950, 1095, 1207, 1229, 1253, 1391, 2188 — B 105, 209, 232, 460, 503, 584, 598, 705, 734.",
+        "corrected": "378. TOOLS, GENERAL.A 43, 131, 699, 950, 1095, 1207, 1229, 1253, 1391, 2188 — B 105, 209, 232, 460, 503, 584, 598, 705, 734"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,1479,1322,119/max/0/default.jpg",
+            "xywh": "290, 1479, 1322, 119"
+        }
+    },
+    "short_id": "C378",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-29-A43",
+                    "short_id": "A43"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A131",
+                    "short_id": "A131"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A699",
+                    "short_id": "A699"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A950",
+                    "short_id": "A950"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A1095",
+                    "short_id": "A1095"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A1207",
+                    "short_id": "A1207"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A1229",
+                    "short_id": "A1229"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A1253",
+                    "short_id": "A1253"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A1391",
+                    "short_id": "A1391"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A209",
+                    "short_id": "A209"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A232",
+                    "short_id": "A232"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A460",
+                    "short_id": "A460"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A503",
+                    "short_id": "A503"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A584",
+                    "short_id": "A584"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A598",
+                    "short_id": "A598"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A705",
+                    "short_id": "A705"
+                },
+                {
+                    "id": "BSCC-1951-161-29-A734",
+                    "short_id": "A734"
+                }
+            ],
+            "description": "with the british company A43 and A131 and A699 and A950 and A1095 and A1207 and A1229 and A1253 and A1391 and A209 and A232 and A460 and A503 and A584 and A598 and A705 and A734"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

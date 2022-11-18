@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-23-A112",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "112. Automatic Coil Winder & Electrical Equipment Co. Ltd., London SW 1. B 747, C 495, 660.",
+        "corrected": "112. Automatic Coil Winder & Electrical Equipment Co. Ltd., London SW 1.B 747, C 495, 660"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,1212,1236,78/max/0/default.jpg",
+            "xywh": "219, 1212, 1236, 78"
+        }
+    },
+    "short_id": "A112",
+    "label": "Automatic Coil Winder & Electrical Equipment Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-23-B747",
+                    "short_id": "B747"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-23-C495",
+                    "short_id": "C495"
+                },
+                {
+                    "id": "BSCC-1951-18-23-C660",
+                    "short_id": "C660"
+                }
+            ],
+            "description": "The british company A112 trades with the swiss company B747 in the goods C495 and C660"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Automatic Coil Winder & Electrical Equipment Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SW 1."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

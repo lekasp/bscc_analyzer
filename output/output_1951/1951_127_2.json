@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-2-B319",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "319. Hauser (J.), Automobiles, 58, Talstrasse, Zurich 1. A 51, 1774, 1999, C 562, 627.",
+        "corrected": "319. Hauser (J.), Automobiles, 58, Talstrasse, Zurich 1.A 51, 1774, 1999, C 562, 627"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,334,1233,81/max/0/default.jpg",
+            "xywh": "316, 334, 1233, 81"
+        }
+    },
+    "short_id": "B319",
+    "label": "Hauser (J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-2-A51",
+                    "short_id": "A51"
+                },
+                {
+                    "id": "BSCC-1951-127-2-A1774",
+                    "short_id": "A1774"
+                },
+                {
+                    "id": "BSCC-1951-127-2-A1999",
+                    "short_id": "A1999"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-2-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-127-2-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The swiss company B319 trades with the british company A51 and A1774 and A1999 in the goods C562 and C627"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hauser (J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Automobiles, 58, Talstrasse, Zurich 1."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-27-C1385",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1385. Silver novelties. A 1244, B 583.",
+        "corrected": "1385. Silver novelties. A 1244, B 583"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1560,1327,37/max/0/default.jpg",
+            "xywh": "181, 1560, 1327, 37"
+        }
+    },
+    "short_id": "C1385",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-27-A1244",
+                    "short_id": "A1244"
+                },
+                {
+                    "id": "BSCC-1951-190-27-B583",
+                    "short_id": "B583"
+                }
+            ],
+            "description": "with the british company A1244"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-2-B229",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "229. Filliol (F. A.), 2bis, chemin de Roches, Geneva. A 1967, C 94, 103, 111, 118, 141, 385, 389, 391.",
+        "corrected": "229. Filliol (F. A.), 2bis, chemin de Roches, Geneva.A 1967, C 94, 103, 111, 118, 141, 385, 389, 391"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,452,1320,78/max/0/default.jpg",
+            "xywh": "166, 452, 1320, 78"
+        }
+    },
+    "short_id": "B229",
+    "label": "Filliol (F. A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-2-A1967",
+                    "short_id": "A1967"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-2-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C103",
+                    "short_id": "C103"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C111",
+                    "short_id": "C111"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C118",
+                    "short_id": "C118"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C141",
+                    "short_id": "C141"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C389",
+                    "short_id": "C389"
+                },
+                {
+                    "id": "BSCC-1951-124-2-C391",
+                    "short_id": "C391"
+                }
+            ],
+            "description": "The swiss company B229 trades with the british company A1967 in the goods C94 and C103 and C111 and C118 and C141 and C385 and C389 and C391"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Filliol (F. A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "2bis, chemin de Roches, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

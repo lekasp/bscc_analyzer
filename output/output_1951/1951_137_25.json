@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-25-B629",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "629. Rutschmann (W. E.), 54, Florastrasse, Zurich. A 687, C 326.",
+        "corrected": "629. Rutschmann (W. E.), 54, Florastrasse, Zurich. A 687, C 326"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1742,1255,47/max/0/default.jpg",
+            "xywh": "303, 1742, 1255, 47"
+        }
+    },
+    "short_id": "B629",
+    "label": "Rutschmann (W. E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-25-A687",
+                    "short_id": "A687"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-25-C326",
+                    "short_id": "C326"
+                }
+            ],
+            "description": "The swiss company B629 trades with the british company A687 in the goods C326"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rutschmann (W. E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "54, Florastrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

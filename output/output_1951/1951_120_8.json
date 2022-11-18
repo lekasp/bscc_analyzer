@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-8-B114",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "114. Breitschmid (Hugo), Waltenschwilerstrasse, Wohlen (Aarg.). A 273, C 352, 426, 575, 824, 831.",
+        "corrected": "114. Breitschmid (Hugo), Waltenschwilerstrasse, Wohlen (Aarg.).A 273, C 352, 426, 575, 824, 831"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,825,1348,83/max/0/default.jpg",
+            "xywh": "159, 825, 1348, 83"
+        }
+    },
+    "short_id": "B114",
+    "label": "Breitschmid (Hugo)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-8-A273",
+                    "short_id": "A273"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-8-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-120-8-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-120-8-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-120-8-C824",
+                    "short_id": "C824"
+                },
+                {
+                    "id": "BSCC-1951-120-8-C831",
+                    "short_id": "C831"
+                }
+            ],
+            "description": "The swiss company B114 trades with the british company A273 in the goods C352 and C426 and C575 and C824 and C831"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Breitschmid (Hugo)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657963",
+            "lat": "47.35066",
+            "lng": "8.27517",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wohlen",
+            "transcription": "Waltenschwilerstrasse, Wohlen (Aarg.)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

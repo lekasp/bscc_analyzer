@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-171-1951-32-C752",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿752. Lanterns, hurricane. A 1989, 2123, B 143, 440.",
+        "corrected": "752. Lanterns, hurricane. A 1989, 2123, B 143, 440"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 171,
+            "canvas": "http://localhost:8182/iiif/3/0171.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0171.jpg/285,1727,1300,41/max/0/default.jpg",
+            "xywh": "285, 1727, 1300, 41"
+        }
+    },
+    "short_id": "C752",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-171-32-A1989",
+                    "short_id": "A1989"
+                },
+                {
+                    "id": "BSCC-1951-171-32-A2123",
+                    "short_id": "A2123"
+                },
+                {
+                    "id": "BSCC-1951-171-32-B143",
+                    "short_id": "B143"
+                },
+                {
+                    "id": "BSCC-1951-171-32-B440",
+                    "short_id": "B440"
+                }
+            ],
+            "description": "with the british company A1989 and A2123 and B440"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

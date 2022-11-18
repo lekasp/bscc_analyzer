@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-173-1951-16-C809",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "809. PLASTIC MATERIALS, GENERAL. A 127, 301, 367, 652, 1791, 1811, B 212, 219, 358, 476, 673, 794.",
+        "corrected": "809. PLASTIC MATERIALS, GENERAL.A 127, 301, 367, 652, 1791, 1811, B 212, 219, 358, 476, 673, 794"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 173,
+            "canvas": "http://localhost:8182/iiif/3/0173.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0173.jpg/275,1038,1300,85/max/0/default.jpg",
+            "xywh": "275, 1038, 1300, 85"
+        }
+    },
+    "short_id": "C809",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-173-16-A127",
+                    "short_id": "A127"
+                },
+                {
+                    "id": "BSCC-1951-173-16-A301",
+                    "short_id": "A301"
+                },
+                {
+                    "id": "BSCC-1951-173-16-A367",
+                    "short_id": "A367"
+                },
+                {
+                    "id": "BSCC-1951-173-16-A652",
+                    "short_id": "A652"
+                },
+                {
+                    "id": "BSCC-1951-173-16-A1791",
+                    "short_id": "A1791"
+                },
+                {
+                    "id": "BSCC-1951-173-16-A1811",
+                    "short_id": "A1811"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B212",
+                    "short_id": "B212"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B219",
+                    "short_id": "B219"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B358",
+                    "short_id": "B358"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B476",
+                    "short_id": "B476"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B673",
+                    "short_id": "B673"
+                },
+                {
+                    "id": "BSCC-1951-173-16-B794",
+                    "short_id": "B794"
+                }
+            ],
+            "description": "with the british company A127 and A301 and A367 and A652 and A1791 and A1811 and B219 and B358 and B476 and B673 and B794"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-41-A130",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "130. Baldwin Instrument Co. Ltd., Dartford, Kent. B 31, C 1297.",
+        "corrected": "130. Baldwin Instrument Co. Ltd., Dartford, Kent. B 31, C 1297"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,2152,1236,38/max/0/default.jpg",
+            "xywh": "219, 2152, 1236, 38"
+        }
+    },
+    "short_id": "A130",
+    "label": "Baldwin Instrument Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-41-B31",
+                    "short_id": "B31"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-41-C1297",
+                    "short_id": "C1297"
+                }
+            ],
+            "description": "The british company A130 trades with the swiss company B31 in the goods C1297"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Baldwin Instrument Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651500",
+            "lat": "51.44657",
+            "lng": "0.21423",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Dartford",
+            "transcription": " Dartford, Kent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

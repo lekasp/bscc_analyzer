@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-169-1951-40-C687",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "687. Measuring instruments, heat. A 375, 1063, B 405, 544.",
+        "corrected": "687. Measuring instruments, heat. A 375, 1063, B 405, 544"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 169,
+            "canvas": "http://localhost:8182/iiif/3/0169.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0169.jpg/309,2187,1320,76/max/0/default.jpg",
+            "xywh": "309, 2187, 1320, 76"
+        }
+    },
+    "short_id": "C687",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-169-40-A375",
+                    "short_id": "A375"
+                },
+                {
+                    "id": "BSCC-1951-169-40-A1063",
+                    "short_id": "A1063"
+                },
+                {
+                    "id": "BSCC-1951-169-40-B405",
+                    "short_id": "B405"
+                },
+                {
+                    "id": "BSCC-1951-169-40-B544",
+                    "short_id": "B544"
+                }
+            ],
+            "description": "with the british company A375 and A1063 and B544"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-30-B165",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 165. Cunard Line AG., 8, Schwanenplatz, Lucerne. + A 521, C 1457.",
+        "corrected": "165. Cunard Line AG., 8, Schwanenplatz, Lucerne. + A 521, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,2017,1272,51/max/0/default.jpg",
+            "xywh": "309, 2017, 1272, 51"
+        }
+    },
+    "short_id": "B165",
+    "label": "Cunard Line AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-30-A521",
+                    "short_id": "A521"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-30-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The swiss company B165 trades with the british company A521 in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cunard Line AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659811",
+            "lat": "47.05048",
+            "lng": "8.30635",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lucerne",
+            "transcription": " 8, Schwanenplatz, Lucerne. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-31-A874",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "874. Harrison (George) & Co., Edinburgh. B 451, C 1209.",
+        "corrected": "874. Harrison (George) & Co., Edinburgh. B 451, C 1209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,944,1254,42/max/0/default.jpg",
+            "xywh": "182, 944, 1254, 42"
+        }
+    },
+    "short_id": "A874",
+    "label": "Harrison (George) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-31-B451",
+                    "short_id": "B451"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-31-C1209",
+                    "short_id": "C1209"
+                }
+            ],
+            "description": "The british company A874 trades with the swiss company B451 in the goods C1209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Harrison (George) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650225",
+            "lat": "55.95206",
+            "lng": "-3.19648",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Edinburgh",
+            "transcription": ", Edinburgh. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

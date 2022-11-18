@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-19-C444",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "444. Air compressors. A 329, 463, 947, 1922, 2064, B 8, 122, 470, 655, 737a.",
+        "corrected": "444. Air compressors.A 329, 463, 947, 1922, 2064, B 8, 122, 470, 655, 737a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,1142,1245,82/max/0/default.jpg",
+            "xywh": "294, 1142, 1245, 82"
+        }
+    },
+    "short_id": "C444",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-19-A329",
+                    "short_id": "A329"
+                },
+                {
+                    "id": "BSCC-1951-163-19-A463",
+                    "short_id": "A463"
+                },
+                {
+                    "id": "BSCC-1951-163-19-A947",
+                    "short_id": "A947"
+                },
+                {
+                    "id": "BSCC-1951-163-19-A1922",
+                    "short_id": "A1922"
+                },
+                {
+                    "id": "BSCC-1951-163-19-A2064",
+                    "short_id": "A2064"
+                },
+                {
+                    "id": "BSCC-1951-163-19-B8",
+                    "short_id": "B8"
+                },
+                {
+                    "id": "BSCC-1951-163-19-B122",
+                    "short_id": "B122"
+                },
+                {
+                    "id": "BSCC-1951-163-19-B470",
+                    "short_id": "B470"
+                },
+                {
+                    "id": "BSCC-1951-163-19-B655",
+                    "short_id": "B655"
+                },
+                {
+                    "id": "BSCC-1951-163-19-B737a",
+                    "short_id": "B737a"
+                }
+            ],
+            "description": "with the british company A329 and A463 and A947 and A1922 and A2064 and B122 and B470 and B655 and B737a"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

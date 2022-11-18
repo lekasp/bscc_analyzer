@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-44-A1513",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1513. Peradin Ltd., Freshford, Somerset. B 302, C 793.",
+        "corrected": "1513. Peradin Ltd., Freshford, Somerset. B 302, C 793"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,1981,1303,38/max/0/default.jpg",
+            "xywh": "200, 1981, 1303, 38"
+        }
+    },
+    "short_id": "A1513",
+    "label": "Peradin Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-44-B302",
+                    "short_id": "B302"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-44-C793",
+                    "short_id": "C793"
+                }
+            ],
+            "description": "The british company A1513 trades with the swiss company B302 in the goods C793"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Peradin Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2649070",
+            "lat": "51.33917",
+            "lng": "-2.30306",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Freshford",
+            "transcription": " Freshford, Somerset. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

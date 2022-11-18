@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-30-B634",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 634. Saric S. à r. l., 10, Bel-Air Métropole, Lausanne. A 418, 831, 1437, 1477, 1601, 2178, C 897, 956, 976, 982, 995, 996, 997, 1254",
+        "corrected": "634. Saric S. à r. l., 10, Bel-Air Métropole, Lausanne.A 418, 831, 1437, 1477, 1601, 2178, C 897, 956, 976, 982, 995, 996, 997, 1254"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,2145,1255,144/max/0/default.jpg",
+            "xywh": "303, 2145, 1255, 144"
+        }
+    },
+    "short_id": "B634",
+    "label": "Saric S. à r. l.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-30-A418",
+                    "short_id": "A418"
+                },
+                {
+                    "id": "BSCC-1951-137-30-A831",
+                    "short_id": "A831"
+                },
+                {
+                    "id": "BSCC-1951-137-30-A1437",
+                    "short_id": "A1437"
+                },
+                {
+                    "id": "BSCC-1951-137-30-A1477",
+                    "short_id": "A1477"
+                },
+                {
+                    "id": "BSCC-1951-137-30-A1601",
+                    "short_id": "A1601"
+                },
+                {
+                    "id": "BSCC-1951-137-30-A2178",
+                    "short_id": "A2178"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-30-C897",
+                    "short_id": "C897"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C956",
+                    "short_id": "C956"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C976",
+                    "short_id": "C976"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C982",
+                    "short_id": "C982"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C995",
+                    "short_id": "C995"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C996",
+                    "short_id": "C996"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C997",
+                    "short_id": "C997"
+                },
+                {
+                    "id": "BSCC-1951-137-30-C1254",
+                    "short_id": "C1254"
+                }
+            ],
+            "description": "The swiss company B634 trades with the british company A418 and A831 and A1437 and A1477 and A1601 and A2178 in the goods C897 and C956 and C976 and C982 and C995 and C996 and C997 and C1254"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Saric S. à r. l."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 10, Bel-Air Métropole, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-92-1951-16-A1758",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1758. Sigma Instrument Co. Ltd., Letchworth. B 733, C 206, 681, 690, 700.",
+        "corrected": "1758. Sigma Instrument Co. Ltd., Letchworth. B 733, C 206, 681, 690, 700"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 92,
+            "canvas": "http://localhost:8182/iiif/3/0092.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0092.jpg/190,879,1276,39/max/0/default.jpg",
+            "xywh": "190, 879, 1276, 39"
+        }
+    },
+    "short_id": "A1758",
+    "label": "Sigma Instrument Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-92-16-B733",
+                    "short_id": "B733"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-92-16-C206",
+                    "short_id": "C206"
+                },
+                {
+                    "id": "BSCC-1951-92-16-C681",
+                    "short_id": "C681"
+                },
+                {
+                    "id": "BSCC-1951-92-16-C690",
+                    "short_id": "C690"
+                },
+                {
+                    "id": "BSCC-1951-92-16-C700",
+                    "short_id": "C700"
+                }
+            ],
+            "description": "The british company A1758 trades with the swiss company B733 in the goods C206 and C681 and C690 and C700"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sigma Instrument Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "8224216",
+            "lat": "51.97938",
+            "lng": "-0.22664",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Letchworth",
+            "transcription": " Letchworth. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

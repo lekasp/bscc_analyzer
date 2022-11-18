@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-32-A1198",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1198. Lord & Sharman Ltd., Pemberton, Wigan. B 672, C 873.",
+        "corrected": "1198. Lord & Sharman Ltd., Pemberton, Wigan. B 672, C 873"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,1737,1288,35/max/0/default.jpg",
+            "xywh": "170, 1737, 1288, 35"
+        }
+    },
+    "short_id": "A1198",
+    "label": "Lord & Sharman Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-32-B672",
+                    "short_id": "B672"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-32-C873",
+                    "short_id": "C873"
+                }
+            ],
+            "description": "The british company A1198 trades with the swiss company B672 in the goods C873"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lord & Sharman Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2640507",
+            "lat": "53.51667",
+            "lng": "-2.66667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Pemberton",
+            "transcription": " Pemberton, Wigan. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-9-A1574",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1574. Pugh (Charles H.) Ltd., Birmingham. B 516, C 753; B 711, C 638.",
+        "corrected": "1574. Pugh (Charles H.) Ltd., Birmingham. B 516, C 753; B 711, C 638"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,594,1278,40/max/0/default.jpg",
+            "xywh": "168, 594, 1278, 40"
+        }
+    },
+    "short_id": "A1574",
+    "label": "Pugh (Charles H.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-9-B516",
+                    "short_id": "B516"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-9-C753",
+                    "short_id": "C753"
+                }
+            ],
+            "description": "The british company A1574 trades with the swiss company B516 in the goods C753"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-9-B711",
+                    "short_id": "B711"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-9-C638",
+                    "short_id": "C638"
+                }
+            ],
+            "description": "The british company A1574 trades with the swiss company B711 in the goods C638"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pugh (Charles H.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

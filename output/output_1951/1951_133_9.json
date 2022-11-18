@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-9-B501",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "501. Miche (Albert) & Co., 3, rue Gutenberg, Geneva. A 809, 1351, 1352, C 72, 87, 264, 272.",
+        "corrected": "501. Miche (Albert) & Co., 3, rue Gutenberg, Geneva.A 809, 1351, 1352, C 72, 87, 264, 272"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,866,1317,77/max/0/default.jpg",
+            "xywh": "305, 866, 1317, 77"
+        }
+    },
+    "short_id": "B501",
+    "label": "Miche (Albert) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-9-A809",
+                    "short_id": "A809"
+                },
+                {
+                    "id": "BSCC-1951-133-9-A1351",
+                    "short_id": "A1351"
+                },
+                {
+                    "id": "BSCC-1951-133-9-A1352",
+                    "short_id": "A1352"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-9-C72",
+                    "short_id": "C72"
+                },
+                {
+                    "id": "BSCC-1951-133-9-C87",
+                    "short_id": "C87"
+                },
+                {
+                    "id": "BSCC-1951-133-9-C264",
+                    "short_id": "C264"
+                },
+                {
+                    "id": "BSCC-1951-133-9-C272",
+                    "short_id": "C272"
+                }
+            ],
+            "description": "The swiss company B501 trades with the british company A809 and A1351 and A1352 in the goods C72 and C87 and C264 and C272"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Miche (Albert) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": ", 3, rue Gutenberg, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

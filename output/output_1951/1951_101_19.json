@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-19-A2162",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2162. Wood (Arthur) & Son (Longport) Ltd., Longport, Stoke-on-Trent. B 103, C 1365.",
+        "corrected": "2162. Wood (Arthur) & Son (Longport) Ltd., Longport, Stoke-on-Trent.B 103, C 1365"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,1037,1264,75/max/0/default.jpg",
+            "xywh": "343, 1037, 1264, 75"
+        }
+    },
+    "short_id": "A2162",
+    "label": "Wood (Arthur) & Son (Longport) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-19-B103",
+                    "short_id": "B103"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-19-C1365",
+                    "short_id": "C1365"
+                }
+            ],
+            "description": "The british company A2162 trades with the swiss company B103 in the goods C1365"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wood (Arthur) & Son (Longport) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643648",
+            "lat": "53.04467",
+            "lng": "-2.21327",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Longport",
+            "transcription": " Longport, Stoke-on-Trent."
+        },
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Longport, Stoke-on-Trent."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

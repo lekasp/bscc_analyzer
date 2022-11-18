@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-19-C412",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "412. Small tools, general. A 326, 648, 738, 850, 1046, 1391, 1634, 1777, B 6, 50, 209, 396, 479.",
+        "corrected": "412. Small tools, general.A 326, 648, 738, 850, 1046, 1391, 1634, 1777, B 6, 50, 209, 396, 479"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,992,1336,78/max/0/default.jpg",
+            "xywh": "172, 992, 1336, 78"
+        }
+    },
+    "short_id": "C412",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-19-A326",
+                    "short_id": "A326"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A648",
+                    "short_id": "A648"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A738",
+                    "short_id": "A738"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A850",
+                    "short_id": "A850"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A1046",
+                    "short_id": "A1046"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A1391",
+                    "short_id": "A1391"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A1634",
+                    "short_id": "A1634"
+                },
+                {
+                    "id": "BSCC-1951-162-19-A1777",
+                    "short_id": "A1777"
+                },
+                {
+                    "id": "BSCC-1951-162-19-B6",
+                    "short_id": "B6"
+                },
+                {
+                    "id": "BSCC-1951-162-19-B50",
+                    "short_id": "B50"
+                },
+                {
+                    "id": "BSCC-1951-162-19-B209",
+                    "short_id": "B209"
+                },
+                {
+                    "id": "BSCC-1951-162-19-B396",
+                    "short_id": "B396"
+                },
+                {
+                    "id": "BSCC-1951-162-19-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "description": "with the british company A326 and A648 and A738 and A850 and A1046 and A1391 and A1634 and A1777 and B50 and B209 and B396 and B479"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

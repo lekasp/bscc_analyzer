@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-4-A1523",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1523. Phillips (A. W.) Ltd., Nuneaton. B 812, C 1414.",
+        "corrected": "1523. Phillips (A. W.) Ltd., Nuneaton. B 812, C 1414"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,396,1308,40/max/0/default.jpg",
+            "xywh": "205, 396, 1308, 40"
+        }
+    },
+    "short_id": "A1523",
+    "label": "Phillips (A. W.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-4-B812",
+                    "short_id": "B812"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-4-C1414",
+                    "short_id": "C1414"
+                }
+            ],
+            "description": "The british company A1523 trades with the swiss company B812 in the goods C1414"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Phillips (A. W.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641157",
+            "lat": "52.52323",
+            "lng": "-1.46523",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nuneaton",
+            "transcription": " Nuneaton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

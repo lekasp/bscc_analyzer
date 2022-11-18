@@ -1,0 +1,79 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-1-C226",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "226. Presses, hydraulic. A 692, 696, 1324, 1746, B 470, 596, 646,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,292,1303,37/max/0/default.jpg",
+            "xywh": "194, 292, 1303, 37"
+        }
+    },
+    "short_id": "C226",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-1-A692",
+                    "short_id": "A692"
+                },
+                {
+                    "id": "BSCC-1951-158-1-A696",
+                    "short_id": "A696"
+                },
+                {
+                    "id": "BSCC-1951-158-1-A1324",
+                    "short_id": "A1324"
+                },
+                {
+                    "id": "BSCC-1951-158-1-A1746",
+                    "short_id": "A1746"
+                },
+                {
+                    "id": "BSCC-1951-158-1-B470",
+                    "short_id": "B470"
+                },
+                {
+                    "id": "BSCC-1951-158-1-B596",
+                    "short_id": "B596"
+                },
+                {
+                    "id": "BSCC-1951-158-1-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "description": "with the british company A692 and A696 and A1324 and A1746 and B596 and B646"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

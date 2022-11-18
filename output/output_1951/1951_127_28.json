@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-28-B344",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "344. Huber (Emil) & Cie., 21, Gotthardstrasse, Zurich. A 1017, 2194, C 1079, 1107.",
+        "corrected": "344. Huber (Emil) & Cie., 21, Gotthardstrasse, Zurich.A 1017, 2194, C 1079, 1107"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,1993,1233,80/max/0/default.jpg",
+            "xywh": "316, 1993, 1233, 80"
+        }
+    },
+    "short_id": "B344",
+    "label": "Huber (Emil) & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-28-A1017",
+                    "short_id": "A1017"
+                },
+                {
+                    "id": "BSCC-1951-127-28-A2194",
+                    "short_id": "A2194"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-28-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-127-28-C1107",
+                    "short_id": "C1107"
+                }
+            ],
+            "description": "The swiss company B344 trades with the british company A1017 and A2194 in the goods C1079 and C1107"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Huber (Emil) & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 21, Gotthardstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

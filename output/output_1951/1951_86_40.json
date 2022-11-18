@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-86-1951-40-A1643",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1643. Roberts (J. W.) Ltd., Armley, Leeds. B 336, C 830.",
+        "corrected": "1643. Roberts (J. W.) Ltd., Armley, Leeds. B 336, C 830"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 86,
+            "canvas": "http://localhost:8182/iiif/3/0086.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0086.jpg/171,1901,1280,43/max/0/default.jpg",
+            "xywh": "171, 1901, 1280, 43"
+        }
+    },
+    "short_id": "A1643",
+    "label": "Roberts (J. W.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-86-40-B336",
+                    "short_id": "B336"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-86-40-C830",
+                    "short_id": "C830"
+                }
+            ],
+            "description": "The british company A1643 trades with the swiss company B336 in the goods C830"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Roberts (J. W.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "11669850",
+            "lat": "53.797",
+            "lng": "-1.57465",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Armley",
+            "transcription": " Armley, Leeds. "
+        },
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Armley, Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

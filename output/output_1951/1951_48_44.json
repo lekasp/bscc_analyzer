@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-44-A808",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "808. Grant (William) & Sons Ltd., Glasgow. B 752, C 57.",
+        "corrected": "808. Grant (William) & Sons Ltd., Glasgow. B 752, C 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,2028,1259,42/max/0/default.jpg",
+            "xywh": "200, 2028, 1259, 42"
+        }
+    },
+    "short_id": "A808",
+    "label": "Grant (William) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-44-B752",
+                    "short_id": "B752"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-44-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The british company A808 trades with the swiss company B752 in the goods C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Grant (William) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

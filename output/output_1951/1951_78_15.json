@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-15-A1447",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1447. Old Bridge Mills Co., Cleckheaton, Yorks. B 333, C 1147, 1152.",
+        "corrected": "1447. Old Bridge Mills Co., Cleckheaton, Yorks. B 333, C 1147, 1152"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1048,1263,42/max/0/default.jpg",
+            "xywh": "180, 1048, 1263, 42"
+        }
+    },
+    "short_id": "A1447",
+    "label": "Old Bridge Mills Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-15-B333",
+                    "short_id": "B333"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-15-C1147",
+                    "short_id": "C1147"
+                },
+                {
+                    "id": "BSCC-1951-78-15-C1152",
+                    "short_id": "C1152"
+                }
+            ],
+            "description": "The british company A1447 trades with the swiss company B333 in the goods C1147 and C1152"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Old Bridge Mills Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652890",
+            "lat": "53.72405",
+            "lng": "-1.71294",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cleckheaton",
+            "transcription": ", Cleckheaton, Yorks. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

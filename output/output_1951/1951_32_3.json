@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-3-A403",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "403. Cepea Fabrics Ltd., London EC 4. B 332, C 1110, 1138a.",
+        "corrected": "403. Cepea Fabrics Ltd., London EC 4. B 332, C 1110, 1138a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,366,1184,36/max/0/default.jpg",
+            "xywh": "223, 366, 1184, 36"
+        }
+    },
+    "short_id": "A403",
+    "label": "Cepea Fabrics Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-3-B332",
+                    "short_id": "B332"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-3-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-32-3-C1138a",
+                    "short_id": "C1138a"
+                }
+            ],
+            "description": "The british company A403 trades with the swiss company B332 in the goods C1110 and C1138a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cepea Fabrics Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

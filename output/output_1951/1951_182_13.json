@@ -1,0 +1,76 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-182-1951-13-C1112",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1112. Muslins. A 351, 1367, 1899, B 125, 642, 810.",
+        "corrected": "1112. Muslins. A 351, 1367, 1899, B 125, 642, 810"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 182,
+            "canvas": "http://localhost:8182/iiif/3/0182.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0182.jpg/181,1141,1323,38/max/0/default.jpg",
+            "xywh": "181, 1141, 1323, 38"
+        }
+    },
+    "short_id": "C1112",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-182-13-A351",
+                    "short_id": "A351"
+                },
+                {
+                    "id": "BSCC-1951-182-13-A1367",
+                    "short_id": "A1367"
+                },
+                {
+                    "id": "BSCC-1951-182-13-A1899",
+                    "short_id": "A1899"
+                },
+                {
+                    "id": "BSCC-1951-182-13-B125",
+                    "short_id": "B125"
+                },
+                {
+                    "id": "BSCC-1951-182-13-B642",
+                    "short_id": "B642"
+                },
+                {
+                    "id": "BSCC-1951-182-13-B810",
+                    "short_id": "B810"
+                }
+            ],
+            "description": "with the british company A351 and A1367 and A1899 and B642 and B810"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

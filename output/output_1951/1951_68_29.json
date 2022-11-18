@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-29-A1239",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1239. Mandleberg (J.) & Co. Ltd., Salford. B 591, 739, C 1150.",
+        "corrected": "1239. Mandleberg (J.) & Co. Ltd., Salford. B 591, 739, C 1150"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,1566,1283,40/max/0/default.jpg",
+            "xywh": "167, 1566, 1283, 40"
+        }
+    },
+    "short_id": "A1239",
+    "label": "Mandleberg (J.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-29-B591",
+                    "short_id": "B591"
+                },
+                {
+                    "id": "BSCC-1951-68-29-B739",
+                    "short_id": "B739"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-29-C1150",
+                    "short_id": "C1150"
+                }
+            ],
+            "description": "The british company A1239 trades with the swiss company B591 and B739 in the goods C1150"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mandleberg (J.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638671",
+            "lat": "53.48771",
+            "lng": "-2.29042",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Salford",
+            "transcription": " Salford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

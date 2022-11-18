@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-9-A1398",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1398. Needle Industries Ltd., Studley, Redditch. B 849, C 1241, 1245,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,662,1323,39/max/0/default.jpg",
+            "xywh": "174, 662, 1323, 39"
+        }
+    },
+    "short_id": "A1398",
+    "label": "Needle Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-9-B849",
+                    "short_id": "B849"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-9-C1241",
+                    "short_id": "C1241"
+                },
+                {
+                    "id": "BSCC-1951-76-9-C1245",
+                    "short_id": "C1245"
+                }
+            ],
+            "description": "The british company A1398 trades with the swiss company B849 in the goods C1241 and C1245"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Needle Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636594",
+            "lat": "52.27026",
+            "lng": "-1.89188",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Studley",
+            "transcription": " Studley, Redditch. "
+        },
+        {
+            "id": "2639557",
+            "lat": "52.3065",
+            "lng": "-1.94569",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redditch",
+            "transcription": " Studley, Redditch. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

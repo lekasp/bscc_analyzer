@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-5-B788",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 788. Wahlenmeyer (W.), 30, Riedtlistrasse, Zurich. A 142, 819, 928, 1718, C 1108, 1150, 1183, 1219.",
+        "corrected": "788. Wahlenmeyer (W.), 30, Riedtlistrasse, Zurich.A 142, 819, 928, 1718, C 1108, 1150, 1183, 1219"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,679,1304,80/max/0/default.jpg",
+            "xywh": "297, 679, 1304, 80"
+        }
+    },
+    "short_id": "B788",
+    "label": "Wahlenmeyer (W.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-5-A142",
+                    "short_id": "A142"
+                },
+                {
+                    "id": "BSCC-1951-143-5-A819",
+                    "short_id": "A819"
+                },
+                {
+                    "id": "BSCC-1951-143-5-A928",
+                    "short_id": "A928"
+                },
+                {
+                    "id": "BSCC-1951-143-5-A1718",
+                    "short_id": "A1718"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-5-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-143-5-C1150",
+                    "short_id": "C1150"
+                },
+                {
+                    "id": "BSCC-1951-143-5-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-143-5-C1219",
+                    "short_id": "C1219"
+                }
+            ],
+            "description": "The swiss company B788 trades with the british company A142 and A819 and A928 and A1718 in the goods C1108 and C1150 and C1183 and C1219"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wahlenmeyer (W.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "30, Riedtlistrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

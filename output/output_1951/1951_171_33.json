@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-171-1951-33-C753",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "753. Lawn mowers. A 1558, 1574, 1580, 1882, B 126, 317, 516, 737.",
+        "corrected": "753. Lawn mowers. A 1558, 1574, 1580, 1882, B 126, 317, 516, 737"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 171,
+            "canvas": "http://localhost:8182/iiif/3/0171.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0171.jpg/285,1768,1300,42/max/0/default.jpg",
+            "xywh": "285, 1768, 1300, 42"
+        }
+    },
+    "short_id": "C753",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-171-33-A1558",
+                    "short_id": "A1558"
+                },
+                {
+                    "id": "BSCC-1951-171-33-A1574",
+                    "short_id": "A1574"
+                },
+                {
+                    "id": "BSCC-1951-171-33-A1580",
+                    "short_id": "A1580"
+                },
+                {
+                    "id": "BSCC-1951-171-33-A1882",
+                    "short_id": "A1882"
+                },
+                {
+                    "id": "BSCC-1951-171-33-B126",
+                    "short_id": "B126"
+                },
+                {
+                    "id": "BSCC-1951-171-33-B317",
+                    "short_id": "B317"
+                },
+                {
+                    "id": "BSCC-1951-171-33-B516",
+                    "short_id": "B516"
+                },
+                {
+                    "id": "BSCC-1951-171-33-B737",
+                    "short_id": "B737"
+                }
+            ],
+            "description": "with the british company A1558 and A1574 and A1580 and A1882 and B317 and B516 and B737"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-16-B122",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "122. Brun & Co., Nebikon (Lucerne). A 463, 1033, 1090, 1577, 2074, C 348, 354, 355, 365, 367, 444.",
+        "corrected": "122. Brun & Co., Nebikon (Lucerne).A 463, 1033, 1090, 1577, 2074, C 348, 354, 355, 365, 367, 444"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1342,1348,79/max/0/default.jpg",
+            "xywh": "159, 1342, 1348, 79"
+        }
+    },
+    "short_id": "B122",
+    "label": "Brun & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-16-A463",
+                    "short_id": "A463"
+                },
+                {
+                    "id": "BSCC-1951-120-16-A1033",
+                    "short_id": "A1033"
+                },
+                {
+                    "id": "BSCC-1951-120-16-A1090",
+                    "short_id": "A1090"
+                },
+                {
+                    "id": "BSCC-1951-120-16-A1577",
+                    "short_id": "A1577"
+                },
+                {
+                    "id": "BSCC-1951-120-16-A2074",
+                    "short_id": "A2074"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-16-C348",
+                    "short_id": "C348"
+                },
+                {
+                    "id": "BSCC-1951-120-16-C354",
+                    "short_id": "C354"
+                },
+                {
+                    "id": "BSCC-1951-120-16-C355",
+                    "short_id": "C355"
+                },
+                {
+                    "id": "BSCC-1951-120-16-C365",
+                    "short_id": "C365"
+                },
+                {
+                    "id": "BSCC-1951-120-16-C367",
+                    "short_id": "C367"
+                },
+                {
+                    "id": "BSCC-1951-120-16-C444",
+                    "short_id": "C444"
+                }
+            ],
+            "description": "The swiss company B122 trades with the british company A463 and A1033 and A1090 and A1577 and A2074 in the goods C348 and C354 and C355 and C365 and C367 and C444"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brun & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659506",
+            "lat": "47.19185",
+            "lng": "7.97769",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nebikon",
+            "transcription": ", Nebikon (Lucerne)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

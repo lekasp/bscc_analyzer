@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-34-A1288",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1288. McMurdo Instruments Co. Ltd., Ashtead, Surrey. B 197, C 554.",
+        "corrected": "1288. McMurdo Instruments Co. Ltd., Ashtead, Surrey. B 197, C 554"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,1664,1227,39/max/0/default.jpg",
+            "xywh": "199, 1664, 1227, 39"
+        }
+    },
+    "short_id": "A1288",
+    "label": "McMurdo Instruments Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-34-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-34-C554",
+                    "short_id": "C554"
+                }
+            ],
+            "description": "The british company A1288 trades with the swiss company B197 in the goods C554"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "McMurdo Instruments Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656924",
+            "lat": "51.30873",
+            "lng": "-0.29972",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Ashtead",
+            "transcription": " Ashtead, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

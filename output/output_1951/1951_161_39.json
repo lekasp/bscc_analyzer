@@ -1,0 +1,68 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-39-C388",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "388. Engineers' tools. A 1236, 1400, B 621, 696.",
+        "corrected": "388. Engineers' tools. A 1236, 1400, B 621, 696"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,1995,1322,41/max/0/default.jpg",
+            "xywh": "290, 1995, 1322, 41"
+        }
+    },
+    "short_id": "C388",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-39-A1236",
+                    "short_id": "A1236"
+                },
+                {
+                    "id": "BSCC-1951-161-39-A1400",
+                    "short_id": "A1400"
+                },
+                {
+                    "id": "BSCC-1951-161-39-B621",
+                    "short_id": "B621"
+                },
+                {
+                    "id": "BSCC-1951-161-39-B696",
+                    "short_id": "B696"
+                }
+            ],
+            "description": "with the british company A1236 and A1400 and B696"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

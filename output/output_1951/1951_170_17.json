@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-170-1951-17-C702",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿702. Acid-resisting cement. A 386, 761, 781, 1557, 1571, 1705, 2150, B 53, 153, 252, 257, 512, 589.",
+        "corrected": "702. Acid-resisting cement.A 386, 761, 781, 1557, 1571, 1705, 2150, B 53, 153, 252, 257, 512, 589"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 170,
+            "canvas": "http://localhost:8182/iiif/3/0170.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0170.jpg/205,1151,1295,79/max/0/default.jpg",
+            "xywh": "205, 1151, 1295, 79"
+        }
+    },
+    "short_id": "C702",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-170-17-A386",
+                    "short_id": "A386"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A761",
+                    "short_id": "A761"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A781",
+                    "short_id": "A781"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A1557",
+                    "short_id": "A1557"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A1571",
+                    "short_id": "A1571"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A1705",
+                    "short_id": "A1705"
+                },
+                {
+                    "id": "BSCC-1951-170-17-A2150",
+                    "short_id": "A2150"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B53",
+                    "short_id": "B53"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B153",
+                    "short_id": "B153"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B252",
+                    "short_id": "B252"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B257",
+                    "short_id": "B257"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B512",
+                    "short_id": "B512"
+                },
+                {
+                    "id": "BSCC-1951-170-17-B589",
+                    "short_id": "B589"
+                }
+            ],
+            "description": "with the british company A386 and A761 and A781 and A1557 and A1571 and A1705 and A2150 and B153 and B252 and B257 and B512 and B589"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-0-B669",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "669. Schweiz. Maschinen Import AG., 24, Ausstellungsstrasse, Zurich. A 553, 914, C 100, 217.",
+        "corrected": "669. Schweiz. Maschinen Import AG., 24, Ausstellungsstrasse, Zurich.A 553, 914, C 100, 217"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,204,1319,107/max/0/default.jpg",
+            "xywh": "272, 204, 1319, 107"
+        }
+    },
+    "short_id": "B669",
+    "label": "Schweiz. Maschinen Import AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-0-A553",
+                    "short_id": "A553"
+                },
+                {
+                    "id": "BSCC-1951-139-0-A914",
+                    "short_id": "A914"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-0-C100",
+                    "short_id": "C100"
+                },
+                {
+                    "id": "BSCC-1951-139-0-C217",
+                    "short_id": "C217"
+                }
+            ],
+            "description": "The swiss company B669 trades with the british company A553 and A914 in the goods C100 and C217"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schweiz. Maschinen Import AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 24, Ausstellungsstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

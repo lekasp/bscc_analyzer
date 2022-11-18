@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-8-B46",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "46. Bachmann & Beyer (Nachf. Th. Beyer), 5, Rämistrasse, Zurich. A 1588, C 67.",
+        "corrected": "46. Bachmann & Beyer (Nachf. Th. Beyer), 5, Rämistrasse, Zurich. A 1588, C 67"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,784,1300,41/max/0/default.jpg",
+            "xywh": "187, 784, 1300, 41"
+        }
+    },
+    "short_id": "B46",
+    "label": "Bachmann & Beyer (Nachf. Th. Beyer)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-8-A1588",
+                    "short_id": "A1588"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-8-C67",
+                    "short_id": "C67"
+                }
+            ],
+            "description": "The swiss company B46 trades with the british company A1588 in the goods C67"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bachmann & Beyer (Nachf. Th. Beyer)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "5, Rämistrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

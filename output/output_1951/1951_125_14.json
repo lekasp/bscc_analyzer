@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-14-B271,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "271, Gemperli & Bruman, 57, Stampfenbachstrasse, Zurich. A 220, 237, 531, 2012, C 5, 6, 7, 19, 22, 909.",
+        "corrected": "271, Gemperli & Bruman, 57, Stampfenbachstrasse, Zurich.A 220, 237, 531, 2012, C 5, 6, 7, 19, 22, 909"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1087,1317,79/max/0/default.jpg",
+            "xywh": "288, 1087, 1317, 79"
+        }
+    },
+    "short_id": "B271,",
+    "label": "Gemperli & Bruman",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-14-A220",
+                    "short_id": "A220"
+                },
+                {
+                    "id": "BSCC-1951-125-14-A237",
+                    "short_id": "A237"
+                },
+                {
+                    "id": "BSCC-1951-125-14-A531",
+                    "short_id": "A531"
+                },
+                {
+                    "id": "BSCC-1951-125-14-A2012",
+                    "short_id": "A2012"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-14-C5",
+                    "short_id": "C5"
+                },
+                {
+                    "id": "BSCC-1951-125-14-C6",
+                    "short_id": "C6"
+                },
+                {
+                    "id": "BSCC-1951-125-14-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-125-14-C19",
+                    "short_id": "C19"
+                },
+                {
+                    "id": "BSCC-1951-125-14-C22",
+                    "short_id": "C22"
+                },
+                {
+                    "id": "BSCC-1951-125-14-C909",
+                    "short_id": "C909"
+                }
+            ],
+            "description": "The swiss company B271, trades with the british company A220 and A237 and A531 and A2012 in the goods C5 and C6 and C7 and C19 and C22 and C909"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gemperli & Bruman"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "57, Stampfenbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

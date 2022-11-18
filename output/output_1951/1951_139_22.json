@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-22-B690",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "690. Sodip S.A., 44, rue Chandieu, Geneva. A 960, 1355, 1654, 2105, C 933, 952, 1384.",
+        "corrected": "690. Sodip S.A., 44, rue Chandieu, Geneva.A 960, 1355, 1654, 2105, C 933, 952, 1384"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,1615,1319,81/max/0/default.jpg",
+            "xywh": "272, 1615, 1319, 81"
+        }
+    },
+    "short_id": "B690",
+    "label": "Sodip S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-22-A960",
+                    "short_id": "A960"
+                },
+                {
+                    "id": "BSCC-1951-139-22-A1355",
+                    "short_id": "A1355"
+                },
+                {
+                    "id": "BSCC-1951-139-22-A1654",
+                    "short_id": "A1654"
+                },
+                {
+                    "id": "BSCC-1951-139-22-A2105",
+                    "short_id": "A2105"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-22-C933",
+                    "short_id": "C933"
+                },
+                {
+                    "id": "BSCC-1951-139-22-C952",
+                    "short_id": "C952"
+                },
+                {
+                    "id": "BSCC-1951-139-22-C1384",
+                    "short_id": "C1384"
+                }
+            ],
+            "description": "The swiss company B690 trades with the british company A960 and A1355 and A1654 and A2105 in the goods C933 and C952 and C1384"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sodip S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 44, rue Chandieu, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

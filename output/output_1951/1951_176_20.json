@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-20-C920",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "920. Heavy and industrial chemicals. A 191, 414, 448, 1056, B 308, 671, 692, 807.",
+        "corrected": "920. Heavy and industrial chemicals. A 191, 414, 448, 1056, B 308, 671, 692, 807"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1390,1293,43/max/0/default.jpg",
+            "xywh": "228, 1390, 1293, 43"
+        }
+    },
+    "short_id": "C920",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-20-A191",
+                    "short_id": "A191"
+                },
+                {
+                    "id": "BSCC-1951-176-20-A414",
+                    "short_id": "A414"
+                },
+                {
+                    "id": "BSCC-1951-176-20-A448",
+                    "short_id": "A448"
+                },
+                {
+                    "id": "BSCC-1951-176-20-A1056",
+                    "short_id": "A1056"
+                },
+                {
+                    "id": "BSCC-1951-176-20-B308",
+                    "short_id": "B308"
+                },
+                {
+                    "id": "BSCC-1951-176-20-B671",
+                    "short_id": "B671"
+                },
+                {
+                    "id": "BSCC-1951-176-20-B692",
+                    "short_id": "B692"
+                },
+                {
+                    "id": "BSCC-1951-176-20-B807",
+                    "short_id": "B807"
+                }
+            ],
+            "description": "with the british company A191 and A414 and A448 and A1056 and B671 and B692 and B807"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

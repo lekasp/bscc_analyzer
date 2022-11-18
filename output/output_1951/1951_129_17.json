@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-17-B394",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "394. Keller (Siegfried) & Co., Wallisellen (Zurich). A 1546, C 1370.",
+        "corrected": "394. Keller (Siegfried) & Co., Wallisellen (Zurich). A 1546, C 1370"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1435,1292,38/max/0/default.jpg",
+            "xywh": "294, 1435, 1292, 38"
+        }
+    },
+    "short_id": "B394",
+    "label": "Keller (Siegfried) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-17-A1546",
+                    "short_id": "A1546"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-17-C1370",
+                    "short_id": "C1370"
+                }
+            ],
+            "description": "The swiss company B394 trades with the british company A1546 in the goods C1370"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Keller (Siegfried) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658060",
+            "lat": "47.41499",
+            "lng": "8.59672",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wallisellen",
+            "transcription": ", Wallisellen (Zurich). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

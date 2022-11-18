@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-13-B240",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "240. Fleury (H.) & Co., 6, Bogenschützstrasse, Berne. A 2087, C 613.",
+        "corrected": "240. Fleury (H.) & Co., 6, Bogenschützstrasse, Berne. A 2087, C 613"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1200,1320,42/max/0/default.jpg",
+            "xywh": "166, 1200, 1320, 42"
+        }
+    },
+    "short_id": "B240",
+    "label": "Fleury (H.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-13-A2087",
+                    "short_id": "A2087"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-13-C613",
+                    "short_id": "C613"
+                }
+            ],
+            "description": "The swiss company B240 trades with the british company A2087 in the goods C613"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fleury (H.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": ", 6, Bogenschützstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

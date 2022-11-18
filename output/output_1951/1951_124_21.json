@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-21-B248",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿248. Frei (Paul), 16, Bruggerweg, Zurich. A 12, 814, 919, C 1079, 1080, 1081, 1082, 1084, 1088, 1089, 1092, 1093, 1094.",
+        "corrected": "248. Frei (Paul), 16, Bruggerweg, Zurich.A 12, 814, 919, C 1079, 1080, 1081, 1082, 1084, 1088, 1089, 1092, 1093, 1094"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1634,1320,80/max/0/default.jpg",
+            "xywh": "166, 1634, 1320, 80"
+        }
+    },
+    "short_id": "B248",
+    "label": "Frei (Paul)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-21-A12",
+                    "short_id": "A12"
+                },
+                {
+                    "id": "BSCC-1951-124-21-A814",
+                    "short_id": "A814"
+                },
+                {
+                    "id": "BSCC-1951-124-21-A919",
+                    "short_id": "A919"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-21-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1081",
+                    "short_id": "C1081"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1082",
+                    "short_id": "C1082"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1088",
+                    "short_id": "C1088"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1089",
+                    "short_id": "C1089"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1092",
+                    "short_id": "C1092"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1093",
+                    "short_id": "C1093"
+                },
+                {
+                    "id": "BSCC-1951-124-21-C1094",
+                    "short_id": "C1094"
+                }
+            ],
+            "description": "The swiss company B248 trades with the british company A12 and A814 and A919 in the goods C1079 and C1080 and C1081 and C1082 and C1084 and C1088 and C1089 and C1092 and C1093 and C1094"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frei (Paul)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "16, Bruggerweg, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

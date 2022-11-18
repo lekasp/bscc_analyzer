@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-10-B48",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "48. Bader (Albert), 59, Drosselstrasse, Basle. A 52, 1004, C 1283.",
+        "corrected": "48. Bader (Albert), 59, Drosselstrasse, Basle. A 52, 1004, C 1283"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,979,1300,40/max/0/default.jpg",
+            "xywh": "187, 979, 1300, 40"
+        }
+    },
+    "short_id": "B48",
+    "label": "Bader (Albert)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-10-A52",
+                    "short_id": "A52"
+                },
+                {
+                    "id": "BSCC-1951-118-10-A1004",
+                    "short_id": "A1004"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-10-C1283",
+                    "short_id": "C1283"
+                }
+            ],
+            "description": "The swiss company B48 trades with the british company A52 and A1004 in the goods C1283"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bader (Albert)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "59, Drosselstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-28-B163",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "163. Cuénoud (J.), 3, avenue Eglantine, Lausanne. A 154, 379, 1295, 1506, C 28, 31, 32, 1338.",
+        "corrected": "163. Cuénoud (J.), 3, avenue Eglantine, Lausanne.A 154, 379, 1295, 1506, C 28, 31, 32, 1338"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1863,1272,79/max/0/default.jpg",
+            "xywh": "309, 1863, 1272, 79"
+        }
+    },
+    "short_id": "B163",
+    "label": "Cuénoud (J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-28-A154",
+                    "short_id": "A154"
+                },
+                {
+                    "id": "BSCC-1951-121-28-A379",
+                    "short_id": "A379"
+                },
+                {
+                    "id": "BSCC-1951-121-28-A1295",
+                    "short_id": "A1295"
+                },
+                {
+                    "id": "BSCC-1951-121-28-A1506",
+                    "short_id": "A1506"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-28-C28",
+                    "short_id": "C28"
+                },
+                {
+                    "id": "BSCC-1951-121-28-C31",
+                    "short_id": "C31"
+                },
+                {
+                    "id": "BSCC-1951-121-28-C32",
+                    "short_id": "C32"
+                },
+                {
+                    "id": "BSCC-1951-121-28-C1338",
+                    "short_id": "C1338"
+                }
+            ],
+            "description": "The swiss company B163 trades with the british company A154 and A379 and A1295 and A1506 in the goods C28 and C31 and C32 and C1338"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cuénoud (J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "3, avenue Eglantine, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

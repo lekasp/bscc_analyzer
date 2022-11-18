@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-10-A11",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿11. Ackermann (Simon) Ltd., Crewe. B 275, C 1154.",
+        "corrected": "11. Ackermann (Simon) Ltd., Crewe. B 275, C 1154"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,694,1220,39/max/0/default.jpg",
+            "xywh": "212, 694, 1220, 39"
+        }
+    },
+    "short_id": "A11",
+    "label": "Ackermann (Simon) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-10-B275",
+                    "short_id": "B275"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-10-C1154",
+                    "short_id": "C1154"
+                }
+            ],
+            "description": "The british company A11 trades with the swiss company B275 in the goods C1154"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ackermann (Simon) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652002",
+            "lat": "53.09787",
+            "lng": "-2.44161",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Crewe",
+            "transcription": " Crewe. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

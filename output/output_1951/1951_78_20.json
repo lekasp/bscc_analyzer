@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-20-A1452",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1452. Olley Air Service Ltd., Croydon Airport, Surrey. B 787, C 1455.",
+        "corrected": "1452. Olley Air Service Ltd., Croydon Airport, Surrey. B 787, C 1455"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1325,1263,41/max/0/default.jpg",
+            "xywh": "180, 1325, 1263, 41"
+        }
+    },
+    "short_id": "A1452",
+    "label": "Olley Air Service Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-20-B787",
+                    "short_id": "B787"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-20-C1455",
+                    "short_id": "C1455"
+                }
+            ],
+            "description": "The british company A1452 trades with the swiss company B787 in the goods C1455"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Olley Air Service Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2651817",
+            "lat": "51.38333",
+            "lng": "-0.1",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Croydon",
+            "transcription": " Croydon Airport, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

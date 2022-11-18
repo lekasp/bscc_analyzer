@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-6-B704",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "704. \"Stahag\", Stahl & Hartmetall Import-Handelsgesellschaft, 489, Hohlstrasse, Zurich-Altstetten. A 2120, C 100, 394, 435.",
+        "corrected": "704. \"Stahag\", Stahl & Hartmetall Import-Handelsgesellschaft, 489, Hohlstrasse,Zurich-Altstetten. A 2120, C 100, 394, 435"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,754,1265,80/max/0/default.jpg",
+            "xywh": "219, 754, 1265, 80"
+        }
+    },
+    "short_id": "B704",
+    "label": "\"Stahag\"",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-6-A2120",
+                    "short_id": "A2120"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-6-C100",
+                    "short_id": "C100"
+                },
+                {
+                    "id": "BSCC-1951-140-6-C394",
+                    "short_id": "C394"
+                },
+                {
+                    "id": "BSCC-1951-140-6-C435",
+                    "short_id": "C435"
+                }
+            ],
+            "description": "The swiss company B704 trades with the british company A2120 in the goods C100 and C394 and C435"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "\"Stahag\""
+        }
+    ],
+    "location": [
+        {
+            "transcription": "Stahl & Hartmetall Import-Handelsgesellschaft, 489, Hohlstrasse,Zurich-Altstetten. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

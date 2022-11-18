@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-33-C213",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "213. Lathes, turret. A 913, 1627, 1785, 2091, B 596, 646, 726.",
+        "corrected": "213. Lathes, turret. A 913, 1627, 1785, 2091, B 596, 646, 726"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,1698,1281,40/max/0/default.jpg",
+            "xywh": "303, 1698, 1281, 40"
+        }
+    },
+    "short_id": "C213",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-33-A913",
+                    "short_id": "A913"
+                },
+                {
+                    "id": "BSCC-1951-157-33-A1627",
+                    "short_id": "A1627"
+                },
+                {
+                    "id": "BSCC-1951-157-33-A1785",
+                    "short_id": "A1785"
+                },
+                {
+                    "id": "BSCC-1951-157-33-A2091",
+                    "short_id": "A2091"
+                },
+                {
+                    "id": "BSCC-1951-157-33-B596",
+                    "short_id": "B596"
+                },
+                {
+                    "id": "BSCC-1951-157-33-B646",
+                    "short_id": "B646"
+                },
+                {
+                    "id": "BSCC-1951-157-33-B726",
+                    "short_id": "B726"
+                }
+            ],
+            "description": "with the british company A913 and A1627 and A1785 and A2091 and B646 and B726"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

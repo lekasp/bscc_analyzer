@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-23-B835",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "835. Wurzburger (Roger), 25, avenue de Rumine, Lausanne. A 339, 697, 723, C 1201, 1203.",
+        "corrected": "835. Wurzburger (Roger), 25, avenue de Rumine, Lausanne.A 339, 697, 723, C 1201, 1203"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1664,1324,78/max/0/default.jpg",
+            "xywh": "195, 1664, 1324, 78"
+        }
+    },
+    "short_id": "B835",
+    "label": "Wurzburger (Roger)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-23-A339",
+                    "short_id": "A339"
+                },
+                {
+                    "id": "BSCC-1951-144-23-A697",
+                    "short_id": "A697"
+                },
+                {
+                    "id": "BSCC-1951-144-23-A723",
+                    "short_id": "A723"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-23-C1201",
+                    "short_id": "C1201"
+                },
+                {
+                    "id": "BSCC-1951-144-23-C1203",
+                    "short_id": "C1203"
+                }
+            ],
+            "description": "The swiss company B835 trades with the british company A339 and A697 and A723 in the goods C1201 and C1203"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wurzburger (Roger)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "25, avenue de Rumine, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

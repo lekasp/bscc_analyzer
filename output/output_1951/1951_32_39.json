@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-39-A439",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "439. Clutsom & Kemp Ltd., Coalville, Leics. B 180, C 1143.",
+        "corrected": "439. Clutsom & Kemp Ltd., Coalville, Leics. B 180, C 1143"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1822,1184,41/max/0/default.jpg",
+            "xywh": "223, 1822, 1184, 41"
+        }
+    },
+    "short_id": "A439",
+    "label": "Clutsom & Kemp Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-39-B180",
+                    "short_id": "B180"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-39-C1143",
+                    "short_id": "C1143"
+                }
+            ],
+            "description": "The british company A439 trades with the swiss company B180 in the goods C1143"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clutsom & Kemp Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652698",
+            "lat": "52.72247",
+            "lng": "-1.3702",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coalville",
+            "transcription": " Coalville, Leics. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

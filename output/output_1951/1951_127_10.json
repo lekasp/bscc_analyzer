@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-10-B326",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "326. Herzog (Kurt) AG., 5, Kempterstrasse, Zurich. A275, 1455, 1659, 1748, 1804, C 1450, 1451, 1452, 1453.",
+        "corrected": "326. Herzog (Kurt) AG., 5, Kempterstrasse, Zurich.A275, 1455, 1659, 1748, 1804, C 1450, 1451, 1452, 1453"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,809,1233,75/max/0/default.jpg",
+            "xywh": "316, 809, 1233, 75"
+        }
+    },
+    "short_id": "B326",
+    "label": "Herzog (Kurt) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-10-A275",
+                    "short_id": "A275"
+                },
+                {
+                    "id": "BSCC-1951-127-10-A1455",
+                    "short_id": "A1455"
+                },
+                {
+                    "id": "BSCC-1951-127-10-A1659",
+                    "short_id": "A1659"
+                },
+                {
+                    "id": "BSCC-1951-127-10-A1748",
+                    "short_id": "A1748"
+                },
+                {
+                    "id": "BSCC-1951-127-10-A1804",
+                    "short_id": "A1804"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-10-C1450",
+                    "short_id": "C1450"
+                },
+                {
+                    "id": "BSCC-1951-127-10-C1451",
+                    "short_id": "C1451"
+                },
+                {
+                    "id": "BSCC-1951-127-10-C1452",
+                    "short_id": "C1452"
+                },
+                {
+                    "id": "BSCC-1951-127-10-C1453",
+                    "short_id": "C1453"
+                }
+            ],
+            "description": "The swiss company B326 trades with the british company A275 and A1455 and A1659 and A1748 and A1804 in the goods C1450 and C1451 and C1452 and C1453"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Herzog (Kurt) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 5, Kempterstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-35-C99",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "99. Forgings. A 648, 698, 1028, 1368, 1710, B 232, 257, 663, 821.",
+        "corrected": "99. Forgings. A 648, 698, 1028, 1368, 1710, B 232, 257, 663, 821"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,1945,1243,40/max/0/default.jpg",
+            "xywh": "202, 1945, 1243, 40"
+        }
+    },
+    "short_id": "C99",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-35-A648",
+                    "short_id": "A648"
+                },
+                {
+                    "id": "BSCC-1951-154-35-A698",
+                    "short_id": "A698"
+                },
+                {
+                    "id": "BSCC-1951-154-35-A1028",
+                    "short_id": "A1028"
+                },
+                {
+                    "id": "BSCC-1951-154-35-A1368",
+                    "short_id": "A1368"
+                },
+                {
+                    "id": "BSCC-1951-154-35-A1710",
+                    "short_id": "A1710"
+                },
+                {
+                    "id": "BSCC-1951-154-35-B232",
+                    "short_id": "B232"
+                },
+                {
+                    "id": "BSCC-1951-154-35-B257",
+                    "short_id": "B257"
+                },
+                {
+                    "id": "BSCC-1951-154-35-B663",
+                    "short_id": "B663"
+                },
+                {
+                    "id": "BSCC-1951-154-35-B821",
+                    "short_id": "B821"
+                }
+            ],
+            "description": "with the british company A648 and A698 and A1028 and A1368 and A1710 and B257 and B663 and B821"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

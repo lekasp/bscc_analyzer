@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-14-A288",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "288. British Heat Resisting Glass Co. Ltd., Bilston, Staffs. B 479, C 1371.",
+        "corrected": "288. British Heat Resisting Glass Co. Ltd., Bilston, Staffs. B 479, C 1371"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,946,1290,40/max/0/default.jpg",
+            "xywh": "189, 946, 1290, 40"
+        }
+    },
+    "short_id": "A288",
+    "label": "British Heat Resisting Glass Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-14-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-14-C1371",
+                    "short_id": "C1371"
+                }
+            ],
+            "description": "The british company A288 trades with the swiss company B479 in the goods C1371"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Heat Resisting Glass Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655654",
+            "lat": "52.56568",
+            "lng": "-2.07367",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bilston",
+            "transcription": " Bilston, Staffs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

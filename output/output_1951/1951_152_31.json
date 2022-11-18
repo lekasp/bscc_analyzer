@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-31-C28",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "28. Biscuits. A 392, 499, 975, 1301, 1506, 1657, 2107, B 70, 163, 274, 309, 511 666, 717.",
+        "corrected": "28. Biscuits. A 392, 499, 975, 1301, 1506, 1657, 2107, B 70, 163, 274, 309, 511666, 717"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,1837,1293,80/max/0/default.jpg",
+            "xywh": "202, 1837, 1293, 80"
+        }
+    },
+    "short_id": "C28",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-31-A392",
+                    "short_id": "A392"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A499",
+                    "short_id": "A499"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A975",
+                    "short_id": "A975"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A1301",
+                    "short_id": "A1301"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A1506",
+                    "short_id": "A1506"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A1657",
+                    "short_id": "A1657"
+                },
+                {
+                    "id": "BSCC-1951-152-31-A2107",
+                    "short_id": "A2107"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B70",
+                    "short_id": "B70"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B163",
+                    "short_id": "B163"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B274",
+                    "short_id": "B274"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B309",
+                    "short_id": "B309"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B511666",
+                    "short_id": "B511666"
+                },
+                {
+                    "id": "BSCC-1951-152-31-B717",
+                    "short_id": "B717"
+                }
+            ],
+            "description": "with the british company A392 and A499 and A975 and A1301 and A1506 and A1657 and A2107 and B163 and B274 and B309 and B511666 and B717"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

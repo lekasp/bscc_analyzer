@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-11-B238",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "238. Flaigg (G. A.), 22, Aeschengraben, Basle. A 81, C 813.",
+        "corrected": "238. Flaigg (G. A.), 22, Aeschengraben, Basle. A 81, C 813"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1123,1320,36/max/0/default.jpg",
+            "xywh": "166, 1123, 1320, 36"
+        }
+    },
+    "short_id": "B238",
+    "label": "Flaigg (G. A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-11-A81",
+                    "short_id": "A81"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-11-C813",
+                    "short_id": "C813"
+                }
+            ],
+            "description": "The swiss company B238 trades with the british company A81 in the goods C813"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Flaigg (G. A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "22, Aeschengraben, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

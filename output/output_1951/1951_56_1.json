@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-1-A949",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "949. Holmes & Leather Ltd., Gillingham. B 236, C 189.",
+        "corrected": "949. Holmes & Leather Ltd., Gillingham. B 236, C 189"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,288,1276,41/max/0/default.jpg",
+            "xywh": "158, 288, 1276, 41"
+        }
+    },
+    "short_id": "A949",
+    "label": "Holmes & Leather Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-1-B236",
+                    "short_id": "B236"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-1-C189",
+                    "short_id": "C189"
+                }
+            ],
+            "description": "The british company A949 trades with the swiss company B236 in the goods C189"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Holmes & Leather Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648657",
+            "lat": "51.38914",
+            "lng": "0.54863",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Gillingham",
+            "transcription": " Gillingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-44-A224",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿224. Blue Funnel Line (Alfred Holt & Co.), Liverpool. B 811, C 1457.",
+        "corrected": "224. Blue Funnel Line (Alfred Holt & Co.), Liverpool. B 811, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,1978,1260,37/max/0/default.jpg",
+            "xywh": "205, 1978, 1260, 37"
+        }
+    },
+    "short_id": "A224",
+    "label": "Blue Funnel Line (Alfred Holt & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-44-B811",
+                    "short_id": "B811"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-44-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The british company A224 trades with the swiss company B811 in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blue Funnel Line (Alfred Holt & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644210",
+            "lat": "53.41058",
+            "lng": "-2.97794",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Liverpool",
+            "transcription": "), Liverpool. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-25-B63",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "63. Baumgartner (Wilh. J.), 40, Dolderstrasse, Zurich. A 432, 1696, 1762, C 1127, 1129, 1180, 1181, 1209, 1236.",
+        "corrected": "63. Baumgartner (Wilh. J.), 40, Dolderstrasse, Zurich.A 432, 1696, 1762, C 1127, 1129, 1180, 1181, 1209, 1236"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1809,1300,81/max/0/default.jpg",
+            "xywh": "187, 1809, 1300, 81"
+        }
+    },
+    "short_id": "B63",
+    "label": "Baumgartner (Wilh. J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-25-A432",
+                    "short_id": "A432"
+                },
+                {
+                    "id": "BSCC-1951-118-25-A1696",
+                    "short_id": "A1696"
+                },
+                {
+                    "id": "BSCC-1951-118-25-A1762",
+                    "short_id": "A1762"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-25-C1127",
+                    "short_id": "C1127"
+                },
+                {
+                    "id": "BSCC-1951-118-25-C1129",
+                    "short_id": "C1129"
+                },
+                {
+                    "id": "BSCC-1951-118-25-C1180",
+                    "short_id": "C1180"
+                },
+                {
+                    "id": "BSCC-1951-118-25-C1181",
+                    "short_id": "C1181"
+                },
+                {
+                    "id": "BSCC-1951-118-25-C1209",
+                    "short_id": "C1209"
+                },
+                {
+                    "id": "BSCC-1951-118-25-C1236",
+                    "short_id": "C1236"
+                }
+            ],
+            "description": "The swiss company B63 trades with the british company A432 and A1696 and A1762 in the goods C1127 and C1129 and C1180 and C1181 and C1209 and C1236"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Baumgartner (Wilh. J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "40, Dolderstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

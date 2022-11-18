@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-7-A96",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "96. Associated British Maltsers Export Co. Ltd., Newark-on-Trent. B 759, C 12.",
+        "corrected": "96. Associated British Maltsers Export Co. Ltd., Newark-on-Trent. B 759, C 12"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,543,1236,37/max/0/default.jpg",
+            "xywh": "219, 543, 1236, 37"
+        }
+    },
+    "short_id": "A96",
+    "label": "Associated British Maltsers Export Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-7-B759",
+                    "short_id": "B759"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-7-C12",
+                    "short_id": "C12"
+                }
+            ],
+            "description": "The british company A96 trades with the swiss company B759 in the goods C12"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Associated British Maltsers Export Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641731",
+            "lat": "53.06667",
+            "lng": "-0.81667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Newark on Trent",
+            "transcription": " Newark-on-Trent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

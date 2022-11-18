@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-2-B260",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "260. Gafner (Emile), 16, avenue du Théâtre, Lausanne. A 1250*, C 1463.",
+        "corrected": "260. Gafner (Emile), 16, avenue du Théâtre, Lausanne. A 1250*, C 1463"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,333,1317,39/max/0/default.jpg",
+            "xywh": "288, 333, 1317, 39"
+        }
+    },
+    "short_id": "B260",
+    "label": "Gafner (Emile)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-2-A1250*",
+                    "short_id": "A1250*"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-2-C1463",
+                    "short_id": "C1463"
+                }
+            ],
+            "description": "The swiss company B260 trades with the british company A1250* in the goods C1463"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gafner (Emile)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "16, avenue du Théâtre, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

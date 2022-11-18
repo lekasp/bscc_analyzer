@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-86-1951-43-A1646",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1646. Robertson Bakery Engineers Co., Glasgow. B 247, C 1315.",
+        "corrected": "1646. Robertson Bakery Engineers Co., Glasgow. B 247, C 1315"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 86,
+            "canvas": "http://localhost:8182/iiif/3/0086.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0086.jpg/171,2021,1280,39/max/0/default.jpg",
+            "xywh": "171, 2021, 1280, 39"
+        }
+    },
+    "short_id": "A1646",
+    "label": "Robertson Bakery Engineers Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-86-43-B247",
+                    "short_id": "B247"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-86-43-C1315",
+                    "short_id": "C1315"
+                }
+            ],
+            "description": "The british company A1646 trades with the swiss company B247 in the goods C1315"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Robertson Bakery Engineers Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": ", Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

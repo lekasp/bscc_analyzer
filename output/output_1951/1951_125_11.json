@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-11-B268",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "268. Gautschi (H.) & Co., 34, Dreikönigstrasse, Zurich. A 1261, 1737, 1831, C 114, 118, 178, 391.",
+        "corrected": "268. Gautschi (H.) & Co., 34, Dreikönigstrasse, Zurich.A 1261, 1737, 1831, C 114, 118, 178, 391"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,887,1317,80/max/0/default.jpg",
+            "xywh": "288, 887, 1317, 80"
+        }
+    },
+    "short_id": "B268",
+    "label": "Gautschi (H.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-11-A1261",
+                    "short_id": "A1261"
+                },
+                {
+                    "id": "BSCC-1951-125-11-A1737",
+                    "short_id": "A1737"
+                },
+                {
+                    "id": "BSCC-1951-125-11-A1831",
+                    "short_id": "A1831"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-11-C114",
+                    "short_id": "C114"
+                },
+                {
+                    "id": "BSCC-1951-125-11-C118",
+                    "short_id": "C118"
+                },
+                {
+                    "id": "BSCC-1951-125-11-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-125-11-C391",
+                    "short_id": "C391"
+                }
+            ],
+            "description": "The swiss company B268 trades with the british company A1261 and A1737 and A1831 in the goods C114 and C118 and C178 and C391"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gautschi (H.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 34, Dreikönigstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

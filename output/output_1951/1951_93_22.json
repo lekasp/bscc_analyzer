@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-22-A1811,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1811, South Wales Chemical Works Ltd., Barry, Glam. B 219, C 809, 928. South Wales Switchgear Ltd. — see Aberdare Cables Ltd.",
+        "corrected": "1811, South Wales Chemical Works Ltd., Barry, Glam. B 219, C 809, 928.South Wales Switchgear Ltd. — see Aberdare Cables Ltd"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,1213,1183,79/max/0/default.jpg",
+            "xywh": "355, 1213, 1183, 79"
+        }
+    },
+    "short_id": "A1811,",
+    "label": "South Wales Chemical Works Ltd., Barry, Glam. South Wales Switchgear Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-22-B219",
+                    "short_id": "B219"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-22-C809",
+                    "short_id": "C809"
+                },
+                {
+                    "id": "BSCC-1951-93-22-C928",
+                    "short_id": "C928"
+                }
+            ],
+            "description": "The british company A1811, trades with the swiss company B219 in the goods C809 and C928"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "South Wales Chemical Works Ltd., Barry, Glam. South Wales Switchgear Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " — see Aberdare Cables Ltd"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

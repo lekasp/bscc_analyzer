@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-7-A912",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "912. Hepworth & Grandage Ltd., Bradford. B 195, C 596.",
+        "corrected": "912. Hepworth & Grandage Ltd., Bradford. B 195, C 596"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,533,1211,38/max/0/default.jpg",
+            "xywh": "137, 533, 1211, 38"
+        }
+    },
+    "short_id": "A912",
+    "label": "Hepworth & Grandage Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-7-B195",
+                    "short_id": "B195"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-7-C596",
+                    "short_id": "C596"
+                }
+            ],
+            "description": "The british company A912 trades with the swiss company B195 in the goods C596"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hepworth & Grandage Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

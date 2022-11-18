@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-0-B551",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "551. Overseas Foodstuff Import Trading Co., 3, Place St-François, Lausanne. A 171, 325, 360, 858, 1016, 1395, C 7, 17, 22.",
+        "corrected": "551. Overseas Foodstuff Import Trading Co., 3, Place St-François, Lausanne.A 171, 325, 360, 858, 1016, 1395, C 7, 17, 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,220,1298,102/max/0/default.jpg",
+            "xywh": "298, 220, 1298, 102"
+        }
+    },
+    "short_id": "B551",
+    "label": "Overseas Foodstuff Import Trading Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-0-A171",
+                    "short_id": "A171"
+                },
+                {
+                    "id": "BSCC-1951-135-0-A325",
+                    "short_id": "A325"
+                },
+                {
+                    "id": "BSCC-1951-135-0-A360",
+                    "short_id": "A360"
+                },
+                {
+                    "id": "BSCC-1951-135-0-A858",
+                    "short_id": "A858"
+                },
+                {
+                    "id": "BSCC-1951-135-0-A1016",
+                    "short_id": "A1016"
+                },
+                {
+                    "id": "BSCC-1951-135-0-A1395",
+                    "short_id": "A1395"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-0-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-135-0-C17",
+                    "short_id": "C17"
+                },
+                {
+                    "id": "BSCC-1951-135-0-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The swiss company B551 trades with the british company A171 and A325 and A360 and A858 and A1016 and A1395 in the goods C7 and C17 and C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Overseas Foodstuff Import Trading Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": ", 3, Place St-François, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

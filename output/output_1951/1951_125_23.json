@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-23-B280",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "280. Globopharm AG., 71, Bahnhofstrasse, Zurich. A 673, 1743, C 933, 955.",
+        "corrected": "280. Globopharm AG., 71, Bahnhofstrasse, Zurich. A 673, 1743, C 933, 955"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1798,1317,41/max/0/default.jpg",
+            "xywh": "288, 1798, 1317, 41"
+        }
+    },
+    "short_id": "B280",
+    "label": "Globopharm AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-23-A673",
+                    "short_id": "A673"
+                },
+                {
+                    "id": "BSCC-1951-125-23-A1743",
+                    "short_id": "A1743"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-23-C933",
+                    "short_id": "C933"
+                },
+                {
+                    "id": "BSCC-1951-125-23-C955",
+                    "short_id": "C955"
+                }
+            ],
+            "description": "The swiss company B280 trades with the british company A673 and A1743 in the goods C933 and C955"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Globopharm AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 71, Bahnhofstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

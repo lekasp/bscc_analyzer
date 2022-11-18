@@ -1,0 +1,72 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-37-C140",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "140. Alloy steels, general. A 440, 925, 1379, B 99, 111.",
+        "corrected": "140. Alloy steels, general. A 440, 925, 1379, B 99, 111"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,2095,1337,40/max/0/default.jpg",
+            "xywh": "264, 2095, 1337, 40"
+        }
+    },
+    "short_id": "C140",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-37-A440",
+                    "short_id": "A440"
+                },
+                {
+                    "id": "BSCC-1951-155-37-A925",
+                    "short_id": "A925"
+                },
+                {
+                    "id": "BSCC-1951-155-37-A1379",
+                    "short_id": "A1379"
+                },
+                {
+                    "id": "BSCC-1951-155-37-B99",
+                    "short_id": "B99"
+                },
+                {
+                    "id": "BSCC-1951-155-37-B111",
+                    "short_id": "B111"
+                }
+            ],
+            "description": "with the british company A440 and A925 and A1379 and B111"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

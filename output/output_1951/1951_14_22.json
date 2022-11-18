@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-22-A22",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿22. Aero Research Ltd., Duxford, Cambridge. B 146, C 823.",
+        "corrected": "22. Aero Research Ltd., Duxford, Cambridge. B 146, C 823"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1165,1220,38/max/0/default.jpg",
+            "xywh": "212, 1165, 1220, 38"
+        }
+    },
+    "short_id": "A22",
+    "label": "Aero Research Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-22-B146",
+                    "short_id": "B146"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-22-C823",
+                    "short_id": "C823"
+                }
+            ],
+            "description": "The british company A22 trades with the swiss company B146 in the goods C823"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aero Research Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650605",
+            "lat": "52.09393",
+            "lng": "0.15917",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Duxford",
+            "transcription": " Duxford, Cambridge. "
+        },
+        {
+            "id": "2653941",
+            "lat": "52.2",
+            "lng": "0.11667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cambridge",
+            "transcription": " Duxford, Cambridge. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-10-26",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-10-26",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}
