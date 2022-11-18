@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-0-A1469",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1469. Paine (W. F.) Ltd., Godalming. B 451, C 1185.",
+        "corrected": "1469. Paine (W. F.) Ltd., Godalming. B 451, C 1185"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,210,1303,73/max/0/default.jpg",
+            "xywh": "200, 210, 1303, 73"
+        }
+    },
+    "short_id": "A1469",
+    "label": "Paine (W. F.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-0-B451",
+                    "short_id": "B451"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-0-C1185",
+                    "short_id": "C1185"
+                }
+            ],
+            "description": "The british company A1469 trades with the swiss company B451 in the goods C1185"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Paine (W. F.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648372",
+            "lat": "51.1858",
+            "lng": "-0.61489",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Godalming",
+            "transcription": " Godalming. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

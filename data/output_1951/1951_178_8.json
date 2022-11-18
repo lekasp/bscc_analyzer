@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-8-C977",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "977. Acid-resisting compounds. A 1571, B 589, 649.",
+        "corrected": "977. Acid-resisting compounds. A 1571, B 589, 649"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,598,1240,46/max/0/default.jpg",
+            "xywh": "229, 598, 1240, 46"
+        }
+    },
+    "short_id": "C977",
+    "label": "Acid-resisting compounds",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-8-A1571",
+                    "short_id": "A1571"
+                },
+                {
+                    "id": "BSCC-1951-178-8-B589",
+                    "short_id": "B589"
+                },
+                {
+                    "id": "BSCC-1951-178-8-B649",
+                    "short_id": "B649"
+                }
+            ],
+            "description": "with the british company A1571 and B649"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "12",
+            "level": 0,
+            "label": "Paints, Varnishes, Cleaning and other Compounds",
+            "part_of": "0",
+            "page": "177",
+            "line_number": "24"
+        },
+        {
+            "id": "12B",
+            "level": 1,
+            "label": "Protective Compounds, Cleaning Materials, Adhesives, etc.",
+            "part_of": "12",
+            "page": "178",
+            "line_number": "7"
+        }
+    ]
+}

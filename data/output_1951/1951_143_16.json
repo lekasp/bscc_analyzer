@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-16-B799",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "799. Wegmann (Emil), 15, Pelikanplatz, Zurich. A 1246, 1255, 1575, C 1111, 1138, 1139.",
+        "corrected": "799. Wegmann (Emil), 15, Pelikanplatz, Zurich.A 1246, 1255, 1575, C 1111, 1138, 1139"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1313,1304,78/max/0/default.jpg",
+            "xywh": "297, 1313, 1304, 78"
+        }
+    },
+    "short_id": "B799",
+    "label": "Wegmann (Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-16-A1246",
+                    "short_id": "A1246"
+                },
+                {
+                    "id": "BSCC-1951-143-16-A1255",
+                    "short_id": "A1255"
+                },
+                {
+                    "id": "BSCC-1951-143-16-A1575",
+                    "short_id": "A1575"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-16-C1111",
+                    "short_id": "C1111"
+                },
+                {
+                    "id": "BSCC-1951-143-16-C1138",
+                    "short_id": "C1138"
+                },
+                {
+                    "id": "BSCC-1951-143-16-C1139",
+                    "short_id": "C1139"
+                }
+            ],
+            "description": "The swiss company B799 trades with the british company A1246 and A1255 and A1575 in the goods C1111 and C1138 and C1139"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wegmann (Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "15, Pelikanplatz, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

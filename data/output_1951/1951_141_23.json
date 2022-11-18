@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-23-B749",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 749. Tree & Co., 4, Stampfenbachplatz, Zurich. A 1167, 1176, 1201, 2101, C 1155, 1157, 1159, 1170, 1343, 1345.",
+        "corrected": "749. Tree & Co., 4, Stampfenbachplatz, Zurich.A 1167, 1176, 1201, 2101, C 1155, 1157, 1159, 1170, 1343, 1345"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1912,1309,80/max/0/default.jpg",
+            "xywh": "290, 1912, 1309, 80"
+        }
+    },
+    "short_id": "B749",
+    "label": "Tree & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-23-A1167",
+                    "short_id": "A1167"
+                },
+                {
+                    "id": "BSCC-1951-141-23-A1176",
+                    "short_id": "A1176"
+                },
+                {
+                    "id": "BSCC-1951-141-23-A1201",
+                    "short_id": "A1201"
+                },
+                {
+                    "id": "BSCC-1951-141-23-A2101",
+                    "short_id": "A2101"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-23-C1155",
+                    "short_id": "C1155"
+                },
+                {
+                    "id": "BSCC-1951-141-23-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-141-23-C1159",
+                    "short_id": "C1159"
+                },
+                {
+                    "id": "BSCC-1951-141-23-C1170",
+                    "short_id": "C1170"
+                },
+                {
+                    "id": "BSCC-1951-141-23-C1343",
+                    "short_id": "C1343"
+                },
+                {
+                    "id": "BSCC-1951-141-23-C1345",
+                    "short_id": "C1345"
+                }
+            ],
+            "description": "The swiss company B749 trades with the british company A1167 and A1176 and A1201 and A2101 in the goods C1155 and C1157 and C1159 and C1170 and C1343 and C1345"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tree & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 4, Stampfenbachplatz, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

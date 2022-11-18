@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-1-B784",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "784. Waeger (Fritz), Meilen (Zurich). A 55, 474, 622, 2147, C 1075, 1089, 1092, 1093, 1094, 1095, 1105a, 1120.",
+        "corrected": "784. Waeger (Fritz), Meilen (Zurich).A 55, 474, 622, 2147, C 1075, 1089, 1092, 1093, 1094, 1095, 1105a, 1120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,367,1304,77/max/0/default.jpg",
+            "xywh": "297, 367, 1304, 77"
+        }
+    },
+    "short_id": "B784",
+    "label": "Waeger (Fritz)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-1-A55",
+                    "short_id": "A55"
+                },
+                {
+                    "id": "BSCC-1951-143-1-A474",
+                    "short_id": "A474"
+                },
+                {
+                    "id": "BSCC-1951-143-1-A622",
+                    "short_id": "A622"
+                },
+                {
+                    "id": "BSCC-1951-143-1-A2147",
+                    "short_id": "A2147"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-1-C1075",
+                    "short_id": "C1075"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1089",
+                    "short_id": "C1089"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1092",
+                    "short_id": "C1092"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1093",
+                    "short_id": "C1093"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1094",
+                    "short_id": "C1094"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1095",
+                    "short_id": "C1095"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1105a",
+                    "short_id": "C1105a"
+                },
+                {
+                    "id": "BSCC-1951-143-1-C1120",
+                    "short_id": "C1120"
+                }
+            ],
+            "description": "The swiss company B784 trades with the british company A55 and A474 and A622 and A2147 in the goods C1075 and C1089 and C1092 and C1093 and C1094 and C1095 and C1105a and C1120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waeger (Fritz)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Meilen (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

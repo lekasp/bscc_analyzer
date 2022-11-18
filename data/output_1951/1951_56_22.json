@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-22-A970",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "970. Humphreys (J. H.) & Sons, Werneth, Oldham. B 47, C 186, 214, 460.",
+        "corrected": "970. Humphreys (J. H.) & Sons, Werneth, Oldham. B 47, C 186, 214, 460"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1233,1276,40/max/0/default.jpg",
+            "xywh": "158, 1233, 1276, 40"
+        }
+    },
+    "short_id": "A970",
+    "label": "Humphreys (J. H.) & Sons",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-22-B47",
+                    "short_id": "B47"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-22-C186",
+                    "short_id": "C186"
+                },
+                {
+                    "id": "BSCC-1951-56-22-C214",
+                    "short_id": "C214"
+                },
+                {
+                    "id": "BSCC-1951-56-22-C460",
+                    "short_id": "C460"
+                }
+            ],
+            "description": "The british company A970 trades with the swiss company B47 in the goods C186 and C214 and C460"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Humphreys (J. H.) & Sons"
+        }
+    ],
+    "location": [
+        {
+            "id": "2641022",
+            "lat": "53.54051",
+            "lng": "-2.1183",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oldham",
+            "transcription": " Werneth, Oldham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-156-1951-39-C178",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "178. MACHINE TOOLS, GENERAL. A 95, 147, 331, 402, 496, 589, 692, 950, 1095, 1424, 1737 — B 205, 236. 268, 484, 534, 584, 596, 646, 698, 726.",
+        "corrected": "178. MACHINE TOOLS, GENERAL.A 95, 147, 331, 402, 496, 589, 692, 950, 1095, 1424, 1737 — B 205, 236. 268, 484, 534, 584, 596, 646, 698, 726"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 156,
+            "canvas": "http://localhost:8182/iiif/3/0156.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0156.jpg/184,1996,1280,122/max/0/default.jpg",
+            "xywh": "184, 1996, 1280, 122"
+        }
+    },
+    "short_id": "C178",
+    "label": "MACHINE TOOLS, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-156-39-A95",
+                    "short_id": "A95"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A147",
+                    "short_id": "A147"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A331",
+                    "short_id": "A331"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A402",
+                    "short_id": "A402"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A496",
+                    "short_id": "A496"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A589",
+                    "short_id": "A589"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A692",
+                    "short_id": "A692"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A950",
+                    "short_id": "A950"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A1095",
+                    "short_id": "A1095"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A1424",
+                    "short_id": "A1424"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A236268",
+                    "short_id": "A236268"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A484",
+                    "short_id": "A484"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A534",
+                    "short_id": "A534"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A584",
+                    "short_id": "A584"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A596",
+                    "short_id": "A596"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A646",
+                    "short_id": "A646"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A698",
+                    "short_id": "A698"
+                },
+                {
+                    "id": "BSCC-1951-156-39-A726",
+                    "short_id": "A726"
+                }
+            ],
+            "description": "with the british company A95 and A147 and A331 and A402 and A496 and A589 and A692 and A950 and A1095 and A1424 and A236268 and A484 and A534 and A584 and A596 and A646 and A698 and A726"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-17-B483",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "483. Mecanis AG., 110, St. Albanvorstadt, Basle. A 1005, 1185, 1347, 1645, 1916, 1979, 2068, 2117, C 103, 184, 188, 379, 385, 402a, 407, 413, 462, 689, 691.",
+        "corrected": "483. Mecanis AG., 110, St. Albanvorstadt, Basle.A 1005, 1185, 1347, 1645, 1916, 1979, 2068, 2117, C 103, 184, 188, 379, 385, 402a, 407, 413, 462, 689, 691"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,1533,1311,114/max/0/default.jpg",
+            "xywh": "167, 1533, 1311, 114"
+        }
+    },
+    "short_id": "B483",
+    "label": "Mecanis AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-17-A1005",
+                    "short_id": "A1005"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A1185",
+                    "short_id": "A1185"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A1347",
+                    "short_id": "A1347"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A1645",
+                    "short_id": "A1645"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A1916",
+                    "short_id": "A1916"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A1979",
+                    "short_id": "A1979"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A2068",
+                    "short_id": "A2068"
+                },
+                {
+                    "id": "BSCC-1951-132-17-A2117",
+                    "short_id": "A2117"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-17-C103",
+                    "short_id": "C103"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C184",
+                    "short_id": "C184"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C188",
+                    "short_id": "C188"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C379",
+                    "short_id": "C379"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C402a",
+                    "short_id": "C402a"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C407",
+                    "short_id": "C407"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C413",
+                    "short_id": "C413"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C462",
+                    "short_id": "C462"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C689",
+                    "short_id": "C689"
+                },
+                {
+                    "id": "BSCC-1951-132-17-C691",
+                    "short_id": "C691"
+                }
+            ],
+            "description": "The swiss company B483 trades with the british company A1005 and A1185 and A1347 and A1645 and A1916 and A1979 and A2068 and A2117 in the goods C103 and C184 and C188 and C379 and C385 and C402a and C407 and C413 and C462 and C689 and C691"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mecanis AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 110, St. Albanvorstadt, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

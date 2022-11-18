@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-173-1951-34-C825",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "825. Compressed asbestos and fibre. A 2112, B 397.",
+        "corrected": "825. Compressed asbestos and fibre. A 2112, B 397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 173,
+            "canvas": "http://localhost:8182/iiif/3/0173.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0173.jpg/275,1946,1300,42/max/0/default.jpg",
+            "xywh": "275, 1946, 1300, 42"
+        }
+    },
+    "short_id": "C825",
+    "label": "Compressed asbestos and fibre",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-173-34-A2112",
+                    "short_id": "A2112"
+                },
+                {
+                    "id": "BSCC-1951-173-34-B397",
+                    "short_id": "B397"
+                }
+            ],
+            "description": "with the british company A2112"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9C",
+            "level": 1,
+            "label": "Asbestos",
+            "part_of": "9",
+            "page": "173",
+            "line_number": "31"
+        }
+    ]
+}

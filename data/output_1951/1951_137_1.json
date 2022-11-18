@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-1-B605",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "605. Rieffel (Hans), 2, Löwenstrasse/40, Uraniastrasse, Zurich. A 93, 834, 1106, 1300, 1474, C 1074, 1165, 1166, 1167, 1168, 1171.",
+        "corrected": "605. Rieffel (Hans), 2, Löwenstrasse/40, Uraniastrasse, Zurich.A 93, 834, 1106, 1300, 1474, C 1074, 1165, 1166, 1167, 1168, 1171"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,358,1255,80/max/0/default.jpg",
+            "xywh": "303, 358, 1255, 80"
+        }
+    },
+    "short_id": "B605",
+    "label": "Rieffel (Hans)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-1-A93",
+                    "short_id": "A93"
+                },
+                {
+                    "id": "BSCC-1951-137-1-A834",
+                    "short_id": "A834"
+                },
+                {
+                    "id": "BSCC-1951-137-1-A1106",
+                    "short_id": "A1106"
+                },
+                {
+                    "id": "BSCC-1951-137-1-A1300",
+                    "short_id": "A1300"
+                },
+                {
+                    "id": "BSCC-1951-137-1-A1474",
+                    "short_id": "A1474"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-1-C1074",
+                    "short_id": "C1074"
+                },
+                {
+                    "id": "BSCC-1951-137-1-C1165",
+                    "short_id": "C1165"
+                },
+                {
+                    "id": "BSCC-1951-137-1-C1166",
+                    "short_id": "C1166"
+                },
+                {
+                    "id": "BSCC-1951-137-1-C1167",
+                    "short_id": "C1167"
+                },
+                {
+                    "id": "BSCC-1951-137-1-C1168",
+                    "short_id": "C1168"
+                },
+                {
+                    "id": "BSCC-1951-137-1-C1171",
+                    "short_id": "C1171"
+                }
+            ],
+            "description": "The swiss company B605 trades with the british company A93 and A834 and A1106 and A1300 and A1474 in the goods C1074 and C1165 and C1166 and C1167 and C1168 and C1171"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rieffel (Hans)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "2, Löwenstrasse/40, Uraniastrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

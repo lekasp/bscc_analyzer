@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-2-A182",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "182. Bentley (David) Ltd., Salford, Lancs. B 376, C 277; B 615, C 304.",
+        "corrected": "182. Bentley (David) Ltd., Salford, Lancs. B 376, C 277; B 615, C 304"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,322,1260,40/max/0/default.jpg",
+            "xywh": "205, 322, 1260, 40"
+        }
+    },
+    "short_id": "A182",
+    "label": "Bentley (David) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-2-B376",
+                    "short_id": "B376"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-2-C277",
+                    "short_id": "C277"
+                }
+            ],
+            "description": "The british company A182 trades with the swiss company B376 in the goods C277"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-2-B615",
+                    "short_id": "B615"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-2-C304",
+                    "short_id": "C304"
+                }
+            ],
+            "description": "The british company A182 trades with the swiss company B615 in the goods C304"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bentley (David) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638671",
+            "lat": "53.48771",
+            "lng": "-2.29042",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Salford",
+            "transcription": " Salford, Lancs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

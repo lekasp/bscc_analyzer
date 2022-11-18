@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-5-A1394",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1394. National Tube Co. Ltd., Halesowen, Birmingham. B 158, C 133, 135,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,506,1323,38/max/0/default.jpg",
+            "xywh": "174, 506, 1323, 38"
+        }
+    },
+    "short_id": "A1394",
+    "label": "National Tube Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-5-B158",
+                    "short_id": "B158"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-5-C133",
+                    "short_id": "C133"
+                },
+                {
+                    "id": "BSCC-1951-76-5-C135",
+                    "short_id": "C135"
+                }
+            ],
+            "description": "The british company A1394 trades with the swiss company B158 in the goods C133 and C135"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "National Tube Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647639",
+            "lat": "52.44859",
+            "lng": "-2.04938",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Halesowen",
+            "transcription": " Halesowen, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Halesowen, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

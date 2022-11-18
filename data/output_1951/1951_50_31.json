@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-31-A843",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "843. Hallam, Sleigh & Cheston, Birmingham. B 777, C 612.",
+        "corrected": "843. Hallam, Sleigh & Cheston, Birmingham. B 777, C 612"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,1684,1261,39/max/0/default.jpg",
+            "xywh": "153, 1684, 1261, 39"
+        }
+    },
+    "short_id": "A843",
+    "label": "Hallam",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-31-B777",
+                    "short_id": "B777"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-31-C612",
+                    "short_id": "C612"
+                }
+            ],
+            "description": "The british company A843 trades with the swiss company B777 in the goods C612"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hallam"
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": "Sleigh & Cheston, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

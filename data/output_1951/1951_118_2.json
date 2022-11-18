@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-2-B40",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 40. Automobilwerke Holka AG., 438, Badenerstrasse, Zurich. + A 661, C 562, 563.",
+        "corrected": "40. Automobilwerke Holka AG., 438, Badenerstrasse, Zurich. + A 661, C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,326,1300,49/max/0/default.jpg",
+            "xywh": "187, 326, 1300, 49"
+        }
+    },
+    "short_id": "B40",
+    "label": "Automobilwerke Holka AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-2-A661",
+                    "short_id": "A661"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-2-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-118-2-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The swiss company B40 trades with the british company A661 in the goods C562 and C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Automobilwerke Holka AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 438, Badenerstrasse, Zurich. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

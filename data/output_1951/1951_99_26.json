@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-26-A2077",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2077. Watford Engineering Works Ltd., Watford. B 376, C 280.",
+        "corrected": "2077. Watford Engineering Works Ltd., Watford. B 376, C 280"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,1344,1278,39/max/0/default.jpg",
+            "xywh": "348, 1344, 1278, 39"
+        }
+    },
+    "short_id": "A2077",
+    "label": "Watford Engineering Works Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-26-B376",
+                    "short_id": "B376"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-26-C280",
+                    "short_id": "C280"
+                }
+            ],
+            "description": "The british company A2077 trades with the swiss company B376 in the goods C280"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Watford Engineering Works Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634677",
+            "lat": "51.65531",
+            "lng": "-0.39602",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Watford",
+            "transcription": " Watford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

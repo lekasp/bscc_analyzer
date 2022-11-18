@@ -1,0 +1,118 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-28-1951-32-A348",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "348. Bull (John) Rubber Co. Ltd., Leicester. B 83, C 782; B 389, C 780, 781; B 439, C 780, 784.",
+        "corrected": "348. Bull (John) Rubber Co. Ltd., Leicester.B 83, C 782; B 389, C 780, 781; B 439, C 780, 784"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 28,
+            "canvas": "http://localhost:8182/iiif/3/0028.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0028.jpg/228,1624,1233,76/max/0/default.jpg",
+            "xywh": "228, 1624, 1233, 76"
+        }
+    },
+    "short_id": "A348",
+    "label": "Bull (John) Rubber Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-32-B83",
+                    "short_id": "B83"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-32-C782",
+                    "short_id": "C782"
+                }
+            ],
+            "description": "The british company A348 trades with the swiss company B83 in the goods C782"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-32-B389",
+                    "short_id": "B389"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-32-C780",
+                    "short_id": "C780"
+                },
+                {
+                    "id": "BSCC-1951-28-32-C781",
+                    "short_id": "C781"
+                }
+            ],
+            "description": "The british company A348 trades with the swiss company B389 in the goods C780 and C781"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-28-32-B439",
+                    "short_id": "B439"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-28-32-C780",
+                    "short_id": "C780"
+                },
+                {
+                    "id": "BSCC-1951-28-32-C784",
+                    "short_id": "C784"
+                }
+            ],
+            "description": "The british company A348 trades with the swiss company B439 in the goods C780 and C784"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bull (John) Rubber Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

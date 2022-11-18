@@ -1,0 +1,118 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-172-1951-17-C777",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "777. Latex. A 413, 931, 1247, 1619, 1894, 2035, B 124, 142, 144, 496.",
+        "corrected": "777. Latex. A 413, 931, 1247, 1619, 1894, 2035, B 124, 142, 144, 496"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 172,
+            "canvas": "http://localhost:8182/iiif/3/0172.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0172.jpg/205,1080,1259,41/max/0/default.jpg",
+            "xywh": "205, 1080, 1259, 41"
+        }
+    },
+    "short_id": "C777",
+    "label": "Latex",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-172-17-A413",
+                    "short_id": "A413"
+                },
+                {
+                    "id": "BSCC-1951-172-17-A931",
+                    "short_id": "A931"
+                },
+                {
+                    "id": "BSCC-1951-172-17-A1247",
+                    "short_id": "A1247"
+                },
+                {
+                    "id": "BSCC-1951-172-17-A1619",
+                    "short_id": "A1619"
+                },
+                {
+                    "id": "BSCC-1951-172-17-A1894",
+                    "short_id": "A1894"
+                },
+                {
+                    "id": "BSCC-1951-172-17-A2035",
+                    "short_id": "A2035"
+                },
+                {
+                    "id": "BSCC-1951-172-17-B124",
+                    "short_id": "B124"
+                },
+                {
+                    "id": "BSCC-1951-172-17-B142",
+                    "short_id": "B142"
+                },
+                {
+                    "id": "BSCC-1951-172-17-B144",
+                    "short_id": "B144"
+                },
+                {
+                    "id": "BSCC-1951-172-17-B496",
+                    "short_id": "B496"
+                }
+            ],
+            "description": "with the british company A413 and A931 and A1247 and A1619 and A1894 and A2035 and B142 and B144 and B496"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9A",
+            "level": 1,
+            "label": "Rubber and Rubber Products",
+            "part_of": "9",
+            "page": "172",
+            "line_number": "11"
+        },
+        {
+            "id": "9Aa",
+            "level": 2,
+            "label": "RAW MATERIALS",
+            "part_of": "9A",
+            "page": "172",
+            "line_number": "13"
+        }
+    ]
+}

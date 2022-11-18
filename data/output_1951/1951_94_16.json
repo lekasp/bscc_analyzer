@@ -1,0 +1,79 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-16-A1850",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1850. Stewart (Andrew), (Woollens) Ltd., Galashiels, Scotland. B 743, C 1117,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,966,1254,40/max/0/default.jpg",
+            "xywh": "182, 966, 1254, 40"
+        }
+    },
+    "short_id": "A1850",
+    "label": "Stewart (Andrew), (Woollens) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-16-B743",
+                    "short_id": "B743"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-16-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The british company A1850 trades with the swiss company B743 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stewart (Andrew), (Woollens) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648928",
+            "lat": "55.61458",
+            "lng": "-2.80695",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Galashiels",
+            "transcription": " Galashiels, Scotland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

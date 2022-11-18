@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-185-1951-11-C1193",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1193. Stockings, woollen. A 1343, 1435, B 136, 289.",
+        "corrected": "1193. Stockings, woollen. A 1343, 1435, B 136, 289"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 185,
+            "canvas": "http://localhost:8182/iiif/3/0185.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0185.jpg/298,884,1365,39/max/0/default.jpg",
+            "xywh": "298, 884, 1365, 39"
+        }
+    },
+    "short_id": "C1193",
+    "label": "Stockings, woollen",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-185-11-A1343",
+                    "short_id": "A1343"
+                },
+                {
+                    "id": "BSCC-1951-185-11-A1435",
+                    "short_id": "A1435"
+                },
+                {
+                    "id": "BSCC-1951-185-11-B136",
+                    "short_id": "B136"
+                },
+                {
+                    "id": "BSCC-1951-185-11-B289",
+                    "short_id": "B289"
+                }
+            ],
+            "description": "with the british company A1343 and A1435 and B289"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15D",
+            "level": 1,
+            "label": "Garments",
+            "part_of": "15",
+            "page": "184",
+            "line_number": "3"
+        },
+        {
+            "id": "15Dc",
+            "level": 2,
+            "label": "HOSIERY, KNITWEAR, SWIMWEAR",
+            "part_of": "15D",
+            "page": "185",
+            "line_number": "0"
+        }
+    ]
+}

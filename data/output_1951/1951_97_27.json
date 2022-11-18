@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-27-A1994",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1994. United Wire Works Ltd., Edinburgh. B 639, C 176, 282.",
+        "corrected": "1994. United Wire Works Ltd., Edinburgh. B 639, C 176, 282"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,1488,1247,40/max/0/default.jpg",
+            "xywh": "346, 1488, 1247, 40"
+        }
+    },
+    "short_id": "A1994",
+    "label": "United Wire Works Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-27-B639",
+                    "short_id": "B639"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-27-C176",
+                    "short_id": "C176"
+                },
+                {
+                    "id": "BSCC-1951-97-27-C282",
+                    "short_id": "C282"
+                }
+            ],
+            "description": "The british company A1994 trades with the swiss company B639 in the goods C176 and C282"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "United Wire Works Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650225",
+            "lat": "55.95206",
+            "lng": "-3.19648",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Edinburgh",
+            "transcription": " Edinburgh. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

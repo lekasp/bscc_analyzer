@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-1-B39",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "39. Augsburger (E. & A.) AG., Lützelflüh (Berne). A 1160, C 1206.",
+        "corrected": "39. Augsburger (E. & A.) AG., Lützelflüh (Berne). A 1160, C 1206"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,289,1300,37/max/0/default.jpg",
+            "xywh": "187, 289, 1300, 37"
+        }
+    },
+    "short_id": "B39",
+    "label": "Augsburger (E. & A.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-1-A1160",
+                    "short_id": "A1160"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-1-C1206",
+                    "short_id": "C1206"
+                }
+            ],
+            "description": "The swiss company B39 trades with the british company A1160 in the goods C1206"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Augsburger (E. & A.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659814",
+            "lat": "47.00757",
+            "lng": "7.69165",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lützelflüh",
+            "transcription": " Lützelflüh (Berne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

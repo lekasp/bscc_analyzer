@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-19-A151",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "151. Barwell (James) Ltd., Birmingham. B 212, C 746.",
+        "corrected": "151. Barwell (James) Ltd., Birmingham. B 212, C 746"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,984,1238,41/max/0/default.jpg",
+            "xywh": "213, 984, 1238, 41"
+        }
+    },
+    "short_id": "A151",
+    "label": "Barwell (James) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-19-B212",
+                    "short_id": "B212"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-19-C746",
+                    "short_id": "C746"
+                }
+            ],
+            "description": "The british company A151 trades with the swiss company B212 in the goods C746"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Barwell (James) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-22-B128",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "128. Bural S. à r. l., 15, rue de Rive, Geneva. A 742, C 982, 995.",
+        "corrected": "128. Bural S. à r. l., 15, rue de Rive, Geneva. A 742, C 982, 995"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1775,1348,41/max/0/default.jpg",
+            "xywh": "159, 1775, 1348, 41"
+        }
+    },
+    "short_id": "B128",
+    "label": "Bural S. à r. l.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-22-A742",
+                    "short_id": "A742"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-22-C982",
+                    "short_id": "C982"
+                },
+                {
+                    "id": "BSCC-1951-120-22-C995",
+                    "short_id": "C995"
+                }
+            ],
+            "description": "The swiss company B128 trades with the british company A742 in the goods C982 and C995"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bural S. à r. l."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 15, rue de Rive, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

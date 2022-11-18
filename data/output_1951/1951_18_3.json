@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-3-A92",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "92. Ashworth (Geo. L.) & Bros. Ltd., Hanley, Stoke-on-Trent. B 565, C 1360.",
+        "corrected": "92. Ashworth (Geo. L.) & Bros. Ltd., Hanley, Stoke-on-Trent. B 565, C 1360"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,382,1236,42/max/0/default.jpg",
+            "xywh": "219, 382, 1236, 42"
+        }
+    },
+    "short_id": "A92",
+    "label": "Ashworth (Geo. L.) & Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-3-B565",
+                    "short_id": "B565"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-3-C1360",
+                    "short_id": "C1360"
+                }
+            ],
+            "description": "The british company A92 trades with the swiss company B565 in the goods C1360"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ashworth (Geo. L.) & Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647525",
+            "lat": "53.02492",
+            "lng": "-2.17395",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hanley",
+            "transcription": " Hanley, Stoke-on-Trent. "
+        },
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Hanley, Stoke-on-Trent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

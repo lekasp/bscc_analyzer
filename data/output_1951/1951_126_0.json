@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-0-B288",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 288. Goth & Co. AG., 45, Elisabethenstrasse, Basle. * A 12a, 99, 1465, C 1457, 1458.",
+        "corrected": "288. Goth & Co. AG., 45, Elisabethenstrasse, Basle.* A 12a, 99, 1465, C 1457, 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,211,1299,113/max/0/default.jpg",
+            "xywh": "175, 211, 1299, 113"
+        }
+    },
+    "short_id": "B288",
+    "label": "Goth & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-0-A12a",
+                    "short_id": "A12a"
+                },
+                {
+                    "id": "BSCC-1951-126-0-A99",
+                    "short_id": "A99"
+                },
+                {
+                    "id": "BSCC-1951-126-0-A1465",
+                    "short_id": "A1465"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-0-C1457",
+                    "short_id": "C1457"
+                },
+                {
+                    "id": "BSCC-1951-126-0-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B288 trades with the british company A12a and A99 and A1465 in the goods C1457 and C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Goth & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 45, Elisabethenstrasse, Basle.* "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

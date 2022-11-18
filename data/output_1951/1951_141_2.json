@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-2-B729",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚729. Summerer (H. C.), 211, Bellerivestrasse, Zurich. A 462, 2069, C 168, 479, 490, 491, 492, 522, 524, 525.",
+        "corrected": "729. Summerer (H. C.), 211, Bellerivestrasse, Zurich.A 462, 2069, C 168, 479, 490, 491, 492, 522, 524, 525"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,325,1309,75/max/0/default.jpg",
+            "xywh": "290, 325, 1309, 75"
+        }
+    },
+    "short_id": "B729",
+    "label": "Summerer (H. C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-2-A462",
+                    "short_id": "A462"
+                },
+                {
+                    "id": "BSCC-1951-141-2-A2069",
+                    "short_id": "A2069"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-2-C168",
+                    "short_id": "C168"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C479",
+                    "short_id": "C479"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C490",
+                    "short_id": "C490"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C491",
+                    "short_id": "C491"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C492",
+                    "short_id": "C492"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C522",
+                    "short_id": "C522"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C524",
+                    "short_id": "C524"
+                },
+                {
+                    "id": "BSCC-1951-141-2-C525",
+                    "short_id": "C525"
+                }
+            ],
+            "description": "The swiss company B729 trades with the british company A462 and A2069 in the goods C168 and C479 and C490 and C491 and C492 and C522 and C524 and C525"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Summerer (H. C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "211, Bellerivestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

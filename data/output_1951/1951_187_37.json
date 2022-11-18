@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-187-1951-37-C1285",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1285. Foot comfort remedies and appliances. A 643, 1719, B 334, 659.",
+        "corrected": "1285. Foot comfort remedies and appliances. A 643, 1719, B 334, 659"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 187,
+            "canvas": "http://localhost:8182/iiif/3/0187.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0187.jpg/318,2087,1281,39/max/0/default.jpg",
+            "xywh": "318, 2087, 1281, 39"
+        }
+    },
+    "short_id": "C1285",
+    "label": "Foot comfort remedies and appliances",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-187-37-A643",
+                    "short_id": "A643"
+                },
+                {
+                    "id": "BSCC-1951-187-37-A1719",
+                    "short_id": "A1719"
+                },
+                {
+                    "id": "BSCC-1951-187-37-B334",
+                    "short_id": "B334"
+                },
+                {
+                    "id": "BSCC-1951-187-37-B659",
+                    "short_id": "B659"
+                }
+            ],
+            "description": "with the british company A643 and A1719 and B659"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "17",
+            "level": 0,
+            "label": "Medical and Surgical Products",
+            "part_of": "0",
+            "page": "187",
+            "line_number": "31"
+        }
+    ]
+}

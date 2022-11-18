@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-2-A1168",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1168. Lingard Webster & Co. Ltd., Tunstall, Stoke-on-Trent. B 495, C 1359, 1360.",
+        "corrected": "1168. Lingard Webster & Co. Ltd., Tunstall, Stoke-on-Trent.B 495, C 1359, 1360"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,320,1288,76/max/0/default.jpg",
+            "xywh": "170, 320, 1288, 76"
+        }
+    },
+    "short_id": "A1168",
+    "label": "Lingard Webster & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-2-B495",
+                    "short_id": "B495"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-2-C1359",
+                    "short_id": "C1359"
+                },
+                {
+                    "id": "BSCC-1951-66-2-C1360",
+                    "short_id": "C1360"
+                }
+            ],
+            "description": "The british company A1168 trades with the swiss company B495 in the goods C1359 and C1360"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lingard Webster & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Tunstall, Stoke-on-Trent."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

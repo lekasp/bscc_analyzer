@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-13-B210",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "210. Emrich (E.), 34, Müllerstrasse, Zurich. A 1243, C 1015, 1030.",
+        "corrected": "210. Emrich (E.), 34, Müllerstrasse, Zurich. A 1243, C 1015, 1030"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1058,1247,40/max/0/default.jpg",
+            "xywh": "304, 1058, 1247, 40"
+        }
+    },
+    "short_id": "B210",
+    "label": "Emrich (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-13-A1243",
+                    "short_id": "A1243"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-13-C1015",
+                    "short_id": "C1015"
+                },
+                {
+                    "id": "BSCC-1951-123-13-C1030",
+                    "short_id": "C1030"
+                }
+            ],
+            "description": "The swiss company B210 trades with the british company A1243 in the goods C1015 and C1030"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Emrich (E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "34, Müllerstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

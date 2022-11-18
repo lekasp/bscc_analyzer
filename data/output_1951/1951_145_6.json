@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-145-1951-6-B847",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "847. Zulliger (Rudolf), 20, Bahnhofstrasse, Erlenbach (Zurich). A 1538, C 805.",
+        "corrected": "847. Zulliger (Rudolf), 20, Bahnhofstrasse, Erlenbach (Zurich). A 1538, C 805"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 145,
+            "canvas": "http://localhost:8182/iiif/3/0145.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0145.jpg/311,592,1268,39/max/0/default.jpg",
+            "xywh": "311, 592, 1268, 39"
+        }
+    },
+    "short_id": "B847",
+    "label": "Zulliger (Rudolf)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-145-6-A1538",
+                    "short_id": "A1538"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-145-6-C805",
+                    "short_id": "C805"
+                }
+            ],
+            "description": "The swiss company B847 trades with the british company A1538 in the goods C805"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Zulliger (Rudolf)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "20, Bahnhofstrasse, Erlenbach (Zurich). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

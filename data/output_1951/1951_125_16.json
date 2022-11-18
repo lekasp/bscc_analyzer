@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-16-B273",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "273. George (André C.), 141, Dufourstrasse, Zurich. A 825, 906, 1074, 1333, 1592, C 345, 346, 352, 353, 358, 370, 376, 703, 705, 714, 766.",
+        "corrected": "273. George (André C.), 141, Dufourstrasse, Zurich.A 825, 906, 1074, 1333, 1592, C 345, 346, 352, 353, 358, 370, 376, 703, 705, 714, 766"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,1244,1317,116/max/0/default.jpg",
+            "xywh": "288, 1244, 1317, 116"
+        }
+    },
+    "short_id": "B273",
+    "label": "George (André C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-16-A825",
+                    "short_id": "A825"
+                },
+                {
+                    "id": "BSCC-1951-125-16-A906",
+                    "short_id": "A906"
+                },
+                {
+                    "id": "BSCC-1951-125-16-A1074",
+                    "short_id": "A1074"
+                },
+                {
+                    "id": "BSCC-1951-125-16-A1333",
+                    "short_id": "A1333"
+                },
+                {
+                    "id": "BSCC-1951-125-16-A1592",
+                    "short_id": "A1592"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-16-C345",
+                    "short_id": "C345"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C346",
+                    "short_id": "C346"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C353",
+                    "short_id": "C353"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C358",
+                    "short_id": "C358"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C370",
+                    "short_id": "C370"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C376",
+                    "short_id": "C376"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C703",
+                    "short_id": "C703"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C705",
+                    "short_id": "C705"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C714",
+                    "short_id": "C714"
+                },
+                {
+                    "id": "BSCC-1951-125-16-C766",
+                    "short_id": "C766"
+                }
+            ],
+            "description": "The swiss company B273 trades with the british company A825 and A906 and A1074 and A1333 and A1592 in the goods C345 and C346 and C352 and C353 and C358 and C370 and C376 and C703 and C705 and C714 and C766"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "George (André C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "141, Dufourstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

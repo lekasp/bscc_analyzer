@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-7-B762",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "762. Union Romande & Amann S.A., 15, avenue J. J. Mercier, Lausanne. A 1000, 1524, 1601, C 934.",
+        "corrected": "762. Union Romande & Amann S.A., 15, avenue J. J. Mercier, Lausanne.A 1000, 1524, 1601, C 934"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,739,1294,80/max/0/default.jpg",
+            "xywh": "185, 739, 1294, 80"
+        }
+    },
+    "short_id": "B762",
+    "label": "Union Romande & Amann S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-7-A1000",
+                    "short_id": "A1000"
+                },
+                {
+                    "id": "BSCC-1951-142-7-A1524",
+                    "short_id": "A1524"
+                },
+                {
+                    "id": "BSCC-1951-142-7-A1601",
+                    "short_id": "A1601"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-7-C934",
+                    "short_id": "C934"
+                }
+            ],
+            "description": "The swiss company B762 trades with the british company A1000 and A1524 and A1601 in the goods C934"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Union Romande & Amann S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 15, avenue J. J. Mercier, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

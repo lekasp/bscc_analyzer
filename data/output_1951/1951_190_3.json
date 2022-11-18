@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-3-C1363",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1363. Industrial ceramics. A 2022, B 473.",
+        "corrected": "1363. Industrial ceramics. A 2022, B 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,432,1327,39/max/0/default.jpg",
+            "xywh": "181, 432, 1327, 39"
+        }
+    },
+    "short_id": "C1363",
+    "label": "Industrial ceramics",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-3-A2022",
+                    "short_id": "A2022"
+                },
+                {
+                    "id": "BSCC-1951-190-3-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "description": "with the british company A2022"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "19",
+            "level": 0,
+            "label": "Ceramics and Glassware",
+            "part_of": "0",
+            "page": "189",
+            "line_number": "32"
+        },
+        {
+            "id": "19A",
+            "level": 1,
+            "label": "Ceramic Products",
+            "part_of": "19",
+            "page": "189",
+            "line_number": "33"
+        }
+    ]
+}

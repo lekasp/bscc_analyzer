@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-33-B104",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "104. Bossi (Rudolf), 1, Schubertstrasse, Zurich. A 1159, 1425, 1986, C 1393, 1394, 1410.",
+        "corrected": "104. Bossi (Rudolf), 1, Schubertstrasse, Zurich.A 1159, 1425, 1986, C 1393, 1394, 1410"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,2105,1336,78/max/0/default.jpg",
+            "xywh": "276, 2105, 1336, 78"
+        }
+    },
+    "short_id": "B104",
+    "label": "Bossi (Rudolf)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-33-A1159",
+                    "short_id": "A1159"
+                },
+                {
+                    "id": "BSCC-1951-119-33-A1425",
+                    "short_id": "A1425"
+                },
+                {
+                    "id": "BSCC-1951-119-33-A1986",
+                    "short_id": "A1986"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-33-C1393",
+                    "short_id": "C1393"
+                },
+                {
+                    "id": "BSCC-1951-119-33-C1394",
+                    "short_id": "C1394"
+                },
+                {
+                    "id": "BSCC-1951-119-33-C1410",
+                    "short_id": "C1410"
+                }
+            ],
+            "description": "The swiss company B104 trades with the british company A1159 and A1425 and A1986 in the goods C1393 and C1394 and C1410"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bossi (Rudolf)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "1, Schubertstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

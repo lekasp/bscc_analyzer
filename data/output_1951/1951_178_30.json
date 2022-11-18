@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-30-C999",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "999. Red Lead. A 241, B 391.",
+        "corrected": "999. Red Lead. A 241, B 391"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,1517,1240,35/max/0/default.jpg",
+            "xywh": "229, 1517, 1240, 35"
+        }
+    },
+    "short_id": "C999",
+    "label": "Red Lead",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-30-A241",
+                    "short_id": "A241"
+                },
+                {
+                    "id": "BSCC-1951-178-30-B391",
+                    "short_id": "B391"
+                }
+            ],
+            "description": "with the british company A241"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "12",
+            "level": 0,
+            "label": "Paints, Varnishes, Cleaning and other Compounds",
+            "part_of": "0",
+            "page": "177",
+            "line_number": "24"
+        },
+        {
+            "id": "12B",
+            "level": 1,
+            "label": "Protective Compounds, Cleaning Materials, Adhesives, etc.",
+            "part_of": "12",
+            "page": "178",
+            "line_number": "7"
+        }
+    ]
+}

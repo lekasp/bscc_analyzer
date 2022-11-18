@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-27-B224",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 224. Feinstahl AG., 37, Utoquai, Zurich. A 1460, 1884, C 108, 118.",
+        "corrected": "224. Feinstahl AG., 37, Utoquai, Zurich. A 1460, 1884, C 108, 118"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,2028,1247,39/max/0/default.jpg",
+            "xywh": "304, 2028, 1247, 39"
+        }
+    },
+    "short_id": "B224",
+    "label": "Feinstahl AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-27-A1460",
+                    "short_id": "A1460"
+                },
+                {
+                    "id": "BSCC-1951-123-27-A1884",
+                    "short_id": "A1884"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-27-C108",
+                    "short_id": "C108"
+                },
+                {
+                    "id": "BSCC-1951-123-27-C118",
+                    "short_id": "C118"
+                }
+            ],
+            "description": "The swiss company B224 trades with the british company A1460 and A1884 in the goods C108 and C118"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Feinstahl AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 37, Utoquai, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

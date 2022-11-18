@@ -1,0 +1,182 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-182-1951-21-C1119",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1119. Woollen cloth, ladies'. A 190, 515, 520, 547, 574, 783, 806, 1127, 1502, 1583, 1895, 1920, 2038, 2079, B 78, 95, 187, 332, 441, 442, 455, 464, 538, 618, 801, 841.",
+        "corrected": "1119. Woollen cloth, ladies'.A 190, 515, 520, 547, 574, 783, 806, 1127, 1502, 1583, 1895, 1920, 2038, 2079, B 78, 95, 187, 332, 441, 442, 455, 464, 538, 618, 801, 841"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 182,
+            "canvas": "http://localhost:8182/iiif/3/0182.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0182.jpg/181,1865,1323,119/max/0/default.jpg",
+            "xywh": "181, 1865, 1323, 119"
+        }
+    },
+    "short_id": "C1119",
+    "label": "Woollen cloth, ladies'",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-182-21-A190",
+                    "short_id": "A190"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A515",
+                    "short_id": "A515"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A520",
+                    "short_id": "A520"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A547",
+                    "short_id": "A547"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A574",
+                    "short_id": "A574"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A783",
+                    "short_id": "A783"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A806",
+                    "short_id": "A806"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A1127",
+                    "short_id": "A1127"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A1502",
+                    "short_id": "A1502"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A1583",
+                    "short_id": "A1583"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A1895",
+                    "short_id": "A1895"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A1920",
+                    "short_id": "A1920"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A2038",
+                    "short_id": "A2038"
+                },
+                {
+                    "id": "BSCC-1951-182-21-A2079",
+                    "short_id": "A2079"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B78",
+                    "short_id": "B78"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B95",
+                    "short_id": "B95"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B187",
+                    "short_id": "B187"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B332",
+                    "short_id": "B332"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B441",
+                    "short_id": "B441"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B442",
+                    "short_id": "B442"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B455",
+                    "short_id": "B455"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B464",
+                    "short_id": "B464"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B538",
+                    "short_id": "B538"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B618",
+                    "short_id": "B618"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B801",
+                    "short_id": "B801"
+                },
+                {
+                    "id": "BSCC-1951-182-21-B841",
+                    "short_id": "B841"
+                }
+            ],
+            "description": "with the british company A190 and A515 and A520 and A547 and A574 and A783 and A806 and A1127 and A1502 and A1583 and A1895 and A1920 and A2038 and A2079 and B95 and B187 and B332 and B441 and B442 and B455 and B464 and B538 and B618 and B801 and B841"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Cb",
+            "level": 2,
+            "label": "WOOLLENS AND WORSTEDS",
+            "part_of": "15C",
+            "page": "182",
+            "line_number": "18"
+        }
+    ]
+}

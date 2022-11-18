@@ -1,0 +1,98 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-12-B209",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "209. Emalco S.A., 19, rue de l’Hôpital, Neuchâtel. A 1391, 1777, C 378, 382, 390, 396, 399, 400, 412.",
+        "corrected": "209. Emalco S.A., 19, rue de l’Hôpital, Neuchâtel.A 1391, 1777, C 378, 382, 390, 396, 399, 400, 412"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,979,1247,79/max/0/default.jpg",
+            "xywh": "304, 979, 1247, 79"
+        }
+    },
+    "short_id": "B209",
+    "label": "Emalco S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-12-A1391",
+                    "short_id": "A1391"
+                },
+                {
+                    "id": "BSCC-1951-123-12-A1777",
+                    "short_id": "A1777"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-12-C378",
+                    "short_id": "C378"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C382",
+                    "short_id": "C382"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C390",
+                    "short_id": "C390"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C396",
+                    "short_id": "C396"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C399",
+                    "short_id": "C399"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C400",
+                    "short_id": "C400"
+                },
+                {
+                    "id": "BSCC-1951-123-12-C412",
+                    "short_id": "C412"
+                }
+            ],
+            "description": "The swiss company B209 trades with the british company A1391 and A1777 in the goods C378 and C382 and C390 and C396 and C399 and C400 and C412"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Emalco S.A."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 19, rue de l’Hôpital, Neuchâtel."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

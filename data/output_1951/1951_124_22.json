@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-22-B249",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "249. Frésard & Cie., 25, Steinenring, Basle. A 597, 739, 1233, C 144, 154, 438, 441.",
+        "corrected": "249. Frésard & Cie., 25, Steinenring, Basle. A 597, 739, 1233, C 144, 154, 438, 441"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1714,1320,38/max/0/default.jpg",
+            "xywh": "166, 1714, 1320, 38"
+        }
+    },
+    "short_id": "B249",
+    "label": "Frésard & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-22-A597",
+                    "short_id": "A597"
+                },
+                {
+                    "id": "BSCC-1951-124-22-A739",
+                    "short_id": "A739"
+                },
+                {
+                    "id": "BSCC-1951-124-22-A1233",
+                    "short_id": "A1233"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-22-C144",
+                    "short_id": "C144"
+                },
+                {
+                    "id": "BSCC-1951-124-22-C154",
+                    "short_id": "C154"
+                },
+                {
+                    "id": "BSCC-1951-124-22-C438",
+                    "short_id": "C438"
+                },
+                {
+                    "id": "BSCC-1951-124-22-C441",
+                    "short_id": "C441"
+                }
+            ],
+            "description": "The swiss company B249 trades with the british company A597 and A739 and A1233 in the goods C144 and C154 and C438 and C441"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frésard & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 25, Steinenring, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

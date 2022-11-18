@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-41-A2183a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2183a. Wrights' Ropes Ltd., Birmingham. B 719a, C 130, 1261.",
+        "corrected": "2183a. Wrights' Ropes Ltd., Birmingham. B 719a, C 130, 1261"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,1982,1264,39/max/0/default.jpg",
+            "xywh": "343, 1982, 1264, 39"
+        }
+    },
+    "short_id": "A2183a",
+    "label": "Wrights' Ropes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-41-B719a",
+                    "short_id": "B719a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-41-C130",
+                    "short_id": "C130"
+                },
+                {
+                    "id": "BSCC-1951-101-41-C1261",
+                    "short_id": "C1261"
+                }
+            ],
+            "description": "The british company A2183a trades with the swiss company B719a in the goods C130 and C1261"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wrights' Ropes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

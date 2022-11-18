@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-15-B507",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 507. Monotype Corporation Ltd., 7a, Laupenstrasse, Berne. A 1340, C 286.",
+        "corrected": "507. Monotype Corporation Ltd., 7a, Laupenstrasse, Berne. A 1340, C 286"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1297,1317,42/max/0/default.jpg",
+            "xywh": "305, 1297, 1317, 42"
+        }
+    },
+    "short_id": "B507",
+    "label": "Monotype Corporation Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-15-A1340",
+                    "short_id": "A1340"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-15-C286",
+                    "short_id": "C286"
+                }
+            ],
+            "description": "The swiss company B507 trades with the british company A1340 in the goods C286"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Monotype Corporation Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": " 7a, Laupenstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

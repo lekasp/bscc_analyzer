@@ -1,0 +1,163 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-37-A985",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "985. Imperial Chemical Industries Ltd., London SW 1. B 49, C 813; B 123, C 139; B 195, C 968; B 363, C 905; B 671, C 821, 822; B 782, C 817, 819.",
+        "corrected": "985. Imperial Chemical Industries Ltd., London SW 1.B 49, C 813; B 123, C 139; B 195, C 968; B 363, C 905; B 671, C 821, 822; B 782, C 817, 819"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1946,1276,116/max/0/default.jpg",
+            "xywh": "158, 1946, 1276, 116"
+        }
+    },
+    "short_id": "A985",
+    "label": "Imperial Chemical Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B49",
+                    "short_id": "B49"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C813",
+                    "short_id": "C813"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B49 in the goods C813"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B123",
+                    "short_id": "B123"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C139",
+                    "short_id": "C139"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B123 in the goods C139"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B195",
+                    "short_id": "B195"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C968",
+                    "short_id": "C968"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B195 in the goods C968"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B363",
+                    "short_id": "B363"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B363 in the goods C905"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B671",
+                    "short_id": "B671"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C821",
+                    "short_id": "C821"
+                },
+                {
+                    "id": "BSCC-1951-56-37-C822",
+                    "short_id": "C822"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B671 in the goods C821 and C822"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-37-B782",
+                    "short_id": "B782"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-37-C817",
+                    "short_id": "C817"
+                },
+                {
+                    "id": "BSCC-1951-56-37-C819",
+                    "short_id": "C819"
+                }
+            ],
+            "description": "The british company A985 trades with the swiss company B782 in the goods C817 and C819"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Imperial Chemical Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SW 1."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

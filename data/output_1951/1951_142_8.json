@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-8-B763",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 763. Unisteel AG., 4, Zeitglockenlaube, Berne. A291,303, 1993, C94,101,108,112,114,122,126,128,130, 136, 142, 1261,1262.",
+        "corrected": "763. Unisteel AG., 4, Zeitglockenlaube, Berne.A291,303, 1993, C94,101,108,112,114,122,126,128,130, 136, 142, 1261,1262"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,819,1294,77/max/0/default.jpg",
+            "xywh": "185, 819, 1294, 77"
+        }
+    },
+    "short_id": "B763",
+    "label": "Unisteel AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-8-A291",
+                    "short_id": "A291"
+                },
+                {
+                    "id": "BSCC-1951-142-8-A303",
+                    "short_id": "A303"
+                },
+                {
+                    "id": "BSCC-1951-142-8-A1993",
+                    "short_id": "A1993"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-8-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C101",
+                    "short_id": "C101"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C108",
+                    "short_id": "C108"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C112",
+                    "short_id": "C112"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C114",
+                    "short_id": "C114"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C122",
+                    "short_id": "C122"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C126",
+                    "short_id": "C126"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C128",
+                    "short_id": "C128"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C130",
+                    "short_id": "C130"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C142",
+                    "short_id": "C142"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C1261",
+                    "short_id": "C1261"
+                },
+                {
+                    "id": "BSCC-1951-142-8-C1262",
+                    "short_id": "C1262"
+                }
+            ],
+            "description": "The swiss company B763 trades with the british company A291 and A303 and A1993 in the goods C94 and C101 and C108 and C112 and C114 and C122 and C126 and C128 and C130 and C136 and C142 and C1261 and C1262"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Unisteel AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": " 4, Zeitglockenlaube, Berne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

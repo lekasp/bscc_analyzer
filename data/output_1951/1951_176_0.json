@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-0-C903",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "903. Small leather goods. A 1310, 1493, B 552.",
+        "corrected": "903. Small leather goods. A 1310, 1493, B 552"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,217,1293,71/max/0/default.jpg",
+            "xywh": "228, 217, 1293, 71"
+        }
+    },
+    "short_id": "C903",
+    "label": "Small leather goods",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-0-A1310",
+                    "short_id": "A1310"
+                },
+                {
+                    "id": "BSCC-1951-176-0-A1493",
+                    "short_id": "A1493"
+                },
+                {
+                    "id": "BSCC-1951-176-0-B552",
+                    "short_id": "B552"
+                }
+            ],
+            "description": "with the british company A1310 and A1493"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10E",
+            "level": 1,
+            "label": "Travel and other Leather Goods",
+            "part_of": "10",
+            "page": "175",
+            "line_number": "37"
+        }
+    ]
+}

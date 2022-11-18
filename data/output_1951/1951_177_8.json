@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-177-1951-8-C942",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "942. Poultry remedies. A 172, B 7.",
+        "corrected": "942. Poultry remedies. A 172, B 7"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 177,
+            "canvas": "http://localhost:8182/iiif/3/0177.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0177.jpg/294,634,1298,40/max/0/default.jpg",
+            "xywh": "294, 634, 1298, 40"
+        }
+    },
+    "short_id": "C942",
+    "label": "Poultry remedies",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-177-8-A172",
+                    "short_id": "A172"
+                },
+                {
+                    "id": "BSCC-1951-177-8-B7",
+                    "short_id": "B7"
+                }
+            ],
+            "description": "with the british company A172"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "11",
+            "level": 0,
+            "label": "Chemicals, Pharmaceuticals, Cosmetics and Perfumery",
+            "part_of": "0",
+            "page": "176",
+            "line_number": "2"
+        },
+        {
+            "id": "11B",
+            "level": 1,
+            "label": "Pharmaceuticals",
+            "part_of": "11",
+            "page": "176",
+            "line_number": "33"
+        }
+    ]
+}

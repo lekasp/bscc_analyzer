@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-35-A870",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "870. Harnden (C. A.) Ltd., Hyde, Manchester. B 24, C 281.",
+        "corrected": "870. Harnden (C. A.) Ltd., Hyde, Manchester. B 24, C 281"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,786,1254,38/max/0/default.jpg",
+            "xywh": "182, 786, 1254, 38"
+        }
+    },
+    "short_id": "A870",
+    "label": "Harnden (C. A.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-35-B24",
+                    "short_id": "B24"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-35-C281",
+                    "short_id": "C281"
+                }
+            ],
+            "description": "The british company A870 trades with the swiss company B24 in the goods C281"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Harnden (C. A.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646327",
+            "lat": "53.45131",
+            "lng": "-2.07943",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hyde",
+            "transcription": " Hyde, Manchester. "
+        },
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Hyde, Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

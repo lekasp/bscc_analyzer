@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-1-A133",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "133. Ballito Hosiery Mills Ltd., St. Albans, Herts. B 301, C 1192.",
+        "corrected": "133. Ballito Hosiery Mills Ltd., St. Albans, Herts. B 301, C 1192"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,272,1238,41/max/0/default.jpg",
+            "xywh": "213, 272, 1238, 41"
+        }
+    },
+    "short_id": "A133",
+    "label": "Ballito Hosiery Mills Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-1-B301",
+                    "short_id": "B301"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-1-C1192",
+                    "short_id": "C1192"
+                }
+            ],
+            "description": "The british company A133 trades with the swiss company B301 in the goods C1192"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ballito Hosiery Mills Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638867",
+            "lat": "51.75",
+            "lng": "-0.33333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "St Albans",
+            "transcription": " St. Albans, Herts. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

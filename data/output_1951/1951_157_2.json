@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-2-C184",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿184. Chasers. A 1645, 2070, B 433, 483.",
+        "corrected": "184. Chasers. A 1645, 2070, B 433, 483"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,316,1281,39/max/0/default.jpg",
+            "xywh": "303, 316, 1281, 39"
+        }
+    },
+    "short_id": "C184",
+    "label": "Chasers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-2-A1645",
+                    "short_id": "A1645"
+                },
+                {
+                    "id": "BSCC-1951-157-2-A2070",
+                    "short_id": "A2070"
+                },
+                {
+                    "id": "BSCC-1951-157-2-B433",
+                    "short_id": "B433"
+                },
+                {
+                    "id": "BSCC-1951-157-2-B483",
+                    "short_id": "B483"
+                }
+            ],
+            "description": "with the british company A1645 and A2070 and B483"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

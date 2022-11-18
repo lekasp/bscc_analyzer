@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-39-A1920",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1920. Team Valley Weaving Industries Ltd., Gateshead-on-Tyne. B 538, C 1119, 1145.",
+        "corrected": "1920. Team Valley Weaving Industries Ltd., Gateshead-on-Tyne.B 538, C 1119, 1145"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,2124,1285,74/max/0/default.jpg",
+            "xywh": "340, 2124, 1285, 74"
+        }
+    },
+    "short_id": "A1920",
+    "label": "Team Valley Weaving Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-39-B538",
+                    "short_id": "B538"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-39-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-95-39-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The british company A1920 trades with the swiss company B538 in the goods C1119 and C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Team Valley Weaving Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648773",
+            "lat": "54.96209",
+            "lng": "-1.60168",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Gateshead",
+            "transcription": " Gateshead-on-Tyne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

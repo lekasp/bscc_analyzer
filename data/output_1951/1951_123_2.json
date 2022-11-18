@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-2-B199",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "199. Egofil AG., Glarus. A 896, C 1153.",
+        "corrected": "199. Egofil AG., Glarus. A 896, C 1153"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,501,1247,39/max/0/default.jpg",
+            "xywh": "304, 501, 1247, 39"
+        }
+    },
+    "short_id": "B199",
+    "label": "Egofil AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-2-A896",
+                    "short_id": "A896"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-2-C1153",
+                    "short_id": "C1153"
+                }
+            ],
+            "description": "The swiss company B199 trades with the british company A896 in the goods C1153"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Egofil AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660594",
+            "lat": "47.04057",
+            "lng": "9.06804",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glarus",
+            "transcription": " Glarus. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

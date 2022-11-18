@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-35-C497",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "497. Condensers. A 543, 598, 971, B 47, 517, 822.",
+        "corrected": "497. Condensers. A 543, 598, 971, B 47, 517, 822"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,1923,1332,40/max/0/default.jpg",
+            "xywh": "142, 1923, 1332, 40"
+        }
+    },
+    "short_id": "C497",
+    "label": "Condensers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-35-A543",
+                    "short_id": "A543"
+                },
+                {
+                    "id": "BSCC-1951-164-35-A598",
+                    "short_id": "A598"
+                },
+                {
+                    "id": "BSCC-1951-164-35-A971",
+                    "short_id": "A971"
+                },
+                {
+                    "id": "BSCC-1951-164-35-B47",
+                    "short_id": "B47"
+                },
+                {
+                    "id": "BSCC-1951-164-35-B517",
+                    "short_id": "B517"
+                },
+                {
+                    "id": "BSCC-1951-164-35-B822",
+                    "short_id": "B822"
+                }
+            ],
+            "description": "with the british company A543 and A598 and A971 and B517 and B822"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5A",
+            "level": 1,
+            "label": "Electric Equipment and Supplies, general",
+            "part_of": "5",
+            "page": "164",
+            "line_number": "14"
+        }
+    ]
+}

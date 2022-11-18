@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-0-C868",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "868. Sole leather. A 146, 294, 594, 2052, 2156, B 475, 488.",
+        "corrected": "868. Sole leather. A 146, 294, 594, 2052, 2156, B 475, 488"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,215,1247,66/max/0/default.jpg",
+            "xywh": "296, 215, 1247, 66"
+        }
+    },
+    "short_id": "C868",
+    "label": "Sole leather",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-0-A146",
+                    "short_id": "A146"
+                },
+                {
+                    "id": "BSCC-1951-175-0-A294",
+                    "short_id": "A294"
+                },
+                {
+                    "id": "BSCC-1951-175-0-A594",
+                    "short_id": "A594"
+                },
+                {
+                    "id": "BSCC-1951-175-0-A2052",
+                    "short_id": "A2052"
+                },
+                {
+                    "id": "BSCC-1951-175-0-A2156",
+                    "short_id": "A2156"
+                },
+                {
+                    "id": "BSCC-1951-175-0-B475",
+                    "short_id": "B475"
+                },
+                {
+                    "id": "BSCC-1951-175-0-B488",
+                    "short_id": "B488"
+                }
+            ],
+            "description": "with the british company A146 and A294 and A594 and A2052 and A2156 and B488"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10A",
+            "level": 1,
+            "label": "Hides, Skins and Leather",
+            "part_of": "10",
+            "page": "174",
+            "line_number": "3"
+        },
+        {
+            "id": "10Ab",
+            "level": 2,
+            "label": "LEATHERS",
+            "part_of": "10A",
+            "page": "174",
+            "line_number": "14"
+        },
+        {
+            "id": "10Ab2",
+            "level": 3,
+            "label": "2. USES",
+            "part_of": "10Ab",
+            "page": "174",
+            "line_number": "32"
+        }
+    ]
+}

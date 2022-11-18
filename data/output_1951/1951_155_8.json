@@ -1,0 +1,122 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-8-C114",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿114. Strip, steel (general). A 175, 600, 813, 1261, 1354, 1610, 1993, B 268, 473, 475, 763.",
+        "corrected": "114. Strip, steel (general).A 175, 600, 813, 1261, 1354, 1610, 1993, B 268, 473, 475, 763"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,557,1337,81/max/0/default.jpg",
+            "xywh": "264, 557, 1337, 81"
+        }
+    },
+    "short_id": "C114",
+    "label": "Strip, steel (general)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-8-A175",
+                    "short_id": "A175"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A600",
+                    "short_id": "A600"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A813",
+                    "short_id": "A813"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A1261",
+                    "short_id": "A1261"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A1354",
+                    "short_id": "A1354"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A1610",
+                    "short_id": "A1610"
+                },
+                {
+                    "id": "BSCC-1951-155-8-A1993",
+                    "short_id": "A1993"
+                },
+                {
+                    "id": "BSCC-1951-155-8-B268",
+                    "short_id": "B268"
+                },
+                {
+                    "id": "BSCC-1951-155-8-B473",
+                    "short_id": "B473"
+                },
+                {
+                    "id": "BSCC-1951-155-8-B475",
+                    "short_id": "B475"
+                },
+                {
+                    "id": "BSCC-1951-155-8-B763",
+                    "short_id": "B763"
+                }
+            ],
+            "description": "with the british company A175 and A600 and A813 and A1261 and A1354 and A1610 and A1993 and B473 and B475 and B763"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3A",
+            "level": 1,
+            "label": "Iron and Steel",
+            "part_of": "3",
+            "page": "154",
+            "line_number": "27"
+        },
+        {
+            "id": "3Aa",
+            "level": 2,
+            "label": "METALS AND SEMI-FABRICATED PRODUCTS",
+            "part_of": "3A",
+            "page": "154",
+            "line_number": "28"
+        }
+    ]
+}

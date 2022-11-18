@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-14-A1403",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1403. New Jarrow Steel Co. Ltd., Consett, Co. Durham. B 473, C 117.",
+        "corrected": "1403. New Jarrow Steel Co. Ltd., Consett, Co. Durham. B 473, C 117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,898,1323,41/max/0/default.jpg",
+            "xywh": "174, 898, 1323, 41"
+        }
+    },
+    "short_id": "A1403",
+    "label": "New Jarrow Steel Co. Ltd., Consett, Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-14-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-14-C117",
+                    "short_id": "C117"
+                }
+            ],
+            "description": "The british company A1403 trades with the swiss company B473 in the goods C117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "New Jarrow Steel Co. Ltd., Consett, Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650628",
+            "lat": "54.77676",
+            "lng": "-1.57566",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Durham",
+            "transcription": " Durham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

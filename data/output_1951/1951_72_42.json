@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-42-A1343",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1343. Montfort (Knitting) Mills Ltd., Leicester. B 289, C 1176, 1178, 1179, 1187, 1193.",
+        "corrected": "1343. Montfort (Knitting) Mills Ltd., Leicester.B 289, C 1176, 1178, 1179, 1187, 1193"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,1992,1267,76/max/0/default.jpg",
+            "xywh": "205, 1992, 1267, 76"
+        }
+    },
+    "short_id": "A1343",
+    "label": "Montfort (Knitting) Mills Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-42-B289",
+                    "short_id": "B289"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-42-C1176",
+                    "short_id": "C1176"
+                },
+                {
+                    "id": "BSCC-1951-72-42-C1178",
+                    "short_id": "C1178"
+                },
+                {
+                    "id": "BSCC-1951-72-42-C1179",
+                    "short_id": "C1179"
+                },
+                {
+                    "id": "BSCC-1951-72-42-C1187",
+                    "short_id": "C1187"
+                },
+                {
+                    "id": "BSCC-1951-72-42-C1193",
+                    "short_id": "C1193"
+                }
+            ],
+            "description": "The british company A1343 trades with the swiss company B289 in the goods C1176 and C1178 and C1179 and C1187 and C1193"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Montfort (Knitting) Mills Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

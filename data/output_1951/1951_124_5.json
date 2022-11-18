@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-5-B232",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 232. Firth-Stahl Verkaufs AG., 19, Schützengasse, Zurich, A 698, 699, 701, 2193, C 94, 95, 99, 101, 112, 113, 146, 378, 385, 389.",
+        "corrected": "232. Firth-Stahl Verkaufs AG., 19, Schützengasse, Zurich,A 698, 699, 701, 2193, C 94, 95, 99, 101, 112, 113, 146, 378, 385, 389"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,643,1320,86/max/0/default.jpg",
+            "xywh": "166, 643, 1320, 86"
+        }
+    },
+    "short_id": "B232",
+    "label": "Firth-Stahl Verkaufs AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-5-A698",
+                    "short_id": "A698"
+                },
+                {
+                    "id": "BSCC-1951-124-5-A699",
+                    "short_id": "A699"
+                },
+                {
+                    "id": "BSCC-1951-124-5-A701",
+                    "short_id": "A701"
+                },
+                {
+                    "id": "BSCC-1951-124-5-A2193",
+                    "short_id": "A2193"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-5-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C95",
+                    "short_id": "C95"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C99",
+                    "short_id": "C99"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C101",
+                    "short_id": "C101"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C112",
+                    "short_id": "C112"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C113",
+                    "short_id": "C113"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C146",
+                    "short_id": "C146"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C378",
+                    "short_id": "C378"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-124-5-C389",
+                    "short_id": "C389"
+                }
+            ],
+            "description": "The swiss company B232 trades with the british company A698 and A699 and A701 and A2193 in the goods C94 and C95 and C99 and C101 and C112 and C113 and C146 and C378 and C385 and C389"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Firth-Stahl Verkaufs AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 19, Schützengasse, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

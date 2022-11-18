@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-15-C915",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "915. Emulsifying agents. A 823, 2076, B 706.",
+        "corrected": "915. Emulsifying agents. A 823, 2076, B 706"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1196,1293,39/max/0/default.jpg",
+            "xywh": "228, 1196, 1293, 39"
+        }
+    },
+    "short_id": "C915",
+    "label": "Emulsifying agents",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-15-A823",
+                    "short_id": "A823"
+                },
+                {
+                    "id": "BSCC-1951-176-15-A2076",
+                    "short_id": "A2076"
+                },
+                {
+                    "id": "BSCC-1951-176-15-B706",
+                    "short_id": "B706"
+                }
+            ],
+            "description": "with the british company A823 and A2076"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "11",
+            "level": 0,
+            "label": "Chemicals, Pharmaceuticals, Cosmetics and Perfumery",
+            "part_of": "0",
+            "page": "176",
+            "line_number": "2"
+        },
+        {
+            "id": "11A",
+            "level": 1,
+            "label": "Chemicals",
+            "part_of": "11",
+            "page": "176",
+            "line_number": "3"
+        }
+    ]
+}

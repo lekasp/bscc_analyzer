@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-3-A676",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿676. Favourite Ties Ltd., Manchester. B 802, C 1151, 1210.",
+        "corrected": "676. Favourite Ties Ltd., Manchester. B 802, C 1151, 1210"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,376,1269,39/max/0/default.jpg",
+            "xywh": "189, 376, 1269, 39"
+        }
+    },
+    "short_id": "A676",
+    "label": "Favourite Ties Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-3-B802",
+                    "short_id": "B802"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-3-C1151",
+                    "short_id": "C1151"
+                },
+                {
+                    "id": "BSCC-1951-44-3-C1210",
+                    "short_id": "C1210"
+                }
+            ],
+            "description": "The british company A676 trades with the swiss company B802 in the goods C1151 and C1210"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Favourite Ties Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

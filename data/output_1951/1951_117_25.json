@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-25-B26",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 26. Angst & Pfister AG., 144, Stampfenbachstrasse, Zurich. A 70, 681, 968, 1969, 2037, C 426, 468, 472, 473, 990.",
+        "corrected": "26. Angst & Pfister AG., 144, Stampfenbachstrasse, Zurich.A 70, 681, 968, 1969, 2037, C 426, 468, 472, 473, 990"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1512,1350,78/max/0/default.jpg",
+            "xywh": "278, 1512, 1350, 78"
+        }
+    },
+    "short_id": "B26",
+    "label": "Angst & Pfister AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-25-A70",
+                    "short_id": "A70"
+                },
+                {
+                    "id": "BSCC-1951-117-25-A681",
+                    "short_id": "A681"
+                },
+                {
+                    "id": "BSCC-1951-117-25-A968",
+                    "short_id": "A968"
+                },
+                {
+                    "id": "BSCC-1951-117-25-A1969",
+                    "short_id": "A1969"
+                },
+                {
+                    "id": "BSCC-1951-117-25-A2037",
+                    "short_id": "A2037"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-25-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-117-25-C468",
+                    "short_id": "C468"
+                },
+                {
+                    "id": "BSCC-1951-117-25-C472",
+                    "short_id": "C472"
+                },
+                {
+                    "id": "BSCC-1951-117-25-C473",
+                    "short_id": "C473"
+                },
+                {
+                    "id": "BSCC-1951-117-25-C990",
+                    "short_id": "C990"
+                }
+            ],
+            "description": "The swiss company B26 trades with the british company A70 and A681 and A968 and A1969 and A2037 in the goods C426 and C468 and C472 and C473 and C990"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Angst & Pfister AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 144, Stampfenbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-48-A228",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿228. B. & M. Tanneries Ltd., Brighton. B 775, C 853.",
+        "corrected": "228. B. & M. Tanneries Ltd., Brighton. B 775, C 853"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,2177,1260,63/max/0/default.jpg",
+            "xywh": "205, 2177, 1260, 63"
+        }
+    },
+    "short_id": "A228",
+    "label": "B. & M. Tanneries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-48-B775",
+                    "short_id": "B775"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-48-C853",
+                    "short_id": "C853"
+                }
+            ],
+            "description": "The british company A228 trades with the swiss company B775 in the goods C853"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "B. & M. Tanneries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654710",
+            "lat": "50.82838",
+            "lng": "-0.13947",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Brighton",
+            "transcription": " Brighton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

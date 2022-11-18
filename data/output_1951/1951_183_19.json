@@ -1,0 +1,142 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-19-C1138",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1138. Rayon, fabrics. A 542, 954, 1086, 1097, 1126, 1246, 1496, 1939, B 221, 324, 399, 442, 452, 799, 804, 816.",
+        "corrected": "1138. Rayon, fabrics.A 542, 954, 1086, 1097, 1126, 1246, 1496, 1939, B 221, 324, 399, 442, 452, 799, 804, 816"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1264,1290,119/max/0/default.jpg",
+            "xywh": "316, 1264, 1290, 119"
+        }
+    },
+    "short_id": "C1138",
+    "label": "Rayon, fabrics",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-19-A542",
+                    "short_id": "A542"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A954",
+                    "short_id": "A954"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1086",
+                    "short_id": "A1086"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1097",
+                    "short_id": "A1097"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1126",
+                    "short_id": "A1126"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1246",
+                    "short_id": "A1246"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1496",
+                    "short_id": "A1496"
+                },
+                {
+                    "id": "BSCC-1951-183-19-A1939",
+                    "short_id": "A1939"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B221",
+                    "short_id": "B221"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B324",
+                    "short_id": "B324"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B399",
+                    "short_id": "B399"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B442",
+                    "short_id": "B442"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B452",
+                    "short_id": "B452"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B799",
+                    "short_id": "B799"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B804",
+                    "short_id": "B804"
+                },
+                {
+                    "id": "BSCC-1951-183-19-B816",
+                    "short_id": "B816"
+                }
+            ],
+            "description": "with the british company A542 and A954 and A1086 and A1097 and A1126 and A1246 and A1496 and A1939 and B324 and B399 and B442 and B452 and B799 and B804 and B816"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Cd",
+            "level": 2,
+            "label": "SILK, RAYON AND NYLON",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "15"
+        }
+    ]
+}

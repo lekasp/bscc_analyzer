@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-40-1951-11-A594",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "594. Dri-Ped Ltd., Bolton. B 475, C 856, 868.",
+        "corrected": "594. Dri-Ped Ltd., Bolton. B 475, C 856, 868"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 40,
+            "canvas": "http://localhost:8182/iiif/3/0040.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0040.jpg/154,672,1304,41/max/0/default.jpg",
+            "xywh": "154, 672, 1304, 41"
+        }
+    },
+    "short_id": "A594",
+    "label": "Dri-Ped Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-40-11-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-40-11-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-40-11-C868",
+                    "short_id": "C868"
+                }
+            ],
+            "description": "The british company A594 trades with the swiss company B475 in the goods C856 and C868"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dri-Ped Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655237",
+            "lat": "53.58333",
+            "lng": "-2.43333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bolton",
+            "transcription": " Bolton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

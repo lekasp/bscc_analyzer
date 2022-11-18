@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-7-A366",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "366. Butterworth British Automatic Machine Tool Co. Ltd., Rochdale. B 726, C 179.",
+        "corrected": "366. Butterworth British Automatic Machine Tool Co. Ltd., Rochdale.B 726, C 179"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,532,1260,76/max/0/default.jpg",
+            "xywh": "197, 532, 1260, 76"
+        }
+    },
+    "short_id": "A366",
+    "label": "Butterworth British Automatic Machine Tool Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-7-B726",
+                    "short_id": "B726"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-7-C179",
+                    "short_id": "C179"
+                }
+            ],
+            "description": "The british company A366 trades with the swiss company B726 in the goods C179"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Butterworth British Automatic Machine Tool Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639272",
+            "lat": "53.61766",
+            "lng": "-2.1552",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rochdale",
+            "transcription": " Rochdale."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

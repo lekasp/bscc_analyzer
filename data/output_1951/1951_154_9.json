@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-9-C77",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "77. Vegetable oils and fats, technical. A 243, 441, B 315, 776.",
+        "corrected": "77. Vegetable oils and fats, technical. A 243, 441, B 315, 776"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,627,1243,41/max/0/default.jpg",
+            "xywh": "202, 627, 1243, 41"
+        }
+    },
+    "short_id": "C77",
+    "label": "Vegetable oils and fats, technical",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-9-A243",
+                    "short_id": "A243"
+                },
+                {
+                    "id": "BSCC-1951-154-9-A441",
+                    "short_id": "A441"
+                },
+                {
+                    "id": "BSCC-1951-154-9-B315",
+                    "short_id": "B315"
+                },
+                {
+                    "id": "BSCC-1951-154-9-B776",
+                    "short_id": "B776"
+                }
+            ],
+            "description": "with the british company A243 and A441 and B776"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "2",
+            "level": 0,
+            "label": "Fuel, Oils and Fats, Raw Materials",
+            "part_of": "0",
+            "page": "153",
+            "line_number": "24"
+        },
+        {
+            "id": "2C",
+            "level": 1,
+            "label": "Other Oils, Fats and Lubricants",
+            "part_of": "2",
+            "page": "154",
+            "line_number": "2"
+        }
+    ]
+}

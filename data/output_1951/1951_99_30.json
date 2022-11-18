@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-30-A2081",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2081. Watson (R. & W.) Ltd., Linwood, Scotland. B 609, C 1011, 1012, 1018, 1025, 1027, 1031.",
+        "corrected": "2081. Watson (R. & W.) Ltd., Linwood, Scotland.B 609, C 1011, 1012, 1018, 1025, 1027, 1031"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,1543,1278,78/max/0/default.jpg",
+            "xywh": "348, 1543, 1278, 78"
+        }
+    },
+    "short_id": "A2081",
+    "label": "Watson (R. & W.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-30-B609",
+                    "short_id": "B609"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-30-C1011",
+                    "short_id": "C1011"
+                },
+                {
+                    "id": "BSCC-1951-99-30-C1012",
+                    "short_id": "C1012"
+                },
+                {
+                    "id": "BSCC-1951-99-30-C1018",
+                    "short_id": "C1018"
+                },
+                {
+                    "id": "BSCC-1951-99-30-C1025",
+                    "short_id": "C1025"
+                },
+                {
+                    "id": "BSCC-1951-99-30-C1027",
+                    "short_id": "C1027"
+                },
+                {
+                    "id": "BSCC-1951-99-30-C1031",
+                    "short_id": "C1031"
+                }
+            ],
+            "description": "The british company A2081 trades with the swiss company B609 in the goods C1011 and C1012 and C1018 and C1025 and C1027 and C1031"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Watson (R. & W.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "11551012",
+            "lat": "55.84834",
+            "lng": "-4.49337",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Linwood",
+            "transcription": " Linwood, Scotland."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

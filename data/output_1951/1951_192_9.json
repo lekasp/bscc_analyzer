@@ -1,0 +1,126 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-9-C1446",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1446. Cigarettes. A2,78,82, 271, 394, 424,472, 1360,1495,1525, 1803, 1992, B 118, 196,515,808.",
+        "corrected": "1446. Cigarettes.A2,78,82, 271, 394, 424,472, 1360,1495,1525, 1803, 1992, B 118, 196,515,808"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,680,1257,94/max/0/default.jpg",
+            "xywh": "222, 680, 1257, 94"
+        }
+    },
+    "short_id": "C1446",
+    "label": "Cigarettes",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-9-A2",
+                    "short_id": "A2"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A78",
+                    "short_id": "A78"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A82",
+                    "short_id": "A82"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A271",
+                    "short_id": "A271"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A394",
+                    "short_id": "A394"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A424",
+                    "short_id": "A424"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A472",
+                    "short_id": "A472"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A1360",
+                    "short_id": "A1360"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A1495",
+                    "short_id": "A1495"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A1525",
+                    "short_id": "A1525"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A1803",
+                    "short_id": "A1803"
+                },
+                {
+                    "id": "BSCC-1951-192-9-A1992",
+                    "short_id": "A1992"
+                },
+                {
+                    "id": "BSCC-1951-192-9-B118",
+                    "short_id": "B118"
+                },
+                {
+                    "id": "BSCC-1951-192-9-B196",
+                    "short_id": "B196"
+                },
+                {
+                    "id": "BSCC-1951-192-9-B515",
+                    "short_id": "B515"
+                },
+                {
+                    "id": "BSCC-1951-192-9-B808",
+                    "short_id": "B808"
+                }
+            ],
+            "description": "with the british company A2 and A78 and A82 and A271 and A394 and A424 and A472 and A1360 and A1495 and A1525 and A1803 and A1992 and B196 and B515 and B808"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "22",
+            "level": 0,
+            "label": "Tobacco and Smokers' Requisites",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "8"
+        }
+    ]
+}

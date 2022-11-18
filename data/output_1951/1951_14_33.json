@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-33-A33",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "33. Alder Textiles (Nelson), Nelson, Lancs. B 235, C 1150.",
+        "corrected": "33. Alder Textiles (Nelson), Nelson, Lancs. B 235, C 1150"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1638,1220,41/max/0/default.jpg",
+            "xywh": "212, 1638, 1220, 41"
+        }
+    },
+    "short_id": "A33",
+    "label": "Alder Textiles (Nelson)Textiles Nelson",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-33-B235",
+                    "short_id": "B235"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-33-C1150",
+                    "short_id": "C1150"
+                }
+            ],
+            "description": "The british company A33 trades with the swiss company B235 in the goods C1150"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Alder Textiles (Nelson)Textiles Nelson"
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Alder Textiles (Nelson), Nelson, Lancs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

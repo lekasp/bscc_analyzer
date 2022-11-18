@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-45-A2187",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2187. Wynn (E. W.), (Ironfounders) Ltd., Cannock, Staffs. B 542, C 733.",
+        "corrected": "2187. Wynn (E. W.), (Ironfounders) Ltd., Cannock, Staffs. B 542, C 733"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,2142,1264,39/max/0/default.jpg",
+            "xywh": "343, 2142, 1264, 39"
+        }
+    },
+    "short_id": "A2187",
+    "label": "Wynn (E. W.), (Ironfounders) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-45-B542",
+                    "short_id": "B542"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-45-C733",
+                    "short_id": "C733"
+                }
+            ],
+            "description": "The british company A2187 trades with the swiss company B542 in the goods C733"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wynn (E. W.), (Ironfounders) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653883",
+            "lat": "52.69045",
+            "lng": "-2.03085",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cannock",
+            "transcription": " Cannock, Staffs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

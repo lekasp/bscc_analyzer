@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-27-B724",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "724. Struba Gummi AG., 18, Brandschenkestrasse, Zurich. A 1926, 2014, C 775, 1302.",
+        "corrected": "724. Struba Gummi AG., 18, Brandschenkestrasse, Zurich.A 1926, 2014, C 775, 1302"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1975,1265,79/max/0/default.jpg",
+            "xywh": "219, 1975, 1265, 79"
+        }
+    },
+    "short_id": "B724",
+    "label": "Struba Gummi AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-27-A1926",
+                    "short_id": "A1926"
+                },
+                {
+                    "id": "BSCC-1951-140-27-A2014",
+                    "short_id": "A2014"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-27-C775",
+                    "short_id": "C775"
+                },
+                {
+                    "id": "BSCC-1951-140-27-C1302",
+                    "short_id": "C1302"
+                }
+            ],
+            "description": "The swiss company B724 trades with the british company A1926 and A2014 in the goods C775 and C1302"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Struba Gummi AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 18, Brandschenkestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

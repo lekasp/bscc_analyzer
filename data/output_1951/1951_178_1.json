@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-1-C971",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "971. Pigments. A 227, 1607, 1616, B 376, 648, 748.",
+        "corrected": "971. Pigments. A 227, 1607, 1616, B 376, 648, 748"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,278,1240,39/max/0/default.jpg",
+            "xywh": "229, 278, 1240, 39"
+        }
+    },
+    "short_id": "C971",
+    "label": "Pigments",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-1-A227",
+                    "short_id": "A227"
+                },
+                {
+                    "id": "BSCC-1951-178-1-A1607",
+                    "short_id": "A1607"
+                },
+                {
+                    "id": "BSCC-1951-178-1-A1616",
+                    "short_id": "A1616"
+                },
+                {
+                    "id": "BSCC-1951-178-1-B376",
+                    "short_id": "B376"
+                },
+                {
+                    "id": "BSCC-1951-178-1-B648",
+                    "short_id": "B648"
+                },
+                {
+                    "id": "BSCC-1951-178-1-B748",
+                    "short_id": "B748"
+                }
+            ],
+            "description": "with the british company A227 and A1607 and A1616 and B648 and B748"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "12",
+            "level": 0,
+            "label": "Paints, Varnishes, Cleaning and other Compounds",
+            "part_of": "0",
+            "page": "177",
+            "line_number": "24"
+        },
+        {
+            "id": "12A",
+            "level": 1,
+            "label": "Paints, Colours, etc., and Supplies for the Paint Industry",
+            "part_of": "12",
+            "page": "177",
+            "line_number": "25"
+        }
+    ]
+}

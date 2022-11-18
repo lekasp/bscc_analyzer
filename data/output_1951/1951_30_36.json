@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-36-A394a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "394a. Carter (H. W.) & Co. Ltd., Coleford, Glos. B 649, C 56.",
+        "corrected": "394a. Carter (H. W.) & Co. Ltd., Coleford, Glos. B 649, C 56"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,1985,1260,40/max/0/default.jpg",
+            "xywh": "197, 1985, 1260, 40"
+        }
+    },
+    "short_id": "A394a",
+    "label": "Carter (H. W.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-36-B649",
+                    "short_id": "B649"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-36-C56",
+                    "short_id": "C56"
+                }
+            ],
+            "description": "The british company A394a trades with the swiss company B649 in the goods C56"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Carter (H. W.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652591",
+            "lat": "51.79535",
+            "lng": "-2.61354",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coleford",
+            "transcription": " Coleford, Glos. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

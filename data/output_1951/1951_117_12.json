@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-12-B13",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "13. Aisslinger (Hans Rudolf), 9, Voltastrasse, Zurich. A 1258, 1647, 2184, C 30,32.",
+        "corrected": "13. Aisslinger (Hans Rudolf), 9, Voltastrasse, Zurich. A 1258, 1647, 2184, C 30,32"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,879,1350,40/max/0/default.jpg",
+            "xywh": "278, 879, 1350, 40"
+        }
+    },
+    "short_id": "B13",
+    "label": "Aisslinger (Hans Rudolf)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-12-A1258",
+                    "short_id": "A1258"
+                },
+                {
+                    "id": "BSCC-1951-117-12-A1647",
+                    "short_id": "A1647"
+                },
+                {
+                    "id": "BSCC-1951-117-12-A2184",
+                    "short_id": "A2184"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-12-C30",
+                    "short_id": "C30"
+                },
+                {
+                    "id": "BSCC-1951-117-12-C32",
+                    "short_id": "C32"
+                }
+            ],
+            "description": "The swiss company B13 trades with the british company A1258 and A1647 and A2184 in the goods C30 and C32"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aisslinger (Hans Rudolf)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "9, Voltastrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

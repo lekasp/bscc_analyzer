@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-42-A42",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿42. Allcard (H. G.) & Co. Ltd., Wythenshawe, Manchester. B 419, C 78.",
+        "corrected": "42. Allcard (H. G.) & Co. Ltd., Wythenshawe, Manchester. B 419, C 78"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1991,1220,39/max/0/default.jpg",
+            "xywh": "212, 1991, 1220, 39"
+        }
+    },
+    "short_id": "A42",
+    "label": "Allcard (H. G.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-42-B419",
+                    "short_id": "B419"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-42-C78",
+                    "short_id": "C78"
+                }
+            ],
+            "description": "The british company A42 trades with the swiss company B419 in the goods C78"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Allcard (H. G.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633432",
+            "lat": "53.38027",
+            "lng": "-2.2654",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wythenshawe",
+            "transcription": " Wythenshawe, Manchester. "
+        },
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Wythenshawe, Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

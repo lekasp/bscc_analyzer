@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-20-B624",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "624. Rubi (Hans), 29, Centralstrasse, Interlaken. A 509, 1874, C 1410.",
+        "corrected": "624. Rubi (Hans), 29, Centralstrasse, Interlaken. A 509, 1874, C 1410"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1504,1255,39/max/0/default.jpg",
+            "xywh": "303, 1504, 1255, 39"
+        }
+    },
+    "short_id": "B624",
+    "label": "Rubi (Hans)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-20-A509",
+                    "short_id": "A509"
+                },
+                {
+                    "id": "BSCC-1951-137-20-A1874",
+                    "short_id": "A1874"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-20-C1410",
+                    "short_id": "C1410"
+                }
+            ],
+            "description": "The swiss company B624 trades with the british company A509 and A1874 in the goods C1410"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rubi (Hans)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "29, Centralstrasse, Interlaken. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

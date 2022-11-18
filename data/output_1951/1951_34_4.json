@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-4-A453",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "453. Columbia Graphophone Co. Ltd., Hayes, Middx. B 572, C 1438, 1443.",
+        "corrected": "453. Columbia Graphophone Co. Ltd., Hayes, Middx. B 572, C 1438, 1443"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,408,1292,40/max/0/default.jpg",
+            "xywh": "157, 408, 1292, 40"
+        }
+    },
+    "short_id": "A453",
+    "label": "Columbia Graphophone Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-4-B572",
+                    "short_id": "B572"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-4-C1438",
+                    "short_id": "C1438"
+                },
+                {
+                    "id": "BSCC-1951-34-4-C1443",
+                    "short_id": "C1443"
+                }
+            ],
+            "description": "The british company A453 trades with the swiss company B572 in the goods C1438 and C1443"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Columbia Graphophone Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647261",
+            "lat": "51.51579",
+            "lng": "-0.4234",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hayes",
+            "transcription": " Hayes, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

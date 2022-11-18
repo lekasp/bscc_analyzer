@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-156-1951-12-C155",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "155. Magnesium alloy. A 1230, B 542.",
+        "corrected": "155. Magnesium alloy. A 1230, B 542"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 156,
+            "canvas": "http://localhost:8182/iiif/3/0156.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0156.jpg/184,762,1280,42/max/0/default.jpg",
+            "xywh": "184, 762, 1280, 42"
+        }
+    },
+    "short_id": "C155",
+    "label": "Magnesium alloy",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-156-12-A1230",
+                    "short_id": "A1230"
+                },
+                {
+                    "id": "BSCC-1951-156-12-B542",
+                    "short_id": "B542"
+                }
+            ],
+            "description": "with the british company A1230"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3B",
+            "level": 1,
+            "label": "Alloys and Non-Ferrous Metals",
+            "part_of": "3",
+            "page": "155",
+            "line_number": "34"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-7-B641",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 641. Scheller (Emil) & Cie. AG., 21, Hottingerstrasse, Zurich. A 280, 1122, 2099, C 905, 913, 936.",
+        "corrected": "641. Scheller (Emil) & Cie. AG., 21, Hottingerstrasse, Zurich.A 280, 1122, 2099, C 905, 913, 936"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,507,1287,79/max/0/default.jpg",
+            "xywh": "197, 507, 1287, 79"
+        }
+    },
+    "short_id": "B641",
+    "label": "Scheller (Emil) & Cie. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-7-A280",
+                    "short_id": "A280"
+                },
+                {
+                    "id": "BSCC-1951-138-7-A1122",
+                    "short_id": "A1122"
+                },
+                {
+                    "id": "BSCC-1951-138-7-A2099",
+                    "short_id": "A2099"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-7-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-138-7-C913",
+                    "short_id": "C913"
+                },
+                {
+                    "id": "BSCC-1951-138-7-C936",
+                    "short_id": "C936"
+                }
+            ],
+            "description": "The swiss company B641 trades with the british company A280 and A1122 and A2099 in the goods C905 and C913 and C936"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Scheller (Emil) & Cie. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 21, Hottingerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

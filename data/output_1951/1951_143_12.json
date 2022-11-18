@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-12-B795",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "795. Waser & Co., 35a, Löwenstrasse, Zurich. A 465, 2097, C 1016, 1029, 1039.",
+        "corrected": "795. Waser & Co., 35a, Löwenstrasse, Zurich. A 465, 2097, C 1016, 1029, 1039"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1036,1304,41/max/0/default.jpg",
+            "xywh": "297, 1036, 1304, 41"
+        }
+    },
+    "short_id": "B795",
+    "label": "Waser & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-12-A465",
+                    "short_id": "A465"
+                },
+                {
+                    "id": "BSCC-1951-143-12-A2097",
+                    "short_id": "A2097"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-12-C1016",
+                    "short_id": "C1016"
+                },
+                {
+                    "id": "BSCC-1951-143-12-C1029",
+                    "short_id": "C1029"
+                },
+                {
+                    "id": "BSCC-1951-143-12-C1039",
+                    "short_id": "C1039"
+                }
+            ],
+            "description": "The swiss company B795 trades with the british company A465 and A2097 in the goods C1016 and C1029 and C1039"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Waser & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 35a, Löwenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

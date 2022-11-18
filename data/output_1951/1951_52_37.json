@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-37-A868",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 868. Hare (James) Ltd., Leeds. B 184, C 1117, 1120.",
+        "corrected": "868. Hare (James) Ltd., Leeds. B 184, C 1117, 1120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,708,1254,38/max/0/default.jpg",
+            "xywh": "182, 708, 1254, 38"
+        }
+    },
+    "short_id": "A868",
+    "label": "Hare (James) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-37-B184",
+                    "short_id": "B184"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-37-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-52-37-C1120",
+                    "short_id": "C1120"
+                }
+            ],
+            "description": "The british company A868 trades with the swiss company B184 in the goods C1117 and C1120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hare (James) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-62-1951-8-A1080",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1080. Kimball (A.) & Co. Ltd., London W 3. B 24, C 1059, 1061 ..",
+        "corrected": "1080. Kimball (A.) & Co. Ltd., London W 3. B 24, C 1059, 1061"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 62,
+            "canvas": "http://localhost:8182/iiif/3/0062.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0062.jpg/182,564,1250,39/max/0/default.jpg",
+            "xywh": "182, 564, 1250, 39"
+        }
+    },
+    "short_id": "A1080",
+    "label": "Kimball (A.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-62-8-B24",
+                    "short_id": "B24"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-62-8-C1059",
+                    "short_id": "C1059"
+                },
+                {
+                    "id": "BSCC-1951-62-8-C1061",
+                    "short_id": "C1061"
+                }
+            ],
+            "description": "The british company A1080 trades with the swiss company B24 in the goods C1059 and C1061"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kimball (A.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 3. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

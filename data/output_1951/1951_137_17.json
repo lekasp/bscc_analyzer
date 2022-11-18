@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-17-B621",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "621. Roetschi & Co., 11, Splügenstrasse, Zurich. A 1236, 1912, C 185, 388.",
+        "corrected": "621. Roetschi & Co., 11, Splügenstrasse, Zurich. A 1236, 1912, C 185, 388"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1344,1255,40/max/0/default.jpg",
+            "xywh": "303, 1344, 1255, 40"
+        }
+    },
+    "short_id": "B621",
+    "label": "Roetschi & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-17-A1236",
+                    "short_id": "A1236"
+                },
+                {
+                    "id": "BSCC-1951-137-17-A1912",
+                    "short_id": "A1912"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-17-C185",
+                    "short_id": "C185"
+                },
+                {
+                    "id": "BSCC-1951-137-17-C388",
+                    "short_id": "C388"
+                }
+            ],
+            "description": "The swiss company B621 trades with the british company A1236 and A1912 in the goods C185 and C388"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Roetschi & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 11, Splügenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

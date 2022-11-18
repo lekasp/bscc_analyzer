@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-4-B441",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "441. Lévy (Théophile), 25, Walchestrasse, Zurich. A 190, 1462, 1522, 1727, C 1110, 1115, 1119, 1224.",
+        "corrected": "441. Lévy (Théophile), 25, Walchestrasse, Zurich.A 190, 1462, 1522, 1727, C 1110, 1115, 1119, 1224"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,440,1265,79/max/0/default.jpg",
+            "xywh": "316, 440, 1265, 79"
+        }
+    },
+    "short_id": "B441",
+    "label": "Lévy (Théophile)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-4-A190",
+                    "short_id": "A190"
+                },
+                {
+                    "id": "BSCC-1951-131-4-A1462",
+                    "short_id": "A1462"
+                },
+                {
+                    "id": "BSCC-1951-131-4-A1522",
+                    "short_id": "A1522"
+                },
+                {
+                    "id": "BSCC-1951-131-4-A1727",
+                    "short_id": "A1727"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-4-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-131-4-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-131-4-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-131-4-C1224",
+                    "short_id": "C1224"
+                }
+            ],
+            "description": "The swiss company B441 trades with the british company A190 and A1462 and A1522 and A1727 in the goods C1110 and C1115 and C1119 and C1224"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lévy (Théophile)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "25, Walchestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

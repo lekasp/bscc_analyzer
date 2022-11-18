@@ -1,0 +1,118 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-153-1951-37-C67",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "67. Motor oils. A 599, 1588, 1751, 1783, 2027, 2044, B 46, 59, 129, 193, 520, 679.",
+        "corrected": "67. Motor oils.A 599, 1588, 1751, 1783, 2027, 2044, B 46, 59, 129, 193, 520, 679"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 153,
+            "canvas": "http://localhost:8182/iiif/3/0153.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0153.jpg/304,2110,1306,75/max/0/default.jpg",
+            "xywh": "304, 2110, 1306, 75"
+        }
+    },
+    "short_id": "C67",
+    "label": "Motor oils",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-153-37-A599",
+                    "short_id": "A599"
+                },
+                {
+                    "id": "BSCC-1951-153-37-A1588",
+                    "short_id": "A1588"
+                },
+                {
+                    "id": "BSCC-1951-153-37-A1751",
+                    "short_id": "A1751"
+                },
+                {
+                    "id": "BSCC-1951-153-37-A1783",
+                    "short_id": "A1783"
+                },
+                {
+                    "id": "BSCC-1951-153-37-A2027",
+                    "short_id": "A2027"
+                },
+                {
+                    "id": "BSCC-1951-153-37-A2044",
+                    "short_id": "A2044"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B46",
+                    "short_id": "B46"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B59",
+                    "short_id": "B59"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B129",
+                    "short_id": "B129"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B193",
+                    "short_id": "B193"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B520",
+                    "short_id": "B520"
+                },
+                {
+                    "id": "BSCC-1951-153-37-B679",
+                    "short_id": "B679"
+                }
+            ],
+            "description": "with the british company A599 and A1588 and A1751 and A1783 and A2027 and A2044 and B59 and B129 and B193 and B520 and B679"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "2",
+            "level": 0,
+            "label": "Fuel, Oils and Fats, Raw Materials",
+            "part_of": "0",
+            "page": "153",
+            "line_number": "24"
+        },
+        {
+            "id": "2B",
+            "level": 1,
+            "label": "Petroleum and Petroleum Products",
+            "part_of": "2",
+            "page": "153",
+            "line_number": "30"
+        }
+    ]
+}

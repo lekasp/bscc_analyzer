@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-16-B332",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "332. Hintermann (M.) & Co., 37, Pelikanstrasse, Zurich. A 374, 403, 574, 805, 1349, C 1110, 1118, 1119, 1121, 1123, 1125, 1138a.",
+        "corrected": "332. Hintermann (M.) & Co., 37, Pelikanstrasse, Zurich.A 374, 403, 574, 805, 1349, C 1110, 1118, 1119, 1121, 1123, 1125, 1138a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,1165,1233,76/max/0/default.jpg",
+            "xywh": "316, 1165, 1233, 76"
+        }
+    },
+    "short_id": "B332",
+    "label": "Hintermann (M.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-16-A374",
+                    "short_id": "A374"
+                },
+                {
+                    "id": "BSCC-1951-127-16-A403",
+                    "short_id": "A403"
+                },
+                {
+                    "id": "BSCC-1951-127-16-A574",
+                    "short_id": "A574"
+                },
+                {
+                    "id": "BSCC-1951-127-16-A805",
+                    "short_id": "A805"
+                },
+                {
+                    "id": "BSCC-1951-127-16-A1349",
+                    "short_id": "A1349"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-16-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1118",
+                    "short_id": "C1118"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1121",
+                    "short_id": "C1121"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1123",
+                    "short_id": "C1123"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1125",
+                    "short_id": "C1125"
+                },
+                {
+                    "id": "BSCC-1951-127-16-C1138a",
+                    "short_id": "C1138a"
+                }
+            ],
+            "description": "The swiss company B332 trades with the british company A374 and A403 and A574 and A805 and A1349 in the goods C1110 and C1118 and C1119 and C1121 and C1123 and C1125 and C1138a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hintermann (M.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 37, Pelikanstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

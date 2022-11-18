@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-1-A1883",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1883. Summers (E. G.) Ltd., Sheffield. B 503, C 1379.",
+        "corrected": "1883. Summers (E. G.) Ltd., Sheffield. B 503, C 1379"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,337,1285,39/max/0/default.jpg",
+            "xywh": "340, 337, 1285, 39"
+        }
+    },
+    "short_id": "A1883",
+    "label": "Summers (E. G.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-1-B503",
+                    "short_id": "B503"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-1-C1379",
+                    "short_id": "C1379"
+                }
+            ],
+            "description": "The british company A1883 trades with the swiss company B503 in the goods C1379"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Summers (E. G.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

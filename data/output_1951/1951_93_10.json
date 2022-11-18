@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-10-A1799",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1799. Smiths English Clocks Ltd., London NW 2. B 819, C 1340.",
+        "corrected": "1799. Smiths English Clocks Ltd., London NW 2. B 819, C 1340"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,698,1183,41/max/0/default.jpg",
+            "xywh": "355, 698, 1183, 41"
+        }
+    },
+    "short_id": "A1799",
+    "label": "Smiths English Clocks Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-10-B819",
+                    "short_id": "B819"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-10-C1340",
+                    "short_id": "C1340"
+                }
+            ],
+            "description": "The british company A1799 trades with the swiss company B819 in the goods C1340"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smiths English Clocks Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London NW 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

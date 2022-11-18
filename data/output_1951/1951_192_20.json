@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-20-C1456",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1456. Railways. A 300, B 120.",
+        "corrected": "1456. Railways. A 300, B 120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1385,1257,39/max/0/default.jpg",
+            "xywh": "222, 1385, 1257, 39"
+        }
+    },
+    "short_id": "C1456",
+    "label": "Railways",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-20-A300",
+                    "short_id": "A300"
+                },
+                {
+                    "id": "BSCC-1951-192-20-B120",
+                    "short_id": "B120"
+                }
+            ],
+            "description": "with the british company A300"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "23",
+            "level": 0,
+            "label": "Travel and Transport",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "18"
+        }
+    ]
+}

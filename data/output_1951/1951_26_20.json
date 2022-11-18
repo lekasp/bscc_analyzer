@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-20-A294",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "294. British Leather Co. Ltd., Birkenhead. B 488, C 856, 868, 870.",
+        "corrected": "294. British Leather Co. Ltd., Birkenhead. B 488, C 856, 868, 870"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1184,1290,38/max/0/default.jpg",
+            "xywh": "189, 1184, 1290, 38"
+        }
+    },
+    "short_id": "A294",
+    "label": "British Leather Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-20-B488",
+                    "short_id": "B488"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-20-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-26-20-C868",
+                    "short_id": "C868"
+                },
+                {
+                    "id": "BSCC-1951-26-20-C870",
+                    "short_id": "C870"
+                }
+            ],
+            "description": "The british company A294 trades with the swiss company B488 in the goods C856 and C868 and C870"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Leather Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655613",
+            "lat": "53.39337",
+            "lng": "-3.01479",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birkenhead",
+            "transcription": " Birkenhead. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

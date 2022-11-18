@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-6-A1261",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1261. Marsh Bros. & Co. Ltd., Sheffield. B 268, C 114, 118.",
+        "corrected": "1261. Marsh Bros. & Co. Ltd., Sheffield. B 268, C 114, 118"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,484,1227,41/max/0/default.jpg",
+            "xywh": "199, 484, 1227, 41"
+        }
+    },
+    "short_id": "A1261",
+    "label": "Marsh Bros. & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-6-B268",
+                    "short_id": "B268"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-6-C114",
+                    "short_id": "C114"
+                },
+                {
+                    "id": "BSCC-1951-70-6-C118",
+                    "short_id": "C118"
+                }
+            ],
+            "description": "The british company A1261 trades with the swiss company B268 in the goods C114 and C118"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Marsh Bros. & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

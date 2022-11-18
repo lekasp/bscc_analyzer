@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-23-C1381",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1381. Pearls, imitation. A 1550, 1982, B 801.",
+        "corrected": "1381. Pearls, imitation. A 1550, 1982, B 801"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1402,1327,34/max/0/default.jpg",
+            "xywh": "181, 1402, 1327, 34"
+        }
+    },
+    "short_id": "C1381",
+    "label": "Pearls, imitation",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-23-A1550",
+                    "short_id": "A1550"
+                },
+                {
+                    "id": "BSCC-1951-190-23-A1982",
+                    "short_id": "A1982"
+                },
+                {
+                    "id": "BSCC-1951-190-23-B801",
+                    "short_id": "B801"
+                }
+            ],
+            "description": "with the british company A1550 and A1982"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "20",
+            "level": 0,
+            "label": "Cutlery, Silverware, Jewellery, etc.",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "14"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-30-A565",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "565. Dick (R. & J.) Ltd., Glasgow. B 793, C 787.",
+        "corrected": "565. Dick (R. & J.) Ltd., Glasgow. B 793, C 787"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,1507,1111,35/max/0/default.jpg",
+            "xywh": "192, 1507, 1111, 35"
+        }
+    },
+    "short_id": "A565",
+    "label": "Dick (R. & J.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-30-B793",
+                    "short_id": "B793"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-30-C787",
+                    "short_id": "C787"
+                }
+            ],
+            "description": "The british company A565 trades with the swiss company B793 in the goods C787"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dick (R. & J.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-9-B297",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "297. Guberan (Benjamin), 2, avenue Ruchonnet, Lausanne. A 196, 314, 341, 749, 942, 955, 1381, 1382, 1540, 1693, 1855, 1857, 2025, C 836, 837, 840, 845, 846, 847, 849, 850, 851, 855, 856, 859, 861, 862, 864. 866, 867, 870.",
+        "corrected": "297. Guberan (Benjamin), 2, avenue Ruchonnet, Lausanne.A 196, 314, 341, 749, 942, 955, 1381, 1382, 1540, 1693, 1855, 1857, 2025, C 836, 837, 840, 845, 846, 847, 849, 850, 851, 855, 856, 859, 861, 862, 864. 866, 867, 870"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,800,1299,159/max/0/default.jpg",
+            "xywh": "175, 800, 1299, 159"
+        }
+    },
+    "short_id": "B297",
+    "label": "Guberan (Benjamin)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-9-A196",
+                    "short_id": "A196"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A314",
+                    "short_id": "A314"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A341",
+                    "short_id": "A341"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A749",
+                    "short_id": "A749"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A942",
+                    "short_id": "A942"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A955",
+                    "short_id": "A955"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1381",
+                    "short_id": "A1381"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1382",
+                    "short_id": "A1382"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1540",
+                    "short_id": "A1540"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1693",
+                    "short_id": "A1693"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1855",
+                    "short_id": "A1855"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A1857",
+                    "short_id": "A1857"
+                },
+                {
+                    "id": "BSCC-1951-126-9-A2025",
+                    "short_id": "A2025"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-9-C836",
+                    "short_id": "C836"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C837",
+                    "short_id": "C837"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C840",
+                    "short_id": "C840"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C845",
+                    "short_id": "C845"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C846",
+                    "short_id": "C846"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C847",
+                    "short_id": "C847"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C849",
+                    "short_id": "C849"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C850",
+                    "short_id": "C850"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C851",
+                    "short_id": "C851"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C855",
+                    "short_id": "C855"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C859",
+                    "short_id": "C859"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C861",
+                    "short_id": "C861"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C862",
+                    "short_id": "C862"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C864866",
+                    "short_id": "C864866"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C867",
+                    "short_id": "C867"
+                },
+                {
+                    "id": "BSCC-1951-126-9-C870",
+                    "short_id": "C870"
+                }
+            ],
+            "description": "The swiss company B297 trades with the british company A196 and A314 and A341 and A749 and A942 and A955 and A1381 and A1382 and A1540 and A1693 and A1855 and A1857 and A2025 in the goods C836 and C837 and C840 and C845 and C846 and C847 and C849 and C850 and C851 and C855 and C856 and C859 and C861 and C862 and C864866 and C867 and C870"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Guberan (Benjamin)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "2, avenue Ruchonnet, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

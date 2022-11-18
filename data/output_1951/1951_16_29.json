@@ -1,0 +1,79 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-29-A73",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "73. A. P. Components Ltd., Shipston-on-Stour. B 473, C 760,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,1516,1233,37/max/0/default.jpg",
+            "xywh": "192, 1516, 1233, 37"
+        }
+    },
+    "short_id": "A73",
+    "label": "A. P. Components Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-29-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-29-C760",
+                    "short_id": "C760"
+                }
+            ],
+            "description": "The british company A73 trades with the swiss company B473 in the goods C760"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "A. P. Components Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637954",
+            "lat": "52.06057",
+            "lng": "-1.62778",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Shipston on Stour",
+            "transcription": " Shipston-on-Stour. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

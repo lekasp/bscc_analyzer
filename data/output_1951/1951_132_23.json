@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-23-B489",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "489. Menk (Louis), 11, Rüdigerstrasse, Zurich. A 2017, C 1254.",
+        "corrected": "489. Menk (Louis), 11, Rüdigerstrasse, Zurich. A 2017, C 1254"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,2080,1311,41/max/0/default.jpg",
+            "xywh": "167, 2080, 1311, 41"
+        }
+    },
+    "short_id": "B489",
+    "label": "Menk (Louis)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-23-A2017",
+                    "short_id": "A2017"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-23-C1254",
+                    "short_id": "C1254"
+                }
+            ],
+            "description": "The swiss company B489 trades with the british company A2017 in the goods C1254"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Menk (Louis)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "11, Rüdigerstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

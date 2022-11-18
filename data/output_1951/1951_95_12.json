@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-12-A1893",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1893. Sykes (W. E.) Ltd., Staines. B 596, C 188, 196, 203.",
+        "corrected": "1893. Sykes (W. E.) Ltd., Staines. B 596, C 188, 196, 203"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,890,1285,44/max/0/default.jpg",
+            "xywh": "340, 890, 1285, 44"
+        }
+    },
+    "short_id": "A1893",
+    "label": "Sykes (W. E.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-12-B596",
+                    "short_id": "B596"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-12-C188",
+                    "short_id": "C188"
+                },
+                {
+                    "id": "BSCC-1951-95-12-C196",
+                    "short_id": "C196"
+                },
+                {
+                    "id": "BSCC-1951-95-12-C203",
+                    "short_id": "C203"
+                }
+            ],
+            "description": "The british company A1893 trades with the swiss company B596 in the goods C188 and C196 and C203"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sykes (W. E.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637126",
+            "lat": "51.43092",
+            "lng": "-0.50606",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Staines-upon-Thames",
+            "transcription": " Staines. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

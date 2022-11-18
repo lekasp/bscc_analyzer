@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-10-B531",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "531. Negocitas S.A., 2, rue des Buis, Geneva. A 407, 477, 2135, C 573, 599, 610.",
+        "corrected": "531. Negocitas S.A., 2, rue des Buis, Geneva. A 407, 477, 2135, C 573, 599, 610"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,887,1276,39/max/0/default.jpg",
+            "xywh": "187, 887, 1276, 39"
+        }
+    },
+    "short_id": "B531",
+    "label": "Negocitas S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-10-A407",
+                    "short_id": "A407"
+                },
+                {
+                    "id": "BSCC-1951-134-10-A477",
+                    "short_id": "A477"
+                },
+                {
+                    "id": "BSCC-1951-134-10-A2135",
+                    "short_id": "A2135"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-10-C573",
+                    "short_id": "C573"
+                },
+                {
+                    "id": "BSCC-1951-134-10-C599",
+                    "short_id": "C599"
+                },
+                {
+                    "id": "BSCC-1951-134-10-C610",
+                    "short_id": "C610"
+                }
+            ],
+            "description": "The swiss company B531 trades with the british company A407 and A477 and A2135 in the goods C573 and C599 and C610"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Negocitas S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 2, rue des Buis, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

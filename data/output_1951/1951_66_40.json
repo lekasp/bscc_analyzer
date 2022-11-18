@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-40-A1206",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1206. Lurgan Weaving Co. Ltd., Lurgan, N. I. B 568, C 1131, 1132, 1215.",
+        "corrected": "1206. Lurgan Weaving Co. Ltd., Lurgan, N. I. B 568, C 1131, 1132, 1215"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,2051,1288,40/max/0/default.jpg",
+            "xywh": "170, 2051, 1288, 40"
+        }
+    },
+    "short_id": "A1206",
+    "label": "Lurgan Weaving Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-40-B568",
+                    "short_id": "B568"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-40-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-66-40-C1132",
+                    "short_id": "C1132"
+                },
+                {
+                    "id": "BSCC-1951-66-40-C1215",
+                    "short_id": "C1215"
+                }
+            ],
+            "description": "The british company A1206 trades with the swiss company B568 in the goods C1131 and C1132 and C1215"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lurgan Weaving Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643360",
+            "lat": "54.4568",
+            "lng": "-6.32352",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lurgan",
+            "transcription": " Lurgan, N. I. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

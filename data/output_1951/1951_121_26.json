@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-26-B161",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 161. Crowe & Co. AG., 67, Nauenstrasse, Basle. x A 99, 514a, 921, C 1457, 1458.",
+        "corrected": "161. Crowe & Co. AG., 67, Nauenstrasse, Basle. x A 99, 514a, 921, C 1457, 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1780,1272,44/max/0/default.jpg",
+            "xywh": "309, 1780, 1272, 44"
+        }
+    },
+    "short_id": "B161",
+    "label": "Crowe & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-26-A99",
+                    "short_id": "A99"
+                },
+                {
+                    "id": "BSCC-1951-121-26-A514a",
+                    "short_id": "A514a"
+                },
+                {
+                    "id": "BSCC-1951-121-26-A921",
+                    "short_id": "A921"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-26-C1457",
+                    "short_id": "C1457"
+                },
+                {
+                    "id": "BSCC-1951-121-26-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B161 trades with the british company A99 and A514a and A921 in the goods C1457 and C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Crowe & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 67, Nauenstrasse, Basle. x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

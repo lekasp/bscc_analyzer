@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-26-C1461",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1461. Banks. A 1188, B 447.",
+        "corrected": "1461. Banks. A 1188, B 447"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1908,1257,43/max/0/default.jpg",
+            "xywh": "222, 1908, 1257, 43"
+        }
+    },
+    "short_id": "C1461",
+    "label": "Banks",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-26-A1188",
+                    "short_id": "A1188"
+                },
+                {
+                    "id": "BSCC-1951-192-26-B447",
+                    "short_id": "B447"
+                }
+            ],
+            "description": "with the british company A1188"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "24",
+            "level": 0,
+            "label": "Finance, Insurance, Publicity, General Trading",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "24"
+        }
+    ]
+}

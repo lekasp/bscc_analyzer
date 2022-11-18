@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-2-A1304",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1304. Metal Sections Ltd., Oldbury, Birmingham. B 158, C 133, 135.",
+        "corrected": "1304. Metal Sections Ltd., Oldbury, Birmingham. B 158, C 133, 135"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,330,1267,40/max/0/default.jpg",
+            "xywh": "205, 330, 1267, 40"
+        }
+    },
+    "short_id": "A1304",
+    "label": "Metal Sections Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-2-B158",
+                    "short_id": "B158"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-2-C133",
+                    "short_id": "C133"
+                },
+                {
+                    "id": "BSCC-1951-72-2-C135",
+                    "short_id": "C135"
+                }
+            ],
+            "description": "The british company A1304 trades with the swiss company B158 in the goods C133 and C135"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Metal Sections Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641036",
+            "lat": "52.5",
+            "lng": "-2.01667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oldbury",
+            "transcription": " Oldbury, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Oldbury, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

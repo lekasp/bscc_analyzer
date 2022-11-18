@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-18-B830",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "830. Wolf (Paul) & Co., 6, Rôtisserie, Geneva. A 1431, 1565, 1817, C 419, 565, 596, 632.",
+        "corrected": "830. Wolf (Paul) & Co., 6, Rôtisserie, Geneva.A 1431, 1565, 1817, C 419, 565, 596, 632"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1392,1324,74/max/0/default.jpg",
+            "xywh": "195, 1392, 1324, 74"
+        }
+    },
+    "short_id": "B830",
+    "label": "Wolf (Paul) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-18-A1431",
+                    "short_id": "A1431"
+                },
+                {
+                    "id": "BSCC-1951-144-18-A1565",
+                    "short_id": "A1565"
+                },
+                {
+                    "id": "BSCC-1951-144-18-A1817",
+                    "short_id": "A1817"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-18-C419",
+                    "short_id": "C419"
+                },
+                {
+                    "id": "BSCC-1951-144-18-C565",
+                    "short_id": "C565"
+                },
+                {
+                    "id": "BSCC-1951-144-18-C596",
+                    "short_id": "C596"
+                },
+                {
+                    "id": "BSCC-1951-144-18-C632",
+                    "short_id": "C632"
+                }
+            ],
+            "description": "The swiss company B830 trades with the british company A1431 and A1565 and A1817 in the goods C419 and C565 and C596 and C632"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wolf (Paul) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": ", 6, Rôtisserie, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

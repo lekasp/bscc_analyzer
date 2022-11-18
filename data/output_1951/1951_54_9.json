@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-9-A914",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "914. Herbert (Edward G.) Ltd., Levenshulme, Manchester. B 669, C 217,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,614,1211,39/max/0/default.jpg",
+            "xywh": "137, 614, 1211, 39"
+        }
+    },
+    "short_id": "A914",
+    "label": "Herbert (Edward G.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-9-B669",
+                    "short_id": "B669"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-9-C217",
+                    "short_id": "C217"
+                }
+            ],
+            "description": "The british company A914 trades with the swiss company B669 in the goods C217"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Herbert (Edward G.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644568",
+            "lat": "53.44421",
+            "lng": "-2.19163",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Levenshulme",
+            "transcription": " Levenshulme, Manchester. "
+        },
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Levenshulme, Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

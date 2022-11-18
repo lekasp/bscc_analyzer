@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-5-B172",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "172. Demont (Alfred), 14, rue du Prieuré, Geneva. + A 1433, C 627.",
+        "corrected": "172. Demont (Alfred), 14, rue du Prieuré, Geneva. + A 1433, C 627"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,519,1285,38/max/0/default.jpg",
+            "xywh": "169, 519, 1285, 38"
+        }
+    },
+    "short_id": "B172",
+    "label": "Demont (Alfred)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-5-A1433",
+                    "short_id": "A1433"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-5-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The swiss company B172 trades with the british company A1433 in the goods C627"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Demont (Alfred)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "14, rue du Prieuré, Geneva. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

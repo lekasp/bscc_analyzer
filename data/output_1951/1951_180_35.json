@@ -1,0 +1,138 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-180-1951-35-C1080",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1080. Wool, tops. A 12, 214, 259, 260, 494, 943, 995, 1105, 1511, 2096, 2171-B 58, 217,248, 256, 337, 426, 540, 579.",
+        "corrected": "1080. Wool, tops.A 12, 214, 259, 260, 494, 943, 995, 1105, 1511, 2096, 2171-B 58, 217,248, 256, 337, 426, 540, 579"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 180,
+            "canvas": "http://localhost:8182/iiif/3/0180.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0180.jpg/175,2104,1390,163/max/0/default.jpg",
+            "xywh": "175, 2104, 1390, 163"
+        }
+    },
+    "short_id": "C1080",
+    "label": "Wool, tops",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-180-35-A12",
+                    "short_id": "A12"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A214",
+                    "short_id": "A214"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A259",
+                    "short_id": "A259"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A260",
+                    "short_id": "A260"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A494",
+                    "short_id": "A494"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A943",
+                    "short_id": "A943"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A995",
+                    "short_id": "A995"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A1105",
+                    "short_id": "A1105"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A1511",
+                    "short_id": "A1511"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A2096",
+                    "short_id": "A2096"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A217",
+                    "short_id": "A217"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A248",
+                    "short_id": "A248"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A256",
+                    "short_id": "A256"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A337",
+                    "short_id": "A337"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A426",
+                    "short_id": "A426"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A540",
+                    "short_id": "A540"
+                },
+                {
+                    "id": "BSCC-1951-180-35-A579",
+                    "short_id": "A579"
+                }
+            ],
+            "description": "with the british company A12 and A214 and A259 and A260 and A494 and A943 and A995 and A1105 and A1511 and A2096 and A217 and A248 and A256 and A337 and A426 and A540 and A579"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15A",
+            "level": 1,
+            "label": "Textile Raw Materials",
+            "part_of": "15",
+            "page": "180",
+            "line_number": "29"
+        }
+    ]
+}

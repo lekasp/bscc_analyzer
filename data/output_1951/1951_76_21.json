@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-21-A1410",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1410. Newman, Hender & Co. Ltd., Stroud, Glos. B 346, C 448, 452, 726, 730, 733.",
+        "corrected": "1410. Newman, Hender & Co. Ltd., Stroud, Glos. B 346, C 448, 452, 726, 730, 733"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1251,1323,41/max/0/default.jpg",
+            "xywh": "174, 1251, 1323, 41"
+        }
+    },
+    "short_id": "A1410",
+    "label": "Newman, Hender & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-21-B346",
+                    "short_id": "B346"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-21-C448",
+                    "short_id": "C448"
+                },
+                {
+                    "id": "BSCC-1951-76-21-C452",
+                    "short_id": "C452"
+                },
+                {
+                    "id": "BSCC-1951-76-21-C726",
+                    "short_id": "C726"
+                },
+                {
+                    "id": "BSCC-1951-76-21-C730",
+                    "short_id": "C730"
+                },
+                {
+                    "id": "BSCC-1951-76-21-C733",
+                    "short_id": "C733"
+                }
+            ],
+            "description": "The british company A1410 trades with the swiss company B346 in the goods C448 and C452 and C726 and C730 and C733"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Newman, Hender & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636616",
+            "lat": "51.75",
+            "lng": "-2.2",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stroud",
+            "transcription": " Stroud, Glos. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

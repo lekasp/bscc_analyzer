@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-1-B700",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "700. Spörri-Vetterli & Co., 110, Klosbachstrasse, Zurich. A 436, 1193, C 430, 608.",
+        "corrected": "700. Spörri-Vetterli & Co., 110, Klosbachstrasse, Zurich. A 436, 1193, C 430, 608"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,357,1265,39/max/0/default.jpg",
+            "xywh": "219, 357, 1265, 39"
+        }
+    },
+    "short_id": "B700",
+    "label": "Spörri-Vetterli & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-1-A436",
+                    "short_id": "A436"
+                },
+                {
+                    "id": "BSCC-1951-140-1-A1193",
+                    "short_id": "A1193"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-1-C430",
+                    "short_id": "C430"
+                },
+                {
+                    "id": "BSCC-1951-140-1-C608",
+                    "short_id": "C608"
+                }
+            ],
+            "description": "The swiss company B700 trades with the british company A436 and A1193 in the goods C430 and C608"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Spörri-Vetterli & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 110, Klosbachstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

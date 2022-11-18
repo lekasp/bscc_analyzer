@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-172-1951-28-C786",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿786. Conveyor belting. A 1152, 2118, B 458, 563.",
+        "corrected": "786. Conveyor belting. A 1152, 2118, B 458, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 172,
+            "canvas": "http://localhost:8182/iiif/3/0172.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0172.jpg/205,1748,1259,42/max/0/default.jpg",
+            "xywh": "205, 1748, 1259, 42"
+        }
+    },
+    "short_id": "C786",
+    "label": "Conveyor belting",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-172-28-A1152",
+                    "short_id": "A1152"
+                },
+                {
+                    "id": "BSCC-1951-172-28-A2118",
+                    "short_id": "A2118"
+                },
+                {
+                    "id": "BSCC-1951-172-28-B458",
+                    "short_id": "B458"
+                },
+                {
+                    "id": "BSCC-1951-172-28-B563",
+                    "short_id": "B563"
+                }
+            ],
+            "description": "with the british company A1152 and A2118 and B563"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9A",
+            "level": 1,
+            "label": "Rubber and Rubber Products",
+            "part_of": "9",
+            "page": "172",
+            "line_number": "11"
+        },
+        {
+            "id": "9Ac",
+            "level": 2,
+            "label": "TECHNICAL RUBBER PRODUCTS",
+            "part_of": "9A",
+            "page": "172",
+            "line_number": "25"
+        }
+    ]
+}

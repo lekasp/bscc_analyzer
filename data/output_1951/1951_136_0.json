@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-0-B580",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 580. Plüss-Staufer AG., Oftringen (Aarg.). A 290, 508, 740, 864, C 919, 922, 924, 931, 960, 994, 1001.",
+        "corrected": "580. Plüss-Staufer AG., Oftringen (Aarg.).A 290, 508, 740, 864, C 919, 922, 924, 931, 960, 994, 1001"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,191,1317,114/max/0/default.jpg",
+            "xywh": "183, 191, 1317, 114"
+        }
+    },
+    "short_id": "B580",
+    "label": "Plüss-Staufer AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-0-A290",
+                    "short_id": "A290"
+                },
+                {
+                    "id": "BSCC-1951-136-0-A508",
+                    "short_id": "A508"
+                },
+                {
+                    "id": "BSCC-1951-136-0-A740",
+                    "short_id": "A740"
+                },
+                {
+                    "id": "BSCC-1951-136-0-A864",
+                    "short_id": "A864"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-0-C919",
+                    "short_id": "C919"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C922",
+                    "short_id": "C922"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C924",
+                    "short_id": "C924"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C931",
+                    "short_id": "C931"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C960",
+                    "short_id": "C960"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C994",
+                    "short_id": "C994"
+                },
+                {
+                    "id": "BSCC-1951-136-0-C1001",
+                    "short_id": "C1001"
+                }
+            ],
+            "description": "The swiss company B580 trades with the british company A290 and A508 and A740 and A864 in the goods C919 and C922 and C924 and C931 and C960 and C994 and C1001"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Plüss-Staufer AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659303",
+            "lat": "47.31382",
+            "lng": "7.92533",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oftringen",
+            "transcription": " Oftringen (Aarg.)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

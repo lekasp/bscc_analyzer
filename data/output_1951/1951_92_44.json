@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-92-1951-44-A1786",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1786. Smith (Frederick) & Co. Wire Manufacturers Ltd., Halifax. B 412, C 136, 172, 174, 175.",
+        "corrected": "1786. Smith (Frederick) & Co. Wire Manufacturers Ltd., Halifax.B 412, C 136, 172, 174, 175"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 92,
+            "canvas": "http://localhost:8182/iiif/3/0092.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0092.jpg/190,2024,1276,78/max/0/default.jpg",
+            "xywh": "190, 2024, 1276, 78"
+        }
+    },
+    "short_id": "A1786",
+    "label": "Smith (Frederick) & Co. Wire Manufacturers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-92-44-B412",
+                    "short_id": "B412"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-92-44-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-92-44-C172",
+                    "short_id": "C172"
+                },
+                {
+                    "id": "BSCC-1951-92-44-C174",
+                    "short_id": "C174"
+                },
+                {
+                    "id": "BSCC-1951-92-44-C175",
+                    "short_id": "C175"
+                }
+            ],
+            "description": "The british company A1786 trades with the swiss company B412 in the goods C136 and C172 and C174 and C175"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Smith (Frederick) & Co. Wire Manufacturers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647632",
+            "lat": "53.71667",
+            "lng": "-1.85",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Halifax",
+            "transcription": " Halifax."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

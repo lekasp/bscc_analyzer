@@ -1,0 +1,164 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-20-B512,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "512, Morganite Exports Ltd., London/Zurich Office, 6, Splügenstrasse, Zurich. A 386, 809, 1351, 1352, 1353, C 72, 87, 260, 264, 272, 424, 455, 469, 488, 493, 494, 517, 541, 547, 597, 701, 702, 711.",
+        "corrected": "512, Morganite Exports Ltd., London/Zurich Office, 6, Splügenstrasse, Zurich.A 386, 809, 1351, 1352, 1353, C 72, 87, 260, 264, 272, 424, 455, 469, 488, 493, 494, 517, 541, 547, 597, 701, 702, 711"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1614,1317,117/max/0/default.jpg",
+            "xywh": "305, 1614, 1317, 117"
+        }
+    },
+    "short_id": "B512,",
+    "label": "Morganite Exports Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-20-A386",
+                    "short_id": "A386"
+                },
+                {
+                    "id": "BSCC-1951-133-20-A809",
+                    "short_id": "A809"
+                },
+                {
+                    "id": "BSCC-1951-133-20-A1351",
+                    "short_id": "A1351"
+                },
+                {
+                    "id": "BSCC-1951-133-20-A1352",
+                    "short_id": "A1352"
+                },
+                {
+                    "id": "BSCC-1951-133-20-A1353",
+                    "short_id": "A1353"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-20-C72",
+                    "short_id": "C72"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C87",
+                    "short_id": "C87"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C260",
+                    "short_id": "C260"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C264",
+                    "short_id": "C264"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C272",
+                    "short_id": "C272"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C424",
+                    "short_id": "C424"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C455",
+                    "short_id": "C455"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C469",
+                    "short_id": "C469"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C488",
+                    "short_id": "C488"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C493",
+                    "short_id": "C493"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C494",
+                    "short_id": "C494"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C517",
+                    "short_id": "C517"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C541",
+                    "short_id": "C541"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C547",
+                    "short_id": "C547"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C597",
+                    "short_id": "C597"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C701",
+                    "short_id": "C701"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C702",
+                    "short_id": "C702"
+                },
+                {
+                    "id": "BSCC-1951-133-20-C711",
+                    "short_id": "C711"
+                }
+            ],
+            "description": "The swiss company B512, trades with the british company A386 and A809 and A1351 and A1352 and A1353 in the goods C72 and C87 and C260 and C264 and C272 and C424 and C455 and C469 and C488 and C493 and C494 and C517 and C541 and C547 and C597 and C701 and C702 and C711"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Morganite Exports Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " London/Zurich Office, 6, Splügenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

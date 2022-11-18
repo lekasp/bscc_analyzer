@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-4-A404",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "404. Chamberlain (W. W.) & Sons Ltd., Higham-Ferrers, Northants. B 306, C 858.",
+        "corrected": "404. Chamberlain (W. W.) & Sons Ltd., Higham-Ferrers, Northants.B 306, C 858"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,402,1184,78/max/0/default.jpg",
+            "xywh": "223, 402, 1184, 78"
+        }
+    },
+    "short_id": "A404",
+    "label": "Chamberlain (W. W.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-4-B306",
+                    "short_id": "B306"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-4-C858",
+                    "short_id": "C858"
+                }
+            ],
+            "description": "The british company A404 trades with the swiss company B306 in the goods C858"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Chamberlain (W. W.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646985",
+            "lat": "52.30596",
+            "lng": "-0.59342",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Higham Ferrers",
+            "transcription": " Higham-Ferrers, Northants."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

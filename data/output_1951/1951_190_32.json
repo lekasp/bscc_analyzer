@@ -1,0 +1,77 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-32-C1387",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1387. Archery equipment (bows and arrows). A 9, B 701,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1851,1327,47/max/0/default.jpg",
+            "xywh": "181, 1851, 1327, 47"
+        }
+    },
+    "short_id": "C1387",
+    "label": "Archery equipment (bows and arrows)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-32-A9",
+                    "short_id": "A9"
+                },
+                {
+                    "id": "BSCC-1951-190-32-B701",
+                    "short_id": "B701"
+                }
+            ],
+            "description": "with the british company A9"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21A",
+            "level": 1,
+            "label": "Sports Goods",
+            "part_of": "21",
+            "page": "190",
+            "line_number": "30"
+        }
+    ]
+}

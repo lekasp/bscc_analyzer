@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-2-A950",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "950. Holt, Whitney & Co. Ltd., Birmingham. B 584, C 178, 378; B 771, C 568.",
+        "corrected": "950. Holt, Whitney & Co. Ltd., Birmingham. B 584, C 178, 378; B 771, C 568"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,329,1276,38/max/0/default.jpg",
+            "xywh": "158, 329, 1276, 38"
+        }
+    },
+    "short_id": "A950",
+    "label": "Holt, Whitney & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-2-B584",
+                    "short_id": "B584"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-2-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-56-2-C378",
+                    "short_id": "C378"
+                }
+            ],
+            "description": "The british company A950 trades with the swiss company B584 in the goods C178 and C378"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-2-B771",
+                    "short_id": "B771"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-2-C568",
+                    "short_id": "C568"
+                }
+            ],
+            "description": "The british company A950 trades with the swiss company B771 in the goods C568"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Holt, Whitney & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-17-A1365",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1365. Morton (B. K.) & Co. Ltd., Sheffield. B 236, C 94, 381, 385, 409.",
+        "corrected": "1365. Morton (B. K.) & Co. Ltd., Sheffield. B 236, C 94, 381, 385, 409"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1093,1249,37/max/0/default.jpg",
+            "xywh": "184, 1093, 1249, 37"
+        }
+    },
+    "short_id": "A1365",
+    "label": "Morton (B. K.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-17-B236",
+                    "short_id": "B236"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-17-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-74-17-C381",
+                    "short_id": "C381"
+                },
+                {
+                    "id": "BSCC-1951-74-17-C385",
+                    "short_id": "C385"
+                },
+                {
+                    "id": "BSCC-1951-74-17-C409",
+                    "short_id": "C409"
+                }
+            ],
+            "description": "The british company A1365 trades with the swiss company B236 in the goods C94 and C381 and C385 and C409"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Morton (B. K.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

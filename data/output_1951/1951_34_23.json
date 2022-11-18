@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-23-A471",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "471. Cooper, McDougall & Robertson Ltd., Berkhamsted, Herts. B 837, C 910, 911, 921, 938, 943.",
+        "corrected": "471. Cooper, McDougall & Robertson Ltd., Berkhamsted, Herts.B 837, C 910, 911, 921, 938, 943"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,1279,1292,79/max/0/default.jpg",
+            "xywh": "157, 1279, 1292, 79"
+        }
+    },
+    "short_id": "A471",
+    "label": "Cooper, McDougall & Robertson Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-23-B837",
+                    "short_id": "B837"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-23-C910",
+                    "short_id": "C910"
+                },
+                {
+                    "id": "BSCC-1951-34-23-C911",
+                    "short_id": "C911"
+                },
+                {
+                    "id": "BSCC-1951-34-23-C921",
+                    "short_id": "C921"
+                },
+                {
+                    "id": "BSCC-1951-34-23-C938",
+                    "short_id": "C938"
+                },
+                {
+                    "id": "BSCC-1951-34-23-C943",
+                    "short_id": "C943"
+                }
+            ],
+            "description": "The british company A471 trades with the swiss company B837 in the goods C910 and C911 and C921 and C938 and C943"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cooper, McDougall & Robertson Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655858",
+            "lat": "51.7604",
+            "lng": "-0.56528",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Berkhamsted",
+            "transcription": " Berkhamsted, Herts."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

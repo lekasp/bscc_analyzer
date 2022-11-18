@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-158-1951-15-C240",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿240. Wire-winding machines. A 1263, B 419.",
+        "corrected": "240. Wire-winding machines. A 1263, B 419"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 158,
+            "canvas": "http://localhost:8182/iiif/3/0158.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0158.jpg/194,850,1303,63/max/0/default.jpg",
+            "xywh": "194, 850, 1303, 63"
+        }
+    },
+    "short_id": "C240",
+    "label": "Wire-winding machines",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-158-15-A1263",
+                    "short_id": "A1263"
+                },
+                {
+                    "id": "BSCC-1951-158-15-B419",
+                    "short_id": "B419"
+                }
+            ],
+            "description": "with the british company A1263"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-43-A43",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "43. Allen (Edgar) & Co. Ltd., Sheffield. B 625, C 126, 128, 242, 344; B 705, C 94, 124, 378.",
+        "corrected": "43. Allen (Edgar) & Co. Ltd., Sheffield.B 625, C 126, 128, 242, 344; B 705, C 94, 124, 378"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,2030,1220,80/max/0/default.jpg",
+            "xywh": "212, 2030, 1220, 80"
+        }
+    },
+    "short_id": "A43",
+    "label": "Allen (Edgar) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-43-B625",
+                    "short_id": "B625"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-43-C126",
+                    "short_id": "C126"
+                },
+                {
+                    "id": "BSCC-1951-14-43-C128",
+                    "short_id": "C128"
+                },
+                {
+                    "id": "BSCC-1951-14-43-C242",
+                    "short_id": "C242"
+                },
+                {
+                    "id": "BSCC-1951-14-43-C344",
+                    "short_id": "C344"
+                }
+            ],
+            "description": "The british company A43 trades with the swiss company B625 in the goods C126 and C128 and C242 and C344"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-43-B705",
+                    "short_id": "B705"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-43-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-14-43-C124",
+                    "short_id": "C124"
+                },
+                {
+                    "id": "BSCC-1951-14-43-C378",
+                    "short_id": "C378"
+                }
+            ],
+            "description": "The british company A43 trades with the swiss company B705 in the goods C94 and C124 and C378"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Allen (Edgar) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

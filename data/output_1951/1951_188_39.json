@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-39-C1324",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1324. Pressure cookers. A 886, B 155.",
+        "corrected": "1324. Pressure cookers. A 886, B 155"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,1985,1281,39/max/0/default.jpg",
+            "xywh": "223, 1985, 1281, 39"
+        }
+    },
+    "short_id": "C1324",
+    "label": "Pressure cookers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-39-A886",
+                    "short_id": "A886"
+                },
+                {
+                    "id": "BSCC-1951-188-39-B155",
+                    "short_id": "B155"
+                }
+            ],
+            "description": "with the british company A886"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "18",
+            "level": 0,
+            "label": "Catering Equipment, Domestic Articles, Furniture, Toilet Requisites",
+            "part_of": "0",
+            "page": "188",
+            "line_number": "20"
+        },
+        {
+            "id": "18A",
+            "level": 1,
+            "label": "Domestic and Catering Machines and Appliances",
+            "part_of": "18",
+            "page": "188",
+            "line_number": "21"
+        }
+    ]
+}

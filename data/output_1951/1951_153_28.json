@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-153-1951-28-C59",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "59. Coal derivatives. A 1003, 1902, B 213, 364.",
+        "corrected": "59. Coal derivatives. A 1003, 1902, B 213, 364"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 153,
+            "canvas": "http://localhost:8182/iiif/3/0153.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0153.jpg/304,1691,1306,40/max/0/default.jpg",
+            "xywh": "304, 1691, 1306, 40"
+        }
+    },
+    "short_id": "C59",
+    "label": "Coal derivatives",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-153-28-A1003",
+                    "short_id": "A1003"
+                },
+                {
+                    "id": "BSCC-1951-153-28-A1902",
+                    "short_id": "A1902"
+                },
+                {
+                    "id": "BSCC-1951-153-28-B213",
+                    "short_id": "B213"
+                },
+                {
+                    "id": "BSCC-1951-153-28-B364",
+                    "short_id": "B364"
+                }
+            ],
+            "description": "with the british company A1003 and A1902 and B364"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "2",
+            "level": 0,
+            "label": "Fuel, Oils and Fats, Raw Materials",
+            "part_of": "0",
+            "page": "153",
+            "line_number": "24"
+        },
+        {
+            "id": "2A",
+            "level": 1,
+            "label": "Coal and Coal Products",
+            "part_of": "2",
+            "page": "153",
+            "line_number": "26"
+        }
+    ]
+}

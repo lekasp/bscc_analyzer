@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-161-1951-8-C358",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "358. Excavators. A 906, 1568, 1687, B 9, 273, 614.",
+        "corrected": "358. Excavators. A 906, 1568, 1687, B 9, 273, 614"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 161,
+            "canvas": "http://localhost:8182/iiif/3/0161.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0161.jpg/290,606,1322,39/max/0/default.jpg",
+            "xywh": "290, 606, 1322, 39"
+        }
+    },
+    "short_id": "C358",
+    "label": "Excavators",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-161-8-A906",
+                    "short_id": "A906"
+                },
+                {
+                    "id": "BSCC-1951-161-8-A1568",
+                    "short_id": "A1568"
+                },
+                {
+                    "id": "BSCC-1951-161-8-A1687",
+                    "short_id": "A1687"
+                },
+                {
+                    "id": "BSCC-1951-161-8-B9",
+                    "short_id": "B9"
+                },
+                {
+                    "id": "BSCC-1951-161-8-B273",
+                    "short_id": "B273"
+                },
+                {
+                    "id": "BSCC-1951-161-8-B614",
+                    "short_id": "B614"
+                }
+            ],
+            "description": "with the british company A906 and A1568 and A1687 and B273 and B614"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4C",
+            "level": 1,
+            "label": "Construction and Mechanical Handling Equipment",
+            "part_of": "4",
+            "page": "160",
+            "line_number": "35"
+        }
+    ]
+}

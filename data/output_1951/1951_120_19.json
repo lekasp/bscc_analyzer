@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-19-B125",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "125. Bucher (Erwin), 28, Schmiedgasse, St. Gall. A 15, 382, 1237, 1383, 1899, C 1084, 1112, 1116, 1131, 1132, 1149.",
+        "corrected": "125. Bucher (Erwin), 28, Schmiedgasse, St. Gall.A 15, 382, 1237, 1383, 1899, C 1084, 1112, 1116, 1131, 1132, 1149"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1579,1348,77/max/0/default.jpg",
+            "xywh": "159, 1579, 1348, 77"
+        }
+    },
+    "short_id": "B125",
+    "label": "Bucher (Erwin)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-19-A15",
+                    "short_id": "A15"
+                },
+                {
+                    "id": "BSCC-1951-120-19-A382",
+                    "short_id": "A382"
+                },
+                {
+                    "id": "BSCC-1951-120-19-A1237",
+                    "short_id": "A1237"
+                },
+                {
+                    "id": "BSCC-1951-120-19-A1383",
+                    "short_id": "A1383"
+                },
+                {
+                    "id": "BSCC-1951-120-19-A1899",
+                    "short_id": "A1899"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-19-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-120-19-C1112",
+                    "short_id": "C1112"
+                },
+                {
+                    "id": "BSCC-1951-120-19-C1116",
+                    "short_id": "C1116"
+                },
+                {
+                    "id": "BSCC-1951-120-19-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-120-19-C1132",
+                    "short_id": "C1132"
+                },
+                {
+                    "id": "BSCC-1951-120-19-C1149",
+                    "short_id": "C1149"
+                }
+            ],
+            "description": "The swiss company B125 trades with the british company A15 and A382 and A1237 and A1383 and A1899 in the goods C1084 and C1112 and C1116 and C1131 and C1132 and C1149"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bucher (Erwin)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658822",
+            "lat": "47.42391",
+            "lng": "9.37477",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Saint Gallen",
+            "transcription": "28, Schmiedgasse, St. Gall."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

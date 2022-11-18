@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-13-B14",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 14. Aksa (AG.), 35, Rennweg, Zurich. A 461, 585, 1211, C 419, 448, 571, 609, 781.",
+        "corrected": "14. Aksa (AG.), 35, Rennweg, Zurich. A 461, 585, 1211, C 419, 448, 571, 609, 781"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,919,1350,41/max/0/default.jpg",
+            "xywh": "278, 919, 1350, 41"
+        }
+    },
+    "short_id": "B14",
+    "label": "Aksa (AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-13-A461",
+                    "short_id": "A461"
+                },
+                {
+                    "id": "BSCC-1951-117-13-A585",
+                    "short_id": "A585"
+                },
+                {
+                    "id": "BSCC-1951-117-13-A1211",
+                    "short_id": "A1211"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-13-C419",
+                    "short_id": "C419"
+                },
+                {
+                    "id": "BSCC-1951-117-13-C448",
+                    "short_id": "C448"
+                },
+                {
+                    "id": "BSCC-1951-117-13-C571",
+                    "short_id": "C571"
+                },
+                {
+                    "id": "BSCC-1951-117-13-C609",
+                    "short_id": "C609"
+                },
+                {
+                    "id": "BSCC-1951-117-13-C781",
+                    "short_id": "C781"
+                }
+            ],
+            "description": "The swiss company B14 trades with the british company A461 and A585 and A1211 in the goods C419 and C448 and C571 and C609 and C781"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aksa (AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "), 35, Rennweg, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

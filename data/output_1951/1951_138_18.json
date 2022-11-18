@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-18-B652",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "652. Schmid (H. A.) S.A., 49, rue du Rhône, Geneva. A 361, C 891, 1258.",
+        "corrected": "652. Schmid (H. A.) S.A., 49, rue du Rhône, Geneva. A 361, C 891, 1258"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1260,1287,37/max/0/default.jpg",
+            "xywh": "197, 1260, 1287, 37"
+        }
+    },
+    "short_id": "B652",
+    "label": "Schmid (H. A.) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-18-A361",
+                    "short_id": "A361"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-18-C891",
+                    "short_id": "C891"
+                },
+                {
+                    "id": "BSCC-1951-138-18-C1258",
+                    "short_id": "C1258"
+                }
+            ],
+            "description": "The swiss company B652 trades with the british company A361 in the goods C891 and C1258"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schmid (H. A.) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 49, rue du Rhône, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

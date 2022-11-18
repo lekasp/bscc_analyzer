@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-4-B583",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "583. Poresa Ltd., 24, Hauptstrasse, Kreuzlingen. A 869, 1079, 1244, C 1042, 1352, 1385, 1447, 1448.",
+        "corrected": "583. Poresa Ltd., 24, Hauptstrasse, Kreuzlingen.A 869, 1079, 1244, C 1042, 1352, 1385, 1447, 1448"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,464,1317,81/max/0/default.jpg",
+            "xywh": "183, 464, 1317, 81"
+        }
+    },
+    "short_id": "B583",
+    "label": "Poresa Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-4-A869",
+                    "short_id": "A869"
+                },
+                {
+                    "id": "BSCC-1951-136-4-A1079",
+                    "short_id": "A1079"
+                },
+                {
+                    "id": "BSCC-1951-136-4-A1244",
+                    "short_id": "A1244"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-4-C1042",
+                    "short_id": "C1042"
+                },
+                {
+                    "id": "BSCC-1951-136-4-C1352",
+                    "short_id": "C1352"
+                },
+                {
+                    "id": "BSCC-1951-136-4-C1385",
+                    "short_id": "C1385"
+                },
+                {
+                    "id": "BSCC-1951-136-4-C1447",
+                    "short_id": "C1447"
+                },
+                {
+                    "id": "BSCC-1951-136-4-C1448",
+                    "short_id": "C1448"
+                }
+            ],
+            "description": "The swiss company B583 trades with the british company A869 and A1079 and A1244 in the goods C1042 and C1352 and C1385 and C1447 and C1448"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Poresa Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 24, Hauptstrasse, Kreuzlingen."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

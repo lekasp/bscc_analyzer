@@ -1,0 +1,105 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-18-A1583",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1583. Radcliffe (R.) & Sons (Mossley) Ltd., Mossley, nr Manchester. B 95, C 1114, 1115, 1119, 1126.",
+        "corrected": "1583. Radcliffe (R.) & Sons (Mossley) Ltd., Mossley, nr Manchester.B 95, C 1114, 1115, 1119, 1126"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1130,1278,94/max/0/default.jpg",
+            "xywh": "168, 1130, 1278, 94"
+        }
+    },
+    "short_id": "A1583",
+    "label": "Radcliffe (R.) & Sons (Mossley) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-18-B95",
+                    "short_id": "B95"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-18-C1114",
+                    "short_id": "C1114"
+                },
+                {
+                    "id": "BSCC-1951-84-18-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-84-18-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-84-18-C1126",
+                    "short_id": "C1126"
+                }
+            ],
+            "description": "The british company A1583 trades with the swiss company B95 in the goods C1114 and C1115 and C1119 and C1126"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Radcliffe (R.) & Sons (Mossley) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642143",
+            "lat": "53.51454",
+            "lng": "-2.03462",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Mossley",
+            "transcription": " Mossley, nr Manchester."
+        },
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Mossley, nr Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

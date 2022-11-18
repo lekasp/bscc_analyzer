@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-22-A250",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "250. Braithwaite (Isaac) & Son (Drysalters) Ltd., Kendal. B 132, C 991.",
+        "corrected": "250. Braithwaite (Isaac) & Son (Drysalters) Ltd., Kendal. B 132, C 991"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1150,1252,41/max/0/default.jpg",
+            "xywh": "194, 1150, 1252, 41"
+        }
+    },
+    "short_id": "A250",
+    "label": "Braithwaite (Isaac) & Son (Drysalters) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-22-B132",
+                    "short_id": "B132"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-22-C991",
+                    "short_id": "C991"
+                }
+            ],
+            "description": "The british company A250 trades with the swiss company B132 in the goods C991"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Braithwaite (Isaac) & Son (Drysalters) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645826",
+            "lat": "54.32681",
+            "lng": "-2.74757",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Kendal",
+            "transcription": " Kendal. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

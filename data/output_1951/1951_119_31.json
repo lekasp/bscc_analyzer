@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-31-B102",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "102. Bosshard (Hans U.), 6, Staffelstrasse, Zurich. x A 1975, C 722, 723, 724.",
+        "corrected": "102. Bosshard (Hans U.), 6, Staffelstrasse, Zurich. x A 1975, C 722, 723, 724"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1985,1336,42/max/0/default.jpg",
+            "xywh": "276, 1985, 1336, 42"
+        }
+    },
+    "short_id": "B102",
+    "label": "Bosshard (Hans U.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-31-A1975",
+                    "short_id": "A1975"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-31-C722",
+                    "short_id": "C722"
+                },
+                {
+                    "id": "BSCC-1951-119-31-C723",
+                    "short_id": "C723"
+                },
+                {
+                    "id": "BSCC-1951-119-31-C724",
+                    "short_id": "C724"
+                }
+            ],
+            "description": "The swiss company B102 trades with the british company A1975 in the goods C722 and C723 and C724"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bosshard (Hans U.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "6, Staffelstrasse, Zurich. x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

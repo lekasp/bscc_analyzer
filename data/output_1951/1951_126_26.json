@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-26-B314",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "314. Hasler-Ehrenberg (J.) AG., Wädenswil (Zurich). A 215, 773, C 772, 773, 884.",
+        "corrected": "314. Hasler-Ehrenberg (J.) AG., Wädenswil (Zurich).A 215, 773, C 772, 773, 884"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,2065,1299,75/max/0/default.jpg",
+            "xywh": "175, 2065, 1299, 75"
+        }
+    },
+    "short_id": "B314",
+    "label": "Hasler-Ehrenberg (J.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-26-A215",
+                    "short_id": "A215"
+                },
+                {
+                    "id": "BSCC-1951-126-26-A773",
+                    "short_id": "A773"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-26-C772",
+                    "short_id": "C772"
+                },
+                {
+                    "id": "BSCC-1951-126-26-C773",
+                    "short_id": "C773"
+                },
+                {
+                    "id": "BSCC-1951-126-26-C884",
+                    "short_id": "C884"
+                }
+            ],
+            "description": "The swiss company B314 trades with the british company A215 and A773 in the goods C772 and C773 and C884"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hasler-Ehrenberg (J.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658082",
+            "lat": "47.22683",
+            "lng": "8.6687",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wädenswil",
+            "transcription": " Wädenswil (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

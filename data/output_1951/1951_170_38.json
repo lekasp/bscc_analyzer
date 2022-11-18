@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-170-1951-38-C721",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "721. Baths, iron. A 2144, B 66.",
+        "corrected": "721. Baths, iron. A 2144, B 66"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 170,
+            "canvas": "http://localhost:8182/iiif/3/0170.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0170.jpg/205,2063,1295,42/max/0/default.jpg",
+            "xywh": "205, 2063, 1295, 42"
+        }
+    },
+    "short_id": "C721",
+    "label": "Baths, iron",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-170-38-A2144",
+                    "short_id": "A2144"
+                },
+                {
+                    "id": "BSCC-1951-170-38-B66",
+                    "short_id": "B66"
+                }
+            ],
+            "description": "with the british company A2144"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "8",
+            "level": 0,
+            "label": "Building Materials and Fittings, Sanitary Equipment, Heating, Ventilation, Gas and Water Circulation, Hardware and Ironmongery",
+            "part_of": "0",
+            "page": "170",
+            "line_number": "13"
+        },
+        {
+            "id": "8B",
+            "level": 1,
+            "label": "Sanitary Equipment",
+            "part_of": "8",
+            "page": "170",
+            "line_number": "35"
+        }
+    ]
+}

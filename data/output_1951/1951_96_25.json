@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-25-A1947",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1947. Travis Bros. Ltd., Rochdale. B 754, C 1084.",
+        "corrected": "1947. Travis Bros. Ltd., Rochdale. B 754, C 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1385,1288,38/max/0/default.jpg",
+            "xywh": "164, 1385, 1288, 38"
+        }
+    },
+    "short_id": "A1947",
+    "label": "Travis Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-25-B754",
+                    "short_id": "B754"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-25-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The british company A1947 trades with the swiss company B754 in the goods C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Travis Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639272",
+            "lat": "53.61766",
+            "lng": "-2.1552",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rochdale",
+            "transcription": " Rochdale. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

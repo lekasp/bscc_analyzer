@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-102-1951-6-A2195",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2195. Young (John S.) & Co. Ltd., Glasgow. B 733, C 209.",
+        "corrected": "2195. Young (John S.) & Co. Ltd., Glasgow. B 733, C 209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 102,
+            "canvas": "http://localhost:8182/iiif/3/0102.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0102.jpg/169,635,1247,41/max/0/default.jpg",
+            "xywh": "169, 635, 1247, 41"
+        }
+    },
+    "short_id": "A2195",
+    "label": "Young (John S.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-102-6-B733",
+                    "short_id": "B733"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-102-6-C209",
+                    "short_id": "C209"
+                }
+            ],
+            "description": "The british company A2195 trades with the swiss company B733 in the goods C209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Young (John S.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-39-C142",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "142. Alloy constructional steel. A 335, 648, 1993, B 509, 663, 763.",
+        "corrected": "142. Alloy constructional steel. A 335, 648, 1993, B 509, 663, 763"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,2174,1337,68/max/0/default.jpg",
+            "xywh": "264, 2174, 1337, 68"
+        }
+    },
+    "short_id": "C142",
+    "label": "Alloy constructional steel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-39-A335",
+                    "short_id": "A335"
+                },
+                {
+                    "id": "BSCC-1951-155-39-A648",
+                    "short_id": "A648"
+                },
+                {
+                    "id": "BSCC-1951-155-39-A1993",
+                    "short_id": "A1993"
+                },
+                {
+                    "id": "BSCC-1951-155-39-B509",
+                    "short_id": "B509"
+                },
+                {
+                    "id": "BSCC-1951-155-39-B663",
+                    "short_id": "B663"
+                },
+                {
+                    "id": "BSCC-1951-155-39-B763",
+                    "short_id": "B763"
+                }
+            ],
+            "description": "with the british company A335 and A648 and A1993 and B663 and B763"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3B",
+            "level": 1,
+            "label": "Alloys and Non-Ferrous Metals",
+            "part_of": "3",
+            "page": "155",
+            "line_number": "34"
+        }
+    ]
+}

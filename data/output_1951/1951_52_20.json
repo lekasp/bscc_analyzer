@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-20-A884",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "884. Hawker Aircraft Ltd., Kingston-on-Thames, Surrey. B 35, C 639.",
+        "corrected": "884. Hawker Aircraft Ltd., Kingston-on-Thames, Surrey. B 35, C 639"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,1378,1254,39/max/0/default.jpg",
+            "xywh": "182, 1378, 1254, 39"
+        }
+    },
+    "short_id": "A884",
+    "label": "Hawker Aircraft Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-20-B35",
+                    "short_id": "B35"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-20-C639",
+                    "short_id": "C639"
+                }
+            ],
+            "description": "The british company A884 trades with the swiss company B35 in the goods C639"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hawker Aircraft Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "6690829",
+            "lat": "51.41259",
+            "lng": "-0.2974",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Kingston upon Thames",
+            "transcription": " Kingston-on-Thames, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

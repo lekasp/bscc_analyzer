@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-0-A1166",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1166. Linen Thread Co. Ltd., Glasgow. B 783, C 1096, 1097.",
+        "corrected": "1166. Linen Thread Co. Ltd., Glasgow. B 783, C 1096, 1097"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,195,1288,84/max/0/default.jpg",
+            "xywh": "170, 195, 1288, 84"
+        }
+    },
+    "short_id": "A1166",
+    "label": "Linen Thread Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-0-B783",
+                    "short_id": "B783"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-0-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-66-0-C1097",
+                    "short_id": "C1097"
+                }
+            ],
+            "description": "The british company A1166 trades with the swiss company B783 in the goods C1096 and C1097"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Linen Thread Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": " Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

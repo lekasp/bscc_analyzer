@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-29-A303",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "303. British Ropes Ltd., London WC 1. B 763, C 130, 136, 1261, 1262.",
+        "corrected": "303. British Ropes Ltd., London WC 1. B 763, C 130, 136, 1261, 1262"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1540,1290,35/max/0/default.jpg",
+            "xywh": "189, 1540, 1290, 35"
+        }
+    },
+    "short_id": "A303",
+    "label": "British Ropes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-29-B763",
+                    "short_id": "B763"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-29-C130",
+                    "short_id": "C130"
+                },
+                {
+                    "id": "BSCC-1951-26-29-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-26-29-C1261",
+                    "short_id": "C1261"
+                },
+                {
+                    "id": "BSCC-1951-26-29-C1262",
+                    "short_id": "C1262"
+                }
+            ],
+            "description": "The british company A303 trades with the swiss company B763 in the goods C130 and C136 and C1261 and C1262"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Ropes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London WC 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-10-A2062",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2062. Wallpapers (Consolidated) Ltd., London WC 2. B 499, C 1034.",
+        "corrected": "2062. Wallpapers (Consolidated) Ltd., London WC 2. B 499, C 1034"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,714,1278,39/max/0/default.jpg",
+            "xywh": "348, 714, 1278, 39"
+        }
+    },
+    "short_id": "A2062",
+    "label": "Wallpapers (Consolidated) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-10-B499",
+                    "short_id": "B499"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-10-C1034",
+                    "short_id": "C1034"
+                }
+            ],
+            "description": "The british company A2062 trades with the swiss company B499 in the goods C1034"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wallpapers (Consolidated) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London WC 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

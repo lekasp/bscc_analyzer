@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-31-A1953",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1953. Trist (Ronald) & Co. Ltd., Slough. B 844, C 473.",
+        "corrected": "1953. Trist (Ronald) & Co. Ltd., Slough. B 844, C 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1618,1288,44/max/0/default.jpg",
+            "xywh": "164, 1618, 1288, 44"
+        }
+    },
+    "short_id": "A1953",
+    "label": "Trist (Ronald) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-31-B844",
+                    "short_id": "B844"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-31-C473",
+                    "short_id": "C473"
+                }
+            ],
+            "description": "The british company A1953 trades with the swiss company B844 in the goods C473"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Trist (Ronald) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637627",
+            "lat": "51.50949",
+            "lng": "-0.59541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Slough",
+            "transcription": " Slough. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-29-A1461",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1461. Overseas Mica Co. Ltd., Edgware, Middx. B 782, C 88. Overseas Trading Corp. (1939) Ltd., St. Helier, Jersey — see J. Lyons & Co. Ltd.",
+        "corrected": "1461. Overseas Mica Co. Ltd., Edgware, Middx. B 782, C 88.Overseas Trading Corp. (1939) Ltd., St. Helier, Jersey — see J. Lyons & Co. Ltd"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1721,1263,117/max/0/default.jpg",
+            "xywh": "180, 1721, 1263, 117"
+        }
+    },
+    "short_id": "A1461",
+    "label": "Overseas Mica Co. Ltd., Edgware, Middx. Overseas Trading Corp. (1939) Ltd., St. Helier, Jersey — see J. Lyons & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-29-B782",
+                    "short_id": "B782"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-29-C88",
+                    "short_id": "C88"
+                }
+            ],
+            "description": "The british company A1461 trades with the swiss company B782 in the goods C88"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Overseas Mica Co. Ltd., Edgware, Middx. Overseas Trading Corp. (1939) Ltd., St. Helier, Jersey — see J. Lyons & Co."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Ltd"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-12-B83",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "83. Blanc-Wirthlin (E.), 10, Crêt Taconnet, Neuchâtel. A 348, 451, 525, 1542, 1819, C 782, 799, 1172, 1302, 1389, 1408.",
+        "corrected": "83. Blanc-Wirthlin (E.), 10, Crêt Taconnet, Neuchâtel.A 348, 451, 525, 1542, 1819, C 782, 799, 1172, 1302, 1389, 1408"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,878,1336,83/max/0/default.jpg",
+            "xywh": "276, 878, 1336, 83"
+        }
+    },
+    "short_id": "B83",
+    "label": "Blanc-Wirthlin (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-12-A348",
+                    "short_id": "A348"
+                },
+                {
+                    "id": "BSCC-1951-119-12-A451",
+                    "short_id": "A451"
+                },
+                {
+                    "id": "BSCC-1951-119-12-A525",
+                    "short_id": "A525"
+                },
+                {
+                    "id": "BSCC-1951-119-12-A1542",
+                    "short_id": "A1542"
+                },
+                {
+                    "id": "BSCC-1951-119-12-A1819",
+                    "short_id": "A1819"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-12-C782",
+                    "short_id": "C782"
+                },
+                {
+                    "id": "BSCC-1951-119-12-C799",
+                    "short_id": "C799"
+                },
+                {
+                    "id": "BSCC-1951-119-12-C1172",
+                    "short_id": "C1172"
+                },
+                {
+                    "id": "BSCC-1951-119-12-C1302",
+                    "short_id": "C1302"
+                },
+                {
+                    "id": "BSCC-1951-119-12-C1389",
+                    "short_id": "C1389"
+                },
+                {
+                    "id": "BSCC-1951-119-12-C1408",
+                    "short_id": "C1408"
+                }
+            ],
+            "description": "The swiss company B83 trades with the british company A348 and A451 and A525 and A1542 and A1819 in the goods C782 and C799 and C1172 and C1302 and C1389 and C1408"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blanc-Wirthlin (E.)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "10, Crêt Taconnet, Neuchâtel."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

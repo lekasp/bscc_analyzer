@@ -1,0 +1,106 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-30-C1245",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1245. Sewing needles. A 905, 1356, 1398, 1408, 1631, B 603, 684, 783, 849.",
+        "corrected": "1245. Sewing needles. A 905, 1356, 1398, 1408, 1631, B 603, 684, 783, 849"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,1539,1267,38/max/0/default.jpg",
+            "xywh": "216, 1539, 1267, 38"
+        }
+    },
+    "short_id": "C1245",
+    "label": "Sewing needles",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-30-A905",
+                    "short_id": "A905"
+                },
+                {
+                    "id": "BSCC-1951-186-30-A1356",
+                    "short_id": "A1356"
+                },
+                {
+                    "id": "BSCC-1951-186-30-A1398",
+                    "short_id": "A1398"
+                },
+                {
+                    "id": "BSCC-1951-186-30-A1408",
+                    "short_id": "A1408"
+                },
+                {
+                    "id": "BSCC-1951-186-30-A1631",
+                    "short_id": "A1631"
+                },
+                {
+                    "id": "BSCC-1951-186-30-B603",
+                    "short_id": "B603"
+                },
+                {
+                    "id": "BSCC-1951-186-30-B684",
+                    "short_id": "B684"
+                },
+                {
+                    "id": "BSCC-1951-186-30-B783",
+                    "short_id": "B783"
+                },
+                {
+                    "id": "BSCC-1951-186-30-B849",
+                    "short_id": "B849"
+                }
+            ],
+            "description": "with the british company A905 and A1356 and A1398 and A1408 and A1631 and B684 and B783 and B849"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15F",
+            "level": 1,
+            "label": "Haberdashery",
+            "part_of": "15",
+            "page": "186",
+            "line_number": "9"
+        }
+    ]
+}

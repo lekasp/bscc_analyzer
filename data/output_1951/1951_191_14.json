@@ -1,0 +1,126 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-14-C1410",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1410. Sports equipment, general. A 340, 509, 611, 811, 1159, 1781, 1814, 1874, B 104, 194, 508, 624, 701, 803.",
+        "corrected": "1410. Sports equipment, general.A 340, 509, 611, 811, 1159, 1781, 1814, 1874, B 104, 194, 508, 624, 701, 803"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,787,1305,81/max/0/default.jpg",
+            "xywh": "304, 787, 1305, 81"
+        }
+    },
+    "short_id": "C1410",
+    "label": "Sports equipment, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-14-A340",
+                    "short_id": "A340"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A509",
+                    "short_id": "A509"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A611",
+                    "short_id": "A611"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A811",
+                    "short_id": "A811"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A1159",
+                    "short_id": "A1159"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A1781",
+                    "short_id": "A1781"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A1814",
+                    "short_id": "A1814"
+                },
+                {
+                    "id": "BSCC-1951-191-14-A1874",
+                    "short_id": "A1874"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B104",
+                    "short_id": "B104"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B194",
+                    "short_id": "B194"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B508",
+                    "short_id": "B508"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B624",
+                    "short_id": "B624"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B701",
+                    "short_id": "B701"
+                },
+                {
+                    "id": "BSCC-1951-191-14-B803",
+                    "short_id": "B803"
+                }
+            ],
+            "description": "with the british company A340 and A509 and A611 and A811 and A1159 and A1781 and A1814 and A1874 and B194 and B508 and B624 and B701 and B803"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21A",
+            "level": 1,
+            "label": "Sports Goods",
+            "part_of": "21",
+            "page": "190",
+            "line_number": "30"
+        }
+    ]
+}

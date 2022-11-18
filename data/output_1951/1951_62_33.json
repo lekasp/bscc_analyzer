@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-62-1951-33-A1105",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1105. Kreglinger & Fernau Ltd., London EC 2. B 256, C 1079, 1080, 1082.",
+        "corrected": "1105. Kreglinger & Fernau Ltd., London EC 2. B 256, C 1079, 1080, 1082"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 62,
+            "canvas": "http://localhost:8182/iiif/3/0062.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0062.jpg/182,1586,1250,41/max/0/default.jpg",
+            "xywh": "182, 1586, 1250, 41"
+        }
+    },
+    "short_id": "A1105",
+    "label": "Kreglinger & Fernau Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-62-33-B256",
+                    "short_id": "B256"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-62-33-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-62-33-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-62-33-C1082",
+                    "short_id": "C1082"
+                }
+            ],
+            "description": "The british company A1105 trades with the swiss company B256 in the goods C1079 and C1080 and C1082"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kreglinger & Fernau Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

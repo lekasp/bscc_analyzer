@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-9-A458",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "458. Combined Optical Industries Ltd., London W 14. B 262, C 1264, 1266, Commer Cars Ltd., Luton, Beds. — see Rootes Group.",
+        "corrected": "458. Combined Optical Industries Ltd., London W 14. B 262, C 1264, 1266,Commer Cars Ltd., Luton, Beds. — see Rootes Group"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,605,1292,82/max/0/default.jpg",
+            "xywh": "157, 605, 1292, 82"
+        }
+    },
+    "short_id": "A458",
+    "label": "Combined Optical Industries Ltd., London W 14. Commer Cars Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-9-B262",
+                    "short_id": "B262"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-9-C1264",
+                    "short_id": "C1264"
+                },
+                {
+                    "id": "BSCC-1951-34-9-C1266",
+                    "short_id": "C1266"
+                }
+            ],
+            "description": "The british company A458 trades with the swiss company B262 in the goods C1264 and C1266"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Combined Optical Industries Ltd., London W 14. Commer Cars Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643339",
+            "lat": "51.87967",
+            "lng": "-0.41748",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Luton",
+            "transcription": " Luton, Beds. — see Rootes Group"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

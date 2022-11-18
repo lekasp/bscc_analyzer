@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-47-A227",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "227. Blythe Colour Works Ltd., Cresswell, Stoke-on-Trent. B 376, C 959, 965, 971.",
+        "corrected": "227. Blythe Colour Works Ltd., Cresswell, Stoke-on-Trent.B 376, C 959, 965, 971"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,2098,1260,79/max/0/default.jpg",
+            "xywh": "205, 2098, 1260, 79"
+        }
+    },
+    "short_id": "A227",
+    "label": "Blythe Colour Works Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-47-B376",
+                    "short_id": "B376"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-47-C959",
+                    "short_id": "C959"
+                },
+                {
+                    "id": "BSCC-1951-22-47-C965",
+                    "short_id": "C965"
+                },
+                {
+                    "id": "BSCC-1951-22-47-C971",
+                    "short_id": "C971"
+                }
+            ],
+            "description": "The british company A227 trades with the swiss company B376 in the goods C959 and C965 and C971"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blythe Colour Works Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Cresswell, Stoke-on-Trent."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

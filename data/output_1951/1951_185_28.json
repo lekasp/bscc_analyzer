@@ -1,0 +1,142 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-185-1951-28-C1209",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1209. Scarves. A 35, 223, 724, 828, 874, 1107, 1227, 1555, 1641, 1696, 1702, 2009, B 63. 451, 463, 695, 699.",
+        "corrected": "1209. Scarves.A 35, 223, 724, 828, 874, 1107, 1227, 1555, 1641, 1696, 1702, 2009, B 63. 451, 463, 695, 699"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 185,
+            "canvas": "http://localhost:8182/iiif/3/0185.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0185.jpg/298,1687,1365,118/max/0/default.jpg",
+            "xywh": "298, 1687, 1365, 118"
+        }
+    },
+    "short_id": "C1209",
+    "label": "Scarves",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-185-28-A35",
+                    "short_id": "A35"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A223",
+                    "short_id": "A223"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A724",
+                    "short_id": "A724"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A828",
+                    "short_id": "A828"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A874",
+                    "short_id": "A874"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1107",
+                    "short_id": "A1107"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1227",
+                    "short_id": "A1227"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1555",
+                    "short_id": "A1555"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1641",
+                    "short_id": "A1641"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1696",
+                    "short_id": "A1696"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A1702",
+                    "short_id": "A1702"
+                },
+                {
+                    "id": "BSCC-1951-185-28-A2009",
+                    "short_id": "A2009"
+                },
+                {
+                    "id": "BSCC-1951-185-28-B63451",
+                    "short_id": "B63451"
+                },
+                {
+                    "id": "BSCC-1951-185-28-B463",
+                    "short_id": "B463"
+                },
+                {
+                    "id": "BSCC-1951-185-28-B695",
+                    "short_id": "B695"
+                },
+                {
+                    "id": "BSCC-1951-185-28-B699",
+                    "short_id": "B699"
+                }
+            ],
+            "description": "with the british company A35 and A223 and A724 and A828 and A874 and A1107 and A1227 and A1555 and A1641 and A1696 and A1702 and A2009 and B463 and B695 and B699"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15D",
+            "level": 1,
+            "label": "Garments",
+            "part_of": "15",
+            "page": "184",
+            "line_number": "3"
+        },
+        {
+            "id": "15Dd",
+            "level": 2,
+            "label": "HATS, GLOVES, NECKWEAR, ETC",
+            "part_of": "15D",
+            "page": "185",
+            "line_number": "14"
+        }
+    ]
+}

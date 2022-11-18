@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-173-1951-4-C800",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "800. Flooring. A 610, 1679, 1683, B 194, 408, 617.",
+        "corrected": "800. Flooring. A 610, 1679, 1683, B 194, 408, 617"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 173,
+            "canvas": "http://localhost:8182/iiif/3/0173.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0173.jpg/275,415,1300,39/max/0/default.jpg",
+            "xywh": "275, 415, 1300, 39"
+        }
+    },
+    "short_id": "C800",
+    "label": "Flooring",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-173-4-A610",
+                    "short_id": "A610"
+                },
+                {
+                    "id": "BSCC-1951-173-4-A1679",
+                    "short_id": "A1679"
+                },
+                {
+                    "id": "BSCC-1951-173-4-A1683",
+                    "short_id": "A1683"
+                },
+                {
+                    "id": "BSCC-1951-173-4-B194",
+                    "short_id": "B194"
+                },
+                {
+                    "id": "BSCC-1951-173-4-B408",
+                    "short_id": "B408"
+                },
+                {
+                    "id": "BSCC-1951-173-4-B617",
+                    "short_id": "B617"
+                }
+            ],
+            "description": "with the british company A610 and A1679 and A1683 and B408 and B617"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9A",
+            "level": 1,
+            "label": "Rubber and Rubber Products",
+            "part_of": "9",
+            "page": "172",
+            "line_number": "11"
+        },
+        {
+            "id": "9Ad",
+            "level": 2,
+            "label": "DOMESTIC",
+            "part_of": "9A",
+            "page": "173",
+            "line_number": "0"
+        }
+    ]
+}

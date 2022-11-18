@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-18-B539",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "539. Oberholzer & Co., 18, Dreikönigstrasse, Zurich. A 457, 979, 1044, C 1076, 1078, 1084.",
+        "corrected": "539. Oberholzer & Co., 18, Dreikönigstrasse, Zurich.A 457, 979, 1044, C 1076, 1078, 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1410,1276,94/max/0/default.jpg",
+            "xywh": "187, 1410, 1276, 94"
+        }
+    },
+    "short_id": "B539",
+    "label": "Oberholzer & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-18-A457",
+                    "short_id": "A457"
+                },
+                {
+                    "id": "BSCC-1951-134-18-A979",
+                    "short_id": "A979"
+                },
+                {
+                    "id": "BSCC-1951-134-18-A1044",
+                    "short_id": "A1044"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-18-C1076",
+                    "short_id": "C1076"
+                },
+                {
+                    "id": "BSCC-1951-134-18-C1078",
+                    "short_id": "C1078"
+                },
+                {
+                    "id": "BSCC-1951-134-18-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The swiss company B539 trades with the british company A457 and A979 and A1044 in the goods C1076 and C1078 and C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Oberholzer & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 18, Dreikönigstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

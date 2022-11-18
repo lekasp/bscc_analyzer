@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-32-A659",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "659. Evans Medical Supplies Ltd., Speke, Liverpool. B 323, C 933.",
+        "corrected": "659. Evans Medical Supplies Ltd., Speke, Liverpool. B 323, C 933"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,1565,1259,40/max/0/default.jpg",
+            "xywh": "194, 1565, 1259, 40"
+        }
+    },
+    "short_id": "A659",
+    "label": "Evans Medical Supplies Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-32-B323",
+                    "short_id": "B323"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-32-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The british company A659 trades with the swiss company B323 in the goods C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Evans Medical Supplies Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637241",
+            "lat": "53.34071",
+            "lng": "-2.841",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Speke",
+            "transcription": " Speke, Liverpool. "
+        },
+        {
+            "id": "2644210",
+            "lat": "53.41058",
+            "lng": "-2.97794",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Liverpool",
+            "transcription": " Speke, Liverpool. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

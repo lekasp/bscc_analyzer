@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-12-C194",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿194. Drilling machines, radial. A 79, 94, 1089, B 328, 596, 646.",
+        "corrected": "194. Drilling machines, radial. A 79, 94, 1089, B 328, 596, 646"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,748,1281,40/max/0/default.jpg",
+            "xywh": "303, 748, 1281, 40"
+        }
+    },
+    "short_id": "C194",
+    "label": "Drilling machines, radial",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-12-A79",
+                    "short_id": "A79"
+                },
+                {
+                    "id": "BSCC-1951-157-12-A94",
+                    "short_id": "A94"
+                },
+                {
+                    "id": "BSCC-1951-157-12-A1089",
+                    "short_id": "A1089"
+                },
+                {
+                    "id": "BSCC-1951-157-12-B328",
+                    "short_id": "B328"
+                },
+                {
+                    "id": "BSCC-1951-157-12-B596",
+                    "short_id": "B596"
+                },
+                {
+                    "id": "BSCC-1951-157-12-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "description": "with the british company A79 and A94 and A1089 and B596 and B646"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

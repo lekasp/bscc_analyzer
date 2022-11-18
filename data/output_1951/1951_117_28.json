@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-28-B29",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "29. Apco AG., 6, Lavaterstrasse, Zurich. A 750, 1713, C 1441, 1442, 1443.",
+        "corrected": "29. Apco AG., 6, Lavaterstrasse, Zurich. A 750, 1713, C 1441, 1442, 1443"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1671,1350,38/max/0/default.jpg",
+            "xywh": "278, 1671, 1350, 38"
+        }
+    },
+    "short_id": "B29",
+    "label": "Apco AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-28-A750",
+                    "short_id": "A750"
+                },
+                {
+                    "id": "BSCC-1951-117-28-A1713",
+                    "short_id": "A1713"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-28-C1441",
+                    "short_id": "C1441"
+                },
+                {
+                    "id": "BSCC-1951-117-28-C1442",
+                    "short_id": "C1442"
+                },
+                {
+                    "id": "BSCC-1951-117-28-C1443",
+                    "short_id": "C1443"
+                }
+            ],
+            "description": "The swiss company B29 trades with the british company A750 and A1713 in the goods C1441 and C1442 and C1443"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Apco AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 6, Lavaterstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

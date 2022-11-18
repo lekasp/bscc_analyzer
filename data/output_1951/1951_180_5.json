@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-180-1951-5-C1052",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1052. Carbon paper. A 388, 454, 633, 1101, B 45, 204, 437a, 554.",
+        "corrected": "1052. Carbon paper. A 388, 454, 633, 1101, B 45, 204, 437a, 554"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 180,
+            "canvas": "http://localhost:8182/iiif/3/0180.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0180.jpg/175,540,1390,43/max/0/default.jpg",
+            "xywh": "175, 540, 1390, 43"
+        }
+    },
+    "short_id": "C1052",
+    "label": "Carbon paper",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-180-5-A388",
+                    "short_id": "A388"
+                },
+                {
+                    "id": "BSCC-1951-180-5-A454",
+                    "short_id": "A454"
+                },
+                {
+                    "id": "BSCC-1951-180-5-A633",
+                    "short_id": "A633"
+                },
+                {
+                    "id": "BSCC-1951-180-5-A1101",
+                    "short_id": "A1101"
+                },
+                {
+                    "id": "BSCC-1951-180-5-B45",
+                    "short_id": "B45"
+                },
+                {
+                    "id": "BSCC-1951-180-5-B204",
+                    "short_id": "B204"
+                },
+                {
+                    "id": "BSCC-1951-180-5-B437a",
+                    "short_id": "B437a"
+                },
+                {
+                    "id": "BSCC-1951-180-5-B554",
+                    "short_id": "B554"
+                }
+            ],
+            "description": "with the british company A388 and A454 and A633 and A1101 and B204 and B437a and B554"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "14",
+            "level": 0,
+            "label": "Office Equipment and Appliances",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "0"
+        }
+    ]
+}

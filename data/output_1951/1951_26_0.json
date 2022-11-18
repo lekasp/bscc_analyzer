@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-0-A275",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿275. British Buttner Pipes Co., Glasgow. B 326, C 1452.",
+        "corrected": "275. British Buttner Pipes Co., Glasgow. B 326, C 1452"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,219,1290,57/max/0/default.jpg",
+            "xywh": "189, 219, 1290, 57"
+        }
+    },
+    "short_id": "A275",
+    "label": "British Buttner Pipes Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-0-B326",
+                    "short_id": "B326"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-0-C1452",
+                    "short_id": "C1452"
+                }
+            ],
+            "description": "The british company A275 trades with the swiss company B326 in the goods C1452"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Buttner Pipes Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648579",
+            "lat": "55.86515",
+            "lng": "-4.25763",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glasgow",
+            "transcription": ", Glasgow. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

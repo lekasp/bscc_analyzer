@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-22-B93",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 93. Bollag (Siegfried) & Cie., 9, Schindlerstrasse, Zurich. A 798, 888, 1027, 1378, 1688, C 1108, 1117, 1173, 1187.",
+        "corrected": "93. Bollag (Siegfried) & Cie., 9, Schindlerstrasse, Zurich.A 798, 888, 1027, 1378, 1688, C 1108, 1117, 1173, 1187"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1433,1336,77/max/0/default.jpg",
+            "xywh": "276, 1433, 1336, 77"
+        }
+    },
+    "short_id": "B93",
+    "label": "Bollag (Siegfried) & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-22-A798",
+                    "short_id": "A798"
+                },
+                {
+                    "id": "BSCC-1951-119-22-A888",
+                    "short_id": "A888"
+                },
+                {
+                    "id": "BSCC-1951-119-22-A1027",
+                    "short_id": "A1027"
+                },
+                {
+                    "id": "BSCC-1951-119-22-A1378",
+                    "short_id": "A1378"
+                },
+                {
+                    "id": "BSCC-1951-119-22-A1688",
+                    "short_id": "A1688"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-22-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-119-22-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-119-22-C1173",
+                    "short_id": "C1173"
+                },
+                {
+                    "id": "BSCC-1951-119-22-C1187",
+                    "short_id": "C1187"
+                }
+            ],
+            "description": "The swiss company B93 trades with the british company A798 and A888 and A1027 and A1378 and A1688 in the goods C1108 and C1117 and C1173 and C1187"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bollag (Siegfried) & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 9, Schindlerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

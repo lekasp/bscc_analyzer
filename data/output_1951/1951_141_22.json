@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-22-B748",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "748. Trauffer (Hans) AG., 108, Seestrasse, Kilchberg (Zurich). A 1616, C 823,971.",
+        "corrected": "748. Trauffer (Hans) AG., 108, Seestrasse, Kilchberg (Zurich). A 1616, C 823,971"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1873,1309,39/max/0/default.jpg",
+            "xywh": "290, 1873, 1309, 39"
+        }
+    },
+    "short_id": "B748",
+    "label": "Trauffer (Hans) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-22-A1616",
+                    "short_id": "A1616"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-22-C823",
+                    "short_id": "C823"
+                },
+                {
+                    "id": "BSCC-1951-141-22-C971",
+                    "short_id": "C971"
+                }
+            ],
+            "description": "The swiss company B748 trades with the british company A1616 in the goods C823 and C971"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Trauffer (Hans) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660161",
+            "lat": "47.32438",
+            "lng": "8.54548",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Kilchberg",
+            "transcription": " 108, Seestrasse, Kilchberg (Zurich). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-9-B206",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 206. Elmer (Otto) & Co., 18, Tödistrasse, Zurich. A 293, C 1032.",
+        "corrected": "206. Elmer (Otto) & Co., 18, Tödistrasse, Zurich. A 293, C 1032"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,858,1247,42/max/0/default.jpg",
+            "xywh": "304, 858, 1247, 42"
+        }
+    },
+    "short_id": "B206",
+    "label": "Elmer (Otto) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-9-A293",
+                    "short_id": "A293"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-9-C1032",
+                    "short_id": "C1032"
+                }
+            ],
+            "description": "The swiss company B206 trades with the british company A293 in the goods C1032"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Elmer (Otto) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 18, Tödistrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

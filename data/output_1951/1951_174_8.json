@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-174-1951-8-C835",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "835. Goatskins, tanned. A 2185, B 422.",
+        "corrected": "835. Goatskins, tanned. A 2185, B 422"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 174,
+            "canvas": "http://localhost:8182/iiif/3/0174.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0174.jpg/224,719,1334,38/max/0/default.jpg",
+            "xywh": "224, 719, 1334, 38"
+        }
+    },
+    "short_id": "C835",
+    "label": "Goatskins, tanned",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-174-8-A2185",
+                    "short_id": "A2185"
+                },
+                {
+                    "id": "BSCC-1951-174-8-B422",
+                    "short_id": "B422"
+                }
+            ],
+            "description": "with the british company A2185"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10A",
+            "level": 1,
+            "label": "Hides, Skins and Leather",
+            "part_of": "10",
+            "page": "174",
+            "line_number": "3"
+        },
+        {
+            "id": "10Aa",
+            "level": 2,
+            "label": "HIDES AND SKINS",
+            "part_of": "10A",
+            "page": "174",
+            "line_number": "4"
+        }
+    ]
+}

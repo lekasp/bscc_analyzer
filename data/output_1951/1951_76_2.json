@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-2-A1391",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1391. Nash Tyzack Industries Ltd., Stourbridge. B 209, C 378, 382, 390, 400, 412.",
+        "corrected": "1391. Nash Tyzack Industries Ltd., Stourbridge.B 209, C 378, 382, 390, 400, 412"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,349,1323,75/max/0/default.jpg",
+            "xywh": "174, 349, 1323, 75"
+        }
+    },
+    "short_id": "A1391",
+    "label": "Nash Tyzack Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-2-B209",
+                    "short_id": "B209"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-2-C378",
+                    "short_id": "C378"
+                },
+                {
+                    "id": "BSCC-1951-76-2-C382",
+                    "short_id": "C382"
+                },
+                {
+                    "id": "BSCC-1951-76-2-C390",
+                    "short_id": "C390"
+                },
+                {
+                    "id": "BSCC-1951-76-2-C400",
+                    "short_id": "C400"
+                },
+                {
+                    "id": "BSCC-1951-76-2-C412",
+                    "short_id": "C412"
+                }
+            ],
+            "description": "The british company A1391 trades with the swiss company B209 in the goods C378 and C382 and C390 and C400 and C412"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Nash Tyzack Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636769",
+            "lat": "52.45608",
+            "lng": "-2.14317",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stourbridge",
+            "transcription": " Stourbridge."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

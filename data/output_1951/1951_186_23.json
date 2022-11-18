@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-23-C1238",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1238. Handbag frames and fasteners. A 536, B 295.",
+        "corrected": "1238. Handbag frames and fasteners. A 536, B 295"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,1265,1267,39/max/0/default.jpg",
+            "xywh": "216, 1265, 1267, 39"
+        }
+    },
+    "short_id": "C1238",
+    "label": "Handbag frames and fasteners",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-23-A536",
+                    "short_id": "A536"
+                },
+                {
+                    "id": "BSCC-1951-186-23-B295",
+                    "short_id": "B295"
+                }
+            ],
+            "description": "with the british company A536"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15F",
+            "level": 1,
+            "label": "Haberdashery",
+            "part_of": "15",
+            "page": "186",
+            "line_number": "9"
+        }
+    ]
+}

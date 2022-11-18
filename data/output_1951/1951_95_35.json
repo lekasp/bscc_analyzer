@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-35-A1916",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1916. Taylor & Jones Ltd., Honley, Huddersfield. B 483, C 402a.",
+        "corrected": "1916. Taylor & Jones Ltd., Honley, Huddersfield. B 483, C 402a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,1963,1285,40/max/0/default.jpg",
+            "xywh": "340, 1963, 1285, 40"
+        }
+    },
+    "short_id": "A1916",
+    "label": "Taylor & Jones Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-35-B483",
+                    "short_id": "B483"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-35-C402a",
+                    "short_id": "C402a"
+                }
+            ],
+            "description": "The british company A1916 trades with the swiss company B483 in the goods C402a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Taylor & Jones Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646657",
+            "lat": "53.60264",
+            "lng": "-1.79393",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Honley",
+            "transcription": " Honley, Huddersfield. "
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Honley, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

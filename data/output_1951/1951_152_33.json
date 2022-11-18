@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-33-C30",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "30. Chewing-gum. A 67, 2184, B 13, 354.",
+        "corrected": "30. Chewing-gum. A 67, 2184, B 13, 354"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,1956,1293,39/max/0/default.jpg",
+            "xywh": "202, 1956, 1293, 39"
+        }
+    },
+    "short_id": "C30",
+    "label": "Chewing-gum",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-33-A67",
+                    "short_id": "A67"
+                },
+                {
+                    "id": "BSCC-1951-152-33-A2184",
+                    "short_id": "A2184"
+                },
+                {
+                    "id": "BSCC-1951-152-33-B13",
+                    "short_id": "B13"
+                },
+                {
+                    "id": "BSCC-1951-152-33-B354",
+                    "short_id": "B354"
+                }
+            ],
+            "description": "with the british company A67 and A2184 and B354"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1C",
+            "level": 1,
+            "label": "Manufactured Food Products",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "29"
+        }
+    ]
+}

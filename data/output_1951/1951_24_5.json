@@ -1,0 +1,81 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-5-A233",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "233. Booth & Colclough Ltd., Hanley, Stoke-on-Trent. * C 1358.",
+        "corrected": "233. Booth & Colclough Ltd., Hanley, Stoke-on-Trent. * C 1358"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,480,1252,41/max/0/default.jpg",
+            "xywh": "194, 480, 1252, 41"
+        }
+    },
+    "short_id": "A233",
+    "label": "Booth & Colclough Ltd.",
+    "connection": [
+        {
+            "description": "The british company A233 trades "
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Booth & Colclough Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647525",
+            "lat": "53.02492",
+            "lng": "-2.17395",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hanley",
+            "transcription": " Hanley, Stoke-on-Trent. "
+        },
+        {
+            "id": "2636841",
+            "lat": "53.00415",
+            "lng": "-2.18538",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stoke-on-Trent",
+            "transcription": " Hanley, Stoke-on-Trent. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

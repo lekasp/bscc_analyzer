@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-10-B737",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 737. Tatham (C. W. L.), 41, avenue Vuillemin, Lausanne. A 41, 1421, 1558, 1779, 1966, 2078, C 507, 513, 562, 751, 753, 1372, 1373.",
+        "corrected": "737. Tatham (C. W. L.), 41, avenue Vuillemin, Lausanne.A 41, 1421, 1558, 1779, 1966, 2078, C 507, 513, 562, 751, 753, 1372, 1373"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,966,1309,78/max/0/default.jpg",
+            "xywh": "290, 966, 1309, 78"
+        }
+    },
+    "short_id": "B737",
+    "label": "Tatham (C. W. L.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-10-A41",
+                    "short_id": "A41"
+                },
+                {
+                    "id": "BSCC-1951-141-10-A1421",
+                    "short_id": "A1421"
+                },
+                {
+                    "id": "BSCC-1951-141-10-A1558",
+                    "short_id": "A1558"
+                },
+                {
+                    "id": "BSCC-1951-141-10-A1779",
+                    "short_id": "A1779"
+                },
+                {
+                    "id": "BSCC-1951-141-10-A1966",
+                    "short_id": "A1966"
+                },
+                {
+                    "id": "BSCC-1951-141-10-A2078",
+                    "short_id": "A2078"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-10-C507",
+                    "short_id": "C507"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C513",
+                    "short_id": "C513"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C751",
+                    "short_id": "C751"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C753",
+                    "short_id": "C753"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C1372",
+                    "short_id": "C1372"
+                },
+                {
+                    "id": "BSCC-1951-141-10-C1373",
+                    "short_id": "C1373"
+                }
+            ],
+            "description": "The swiss company B737 trades with the british company A41 and A1421 and A1558 and A1779 and A1966 and A2078 in the goods C507 and C513 and C562 and C751 and C753 and C1372 and C1373"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tatham (C. W. L.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "41, avenue Vuillemin, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-39-C426",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "426. Belts, driving, general. A 70, 273, 681, 748, B 26, 114, 433,578.",
+        "corrected": "426. Belts, driving, general. A 70, 273, 681, 748, B 26, 114, 433,578"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,2114,1336,38/max/0/default.jpg",
+            "xywh": "172, 2114, 1336, 38"
+        }
+    },
+    "short_id": "C426",
+    "label": "Belts, driving, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-39-A70",
+                    "short_id": "A70"
+                },
+                {
+                    "id": "BSCC-1951-162-39-A273",
+                    "short_id": "A273"
+                },
+                {
+                    "id": "BSCC-1951-162-39-A681",
+                    "short_id": "A681"
+                },
+                {
+                    "id": "BSCC-1951-162-39-A748",
+                    "short_id": "A748"
+                },
+                {
+                    "id": "BSCC-1951-162-39-B26",
+                    "short_id": "B26"
+                },
+                {
+                    "id": "BSCC-1951-162-39-B114",
+                    "short_id": "B114"
+                },
+                {
+                    "id": "BSCC-1951-162-39-B433",
+                    "short_id": "B433"
+                },
+                {
+                    "id": "BSCC-1951-162-39-B578",
+                    "short_id": "B578"
+                }
+            ],
+            "description": "with the british company A70 and A273 and A681 and A748 and B114 and B433 and B578"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Eb",
+            "level": 2,
+            "label": "POWER TRANSMISSION",
+            "part_of": "4E",
+            "page": "162",
+            "line_number": "31"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-156-1951-35-C176",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "176. Wire, woven. A 820, 1632, 1994, B 473, 639, 670.",
+        "corrected": "176. Wire, woven. A 820, 1632, 1994, B 473, 639, 670"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 156,
+            "canvas": "http://localhost:8182/iiif/3/0156.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0156.jpg/184,1722,1280,38/max/0/default.jpg",
+            "xywh": "184, 1722, 1280, 38"
+        }
+    },
+    "short_id": "C176",
+    "label": "Wire, woven",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-156-35-A820",
+                    "short_id": "A820"
+                },
+                {
+                    "id": "BSCC-1951-156-35-A1632",
+                    "short_id": "A1632"
+                },
+                {
+                    "id": "BSCC-1951-156-35-A1994",
+                    "short_id": "A1994"
+                },
+                {
+                    "id": "BSCC-1951-156-35-B473",
+                    "short_id": "B473"
+                },
+                {
+                    "id": "BSCC-1951-156-35-B639",
+                    "short_id": "B639"
+                },
+                {
+                    "id": "BSCC-1951-156-35-B670",
+                    "short_id": "B670"
+                }
+            ],
+            "description": "with the british company A820 and A1632 and A1994 and B639 and B670"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3C",
+            "level": 1,
+            "label": "Unspecified",
+            "part_of": "3",
+            "page": "156",
+            "line_number": "29"
+        }
+    ]
+}

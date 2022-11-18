@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-23-B544",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "544. Oettinger (Ing. Charles), 24, Sternenstrasse, Zurich. A 375, 426, 480, C 660, 661, 664, 668, 671, 682, 686, 687, 694, 697.",
+        "corrected": "544. Oettinger (Ing. Charles), 24, Sternenstrasse, Zurich.A 375, 426, 480, C 660, 661, 664, 668, 671, 682, 686, 687, 694, 697"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1781,1276,73/max/0/default.jpg",
+            "xywh": "187, 1781, 1276, 73"
+        }
+    },
+    "short_id": "B544",
+    "label": "Oettinger (Ing. Charles)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-23-A375",
+                    "short_id": "A375"
+                },
+                {
+                    "id": "BSCC-1951-134-23-A426",
+                    "short_id": "A426"
+                },
+                {
+                    "id": "BSCC-1951-134-23-A480",
+                    "short_id": "A480"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-23-C660",
+                    "short_id": "C660"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C661",
+                    "short_id": "C661"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C664",
+                    "short_id": "C664"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C668",
+                    "short_id": "C668"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C671",
+                    "short_id": "C671"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C682",
+                    "short_id": "C682"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C686",
+                    "short_id": "C686"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C687",
+                    "short_id": "C687"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C694",
+                    "short_id": "C694"
+                },
+                {
+                    "id": "BSCC-1951-134-23-C697",
+                    "short_id": "C697"
+                }
+            ],
+            "description": "The swiss company B544 trades with the british company A375 and A426 and A480 in the goods C660 and C661 and C664 and C668 and C671 and C682 and C686 and C687 and C694 and C697"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Oettinger (Ing. Charles)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "24, Sternenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

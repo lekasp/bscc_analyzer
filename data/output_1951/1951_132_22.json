@@ -1,0 +1,176 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-22-B488",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "488. Meister (Paul N.), 115, Gartenstrasse, Basle. A 261, 294, 1180, 1359, 1528, 1838, 2039, C 840, 842, 843, 845, 849, 850, 851, 853, 856, 857, 860, 861, 864, 868, 869, 870, 885, 886, 894.",
+        "corrected": "488. Meister (Paul N.), 115, Gartenstrasse, Basle.A 261, 294, 1180, 1359, 1528, 1838, 2039, C 840, 842, 843, 845, 849, 850, 851, 853, 856, 857, 860, 861, 864, 868, 869, 870, 885, 886, 894"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,1960,1311,120/max/0/default.jpg",
+            "xywh": "167, 1960, 1311, 120"
+        }
+    },
+    "short_id": "B488",
+    "label": "Meister (Paul N.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-22-A261",
+                    "short_id": "A261"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A294",
+                    "short_id": "A294"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A1180",
+                    "short_id": "A1180"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A1359",
+                    "short_id": "A1359"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A1528",
+                    "short_id": "A1528"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A1838",
+                    "short_id": "A1838"
+                },
+                {
+                    "id": "BSCC-1951-132-22-A2039",
+                    "short_id": "A2039"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-22-C840",
+                    "short_id": "C840"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C842",
+                    "short_id": "C842"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C843",
+                    "short_id": "C843"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C845",
+                    "short_id": "C845"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C849",
+                    "short_id": "C849"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C850",
+                    "short_id": "C850"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C851",
+                    "short_id": "C851"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C853",
+                    "short_id": "C853"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C857",
+                    "short_id": "C857"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C860",
+                    "short_id": "C860"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C861",
+                    "short_id": "C861"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C864",
+                    "short_id": "C864"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C868",
+                    "short_id": "C868"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C869",
+                    "short_id": "C869"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C870",
+                    "short_id": "C870"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C885",
+                    "short_id": "C885"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C886",
+                    "short_id": "C886"
+                },
+                {
+                    "id": "BSCC-1951-132-22-C894",
+                    "short_id": "C894"
+                }
+            ],
+            "description": "The swiss company B488 trades with the british company A261 and A294 and A1180 and A1359 and A1528 and A1838 and A2039 in the goods C840 and C842 and C843 and C845 and C849 and C850 and C851 and C853 and C856 and C857 and C860 and C861 and C864 and C868 and C869 and C870 and C885 and C886 and C894"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Meister (Paul N.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "115, Gartenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

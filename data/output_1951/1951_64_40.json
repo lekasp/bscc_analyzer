@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-40-A1158",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1158. Lightning Fasteners Ltd., Witton, Birmingham. B 849, C 1233.",
+        "corrected": "1158. Lightning Fasteners Ltd., Witton, Birmingham. B 849, C 1233"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,1900,1283,38/max/0/default.jpg",
+            "xywh": "195, 1900, 1283, 38"
+        }
+    },
+    "short_id": "A1158",
+    "label": "Lightning Fasteners Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-40-B849",
+                    "short_id": "B849"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-40-C1233",
+                    "short_id": "C1233"
+                }
+            ],
+            "description": "The british company A1158 trades with the swiss company B849 in the goods C1233"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lightning Fasteners Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633725",
+            "lat": "52.83333",
+            "lng": "1.46667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Witton",
+            "transcription": " Witton, Birmingham. "
+        },
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Witton, Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

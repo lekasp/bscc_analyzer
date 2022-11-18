@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-10-B561",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "561. Pestalozzi & Co., 12, Münsterhof, Zurich. A 832, 1750, C 191, 385.",
+        "corrected": "561. Pestalozzi & Co., 12, Münsterhof, Zurich. A 832, 1750, C 191, 385"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,998,1298,38/max/0/default.jpg",
+            "xywh": "298, 998, 1298, 38"
+        }
+    },
+    "short_id": "B561",
+    "label": "Pestalozzi & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-10-A832",
+                    "short_id": "A832"
+                },
+                {
+                    "id": "BSCC-1951-135-10-A1750",
+                    "short_id": "A1750"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-10-C191",
+                    "short_id": "C191"
+                },
+                {
+                    "id": "BSCC-1951-135-10-C385",
+                    "short_id": "C385"
+                }
+            ],
+            "description": "The swiss company B561 trades with the british company A832 and A1750 in the goods C191 and C385"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pestalozzi & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 12, Münsterhof, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-179-1951-22-C1032,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1032, Transfers. A 293, 438, 1037, 1042, B 62, 206, 445, 522.",
+        "corrected": "1032, Transfers. A 293, 438, 1037, 1042, B 62, 206, 445, 522"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 179,
+            "canvas": "http://localhost:8182/iiif/3/0179.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0179.jpg/315,1113,1123,45/max/0/default.jpg",
+            "xywh": "315, 1113, 1123, 45"
+        }
+    },
+    "short_id": "C1032,",
+    "label": "Transfers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-179-22-A293",
+                    "short_id": "A293"
+                },
+                {
+                    "id": "BSCC-1951-179-22-A438",
+                    "short_id": "A438"
+                },
+                {
+                    "id": "BSCC-1951-179-22-A1037",
+                    "short_id": "A1037"
+                },
+                {
+                    "id": "BSCC-1951-179-22-A1042",
+                    "short_id": "A1042"
+                },
+                {
+                    "id": "BSCC-1951-179-22-B62",
+                    "short_id": "B62"
+                },
+                {
+                    "id": "BSCC-1951-179-22-B206",
+                    "short_id": "B206"
+                },
+                {
+                    "id": "BSCC-1951-179-22-B445",
+                    "short_id": "B445"
+                },
+                {
+                    "id": "BSCC-1951-179-22-B522",
+                    "short_id": "B522"
+                }
+            ],
+            "description": "with the british company A293 and A438 and A1037 and A1042 and B206 and B445 and B522"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

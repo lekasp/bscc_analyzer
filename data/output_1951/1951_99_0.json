@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-0-A2052",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2052. Walker (Wm.) & Sons Ltd., Bolton. B 475, C 841, 854, 856, 857, 868.",
+        "corrected": "2052. Walker (Wm.) & Sons Ltd., Bolton. B 475, C 841, 854, 856, 857, 868"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,190,1278,91/max/0/default.jpg",
+            "xywh": "348, 190, 1278, 91"
+        }
+    },
+    "short_id": "A2052",
+    "label": "Walker (Wm.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-0-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-0-C841",
+                    "short_id": "C841"
+                },
+                {
+                    "id": "BSCC-1951-99-0-C854",
+                    "short_id": "C854"
+                },
+                {
+                    "id": "BSCC-1951-99-0-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-99-0-C857",
+                    "short_id": "C857"
+                },
+                {
+                    "id": "BSCC-1951-99-0-C868",
+                    "short_id": "C868"
+                }
+            ],
+            "description": "The british company A2052 trades with the swiss company B475 in the goods C841 and C854 and C856 and C857 and C868"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Walker (Wm.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655237",
+            "lat": "53.58333",
+            "lng": "-2.43333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bolton",
+            "transcription": " Bolton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

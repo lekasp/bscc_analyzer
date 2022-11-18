@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-23-A382",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "382. Cannon Bros. Ltd., Bolton. B 125, C 1084.",
+        "corrected": "382. Cannon Bros. Ltd., Bolton. B 125, C 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,1354,1260,40/max/0/default.jpg",
+            "xywh": "197, 1354, 1260, 40"
+        }
+    },
+    "short_id": "A382",
+    "label": "Cannon Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-23-B125",
+                    "short_id": "B125"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-23-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The british company A382 trades with the swiss company B125 in the goods C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cannon Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655237",
+            "lat": "53.58333",
+            "lng": "-2.43333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bolton",
+            "transcription": " Bolton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-14-C1134",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1134. Ducks for interlinings. A 720, 2143, 2189, B 227, 442.",
+        "corrected": "1134. Ducks for interlinings. A 720, 2143, 2189, B 227, 442"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1016,1290,63/max/0/default.jpg",
+            "xywh": "316, 1016, 1290, 63"
+        }
+    },
+    "short_id": "C1134",
+    "label": "Ducks for interlinings",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-14-A720",
+                    "short_id": "A720"
+                },
+                {
+                    "id": "BSCC-1951-183-14-A2143",
+                    "short_id": "A2143"
+                },
+                {
+                    "id": "BSCC-1951-183-14-A2189",
+                    "short_id": "A2189"
+                },
+                {
+                    "id": "BSCC-1951-183-14-B227",
+                    "short_id": "B227"
+                },
+                {
+                    "id": "BSCC-1951-183-14-B442",
+                    "short_id": "B442"
+                }
+            ],
+            "description": "with the british company A720 and A2143 and A2189 and B442"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Cc",
+            "level": 2,
+            "label": "LINEN",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "10"
+        }
+    ]
+}

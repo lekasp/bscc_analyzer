@@ -1,0 +1,159 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-36-A1601",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1601. Reckitt & Colman (Overseas) Ltd., Hessle, Yorks. B 179, C 949; B 279, C 937; B 309, C 40; B 634, C 982, 995; B 760, C 995; B 762, C 934.",
+        "corrected": "1601. Reckitt & Colman (Overseas) Ltd., Hessle, Yorks.B 179, C 949; B 279, C 937; B 309, C 40; B 634, C 982, 995; B 760, C 995; B 762, C 934"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1978,1278,113/max/0/default.jpg",
+            "xywh": "168, 1978, 1278, 113"
+        }
+    },
+    "short_id": "A1601",
+    "label": "Reckitt & Colman (Overseas) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B179",
+                    "short_id": "B179"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C949",
+                    "short_id": "C949"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B179 in the goods C949"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B279",
+                    "short_id": "B279"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C937",
+                    "short_id": "C937"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B279 in the goods C937"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B309",
+                    "short_id": "B309"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C40",
+                    "short_id": "C40"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B309 in the goods C40"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B634",
+                    "short_id": "B634"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C982",
+                    "short_id": "C982"
+                },
+                {
+                    "id": "BSCC-1951-84-36-C995",
+                    "short_id": "C995"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B634 in the goods C982 and C995"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B760",
+                    "short_id": "B760"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C995",
+                    "short_id": "C995"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B760 in the goods C995"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-36-B762",
+                    "short_id": "B762"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-36-C934",
+                    "short_id": "C934"
+                }
+            ],
+            "description": "The british company A1601 trades with the swiss company B762 in the goods C934"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Reckitt & Colman (Overseas) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647034",
+            "lat": "53.72454",
+            "lng": "-0.43842",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hessle",
+            "transcription": " Hessle, Yorks."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

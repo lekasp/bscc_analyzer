@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-167-1951-22-C601",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "601. Sparking plugs. A 8, 406, 1091, 1191, B 226, 272, 362, 630.",
+        "corrected": "601. Sparking plugs. A 8, 406, 1091, 1191, B 226, 272, 362, 630"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 167,
+            "canvas": "http://localhost:8182/iiif/3/0167.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0167.jpg/346,1149,1229,43/max/0/default.jpg",
+            "xywh": "346, 1149, 1229, 43"
+        }
+    },
+    "short_id": "C601",
+    "label": "Sparking plugs",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-167-22-A8",
+                    "short_id": "A8"
+                },
+                {
+                    "id": "BSCC-1951-167-22-A406",
+                    "short_id": "A406"
+                },
+                {
+                    "id": "BSCC-1951-167-22-A1091",
+                    "short_id": "A1091"
+                },
+                {
+                    "id": "BSCC-1951-167-22-A1191",
+                    "short_id": "A1191"
+                },
+                {
+                    "id": "BSCC-1951-167-22-B226",
+                    "short_id": "B226"
+                },
+                {
+                    "id": "BSCC-1951-167-22-B272",
+                    "short_id": "B272"
+                },
+                {
+                    "id": "BSCC-1951-167-22-B362",
+                    "short_id": "B362"
+                },
+                {
+                    "id": "BSCC-1951-167-22-B630",
+                    "short_id": "B630"
+                }
+            ],
+            "description": "with the british company A8 and A406 and A1091 and A1191 and B272 and B362 and B630"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6C",
+            "level": 1,
+            "label": "Motor Vehicle Accessories and Components",
+            "part_of": "6",
+            "page": "166",
+            "line_number": "26"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-38-A1026",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1026. Jellinek (Maurice) Ltd., Thames Ditton, Surrey. B 131, C 1337.",
+        "corrected": "1026. Jellinek (Maurice) Ltd., Thames Ditton, Surrey. B 131, C 1337"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,2027,1267,41/max/0/default.jpg",
+            "xywh": "165, 2027, 1267, 41"
+        }
+    },
+    "short_id": "A1026",
+    "label": "Jellinek (Maurice) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-38-B131",
+                    "short_id": "B131"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-38-C1337",
+                    "short_id": "C1337"
+                }
+            ],
+            "description": "The british company A1026 trades with the swiss company B131 in the goods C1337"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jellinek (Maurice) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636062",
+            "lat": "51.38964",
+            "lng": "-0.33928",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Thames Ditton",
+            "transcription": " Thames Ditton, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

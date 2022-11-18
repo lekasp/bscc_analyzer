@@ -1,0 +1,122 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-17-C1454",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1454. Tobacco. A 271, 394, 472, 481, 607, 747, 1384, 1711, 1771, 1803, 2163, B 118, 196, 515, 808.",
+        "corrected": "1454. Tobacco.A 271, 394, 472, 481, 607, 747, 1384, 1711, 1771, 1803, 2163, B 118, 196, 515, 808"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1091,1257,142/max/0/default.jpg",
+            "xywh": "222, 1091, 1257, 142"
+        }
+    },
+    "short_id": "C1454",
+    "label": "Tobacco",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-17-A271",
+                    "short_id": "A271"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A394",
+                    "short_id": "A394"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A472",
+                    "short_id": "A472"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A481",
+                    "short_id": "A481"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A607",
+                    "short_id": "A607"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A747",
+                    "short_id": "A747"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A1384",
+                    "short_id": "A1384"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A1711",
+                    "short_id": "A1711"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A1771",
+                    "short_id": "A1771"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A1803",
+                    "short_id": "A1803"
+                },
+                {
+                    "id": "BSCC-1951-192-17-A2163",
+                    "short_id": "A2163"
+                },
+                {
+                    "id": "BSCC-1951-192-17-B118",
+                    "short_id": "B118"
+                },
+                {
+                    "id": "BSCC-1951-192-17-B196",
+                    "short_id": "B196"
+                },
+                {
+                    "id": "BSCC-1951-192-17-B515",
+                    "short_id": "B515"
+                },
+                {
+                    "id": "BSCC-1951-192-17-B808",
+                    "short_id": "B808"
+                }
+            ],
+            "description": "with the british company A271 and A394 and A472 and A481 and A607 and A747 and A1384 and A1711 and A1771 and A1803 and A2163 and B196 and B515 and B808"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "22",
+            "level": 0,
+            "label": "Tobacco and Smokers' Requisites",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "8"
+        }
+    ]
+}

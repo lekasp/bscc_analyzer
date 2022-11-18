@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-9-A55",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "55. Ambler (Thos.) & Sons Ltd., East Ardsley. B 784, C 1120.",
+        "corrected": "55. Ambler (Thos.) & Sons Ltd., East Ardsley. B 784, C 1120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,646,1233,41/max/0/default.jpg",
+            "xywh": "192, 646, 1233, 41"
+        }
+    },
+    "short_id": "A55",
+    "label": "Ambler (Thos.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-9-B784",
+                    "short_id": "B784"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-9-C1120",
+                    "short_id": "C1120"
+                }
+            ],
+            "description": "The british company A55 trades with the swiss company B784 in the goods C1120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ambler (Thos.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657117",
+            "lat": "53.7217",
+            "lng": "-1.54461",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "East Ardsley",
+            "transcription": " East Ardsley. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

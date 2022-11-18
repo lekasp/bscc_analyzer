@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-7-B354",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "354. Hummel (Roger), 42/44, Sablons, Neuchâtel. A 67, 1222, C 30, 32.",
+        "corrected": "354. Hummel (Roger), 42/44, Sablons, Neuchâtel. A 67, 1222, C 30, 32"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,639,1277,41/max/0/default.jpg",
+            "xywh": "185, 639, 1277, 41"
+        }
+    },
+    "short_id": "B354",
+    "label": "Hummel (Roger)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-7-A67",
+                    "short_id": "A67"
+                },
+                {
+                    "id": "BSCC-1951-128-7-A1222",
+                    "short_id": "A1222"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-7-C30",
+                    "short_id": "C30"
+                },
+                {
+                    "id": "BSCC-1951-128-7-C32",
+                    "short_id": "C32"
+                }
+            ],
+            "description": "The swiss company B354 trades with the british company A67 and A1222 in the goods C30 and C32"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hummel (Roger)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "42/44, Sablons, Neuchâtel. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

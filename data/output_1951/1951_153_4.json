@@ -1,0 +1,98 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-153-1951-4-C39",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "39. Meat extract. A 242, 255, 1155, 1464, B 309, 525, 717.",
+        "corrected": "39. Meat extract. A 242, 255, 1155, 1464, B 309, 525, 717"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 153,
+            "canvas": "http://localhost:8182/iiif/3/0153.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0153.jpg/304,401,1306,39/max/0/default.jpg",
+            "xywh": "304, 401, 1306, 39"
+        }
+    },
+    "short_id": "C39",
+    "label": "Meat extract",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-153-4-A242",
+                    "short_id": "A242"
+                },
+                {
+                    "id": "BSCC-1951-153-4-A255",
+                    "short_id": "A255"
+                },
+                {
+                    "id": "BSCC-1951-153-4-A1155",
+                    "short_id": "A1155"
+                },
+                {
+                    "id": "BSCC-1951-153-4-A1464",
+                    "short_id": "A1464"
+                },
+                {
+                    "id": "BSCC-1951-153-4-B309",
+                    "short_id": "B309"
+                },
+                {
+                    "id": "BSCC-1951-153-4-B525",
+                    "short_id": "B525"
+                },
+                {
+                    "id": "BSCC-1951-153-4-B717",
+                    "short_id": "B717"
+                }
+            ],
+            "description": "with the british company A242 and A255 and A1155 and A1464 and B525 and B717"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1C",
+            "level": 1,
+            "label": "Manufactured Food Products",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "29"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-17-A1582",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1582. Quayle & Tranter Ltd., Kidderminster. B 546, C 1248.",
+        "corrected": "1582. Quayle & Tranter Ltd., Kidderminster. B 546, C 1248"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1012,1278,54/max/0/default.jpg",
+            "xywh": "168, 1012, 1278, 54"
+        }
+    },
+    "short_id": "A1582",
+    "label": "Quayle & Tranter Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-17-B546",
+                    "short_id": "B546"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-17-C1248",
+                    "short_id": "C1248"
+                }
+            ],
+            "description": "The british company A1582 trades with the swiss company B546 in the goods C1248"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Quayle & Tranter Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645724",
+            "lat": "52.38819",
+            "lng": "-2.25",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Kidderminster",
+            "transcription": " Kidderminster. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

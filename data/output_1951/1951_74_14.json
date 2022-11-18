@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-14-A1362",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1362. Morris Motors Ltd., Cowley, Oxford. B 265, 393, C 562, 563.",
+        "corrected": "1362. Morris Motors Ltd., Cowley, Oxford. B 265, 393, C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,972,1249,40/max/0/default.jpg",
+            "xywh": "184, 972, 1249, 40"
+        }
+    },
+    "short_id": "A1362",
+    "label": "Morris Motors Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-14-B265",
+                    "short_id": "B265"
+                },
+                {
+                    "id": "BSCC-1951-74-14-B393",
+                    "short_id": "B393"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-14-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-74-14-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The british company A1362 trades with the swiss company B265 and B393 in the goods C562 and C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Morris Motors Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652191",
+            "lat": "51.73213",
+            "lng": "-1.20631",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cowley",
+            "transcription": " Cowley, Oxford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

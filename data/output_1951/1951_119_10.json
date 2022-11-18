@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-10-B81",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "81. Bittmann (Carl), 33, Petersgraben, Basle. A 816, 1035, 1932, C 1020, 1022, 1364, 1368.",
+        "corrected": "81. Bittmann (Carl), 33, Petersgraben, Basle.A 816, 1035, 1932, C 1020, 1022, 1364, 1368"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,761,1336,78/max/0/default.jpg",
+            "xywh": "276, 761, 1336, 78"
+        }
+    },
+    "short_id": "B81",
+    "label": "Bittmann (Carl)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-10-A816",
+                    "short_id": "A816"
+                },
+                {
+                    "id": "BSCC-1951-119-10-A1035",
+                    "short_id": "A1035"
+                },
+                {
+                    "id": "BSCC-1951-119-10-A1932",
+                    "short_id": "A1932"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-10-C1020",
+                    "short_id": "C1020"
+                },
+                {
+                    "id": "BSCC-1951-119-10-C1022",
+                    "short_id": "C1022"
+                },
+                {
+                    "id": "BSCC-1951-119-10-C1364",
+                    "short_id": "C1364"
+                },
+                {
+                    "id": "BSCC-1951-119-10-C1368",
+                    "short_id": "C1368"
+                }
+            ],
+            "description": "The swiss company B81 trades with the british company A816 and A1035 and A1932 in the goods C1020 and C1022 and C1364 and C1368"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bittmann (Carl)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "33, Petersgraben, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

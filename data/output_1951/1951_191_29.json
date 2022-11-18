@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-29-C1424",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1424. Dolls. A 1606, B 284.",
+        "corrected": "1424. Dolls. A 1606, B 284"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,1454,1305,44/max/0/default.jpg",
+            "xywh": "304, 1454, 1305, 44"
+        }
+    },
+    "short_id": "C1424",
+    "label": "Dolls",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-29-A1606",
+                    "short_id": "A1606"
+                },
+                {
+                    "id": "BSCC-1951-191-29-B284",
+                    "short_id": "B284"
+                }
+            ],
+            "description": "with the british company A1606"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21B",
+            "level": 1,
+            "label": "Toys and Games",
+            "part_of": "21",
+            "page": "191",
+            "line_number": "24"
+        }
+    ]
+}

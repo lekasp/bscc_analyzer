@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-6-B733,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "733, Swisstool AG., 28, Falkenstrasse, Zurich. A 554, 657, 1758, 2195, C 206, 209, 259, 681, 690, 700.",
+        "corrected": "733, Swisstool AG., 28, Falkenstrasse, Zurich.A 554, 657, 1758, 2195, C 206, 209, 259, 681, 690, 700"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,560,1309,75/max/0/default.jpg",
+            "xywh": "290, 560, 1309, 75"
+        }
+    },
+    "short_id": "B733,",
+    "label": "Swisstool AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-6-A554",
+                    "short_id": "A554"
+                },
+                {
+                    "id": "BSCC-1951-141-6-A657",
+                    "short_id": "A657"
+                },
+                {
+                    "id": "BSCC-1951-141-6-A1758",
+                    "short_id": "A1758"
+                },
+                {
+                    "id": "BSCC-1951-141-6-A2195",
+                    "short_id": "A2195"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-6-C206",
+                    "short_id": "C206"
+                },
+                {
+                    "id": "BSCC-1951-141-6-C209",
+                    "short_id": "C209"
+                },
+                {
+                    "id": "BSCC-1951-141-6-C259",
+                    "short_id": "C259"
+                },
+                {
+                    "id": "BSCC-1951-141-6-C681",
+                    "short_id": "C681"
+                },
+                {
+                    "id": "BSCC-1951-141-6-C690",
+                    "short_id": "C690"
+                },
+                {
+                    "id": "BSCC-1951-141-6-C700",
+                    "short_id": "C700"
+                }
+            ],
+            "description": "The swiss company B733, trades with the british company A554 and A657 and A1758 and A2195 in the goods C206 and C209 and C259 and C681 and C690 and C700"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Swisstool AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 28, Falkenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

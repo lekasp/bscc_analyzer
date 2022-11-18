@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-145-1951-1-B842",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "842. Zinggeler (R.) AG., 3, Genferstrasse, Zurich. A 881, C 1084.",
+        "corrected": "842. Zinggeler (R.) AG., 3, Genferstrasse, Zurich. A 881, C 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 145,
+            "canvas": "http://localhost:8182/iiif/3/0145.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0145.jpg/311,355,1268,41/max/0/default.jpg",
+            "xywh": "311, 355, 1268, 41"
+        }
+    },
+    "short_id": "B842",
+    "label": "Zinggeler (R.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-145-1-A881",
+                    "short_id": "A881"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-145-1-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The swiss company B842 trades with the british company A881 in the goods C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Zinggeler (R.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 3, Genferstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

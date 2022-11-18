@@ -1,0 +1,132 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-20-B308",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "308. Haeberlin (R.) & Co., 28, Gessnerallee, Zurich. A 32, 39, 284, 414, 956, 1663, 1877, 1978, C 905, 906, 913, 917, 920, 926, 927. 1035.",
+        "corrected": "308. Haeberlin (R.) & Co., 28, Gessnerallee, Zurich.A 32, 39, 284, 414, 956, 1663, 1877, 1978, C 905, 906, 913, 917, 920, 926, 927. 1035"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1533,1299,136/max/0/default.jpg",
+            "xywh": "175, 1533, 1299, 136"
+        }
+    },
+    "short_id": "B308",
+    "label": "Haeberlin (R.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-20-A32",
+                    "short_id": "A32"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A39",
+                    "short_id": "A39"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A284",
+                    "short_id": "A284"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A414",
+                    "short_id": "A414"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A956",
+                    "short_id": "A956"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A1663",
+                    "short_id": "A1663"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A1877",
+                    "short_id": "A1877"
+                },
+                {
+                    "id": "BSCC-1951-126-20-A1978",
+                    "short_id": "A1978"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-20-C905",
+                    "short_id": "C905"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C906",
+                    "short_id": "C906"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C913",
+                    "short_id": "C913"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C917",
+                    "short_id": "C917"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C920",
+                    "short_id": "C920"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C926",
+                    "short_id": "C926"
+                },
+                {
+                    "id": "BSCC-1951-126-20-C9271035",
+                    "short_id": "C9271035"
+                }
+            ],
+            "description": "The swiss company B308 trades with the british company A32 and A39 and A284 and A414 and A956 and A1663 and A1877 and A1978 in the goods C905 and C906 and C913 and C917 and C920 and C926 and C9271035"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Haeberlin (R.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 28, Gessnerallee, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

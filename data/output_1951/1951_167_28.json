@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-167-1951-28-C607",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "607. Ventilators, bus and coach. A 2086, B 777.",
+        "corrected": "607. Ventilators, bus and coach. A 2086, B 777"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 167,
+            "canvas": "http://localhost:8182/iiif/3/0167.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0167.jpg/346,1427,1229,35/max/0/default.jpg",
+            "xywh": "346, 1427, 1229, 35"
+        }
+    },
+    "short_id": "C607",
+    "label": "Ventilators, bus and coach",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-167-28-A2086",
+                    "short_id": "A2086"
+                },
+                {
+                    "id": "BSCC-1951-167-28-B777",
+                    "short_id": "B777"
+                }
+            ],
+            "description": "with the british company A2086"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6C",
+            "level": 1,
+            "label": "Motor Vehicle Accessories and Components",
+            "part_of": "6",
+            "page": "166",
+            "line_number": "26"
+        }
+    ]
+}

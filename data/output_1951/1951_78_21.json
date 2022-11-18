@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-21-A1453",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1453. Olympia Oil & Cake Co. Ltd., London EC 4. B 444, C 23.",
+        "corrected": "1453. Olympia Oil & Cake Co. Ltd., London EC 4. B 444, C 23"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1366,1263,36/max/0/default.jpg",
+            "xywh": "180, 1366, 1263, 36"
+        }
+    },
+    "short_id": "A1453",
+    "label": "Olympia Oil & Cake Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-21-B444",
+                    "short_id": "B444"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-21-C23",
+                    "short_id": "C23"
+                }
+            ],
+            "description": "The british company A1453 trades with the swiss company B444 in the goods C23"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Olympia Oil & Cake Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

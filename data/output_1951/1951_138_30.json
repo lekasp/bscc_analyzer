@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-30-B664",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "664. Schuler (Th.) & Cie., Schwyz. A 1103, C 50, 51, 53.",
+        "corrected": "664. Schuler (Th.) & Cie., Schwyz. A 1103, C 50, 51, 53"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1967,1287,44/max/0/default.jpg",
+            "xywh": "197, 1967, 1287, 44"
+        }
+    },
+    "short_id": "B664",
+    "label": "Schuler (Th.) & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-30-A1103",
+                    "short_id": "A1103"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-30-C50",
+                    "short_id": "C50"
+                },
+                {
+                    "id": "BSCC-1951-138-30-C51",
+                    "short_id": "C51"
+                },
+                {
+                    "id": "BSCC-1951-138-30-C53",
+                    "short_id": "C53"
+                }
+            ],
+            "description": "The swiss company B664 trades with the british company A1103 in the goods C50 and C51 and C53"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schuler (Th.) & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658665",
+            "lat": "47.02076",
+            "lng": "8.65414",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Schwyz",
+            "transcription": " Schwyz. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

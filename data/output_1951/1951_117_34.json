@@ -1,0 +1,144 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-34-B35",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "35. Äsper (Col. Ernst), 61, Seestrasse, Zurich. A 26, 84, 85, 264, 786, 853, 884, 1545, 1622, 1652, 1708, C 530, 639, 640, 641, 645, 648, 651a.",
+        "corrected": "35. Äsper (Col. Ernst), 61, Seestrasse, Zurich.A 26, 84, 85, 264, 786, 853, 884, 1545, 1622, 1652, 1708, C 530, 639, 640, 641, 645, 648, 651a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1989,1350,118/max/0/default.jpg",
+            "xywh": "278, 1989, 1350, 118"
+        }
+    },
+    "short_id": "B35",
+    "label": "Äsper (Col. Ernst)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-34-A26",
+                    "short_id": "A26"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A84",
+                    "short_id": "A84"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A85",
+                    "short_id": "A85"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A264",
+                    "short_id": "A264"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A786",
+                    "short_id": "A786"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A853",
+                    "short_id": "A853"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A884",
+                    "short_id": "A884"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A1545",
+                    "short_id": "A1545"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A1622",
+                    "short_id": "A1622"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A1652",
+                    "short_id": "A1652"
+                },
+                {
+                    "id": "BSCC-1951-117-34-A1708",
+                    "short_id": "A1708"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-34-C530",
+                    "short_id": "C530"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C639",
+                    "short_id": "C639"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C640",
+                    "short_id": "C640"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C641",
+                    "short_id": "C641"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C645",
+                    "short_id": "C645"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C648",
+                    "short_id": "C648"
+                },
+                {
+                    "id": "BSCC-1951-117-34-C651a",
+                    "short_id": "C651a"
+                }
+            ],
+            "description": "The swiss company B35 trades with the british company A26 and A84 and A85 and A264 and A786 and A853 and A884 and A1545 and A1622 and A1652 and A1708 in the goods C530 and C639 and C640 and C641 and C645 and C648 and C651a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Äsper (Col. Ernst)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "61, Seestrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

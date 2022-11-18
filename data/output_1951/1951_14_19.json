@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-19-A19",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "19. Addalloy Metal Co. Ltd., Sheffield. B 281, C 151, 158, 159, 261.",
+        "corrected": "19. Addalloy Metal Co. Ltd., Sheffield. B 281, C 151, 158, 159, 261"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1046,1220,42/max/0/default.jpg",
+            "xywh": "212, 1046, 1220, 42"
+        }
+    },
+    "short_id": "A19",
+    "label": "Addalloy Metal Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-19-B281",
+                    "short_id": "B281"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-19-C151",
+                    "short_id": "C151"
+                },
+                {
+                    "id": "BSCC-1951-14-19-C158",
+                    "short_id": "C158"
+                },
+                {
+                    "id": "BSCC-1951-14-19-C159",
+                    "short_id": "C159"
+                },
+                {
+                    "id": "BSCC-1951-14-19-C261",
+                    "short_id": "C261"
+                }
+            ],
+            "description": "The british company A19 trades with the swiss company B281 in the goods C151 and C158 and C159 and C261"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Addalloy Metal Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

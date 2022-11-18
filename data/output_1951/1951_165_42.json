@@ -1,0 +1,106 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-165-1951-42-C543",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "543. Receivers, general. A 615, 807, 1102, 1249, 1579, B 197, 350, 620, 707.",
+        "corrected": "543. Receivers, general. A 615, 807, 1102, 1249, 1579, B 197, 350, 620, 707"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 165,
+            "canvas": "http://localhost:8182/iiif/3/0165.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0165.jpg/299,2112,1273,38/max/0/default.jpg",
+            "xywh": "299, 2112, 1273, 38"
+        }
+    },
+    "short_id": "C543",
+    "label": "Receivers, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-165-42-A615",
+                    "short_id": "A615"
+                },
+                {
+                    "id": "BSCC-1951-165-42-A807",
+                    "short_id": "A807"
+                },
+                {
+                    "id": "BSCC-1951-165-42-A1102",
+                    "short_id": "A1102"
+                },
+                {
+                    "id": "BSCC-1951-165-42-A1249",
+                    "short_id": "A1249"
+                },
+                {
+                    "id": "BSCC-1951-165-42-A1579",
+                    "short_id": "A1579"
+                },
+                {
+                    "id": "BSCC-1951-165-42-B197",
+                    "short_id": "B197"
+                },
+                {
+                    "id": "BSCC-1951-165-42-B350",
+                    "short_id": "B350"
+                },
+                {
+                    "id": "BSCC-1951-165-42-B620",
+                    "short_id": "B620"
+                },
+                {
+                    "id": "BSCC-1951-165-42-B707",
+                    "short_id": "B707"
+                }
+            ],
+            "description": "with the british company A615 and A807 and A1102 and A1249 and A1579 and B350 and B620 and B707"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5C",
+            "level": 1,
+            "label": "Radio Receivers, Components and Accessories",
+            "part_of": "5",
+            "page": "165",
+            "line_number": "27"
+        }
+    ]
+}

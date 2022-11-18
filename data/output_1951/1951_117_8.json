@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-8-B9",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "9. Aebi (Robert) & Co. AG., 31, Uraniastrasse, Zurich. A 40, 217, 1686, 1687, 1843, 1844, 1949, C 347, 348, 349, 355, 356, 358, 377.",
+        "corrected": "9. Aebi (Robert) & Co. AG., 31, Uraniastrasse, Zurich.A 40, 217, 1686, 1687, 1843, 1844, 1949, C 347, 348, 349, 355, 356, 358, 377"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,640,1350,83/max/0/default.jpg",
+            "xywh": "278, 640, 1350, 83"
+        }
+    },
+    "short_id": "B9",
+    "label": "Aebi (Robert) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-8-A40",
+                    "short_id": "A40"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A217",
+                    "short_id": "A217"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A1686",
+                    "short_id": "A1686"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A1687",
+                    "short_id": "A1687"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A1843",
+                    "short_id": "A1843"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A1844",
+                    "short_id": "A1844"
+                },
+                {
+                    "id": "BSCC-1951-117-8-A1949",
+                    "short_id": "A1949"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-8-C347",
+                    "short_id": "C347"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C348",
+                    "short_id": "C348"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C349",
+                    "short_id": "C349"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C355",
+                    "short_id": "C355"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C356",
+                    "short_id": "C356"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C358",
+                    "short_id": "C358"
+                },
+                {
+                    "id": "BSCC-1951-117-8-C377",
+                    "short_id": "C377"
+                }
+            ],
+            "description": "The swiss company B9 trades with the british company A40 and A217 and A1686 and A1687 and A1843 and A1844 and A1949 in the goods C347 and C348 and C349 and C355 and C356 and C358 and C377"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aebi (Robert) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 31, Uraniastrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

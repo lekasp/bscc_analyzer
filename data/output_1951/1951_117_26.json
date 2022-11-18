@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-26-B27",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "27. Annuncias AG., 55/57, Löwenstrasse, Zurich. A 1060, 1539, C 1044a, 1045.",
+        "corrected": "27. Annuncias AG., 55/57, Löwenstrasse, Zurich. A 1060, 1539, C 1044a, 1045"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1590,1350,42/max/0/default.jpg",
+            "xywh": "278, 1590, 1350, 42"
+        }
+    },
+    "short_id": "B27",
+    "label": "Annuncias AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-26-A1060",
+                    "short_id": "A1060"
+                },
+                {
+                    "id": "BSCC-1951-117-26-A1539",
+                    "short_id": "A1539"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-26-C1044a",
+                    "short_id": "C1044a"
+                },
+                {
+                    "id": "BSCC-1951-117-26-C1045",
+                    "short_id": "C1045"
+                }
+            ],
+            "description": "The swiss company B27 trades with the british company A1060 and A1539 in the goods C1044a and C1045"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Annuncias AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 55/57, Löwenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

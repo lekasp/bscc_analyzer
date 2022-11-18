@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-9-A1127",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1127. Laycock (Peter) Ltd., Leeds. B 841, C 1119, 1125.",
+        "corrected": "1127. Laycock (Peter) Ltd., Leeds. B 841, C 1119, 1125"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,603,1283,34/max/0/default.jpg",
+            "xywh": "195, 603, 1283, 34"
+        }
+    },
+    "short_id": "A1127",
+    "label": "Laycock (Peter) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-9-B841",
+                    "short_id": "B841"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-9-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-64-9-C1125",
+                    "short_id": "C1125"
+                }
+            ],
+            "description": "The british company A1127 trades with the swiss company B841 in the goods C1119 and C1125"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Laycock (Peter) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

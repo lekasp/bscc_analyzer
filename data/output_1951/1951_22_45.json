@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-45-A225",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "225. Bluemel Brothers Ltd., Wolston, Coventry. B 578, C 603, 635.",
+        "corrected": "225. Bluemel Brothers Ltd., Wolston, Coventry. B 578, C 603, 635"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,2015,1260,44/max/0/default.jpg",
+            "xywh": "205, 2015, 1260, 44"
+        }
+    },
+    "short_id": "A225",
+    "label": "Bluemel Brothers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-45-B578",
+                    "short_id": "B578"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-45-C603",
+                    "short_id": "C603"
+                },
+                {
+                    "id": "BSCC-1951-22-45-C635",
+                    "short_id": "C635"
+                }
+            ],
+            "description": "The british company A225 trades with the swiss company B578 in the goods C603 and C635"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bluemel Brothers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633692",
+            "lat": "52.37717",
+            "lng": "-1.39544",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolston",
+            "transcription": " Wolston, Coventry. "
+        },
+        {
+            "id": "2652221",
+            "lat": "52.40656",
+            "lng": "-1.51217",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coventry",
+            "transcription": " Wolston, Coventry. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

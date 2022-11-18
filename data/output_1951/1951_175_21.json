@@ -1,0 +1,98 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-21-C885",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "885. Findings. A 1203, 1528, 1962, 1972, B 160, 488, 773.",
+        "corrected": "885. Findings. A 1203, 1528, 1962, 1972, B 160, 488, 773"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,1220,1247,39/max/0/default.jpg",
+            "xywh": "296, 1220, 1247, 39"
+        }
+    },
+    "short_id": "C885",
+    "label": "Findings",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-21-A1203",
+                    "short_id": "A1203"
+                },
+                {
+                    "id": "BSCC-1951-175-21-A1528",
+                    "short_id": "A1528"
+                },
+                {
+                    "id": "BSCC-1951-175-21-A1962",
+                    "short_id": "A1962"
+                },
+                {
+                    "id": "BSCC-1951-175-21-A1972",
+                    "short_id": "A1972"
+                },
+                {
+                    "id": "BSCC-1951-175-21-B160",
+                    "short_id": "B160"
+                },
+                {
+                    "id": "BSCC-1951-175-21-B488",
+                    "short_id": "B488"
+                },
+                {
+                    "id": "BSCC-1951-175-21-B773",
+                    "short_id": "B773"
+                }
+            ],
+            "description": "with the british company A1203 and A1528 and A1962 and A1972 and B488 and B773"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10C",
+            "level": 1,
+            "label": "Footwear Components and Accessories, Shoemakers' Supplies",
+            "part_of": "10",
+            "page": "175",
+            "line_number": "12"
+        }
+    ]
+}

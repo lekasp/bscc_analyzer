@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-2-A402",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "402. Central Tool & Equipment Co. Ltd., Richmond, Surrey. B 236, C 178.",
+        "corrected": "402. Central Tool & Equipment Co. Ltd., Richmond, Surrey. B 236, C 178"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,322,1184,44/max/0/default.jpg",
+            "xywh": "223, 322, 1184, 44"
+        }
+    },
+    "short_id": "A402",
+    "label": "Central Tool & Equipment Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-2-B236",
+                    "short_id": "B236"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-2-C178",
+                    "short_id": "C178"
+                }
+            ],
+            "description": "The british company A402 trades with the swiss company B236 in the goods C178"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Central Tool & Equipment Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639389",
+            "lat": "51.46171",
+            "lng": "-0.30633",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Richmond",
+            "transcription": " Richmond, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

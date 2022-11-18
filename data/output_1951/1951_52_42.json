@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-42-A863",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "863. Hardie (J. & W.) Ltd., Edinburgh. B 375, C 57.",
+        "corrected": "863. Hardie (J. & W.) Ltd., Edinburgh. B 375, C 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,510,1254,38/max/0/default.jpg",
+            "xywh": "182, 510, 1254, 38"
+        }
+    },
+    "short_id": "A863",
+    "label": "Hardie (J. & W.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-42-B375",
+                    "short_id": "B375"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-42-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The british company A863 trades with the swiss company B375 in the goods C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hardie (J. & W.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2650225",
+            "lat": "55.95206",
+            "lng": "-3.19648",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Edinburgh",
+            "transcription": " Edinburgh. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

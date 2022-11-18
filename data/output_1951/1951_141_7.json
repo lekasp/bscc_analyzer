@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-7-B734",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "734. Szekely (George), 17, rue du Marché, Geneva. A 266, 688, 1207, 1572, C 378, 394, 686, 693, 1464.",
+        "corrected": "734. Szekely (George), 17, rue du Marché, Geneva.A 266, 688, 1207, 1572, C 378, 394, 686, 693, 1464"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,635,1309,80/max/0/default.jpg",
+            "xywh": "290, 635, 1309, 80"
+        }
+    },
+    "short_id": "B734",
+    "label": "Szekely (George)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-7-A266",
+                    "short_id": "A266"
+                },
+                {
+                    "id": "BSCC-1951-141-7-A688",
+                    "short_id": "A688"
+                },
+                {
+                    "id": "BSCC-1951-141-7-A1207",
+                    "short_id": "A1207"
+                },
+                {
+                    "id": "BSCC-1951-141-7-A1572",
+                    "short_id": "A1572"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-7-C378",
+                    "short_id": "C378"
+                },
+                {
+                    "id": "BSCC-1951-141-7-C394",
+                    "short_id": "C394"
+                },
+                {
+                    "id": "BSCC-1951-141-7-C686",
+                    "short_id": "C686"
+                },
+                {
+                    "id": "BSCC-1951-141-7-C693",
+                    "short_id": "C693"
+                },
+                {
+                    "id": "BSCC-1951-141-7-C1464",
+                    "short_id": "C1464"
+                }
+            ],
+            "description": "The swiss company B734 trades with the british company A266 and A688 and A1207 and A1572 in the goods C378 and C394 and C686 and C693 and C1464"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Szekely (George)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "17, rue du Marché, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

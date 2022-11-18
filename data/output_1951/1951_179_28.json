@@ -1,0 +1,90 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-179-1951-28-C1037",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1037. Artists' materials. A 1607, 1674, 2155, B 390, 506.",
+        "corrected": "1037. Artists' materials. A 1607, 1674, 2155, B 390, 506"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 179,
+            "canvas": "http://localhost:8182/iiif/3/0179.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0179.jpg/315,1544,1123,55/max/0/default.jpg",
+            "xywh": "315, 1544, 1123, 55"
+        }
+    },
+    "short_id": "C1037",
+    "label": "Artists' materials",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-179-28-A1607",
+                    "short_id": "A1607"
+                },
+                {
+                    "id": "BSCC-1951-179-28-A1674",
+                    "short_id": "A1674"
+                },
+                {
+                    "id": "BSCC-1951-179-28-A2155",
+                    "short_id": "A2155"
+                },
+                {
+                    "id": "BSCC-1951-179-28-B390",
+                    "short_id": "B390"
+                },
+                {
+                    "id": "BSCC-1951-179-28-B506",
+                    "short_id": "B506"
+                }
+            ],
+            "description": "with the british company A1607 and A1674 and A2155 and B506"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "13",
+            "level": 0,
+            "label": "Paper, Stationery, Artists' Materials, etc.",
+            "part_of": "0",
+            "page": "178",
+            "line_number": "40"
+        },
+        {
+            "id": "13B",
+            "level": 1,
+            "label": "Various Stationery Products, Artists' Materials",
+            "part_of": "13",
+            "page": "179",
+            "line_number": "26"
+        }
+    ]
+}

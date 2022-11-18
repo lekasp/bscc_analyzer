@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-14-B535",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "535. Notz & Co. AG., 65, Murtenstrasse, Biel (Bienne). A 1854, C 133.",
+        "corrected": "535. Notz & Co. AG., 65, Murtenstrasse, Biel (Bienne). A 1854, C 133"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1084,1276,36/max/0/default.jpg",
+            "xywh": "187, 1084, 1276, 36"
+        }
+    },
+    "short_id": "B535",
+    "label": "Notz & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-14-A1854",
+                    "short_id": "A1854"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-14-C133",
+                    "short_id": "C133"
+                }
+            ],
+            "description": "The swiss company B535 trades with the british company A1854 in the goods C133"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Notz & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 65, Murtenstrasse, Biel (Bienne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

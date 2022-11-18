@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-1-A989a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "989a. Index Automatic Machine Co. Ltd., Redditch, Worcs. B 701a, C 180.",
+        "corrected": "989a. Index Automatic Machine Co. Ltd., Redditch, Worcs. B 701a, C 180"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,286,1267,40/max/0/default.jpg",
+            "xywh": "165, 286, 1267, 40"
+        }
+    },
+    "short_id": "A989a",
+    "label": "Index Automatic Machine Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-1-B701a",
+                    "short_id": "B701a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-1-C180",
+                    "short_id": "C180"
+                }
+            ],
+            "description": "The british company A989a trades with the swiss company B701a in the goods C180"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Index Automatic Machine Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639557",
+            "lat": "52.3065",
+            "lng": "-1.94569",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redditch",
+            "transcription": " Redditch, Worcs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

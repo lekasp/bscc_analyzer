@@ -1,0 +1,134 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-22-C1458",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1458. Transport and forwarding. A 12a, 65a, 274, 459a, 479, 514a, 878a, 916a, 1273, 2008, 2174-B 56,87. 161, 166, 288, 360, 377, 471, 811, 832.",
+        "corrected": "1458. Transport and forwarding.A 12a, 65a, 274, 459a, 479, 514a, 878a, 916a, 1273, 2008, 2174-B 56,87. 161, 166, 288, 360, 377, 471, 811, 832"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1581,1257,117/max/0/default.jpg",
+            "xywh": "222, 1581, 1257, 117"
+        }
+    },
+    "short_id": "C1458",
+    "label": "Transport and forwarding",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-22-A12a",
+                    "short_id": "A12a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A65a",
+                    "short_id": "A65a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A274",
+                    "short_id": "A274"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A459a",
+                    "short_id": "A459a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A479",
+                    "short_id": "A479"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A514a",
+                    "short_id": "A514a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A878a",
+                    "short_id": "A878a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A916a",
+                    "short_id": "A916a"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A1273",
+                    "short_id": "A1273"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A2008",
+                    "short_id": "A2008"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A87161",
+                    "short_id": "A87161"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A166",
+                    "short_id": "A166"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A288",
+                    "short_id": "A288"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A360",
+                    "short_id": "A360"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A377",
+                    "short_id": "A377"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A471",
+                    "short_id": "A471"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A811",
+                    "short_id": "A811"
+                },
+                {
+                    "id": "BSCC-1951-192-22-A832",
+                    "short_id": "A832"
+                }
+            ],
+            "description": "with the british company A12a and A65a and A274 and A459a and A479 and A514a and A878a and A916a and A1273 and A2008 and A87161 and A166 and A288 and A360 and A377 and A471 and A811 and A832"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "23",
+            "level": 0,
+            "label": "Travel and Transport",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "18"
+        }
+    ]
+}

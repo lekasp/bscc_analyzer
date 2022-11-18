@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-40-C1253",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1253. TECHNICAL CLOTHS, GENERAL. A 1073, B 433.",
+        "corrected": "1253. TECHNICAL CLOTHS, GENERAL. A 1073, B 433"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,2141,1267,47/max/0/default.jpg",
+            "xywh": "216, 2141, 1267, 47"
+        }
+    },
+    "short_id": "C1253",
+    "label": "TECHNICAL CLOTHS, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-40-A1073",
+                    "short_id": "A1073"
+                },
+                {
+                    "id": "BSCC-1951-186-40-B433",
+                    "short_id": "B433"
+                }
+            ],
+            "description": "with the british company A1073"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15H",
+            "level": 1,
+            "label": "Technical Textile Products",
+            "part_of": "15",
+            "page": "186",
+            "line_number": "39"
+        }
+    ]
+}

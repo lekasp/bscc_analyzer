@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-162-1951-38-C425",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "425. Bearings, roller. A 308, 702, 940, 1593, 1778, B 427, 497, 686, 723.",
+        "corrected": "425. Bearings, roller. A 308, 702, 940, 1593, 1778, B 427, 497, 686, 723"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 162,
+            "canvas": "http://localhost:8182/iiif/3/0162.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0162.jpg/172,2074,1336,40/max/0/default.jpg",
+            "xywh": "172, 2074, 1336, 40"
+        }
+    },
+    "short_id": "C425",
+    "label": "Bearings, roller",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-162-38-A308",
+                    "short_id": "A308"
+                },
+                {
+                    "id": "BSCC-1951-162-38-A702",
+                    "short_id": "A702"
+                },
+                {
+                    "id": "BSCC-1951-162-38-A940",
+                    "short_id": "A940"
+                },
+                {
+                    "id": "BSCC-1951-162-38-A1593",
+                    "short_id": "A1593"
+                },
+                {
+                    "id": "BSCC-1951-162-38-A1778",
+                    "short_id": "A1778"
+                },
+                {
+                    "id": "BSCC-1951-162-38-B427",
+                    "short_id": "B427"
+                },
+                {
+                    "id": "BSCC-1951-162-38-B497",
+                    "short_id": "B497"
+                },
+                {
+                    "id": "BSCC-1951-162-38-B686",
+                    "short_id": "B686"
+                },
+                {
+                    "id": "BSCC-1951-162-38-B723",
+                    "short_id": "B723"
+                }
+            ],
+            "description": "with the british company A308 and A702 and A940 and A1593 and A1778 and B497 and B686 and B723"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Eb",
+            "level": 2,
+            "label": "POWER TRANSMISSION",
+            "part_of": "4E",
+            "page": "162",
+            "line_number": "31"
+        }
+    ]
+}

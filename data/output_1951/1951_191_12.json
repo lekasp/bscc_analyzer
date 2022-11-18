@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-12-C1408",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1408. Rubber sports goods, general. A 120, 525, 1132, B 83, 508, 701.",
+        "corrected": "1408. Rubber sports goods, general. A 120, 525, 1132, B 83, 508, 701"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,706,1305,43/max/0/default.jpg",
+            "xywh": "304, 706, 1305, 43"
+        }
+    },
+    "short_id": "C1408",
+    "label": "Rubber sports goods, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-12-A120",
+                    "short_id": "A120"
+                },
+                {
+                    "id": "BSCC-1951-191-12-A525",
+                    "short_id": "A525"
+                },
+                {
+                    "id": "BSCC-1951-191-12-A1132",
+                    "short_id": "A1132"
+                },
+                {
+                    "id": "BSCC-1951-191-12-B83",
+                    "short_id": "B83"
+                },
+                {
+                    "id": "BSCC-1951-191-12-B508",
+                    "short_id": "B508"
+                },
+                {
+                    "id": "BSCC-1951-191-12-B701",
+                    "short_id": "B701"
+                }
+            ],
+            "description": "with the british company A120 and A525 and A1132 and B508 and B701"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21A",
+            "level": 1,
+            "label": "Sports Goods",
+            "part_of": "21",
+            "page": "190",
+            "line_number": "30"
+        }
+    ]
+}

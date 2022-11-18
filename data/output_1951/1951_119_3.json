@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-3-B74",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "74. Berlie (F.), Modern City, A, La Rosiaz, Lausanne. A 253, C 241.",
+        "corrected": "74. Berlie (F.), Modern City, A, La Rosiaz, Lausanne. A 253, C 241"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,367,1336,36/max/0/default.jpg",
+            "xywh": "276, 367, 1336, 36"
+        }
+    },
+    "short_id": "B74",
+    "label": "Berlie (F.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-3-A253",
+                    "short_id": "A253"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-3-C241",
+                    "short_id": "C241"
+                }
+            ],
+            "description": "The swiss company B74 trades with the british company A253 in the goods C241"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Berlie (F.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "Modern City, A, La Rosiaz, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

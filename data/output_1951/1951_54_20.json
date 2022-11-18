@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-20-A924",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "924. Hide & Skin Agencies Ltd., Billingshurst, Sussex. B 780, C 833.",
+        "corrected": "924. Hide & Skin Agencies Ltd., Billingshurst, Sussex. B 780, C 833"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,1126,1211,41/max/0/default.jpg",
+            "xywh": "137, 1126, 1211, 41"
+        }
+    },
+    "short_id": "A924",
+    "label": "Hide & Skin Agencies Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-20-B780",
+                    "short_id": "B780"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-20-C833",
+                    "short_id": "C833"
+                }
+            ],
+            "description": "The british company A924 trades with the swiss company B780 in the goods C833"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hide & Skin Agencies Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655662",
+            "lat": "51.02312",
+            "lng": "-0.45359",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Billingshurst",
+            "transcription": " Billingshurst, Sussex. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

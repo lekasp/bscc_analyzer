@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-27-B162",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "162. Csuka (Marcel), 30, Oettikerstrasse, Zurich. A 1956, C 1423, 1429.",
+        "corrected": "162. Csuka (Marcel), 30, Oettikerstrasse, Zurich. A 1956, C 1423, 1429"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1824,1272,39/max/0/default.jpg",
+            "xywh": "309, 1824, 1272, 39"
+        }
+    },
+    "short_id": "B162",
+    "label": "Csuka (Marcel)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-27-A1956",
+                    "short_id": "A1956"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-27-C1423",
+                    "short_id": "C1423"
+                },
+                {
+                    "id": "BSCC-1951-121-27-C1429",
+                    "short_id": "C1429"
+                }
+            ],
+            "description": "The swiss company B162 trades with the british company A1956 in the goods C1423 and C1429"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Csuka (Marcel)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "30, Oettikerstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-16-A1581",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1581. Quasi-Arc Co. Ltd., Bilston, Staffs. B 225, C 436, 437.",
+        "corrected": "1581. Quasi-Arc Co. Ltd., Bilston, Staffs. B 225, C 436, 437"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,978,1278,34/max/0/default.jpg",
+            "xywh": "168, 978, 1278, 34"
+        }
+    },
+    "short_id": "A1581",
+    "label": "Quasi-Arc Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-16-B225",
+                    "short_id": "B225"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-16-C436",
+                    "short_id": "C436"
+                },
+                {
+                    "id": "BSCC-1951-84-16-C437",
+                    "short_id": "C437"
+                }
+            ],
+            "description": "The british company A1581 trades with the swiss company B225 in the goods C436 and C437"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Quasi-Arc Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655654",
+            "lat": "52.56568",
+            "lng": "-2.07367",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bilston",
+            "transcription": " Bilston, Staffs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

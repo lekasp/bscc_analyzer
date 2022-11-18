@@ -1,0 +1,202 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-23-C22",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "22. Tea. A 220, 325, 360, 858, 1016, 1177, 1212, 1283, 1498, 1505, 1635, 1773, 1919, 1970, 1971, 2166, B 2, 87, 129, 260a, 267, 271, 274, 277, 305, 309, 382, 403, 511, 551, 632, 717, 765.",
+        "corrected": "22. Tea. A 220, 325, 360, 858, 1016, 1177, 1212, 1283, 1498, 1505, 1635, 1773,1919, 1970, 1971, 2166, B 2, 87, 129, 260a, 267, 271, 274, 277, 305, 309, 382, 403, 511, 551, 632, 717, 765"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,1288,1293,118/max/0/default.jpg",
+            "xywh": "202, 1288, 1293, 118"
+        }
+    },
+    "short_id": "C22",
+    "label": "Tea",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-23-A220",
+                    "short_id": "A220"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A325",
+                    "short_id": "A325"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A360",
+                    "short_id": "A360"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A858",
+                    "short_id": "A858"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1016",
+                    "short_id": "A1016"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1177",
+                    "short_id": "A1177"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1212",
+                    "short_id": "A1212"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1283",
+                    "short_id": "A1283"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1498",
+                    "short_id": "A1498"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1505",
+                    "short_id": "A1505"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1635",
+                    "short_id": "A1635"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1773",
+                    "short_id": "A1773"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1919",
+                    "short_id": "A1919"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1970",
+                    "short_id": "A1970"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A1971",
+                    "short_id": "A1971"
+                },
+                {
+                    "id": "BSCC-1951-152-23-A2166",
+                    "short_id": "A2166"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B2",
+                    "short_id": "B2"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B87",
+                    "short_id": "B87"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B129",
+                    "short_id": "B129"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B260a",
+                    "short_id": "B260a"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B267",
+                    "short_id": "B267"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B271",
+                    "short_id": "B271"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B274",
+                    "short_id": "B274"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B277",
+                    "short_id": "B277"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B305",
+                    "short_id": "B305"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B309",
+                    "short_id": "B309"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B382",
+                    "short_id": "B382"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B403",
+                    "short_id": "B403"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B511",
+                    "short_id": "B511"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B551",
+                    "short_id": "B551"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B632",
+                    "short_id": "B632"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B717",
+                    "short_id": "B717"
+                },
+                {
+                    "id": "BSCC-1951-152-23-B765",
+                    "short_id": "B765"
+                }
+            ],
+            "description": "with the british company A220 and A325 and A360 and A858 and A1016 and A1177 and A1212 and A1283 and A1498 and A1505 and A1635 and A1773 and A1919 and A1970 and A1971 and A2166 and B87 and B129 and B260a and B267 and B271 and B274 and B277 and B305 and B309 and B382 and B403 and B511 and B551 and B632 and B717 and B765"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1A",
+            "level": 1,
+            "label": "Raw Foodstuffs",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "1"
+        }
+    ]
+}

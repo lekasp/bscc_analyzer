@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-160-1951-11-C320",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "320. Travellers. A 466, B 657.",
+        "corrected": "320. Travellers. A 466, B 657"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 160,
+            "canvas": "http://localhost:8182/iiif/3/0160.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0160.jpg/155,678,1307,39/max/0/default.jpg",
+            "xywh": "155, 678, 1307, 39"
+        }
+    },
+    "short_id": "C320",
+    "label": "Travellers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-160-11-A466",
+                    "short_id": "A466"
+                },
+                {
+                    "id": "BSCC-1951-160-11-B657",
+                    "short_id": "B657"
+                }
+            ],
+            "description": "with the british company A466"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Be",
+            "level": 2,
+            "label": "TEXTILES",
+            "part_of": "4B",
+            "page": "159",
+            "line_number": "36"
+        }
+    ]
+}

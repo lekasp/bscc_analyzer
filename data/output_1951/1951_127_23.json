@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-23-B339",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "339. Hollinger (Adolf), 271, Reinacherstrasse, Basle. A 1665, C 276, 331.",
+        "corrected": "339. Hollinger (Adolf), 271, Reinacherstrasse, Basle. A 1665, C 276, 331"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,1676,1233,42/max/0/default.jpg",
+            "xywh": "316, 1676, 1233, 42"
+        }
+    },
+    "short_id": "B339",
+    "label": "Hollinger (Adolf)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-23-A1665",
+                    "short_id": "A1665"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-23-C276",
+                    "short_id": "C276"
+                },
+                {
+                    "id": "BSCC-1951-127-23-C331",
+                    "short_id": "C331"
+                }
+            ],
+            "description": "The swiss company B339 trades with the british company A1665 in the goods C276 and C331"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hollinger (Adolf)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "271, Reinacherstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

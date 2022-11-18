@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-29-A841",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "841. Hall (Wm.) & Co. (Monsall) Ltd., Newton Heath, Manchester. B 540, C 1086.",
+        "corrected": "841. Hall (Wm.) & Co. (Monsall) Ltd., Newton Heath, Manchester.B 540, C 1086"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,1565,1261,75/max/0/default.jpg",
+            "xywh": "153, 1565, 1261, 75"
+        }
+    },
+    "short_id": "A841",
+    "label": "Hall (Wm.) & Co. (Monsall) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-29-B540",
+                    "short_id": "B540"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-29-C1086",
+                    "short_id": "C1086"
+                }
+            ],
+            "description": "The british company A841 trades with the swiss company B540 in the goods C1086"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hall (Wm.) & Co. (Monsall) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Newton Heath, Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

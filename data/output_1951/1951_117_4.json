@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-4-B5",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "5. Adler (Alexander), 108, Forchstrasse, Zurich. A 1605, C 1452, 1453.",
+        "corrected": "5. Adler (Alexander), 108, Forchstrasse, Zurich. A 1605, C 1452, 1453"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,405,1350,38/max/0/default.jpg",
+            "xywh": "278, 405, 1350, 38"
+        }
+    },
+    "short_id": "B5",
+    "label": "Adler (Alexander)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-4-A1605",
+                    "short_id": "A1605"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-4-C1452",
+                    "short_id": "C1452"
+                },
+                {
+                    "id": "BSCC-1951-117-4-C1453",
+                    "short_id": "C1453"
+                }
+            ],
+            "description": "The swiss company B5 trades with the british company A1605 in the goods C1452 and C1453"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Adler (Alexander)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "108, Forchstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

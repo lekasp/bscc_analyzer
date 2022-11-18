@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-16-A508",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "508. Cromford Colour Co. Ltd., Matlock. B 580, C 960.",
+        "corrected": "508. Cromford Colour Co. Ltd., Matlock. B 580, C 960"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,902,1261,39/max/0/default.jpg",
+            "xywh": "205, 902, 1261, 39"
+        }
+    },
+    "short_id": "A508",
+    "label": "Cromford Colour Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-16-B580",
+                    "short_id": "B580"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-16-C960",
+                    "short_id": "C960"
+                }
+            ],
+            "description": "The british company A508 trades with the swiss company B580 in the goods C960"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cromford Colour Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642910",
+            "lat": "53.13838",
+            "lng": "-1.5556",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Matlock",
+            "transcription": " Matlock. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

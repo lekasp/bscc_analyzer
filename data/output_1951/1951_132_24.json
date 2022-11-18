@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-24-B490",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "490. Merz (Victor), 1, rue des Rois, Geneva. A 398, 1202, C 586, 587.",
+        "corrected": "490. Merz (Victor), 1, rue des Rois, Geneva. A 398, 1202, C 586, 587"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,2121,1311,41/max/0/default.jpg",
+            "xywh": "167, 2121, 1311, 41"
+        }
+    },
+    "short_id": "B490",
+    "label": "Merz (Victor)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-24-A398",
+                    "short_id": "A398"
+                },
+                {
+                    "id": "BSCC-1951-132-24-A1202",
+                    "short_id": "A1202"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-24-C586",
+                    "short_id": "C586"
+                },
+                {
+                    "id": "BSCC-1951-132-24-C587",
+                    "short_id": "C587"
+                }
+            ],
+            "description": "The swiss company B490 trades with the british company A398 and A1202 in the goods C586 and C587"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Merz (Victor)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "1, rue des Rois, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

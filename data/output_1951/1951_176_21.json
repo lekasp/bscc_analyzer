@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-21-C921",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "921. Insecticides. A 471, 1341, 1541, B 363, 671, 837.",
+        "corrected": "921. Insecticides. A 471, 1341, 1541, B 363, 671, 837"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1433,1293,41/max/0/default.jpg",
+            "xywh": "228, 1433, 1293, 41"
+        }
+    },
+    "short_id": "C921",
+    "label": "Insecticides",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-21-A471",
+                    "short_id": "A471"
+                },
+                {
+                    "id": "BSCC-1951-176-21-A1341",
+                    "short_id": "A1341"
+                },
+                {
+                    "id": "BSCC-1951-176-21-A1541",
+                    "short_id": "A1541"
+                },
+                {
+                    "id": "BSCC-1951-176-21-B363",
+                    "short_id": "B363"
+                },
+                {
+                    "id": "BSCC-1951-176-21-B671",
+                    "short_id": "B671"
+                },
+                {
+                    "id": "BSCC-1951-176-21-B837",
+                    "short_id": "B837"
+                }
+            ],
+            "description": "with the british company A471 and A1341 and A1541 and B671 and B837"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "11",
+            "level": 0,
+            "label": "Chemicals, Pharmaceuticals, Cosmetics and Perfumery",
+            "part_of": "0",
+            "page": "176",
+            "line_number": "2"
+        },
+        {
+            "id": "11A",
+            "level": 1,
+            "label": "Chemicals",
+            "part_of": "11",
+            "page": "176",
+            "line_number": "3"
+        }
+    ]
+}

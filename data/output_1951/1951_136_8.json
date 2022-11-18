@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-8-B587",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "587. Primella AG., 17, Ankerstrasse, Zurich. A 800, C 1177.",
+        "corrected": "587. Primella AG., 17, Ankerstrasse, Zurich. A 800, C 1177"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,663,1317,36/max/0/default.jpg",
+            "xywh": "183, 663, 1317, 36"
+        }
+    },
+    "short_id": "B587",
+    "label": "Primella AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-8-A800",
+                    "short_id": "A800"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-8-C1177",
+                    "short_id": "C1177"
+                }
+            ],
+            "description": "The swiss company B587 trades with the british company A800 in the goods C1177"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Primella AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 17, Ankerstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

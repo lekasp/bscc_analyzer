@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-25-B576",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿576. P. K. Z. Burger-Kehl & Co. AG., 115, Bederstrasse, Zurich. x A 507, 1108, 1642, C 1117.",
+        "corrected": "576. P. K. Z. Burger-Kehl & Co. AG., 115, Bederstrasse, Zurich.x A 507, 1108, 1642, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1943,1298,78/max/0/default.jpg",
+            "xywh": "298, 1943, 1298, 78"
+        }
+    },
+    "short_id": "B576",
+    "label": "P. K. Z. Burger-Kehl & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-25-A507",
+                    "short_id": "A507"
+                },
+                {
+                    "id": "BSCC-1951-135-25-A1108",
+                    "short_id": "A1108"
+                },
+                {
+                    "id": "BSCC-1951-135-25-A1642",
+                    "short_id": "A1642"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-25-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The swiss company B576 trades with the british company A507 and A1108 and A1642 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "P. K. Z. Burger-Kehl & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 115, Bederstrasse, Zurich.x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

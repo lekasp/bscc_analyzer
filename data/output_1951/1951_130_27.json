@@ -1,0 +1,150 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-27-B433",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 433. Lauper-Wüthrich (O.), 9, Mariahilfgasse, Lucerne. A 6, 644, 748, 801, 1073, 1487, 1923, 2070, C 123, 184, 190, 352, 426, 433. 490, 492, 575, 579, 581, 1003, 1253, 1259, 1267.",
+        "corrected": "433. Lauper-Wüthrich (O.), 9, Mariahilfgasse, Lucerne.A 6, 644, 748, 801, 1073, 1487, 1923, 2070, C 123, 184, 190, 352, 426, 433. 490, 492, 575, 579, 581, 1003, 1253, 1259, 1267"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,1816,1294,123/max/0/default.jpg",
+            "xywh": "162, 1816, 1294, 123"
+        }
+    },
+    "short_id": "B433",
+    "label": "Lauper-Wüthrich (O.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-27-A6",
+                    "short_id": "A6"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A644",
+                    "short_id": "A644"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A748",
+                    "short_id": "A748"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A801",
+                    "short_id": "A801"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A1073",
+                    "short_id": "A1073"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A1487",
+                    "short_id": "A1487"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A1923",
+                    "short_id": "A1923"
+                },
+                {
+                    "id": "BSCC-1951-130-27-A2070",
+                    "short_id": "A2070"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-27-C123",
+                    "short_id": "C123"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C184",
+                    "short_id": "C184"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C190",
+                    "short_id": "C190"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C433490",
+                    "short_id": "C433490"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C492",
+                    "short_id": "C492"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C579",
+                    "short_id": "C579"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C581",
+                    "short_id": "C581"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C1003",
+                    "short_id": "C1003"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C1253",
+                    "short_id": "C1253"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C1259",
+                    "short_id": "C1259"
+                },
+                {
+                    "id": "BSCC-1951-130-27-C1267",
+                    "short_id": "C1267"
+                }
+            ],
+            "description": "The swiss company B433 trades with the british company A6 and A644 and A748 and A801 and A1073 and A1487 and A1923 and A2070 in the goods C123 and C184 and C190 and C352 and C426 and C433490 and C492 and C575 and C579 and C581 and C1003 and C1253 and C1259 and C1267"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lauper-Wüthrich (O.)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "9, Mariahilfgasse, Lucerne.A 6, 644, 748, 801, 1073, 1487, 1923, 2070, C 123, 184, 190, 352, 426,  490, 492, 575, 579, 581, 1003, 1253, 1259, 1267"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

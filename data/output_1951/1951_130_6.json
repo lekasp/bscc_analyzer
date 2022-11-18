@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-6-B412",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "412. Kohler (Hans) AG., 20, Claridenstrasse, Zurich. A 1786, C 136, 172, 174,175.",
+        "corrected": "412. Kohler (Hans) AG., 20, Claridenstrasse, Zurich. A 1786, C 136, 172, 174,175"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,507,1294,42/max/0/default.jpg",
+            "xywh": "162, 507, 1294, 42"
+        }
+    },
+    "short_id": "B412",
+    "label": "Kohler (Hans) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-6-A1786",
+                    "short_id": "A1786"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-6-C136",
+                    "short_id": "C136"
+                },
+                {
+                    "id": "BSCC-1951-130-6-C172",
+                    "short_id": "C172"
+                },
+                {
+                    "id": "BSCC-1951-130-6-C174",
+                    "short_id": "C174"
+                },
+                {
+                    "id": "BSCC-1951-130-6-C175",
+                    "short_id": "C175"
+                }
+            ],
+            "description": "The swiss company B412 trades with the british company A1786 in the goods C136 and C172 and C174 and C175"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kohler (Hans) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 20, Claridenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

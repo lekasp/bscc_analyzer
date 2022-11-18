@@ -1,0 +1,90 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-10-C116",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "116. Strip, cold rolled steel. A 1141, 1860, B 473.",
+        "corrected": "116. Strip, cold rolled steel. A 1141, 1860, B 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,677,1337,39/max/0/default.jpg",
+            "xywh": "264, 677, 1337, 39"
+        }
+    },
+    "short_id": "C116",
+    "label": "Strip, cold rolled steel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-10-A1141",
+                    "short_id": "A1141"
+                },
+                {
+                    "id": "BSCC-1951-155-10-A1860",
+                    "short_id": "A1860"
+                },
+                {
+                    "id": "BSCC-1951-155-10-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "description": "with the british company A1141 and A1860"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3A",
+            "level": 1,
+            "label": "Iron and Steel",
+            "part_of": "3",
+            "page": "154",
+            "line_number": "27"
+        },
+        {
+            "id": "3Aa",
+            "level": 2,
+            "label": "METALS AND SEMI-FABRICATED PRODUCTS",
+            "part_of": "3A",
+            "page": "154",
+            "line_number": "28"
+        }
+    ]
+}

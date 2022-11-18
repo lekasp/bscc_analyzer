@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-21-A883",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "883. Hawk Ltd., Pontypridd. B 521, C 509.",
+        "corrected": "883. Hawk Ltd., Pontypridd. B 521, C 509"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,1338,1254,40/max/0/default.jpg",
+            "xywh": "182, 1338, 1254, 40"
+        }
+    },
+    "short_id": "A883",
+    "label": "Hawk Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-21-B521",
+                    "short_id": "B521"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-21-C509",
+                    "short_id": "C509"
+                }
+            ],
+            "description": "The british company A883 trades with the swiss company B521 in the goods C509"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hawk Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2640104",
+            "lat": "51.6021",
+            "lng": "-3.34211",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Pontypridd",
+            "transcription": " Pontypridd. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

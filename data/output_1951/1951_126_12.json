@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-12-B300",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "300. Guggenheim (Jules), 6, Pelikanstrasse, Zurich. A 158, 1143, 1488, C 1177.",
+        "corrected": "300. Guggenheim (Jules), 6, Pelikanstrasse, Zurich. A 158, 1143, 1488, C 1177"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1037,1299,39/max/0/default.jpg",
+            "xywh": "175, 1037, 1299, 39"
+        }
+    },
+    "short_id": "B300",
+    "label": "Guggenheim (Jules)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-12-A158",
+                    "short_id": "A158"
+                },
+                {
+                    "id": "BSCC-1951-126-12-A1143",
+                    "short_id": "A1143"
+                },
+                {
+                    "id": "BSCC-1951-126-12-A1488",
+                    "short_id": "A1488"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-12-C1177",
+                    "short_id": "C1177"
+                }
+            ],
+            "description": "The swiss company B300 trades with the british company A158 and A1143 and A1488 in the goods C1177"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Guggenheim (Jules)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "6, Pelikanstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-6-A1571",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1571. Prodorite Ltd., Wednesbury. B 589, C 702, 977; B 649, C 977.",
+        "corrected": "1571. Prodorite Ltd., Wednesbury. B 589, C 702, 977; B 649, C 977"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,477,1278,36/max/0/default.jpg",
+            "xywh": "168, 477, 1278, 36"
+        }
+    },
+    "short_id": "A1571",
+    "label": "Prodorite Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-6-B589",
+                    "short_id": "B589"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-6-C702",
+                    "short_id": "C702"
+                },
+                {
+                    "id": "BSCC-1951-84-6-C977",
+                    "short_id": "C977"
+                }
+            ],
+            "description": "The british company A1571 trades with the swiss company B589 in the goods C702 and C977"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-6-B649",
+                    "short_id": "B649"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-6-C977",
+                    "short_id": "C977"
+                }
+            ],
+            "description": "The british company A1571 trades with the swiss company B649 in the goods C977"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Prodorite Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634617",
+            "lat": "52.5514",
+            "lng": "-2.02355",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wednesbury",
+            "transcription": " Wednesbury. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

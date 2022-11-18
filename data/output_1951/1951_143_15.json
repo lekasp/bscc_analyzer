@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-15-B798",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "798. Weddel (W.) & Co. Ltd., 14, Bahnhofplatz, Zurich. A 2092, C 21, 24, 25, 833, 858.",
+        "corrected": "798. Weddel (W.) & Co. Ltd., 14, Bahnhofplatz, Zurich.A 2092, C 21, 24, 25, 833, 858"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1233,1304,80/max/0/default.jpg",
+            "xywh": "297, 1233, 1304, 80"
+        }
+    },
+    "short_id": "B798",
+    "label": "Weddel (W.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-15-A2092",
+                    "short_id": "A2092"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-15-C21",
+                    "short_id": "C21"
+                },
+                {
+                    "id": "BSCC-1951-143-15-C24",
+                    "short_id": "C24"
+                },
+                {
+                    "id": "BSCC-1951-143-15-C25",
+                    "short_id": "C25"
+                },
+                {
+                    "id": "BSCC-1951-143-15-C833",
+                    "short_id": "C833"
+                },
+                {
+                    "id": "BSCC-1951-143-15-C858",
+                    "short_id": "C858"
+                }
+            ],
+            "description": "The swiss company B798 trades with the british company A2092 in the goods C21 and C24 and C25 and C833 and C858"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weddel (W.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 14, Bahnhofplatz, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-20-A1409",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1409. Newhill & Earnshaw Ltd., Bingley. B 452, C 1095.",
+        "corrected": "1409. Newhill & Earnshaw Ltd., Bingley. B 452, C 1095"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1213,1323,38/max/0/default.jpg",
+            "xywh": "174, 1213, 1323, 38"
+        }
+    },
+    "short_id": "A1409",
+    "label": "Newhill & Earnshaw Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-20-B452",
+                    "short_id": "B452"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-20-C1095",
+                    "short_id": "C1095"
+                }
+            ],
+            "description": "The british company A1409 trades with the swiss company B452 in the goods C1095"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Newhill & Earnshaw Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655642",
+            "lat": "53.84861",
+            "lng": "-1.83857",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bingley",
+            "transcription": " Bingley. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

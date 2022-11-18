@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-10-A774",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿774. Gillette Industries Ltd., Isleworth, Middx. B 278, C 1300, 1349, 1383, 1384.",
+        "corrected": "774. Gillette Industries Ltd., Isleworth, Middx. B 278, C 1300, 1349, 1383, 1384"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,647,1259,40/max/0/default.jpg",
+            "xywh": "200, 647, 1259, 40"
+        }
+    },
+    "short_id": "A774",
+    "label": "Gillette Industries Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-10-B278",
+                    "short_id": "B278"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-10-C1300",
+                    "short_id": "C1300"
+                },
+                {
+                    "id": "BSCC-1951-48-10-C1349",
+                    "short_id": "C1349"
+                },
+                {
+                    "id": "BSCC-1951-48-10-C1383",
+                    "short_id": "C1383"
+                },
+                {
+                    "id": "BSCC-1951-48-10-C1384",
+                    "short_id": "C1384"
+                }
+            ],
+            "description": "The british company A774 trades with the swiss company B278 in the goods C1300 and C1349 and C1383 and C1384"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gillette Industries Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646004",
+            "lat": "51.47518",
+            "lng": "-0.34246",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Isleworth",
+            "transcription": " Isleworth, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

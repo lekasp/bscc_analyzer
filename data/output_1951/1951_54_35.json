@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-35-A939",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "939. Hoffmann (A.) & Co., Bradford. B 242, C 1088.",
+        "corrected": "939. Hoffmann (A.) & Co., Bradford. B 242, C 1088"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,1877,1211,41/max/0/default.jpg",
+            "xywh": "137, 1877, 1211, 41"
+        }
+    },
+    "short_id": "A939",
+    "label": "Hoffmann (A.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-35-B242",
+                    "short_id": "B242"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-35-C1088",
+                    "short_id": "C1088"
+                }
+            ],
+            "description": "The british company A939 trades with the swiss company B242 in the goods C1088"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hoffmann (A.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": ", Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-26-B432",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 432. Laesser (Fred.), 5, Gallusstrasse, Olten. A 1241, C 423.",
+        "corrected": "432. Laesser (Fred.), 5, Gallusstrasse, Olten. A 1241, C 423"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,1779,1294,37/max/0/default.jpg",
+            "xywh": "162, 1779, 1294, 37"
+        }
+    },
+    "short_id": "B432",
+    "label": "Laesser (Fred.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-26-A1241",
+                    "short_id": "A1241"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-26-C423",
+                    "short_id": "C423"
+                }
+            ],
+            "description": "The swiss company B432 trades with the british company A1241 in the goods C423"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Laesser (Fred.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659297",
+            "lat": "47.34999",
+            "lng": "7.90329",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Olten",
+            "transcription": "5, Gallusstrasse, Olten. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

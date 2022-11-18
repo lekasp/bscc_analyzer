@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-86-1951-31-A1634",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1634. Ridgway (William) & Sons Ltd., Sheffield. B 479, C 412.",
+        "corrected": "1634. Ridgway (William) & Sons Ltd., Sheffield. B 479, C 412"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 86,
+            "canvas": "http://localhost:8182/iiif/3/0086.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0086.jpg/171,1549,1280,40/max/0/default.jpg",
+            "xywh": "171, 1549, 1280, 40"
+        }
+    },
+    "short_id": "A1634",
+    "label": "Ridgway (William) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-86-31-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-86-31-C412",
+                    "short_id": "C412"
+                }
+            ],
+            "description": "The british company A1634 trades with the swiss company B479 in the goods C412"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ridgway (William) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

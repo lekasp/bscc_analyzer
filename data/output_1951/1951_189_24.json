@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-189-1951-24-C1349",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1349. Brushes, shaving. A 774, 907, B 278, 536.",
+        "corrected": "1349. Brushes, shaving. A 774, 907, B 278, 536"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 189,
+            "canvas": "http://localhost:8182/iiif/3/0189.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0189.jpg/268,1402,1341,40/max/0/default.jpg",
+            "xywh": "268, 1402, 1341, 40"
+        }
+    },
+    "short_id": "C1349",
+    "label": "Brushes, shaving",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-189-24-A774",
+                    "short_id": "A774"
+                },
+                {
+                    "id": "BSCC-1951-189-24-A907",
+                    "short_id": "A907"
+                },
+                {
+                    "id": "BSCC-1951-189-24-B278",
+                    "short_id": "B278"
+                },
+                {
+                    "id": "BSCC-1951-189-24-B536",
+                    "short_id": "B536"
+                }
+            ],
+            "description": "with the british company A774 and A907 and B536"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "18",
+            "level": 0,
+            "label": "Catering Equipment, Domestic Articles, Furniture, Toilet Requisites",
+            "part_of": "0",
+            "page": "188",
+            "line_number": "20"
+        },
+        {
+            "id": "18D",
+            "level": 1,
+            "label": "Toilet Requisites",
+            "part_of": "18",
+            "page": "189",
+            "line_number": "20"
+        }
+    ]
+}

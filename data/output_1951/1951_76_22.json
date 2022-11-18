@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-76-1951-22-A1411",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1411. Newman's Slippers Ltd., Blackburn. B 672, C 877.",
+        "corrected": "1411. Newman's Slippers Ltd., Blackburn. B 672, C 877"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 76,
+            "canvas": "http://localhost:8182/iiif/3/0076.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0076.jpg/174,1292,1323,38/max/0/default.jpg",
+            "xywh": "174, 1292, 1323, 38"
+        }
+    },
+    "short_id": "A1411",
+    "label": "Newman's Slippers Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-76-22-B672",
+                    "short_id": "B672"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-76-22-C877",
+                    "short_id": "C877"
+                }
+            ],
+            "description": "The british company A1411 trades with the swiss company B672 in the goods C877"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Newman's Slippers Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655524",
+            "lat": "53.75",
+            "lng": "-2.48333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Blackburn",
+            "transcription": " Blackburn. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

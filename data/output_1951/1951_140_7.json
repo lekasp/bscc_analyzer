@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-7-B705",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "705. Stahl-Contor AG., 31, Utoquai, Zurich. A 43, C 94, 124, 378.",
+        "corrected": "705. Stahl-Contor AG., 31, Utoquai, Zurich. A 43, C 94, 124, 378"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,834,1265,37/max/0/default.jpg",
+            "xywh": "219, 834, 1265, 37"
+        }
+    },
+    "short_id": "B705",
+    "label": "Stahl-Contor AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-7-A43",
+                    "short_id": "A43"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-7-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-140-7-C124",
+                    "short_id": "C124"
+                },
+                {
+                    "id": "BSCC-1951-140-7-C378",
+                    "short_id": "C378"
+                }
+            ],
+            "description": "The swiss company B705 trades with the british company A43 in the goods C94 and C124 and C378"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stahl-Contor AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 31, Utoquai, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

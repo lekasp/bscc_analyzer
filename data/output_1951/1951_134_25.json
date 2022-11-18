@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-25-B546",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "546. Orient-Teppich Import AG., Otiag, Freilager, Albisrieden, Zurich. A 1582, C 1248.",
+        "corrected": "546. Orient-Teppich Import AG., Otiag, Freilager, Albisrieden, Zurich.A 1582, C 1248"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1935,1276,76/max/0/default.jpg",
+            "xywh": "187, 1935, 1276, 76"
+        }
+    },
+    "short_id": "B546",
+    "label": "Orient-Teppich Import AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-25-A1582",
+                    "short_id": "A1582"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-25-C1248",
+                    "short_id": "C1248"
+                }
+            ],
+            "description": "The swiss company B546 trades with the british company A1582 in the goods C1248"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Orient-Teppich Import AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "6295512",
+            "lat": "47.37398",
+            "lng": "8.49007",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zürich (Kreis 9) / Albisrieden",
+            "transcription": " Otiag, Freilager, Albisrieden, Zurich."
+        },
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " Otiag, Freilager, Albisrieden, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

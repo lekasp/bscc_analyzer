@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-22-A1903",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1903. Tan-Sad Ltd., Great Bridge, Staffs. B 424, C 1436.",
+        "corrected": "1903. Tan-Sad Ltd., Great Bridge, Staffs. B 424, C 1436"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,1445,1285,41/max/0/default.jpg",
+            "xywh": "340, 1445, 1285, 41"
+        }
+    },
+    "short_id": "A1903",
+    "label": "Tan-Sad Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-22-B424",
+                    "short_id": "B424"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-22-C1436",
+                    "short_id": "C1436"
+                }
+            ],
+            "description": "The british company A1903 trades with the swiss company B424 in the goods C1436"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tan-Sad Ltd."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " Great Bridge, Staffs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

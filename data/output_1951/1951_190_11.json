@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-11-C1370",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1370. Non-splintering and opaque glass. A 1546, B 394.",
+        "corrected": "1370. Non-splintering and opaque glass. A 1546, B 394"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,804,1327,38/max/0/default.jpg",
+            "xywh": "181, 804, 1327, 38"
+        }
+    },
+    "short_id": "C1370",
+    "label": "Non-splintering and opaque glass",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-11-A1546",
+                    "short_id": "A1546"
+                },
+                {
+                    "id": "BSCC-1951-190-11-B394",
+                    "short_id": "B394"
+                }
+            ],
+            "description": "with the british company A1546"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "19",
+            "level": 0,
+            "label": "Ceramics and Glassware",
+            "part_of": "0",
+            "page": "189",
+            "line_number": "32"
+        },
+        {
+            "id": "19B",
+            "level": 1,
+            "label": "Glassware",
+            "part_of": "19",
+            "page": "190",
+            "line_number": "7"
+        }
+    ]
+}

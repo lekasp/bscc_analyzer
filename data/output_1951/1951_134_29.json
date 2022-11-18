@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-29-B550",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "550. Ott (Gebr.) AG., Worb (Berne). A 74, 1980, C 243, 244, 256.",
+        "corrected": "550. Ott (Gebr.) AG., Worb (Berne). A 74, 1980, C 243, 244, 256"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,2171,1276,84/max/0/default.jpg",
+            "xywh": "187, 2171, 1276, 84"
+        }
+    },
+    "short_id": "B550",
+    "label": "Ott (Gebr.) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-29-A74",
+                    "short_id": "A74"
+                },
+                {
+                    "id": "BSCC-1951-134-29-A1980",
+                    "short_id": "A1980"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-29-C243",
+                    "short_id": "C243"
+                },
+                {
+                    "id": "BSCC-1951-134-29-C244",
+                    "short_id": "C244"
+                },
+                {
+                    "id": "BSCC-1951-134-29-C256",
+                    "short_id": "C256"
+                }
+            ],
+            "description": "The swiss company B550 trades with the british company A74 and A1980 in the goods C243 and C244 and C256"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ott (Gebr.) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657954",
+            "lat": "46.92984",
+            "lng": "7.56306",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Worb",
+            "transcription": " Worb (Berne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

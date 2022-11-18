@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-4-B42",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "42. Babel S.A., 5, rue Guillaume Tell, Geneva. A 411, 835, 1590, 1828, C 802, 1192, 1354.",
+        "corrected": "42. Babel S.A., 5, rue Guillaume Tell, Geneva.A 411, 835, 1590, 1828, C 802, 1192, 1354"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,548,1300,78/max/0/default.jpg",
+            "xywh": "187, 548, 1300, 78"
+        }
+    },
+    "short_id": "B42",
+    "label": "Babel S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-4-A411",
+                    "short_id": "A411"
+                },
+                {
+                    "id": "BSCC-1951-118-4-A835",
+                    "short_id": "A835"
+                },
+                {
+                    "id": "BSCC-1951-118-4-A1590",
+                    "short_id": "A1590"
+                },
+                {
+                    "id": "BSCC-1951-118-4-A1828",
+                    "short_id": "A1828"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-4-C802",
+                    "short_id": "C802"
+                },
+                {
+                    "id": "BSCC-1951-118-4-C1192",
+                    "short_id": "C1192"
+                },
+                {
+                    "id": "BSCC-1951-118-4-C1354",
+                    "short_id": "C1354"
+                }
+            ],
+            "description": "The swiss company B42 trades with the british company A411 and A835 and A1590 and A1828 in the goods C802 and C1192 and C1354"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Babel S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 5, rue Guillaume Tell, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

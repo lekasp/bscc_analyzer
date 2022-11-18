@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-92-1951-24-A1766",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1766. Simpson (A.), Chard, Somerset. B 735, C 1337.",
+        "corrected": "1766. Simpson (A.), Chard, Somerset. B 735, C 1337"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 92,
+            "canvas": "http://localhost:8182/iiif/3/0092.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0092.jpg/190,1235,1276,38/max/0/default.jpg",
+            "xywh": "190, 1235, 1276, 38"
+        }
+    },
+    "short_id": "A1766",
+    "label": "Simpson (A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-92-24-B735",
+                    "short_id": "B735"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-92-24-C1337",
+                    "short_id": "C1337"
+                }
+            ],
+            "description": "The british company A1766 trades with the swiss company B735 in the goods C1337"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Simpson (A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2653346",
+            "lat": "50.8727",
+            "lng": "-2.96597",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Chard",
+            "transcription": "Chard, Somerset. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

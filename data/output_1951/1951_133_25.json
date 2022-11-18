@@ -1,0 +1,112 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-25-B517",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "517. Müller (Emil), 73, Stampfenbachstrasse, Zurich. A 299, 598, 1697, C 497, 535, 536, 542, 546, 547, 660.",
+        "corrected": "517. Müller (Emil), 73, Stampfenbachstrasse, Zurich.A 299, 598, 1697, C 497, 535, 536, 542, 546, 547, 660"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,1970,1317,77/max/0/default.jpg",
+            "xywh": "305, 1970, 1317, 77"
+        }
+    },
+    "short_id": "B517",
+    "label": "Müller (Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-25-A299",
+                    "short_id": "A299"
+                },
+                {
+                    "id": "BSCC-1951-133-25-A598",
+                    "short_id": "A598"
+                },
+                {
+                    "id": "BSCC-1951-133-25-A1697",
+                    "short_id": "A1697"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-25-C497",
+                    "short_id": "C497"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C535",
+                    "short_id": "C535"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C536",
+                    "short_id": "C536"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C542",
+                    "short_id": "C542"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C546",
+                    "short_id": "C546"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C547",
+                    "short_id": "C547"
+                },
+                {
+                    "id": "BSCC-1951-133-25-C660",
+                    "short_id": "C660"
+                }
+            ],
+            "description": "The swiss company B517 trades with the british company A299 and A598 and A1697 in the goods C497 and C535 and C536 and C542 and C546 and C547 and C660"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Müller (Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "73, Stampfenbachstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

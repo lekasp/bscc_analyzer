@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-39-A1734a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1734a. Seddon Motors Ltd., Oldham. B 259a, C 563.",
+        "corrected": "1734a. Seddon Motors Ltd., Oldham. B 259a, C 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,1901,1298,43/max/0/default.jpg",
+            "xywh": "171, 1901, 1298, 43"
+        }
+    },
+    "short_id": "A1734a",
+    "label": "Seddon Motors Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-39-B259a",
+                    "short_id": "B259a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-39-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The british company A1734a trades with the swiss company B259a in the goods C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Seddon Motors Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641022",
+            "lat": "53.54051",
+            "lng": "-2.1183",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Oldham",
+            "transcription": " Oldham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

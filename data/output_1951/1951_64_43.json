@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-43-A1161",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1161. Lincoln Electric Co. Ltd., Welwyn Garden City. B 353, C 437, 442a.",
+        "corrected": "1161. Lincoln Electric Co. Ltd., Welwyn Garden City. B 353, C 437, 442a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,2019,1283,38/max/0/default.jpg",
+            "xywh": "195, 2019, 1283, 38"
+        }
+    },
+    "short_id": "A1161",
+    "label": "Lincoln Electric Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-43-B353",
+                    "short_id": "B353"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-43-C437",
+                    "short_id": "C437"
+                },
+                {
+                    "id": "BSCC-1951-64-43-C442a",
+                    "short_id": "C442a"
+                }
+            ],
+            "description": "The british company A1161 trades with the swiss company B353 in the goods C437 and C442a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lincoln Electric Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634552",
+            "lat": "51.80174",
+            "lng": "-0.20691",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Welwyn Garden City",
+            "transcription": " Welwyn Garden City. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

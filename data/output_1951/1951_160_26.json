@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-160-1951-26-C334",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "334. Rolling-mill equipment. A 200, B 484.",
+        "corrected": "334. Rolling-mill equipment. A 200, B 484"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 160,
+            "canvas": "http://localhost:8182/iiif/3/0160.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0160.jpg/155,1318,1307,36/max/0/default.jpg",
+            "xywh": "155, 1318, 1307, 36"
+        }
+    },
+    "short_id": "C334",
+    "label": "Rolling-mill equipment",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-160-26-A200",
+                    "short_id": "A200"
+                },
+                {
+                    "id": "BSCC-1951-160-26-B484",
+                    "short_id": "B484"
+                }
+            ],
+            "description": "with the british company A200"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Bf",
+            "level": 2,
+            "label": "OTHER INDUSTRIES AND TRADES",
+            "part_of": "4B",
+            "page": "160",
+            "line_number": "15"
+        }
+    ]
+}

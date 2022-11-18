@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-3-C185",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "185. Chucks, lathe. A 355, 1560, 1912, B 65, 396, 621.",
+        "corrected": "185. Chucks, lathe. A 355, 1560, 1912, B 65, 396, 621"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,355,1281,39/max/0/default.jpg",
+            "xywh": "303, 355, 1281, 39"
+        }
+    },
+    "short_id": "C185",
+    "label": "Chucks, lathe",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-3-A355",
+                    "short_id": "A355"
+                },
+                {
+                    "id": "BSCC-1951-157-3-A1560",
+                    "short_id": "A1560"
+                },
+                {
+                    "id": "BSCC-1951-157-3-A1912",
+                    "short_id": "A1912"
+                },
+                {
+                    "id": "BSCC-1951-157-3-B65",
+                    "short_id": "B65"
+                },
+                {
+                    "id": "BSCC-1951-157-3-B396",
+                    "short_id": "B396"
+                },
+                {
+                    "id": "BSCC-1951-157-3-B621",
+                    "short_id": "B621"
+                }
+            ],
+            "description": "with the british company A355 and A1560 and A1912 and B396 and B621"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

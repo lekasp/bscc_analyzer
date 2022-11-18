@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-24-B658",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "658. Schnyder (Hch.) & Co., 24, Beethovenstrasse, Zurich. A 316, C 420.",
+        "corrected": "658. Schnyder (Hch.) & Co., 24, Beethovenstrasse, Zurich. A 316, C 420"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1573,1287,40/max/0/default.jpg",
+            "xywh": "197, 1573, 1287, 40"
+        }
+    },
+    "short_id": "B658",
+    "label": "Schnyder (Hch.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-24-A316",
+                    "short_id": "A316"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-24-C420",
+                    "short_id": "C420"
+                }
+            ],
+            "description": "The swiss company B658 trades with the british company A316 in the goods C420"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schnyder (Hch.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 24, Beethovenstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-6-A1973",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1973. Two Steeples Ltd., Wigston, Leics. B 116, C 1184, 1186.",
+        "corrected": "1973. Two Steeples Ltd., Wigston, Leics. B 116, C 1184, 1186"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,521,1247,38/max/0/default.jpg",
+            "xywh": "346, 521, 1247, 38"
+        }
+    },
+    "short_id": "A1973",
+    "label": "Two Steeples Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-6-B116",
+                    "short_id": "B116"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-6-C1184",
+                    "short_id": "C1184"
+                },
+                {
+                    "id": "BSCC-1951-97-6-C1186",
+                    "short_id": "C1186"
+                }
+            ],
+            "description": "The british company A1973 trades with the swiss company B116 in the goods C1184 and C1186"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Two Steeples Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633936",
+            "lat": "52.58128",
+            "lng": "-1.09248",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wigston Magna",
+            "transcription": " Wigston, Leics. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

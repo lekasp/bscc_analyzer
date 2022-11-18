@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-9-C8",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "8. Colonial products, general. A 531, 674, 677, 1131, 2038a, B 1, 267, 435, 639a, 736.",
+        "corrected": "8. Colonial products, general.A 531, 674, 677, 1131, 2038a, B 1, 267, 435, 639a, 736"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,691,1293,81/max/0/default.jpg",
+            "xywh": "202, 691, 1293, 81"
+        }
+    },
+    "short_id": "C8",
+    "label": "Colonial products, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-9-A531",
+                    "short_id": "A531"
+                },
+                {
+                    "id": "BSCC-1951-152-9-A674",
+                    "short_id": "A674"
+                },
+                {
+                    "id": "BSCC-1951-152-9-A677",
+                    "short_id": "A677"
+                },
+                {
+                    "id": "BSCC-1951-152-9-A1131",
+                    "short_id": "A1131"
+                },
+                {
+                    "id": "BSCC-1951-152-9-A2038a",
+                    "short_id": "A2038a"
+                },
+                {
+                    "id": "BSCC-1951-152-9-B1",
+                    "short_id": "B1"
+                },
+                {
+                    "id": "BSCC-1951-152-9-B267",
+                    "short_id": "B267"
+                },
+                {
+                    "id": "BSCC-1951-152-9-B435",
+                    "short_id": "B435"
+                },
+                {
+                    "id": "BSCC-1951-152-9-B639a",
+                    "short_id": "B639a"
+                },
+                {
+                    "id": "BSCC-1951-152-9-B736",
+                    "short_id": "B736"
+                }
+            ],
+            "description": "with the british company A531 and A674 and A677 and A1131 and A2038a and B267 and B435 and B639a and B736"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1A",
+            "level": 1,
+            "label": "Raw Foodstuffs",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "1"
+        }
+    ]
+}

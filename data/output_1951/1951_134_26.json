@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-26-B547",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "547. Orion Werke AG., 185, Hardturmstrasse, Zurich. A 1064, C 1325.",
+        "corrected": "547. Orion Werke AG., 185, Hardturmstrasse, Zurich. A 1064, C 1325"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,2011,1276,41/max/0/default.jpg",
+            "xywh": "187, 2011, 1276, 41"
+        }
+    },
+    "short_id": "B547",
+    "label": "Orion Werke AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-26-A1064",
+                    "short_id": "A1064"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-26-C1325",
+                    "short_id": "C1325"
+                }
+            ],
+            "description": "The swiss company B547 trades with the british company A1064 in the goods C1325"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Orion Werke AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 185, Hardturmstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

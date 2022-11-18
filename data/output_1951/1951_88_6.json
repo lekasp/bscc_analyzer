@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-6-A1657",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1657. Romary (A.) & Co. Ltd., Tunbridge Wells. B 511, C 28.",
+        "corrected": "1657. Romary (A.) & Co. Ltd., Tunbridge Wells. B 511, C 28"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,482,1195,40/max/0/default.jpg",
+            "xywh": "208, 482, 1195, 40"
+        }
+    },
+    "short_id": "A1657",
+    "label": "Romary (A.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-6-B511",
+                    "short_id": "B511"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-6-C28",
+                    "short_id": "C28"
+                }
+            ],
+            "description": "The british company A1657 trades with the swiss company B511 in the goods C28"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Romary (A.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639022",
+            "lat": "51.13321",
+            "lng": "0.26256",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Tunbridge Wells",
+            "transcription": " Tunbridge Wells. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

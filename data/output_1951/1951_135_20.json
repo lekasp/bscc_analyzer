@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-20-B571",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "571. Physique & Mécanique S.A., 2, Grand Pont, Lausanne. A 426, C 656, 659.",
+        "corrected": "571. Physique & Mécanique S.A., 2, Grand Pont, Lausanne. A 426, C 656, 659"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1667,1298,42/max/0/default.jpg",
+            "xywh": "298, 1667, 1298, 42"
+        }
+    },
+    "short_id": "B571",
+    "label": "Physique & Mécanique S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-20-A426",
+                    "short_id": "A426"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-20-C656",
+                    "short_id": "C656"
+                },
+                {
+                    "id": "BSCC-1951-135-20-C659",
+                    "short_id": "C659"
+                }
+            ],
+            "description": "The swiss company B571 trades with the british company A426 in the goods C656 and C659"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Physique & Mécanique S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 2, Grand Pont, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

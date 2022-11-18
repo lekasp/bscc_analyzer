@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-18-B773",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "773. Vereinigte Schuhmaschinen AG., 80, Ausstellungsstrasse, Zurich. A 159, 310, 1962, C 325, 879, 885, 897, 985, 1006.",
+        "corrected": "773. Vereinigte Schuhmaschinen AG., 80, Ausstellungsstrasse, Zurich.A 159, 310, 1962, C 325, 879, 885, 897, 985, 1006"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1443,1294,77/max/0/default.jpg",
+            "xywh": "185, 1443, 1294, 77"
+        }
+    },
+    "short_id": "B773",
+    "label": "Vereinigte Schuhmaschinen AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-18-A159",
+                    "short_id": "A159"
+                },
+                {
+                    "id": "BSCC-1951-142-18-A310",
+                    "short_id": "A310"
+                },
+                {
+                    "id": "BSCC-1951-142-18-A1962",
+                    "short_id": "A1962"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-18-C325",
+                    "short_id": "C325"
+                },
+                {
+                    "id": "BSCC-1951-142-18-C879",
+                    "short_id": "C879"
+                },
+                {
+                    "id": "BSCC-1951-142-18-C885",
+                    "short_id": "C885"
+                },
+                {
+                    "id": "BSCC-1951-142-18-C897",
+                    "short_id": "C897"
+                },
+                {
+                    "id": "BSCC-1951-142-18-C985",
+                    "short_id": "C985"
+                },
+                {
+                    "id": "BSCC-1951-142-18-C1006",
+                    "short_id": "C1006"
+                }
+            ],
+            "description": "The swiss company B773 trades with the british company A159 and A310 and A1962 in the goods C325 and C879 and C885 and C897 and C985 and C1006"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vereinigte Schuhmaschinen AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 80, Ausstellungsstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

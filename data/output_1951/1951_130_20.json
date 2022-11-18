@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-20-B426",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿426. Kunz (Heinrich), 48, Stockerstrasse, Zurich. A 64, 68, 153, 260, C 1079, 1080, 1081, 1082, 1084, 1088, 1090, 1093.",
+        "corrected": "426. Kunz (Heinrich), 48, Stockerstrasse, Zurich.A 64, 68, 153, 260, C 1079, 1080, 1081, 1082, 1084, 1088, 1090, 1093"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,1259,1294,77/max/0/default.jpg",
+            "xywh": "162, 1259, 1294, 77"
+        }
+    },
+    "short_id": "B426",
+    "label": "Kunz (Heinrich)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-20-A64",
+                    "short_id": "A64"
+                },
+                {
+                    "id": "BSCC-1951-130-20-A68",
+                    "short_id": "A68"
+                },
+                {
+                    "id": "BSCC-1951-130-20-A153",
+                    "short_id": "A153"
+                },
+                {
+                    "id": "BSCC-1951-130-20-A260",
+                    "short_id": "A260"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-20-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1081",
+                    "short_id": "C1081"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1082",
+                    "short_id": "C1082"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1088",
+                    "short_id": "C1088"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1090",
+                    "short_id": "C1090"
+                },
+                {
+                    "id": "BSCC-1951-130-20-C1093",
+                    "short_id": "C1093"
+                }
+            ],
+            "description": "The swiss company B426 trades with the british company A64 and A68 and A153 and A260 in the goods C1079 and C1080 and C1081 and C1082 and C1084 and C1088 and C1090 and C1093"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kunz (Heinrich)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "48, Stockerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-16-B828",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿828. Willard (Georges), 15, Uraniastrasse, Zurich. A 782, 934, 1190, C 1123, 1129.",
+        "corrected": "828. Willard (Georges), 15, Uraniastrasse, Zurich. A 782, 934, 1190, C 1123, 1129"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1308,1324,44/max/0/default.jpg",
+            "xywh": "195, 1308, 1324, 44"
+        }
+    },
+    "short_id": "B828",
+    "label": "Willard (Georges)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-16-A782",
+                    "short_id": "A782"
+                },
+                {
+                    "id": "BSCC-1951-144-16-A934",
+                    "short_id": "A934"
+                },
+                {
+                    "id": "BSCC-1951-144-16-A1190",
+                    "short_id": "A1190"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-16-C1123",
+                    "short_id": "C1123"
+                },
+                {
+                    "id": "BSCC-1951-144-16-C1129",
+                    "short_id": "C1129"
+                }
+            ],
+            "description": "The swiss company B828 trades with the british company A782 and A934 and A1190 in the goods C1123 and C1129"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Willard (Georges)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "15, Uraniastrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

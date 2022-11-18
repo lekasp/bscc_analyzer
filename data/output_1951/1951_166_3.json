@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-166-1951-3-C549",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "549. Television receivers. A 1102, 1579, B 620, 707.",
+        "corrected": "549. Television receivers. A 1102, 1579, B 620, 707"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 166,
+            "canvas": "http://localhost:8182/iiif/3/0166.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0166.jpg/163,366,1316,39/max/0/default.jpg",
+            "xywh": "163, 366, 1316, 39"
+        }
+    },
+    "short_id": "C549",
+    "label": "Television receivers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-166-3-A1102",
+                    "short_id": "A1102"
+                },
+                {
+                    "id": "BSCC-1951-166-3-A1579",
+                    "short_id": "A1579"
+                },
+                {
+                    "id": "BSCC-1951-166-3-B620",
+                    "short_id": "B620"
+                },
+                {
+                    "id": "BSCC-1951-166-3-B707",
+                    "short_id": "B707"
+                }
+            ],
+            "description": "with the british company A1102 and A1579 and B707"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5C",
+            "level": 1,
+            "label": "Radio Receivers, Components and Accessories",
+            "part_of": "5",
+            "page": "165",
+            "line_number": "27"
+        }
+    ]
+}

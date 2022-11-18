@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-30-B257",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "257. Furrer (Carl), 45, Neuwiesenstrasse, Winterthur. A 761, 781, 1028, 1710, C 94, 99, 100, 103, 118, 702, 711, 712.",
+        "corrected": "257. Furrer (Carl), 45, Neuwiesenstrasse, Winterthur.A 761, 781, 1028, 1710, C 94, 99, 100, 103, 118, 702, 711, 712"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,2110,1320,78/max/0/default.jpg",
+            "xywh": "166, 2110, 1320, 78"
+        }
+    },
+    "short_id": "B257",
+    "label": "Furrer (Carl)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-30-A761",
+                    "short_id": "A761"
+                },
+                {
+                    "id": "BSCC-1951-124-30-A781",
+                    "short_id": "A781"
+                },
+                {
+                    "id": "BSCC-1951-124-30-A1028",
+                    "short_id": "A1028"
+                },
+                {
+                    "id": "BSCC-1951-124-30-A1710",
+                    "short_id": "A1710"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-30-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C99",
+                    "short_id": "C99"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C100",
+                    "short_id": "C100"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C103",
+                    "short_id": "C103"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C118",
+                    "short_id": "C118"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C702",
+                    "short_id": "C702"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C711",
+                    "short_id": "C711"
+                },
+                {
+                    "id": "BSCC-1951-124-30-C712",
+                    "short_id": "C712"
+                }
+            ],
+            "description": "The swiss company B257 trades with the british company A761 and A781 and A1028 and A1710 in the goods C94 and C99 and C100 and C103 and C118 and C702 and C711 and C712"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Furrer (Carl)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657970",
+            "lat": "47.50564",
+            "lng": "8.72413",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Winterthur",
+            "transcription": "45, Neuwiesenstrasse, Winterthur."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

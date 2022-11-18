@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-18-B395",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 395. Kiefer (G.) & Co. AG., 14, Gerbergasse, Basle. A 587, 612, C 1359, 1362.",
+        "corrected": "395. Kiefer (G.) & Co. AG., 14, Gerbergasse, Basle. A 587, 612, C 1359, 1362"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1473,1292,43/max/0/default.jpg",
+            "xywh": "294, 1473, 1292, 43"
+        }
+    },
+    "short_id": "B395",
+    "label": "Kiefer (G.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-18-A587",
+                    "short_id": "A587"
+                },
+                {
+                    "id": "BSCC-1951-129-18-A612",
+                    "short_id": "A612"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-18-C1359",
+                    "short_id": "C1359"
+                },
+                {
+                    "id": "BSCC-1951-129-18-C1362",
+                    "short_id": "C1362"
+                }
+            ],
+            "description": "The swiss company B395 trades with the british company A587 and A612 in the goods C1359 and C1362"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kiefer (G.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 14, Gerbergasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

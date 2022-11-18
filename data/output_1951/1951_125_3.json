@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-3-B260a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "260a. Gaffner, Ludwig & Co., 61, Marktgasse, Berne. A 1177, C 22.",
+        "corrected": "260a. Gaffner, Ludwig & Co., 61, Marktgasse, Berne. A 1177, C 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,372,1317,36/max/0/default.jpg",
+            "xywh": "288, 372, 1317, 36"
+        }
+    },
+    "short_id": "B260a",
+    "label": "Gaffner, Ludwig & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-3-A1177",
+                    "short_id": "A1177"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-3-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The swiss company B260a trades with the british company A1177 in the goods C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gaffner, Ludwig & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": ", 61, Marktgasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

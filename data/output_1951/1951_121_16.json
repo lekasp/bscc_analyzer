@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-16-B151",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "151. Colnaghi (Theodor), 26, Leonhardstrasse, Basle. A 170, C 1116.",
+        "corrected": "151. Colnaghi (Theodor), 26, Leonhardstrasse, Basle. A 170, C 1116"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1110,1272,39/max/0/default.jpg",
+            "xywh": "309, 1110, 1272, 39"
+        }
+    },
+    "short_id": "B151",
+    "label": "Colnaghi (Theodor)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-16-A170",
+                    "short_id": "A170"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-16-C1116",
+                    "short_id": "C1116"
+                }
+            ],
+            "description": "The swiss company B151 trades with the british company A170 in the goods C1116"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Colnaghi (Theodor)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "26, Leonhardstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-19-A740",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "740. Fuller’s Earth Union Ltd., Redhill, Surrey. B 580, C 919.",
+        "corrected": "740. Fuller’s Earth Union Ltd., Redhill, Surrey. B 580, C 919"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1084,1256,40/max/0/default.jpg",
+            "xywh": "190, 1084, 1256, 40"
+        }
+    },
+    "short_id": "A740",
+    "label": "Fuller’s Earth Union Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-19-B580",
+                    "short_id": "B580"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-19-C919",
+                    "short_id": "C919"
+                }
+            ],
+            "description": "The british company A740 trades with the swiss company B580 in the goods C919"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fuller’s Earth Union Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639545",
+            "lat": "51.24048",
+            "lng": "-0.17044",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Redhill",
+            "transcription": " Redhill, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

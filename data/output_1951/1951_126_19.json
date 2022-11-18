@@ -1,0 +1,90 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-19-B307",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "307. Gysi (F.), Suhr (Aarg.). A 1094, 1792 C 678, 697, 730, 746, 827.",
+        "corrected": "307. Gysi (F.), Suhr (Aarg.). A 1094, 1792 C 678, 697, 730, 746, 827"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1392,1299,47/max/0/default.jpg",
+            "xywh": "175, 1392, 1299, 47"
+        }
+    },
+    "short_id": "B307",
+    "label": "Gysi (F.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-19-A1094",
+                    "short_id": "A1094"
+                },
+                {
+                    "id": "BSCC-1951-126-19-A697",
+                    "short_id": "A697"
+                },
+                {
+                    "id": "BSCC-1951-126-19-A730",
+                    "short_id": "A730"
+                },
+                {
+                    "id": "BSCC-1951-126-19-A746",
+                    "short_id": "A746"
+                },
+                {
+                    "id": "BSCC-1951-126-19-A827",
+                    "short_id": "A827"
+                }
+            ],
+            "description": "The swiss company B307 trades with the british company A1094 and A697 and A730 and A746 and A827"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gysi (F.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658457",
+            "lat": "47.37172",
+            "lng": "8.07967",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Suhr",
+            "transcription": "Suhr (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-24-B401",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "401. Klaus-Haeberlin (E.), 1, Kanzleistrasse, Uster (Zurich). A 2049, C 469, 473.",
+        "corrected": "401. Klaus-Haeberlin (E.), 1, Kanzleistrasse, Uster (Zurich).A 2049, C 469, 473"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1991,1292,75/max/0/default.jpg",
+            "xywh": "294, 1991, 1292, 75"
+        }
+    },
+    "short_id": "B401",
+    "label": "Klaus-Haeberlin (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-24-A2049",
+                    "short_id": "A2049"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-24-C469",
+                    "short_id": "C469"
+                },
+                {
+                    "id": "BSCC-1951-129-24-C473",
+                    "short_id": "C473"
+                }
+            ],
+            "description": "The swiss company B401 trades with the british company A2049 in the goods C469 and C473"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Klaus-Haeberlin (E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658216",
+            "lat": "47.34713",
+            "lng": "8.72091",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Uster",
+            "transcription": "1, Kanzleistrasse, Uster (Zurich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

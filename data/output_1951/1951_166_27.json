@@ -1,0 +1,126 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-166-1951-27-C568",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "568. ACCESSORIES, GENERAL. A 161, 950, 1609, 1788, 1800, 1950, 2064, 2152, B 44, 264, 362, 462, 655, 771.",
+        "corrected": "568. ACCESSORIES, GENERAL.A 161, 950, 1609, 1788, 1800, 1950, 2064, 2152, B 44, 264, 362, 462, 655, 771"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 166,
+            "canvas": "http://localhost:8182/iiif/3/0166.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0166.jpg/163,1669,1316,88/max/0/default.jpg",
+            "xywh": "163, 1669, 1316, 88"
+        }
+    },
+    "short_id": "C568",
+    "label": "ACCESSORIES, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-166-27-A161",
+                    "short_id": "A161"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A950",
+                    "short_id": "A950"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A1609",
+                    "short_id": "A1609"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A1788",
+                    "short_id": "A1788"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A1800",
+                    "short_id": "A1800"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A1950",
+                    "short_id": "A1950"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A2064",
+                    "short_id": "A2064"
+                },
+                {
+                    "id": "BSCC-1951-166-27-A2152",
+                    "short_id": "A2152"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B44",
+                    "short_id": "B44"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B264",
+                    "short_id": "B264"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B362",
+                    "short_id": "B362"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B462",
+                    "short_id": "B462"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B655",
+                    "short_id": "B655"
+                },
+                {
+                    "id": "BSCC-1951-166-27-B771",
+                    "short_id": "B771"
+                }
+            ],
+            "description": "with the british company A161 and A950 and A1609 and A1788 and A1800 and A1950 and A2064 and A2152 and B264 and B362 and B462 and B655 and B771"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6C",
+            "level": 1,
+            "label": "Motor Vehicle Accessories and Components",
+            "part_of": "6",
+            "page": "166",
+            "line_number": "26"
+        }
+    ]
+}

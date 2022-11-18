@@ -1,0 +1,250 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-181-1951-5-C1084",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1084. YARN, GENERAL. A 64, 373, 382, 457, 513, 570, 814, 881, 882, 897, 902, 918, 957, 1010, 1049, 1228, 1260, 1266, 1284, 1385, 1389a, 1449, 1458, 1892, 1947, 2121 -B 112, 125, 202, 221, 242, 248, 319a, 341, 426, 539, 540, 642, 665, 730, 754, 783, 810, 842, 848.",
+        "corrected": "1084.YARN, GENERAL. A 64, 373, 382, 457, 513, 570, 814, 881, 882, 897, 902, 918, 957, 1010, 1049, 1228, 1260, 1266, 1284, 1385, 1389a, 1449, 1458, 1892, 1947, 2121 -B 112, 125, 202, 221, 242, 248, 319a, 341, 426, 539, 540, 642, 665, 730, 754, 783, 810, 842, 848"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 181,
+            "canvas": "http://localhost:8182/iiif/3/0181.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0181.jpg/320,575,1271,210/max/0/default.jpg",
+            "xywh": "320, 575, 1271, 210"
+        }
+    },
+    "short_id": "C1084",
+    "label": "YARN, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-181-5-A64",
+                    "short_id": "A64"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A373",
+                    "short_id": "A373"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A382",
+                    "short_id": "A382"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A457",
+                    "short_id": "A457"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A513",
+                    "short_id": "A513"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A570",
+                    "short_id": "A570"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A814",
+                    "short_id": "A814"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A881",
+                    "short_id": "A881"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A882",
+                    "short_id": "A882"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A897",
+                    "short_id": "A897"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A902",
+                    "short_id": "A902"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A918",
+                    "short_id": "A918"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A957",
+                    "short_id": "A957"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1010",
+                    "short_id": "A1010"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1049",
+                    "short_id": "A1049"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1228",
+                    "short_id": "A1228"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1260",
+                    "short_id": "A1260"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1266",
+                    "short_id": "A1266"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1284",
+                    "short_id": "A1284"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1385",
+                    "short_id": "A1385"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1389a",
+                    "short_id": "A1389a"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1449",
+                    "short_id": "A1449"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1458",
+                    "short_id": "A1458"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1892",
+                    "short_id": "A1892"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A1947",
+                    "short_id": "A1947"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A125",
+                    "short_id": "A125"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A202",
+                    "short_id": "A202"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A221",
+                    "short_id": "A221"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A242",
+                    "short_id": "A242"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A248",
+                    "short_id": "A248"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A319a",
+                    "short_id": "A319a"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A341",
+                    "short_id": "A341"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A426",
+                    "short_id": "A426"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A539",
+                    "short_id": "A539"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A540",
+                    "short_id": "A540"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A642",
+                    "short_id": "A642"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A665",
+                    "short_id": "A665"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A730",
+                    "short_id": "A730"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A754",
+                    "short_id": "A754"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A783",
+                    "short_id": "A783"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A810",
+                    "short_id": "A810"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A842",
+                    "short_id": "A842"
+                },
+                {
+                    "id": "BSCC-1951-181-5-A848",
+                    "short_id": "A848"
+                }
+            ],
+            "description": "with the british company A64 and A373 and A382 and A457 and A513 and A570 and A814 and A881 and A882 and A897 and A902 and A918 and A957 and A1010 and A1049 and A1228 and A1260 and A1266 and A1284 and A1385 and A1389a and A1449 and A1458 and A1892 and A1947 and A125 and A202 and A221 and A242 and A248 and A319a and A341 and A426 and A539 and A540 and A642 and A665 and A730 and A754 and A783 and A810 and A842 and A848"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15B",
+            "level": 1,
+            "label": "Yarns, Thread, Knitting Wools",
+            "part_of": "15",
+            "page": "181",
+            "line_number": "3"
+        },
+        {
+            "id": "15Ba",
+            "level": 2,
+            "label": "COTTON",
+            "part_of": "15B",
+            "page": "181",
+            "line_number": "4"
+        }
+    ]
+}

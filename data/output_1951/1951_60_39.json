@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-60-1951-39-A1070",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1070. Kent (George) Ltd., Luton. B 689, C 684, 744.",
+        "corrected": "1070. Kent (George) Ltd., Luton. B 689, C 684, 744"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 60,
+            "canvas": "http://localhost:8182/iiif/3/0060.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0060.jpg/175,2153,1270,35/max/0/default.jpg",
+            "xywh": "175, 2153, 1270, 35"
+        }
+    },
+    "short_id": "A1070",
+    "label": "Kent (George) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-60-39-B689",
+                    "short_id": "B689"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-60-39-C684",
+                    "short_id": "C684"
+                },
+                {
+                    "id": "BSCC-1951-60-39-C744",
+                    "short_id": "C744"
+                }
+            ],
+            "description": "The british company A1070 trades with the swiss company B689 in the goods C684 and C744"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kent (George) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643339",
+            "lat": "51.87967",
+            "lng": "-0.41748",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Luton",
+            "transcription": " Luton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

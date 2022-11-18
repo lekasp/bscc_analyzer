@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-33-A1729",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1729. Scrivener (Arthur) Ltd., Birmingham. B 596, C 200, 210.",
+        "corrected": "1729. Scrivener (Arthur) Ltd., Birmingham. B 596, C 200, 210"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,1667,1298,36/max/0/default.jpg",
+            "xywh": "171, 1667, 1298, 36"
+        }
+    },
+    "short_id": "A1729",
+    "label": "Scrivener (Arthur) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-33-B596",
+                    "short_id": "B596"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-33-C200",
+                    "short_id": "C200"
+                },
+                {
+                    "id": "BSCC-1951-90-33-C210",
+                    "short_id": "C210"
+                }
+            ],
+            "description": "The british company A1729 trades with the swiss company B596 in the goods C200 and C210"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Scrivener (Arthur) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655603",
+            "lat": "52.48142",
+            "lng": "-1.89983",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Birmingham",
+            "transcription": " Birmingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

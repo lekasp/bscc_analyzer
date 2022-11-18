@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-13-B564",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 564. Petitpierre & Grisel S.A., 19, avenue de la Gare, Neuchâtel. A 846, 2089, C 1337, 1396.",
+        "corrected": "564. Petitpierre & Grisel S.A., 19, avenue de la Gare, Neuchâtel.A 846, 2089, C 1337, 1396"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1235,1298,77/max/0/default.jpg",
+            "xywh": "298, 1235, 1298, 77"
+        }
+    },
+    "short_id": "B564",
+    "label": "Petitpierre & Grisel S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-13-A846",
+                    "short_id": "A846"
+                },
+                {
+                    "id": "BSCC-1951-135-13-A2089",
+                    "short_id": "A2089"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-13-C1337",
+                    "short_id": "C1337"
+                },
+                {
+                    "id": "BSCC-1951-135-13-C1396",
+                    "short_id": "C1396"
+                }
+            ],
+            "description": "The swiss company B564 trades with the british company A846 and A2089 in the goods C1337 and C1396"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Petitpierre & Grisel S.A."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 19, avenue de la Gare, Neuchâtel."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

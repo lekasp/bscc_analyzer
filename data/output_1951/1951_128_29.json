@@ -1,0 +1,148 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-29-B376",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿376. Isliker (Albert) & Co., 35a, Löwenstrasse, Zurich. A 160, 182, 227, 526a, 1261a, 1553, 1678, 2077, C 277, 278, 279, 280, 791, 930, 959, 965, 969, 971, 1259.",
+        "corrected": "376. Isliker (Albert) & Co., 35a, Löwenstrasse, Zurich.A 160, 182, 227, 526a, 1261a, 1553, 1678, 2077, C 277, 278, 279, 280, 791, 930, 959, 965, 969, 971, 1259"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,2102,1277,184/max/0/default.jpg",
+            "xywh": "185, 2102, 1277, 184"
+        }
+    },
+    "short_id": "B376",
+    "label": "Isliker (Albert) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-29-A160",
+                    "short_id": "A160"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A182",
+                    "short_id": "A182"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A227",
+                    "short_id": "A227"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A526a",
+                    "short_id": "A526a"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A1261a",
+                    "short_id": "A1261a"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A1553",
+                    "short_id": "A1553"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A1678",
+                    "short_id": "A1678"
+                },
+                {
+                    "id": "BSCC-1951-128-29-A2077",
+                    "short_id": "A2077"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-29-C277",
+                    "short_id": "C277"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C278",
+                    "short_id": "C278"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C279",
+                    "short_id": "C279"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C280",
+                    "short_id": "C280"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C791",
+                    "short_id": "C791"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C930",
+                    "short_id": "C930"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C959",
+                    "short_id": "C959"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C965",
+                    "short_id": "C965"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C969",
+                    "short_id": "C969"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C971",
+                    "short_id": "C971"
+                },
+                {
+                    "id": "BSCC-1951-128-29-C1259",
+                    "short_id": "C1259"
+                }
+            ],
+            "description": "The swiss company B376 trades with the british company A160 and A182 and A227 and A526a and A1261a and A1553 and A1678 and A2077 in the goods C277 and C278 and C279 and C280 and C791 and C930 and C959 and C965 and C969 and C971 and C1259"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Isliker (Albert) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 35a, Löwenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-169-1951-12-C660",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿660. Measuring instruments, general. A 29, 112, 299, 375, 543, 626, 630, 637, 663, 686, 1372, B 31, 47, 57, 252, 355, 491, 517, 544, 645, 747.",
+        "corrected": "660. Measuring instruments, general.A 29, 112, 299, 375, 543, 626, 630, 637, 663, 686, 1372, B 31, 47, 57, 252, 355, 491, 517, 544, 645, 747"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 169,
+            "canvas": "http://localhost:8182/iiif/3/0169.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0169.jpg/309,890,1320,114/max/0/default.jpg",
+            "xywh": "309, 890, 1320, 114"
+        }
+    },
+    "short_id": "C660",
+    "label": "Measuring instruments, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-169-12-A29",
+                    "short_id": "A29"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A112",
+                    "short_id": "A112"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A299",
+                    "short_id": "A299"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A375",
+                    "short_id": "A375"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A543",
+                    "short_id": "A543"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A626",
+                    "short_id": "A626"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A630",
+                    "short_id": "A630"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A637",
+                    "short_id": "A637"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A663",
+                    "short_id": "A663"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A686",
+                    "short_id": "A686"
+                },
+                {
+                    "id": "BSCC-1951-169-12-A1372",
+                    "short_id": "A1372"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B31",
+                    "short_id": "B31"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B47",
+                    "short_id": "B47"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B57",
+                    "short_id": "B57"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B252",
+                    "short_id": "B252"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B355",
+                    "short_id": "B355"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B491",
+                    "short_id": "B491"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B517",
+                    "short_id": "B517"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B544",
+                    "short_id": "B544"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B645",
+                    "short_id": "B645"
+                },
+                {
+                    "id": "BSCC-1951-169-12-B747",
+                    "short_id": "B747"
+                }
+            ],
+            "description": "with the british company A29 and A112 and A299 and A375 and A543 and A626 and A630 and A637 and A663 and A686 and A1372 and B47 and B57 and B252 and B355 and B491 and B517 and B544 and B645 and B747"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "7",
+            "level": 0,
+            "label": "Measuring, Control and Scientific Instruments",
+            "part_of": "0",
+            "page": "169",
+            "line_number": "4"
+        },
+        {
+            "id": "7A",
+            "level": 1,
+            "label": "Electric and Electronic",
+            "part_of": "7",
+            "page": "169",
+            "line_number": "6"
+        }
+    ]
+}

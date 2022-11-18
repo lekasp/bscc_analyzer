@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-20-1951-13-A145",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "145. Barrie & Kersel, Hawick. B 612, C 1183, 1188.",
+        "corrected": "145. Barrie & Kersel, Hawick. B 612, C 1183, 1188"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 20,
+            "canvas": "http://localhost:8182/iiif/3/0020.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0020.jpg/213,750,1238,37/max/0/default.jpg",
+            "xywh": "213, 750, 1238, 37"
+        }
+    },
+    "short_id": "A145",
+    "label": "Barrie & Kersel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-20-13-B612",
+                    "short_id": "B612"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-20-13-C1183",
+                    "short_id": "C1183"
+                },
+                {
+                    "id": "BSCC-1951-20-13-C1188",
+                    "short_id": "C1188"
+                }
+            ],
+            "description": "The british company A145 trades with the swiss company B612 in the goods C1183 and C1188"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Barrie & Kersel"
+        }
+    ],
+    "location": [
+        {
+            "id": "2647383",
+            "lat": "51.94194",
+            "lng": "1.28437",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Harwich",
+            "transcription": "Hawick. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

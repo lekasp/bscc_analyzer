@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-164-1951-16-C479",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "479. ELECTRICAL ACCESSORIES, GENERAL. A 277, 493, 629, 2069, B 57, 348, 667, 729.",
+        "corrected": "479. ELECTRICAL ACCESSORIES, GENERAL.A 277, 493, 629, 2069, B 57, 348, 667, 729"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 164,
+            "canvas": "http://localhost:8182/iiif/3/0164.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0164.jpg/142,1125,1332,85/max/0/default.jpg",
+            "xywh": "142, 1125, 1332, 85"
+        }
+    },
+    "short_id": "C479",
+    "label": "ELECTRICAL ACCESSORIES, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-164-16-A277",
+                    "short_id": "A277"
+                },
+                {
+                    "id": "BSCC-1951-164-16-A493",
+                    "short_id": "A493"
+                },
+                {
+                    "id": "BSCC-1951-164-16-A629",
+                    "short_id": "A629"
+                },
+                {
+                    "id": "BSCC-1951-164-16-A2069",
+                    "short_id": "A2069"
+                },
+                {
+                    "id": "BSCC-1951-164-16-B57",
+                    "short_id": "B57"
+                },
+                {
+                    "id": "BSCC-1951-164-16-B348",
+                    "short_id": "B348"
+                },
+                {
+                    "id": "BSCC-1951-164-16-B667",
+                    "short_id": "B667"
+                },
+                {
+                    "id": "BSCC-1951-164-16-B729",
+                    "short_id": "B729"
+                }
+            ],
+            "description": "with the british company A277 and A493 and A629 and A2069 and B348 and B667 and B729"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5A",
+            "level": 1,
+            "label": "Electric Equipment and Supplies, general",
+            "part_of": "5",
+            "page": "164",
+            "line_number": "14"
+        }
+    ]
+}

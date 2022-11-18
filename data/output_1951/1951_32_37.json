@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-37-A437",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "437. Clough (Robert) (Keighley) Ltd., Keighley. B 337, C 1089, 1091, 1094.",
+        "corrected": "437. Clough (Robert) (Keighley) Ltd., Keighley. B 337, C 1089, 1091, 1094"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1742,1184,40/max/0/default.jpg",
+            "xywh": "223, 1742, 1184, 40"
+        }
+    },
+    "short_id": "A437",
+    "label": "Clough (Robert) (Keighley) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-37-B337",
+                    "short_id": "B337"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-37-C1089",
+                    "short_id": "C1089"
+                },
+                {
+                    "id": "BSCC-1951-32-37-C1091",
+                    "short_id": "C1091"
+                },
+                {
+                    "id": "BSCC-1951-32-37-C1094",
+                    "short_id": "C1094"
+                }
+            ],
+            "description": "The british company A437 trades with the swiss company B337 in the goods C1089 and C1091 and C1094"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clough (Robert) (Keighley) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2645889",
+            "lat": "53.86791",
+            "lng": "-1.90664",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Keighley",
+            "transcription": " Keighley. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

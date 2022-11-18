@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-8-B642",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "642. Schelling (Alfred) & Co., 32, Oberer Graben, St. Gall. A 586, 957, 1038, 1260, 1367, 1818, C 1084, 1096, 1108, 1112, 1131, 1215.",
+        "corrected": "642. Schelling (Alfred) & Co., 32, Oberer Graben, St. Gall.A 586, 957, 1038, 1260, 1367, 1818, C 1084, 1096, 1108, 1112, 1131, 1215"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,586,1287,80/max/0/default.jpg",
+            "xywh": "197, 586, 1287, 80"
+        }
+    },
+    "short_id": "B642",
+    "label": "Schelling (Alfred) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-8-A586",
+                    "short_id": "A586"
+                },
+                {
+                    "id": "BSCC-1951-138-8-A957",
+                    "short_id": "A957"
+                },
+                {
+                    "id": "BSCC-1951-138-8-A1038",
+                    "short_id": "A1038"
+                },
+                {
+                    "id": "BSCC-1951-138-8-A1260",
+                    "short_id": "A1260"
+                },
+                {
+                    "id": "BSCC-1951-138-8-A1367",
+                    "short_id": "A1367"
+                },
+                {
+                    "id": "BSCC-1951-138-8-A1818",
+                    "short_id": "A1818"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-8-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-138-8-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-138-8-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-138-8-C1112",
+                    "short_id": "C1112"
+                },
+                {
+                    "id": "BSCC-1951-138-8-C1131",
+                    "short_id": "C1131"
+                },
+                {
+                    "id": "BSCC-1951-138-8-C1215",
+                    "short_id": "C1215"
+                }
+            ],
+            "description": "The swiss company B642 trades with the british company A586 and A957 and A1038 and A1260 and A1367 and A1818 in the goods C1084 and C1096 and C1108 and C1112 and C1131 and C1215"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schelling (Alfred) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2658822",
+            "lat": "47.42391",
+            "lng": "9.37477",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Saint Gallen",
+            "transcription": ", 32, Oberer Graben, St. Gall."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

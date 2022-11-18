@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-8-B735,",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "735, Szekeres (Alexander), Brünigstrasse, Sarnen (Obw.). A 713, 817, 933, 1740, 1766, C 1337, 1356.",
+        "corrected": "735, Szekeres (Alexander), Brünigstrasse, Sarnen (Obw.).A 713, 817, 933, 1740, 1766, C 1337, 1356"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,715,1309,83/max/0/default.jpg",
+            "xywh": "290, 715, 1309, 83"
+        }
+    },
+    "short_id": "B735,",
+    "label": "Szekeres (Alexander)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-8-A713",
+                    "short_id": "A713"
+                },
+                {
+                    "id": "BSCC-1951-141-8-A817",
+                    "short_id": "A817"
+                },
+                {
+                    "id": "BSCC-1951-141-8-A933",
+                    "short_id": "A933"
+                },
+                {
+                    "id": "BSCC-1951-141-8-A1740",
+                    "short_id": "A1740"
+                },
+                {
+                    "id": "BSCC-1951-141-8-A1766",
+                    "short_id": "A1766"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-8-C1337",
+                    "short_id": "C1337"
+                },
+                {
+                    "id": "BSCC-1951-141-8-C1356",
+                    "short_id": "C1356"
+                }
+            ],
+            "description": "The swiss company B735, trades with the british company A713 and A817 and A933 and A1740 and A1766 in the goods C1337 and C1356"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Szekeres (Alexander)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658786",
+            "lat": "46.89611",
+            "lng": "8.24531",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sarnen",
+            "transcription": "Brünigstrasse, Sarnen (Obw.)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

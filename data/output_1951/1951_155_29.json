@@ -1,0 +1,162 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-29-C133",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "133. Tubes, steel. A 9, 49, 167, 269, 415, 839, 963, 1024, 1304, 1338, 1394, 1515, 1621, 1854. 1900, 1937, 1958, 1959, 1960, 2094 — B 23, 158, 473, 535.",
+        "corrected": "133. Tubes, steel.A 9, 49, 167, 269, 415, 839, 963, 1024, 1304, 1338, 1394, 1515, 1621, 1854. 1900, 1937, 1958, 1959, 1960, 2094 — B 23, 158, 473, 535"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,1565,1337,117/max/0/default.jpg",
+            "xywh": "264, 1565, 1337, 117"
+        }
+    },
+    "short_id": "C133",
+    "label": "Tubes, steel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-29-A9",
+                    "short_id": "A9"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A49",
+                    "short_id": "A49"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A167",
+                    "short_id": "A167"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A269",
+                    "short_id": "A269"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A415",
+                    "short_id": "A415"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A839",
+                    "short_id": "A839"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A963",
+                    "short_id": "A963"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1024",
+                    "short_id": "A1024"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1304",
+                    "short_id": "A1304"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1338",
+                    "short_id": "A1338"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1394",
+                    "short_id": "A1394"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1515",
+                    "short_id": "A1515"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1621",
+                    "short_id": "A1621"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A18541900",
+                    "short_id": "A18541900"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1937",
+                    "short_id": "A1937"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1958",
+                    "short_id": "A1958"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1959",
+                    "short_id": "A1959"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A1960",
+                    "short_id": "A1960"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A158",
+                    "short_id": "A158"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A473",
+                    "short_id": "A473"
+                },
+                {
+                    "id": "BSCC-1951-155-29-A535",
+                    "short_id": "A535"
+                }
+            ],
+            "description": "with the british company A9 and A49 and A167 and A269 and A415 and A839 and A963 and A1024 and A1304 and A1338 and A1394 and A1515 and A1621 and A18541900 and A1937 and A1958 and A1959 and A1960 and A158 and A473 and A535"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3A",
+            "level": 1,
+            "label": "Iron and Steel",
+            "part_of": "3",
+            "page": "154",
+            "line_number": "27"
+        },
+        {
+            "id": "3Ab",
+            "level": 2,
+            "label": "IRON AND STEEL PRODUCTS",
+            "part_of": "3A",
+            "page": "155",
+            "line_number": "14"
+        }
+    ]
+}

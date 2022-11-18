@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-16-B620",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "620. Rosset & Cie., 5, Place Fusterie, Geneva. A 1562, 1579, C 515, 543, 549, 1325.",
+        "corrected": "620. Rosset & Cie., 5, Place Fusterie, Geneva.A 1562, 1579, C 515, 543, 549, 1325"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1263,1255,81/max/0/default.jpg",
+            "xywh": "303, 1263, 1255, 81"
+        }
+    },
+    "short_id": "B620",
+    "label": "Rosset & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-16-A1562",
+                    "short_id": "A1562"
+                },
+                {
+                    "id": "BSCC-1951-137-16-A1579",
+                    "short_id": "A1579"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-16-C515",
+                    "short_id": "C515"
+                },
+                {
+                    "id": "BSCC-1951-137-16-C543",
+                    "short_id": "C543"
+                },
+                {
+                    "id": "BSCC-1951-137-16-C549",
+                    "short_id": "C549"
+                },
+                {
+                    "id": "BSCC-1951-137-16-C1325",
+                    "short_id": "C1325"
+                }
+            ],
+            "description": "The swiss company B620 trades with the british company A1562 and A1579 in the goods C515 and C543 and C549 and C1325"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rosset & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 5, Place Fusterie, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

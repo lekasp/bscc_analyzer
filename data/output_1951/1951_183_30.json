@@ -1,0 +1,130 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-30-C1147",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1147. Interlinings, hair and woollen. A 87, 1170, 1361, 1447, 1491, 1640, 2040, B 227, 333, 452, 628, 695, 841.",
+        "corrected": "1147. Interlinings, hair and woollen.A 87, 1170, 1361, 1447, 1491, 1640, 2040, B 227, 333, 452, 628, 695, 841"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1955,1290,78/max/0/default.jpg",
+            "xywh": "316, 1955, 1290, 78"
+        }
+    },
+    "short_id": "C1147",
+    "label": "Interlinings, hair and woollen",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-30-A87",
+                    "short_id": "A87"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A1170",
+                    "short_id": "A1170"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A1361",
+                    "short_id": "A1361"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A1447",
+                    "short_id": "A1447"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A1491",
+                    "short_id": "A1491"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A1640",
+                    "short_id": "A1640"
+                },
+                {
+                    "id": "BSCC-1951-183-30-A2040",
+                    "short_id": "A2040"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B227",
+                    "short_id": "B227"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B333",
+                    "short_id": "B333"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B452",
+                    "short_id": "B452"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B628",
+                    "short_id": "B628"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B695",
+                    "short_id": "B695"
+                },
+                {
+                    "id": "BSCC-1951-183-30-B841",
+                    "short_id": "B841"
+                }
+            ],
+            "description": "with the british company A87 and A1170 and A1361 and A1447 and A1491 and A1640 and A2040 and B333 and B452 and B628 and B695 and B841"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Ce",
+            "level": 2,
+            "label": "UNSPECIFIED AND VARIOUS",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "23"
+        }
+    ]
+}

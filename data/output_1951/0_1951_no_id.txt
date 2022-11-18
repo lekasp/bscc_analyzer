@@ -1,0 +1,4 @@
+page	line	text
+165	28	(for Gramophones and Records, see Section 21. C.)
+174	5	For Furs, see “Garments, Outerwear" (15. D. a))
+190	31	(For Sportswear see: "Textiles" 15. D. a.)

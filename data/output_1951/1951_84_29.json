@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-29-A1594",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1594. Ransomes & Rapier Ltd., Ipswich. B 623, C 347, 355, 357.",
+        "corrected": "1594. Ransomes & Rapier Ltd., Ipswich. B 623, C 347, 355, 357"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1700,1278,39/max/0/default.jpg",
+            "xywh": "168, 1700, 1278, 39"
+        }
+    },
+    "short_id": "A1594",
+    "label": "Ransomes & Rapier Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-29-B623",
+                    "short_id": "B623"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-29-C347",
+                    "short_id": "C347"
+                },
+                {
+                    "id": "BSCC-1951-84-29-C355",
+                    "short_id": "C355"
+                },
+                {
+                    "id": "BSCC-1951-84-29-C357",
+                    "short_id": "C357"
+                }
+            ],
+            "description": "The british company A1594 trades with the swiss company B623 in the goods C347 and C355 and C357"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ransomes & Rapier Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646057",
+            "lat": "52.05917",
+            "lng": "1.15545",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Ipswich",
+            "transcription": " Ipswich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

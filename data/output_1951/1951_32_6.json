@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-6-A406",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "406. Champion Sparking Plug Co. Ltd., Feltham, Middx. B 630, C 601.",
+        "corrected": "406. Champion Sparking Plug Co. Ltd., Feltham, Middx. B 630, C 601"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,520,1184,39/max/0/default.jpg",
+            "xywh": "223, 520, 1184, 39"
+        }
+    },
+    "short_id": "A406",
+    "label": "Champion Sparking Plug Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-6-B630",
+                    "short_id": "B630"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-6-C601",
+                    "short_id": "C601"
+                }
+            ],
+            "description": "The british company A406 trades with the swiss company B630 in the goods C601"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Champion Sparking Plug Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2649571",
+            "lat": "51.4462",
+            "lng": "-0.41388",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Feltham",
+            "transcription": " Feltham, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

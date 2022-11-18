@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-44-C308",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "308. Cotton loom spares and accessories. A 1337, B 753.",
+        "corrected": "308. Cotton loom spares and accessories. A 1337, B 753"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,2186,1277,74/max/0/default.jpg",
+            "xywh": "306, 2186, 1277, 74"
+        }
+    },
+    "short_id": "C308",
+    "label": "Cotton loom spares and accessories",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-44-A1337",
+                    "short_id": "A1337"
+                },
+                {
+                    "id": "BSCC-1951-159-44-B753",
+                    "short_id": "B753"
+                }
+            ],
+            "description": "with the british company A1337"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Be",
+            "level": 2,
+            "label": "TEXTILES",
+            "part_of": "4B",
+            "page": "159",
+            "line_number": "36"
+        }
+    ]
+}

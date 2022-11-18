@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-10-B267",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 267. Gastpar, Klaeger & Co., 47, Bahnhofstrasse, Olten. A 71, 564, 677, 1012, 1111, 2166, 2167, 2190, C 1, 7, 8, 10, 22.",
+        "corrected": "267. Gastpar, Klaeger & Co., 47, Bahnhofstrasse, Olten.A 71, 564, 677, 1012, 1111, 2166, 2167, 2190, C 1, 7, 8, 10, 22"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,808,1317,79/max/0/default.jpg",
+            "xywh": "288, 808, 1317, 79"
+        }
+    },
+    "short_id": "B267",
+    "label": "Gastpar, Klaeger & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-10-A71",
+                    "short_id": "A71"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A564",
+                    "short_id": "A564"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A677",
+                    "short_id": "A677"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A1012",
+                    "short_id": "A1012"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A1111",
+                    "short_id": "A1111"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A2166",
+                    "short_id": "A2166"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A2167",
+                    "short_id": "A2167"
+                },
+                {
+                    "id": "BSCC-1951-125-10-A2190",
+                    "short_id": "A2190"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-10-C1",
+                    "short_id": "C1"
+                },
+                {
+                    "id": "BSCC-1951-125-10-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-125-10-C8",
+                    "short_id": "C8"
+                },
+                {
+                    "id": "BSCC-1951-125-10-C10",
+                    "short_id": "C10"
+                },
+                {
+                    "id": "BSCC-1951-125-10-C22",
+                    "short_id": "C22"
+                }
+            ],
+            "description": "The swiss company B267 trades with the british company A71 and A564 and A677 and A1012 and A1111 and A2166 and A2167 and A2190 in the goods C1 and C7 and C8 and C10 and C22"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gastpar, Klaeger & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659297",
+            "lat": "47.34999",
+            "lng": "7.90329",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Olten",
+            "transcription": ", 47, Bahnhofstrasse, Olten."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

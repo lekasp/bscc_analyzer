@@ -1,0 +1,152 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-0-B227",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "227. Fierz (Heinrich), 9, Fraumünsterstrasse, Zurich, A 156, 720, 962, 1199, 2040, 2119, 2143, C 1108, 1110, 1114, 1115, 1124,1125. 1129, 1130, 1133, 1134, 1135, 1147, 1149a, 1219.",
+        "corrected": "227. Fierz (Heinrich), 9, Fraumünsterstrasse, Zurich,A 156, 720, 962, 1199, 2040, 2119, 2143, C 1108, 1110, 1114, 1115, 1124,1125. 1129, 1130, 1133, 1134, 1135, 1147, 1149a, 1219"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,231,1320,139/max/0/default.jpg",
+            "xywh": "166, 231, 1320, 139"
+        }
+    },
+    "short_id": "B227",
+    "label": "Fierz (Heinrich)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-0-A156",
+                    "short_id": "A156"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A720",
+                    "short_id": "A720"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A962",
+                    "short_id": "A962"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A1199",
+                    "short_id": "A1199"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A2040",
+                    "short_id": "A2040"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A2119",
+                    "short_id": "A2119"
+                },
+                {
+                    "id": "BSCC-1951-124-0-A2143",
+                    "short_id": "A2143"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-0-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1114",
+                    "short_id": "C1114"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1124",
+                    "short_id": "C1124"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C11251129",
+                    "short_id": "C11251129"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1130",
+                    "short_id": "C1130"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1133",
+                    "short_id": "C1133"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1134",
+                    "short_id": "C1134"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1135",
+                    "short_id": "C1135"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1147",
+                    "short_id": "C1147"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1149a",
+                    "short_id": "C1149a"
+                },
+                {
+                    "id": "BSCC-1951-124-0-C1219",
+                    "short_id": "C1219"
+                }
+            ],
+            "description": "The swiss company B227 trades with the british company A156 and A720 and A962 and A1199 and A2040 and A2119 and A2143 in the goods C1108 and C1110 and C1114 and C1115 and C1124 and C11251129 and C1130 and C1133 and C1134 and C1135 and C1147 and C1149a and C1219"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fierz (Heinrich)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "9, Fraumünsterstrasse, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-26-B253",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "253. Frey (Hans) AG., 19, Frohalpstrasse, Zurich. A 642, C 784.",
+        "corrected": "253. Frey (Hans) AG., 19, Frohalpstrasse, Zurich. A 642, C 784"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1914,1320,38/max/0/default.jpg",
+            "xywh": "166, 1914, 1320, 38"
+        }
+    },
+    "short_id": "B253",
+    "label": "Frey (Hans) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-26-A642",
+                    "short_id": "A642"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-26-C784",
+                    "short_id": "C784"
+                }
+            ],
+            "description": "The swiss company B253 trades with the british company A642 in the goods C784"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frey (Hans) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 19, Frohalpstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

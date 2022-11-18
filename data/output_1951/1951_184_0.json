@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-184-1951-0-C1151",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1151. Tie materials. A 676, 1939, 2009, 2130, B 301, 324, 695, 802.",
+        "corrected": "1151. Tie materials. A 676, 1939, 2009, 2130, B 301, 324, 695, 802"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 184,
+            "canvas": "http://localhost:8182/iiif/3/0184.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0184.jpg/236,208,1310,65/max/0/default.jpg",
+            "xywh": "236, 208, 1310, 65"
+        }
+    },
+    "short_id": "C1151",
+    "label": "Tie materials",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-184-0-A676",
+                    "short_id": "A676"
+                },
+                {
+                    "id": "BSCC-1951-184-0-A1939",
+                    "short_id": "A1939"
+                },
+                {
+                    "id": "BSCC-1951-184-0-A2009",
+                    "short_id": "A2009"
+                },
+                {
+                    "id": "BSCC-1951-184-0-A2130",
+                    "short_id": "A2130"
+                },
+                {
+                    "id": "BSCC-1951-184-0-B301",
+                    "short_id": "B301"
+                },
+                {
+                    "id": "BSCC-1951-184-0-B324",
+                    "short_id": "B324"
+                },
+                {
+                    "id": "BSCC-1951-184-0-B695",
+                    "short_id": "B695"
+                },
+                {
+                    "id": "BSCC-1951-184-0-B802",
+                    "short_id": "B802"
+                }
+            ],
+            "description": "with the british company A676 and A1939 and A2009 and A2130 and B324 and B695 and B802"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Ce",
+            "level": 2,
+            "label": "UNSPECIFIED AND VARIOUS",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "23"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-40-1951-28-A611",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "611. Dunlop Sports Co. Ltd., Waltham Abbey, Essex. B 194, C1388, 1410, 1411,1418.",
+        "corrected": "611. Dunlop Sports Co. Ltd., Waltham Abbey, Essex. B 194, C1388, 1410, 1411,1418"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 40,
+            "canvas": "http://localhost:8182/iiif/3/0040.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0040.jpg/154,1384,1304,39/max/0/default.jpg",
+            "xywh": "154, 1384, 1304, 39"
+        }
+    },
+    "short_id": "A611",
+    "label": "Dunlop Sports Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-40-28-B194",
+                    "short_id": "B194"
+                }
+            ],
+            "description": "The british company A611 trades with the swiss company B194"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dunlop Sports Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634843",
+            "lat": "51.687",
+            "lng": "-0.00421",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Waltham Abbey",
+            "transcription": " Waltham Abbey, Essex. C1388, 1410, 1411,1418"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

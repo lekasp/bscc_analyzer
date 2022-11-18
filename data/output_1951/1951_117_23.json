@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-23-B24",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "24. Ampack, American Packaging Supply, Hungerbühler & Lemm, K. G., Ror¬ schach. A 555, 705, 870, 1080, 1706, 1946, C 281, 1023, 1026, 1033, 1059, 1061.",
+        "corrected": "24. Ampack, American Packaging Supply, Hungerbühler & Lemm, K. G., Ror¬schach. A 555, 705, 870, 1080, 1706, 1946, C 281, 1023, 1026, 1033, 1059, 1061"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1394,1350,74/max/0/default.jpg",
+            "xywh": "278, 1394, 1350, 74"
+        }
+    },
+    "short_id": "B24",
+    "label": "Ampack",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-23-A555",
+                    "short_id": "A555"
+                },
+                {
+                    "id": "BSCC-1951-117-23-A705",
+                    "short_id": "A705"
+                },
+                {
+                    "id": "BSCC-1951-117-23-A870",
+                    "short_id": "A870"
+                },
+                {
+                    "id": "BSCC-1951-117-23-A1080",
+                    "short_id": "A1080"
+                },
+                {
+                    "id": "BSCC-1951-117-23-A1706",
+                    "short_id": "A1706"
+                },
+                {
+                    "id": "BSCC-1951-117-23-A1946",
+                    "short_id": "A1946"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-23-C281",
+                    "short_id": "C281"
+                },
+                {
+                    "id": "BSCC-1951-117-23-C1023",
+                    "short_id": "C1023"
+                },
+                {
+                    "id": "BSCC-1951-117-23-C1026",
+                    "short_id": "C1026"
+                },
+                {
+                    "id": "BSCC-1951-117-23-C1033",
+                    "short_id": "C1033"
+                },
+                {
+                    "id": "BSCC-1951-117-23-C1059",
+                    "short_id": "C1059"
+                },
+                {
+                    "id": "BSCC-1951-117-23-C1061",
+                    "short_id": "C1061"
+                }
+            ],
+            "description": "The swiss company B24 trades with the british company A555 and A705 and A870 and A1080 and A1706 and A1946 in the goods C281 and C1023 and C1026 and C1033 and C1059 and C1061"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ampack"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658969",
+            "lat": "47.478",
+            "lng": "9.4903",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rorschach",
+            "transcription": "American Packaging Supply, Hungerbühler & Lemm, K. G., Ror¬schach. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

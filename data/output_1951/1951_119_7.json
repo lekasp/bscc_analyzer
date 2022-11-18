@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-7-B78",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "78. Bienstock (J.), 22, Bolleystrasse, Zurich. A 101, 515, C 1119, 1247.",
+        "corrected": "78. Bienstock (J.), 22, Bolleystrasse, Zurich. A 101, 515, C 1119, 1247"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,643,1336,41/max/0/default.jpg",
+            "xywh": "276, 643, 1336, 41"
+        }
+    },
+    "short_id": "B78",
+    "label": "Bienstock (J.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-7-A101",
+                    "short_id": "A101"
+                },
+                {
+                    "id": "BSCC-1951-119-7-A515",
+                    "short_id": "A515"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-7-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-119-7-C1247",
+                    "short_id": "C1247"
+                }
+            ],
+            "description": "The swiss company B78 trades with the british company A101 and A515 in the goods C1119 and C1247"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bienstock (J.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "22, Bolleystrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

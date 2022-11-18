@@ -1,0 +1,190 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-182-1951-9-C1108",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1108. FABRICS, GENERAL. A 102, 142, 735, 888, 954, 1259, 1367, 1463, 1611, 1741, 1864, 1930, 1939, 2119, 2165 - B 93, 112, 186, 227, 320, 324, 325, 452, 635, 642, 674, 743,788, 802, 804.",
+        "corrected": "1108.FABRICS, GENERAL. A 102, 142, 735, 888, 954, 1259, 1367, 1463, 1611, 1741, 1864, 1930, 1939, 2119, 2165 - B 93, 112, 186, 227, 320, 324, 325, 452, 635, 642, 674, 743,788, 802, 804"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 182,
+            "canvas": "http://localhost:8182/iiif/3/0182.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0182.jpg/181,770,1323,168/max/0/default.jpg",
+            "xywh": "181, 770, 1323, 168"
+        }
+    },
+    "short_id": "C1108",
+    "label": "FABRICS, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-182-9-A102",
+                    "short_id": "A102"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A142",
+                    "short_id": "A142"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A735",
+                    "short_id": "A735"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A888",
+                    "short_id": "A888"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A954",
+                    "short_id": "A954"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1259",
+                    "short_id": "A1259"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1367",
+                    "short_id": "A1367"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1463",
+                    "short_id": "A1463"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1611",
+                    "short_id": "A1611"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1741",
+                    "short_id": "A1741"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1864",
+                    "short_id": "A1864"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1930",
+                    "short_id": "A1930"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A1939",
+                    "short_id": "A1939"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A2119",
+                    "short_id": "A2119"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A112",
+                    "short_id": "A112"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A186",
+                    "short_id": "A186"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A227",
+                    "short_id": "A227"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A320",
+                    "short_id": "A320"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A324",
+                    "short_id": "A324"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A325",
+                    "short_id": "A325"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A452",
+                    "short_id": "A452"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A635",
+                    "short_id": "A635"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A642",
+                    "short_id": "A642"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A674",
+                    "short_id": "A674"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A743",
+                    "short_id": "A743"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A788",
+                    "short_id": "A788"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A802",
+                    "short_id": "A802"
+                },
+                {
+                    "id": "BSCC-1951-182-9-A804",
+                    "short_id": "A804"
+                }
+            ],
+            "description": "with the british company A102 and A142 and A735 and A888 and A954 and A1259 and A1367 and A1463 and A1611 and A1741 and A1864 and A1930 and A1939 and A2119 and A112 and A186 and A227 and A320 and A324 and A325 and A452 and A635 and A642 and A674 and A743 and A788 and A802 and A804"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Ca",
+            "level": 2,
+            "label": "COTTON",
+            "part_of": "15C",
+            "page": "182",
+            "line_number": "8"
+        }
+    ]
+}

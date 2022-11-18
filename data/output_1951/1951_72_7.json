@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-72-1951-7-A1309",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1309. Mettoy Co. Ltd., Northampton. B 76, C 1422, 1426.",
+        "corrected": "1309. Mettoy Co. Ltd., Northampton. B 76, C 1422, 1426"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 72,
+            "canvas": "http://localhost:8182/iiif/3/0072.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0072.jpg/205,530,1267,38/max/0/default.jpg",
+            "xywh": "205, 530, 1267, 38"
+        }
+    },
+    "short_id": "A1309",
+    "label": "Mettoy Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-72-7-B76",
+                    "short_id": "B76"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-72-7-C1422",
+                    "short_id": "C1422"
+                },
+                {
+                    "id": "BSCC-1951-72-7-C1426",
+                    "short_id": "C1426"
+                }
+            ],
+            "description": "The british company A1309 trades with the swiss company B76 in the goods C1422 and C1426"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mettoy Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2641430",
+            "lat": "52.25",
+            "lng": "-0.88333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Northampton",
+            "transcription": " Northampton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

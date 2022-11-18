@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-23-A1812",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1812. Southern Instruments Ltd., Camberley, Surrey. B 31, C 664.",
+        "corrected": "1812. Southern Instruments Ltd., Camberley, Surrey. B 31, C 664"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,1292,1183,40/max/0/default.jpg",
+            "xywh": "355, 1292, 1183, 40"
+        }
+    },
+    "short_id": "A1812",
+    "label": "Southern Instruments Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-23-B31",
+                    "short_id": "B31"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-23-C664",
+                    "short_id": "C664"
+                }
+            ],
+            "description": "The british company A1812 trades with the swiss company B31 in the goods C664"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Southern Instruments Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653947",
+            "lat": "51.33705",
+            "lng": "-0.74261",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Camberley",
+            "transcription": " Camberley, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

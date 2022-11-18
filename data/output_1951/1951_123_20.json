@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-20-B217",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 217. Fabian (B.) & Co., 65, Engelgasse, Basle. A 1511, C 1079, 1080.",
+        "corrected": "217. Fabian (B.) & Co., 65, Engelgasse, Basle. A 1511, C 1079, 1080"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1617,1247,54/max/0/default.jpg",
+            "xywh": "304, 1617, 1247, 54"
+        }
+    },
+    "short_id": "B217",
+    "label": "Fabian (B.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-20-A1511",
+                    "short_id": "A1511"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-20-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-123-20-C1080",
+                    "short_id": "C1080"
+                }
+            ],
+            "description": "The swiss company B217 trades with the british company A1511 in the goods C1079 and C1080"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fabian (B.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": ", 65, Engelgasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

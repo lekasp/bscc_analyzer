@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-186-1951-41-C1254",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿1254. Anti-dimming cloth. A 831, 2017, B 489, 634.",
+        "corrected": "1254. Anti-dimming cloth. A 831, 2017, B 489, 634"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 186,
+            "canvas": "http://localhost:8182/iiif/3/0186.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0186.jpg/216,2188,1267,74/max/0/default.jpg",
+            "xywh": "216, 2188, 1267, 74"
+        }
+    },
+    "short_id": "C1254",
+    "label": "Anti-dimming cloth",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-186-41-A831",
+                    "short_id": "A831"
+                },
+                {
+                    "id": "BSCC-1951-186-41-A2017",
+                    "short_id": "A2017"
+                },
+                {
+                    "id": "BSCC-1951-186-41-B489",
+                    "short_id": "B489"
+                },
+                {
+                    "id": "BSCC-1951-186-41-B634",
+                    "short_id": "B634"
+                }
+            ],
+            "description": "with the british company A831 and A2017 and B634"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15H",
+            "level": 1,
+            "label": "Technical Textile Products",
+            "part_of": "15",
+            "page": "186",
+            "line_number": "39"
+        }
+    ]
+}

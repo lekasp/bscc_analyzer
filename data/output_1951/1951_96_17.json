@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-17-A1939",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1939. Tootal Broadhurst Lee Co. Ltd., Manchester. B 324, C 1108, 1110, 1114, 1115, 1138, 1138a, 1141, 1151.",
+        "corrected": "1939. Tootal Broadhurst Lee Co. Ltd., Manchester.B 324, C 1108, 1110, 1114, 1115, 1138, 1138a, 1141, 1151"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1030,1288,75/max/0/default.jpg",
+            "xywh": "164, 1030, 1288, 75"
+        }
+    },
+    "short_id": "A1939",
+    "label": "Tootal Broadhurst Lee Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-17-B324",
+                    "short_id": "B324"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-17-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1114",
+                    "short_id": "C1114"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1138",
+                    "short_id": "C1138"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1138a",
+                    "short_id": "C1138a"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1141",
+                    "short_id": "C1141"
+                },
+                {
+                    "id": "BSCC-1951-96-17-C1151",
+                    "short_id": "C1151"
+                }
+            ],
+            "description": "The british company A1939 trades with the swiss company B324 in the goods C1108 and C1110 and C1114 and C1115 and C1138 and C1138a and C1141 and C1151"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tootal Broadhurst Lee Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

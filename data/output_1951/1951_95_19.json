@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-19-A1900",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1900. Talbot-Stead Tube Co. Ltd., Walsall. B 158, C 133, 135.",
+        "corrected": "1900. Talbot-Stead Tube Co. Ltd., Walsall. B 158, C 133, 135"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,1292,1285,35/max/0/default.jpg",
+            "xywh": "340, 1292, 1285, 35"
+        }
+    },
+    "short_id": "A1900",
+    "label": "Talbot-Stead Tube Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-19-B158",
+                    "short_id": "B158"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-19-C133",
+                    "short_id": "C133"
+                },
+                {
+                    "id": "BSCC-1951-95-19-C135",
+                    "short_id": "C135"
+                }
+            ],
+            "description": "The british company A1900 trades with the swiss company B158 in the goods C133 and C135"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Talbot-Stead Tube Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634853",
+            "lat": "52.58528",
+            "lng": "-1.98396",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Walsall",
+            "transcription": " Walsall. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

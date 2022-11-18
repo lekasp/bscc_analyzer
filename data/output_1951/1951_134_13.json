@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-13-B534",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "534. Neuenschwander (E.), 25, Schaffhauserstrasse, Zurich. A147,C 178, 342, 613.",
+        "corrected": "534. Neuenschwander (E.), 25, Schaffhauserstrasse, Zurich. A147,C 178, 342, 613"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,1044,1276,40/max/0/default.jpg",
+            "xywh": "187, 1044, 1276, 40"
+        }
+    },
+    "short_id": "B534",
+    "label": "Neuenschwander (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-13-A147",
+                    "short_id": "A147"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-13-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-134-13-C342",
+                    "short_id": "C342"
+                },
+                {
+                    "id": "BSCC-1951-134-13-C613",
+                    "short_id": "C613"
+                }
+            ],
+            "description": "The swiss company B534 trades with the british company A147 in the goods C178 and C342 and C613"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Neuenschwander (E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "25, Schaffhauserstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

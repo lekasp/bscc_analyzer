@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-6-C1402",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1402. Golf balls. A 793, B 508.",
+        "corrected": "1402. Golf balls. A 793, B 508"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,473,1305,39/max/0/default.jpg",
+            "xywh": "304, 473, 1305, 39"
+        }
+    },
+    "short_id": "C1402",
+    "label": "Golf balls",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-6-A793",
+                    "short_id": "A793"
+                },
+                {
+                    "id": "BSCC-1951-191-6-B508",
+                    "short_id": "B508"
+                }
+            ],
+            "description": "with the british company A793"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21A",
+            "level": 1,
+            "label": "Sports Goods",
+            "part_of": "21",
+            "page": "190",
+            "line_number": "30"
+        }
+    ]
+}

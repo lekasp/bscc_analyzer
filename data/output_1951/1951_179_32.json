@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-179-1951-32-C1041",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1041. Gummed paper tape and wafers. A 1042, B 445.",
+        "corrected": "1041. Gummed paper tape and wafers. A 1042, B 445"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 179,
+            "canvas": "http://localhost:8182/iiif/3/0179.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0179.jpg/315,1718,1123,39/max/0/default.jpg",
+            "xywh": "315, 1718, 1123, 39"
+        }
+    },
+    "short_id": "C1041",
+    "label": "Gummed paper tape and wafers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-179-32-A1042",
+                    "short_id": "A1042"
+                },
+                {
+                    "id": "BSCC-1951-179-32-B445",
+                    "short_id": "B445"
+                }
+            ],
+            "description": "with the british company A1042"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "13",
+            "level": 0,
+            "label": "Paper, Stationery, Artists' Materials, etc.",
+            "part_of": "0",
+            "page": "178",
+            "line_number": "40"
+        },
+        {
+            "id": "13B",
+            "level": 1,
+            "label": "Various Stationery Products, Artists' Materials",
+            "part_of": "13",
+            "page": "179",
+            "line_number": "26"
+        }
+    ]
+}

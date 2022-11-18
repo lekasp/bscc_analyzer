@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-7-B586",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 586. Prifa AG., 10, Obere Zäune, Zurich. A 1248, C 983, 984, 1004.",
+        "corrected": "586. Prifa AG., 10, Obere Zäune, Zurich. A 1248, C 983, 984, 1004"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,620,1317,43/max/0/default.jpg",
+            "xywh": "183, 620, 1317, 43"
+        }
+    },
+    "short_id": "B586",
+    "label": "Prifa AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-7-A1248",
+                    "short_id": "A1248"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-7-C983",
+                    "short_id": "C983"
+                },
+                {
+                    "id": "BSCC-1951-136-7-C984",
+                    "short_id": "C984"
+                },
+                {
+                    "id": "BSCC-1951-136-7-C1004",
+                    "short_id": "C1004"
+                }
+            ],
+            "description": "The swiss company B586 trades with the british company A1248 in the goods C983 and C984 and C1004"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Prifa AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 10, Obere Zäune, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

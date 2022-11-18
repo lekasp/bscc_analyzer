@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-6-A819",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "819. Greengate & Irwell Rubber Co. Ltd., Manchester. B 557, C 1157, 1289; B 782, C 796a; B 788, C 1150.",
+        "corrected": "819. Greengate & Irwell Rubber Co. Ltd., Manchester.B 557, C 1157, 1289; B 782, C 796a; B 788, C 1150"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,467,1261,80/max/0/default.jpg",
+            "xywh": "153, 467, 1261, 80"
+        }
+    },
+    "short_id": "A819",
+    "label": "Greengate & Irwell Rubber Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-6-B557",
+                    "short_id": "B557"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-6-C1157",
+                    "short_id": "C1157"
+                },
+                {
+                    "id": "BSCC-1951-50-6-C1289",
+                    "short_id": "C1289"
+                }
+            ],
+            "description": "The british company A819 trades with the swiss company B557 in the goods C1157 and C1289"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-6-B782",
+                    "short_id": "B782"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-6-C796a",
+                    "short_id": "C796a"
+                }
+            ],
+            "description": "The british company A819 trades with the swiss company B782 in the goods C796a"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-6-B788",
+                    "short_id": "B788"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-6-C1150",
+                    "short_id": "C1150"
+                }
+            ],
+            "description": "The british company A819 trades with the swiss company B788 in the goods C1150"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Greengate & Irwell Rubber Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

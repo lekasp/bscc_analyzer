@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-6-B527",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 527. Natural AG., 67, Nauenstrasse, Basle. A 180a, 762a, C 1457.",
+        "corrected": "527. Natural AG., 67, Nauenstrasse, Basle. A 180a, 762a, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,648,1276,39/max/0/default.jpg",
+            "xywh": "187, 648, 1276, 39"
+        }
+    },
+    "short_id": "B527",
+    "label": "Natural AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-6-A180a",
+                    "short_id": "A180a"
+                },
+                {
+                    "id": "BSCC-1951-134-6-A762a",
+                    "short_id": "A762a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-6-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The swiss company B527 trades with the british company A180a and A762a in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Natural AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 67, Nauenstrasse, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

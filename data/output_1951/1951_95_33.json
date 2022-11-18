@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-95-1951-33-A1914",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1914. Taylor (Percy) Ltd., Hinckley, Leics. B 101, C 1192.",
+        "corrected": "1914. Taylor (Percy) Ltd., Hinckley, Leics. B 101, C 1192"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 95,
+            "canvas": "http://localhost:8182/iiif/3/0095.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0095.jpg/340,1887,1285,36/max/0/default.jpg",
+            "xywh": "340, 1887, 1285, 36"
+        }
+    },
+    "short_id": "A1914",
+    "label": "Taylor (Percy) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-95-33-B101",
+                    "short_id": "B101"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-95-33-C1192",
+                    "short_id": "C1192"
+                }
+            ],
+            "description": "The british company A1914 trades with the swiss company B101 in the goods C1192"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Taylor (Percy) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646867",
+            "lat": "52.5389",
+            "lng": "-1.37613",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hinckley",
+            "transcription": " Hinckley, Leics. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

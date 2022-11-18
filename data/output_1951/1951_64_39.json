@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-39-A1157",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1157. Lightfoot Refrigeration Co. Ltd., Wembley. B 703, C 501, 515, 1311, 1325.",
+        "corrected": "1157. Lightfoot Refrigeration Co. Ltd., Wembley. B 703, C 501, 515, 1311, 1325"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,1863,1283,37/max/0/default.jpg",
+            "xywh": "195, 1863, 1283, 37"
+        }
+    },
+    "short_id": "A1157",
+    "label": "Lightfoot Refrigeration Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-39-B703",
+                    "short_id": "B703"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-39-C501",
+                    "short_id": "C501"
+                },
+                {
+                    "id": "BSCC-1951-64-39-C515",
+                    "short_id": "C515"
+                },
+                {
+                    "id": "BSCC-1951-64-39-C1311",
+                    "short_id": "C1311"
+                },
+                {
+                    "id": "BSCC-1951-64-39-C1325",
+                    "short_id": "C1325"
+                }
+            ],
+            "description": "The british company A1157 trades with the swiss company B703 in the goods C501 and C515 and C1311 and C1325"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lightfoot Refrigeration Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634549",
+            "lat": "51.55242",
+            "lng": "-0.29686",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wembley",
+            "transcription": " Wembley. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

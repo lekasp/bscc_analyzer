@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-27-A700",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿700. Firth Derihon’ Stampings Ltd., Carbrook, Sheffield. B 702, C 653.",
+        "corrected": "700. Firth Derihon’ Stampings Ltd., Carbrook, Sheffield. B 702, C 653"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,1362,1269,42/max/0/default.jpg",
+            "xywh": "189, 1362, 1269, 42"
+        }
+    },
+    "short_id": "A700",
+    "label": "Firth Derihon’ Stampings Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-27-B702",
+                    "short_id": "B702"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-27-C653",
+                    "short_id": "C653"
+                }
+            ],
+            "description": "The british company A700 trades with the swiss company B702 in the goods C653"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Firth Derihon’ Stampings Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653829",
+            "lat": "53.40685",
+            "lng": "-1.41303",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Carbrook",
+            "transcription": " Carbrook, Sheffield. "
+        },
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Carbrook, Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

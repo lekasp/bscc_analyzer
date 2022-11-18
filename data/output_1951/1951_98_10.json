@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-10-A2018",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2018. Veraloy Products Ltd., High Wycombe. B 47, C 237, 394.",
+        "corrected": "2018. Veraloy Products Ltd., High Wycombe. B 47, C 237, 394"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,625,1270,40/max/0/default.jpg",
+            "xywh": "180, 625, 1270, 40"
+        }
+    },
+    "short_id": "A2018",
+    "label": "Veraloy Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-10-B47",
+                    "short_id": "B47"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-10-C237",
+                    "short_id": "C237"
+                },
+                {
+                    "id": "BSCC-1951-98-10-C394",
+                    "short_id": "C394"
+                }
+            ],
+            "description": "The british company A2018 trades with the swiss company B47 in the goods C237 and C394"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Veraloy Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646914",
+            "lat": "51.62907",
+            "lng": "-0.74934",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "High Wycombe",
+            "transcription": " High Wycombe. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

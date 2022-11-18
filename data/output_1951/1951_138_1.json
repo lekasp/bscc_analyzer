@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-1-B636",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "636. Saxon Components Ltd., 19, Pelikanstrasse, Zurich. A 1712, C 502.",
+        "corrected": "636. Saxon Components Ltd., 19, Pelikanstrasse, Zurich. A 1712, C 502"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,271,1287,42/max/0/default.jpg",
+            "xywh": "197, 271, 1287, 42"
+        }
+    },
+    "short_id": "B636",
+    "label": "Saxon Components Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-1-A1712",
+                    "short_id": "A1712"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-1-C502",
+                    "short_id": "C502"
+                }
+            ],
+            "description": "The swiss company B636 trades with the british company A1712 in the goods C502"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Saxon Components Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 19, Pelikanstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

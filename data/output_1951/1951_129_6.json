@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-6-B383",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "383. Joly (S. A.), 23, avenue Dapples, Lausanne. A 117, 2153, C 347, 351, 369.",
+        "corrected": "383. Joly (S. A.), 23, avenue Dapples, Lausanne. A 117, 2153, C 347, 351, 369"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,632,1292,44/max/0/default.jpg",
+            "xywh": "294, 632, 1292, 44"
+        }
+    },
+    "short_id": "B383",
+    "label": "Joly (S. A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-6-A117",
+                    "short_id": "A117"
+                },
+                {
+                    "id": "BSCC-1951-129-6-A2153",
+                    "short_id": "A2153"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-6-C347",
+                    "short_id": "C347"
+                },
+                {
+                    "id": "BSCC-1951-129-6-C351",
+                    "short_id": "C351"
+                },
+                {
+                    "id": "BSCC-1951-129-6-C369",
+                    "short_id": "C369"
+                }
+            ],
+            "description": "The swiss company B383 trades with the british company A117 and A2153 in the goods C347 and C351 and C369"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Joly (S. A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "23, avenue Dapples, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-4-B231",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "231. Fink (Charles C.), Ing., 74, Sonneggstrasse, Zurich. A 715, 1275, 1964, C 167, 260, 703.",
+        "corrected": "231. Fink (Charles C.), Ing., 74, Sonneggstrasse, Zurich.A 715, 1275, 1964, C 167, 260, 703"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,569,1320,74/max/0/default.jpg",
+            "xywh": "166, 569, 1320, 74"
+        }
+    },
+    "short_id": "B231",
+    "label": "Fink (Charles C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-4-A715",
+                    "short_id": "A715"
+                },
+                {
+                    "id": "BSCC-1951-124-4-A1275",
+                    "short_id": "A1275"
+                },
+                {
+                    "id": "BSCC-1951-124-4-A1964",
+                    "short_id": "A1964"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-4-C167",
+                    "short_id": "C167"
+                },
+                {
+                    "id": "BSCC-1951-124-4-C260",
+                    "short_id": "C260"
+                },
+                {
+                    "id": "BSCC-1951-124-4-C703",
+                    "short_id": "C703"
+                }
+            ],
+            "description": "The swiss company B231 trades with the british company A715 and A1275 and A1964 in the goods C167 and C260 and C703"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fink (Charles C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Ing., 74, Sonneggstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

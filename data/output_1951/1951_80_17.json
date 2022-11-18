@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-17-A1486",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1486. Parson & Crosland Ltd., Middlesbrough. B 153, C 102, 106.",
+        "corrected": "1486. Parson & Crosland Ltd., Middlesbrough. B 153, C 102, 106"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,915,1303,39/max/0/default.jpg",
+            "xywh": "200, 915, 1303, 39"
+        }
+    },
+    "short_id": "A1486",
+    "label": "Parson & Crosland Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-17-B153",
+                    "short_id": "B153"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-17-C102",
+                    "short_id": "C102"
+                },
+                {
+                    "id": "BSCC-1951-80-17-C106",
+                    "short_id": "C106"
+                }
+            ],
+            "description": "The british company A1486 trades with the swiss company B153 in the goods C102 and C106"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Parson & Crosland Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642607",
+            "lat": "54.57623",
+            "lng": "-1.23483",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Middlesbrough",
+            "transcription": " Middlesbrough. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

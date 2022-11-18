@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-165-1951-18-C523",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "523. Vacuum cleaners, industrial. A 312, B 43.",
+        "corrected": "523. Vacuum cleaners, industrial. A 312, B 43"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 165,
+            "canvas": "http://localhost:8182/iiif/3/0165.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0165.jpg/299,960,1273,41/max/0/default.jpg",
+            "xywh": "299, 960, 1273, 41"
+        }
+    },
+    "short_id": "C523",
+    "label": "Vacuum cleaners, industrial",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-165-18-A312",
+                    "short_id": "A312"
+                },
+                {
+                    "id": "BSCC-1951-165-18-B43",
+                    "short_id": "B43"
+                }
+            ],
+            "description": "with the british company A312"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5A",
+            "level": 1,
+            "label": "Electric Equipment and Supplies, general",
+            "part_of": "5",
+            "page": "164",
+            "line_number": "14"
+        }
+    ]
+}

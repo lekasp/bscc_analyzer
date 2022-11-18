@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-176-1951-12-C912",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "912. Dyestuffs. A 434, 671, 923, 945, 2131, B 146, 175, 715.",
+        "corrected": "912. Dyestuffs. A 434, 671, 923, 945, 2131, B 146, 175, 715"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 176,
+            "canvas": "http://localhost:8182/iiif/3/0176.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0176.jpg/228,1076,1293,42/max/0/default.jpg",
+            "xywh": "228, 1076, 1293, 42"
+        }
+    },
+    "short_id": "C912",
+    "label": "Dyestuffs",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-176-12-A434",
+                    "short_id": "A434"
+                },
+                {
+                    "id": "BSCC-1951-176-12-A671",
+                    "short_id": "A671"
+                },
+                {
+                    "id": "BSCC-1951-176-12-A923",
+                    "short_id": "A923"
+                },
+                {
+                    "id": "BSCC-1951-176-12-A945",
+                    "short_id": "A945"
+                },
+                {
+                    "id": "BSCC-1951-176-12-A2131",
+                    "short_id": "A2131"
+                },
+                {
+                    "id": "BSCC-1951-176-12-B146",
+                    "short_id": "B146"
+                },
+                {
+                    "id": "BSCC-1951-176-12-B175",
+                    "short_id": "B175"
+                },
+                {
+                    "id": "BSCC-1951-176-12-B715",
+                    "short_id": "B715"
+                }
+            ],
+            "description": "with the british company A434 and A671 and A923 and A945 and A2131 and B175 and B715"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "11",
+            "level": 0,
+            "label": "Chemicals, Pharmaceuticals, Cosmetics and Perfumery",
+            "part_of": "0",
+            "page": "176",
+            "line_number": "2"
+        },
+        {
+            "id": "11A",
+            "level": 1,
+            "label": "Chemicals",
+            "part_of": "11",
+            "page": "176",
+            "line_number": "3"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-187-1951-5-C1259",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1259. Felt for paper and textile mills. A 1073, 1553, B 376, 433.",
+        "corrected": "1259. Felt for paper and textile mills. A 1073, 1553, B 376, 433"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 187,
+            "canvas": "http://localhost:8182/iiif/3/0187.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0187.jpg/318,421,1281,40/max/0/default.jpg",
+            "xywh": "318, 421, 1281, 40"
+        }
+    },
+    "short_id": "C1259",
+    "label": "Felt for paper and textile mills",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-187-5-A1073",
+                    "short_id": "A1073"
+                },
+                {
+                    "id": "BSCC-1951-187-5-A1553",
+                    "short_id": "A1553"
+                },
+                {
+                    "id": "BSCC-1951-187-5-B376",
+                    "short_id": "B376"
+                },
+                {
+                    "id": "BSCC-1951-187-5-B433",
+                    "short_id": "B433"
+                }
+            ],
+            "description": "with the british company A1073 and A1553 and B433"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15H",
+            "level": 1,
+            "label": "Technical Textile Products",
+            "part_of": "15",
+            "page": "186",
+            "line_number": "39"
+        }
+    ]
+}

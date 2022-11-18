@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-33-C896",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "896. Tanning extract. A 146, 1905, B 475.",
+        "corrected": "896. Tanning extract. A 146, 1905, B 475"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,1739,1247,43/max/0/default.jpg",
+            "xywh": "296, 1739, 1247, 43"
+        }
+    },
+    "short_id": "C896",
+    "label": "Tanning extract",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-33-A146",
+                    "short_id": "A146"
+                },
+                {
+                    "id": "BSCC-1951-175-33-A1905",
+                    "short_id": "A1905"
+                },
+                {
+                    "id": "BSCC-1951-175-33-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "description": "with the british company A146 and A1905"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10D",
+            "level": 1,
+            "label": "Technical Leather Products, Tanning Supplies",
+            "part_of": "10",
+            "page": "175",
+            "line_number": "30"
+        }
+    ]
+}

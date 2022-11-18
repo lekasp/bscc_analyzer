@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-20-B456",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 456. Lutex S.A., Galerie St-François B, Lausanne. A 682, 1597, 2138, C 65, 69, 72, 164.",
+        "corrected": "456. Lutex S.A., Galerie St-François B, Lausanne.A 682, 1597, 2138, C 65, 69, 72, 164"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1506,1265,75/max/0/default.jpg",
+            "xywh": "316, 1506, 1265, 75"
+        }
+    },
+    "short_id": "B456",
+    "label": "Lutex S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-20-A682",
+                    "short_id": "A682"
+                },
+                {
+                    "id": "BSCC-1951-131-20-A1597",
+                    "short_id": "A1597"
+                },
+                {
+                    "id": "BSCC-1951-131-20-A2138",
+                    "short_id": "A2138"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-20-C65",
+                    "short_id": "C65"
+                },
+                {
+                    "id": "BSCC-1951-131-20-C69",
+                    "short_id": "C69"
+                },
+                {
+                    "id": "BSCC-1951-131-20-C72",
+                    "short_id": "C72"
+                },
+                {
+                    "id": "BSCC-1951-131-20-C164",
+                    "short_id": "C164"
+                }
+            ],
+            "description": "The swiss company B456 trades with the british company A682 and A1597 and A2138 in the goods C65 and C69 and C72 and C164"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lutex S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " Galerie St-François B, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-13-A2065",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2065. Walton (John) & Son Ltd., Calverley, nr Leeds. B 186, C 1117, 1120.",
+        "corrected": "2065. Walton (John) & Son Ltd., Calverley, nr Leeds. B 186, C 1117, 1120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,832,1278,40/max/0/default.jpg",
+            "xywh": "348, 832, 1278, 40"
+        }
+    },
+    "short_id": "A2065",
+    "label": "Walton (John) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-13-B186",
+                    "short_id": "B186"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-13-C1117",
+                    "short_id": "C1117"
+                },
+                {
+                    "id": "BSCC-1951-99-13-C1120",
+                    "short_id": "C1120"
+                }
+            ],
+            "description": "The british company A2065 trades with the swiss company B186 in the goods C1117 and C1120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Walton (John) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653962",
+            "lat": "53.82832",
+            "lng": "-1.6882",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Calverley",
+            "transcription": " Calverley, nr Leeds. "
+        },
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Calverley, nr Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

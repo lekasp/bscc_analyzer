@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-10-B502",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 502. Michel (L. E.) S.A., Pont du Galicien, Malley, Lausanne. A 229, C 9, 86.",
+        "corrected": "502. Michel (L. E.) S.A., Pont du Galicien, Malley, Lausanne. A 229, C 9, 86"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,943,1317,38/max/0/default.jpg",
+            "xywh": "305, 943, 1317, 38"
+        }
+    },
+    "short_id": "B502",
+    "label": "Michel (L. E.) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-10-A229",
+                    "short_id": "A229"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-10-C9",
+                    "short_id": "C9"
+                },
+                {
+                    "id": "BSCC-1951-133-10-C86",
+                    "short_id": "C86"
+                }
+            ],
+            "description": "The swiss company B502 trades with the british company A229 in the goods C9 and C86"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Michel (L. E.) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "11789433",
+            "lat": "46.52571",
+            "lng": "6.60373",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sébeillon - Malley",
+            "transcription": " Pont du Galicien, Malley, Lausanne. "
+        },
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " Pont du Galicien, Malley, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

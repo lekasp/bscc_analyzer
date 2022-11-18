@@ -1,0 +1,130 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-157-1951-29-C209",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "209. Lathes, general. A 344, 554, 875, 1117, 1326, 1389, 1785, 1889, 2195 — B 185, 480, 485, 596, 716, 726, 733, 768.",
+        "corrected": "209. Lathes, general.A 344, 554, 875, 1117, 1326, 1389, 1785, 1889, 2195 — B 185, 480, 485, 596, 716, 726, 733, 768"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 157,
+            "canvas": "http://localhost:8182/iiif/3/0157.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0157.jpg/303,1462,1281,117/max/0/default.jpg",
+            "xywh": "303, 1462, 1281, 117"
+        }
+    },
+    "short_id": "C209",
+    "label": "Lathes, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-157-29-A344",
+                    "short_id": "A344"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A554",
+                    "short_id": "A554"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A875",
+                    "short_id": "A875"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A1117",
+                    "short_id": "A1117"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A1326",
+                    "short_id": "A1326"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A1389",
+                    "short_id": "A1389"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A1785",
+                    "short_id": "A1785"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A1889",
+                    "short_id": "A1889"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A480",
+                    "short_id": "A480"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A485",
+                    "short_id": "A485"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A596",
+                    "short_id": "A596"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A716",
+                    "short_id": "A716"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A726",
+                    "short_id": "A726"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A733",
+                    "short_id": "A733"
+                },
+                {
+                    "id": "BSCC-1951-157-29-A768",
+                    "short_id": "A768"
+                }
+            ],
+            "description": "with the british company A344 and A554 and A875 and A1117 and A1326 and A1389 and A1785 and A1889 and A480 and A485 and A596 and A716 and A726 and A733 and A768"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4A",
+            "level": 1,
+            "label": "Machine Tools and Attachments",
+            "part_of": "4",
+            "page": "156",
+            "line_number": "38"
+        }
+    ]
+}

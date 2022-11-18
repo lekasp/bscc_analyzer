@@ -1,0 +1,130 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-23-C448",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "448. Pumps, general. A 692, 892, 998, 1211, 1339, 1410, 1510, B 14, 23, 346, 397, 596, 689.",
+        "corrected": "448. Pumps, general.A 692, 892, 998, 1211, 1339, 1410, 1510, B 14, 23, 346, 397, 596, 689"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,1343,1245,80/max/0/default.jpg",
+            "xywh": "294, 1343, 1245, 80"
+        }
+    },
+    "short_id": "C448",
+    "label": "Pumps, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-23-A692",
+                    "short_id": "A692"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A892",
+                    "short_id": "A892"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A998",
+                    "short_id": "A998"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A1211",
+                    "short_id": "A1211"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A1339",
+                    "short_id": "A1339"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A1410",
+                    "short_id": "A1410"
+                },
+                {
+                    "id": "BSCC-1951-163-23-A1510",
+                    "short_id": "A1510"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B14",
+                    "short_id": "B14"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B23",
+                    "short_id": "B23"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B346",
+                    "short_id": "B346"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B397",
+                    "short_id": "B397"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B596",
+                    "short_id": "B596"
+                },
+                {
+                    "id": "BSCC-1951-163-23-B689",
+                    "short_id": "B689"
+                }
+            ],
+            "description": "with the british company A692 and A892 and A998 and A1211 and A1339 and A1410 and A1510 and B23 and B346 and B397 and B596 and B689"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Ee",
+            "level": 2,
+            "label": "PUMPS, VALVES, PNEUMATIC EQUIPMENT",
+            "part_of": "4E",
+            "page": "163",
+            "line_number": "18"
+        }
+    ]
+}

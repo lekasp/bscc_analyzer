@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-29-B226",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "226. Fibag Fahrzeuge und Industriebedarf AG., 58, Stauffacherquai, Zurich, A 62, 63, 86, 120, 343+ 1191, 1760, C 569, 570, 600, 601, 627, 629, 780, 781, 784.",
+        "corrected": "226. Fibag Fahrzeuge und Industriebedarf AG., 58, Stauffacherquai, Zurich,A 62, 63, 86, 120, 343+ 1191, 1760, C 569, 570, 600, 601, 627, 629, 780, 781, 784"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,2107,1247,149/max/0/default.jpg",
+            "xywh": "304, 2107, 1247, 149"
+        }
+    },
+    "short_id": "B226",
+    "label": "Fibag Fahrzeuge und Industriebedarf AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-29-A62",
+                    "short_id": "A62"
+                },
+                {
+                    "id": "BSCC-1951-123-29-A63",
+                    "short_id": "A63"
+                },
+                {
+                    "id": "BSCC-1951-123-29-A86",
+                    "short_id": "A86"
+                },
+                {
+                    "id": "BSCC-1951-123-29-A120",
+                    "short_id": "A120"
+                },
+                {
+                    "id": "BSCC-1951-123-29-A1760",
+                    "short_id": "A1760"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-29-C569",
+                    "short_id": "C569"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C570",
+                    "short_id": "C570"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C600",
+                    "short_id": "C600"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C601",
+                    "short_id": "C601"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C629",
+                    "short_id": "C629"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C780",
+                    "short_id": "C780"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C781",
+                    "short_id": "C781"
+                },
+                {
+                    "id": "BSCC-1951-123-29-C784",
+                    "short_id": "C784"
+                }
+            ],
+            "description": "The swiss company B226 trades with the british company A62 and A63 and A86 and A120 and A1760 in the goods C569 and C570 and C600 and C601 and C627 and C629 and C780 and C781 and C784"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fibag Fahrzeuge und Industriebedarf AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 58, Stauffacherquai, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

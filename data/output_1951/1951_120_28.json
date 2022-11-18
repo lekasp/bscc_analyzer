@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-28-B134",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "134. Camredon (R.), (Montissu), 29, rue du Simplon, Lausanne. + A 2056, C 1158.",
+        "corrected": "134. Camredon (R.), (Montissu), 29, rue du Simplon, Lausanne. + A 2056, C 1158"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,2182,1348,102/max/0/default.jpg",
+            "xywh": "159, 2182, 1348, 102"
+        }
+    },
+    "short_id": "B134",
+    "label": "Camredon (R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-28-A2056",
+                    "short_id": "A2056"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-28-C1158",
+                    "short_id": "C1158"
+                }
+            ],
+            "description": "The swiss company B134 trades with the british company A2056 in the goods C1158"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Camredon (R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "(Montissu), 29, rue du Simplon, Lausanne. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

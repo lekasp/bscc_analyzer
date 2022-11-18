@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-29-C645",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "645. Gunnery training apparatus. A 1622, B 35.",
+        "corrected": "645. Gunnery training apparatus. A 1622, B 35"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,1914,1239,41/max/0/default.jpg",
+            "xywh": "200, 1914, 1239, 41"
+        }
+    },
+    "short_id": "C645",
+    "label": "Gunnery training apparatus",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-29-A1622",
+                    "short_id": "A1622"
+                },
+                {
+                    "id": "BSCC-1951-168-29-B35",
+                    "short_id": "B35"
+                }
+            ],
+            "description": "with the british company A1622"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6I",
+            "level": 1,
+            "label": "Aircraft and Aircraft Equipment",
+            "part_of": "6",
+            "page": "168",
+            "line_number": "22"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-3-B170",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 170. Del Bianco (Mario) S. à r. l., 1, rue Beau-Séjour, Lausanne. A 1032, C 282.",
+        "corrected": "170. Del Bianco (Mario) S. à r. l., 1, rue Beau-Séjour, Lausanne.A 1032, C 282"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,399,1285,79/max/0/default.jpg",
+            "xywh": "169, 399, 1285, 79"
+        }
+    },
+    "short_id": "B170",
+    "label": "Del Bianco (Mario) S. à r. l.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-3-A1032",
+                    "short_id": "A1032"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-3-C282",
+                    "short_id": "C282"
+                }
+            ],
+            "description": "The swiss company B170 trades with the british company A1032 in the goods C282"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Del Bianco (Mario) S. à r. l."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 1, rue Beau-Séjour, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

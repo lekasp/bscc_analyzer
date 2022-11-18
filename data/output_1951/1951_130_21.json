@@ -1,0 +1,128 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-21-B427",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "427. Kunz (W. Emil), 21, Gotthardstrasse, Zurich. A 328, 332, 1285, 1305, 1593, 1615, 2029, C 302, 422, 425, 427, 428, 459, 632.",
+        "corrected": "427. Kunz (W. Emil), 21, Gotthardstrasse, Zurich.A 328, 332, 1285, 1305, 1593, 1615, 2029, C 302, 422, 425, 427, 428, 459, 632"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,1336,1294,80/max/0/default.jpg",
+            "xywh": "162, 1336, 1294, 80"
+        }
+    },
+    "short_id": "B427",
+    "label": "Kunz (W. Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-21-A328",
+                    "short_id": "A328"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A332",
+                    "short_id": "A332"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A1285",
+                    "short_id": "A1285"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A1305",
+                    "short_id": "A1305"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A1593",
+                    "short_id": "A1593"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A1615",
+                    "short_id": "A1615"
+                },
+                {
+                    "id": "BSCC-1951-130-21-A2029",
+                    "short_id": "A2029"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-21-C302",
+                    "short_id": "C302"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C422",
+                    "short_id": "C422"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C425",
+                    "short_id": "C425"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C427",
+                    "short_id": "C427"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C428",
+                    "short_id": "C428"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C459",
+                    "short_id": "C459"
+                },
+                {
+                    "id": "BSCC-1951-130-21-C632",
+                    "short_id": "C632"
+                }
+            ],
+            "description": "The swiss company B427 trades with the british company A328 and A332 and A1285 and A1305 and A1593 and A1615 and A2029 in the goods C302 and C422 and C425 and C427 and C428 and C459 and C632"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kunz (W. Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "21, Gotthardstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-25-B461",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 461. Mabie, Todd & Co. (Zurich) AG., 39, Bahnhofstrasse, Zurich. A 1214, 2050, C 1029, 1039.",
+        "corrected": "461. Mabie, Todd & Co. (Zurich) AG., 39, Bahnhofstrasse, Zurich.A 1214, 2050, C 1029, 1039"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1892,1265,98/max/0/default.jpg",
+            "xywh": "316, 1892, 1265, 98"
+        }
+    },
+    "short_id": "B461",
+    "label": "Mabie, Todd & Co. (Zurich) AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-25-A1214",
+                    "short_id": "A1214"
+                },
+                {
+                    "id": "BSCC-1951-131-25-A2050",
+                    "short_id": "A2050"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-25-C1029",
+                    "short_id": "C1029"
+                },
+                {
+                    "id": "BSCC-1951-131-25-C1039",
+                    "short_id": "C1039"
+                }
+            ],
+            "description": "The swiss company B461 trades with the british company A1214 and A2050 in the goods C1029 and C1039"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mabie, Todd & Co. (Zurich) AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 39, Bahnhofstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

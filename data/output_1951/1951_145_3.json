@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-145-1951-3-B844",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 844. Zubac Handels-AG., 15, Talstrasse, Zurich. A 435, 1953, C 473, 592.",
+        "corrected": "844. Zubac Handels-AG., 15, Talstrasse, Zurich. A 435, 1953, C 473, 592"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 145,
+            "canvas": "http://localhost:8182/iiif/3/0145.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0145.jpg/311,473,1268,39/max/0/default.jpg",
+            "xywh": "311, 473, 1268, 39"
+        }
+    },
+    "short_id": "B844",
+    "label": "Zubac Handels-AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-145-3-A435",
+                    "short_id": "A435"
+                },
+                {
+                    "id": "BSCC-1951-145-3-A1953",
+                    "short_id": "A1953"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-145-3-C473",
+                    "short_id": "C473"
+                },
+                {
+                    "id": "BSCC-1951-145-3-C592",
+                    "short_id": "C592"
+                }
+            ],
+            "description": "The swiss company B844 trades with the british company A435 and A1953 in the goods C473 and C592"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Zubac Handels-AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 15, Talstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

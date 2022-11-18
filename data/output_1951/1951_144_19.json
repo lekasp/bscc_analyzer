@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-19-B831",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 831. Woertz (Oskar), 36, Margarethenstrasse, Basle. A 257, 281, C 150, 160, 508, 526.",
+        "corrected": "831. Woertz (Oskar), 36, Margarethenstrasse, Basle.A 257, 281, C 150, 160, 508, 526"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1466,1324,79/max/0/default.jpg",
+            "xywh": "195, 1466, 1324, 79"
+        }
+    },
+    "short_id": "B831",
+    "label": "Woertz (Oskar)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-19-A257",
+                    "short_id": "A257"
+                },
+                {
+                    "id": "BSCC-1951-144-19-A281",
+                    "short_id": "A281"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-19-C150",
+                    "short_id": "C150"
+                },
+                {
+                    "id": "BSCC-1951-144-19-C160",
+                    "short_id": "C160"
+                },
+                {
+                    "id": "BSCC-1951-144-19-C508",
+                    "short_id": "C508"
+                },
+                {
+                    "id": "BSCC-1951-144-19-C526",
+                    "short_id": "C526"
+                }
+            ],
+            "description": "The swiss company B831 trades with the british company A257 and A281 in the goods C150 and C160 and C508 and C526"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Woertz (Oskar)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "36, Margarethenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

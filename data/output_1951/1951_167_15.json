@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-167-1951-15-C594",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "594. Oil filters. A 1763, 1922, B 676, 737a.",
+        "corrected": "594. Oil filters. A 1763, 1922, B 676, 737a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 167,
+            "canvas": "http://localhost:8182/iiif/3/0167.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0167.jpg/346,874,1229,37/max/0/default.jpg",
+            "xywh": "346, 874, 1229, 37"
+        }
+    },
+    "short_id": "C594",
+    "label": "Oil filters",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-167-15-A1763",
+                    "short_id": "A1763"
+                },
+                {
+                    "id": "BSCC-1951-167-15-A1922",
+                    "short_id": "A1922"
+                },
+                {
+                    "id": "BSCC-1951-167-15-B676",
+                    "short_id": "B676"
+                },
+                {
+                    "id": "BSCC-1951-167-15-B737a",
+                    "short_id": "B737a"
+                }
+            ],
+            "description": "with the british company A1763 and A1922 and B737a"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6C",
+            "level": 1,
+            "label": "Motor Vehicle Accessories and Components",
+            "part_of": "6",
+            "page": "166",
+            "line_number": "26"
+        }
+    ]
+}

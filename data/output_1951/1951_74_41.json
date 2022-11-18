@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-41-A1389",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1389. Myford Engineering Co. Ltd., Beeston, Nottingham. B 716, C 209.",
+        "corrected": "1389. Myford Engineering Co. Ltd., Beeston, Nottingham. B 716, C 209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,2193,1249,59/max/0/default.jpg",
+            "xywh": "184, 2193, 1249, 59"
+        }
+    },
+    "short_id": "A1389",
+    "label": "Myford Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-41-B716",
+                    "short_id": "B716"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-41-C209",
+                    "short_id": "C209"
+                }
+            ],
+            "description": "The british company A1389 trades with the swiss company B716 in the goods C209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Myford Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656014",
+            "lat": "52.91667",
+            "lng": "-1.21667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Beeston",
+            "transcription": " Beeston, Nottingham. "
+        },
+        {
+            "id": "2641170",
+            "lat": "52.9536",
+            "lng": "-1.15047",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Nottingham",
+            "transcription": " Beeston, Nottingham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

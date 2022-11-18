@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-31-B32",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "32. Ardor S.A., Giubiasco (Tessin). A 2122, C 526.",
+        "corrected": "32. Ardor S.A., Giubiasco (Tessin). A 2122, C 526"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1832,1350,37/max/0/default.jpg",
+            "xywh": "278, 1832, 1350, 37"
+        }
+    },
+    "short_id": "B32",
+    "label": "Ardor S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-31-A2122",
+                    "short_id": "A2122"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-31-C526",
+                    "short_id": "C526"
+                }
+            ],
+            "description": "The swiss company B32 trades with the british company A2122 in the goods C526"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ardor S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660603",
+            "lat": "46.17246",
+            "lng": "9.00793",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Giubiasco",
+            "transcription": " Giubiasco (Tessin). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

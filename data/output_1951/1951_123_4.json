@@ -1,0 +1,87 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-4-B201",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "201. Eigenheer (Otto), 2, Rebwiesenstrasse, Winterthur. A 792, 1997, C 430, 435,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,583,1247,39/max/0/default.jpg",
+            "xywh": "304, 583, 1247, 39"
+        }
+    },
+    "short_id": "B201",
+    "label": "Eigenheer (Otto)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-4-A792",
+                    "short_id": "A792"
+                },
+                {
+                    "id": "BSCC-1951-123-4-A1997",
+                    "short_id": "A1997"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-4-C430",
+                    "short_id": "C430"
+                },
+                {
+                    "id": "BSCC-1951-123-4-C435",
+                    "short_id": "C435"
+                }
+            ],
+            "description": "The swiss company B201 trades with the british company A792 and A1997 in the goods C430 and C435"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Eigenheer (Otto)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657970",
+            "lat": "47.50564",
+            "lng": "8.72413",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Winterthur",
+            "transcription": "2, Rebwiesenstrasse, Winterthur. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

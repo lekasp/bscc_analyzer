@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-20-C884",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "884. Boot protectors. A 215, 773, B 314.",
+        "corrected": "884. Boot protectors. A 215, 773, B 314"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,1181,1247,39/max/0/default.jpg",
+            "xywh": "296, 1181, 1247, 39"
+        }
+    },
+    "short_id": "C884",
+    "label": "Boot protectors",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-20-A215",
+                    "short_id": "A215"
+                },
+                {
+                    "id": "BSCC-1951-175-20-A773",
+                    "short_id": "A773"
+                },
+                {
+                    "id": "BSCC-1951-175-20-B314",
+                    "short_id": "B314"
+                }
+            ],
+            "description": "with the british company A215 and A773"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10C",
+            "level": 1,
+            "label": "Footwear Components and Accessories, Shoemakers' Supplies",
+            "part_of": "10",
+            "page": "175",
+            "line_number": "12"
+        }
+    ]
+}

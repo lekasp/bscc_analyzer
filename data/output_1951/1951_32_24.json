@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-24-A424",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "424. Churchman (W. A. & A. C.), Ipswich. B 808, C 1446.",
+        "corrected": "424. Churchman (W. A. & A. C.), Ipswich. B 808, C 1446"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1230,1184,38/max/0/default.jpg",
+            "xywh": "223, 1230, 1184, 38"
+        }
+    },
+    "short_id": "A424",
+    "label": "Churchman (W. A. & A. C.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-24-B808",
+                    "short_id": "B808"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-24-C1446",
+                    "short_id": "C1446"
+                }
+            ],
+            "description": "The british company A424 trades with the swiss company B808 in the goods C1446"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Churchman (W. A. & A. C.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2646057",
+            "lat": "52.05917",
+            "lng": "1.15545",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Ipswich",
+            "transcription": "Ipswich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

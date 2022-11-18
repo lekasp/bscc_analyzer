@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-39-A1027",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1027. Jersella Ltd., Belfast. B 93, C 1187.",
+        "corrected": "1027. Jersella Ltd., Belfast. B 93, C 1187"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,2068,1267,38/max/0/default.jpg",
+            "xywh": "165, 2068, 1267, 38"
+        }
+    },
+    "short_id": "A1027",
+    "label": "Jersella Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-39-B93",
+                    "short_id": "B93"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-39-C1187",
+                    "short_id": "C1187"
+                }
+            ],
+            "description": "The british company A1027 trades with the swiss company B93 in the goods C1187"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jersella Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2655984",
+            "lat": "54.59682",
+            "lng": "-5.92541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Belfast",
+            "transcription": " Belfast. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

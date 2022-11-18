@@ -1,0 +1,103 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-38-A1603",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1603. Redfern's Rubber Works Ltd., Hyde, Cheshire. B 302, C 784, 797, 808; B 496, C 804.",
+        "corrected": "1603. Redfern's Rubber Works Ltd., Hyde, Cheshire.B 302, C 784, 797, 808; B 496, C 804"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,2135,1278,122/max/0/default.jpg",
+            "xywh": "168, 2135, 1278, 122"
+        }
+    },
+    "short_id": "A1603",
+    "label": "Redfern's Rubber Works Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-38-B302",
+                    "short_id": "B302"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-38-C784",
+                    "short_id": "C784"
+                },
+                {
+                    "id": "BSCC-1951-84-38-C797",
+                    "short_id": "C797"
+                },
+                {
+                    "id": "BSCC-1951-84-38-C808",
+                    "short_id": "C808"
+                }
+            ],
+            "description": "The british company A1603 trades with the swiss company B302 in the goods C784 and C797 and C808"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-38-B496",
+                    "short_id": "B496"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-38-C804",
+                    "short_id": "C804"
+                }
+            ],
+            "description": "The british company A1603 trades with the swiss company B496 in the goods C804"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Redfern's Rubber Works Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646327",
+            "lat": "53.45131",
+            "lng": "-2.07943",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hyde",
+            "transcription": " Hyde, Cheshire."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

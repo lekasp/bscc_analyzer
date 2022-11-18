@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-171-1951-16-C739",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "739. Water sterilizing plant. A 380, B 148.",
+        "corrected": "739. Water sterilizing plant. A 380, B 148"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 171,
+            "canvas": "http://localhost:8182/iiif/3/0171.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0171.jpg/285,912,1300,50/max/0/default.jpg",
+            "xywh": "285, 912, 1300, 50"
+        }
+    },
+    "short_id": "C739",
+    "label": "Water sterilizing plant",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-171-16-A380",
+                    "short_id": "A380"
+                },
+                {
+                    "id": "BSCC-1951-171-16-B148",
+                    "short_id": "B148"
+                }
+            ],
+            "description": "with the british company A380"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "8",
+            "level": 0,
+            "label": "Building Materials and Fittings, Sanitary Equipment, Heating, Ventilation, Gas and Water Circulation, Hardware and Ironmongery",
+            "part_of": "0",
+            "page": "170",
+            "line_number": "13"
+        },
+        {
+            "id": "8C",
+            "level": 1,
+            "label": "Heating, Ventilation, Water Circulation",
+            "part_of": "8",
+            "page": "171",
+            "line_number": "0"
+        }
+    ]
+}

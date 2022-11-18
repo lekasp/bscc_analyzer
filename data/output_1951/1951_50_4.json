@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-4-A817",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "817. Green (Harry) Ltd., Barking. B 735, C 1356.",
+        "corrected": "817. Green (Harry) Ltd., Barking. B 735, C 1356"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,388,1261,40/max/0/default.jpg",
+            "xywh": "153, 388, 1261, 40"
+        }
+    },
+    "short_id": "A817",
+    "label": "Green (Harry) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-4-B735",
+                    "short_id": "B735"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-4-C1356",
+                    "short_id": "C1356"
+                }
+            ],
+            "description": "The british company A817 trades with the swiss company B735 in the goods C1356"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Green (Harry) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2656333",
+            "lat": "51.53333",
+            "lng": "0.08333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Barking",
+            "transcription": " Barking. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

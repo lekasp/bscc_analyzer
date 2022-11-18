@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-27-B404",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "404. Kleiner (Arnold), 4c, Guggiweg, Zug. A 1112, 1313, C 487, 815.",
+        "corrected": "404. Kleiner (Arnold), 4c, Guggiweg, Zug. A 1112, 1313, C 487, 815"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,2148,1292,41/max/0/default.jpg",
+            "xywh": "294, 2148, 1292, 41"
+        }
+    },
+    "short_id": "B404",
+    "label": "Kleiner (Arnold)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-27-A1112",
+                    "short_id": "A1112"
+                },
+                {
+                    "id": "BSCC-1951-129-27-A1313",
+                    "short_id": "A1313"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-27-C487",
+                    "short_id": "C487"
+                },
+                {
+                    "id": "BSCC-1951-129-27-C815",
+                    "short_id": "C815"
+                }
+            ],
+            "description": "The swiss company B404 trades with the british company A1112 and A1313 in the goods C487 and C815"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kleiner (Arnold)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657908",
+            "lat": "47.17242",
+            "lng": "8.51745",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zug",
+            "transcription": "4c, Guggiweg, Zug. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

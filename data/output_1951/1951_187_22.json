@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-187-1951-22-C1272",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1272. Inks. A 973, B 559.",
+        "corrected": "1272. Inks. A 973, B 559"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 187,
+            "canvas": "http://localhost:8182/iiif/3/0187.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0187.jpg/318,1320,1281,46/max/0/default.jpg",
+            "xywh": "318, 1320, 1281, 46"
+        }
+    },
+    "short_id": "C1272",
+    "label": "Inks",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-187-22-A973",
+                    "short_id": "A973"
+                },
+                {
+                    "id": "BSCC-1951-187-22-B559",
+                    "short_id": "B559"
+                }
+            ],
+            "description": "with the british company A973"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "16",
+            "level": 0,
+            "label": "Photography, Optical Products",
+            "part_of": "0",
+            "page": "187",
+            "line_number": "9"
+        },
+        {
+            "id": "16B",
+            "level": 1,
+            "label": "Photographic Equipment and Supplies",
+            "part_of": "16",
+            "page": "187",
+            "line_number": "18"
+        }
+    ]
+}

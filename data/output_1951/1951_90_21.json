@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-21-A1717",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1717. Schoenholzer (Otto), St. Albans. B 591, C 902, 1206.",
+        "corrected": "1717. Schoenholzer (Otto), St. Albans. B 591, C 902, 1206"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,1149,1298,42/max/0/default.jpg",
+            "xywh": "171, 1149, 1298, 42"
+        }
+    },
+    "short_id": "A1717",
+    "label": "Schoenholzer (Otto)Schoenholzer Otto",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-21-B591",
+                    "short_id": "B591"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-21-C902",
+                    "short_id": "C902"
+                },
+                {
+                    "id": "BSCC-1951-90-21-C1206",
+                    "short_id": "C1206"
+                }
+            ],
+            "description": "The british company A1717 trades with the swiss company B591 in the goods C902 and C1206"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schoenholzer (Otto)Schoenholzer Otto"
+        }
+    ],
+    "location": [
+        {
+            "id": "2638867",
+            "lat": "51.75",
+            "lng": "-0.33333",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "St Albans",
+            "transcription": " Schoenholzer (Otto), St. Albans. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

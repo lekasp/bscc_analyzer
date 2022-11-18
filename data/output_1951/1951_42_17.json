@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-17-A644",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "644. Enfield Cables Ltd., Enfield, Middx. B 433, C 490, 492.",
+        "corrected": "644. Enfield Cables Ltd., Enfield, Middx. B 433, C 490, 492"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,931,1259,39/max/0/default.jpg",
+            "xywh": "194, 931, 1259, 39"
+        }
+    },
+    "short_id": "A644",
+    "label": "Enfield Cables Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-17-B433",
+                    "short_id": "B433"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-17-C490",
+                    "short_id": "C490"
+                },
+                {
+                    "id": "BSCC-1951-42-17-C492",
+                    "short_id": "C492"
+                }
+            ],
+            "description": "The british company A644 trades with the swiss company B433 in the goods C490 and C492"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Enfield Cables Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2649997",
+            "lat": "51.65147",
+            "lng": "-0.08497",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Enfield",
+            "transcription": " Enfield, Middx. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-21-B600",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 600. Relevo S.A., 34, Sihlstrasse, Zurich. A 267, 577, 1194, 1537, C 1420, 1436, 1464.",
+        "corrected": "600. Relevo S.A., 34, Sihlstrasse, Zurich.A 267, 577, 1194, 1537, C 1420, 1436, 1464"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,1891,1317,82/max/0/default.jpg",
+            "xywh": "183, 1891, 1317, 82"
+        }
+    },
+    "short_id": "B600",
+    "label": "Relevo S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-21-A267",
+                    "short_id": "A267"
+                },
+                {
+                    "id": "BSCC-1951-136-21-A577",
+                    "short_id": "A577"
+                },
+                {
+                    "id": "BSCC-1951-136-21-A1194",
+                    "short_id": "A1194"
+                },
+                {
+                    "id": "BSCC-1951-136-21-A1537",
+                    "short_id": "A1537"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-21-C1420",
+                    "short_id": "C1420"
+                },
+                {
+                    "id": "BSCC-1951-136-21-C1436",
+                    "short_id": "C1436"
+                },
+                {
+                    "id": "BSCC-1951-136-21-C1464",
+                    "short_id": "C1464"
+                }
+            ],
+            "description": "The swiss company B600 trades with the british company A267 and A577 and A1194 and A1537 in the goods C1420 and C1436 and C1464"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Relevo S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 34, Sihlstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

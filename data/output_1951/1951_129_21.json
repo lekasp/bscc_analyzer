@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-21-B398",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "398. Kipfer (Hermann R.), 10, Rabbentaltreppe, Berne. A 2004, C 982, 995, 1002.",
+        "corrected": "398. Kipfer (Hermann R.), 10, Rabbentaltreppe, Berne.A 2004, C 982, 995, 1002"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,1828,1292,78/max/0/default.jpg",
+            "xywh": "294, 1828, 1292, 78"
+        }
+    },
+    "short_id": "B398",
+    "label": "Kipfer (Hermann R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-21-A2004",
+                    "short_id": "A2004"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-21-C982",
+                    "short_id": "C982"
+                },
+                {
+                    "id": "BSCC-1951-129-21-C995",
+                    "short_id": "C995"
+                },
+                {
+                    "id": "BSCC-1951-129-21-C1002",
+                    "short_id": "C1002"
+                }
+            ],
+            "description": "The swiss company B398 trades with the british company A2004 in the goods C982 and C995 and C1002"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kipfer (Hermann R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": "10, Rabbentaltreppe, Berne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

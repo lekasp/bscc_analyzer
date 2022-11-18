@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-173-1951-29-C822",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "822. Polyvinyl chloride and compounds. A 367, 652, 985, 2031, B 142, 358, 671, 673.",
+        "corrected": "822. Polyvinyl chloride and compounds.A 367, 652, 985, 2031, B 142, 358, 671, 673"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 173,
+            "canvas": "http://localhost:8182/iiif/3/0173.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0173.jpg/275,1601,1300,82/max/0/default.jpg",
+            "xywh": "275, 1601, 1300, 82"
+        }
+    },
+    "short_id": "C822",
+    "label": "Polyvinyl chloride and compounds",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-173-29-A367",
+                    "short_id": "A367"
+                },
+                {
+                    "id": "BSCC-1951-173-29-A652",
+                    "short_id": "A652"
+                },
+                {
+                    "id": "BSCC-1951-173-29-A985",
+                    "short_id": "A985"
+                },
+                {
+                    "id": "BSCC-1951-173-29-A2031",
+                    "short_id": "A2031"
+                },
+                {
+                    "id": "BSCC-1951-173-29-B142",
+                    "short_id": "B142"
+                },
+                {
+                    "id": "BSCC-1951-173-29-B358",
+                    "short_id": "B358"
+                },
+                {
+                    "id": "BSCC-1951-173-29-B671",
+                    "short_id": "B671"
+                },
+                {
+                    "id": "BSCC-1951-173-29-B673",
+                    "short_id": "B673"
+                }
+            ],
+            "description": "with the british company A367 and A652 and A985 and A2031 and B358 and B671 and B673"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9B",
+            "level": 1,
+            "label": "Plastic Materials and Products",
+            "part_of": "9",
+            "page": "173",
+            "line_number": "14"
+        }
+    ]
+}

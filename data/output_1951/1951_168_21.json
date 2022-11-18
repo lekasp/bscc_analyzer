@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-21-C638",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "638. Outboard motors. A 316, 1327, 1574, B 155, 560, 711.",
+        "corrected": "638. Outboard motors. A 316, 1327, 1574, B 155, 560, 711"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,1487,1239,73/max/0/default.jpg",
+            "xywh": "200, 1487, 1239, 73"
+        }
+    },
+    "short_id": "C638",
+    "label": "Outboard motors",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-21-A316",
+                    "short_id": "A316"
+                },
+                {
+                    "id": "BSCC-1951-168-21-A1327",
+                    "short_id": "A1327"
+                },
+                {
+                    "id": "BSCC-1951-168-21-A1574",
+                    "short_id": "A1574"
+                },
+                {
+                    "id": "BSCC-1951-168-21-B155",
+                    "short_id": "B155"
+                },
+                {
+                    "id": "BSCC-1951-168-21-B560",
+                    "short_id": "B560"
+                },
+                {
+                    "id": "BSCC-1951-168-21-B711",
+                    "short_id": "B711"
+                }
+            ],
+            "description": "with the british company A316 and A1327 and A1574 and B560 and B711"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6G",
+            "level": 1,
+            "label": "Cycle Accessories and Components",
+            "part_of": "6",
+            "page": "168",
+            "line_number": "11"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-23-B94",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "94. Bondanini (Etablissements F.), 10/14, rue Neuve, Renens (Vaud). A 1175, 1439, C 1319, 1365.",
+        "corrected": "94. Bondanini (Etablissements F.), 10/14, rue Neuve, Renens (Vaud).A 1175, 1439, C 1319, 1365"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1510,1336,81/max/0/default.jpg",
+            "xywh": "276, 1510, 1336, 81"
+        }
+    },
+    "short_id": "B94",
+    "label": "Bondanini (Etablissements F.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-23-A1175",
+                    "short_id": "A1175"
+                },
+                {
+                    "id": "BSCC-1951-119-23-A1439",
+                    "short_id": "A1439"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-23-C1319",
+                    "short_id": "C1319"
+                },
+                {
+                    "id": "BSCC-1951-119-23-C1365",
+                    "short_id": "C1365"
+                }
+            ],
+            "description": "The swiss company B94 trades with the british company A1175 and A1439 in the goods C1319 and C1365"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bondanini (Etablissements F.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659070",
+            "lat": "46.53989",
+            "lng": "6.5881",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Renens",
+            "transcription": "10/14, rue Neuve, Renens (Vaud)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

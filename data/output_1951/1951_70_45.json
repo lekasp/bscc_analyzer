@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-70-1951-45-A1299",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1299. Mentholatum Co. Ltd., Slough. B 37, C 933.",
+        "corrected": "1299. Mentholatum Co. Ltd., Slough. B 37, C 933"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 70,
+            "canvas": "http://localhost:8182/iiif/3/0070.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0070.jpg/199,2100,1227,37/max/0/default.jpg",
+            "xywh": "199, 2100, 1227, 37"
+        }
+    },
+    "short_id": "A1299",
+    "label": "Mentholatum Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-70-45-B37",
+                    "short_id": "B37"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-70-45-C933",
+                    "short_id": "C933"
+                }
+            ],
+            "description": "The british company A1299 trades with the swiss company B37 in the goods C933"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mentholatum Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637627",
+            "lat": "51.50949",
+            "lng": "-0.59541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Slough",
+            "transcription": " Slough. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

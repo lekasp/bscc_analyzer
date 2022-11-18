@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-160-1951-37-C343",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "343. Bulldozers. A 117, 412, B 614, 656.",
+        "corrected": "343. Bulldozers. A 117, 412, B 614, 656"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 160,
+            "canvas": "http://localhost:8182/iiif/3/0160.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0160.jpg/155,1898,1307,53/max/0/default.jpg",
+            "xywh": "155, 1898, 1307, 53"
+        }
+    },
+    "short_id": "C343",
+    "label": "Bulldozers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-160-37-A117",
+                    "short_id": "A117"
+                },
+                {
+                    "id": "BSCC-1951-160-37-A412",
+                    "short_id": "A412"
+                },
+                {
+                    "id": "BSCC-1951-160-37-B614",
+                    "short_id": "B614"
+                },
+                {
+                    "id": "BSCC-1951-160-37-B656",
+                    "short_id": "B656"
+                }
+            ],
+            "description": "with the british company A117 and A412 and B656"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4C",
+            "level": 1,
+            "label": "Construction and Mechanical Handling Equipment",
+            "part_of": "4",
+            "page": "160",
+            "line_number": "35"
+        }
+    ]
+}

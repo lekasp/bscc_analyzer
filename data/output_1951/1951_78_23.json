@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-78-1951-23-A1455",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1455. Oppenheimer Pipes Ltd., London EC 2. B 326, C 1451, 1452, 1453.",
+        "corrected": "1455. Oppenheimer Pipes Ltd., London EC 2. B 326, C 1451, 1452, 1453"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 78,
+            "canvas": "http://localhost:8182/iiif/3/0078.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0078.jpg/180,1444,1263,38/max/0/default.jpg",
+            "xywh": "180, 1444, 1263, 38"
+        }
+    },
+    "short_id": "A1455",
+    "label": "Oppenheimer Pipes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-78-23-B326",
+                    "short_id": "B326"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-78-23-C1451",
+                    "short_id": "C1451"
+                },
+                {
+                    "id": "BSCC-1951-78-23-C1452",
+                    "short_id": "C1452"
+                },
+                {
+                    "id": "BSCC-1951-78-23-C1453",
+                    "short_id": "C1453"
+                }
+            ],
+            "description": "The british company A1455 trades with the swiss company B326 in the goods C1451 and C1452 and C1453"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Oppenheimer Pipes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 2. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

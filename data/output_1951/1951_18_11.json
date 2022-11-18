@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-11-A100",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "100. Associated Motor Cycles Ltd., London SE 18. B 246, C 627— (A. J. S.); B 741, C 627— (Matchless).",
+        "corrected": "100. Associated Motor Cycles Ltd., London SE 18.B 246, C 627— (A. J. S.); B 741, C 627— (Matchless)"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,700,1236,79/max/0/default.jpg",
+            "xywh": "219, 700, 1236, 79"
+        }
+    },
+    "short_id": "A100",
+    "label": "Associated Motor Cycles Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-11-B246",
+                    "short_id": "B246"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-11-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The british company A100 trades with the swiss company B246 in the goods C627"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-11-B741",
+                    "short_id": "B741"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-11-C627",
+                    "short_id": "C627"
+                }
+            ],
+            "description": "The british company A100 trades with the swiss company B741 in the goods C627"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Associated Motor Cycles Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London SE 18.— (A. J. S.); — (Matchless)"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

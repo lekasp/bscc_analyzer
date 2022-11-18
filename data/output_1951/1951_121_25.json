@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-25-B160",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "160. Crispin Service AG., 11, Lindenhofweg, Aarau. A 120, 492, 1165, 1203, 1357, 1428, 1972, C 325, 808, 880, 881, 885, 889.",
+        "corrected": "160. Crispin Service AG., 11, Lindenhofweg, Aarau.A 120, 492, 1165, 1203, 1357, 1428, 1972, C 325, 808, 880, 881, 885, 889"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1701,1272,79/max/0/default.jpg",
+            "xywh": "309, 1701, 1272, 79"
+        }
+    },
+    "short_id": "B160",
+    "label": "Crispin Service AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-25-A120",
+                    "short_id": "A120"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A492",
+                    "short_id": "A492"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A1165",
+                    "short_id": "A1165"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A1203",
+                    "short_id": "A1203"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A1357",
+                    "short_id": "A1357"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A1428",
+                    "short_id": "A1428"
+                },
+                {
+                    "id": "BSCC-1951-121-25-A1972",
+                    "short_id": "A1972"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-25-C325",
+                    "short_id": "C325"
+                },
+                {
+                    "id": "BSCC-1951-121-25-C808",
+                    "short_id": "C808"
+                },
+                {
+                    "id": "BSCC-1951-121-25-C880",
+                    "short_id": "C880"
+                },
+                {
+                    "id": "BSCC-1951-121-25-C881",
+                    "short_id": "C881"
+                },
+                {
+                    "id": "BSCC-1951-121-25-C885",
+                    "short_id": "C885"
+                },
+                {
+                    "id": "BSCC-1951-121-25-C889",
+                    "short_id": "C889"
+                }
+            ],
+            "description": "The swiss company B160 trades with the british company A120 and A492 and A1165 and A1203 and A1357 and A1428 and A1972 in the goods C325 and C808 and C880 and C881 and C885 and C889"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Crispin Service AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661881",
+            "lat": "47.39254",
+            "lng": "8.04422",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Aarau",
+            "transcription": " 11, Lindenhofweg, Aarau."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

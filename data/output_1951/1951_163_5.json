@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-5-C433",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "433. Diamonds, industrial; diamond tools. A 1744, 1923, 2005, 2006, 2007, B 433, 573, 596.",
+        "corrected": "433. Diamonds, industrial; diamond tools.A 1744, 1923, 2005, 2006, 2007, B 433, 573, 596"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,458,1245,80/max/0/default.jpg",
+            "xywh": "294, 458, 1245, 80"
+        }
+    },
+    "short_id": "C433",
+    "label": "Diamonds, industrial; diamond tools",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-5-A1744",
+                    "short_id": "A1744"
+                },
+                {
+                    "id": "BSCC-1951-163-5-A1923",
+                    "short_id": "A1923"
+                },
+                {
+                    "id": "BSCC-1951-163-5-A2005",
+                    "short_id": "A2005"
+                },
+                {
+                    "id": "BSCC-1951-163-5-A2006",
+                    "short_id": "A2006"
+                },
+                {
+                    "id": "BSCC-1951-163-5-A2007",
+                    "short_id": "A2007"
+                },
+                {
+                    "id": "BSCC-1951-163-5-B433",
+                    "short_id": "B433"
+                },
+                {
+                    "id": "BSCC-1951-163-5-B573",
+                    "short_id": "B573"
+                },
+                {
+                    "id": "BSCC-1951-163-5-B596",
+                    "short_id": "B596"
+                }
+            ],
+            "description": "with the british company A1744 and A1923 and A2005 and A2006 and A2007 and B573 and B596"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Ec",
+            "level": 2,
+            "label": "ABRASIVES",
+            "part_of": "4E",
+            "page": "163",
+            "line_number": "0"
+        }
+    ]
+}

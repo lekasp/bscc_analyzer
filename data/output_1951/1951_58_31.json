@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-31-A1019",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1019. Jaeger Co. Ltd., London W 1. B 595, C 1154, 1158, 1179, 1190, 1219.",
+        "corrected": "1019. Jaeger Co. Ltd., London W 1. B 595, C 1154, 1158, 1179, 1190, 1219"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,1752,1267,40/max/0/default.jpg",
+            "xywh": "165, 1752, 1267, 40"
+        }
+    },
+    "short_id": "A1019",
+    "label": "Jaeger Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-31-B595",
+                    "short_id": "B595"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-31-C1154",
+                    "short_id": "C1154"
+                },
+                {
+                    "id": "BSCC-1951-58-31-C1158",
+                    "short_id": "C1158"
+                },
+                {
+                    "id": "BSCC-1951-58-31-C1179",
+                    "short_id": "C1179"
+                },
+                {
+                    "id": "BSCC-1951-58-31-C1190",
+                    "short_id": "C1190"
+                },
+                {
+                    "id": "BSCC-1951-58-31-C1219",
+                    "short_id": "C1219"
+                }
+            ],
+            "description": "The british company A1019 trades with the swiss company B595 in the goods C1154 and C1158 and C1179 and C1190 and C1219"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jaeger Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

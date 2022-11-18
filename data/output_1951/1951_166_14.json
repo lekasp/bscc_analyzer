@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-166-1951-14-C559",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "559. Telegraph equipment. A 501, B 707.",
+        "corrected": "559. Telegraph equipment. A 501, B 707"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 166,
+            "canvas": "http://localhost:8182/iiif/3/0166.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0166.jpg/163,844,1316,35/max/0/default.jpg",
+            "xywh": "163, 844, 1316, 35"
+        }
+    },
+    "short_id": "C559",
+    "label": "Telegraph equipment",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-166-14-A501",
+                    "short_id": "A501"
+                },
+                {
+                    "id": "BSCC-1951-166-14-B707",
+                    "short_id": "B707"
+                }
+            ],
+            "description": "with the british company A501"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "5",
+            "level": 0,
+            "label": "Electrical Equipment, Electronics, Radio, Communications",
+            "part_of": "0",
+            "page": "164",
+            "line_number": "13"
+        },
+        {
+            "id": "5D",
+            "level": 1,
+            "label": "Communications",
+            "part_of": "5",
+            "page": "166",
+            "line_number": "9"
+        }
+    ]
+}

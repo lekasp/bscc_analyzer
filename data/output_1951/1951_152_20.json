@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-20-C19",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "19. Spices. A 470, 531, B 271, 513.",
+        "corrected": "19. Spices. A 470, 531, B 271, 513"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,1168,1293,40/max/0/default.jpg",
+            "xywh": "202, 1168, 1293, 40"
+        }
+    },
+    "short_id": "C19",
+    "label": "Spices",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-20-A470",
+                    "short_id": "A470"
+                },
+                {
+                    "id": "BSCC-1951-152-20-A531",
+                    "short_id": "A531"
+                },
+                {
+                    "id": "BSCC-1951-152-20-B271",
+                    "short_id": "B271"
+                },
+                {
+                    "id": "BSCC-1951-152-20-B513",
+                    "short_id": "B513"
+                }
+            ],
+            "description": "with the british company A470 and A531 and B513"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1A",
+            "level": 1,
+            "label": "Raw Foodstuffs",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "1"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-7-B528",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 528. Natural (A.), Le Coultre & Cie. S.A., 25, Chantepoulet, Geneva. A 2046, C 1457.",
+        "corrected": "528. Natural (A.), Le Coultre & Cie. S.A., 25, Chantepoulet, Geneva.A 2046, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,687,1276,81/max/0/default.jpg",
+            "xywh": "187, 687, 1276, 81"
+        }
+    },
+    "short_id": "B528",
+    "label": "Natural (A.), Le Coultre & Cie. S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-7-A2046",
+                    "short_id": "A2046"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-7-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The swiss company B528 trades with the british company A2046 in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Natural (A.), Le Coultre & Cie. S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 25, Chantepoulet, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

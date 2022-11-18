@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-4-A496",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "496. Craven Bros. (Manchester) Ltd., Reddish, Stockport. B 646, C 178, 333.",
+        "corrected": "496. Craven Bros. (Manchester) Ltd., Reddish, Stockport. B 646, C 178, 333"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,387,1261,40/max/0/default.jpg",
+            "xywh": "205, 387, 1261, 40"
+        }
+    },
+    "short_id": "A496",
+    "label": "Craven Bros. (Manchester) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-4-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-4-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-36-4-C333",
+                    "short_id": "C333"
+                }
+            ],
+            "description": "The british company A496 trades with the swiss company B646 in the goods C178 and C333"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Craven Bros. (Manchester) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "6691254",
+            "lat": "53.4418",
+            "lng": "-2.16096",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Reddish",
+            "transcription": " Reddish, Stockport. "
+        },
+        {
+            "id": "2636882",
+            "lat": "53.40979",
+            "lng": "-2.15761",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stockport",
+            "transcription": " Reddish, Stockport. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

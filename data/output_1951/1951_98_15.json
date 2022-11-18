@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-98-1951-15-A2023",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2023. Vickerman (B.) & Sons Ltd., Holmbridge, Huddersfield. B 816, C 1120.",
+        "corrected": "2023. Vickerman (B.) & Sons Ltd., Holmbridge, Huddersfield. B 816, C 1120"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 98,
+            "canvas": "http://localhost:8182/iiif/3/0098.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0098.jpg/180,822,1270,39/max/0/default.jpg",
+            "xywh": "180, 822, 1270, 39"
+        }
+    },
+    "short_id": "A2023",
+    "label": "Vickerman (B.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-98-15-B816",
+                    "short_id": "B816"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-98-15-C1120",
+                    "short_id": "C1120"
+                }
+            ],
+            "description": "The british company A2023 trades with the swiss company B816 in the goods C1120"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vickerman (B.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646733",
+            "lat": "53.55918",
+            "lng": "-1.81721",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Holmbridge",
+            "transcription": " Holmbridge, Huddersfield. "
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Holmbridge, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

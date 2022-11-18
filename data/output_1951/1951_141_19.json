@@ -1,0 +1,148 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-141-1951-19-B745",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "745. Trachsler (A.), 10, Rümelinbachweg, Basle. A 66, 383, 1240, 1561, 1584, 1709, C 246, 247, 249, 252, 253, 254, 255, 257, 331, 740, 741, 742, 1060.",
+        "corrected": "745. Trachsler (A.), 10, Rümelinbachweg, Basle.A 66, 383, 1240, 1561, 1584, 1709, C 246, 247, 249, 252, 253, 254, 255, 257, 331, 740, 741, 742, 1060"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 141,
+            "canvas": "http://localhost:8182/iiif/3/0141.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0141.jpg/290,1637,1309,116/max/0/default.jpg",
+            "xywh": "290, 1637, 1309, 116"
+        }
+    },
+    "short_id": "B745",
+    "label": "Trachsler (A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-141-19-A66",
+                    "short_id": "A66"
+                },
+                {
+                    "id": "BSCC-1951-141-19-A383",
+                    "short_id": "A383"
+                },
+                {
+                    "id": "BSCC-1951-141-19-A1240",
+                    "short_id": "A1240"
+                },
+                {
+                    "id": "BSCC-1951-141-19-A1561",
+                    "short_id": "A1561"
+                },
+                {
+                    "id": "BSCC-1951-141-19-A1584",
+                    "short_id": "A1584"
+                },
+                {
+                    "id": "BSCC-1951-141-19-A1709",
+                    "short_id": "A1709"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-141-19-C246",
+                    "short_id": "C246"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C247",
+                    "short_id": "C247"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C249",
+                    "short_id": "C249"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C252",
+                    "short_id": "C252"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C253",
+                    "short_id": "C253"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C254",
+                    "short_id": "C254"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C255",
+                    "short_id": "C255"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C257",
+                    "short_id": "C257"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C331",
+                    "short_id": "C331"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C740",
+                    "short_id": "C740"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C741",
+                    "short_id": "C741"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C742",
+                    "short_id": "C742"
+                },
+                {
+                    "id": "BSCC-1951-141-19-C1060",
+                    "short_id": "C1060"
+                }
+            ],
+            "description": "The swiss company B745 trades with the british company A66 and A383 and A1240 and A1561 and A1584 and A1709 in the goods C246 and C247 and C249 and C252 and C253 and C254 and C255 and C257 and C331 and C740 and C741 and C742 and C1060"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Trachsler (A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "10, Rümelinbachweg, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

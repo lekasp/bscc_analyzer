@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-66-1951-14-A1180",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1180. Litherland Tanning Co. Ltd., Litherland, Liverpool. B 488, C 842, 857.",
+        "corrected": "1180. Litherland Tanning Co. Ltd., Litherland, Liverpool. B 488, C 842, 857"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 66,
+            "canvas": "http://localhost:8182/iiif/3/0066.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0066.jpg/170,831,1288,41/max/0/default.jpg",
+            "xywh": "170, 831, 1288, 41"
+        }
+    },
+    "short_id": "A1180",
+    "label": "Litherland Tanning Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-66-14-B488",
+                    "short_id": "B488"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-66-14-C842",
+                    "short_id": "C842"
+                },
+                {
+                    "id": "BSCC-1951-66-14-C857",
+                    "short_id": "C857"
+                }
+            ],
+            "description": "The british company A1180 trades with the swiss company B488 in the goods C842 and C857"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Litherland Tanning Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644386",
+            "lat": "53.46993",
+            "lng": "-2.99809",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Litherland",
+            "transcription": " Litherland, Liverpool. "
+        },
+        {
+            "id": "2644210",
+            "lat": "53.41058",
+            "lng": "-2.97794",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Liverpool",
+            "transcription": " Litherland, Liverpool. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

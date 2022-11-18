@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-137-1951-14-B618",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿618. Rosenfeld (Alfred), 29, Stapferstrasse, Zurich. A 783, 964, 1215, 1335, 1563, 1738, 1848, 1867, 1931, C 1118, 1119, 1129, 1158, 1184, 1208, 1210.",
+        "corrected": "618. Rosenfeld (Alfred), 29, Stapferstrasse, Zurich.A 783, 964, 1215, 1335, 1563, 1738, 1848, 1867, 1931, C 1118, 1119, 1129, 1158, 1184, 1208, 1210"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 137,
+            "canvas": "http://localhost:8182/iiif/3/0137.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0137.jpg/303,1068,1255,117/max/0/default.jpg",
+            "xywh": "303, 1068, 1255, 117"
+        }
+    },
+    "short_id": "B618",
+    "label": "Rosenfeld (Alfred)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-137-14-A783",
+                    "short_id": "A783"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A964",
+                    "short_id": "A964"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1215",
+                    "short_id": "A1215"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1335",
+                    "short_id": "A1335"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1563",
+                    "short_id": "A1563"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1738",
+                    "short_id": "A1738"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1848",
+                    "short_id": "A1848"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1867",
+                    "short_id": "A1867"
+                },
+                {
+                    "id": "BSCC-1951-137-14-A1931",
+                    "short_id": "A1931"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-137-14-C1118",
+                    "short_id": "C1118"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1119",
+                    "short_id": "C1119"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1129",
+                    "short_id": "C1129"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1158",
+                    "short_id": "C1158"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1184",
+                    "short_id": "C1184"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1208",
+                    "short_id": "C1208"
+                },
+                {
+                    "id": "BSCC-1951-137-14-C1210",
+                    "short_id": "C1210"
+                }
+            ],
+            "description": "The swiss company B618 trades with the british company A783 and A964 and A1215 and A1335 and A1563 and A1738 and A1848 and A1867 and A1931 in the goods C1118 and C1119 and C1129 and C1158 and C1184 and C1208 and C1210"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rosenfeld (Alfred)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "29, Stapferstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

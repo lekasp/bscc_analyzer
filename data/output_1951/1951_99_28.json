@@ -1,0 +1,97 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-99-1951-28-A2079",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2079. Watkinson (James) & Sons Ltd., Holmfirth, nr Huddersfield. B 464, C 1118, 1119.",
+        "corrected": "2079. Watkinson (James) & Sons Ltd., Holmfirth, nr Huddersfield.B 464, C 1118, 1119"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 99,
+            "canvas": "http://localhost:8182/iiif/3/0099.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0099.jpg/348,1429,1278,76/max/0/default.jpg",
+            "xywh": "348, 1429, 1278, 76"
+        }
+    },
+    "short_id": "A2079",
+    "label": "Watkinson (James) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-99-28-B464",
+                    "short_id": "B464"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-99-28-C1118",
+                    "short_id": "C1118"
+                },
+                {
+                    "id": "BSCC-1951-99-28-C1119",
+                    "short_id": "C1119"
+                }
+            ],
+            "description": "The british company A2079 trades with the swiss company B464 in the goods C1118 and C1119"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Watkinson (James) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646716",
+            "lat": "53.56968",
+            "lng": "-1.78777",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Holmfirth",
+            "transcription": " Holmfirth, nr Huddersfield."
+        },
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Holmfirth, nr Huddersfield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

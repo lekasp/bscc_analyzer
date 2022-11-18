@@ -1,0 +1,70 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-129-1951-25-B402",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 402. Klein (Léon), 158, Dufourstrasse, Biel (Bienne). A 743, C 118.",
+        "corrected": "402. Klein (Léon), 158, Dufourstrasse, Biel (Bienne). A 743, C 118"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 129,
+            "canvas": "http://localhost:8182/iiif/3/0129.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0129.jpg/294,2066,1292,40/max/0/default.jpg",
+            "xywh": "294, 2066, 1292, 40"
+        }
+    },
+    "short_id": "B402",
+    "label": "Klein (Léon)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-129-25-A743",
+                    "short_id": "A743"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-129-25-C118",
+                    "short_id": "C118"
+                }
+            ],
+            "description": "The swiss company B402 trades with the british company A743 in the goods C118"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Klein (Léon)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "158, Dufourstrasse, Biel (Bienne). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

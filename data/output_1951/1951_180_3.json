@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-180-1951-3-C1050",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1050. Addressing machines and accessories. A 21, 1658, B 108, 415. Adhesives — see Section 12. B.",
+        "corrected": "1050. Addressing machines and accessories. A 21, 1658, B 108, 415.Adhesives — see Section 12. B"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 180,
+            "canvas": "http://localhost:8182/iiif/3/0180.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0180.jpg/175,421,1390,78/max/0/default.jpg",
+            "xywh": "175, 421, 1390, 78"
+        }
+    },
+    "short_id": "C1050",
+    "label": "Addressing machines and accessories. Adhesives — see Section 12. B",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-180-3-A21",
+                    "short_id": "A21"
+                },
+                {
+                    "id": "BSCC-1951-180-3-A1658",
+                    "short_id": "A1658"
+                },
+                {
+                    "id": "BSCC-1951-180-3-B108",
+                    "short_id": "B108"
+                },
+                {
+                    "id": "BSCC-1951-180-3-B415",
+                    "short_id": "B415"
+                }
+            ],
+            "description": "with the british company A21 and A1658 and B415"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "14",
+            "level": 0,
+            "label": "Office Equipment and Appliances",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "0"
+        }
+    ]
+}

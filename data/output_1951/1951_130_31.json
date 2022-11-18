@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-130-1951-31-B437",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 437. Leduc (Pierre) S.A., Renens, Lausanne. A 706, C 94.",
+        "corrected": "437. Leduc (Pierre) S.A., Renens, Lausanne. A 706, C 94"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 130,
+            "canvas": "http://localhost:8182/iiif/3/0130.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0130.jpg/162,2172,1294,83/max/0/default.jpg",
+            "xywh": "162, 2172, 1294, 83"
+        }
+    },
+    "short_id": "B437",
+    "label": "Leduc (Pierre) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-130-31-A706",
+                    "short_id": "A706"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-130-31-C94",
+                    "short_id": "C94"
+                }
+            ],
+            "description": "The swiss company B437 trades with the british company A706 in the goods C94"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Leduc (Pierre) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659070",
+            "lat": "46.53989",
+            "lng": "6.5881",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Renens",
+            "transcription": " Renens, Lausanne. "
+        },
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " Renens, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

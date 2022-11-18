@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-25-B837",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 837. Ziegler (Desinfektionsmittelfabrik A.), 46/48, Höfliweg, Zurich. A 471, C 910, 911, 921, 938, 943.",
+        "corrected": "837. Ziegler (Desinfektionsmittelfabrik A.), 46/48, Höfliweg, Zurich.A 471, C 910, 911, 921, 938, 943"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,1967,1324,92/max/0/default.jpg",
+            "xywh": "195, 1967, 1324, 92"
+        }
+    },
+    "short_id": "B837",
+    "label": "Ziegler (Desinfektionsmittelfabrik A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-25-A471",
+                    "short_id": "A471"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-25-C910",
+                    "short_id": "C910"
+                },
+                {
+                    "id": "BSCC-1951-144-25-C911",
+                    "short_id": "C911"
+                },
+                {
+                    "id": "BSCC-1951-144-25-C921",
+                    "short_id": "C921"
+                },
+                {
+                    "id": "BSCC-1951-144-25-C938",
+                    "short_id": "C938"
+                },
+                {
+                    "id": "BSCC-1951-144-25-C943",
+                    "short_id": "C943"
+                }
+            ],
+            "description": "The swiss company B837 trades with the british company A471 in the goods C910 and C911 and C921 and C938 and C943"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ziegler (Desinfektionsmittelfabrik A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "46/48, Höfliweg, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

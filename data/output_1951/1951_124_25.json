@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-25-B252",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "252. Frey (Dr. F. W.), 66, Steinhaldenstrasse, Zurich. A 626, 1314, 1557, C 446, 481, 488, 660, 666, 701, 702, 1304.",
+        "corrected": "252. Frey (Dr. F. W.), 66, Steinhaldenstrasse, Zurich.A 626, 1314, 1557, C 446, 481, 488, 660, 666, 701, 702, 1304"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1832,1320,82/max/0/default.jpg",
+            "xywh": "166, 1832, 1320, 82"
+        }
+    },
+    "short_id": "B252",
+    "label": "Frey (Dr. F. W.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-25-A626",
+                    "short_id": "A626"
+                },
+                {
+                    "id": "BSCC-1951-124-25-A1314",
+                    "short_id": "A1314"
+                },
+                {
+                    "id": "BSCC-1951-124-25-A1557",
+                    "short_id": "A1557"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-25-C446",
+                    "short_id": "C446"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C481",
+                    "short_id": "C481"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C488",
+                    "short_id": "C488"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C660",
+                    "short_id": "C660"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C666",
+                    "short_id": "C666"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C701",
+                    "short_id": "C701"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C702",
+                    "short_id": "C702"
+                },
+                {
+                    "id": "BSCC-1951-124-25-C1304",
+                    "short_id": "C1304"
+                }
+            ],
+            "description": "The swiss company B252 trades with the british company A626 and A1314 and A1557 in the goods C446 and C481 and C488 and C660 and C666 and C701 and C702 and C1304"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frey (Dr. F. W.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "66, Steinhaldenstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

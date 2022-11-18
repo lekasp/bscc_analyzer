@@ -1,0 +1,282 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-7-B473",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 473. Matera AG., 37, Leonhardstrasse, Basle. A 53, 73, 88, 177, 194, 205, 600, 666, 820, 1037, 1141, 1146, 1200, 1235, 1257. 1307, 1312, 1338, 1374, 1403, 1412, 1545, 1734, 1820, 1860, 1976, 2022, 2041. C 62, 64, 88, 107, 114, 115, 116, 117, 124, 133, 134, 136, 138, 139, 153, 162, 171, 176, 508, 525, 527, 534, 553, 641, 656, 760, 989, 1363.",
+        "corrected": "473. Matera AG., 37, Leonhardstrasse, Basle.A 53, 73, 88, 177, 194, 205, 600, 666, 820, 1037, 1141, 1146, 1200, 1235, 1257. 1307, 1312, 1338, 1374, 1403, 1412, 1545, 1734, 1820, 1860, 1976, 2022, 2041. C 62, 64, 88, 107, 114, 115, 116, 117, 124, 133, 134, 136, 138, 139, 153, 162, 171, 176, 508, 525, 527, 534, 553, 641, 656, 760, 989, 1363"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,585,1311,194/max/0/default.jpg",
+            "xywh": "167, 585, 1311, 194"
+        }
+    },
+    "short_id": "B473",
+    "label": "Matera AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-7-A53",
+                    "short_id": "A53"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A73",
+                    "short_id": "A73"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A88",
+                    "short_id": "A88"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A177",
+                    "short_id": "A177"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A194",
+                    "short_id": "A194"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A205",
+                    "short_id": "A205"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A600",
+                    "short_id": "A600"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A666",
+                    "short_id": "A666"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A820",
+                    "short_id": "A820"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1037",
+                    "short_id": "A1037"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1141",
+                    "short_id": "A1141"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1146",
+                    "short_id": "A1146"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1200",
+                    "short_id": "A1200"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1235",
+                    "short_id": "A1235"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A12571307",
+                    "short_id": "A12571307"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1312",
+                    "short_id": "A1312"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1338",
+                    "short_id": "A1338"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1374",
+                    "short_id": "A1374"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1403",
+                    "short_id": "A1403"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1412",
+                    "short_id": "A1412"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1545",
+                    "short_id": "A1545"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1734",
+                    "short_id": "A1734"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1820",
+                    "short_id": "A1820"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1860",
+                    "short_id": "A1860"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1976",
+                    "short_id": "A1976"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A2022",
+                    "short_id": "A2022"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A64",
+                    "short_id": "A64"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A88",
+                    "short_id": "A88"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A107",
+                    "short_id": "A107"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A114",
+                    "short_id": "A114"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A115",
+                    "short_id": "A115"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A116",
+                    "short_id": "A116"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A117",
+                    "short_id": "A117"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A124",
+                    "short_id": "A124"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A133",
+                    "short_id": "A133"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A134",
+                    "short_id": "A134"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A136",
+                    "short_id": "A136"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A138",
+                    "short_id": "A138"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A139",
+                    "short_id": "A139"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A153",
+                    "short_id": "A153"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A162",
+                    "short_id": "A162"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A171",
+                    "short_id": "A171"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A176",
+                    "short_id": "A176"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A508",
+                    "short_id": "A508"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A525",
+                    "short_id": "A525"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A527",
+                    "short_id": "A527"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A534",
+                    "short_id": "A534"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A553",
+                    "short_id": "A553"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A641",
+                    "short_id": "A641"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A656",
+                    "short_id": "A656"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A760",
+                    "short_id": "A760"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A989",
+                    "short_id": "A989"
+                },
+                {
+                    "id": "BSCC-1951-132-7-A1363",
+                    "short_id": "A1363"
+                }
+            ],
+            "description": "The swiss company B473 trades with the british company A53 and A73 and A88 and A177 and A194 and A205 and A600 and A666 and A820 and A1037 and A1141 and A1146 and A1200 and A1235 and A12571307 and A1312 and A1338 and A1374 and A1403 and A1412 and A1545 and A1734 and A1820 and A1860 and A1976 and A2022 and A64 and A88 and A107 and A114 and A115 and A116 and A117 and A124 and A133 and A134 and A136 and A138 and A139 and A153 and A162 and A171 and A176 and A508 and A525 and A527 and A534 and A553 and A641 and A656 and A760 and A989 and A1363"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Matera AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 37, Leonhardstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-21-B127",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "127. Buchmann & Cie., 2, Pilatusstrasse, Zug. A 852, C 836, 869.",
+        "corrected": "127. Buchmann & Cie., 2, Pilatusstrasse, Zug. A 852, C 836, 869"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,1737,1348,38/max/0/default.jpg",
+            "xywh": "159, 1737, 1348, 38"
+        }
+    },
+    "short_id": "B127",
+    "label": "Buchmann & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-21-A852",
+                    "short_id": "A852"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-21-C836",
+                    "short_id": "C836"
+                },
+                {
+                    "id": "BSCC-1951-120-21-C869",
+                    "short_id": "C869"
+                }
+            ],
+            "description": "The swiss company B127 trades with the british company A852 in the goods C836 and C869"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Buchmann & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657908",
+            "lat": "47.17242",
+            "lng": "8.51745",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zug",
+            "transcription": " 2, Pilatusstrasse, Zug. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

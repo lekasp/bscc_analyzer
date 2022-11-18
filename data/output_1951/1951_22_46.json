@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-46-A226",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿226. Blyth, Greene, Jourdain & Co. Ltd., London EC 3. B 365, C 71.",
+        "corrected": "226. Blyth, Greene, Jourdain & Co. Ltd., London EC 3. B 365, C 71"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,2059,1260,39/max/0/default.jpg",
+            "xywh": "205, 2059, 1260, 39"
+        }
+    },
+    "short_id": "A226",
+    "label": "Blyth, Greene, Jourdain & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-46-B365",
+                    "short_id": "B365"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-46-C71",
+                    "short_id": "C71"
+                }
+            ],
+            "description": "The british company A226 trades with the swiss company B365 in the goods C71"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blyth, Greene, Jourdain & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 3. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

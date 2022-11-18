@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-177-1951-32-C961",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "961. Decorative finishes. A 189, B 838.",
+        "corrected": "961. Decorative finishes. A 189, B 838"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 177,
+            "canvas": "http://localhost:8182/iiif/3/0177.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0177.jpg/294,1864,1298,42/max/0/default.jpg",
+            "xywh": "294, 1864, 1298, 42"
+        }
+    },
+    "short_id": "C961",
+    "label": "Decorative finishes",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-177-32-A189",
+                    "short_id": "A189"
+                },
+                {
+                    "id": "BSCC-1951-177-32-B838",
+                    "short_id": "B838"
+                }
+            ],
+            "description": "with the british company A189"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "12",
+            "level": 0,
+            "label": "Paints, Varnishes, Cleaning and other Compounds",
+            "part_of": "0",
+            "page": "177",
+            "line_number": "24"
+        },
+        {
+            "id": "12A",
+            "level": 1,
+            "label": "Paints, Colours, etc., and Supplies for the Paint Industry",
+            "part_of": "12",
+            "page": "177",
+            "line_number": "25"
+        }
+    ]
+}

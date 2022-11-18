@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-7-B264",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "264. Garage du Closelet S.A., 11, avenue d’Ouchy, Lausanne. A 161, 1609, C 568, 569.",
+        "corrected": "264. Garage du Closelet S.A., 11, avenue d’Ouchy, Lausanne.A 161, 1609, C 568, 569"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,609,1317,78/max/0/default.jpg",
+            "xywh": "288, 609, 1317, 78"
+        }
+    },
+    "short_id": "B264",
+    "label": "Garage du Closelet S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-7-A161",
+                    "short_id": "A161"
+                },
+                {
+                    "id": "BSCC-1951-125-7-A1609",
+                    "short_id": "A1609"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-7-C568",
+                    "short_id": "C568"
+                },
+                {
+                    "id": "BSCC-1951-125-7-C569",
+                    "short_id": "C569"
+                }
+            ],
+            "description": "The swiss company B264 trades with the british company A161 and A1609 in the goods C568 and C569"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Garage du Closelet S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 11, avenue d’Ouchy, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

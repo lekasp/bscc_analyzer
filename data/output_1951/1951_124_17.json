@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-17-B244",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "244. Forster & Co., Zufahrtstrasse 14, Dreispitz, Basle. A 563, C 754.",
+        "corrected": "244. Forster & Co., Zufahrtstrasse 14, Dreispitz, Basle. A 563, C 754"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1439,1320,38/max/0/default.jpg",
+            "xywh": "166, 1439, 1320, 38"
+        }
+    },
+    "short_id": "B244",
+    "label": "Forster & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-17-A563",
+                    "short_id": "A563"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-17-C754",
+                    "short_id": "C754"
+                }
+            ],
+            "description": "The swiss company B244 trades with the british company A563 in the goods C754"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Forster & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": ", Zufahrtstrasse 14, Dreispitz, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

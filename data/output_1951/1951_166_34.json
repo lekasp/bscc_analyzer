@@ -1,0 +1,118 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-166-1951-34-C575",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "575. Brake linings. A 252, 273, 685, 748, 1600, 1952, B 114, 173, 433, 448, 558, 786.",
+        "corrected": "575. Brake linings.A 252, 273, 685, 748, 1600, 1952, B 114, 173, 433, 448, 558, 786"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 166,
+            "canvas": "http://localhost:8182/iiif/3/0166.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0166.jpg/163,1993,1316,78/max/0/default.jpg",
+            "xywh": "163, 1993, 1316, 78"
+        }
+    },
+    "short_id": "C575",
+    "label": "Brake linings",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-166-34-A252",
+                    "short_id": "A252"
+                },
+                {
+                    "id": "BSCC-1951-166-34-A273",
+                    "short_id": "A273"
+                },
+                {
+                    "id": "BSCC-1951-166-34-A685",
+                    "short_id": "A685"
+                },
+                {
+                    "id": "BSCC-1951-166-34-A748",
+                    "short_id": "A748"
+                },
+                {
+                    "id": "BSCC-1951-166-34-A1600",
+                    "short_id": "A1600"
+                },
+                {
+                    "id": "BSCC-1951-166-34-A1952",
+                    "short_id": "A1952"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B114",
+                    "short_id": "B114"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B173",
+                    "short_id": "B173"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B433",
+                    "short_id": "B433"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B448",
+                    "short_id": "B448"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B558",
+                    "short_id": "B558"
+                },
+                {
+                    "id": "BSCC-1951-166-34-B786",
+                    "short_id": "B786"
+                }
+            ],
+            "description": "with the british company A252 and A273 and A685 and A748 and A1600 and A1952 and B173 and B433 and B448 and B558 and B786"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6C",
+            "level": 1,
+            "label": "Motor Vehicle Accessories and Components",
+            "part_of": "6",
+            "page": "166",
+            "line_number": "26"
+        }
+    ]
+}

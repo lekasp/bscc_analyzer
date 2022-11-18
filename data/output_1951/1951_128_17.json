@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-17-B364",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "364. Impex AG. für Import und Export, 27, Mittlere Strasse, Basle. A 1003, 1274, C 59, 878, 905.",
+        "corrected": "364. Impex AG. für Import und Export, 27, Mittlere Strasse, Basle.A 1003, 1274, C 59, 878, 905"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1434,1277,81/max/0/default.jpg",
+            "xywh": "185, 1434, 1277, 81"
+        }
+    },
+    "short_id": "B364",
+    "label": "Impex AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-17-A1003",
+                    "short_id": "A1003"
+                },
+                {
+                    "id": "BSCC-1951-128-17-A1274",
+                    "short_id": "A1274"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-17-C59",
+                    "short_id": "C59"
+                },
+                {
+                    "id": "BSCC-1951-128-17-C878",
+                    "short_id": "C878"
+                },
+                {
+                    "id": "BSCC-1951-128-17-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The swiss company B364 trades with the british company A1003 and A1274 in the goods C59 and C878 and C905"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Impex AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " für Import und Export, 27, Mittlere Strasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

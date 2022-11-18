@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-5-A540",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "540. Dapag (1943) Ltd., London EC 1. B 555, C 329.",
+        "corrected": "540. Dapag (1943) Ltd., London EC 1. B 555, C 329"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,442,1111,40/max/0/default.jpg",
+            "xywh": "192, 442, 1111, 40"
+        }
+    },
+    "short_id": "A540",
+    "label": "Dapag (1943) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-5-B555",
+                    "short_id": "B555"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-5-C329",
+                    "short_id": "C329"
+                }
+            ],
+            "description": "The british company A540 trades with the swiss company B555 in the goods C329"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dapag (1943) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

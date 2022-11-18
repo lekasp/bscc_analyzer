@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-174-1951-40-C865",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "865. Side leather, general. A 1267, 1420, 2090, B 436.",
+        "corrected": "865. Side leather, general. A 1267, 1420, 2090, B 436"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 174,
+            "canvas": "http://localhost:8182/iiif/3/0174.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0174.jpg/224,2117,1334,40/max/0/default.jpg",
+            "xywh": "224, 2117, 1334, 40"
+        }
+    },
+    "short_id": "C865",
+    "label": "Side leather, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-174-40-A1267",
+                    "short_id": "A1267"
+                },
+                {
+                    "id": "BSCC-1951-174-40-A1420",
+                    "short_id": "A1420"
+                },
+                {
+                    "id": "BSCC-1951-174-40-A2090",
+                    "short_id": "A2090"
+                },
+                {
+                    "id": "BSCC-1951-174-40-B436",
+                    "short_id": "B436"
+                }
+            ],
+            "description": "with the british company A1267 and A1420 and A2090"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10A",
+            "level": 1,
+            "label": "Hides, Skins and Leather",
+            "part_of": "10",
+            "page": "174",
+            "line_number": "3"
+        },
+        {
+            "id": "10Ab",
+            "level": 2,
+            "label": "LEATHERS",
+            "part_of": "10A",
+            "page": "174",
+            "line_number": "14"
+        },
+        {
+            "id": "10Ab2",
+            "level": 3,
+            "label": "2. USES",
+            "part_of": "10Ab",
+            "page": "174",
+            "line_number": "32"
+        }
+    ]
+}

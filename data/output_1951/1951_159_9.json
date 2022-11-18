@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-9-C276",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "276. Bag-making machinery. A 162, 995, 1665, B 339, 443, 615.",
+        "corrected": "276. Bag-making machinery. A 162, 995, 1665, B 339, 443, 615"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,641,1277,49/max/0/default.jpg",
+            "xywh": "306, 641, 1277, 49"
+        }
+    },
+    "short_id": "C276",
+    "label": "Bag-making machinery",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-9-A162",
+                    "short_id": "A162"
+                },
+                {
+                    "id": "BSCC-1951-159-9-A995",
+                    "short_id": "A995"
+                },
+                {
+                    "id": "BSCC-1951-159-9-A1665",
+                    "short_id": "A1665"
+                },
+                {
+                    "id": "BSCC-1951-159-9-B339",
+                    "short_id": "B339"
+                },
+                {
+                    "id": "BSCC-1951-159-9-B443",
+                    "short_id": "B443"
+                },
+                {
+                    "id": "BSCC-1951-159-9-B615",
+                    "short_id": "B615"
+                }
+            ],
+            "description": "with the british company A162 and A995 and A1665 and B443 and B615"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Bc",
+            "level": 2,
+            "label": "PAPER MANUFACTURE",
+            "part_of": "4B",
+            "page": "159",
+            "line_number": "8"
+        }
+    ]
+}

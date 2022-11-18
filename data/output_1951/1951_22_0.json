@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-22-1951-0-A180a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "180a. Bennett Steamship Co. Ltd., Goole. B 527, C 1457.",
+        "corrected": "180a. Bennett Steamship Co. Ltd., Goole. B 527, C 1457"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 22,
+            "canvas": "http://localhost:8182/iiif/3/0022.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0022.jpg/205,227,1260,56/max/0/default.jpg",
+            "xywh": "205, 227, 1260, 56"
+        }
+    },
+    "short_id": "A180a",
+    "label": "Bennett Steamship Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-22-0-B527",
+                    "short_id": "B527"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-22-0-C1457",
+                    "short_id": "C1457"
+                }
+            ],
+            "description": "The british company A180a trades with the swiss company B527 in the goods C1457"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bennett Steamship Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648319",
+            "lat": "53.70324",
+            "lng": "-0.87732",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Goole",
+            "transcription": " Goole. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

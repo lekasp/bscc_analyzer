@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-38-A1248",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿1248. Marchon Products Ltd., Whitehaven, Cumberland. B 586, C 983, 984, 1004.",
+        "corrected": "1248. Marchon Products Ltd., Whitehaven, Cumberland. B 586, C 983, 984, 1004"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,1923,1283,38/max/0/default.jpg",
+            "xywh": "167, 1923, 1283, 38"
+        }
+    },
+    "short_id": "A1248",
+    "label": "Marchon Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-38-B586",
+                    "short_id": "B586"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-38-C983",
+                    "short_id": "C983"
+                },
+                {
+                    "id": "BSCC-1951-68-38-C984",
+                    "short_id": "C984"
+                },
+                {
+                    "id": "BSCC-1951-68-38-C1004",
+                    "short_id": "C1004"
+                }
+            ],
+            "description": "The british company A1248 trades with the swiss company B586 in the goods C983 and C984 and C1004"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Marchon Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634096",
+            "lat": "54.54897",
+            "lng": "-3.58412",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Whitehaven",
+            "transcription": " Whitehaven, Cumberland. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

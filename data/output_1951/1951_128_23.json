@@ -1,0 +1,79 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-23-B370",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "370. Innendekorationsstoffe (AG. für), 50, Bleicherweg, Zurich. A 1591, C 1145,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1791,1277,36/max/0/default.jpg",
+            "xywh": "185, 1791, 1277, 36"
+        }
+    },
+    "short_id": "B370",
+    "label": "Innendekorationsstoffe (AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-23-A1591",
+                    "short_id": "A1591"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-23-C1145",
+                    "short_id": "C1145"
+                }
+            ],
+            "description": "The swiss company B370 trades with the british company A1591 in the goods C1145"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Innendekorationsstoffe (AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " für), 50, Bleicherweg, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

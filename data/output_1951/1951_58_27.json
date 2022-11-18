@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-27-A1015",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1015. Jackson (W. & E.) Ltd., Morley, nr Leeds. B 635, C 1117.",
+        "corrected": "1015. Jackson (W. & E.) Ltd., Morley, nr Leeds. B 635, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,1553,1267,44/max/0/default.jpg",
+            "xywh": "165, 1553, 1267, 44"
+        }
+    },
+    "short_id": "A1015",
+    "label": "Jackson (W. & E.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-27-B635",
+                    "short_id": "B635"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-27-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The british company A1015 trades with the swiss company B635 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jackson (W. & E.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642189",
+            "lat": "53.74013",
+            "lng": "-1.59877",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Morley",
+            "transcription": " Morley, nr Leeds. "
+        },
+        {
+            "id": "2644688",
+            "lat": "53.79648",
+            "lng": "-1.54785",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leeds",
+            "transcription": " Morley, nr Leeds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-8-B676",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "676. Serva-Technik AG., Glattbrugg (Zurich). x A 23, 254, 865, 867, 879, 1763, 1935, 1968, 2029, 2157, C 387, 419, 461, 477. 594, 616, 618, 624, 674, 796a.",
+        "corrected": "676. Serva-Technik AG., Glattbrugg (Zurich).x A 23, 254, 865, 867, 879, 1763, 1935, 1968, 2029, 2157, C 387, 419, 461, 477. 594, 616, 618, 624, 674, 796a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,671,1319,118/max/0/default.jpg",
+            "xywh": "272, 671, 1319, 118"
+        }
+    },
+    "short_id": "B676",
+    "label": "Serva-Technik AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-8-A23",
+                    "short_id": "A23"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A254",
+                    "short_id": "A254"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A865",
+                    "short_id": "A865"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A867",
+                    "short_id": "A867"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A879",
+                    "short_id": "A879"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A1763",
+                    "short_id": "A1763"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A1935",
+                    "short_id": "A1935"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A1968",
+                    "short_id": "A1968"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A2029",
+                    "short_id": "A2029"
+                },
+                {
+                    "id": "BSCC-1951-139-8-A2157",
+                    "short_id": "A2157"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-8-C387",
+                    "short_id": "C387"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C419",
+                    "short_id": "C419"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C461",
+                    "short_id": "C461"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C477594",
+                    "short_id": "C477594"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C616",
+                    "short_id": "C616"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C618",
+                    "short_id": "C618"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C624",
+                    "short_id": "C624"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C674",
+                    "short_id": "C674"
+                },
+                {
+                    "id": "BSCC-1951-139-8-C796a",
+                    "short_id": "C796a"
+                }
+            ],
+            "description": "The swiss company B676 trades with the british company A23 and A254 and A865 and A867 and A879 and A1763 and A1935 and A1968 and A2029 and A2157 in the goods C387 and C419 and C461 and C477594 and C616 and C618 and C624 and C674 and C796a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Serva-Technik AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660590",
+            "lat": "47.4313",
+            "lng": "8.56272",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Glattbrugg",
+            "transcription": " Glattbrugg (Zurich).x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

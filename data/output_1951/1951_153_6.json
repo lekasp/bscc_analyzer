@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-153-1951-6-C41",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "41. Sauces, pickles, etc. A 255, 900, B 309, 717.",
+        "corrected": "41. Sauces, pickles, etc. A 255, 900, B 309, 717"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 153,
+            "canvas": "http://localhost:8182/iiif/3/0153.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0153.jpg/304,481,1306,41/max/0/default.jpg",
+            "xywh": "304, 481, 1306, 41"
+        }
+    },
+    "short_id": "C41",
+    "label": "Sauces, pickles, etc",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-153-6-A255",
+                    "short_id": "A255"
+                },
+                {
+                    "id": "BSCC-1951-153-6-A900",
+                    "short_id": "A900"
+                },
+                {
+                    "id": "BSCC-1951-153-6-B309",
+                    "short_id": "B309"
+                },
+                {
+                    "id": "BSCC-1951-153-6-B717",
+                    "short_id": "B717"
+                }
+            ],
+            "description": "with the british company A255 and A900 and B717"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1C",
+            "level": 1,
+            "label": "Manufactured Food Products",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "29"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-0-B38",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "38. \"Au Berceau d’Or\", 4/6, Rôtisserie, Geneva. A 429, 1764, C 1218, 1343.",
+        "corrected": "38. \"Au Berceau d’Or\", 4/6, Rôtisserie, Geneva. A 429, 1764, C 1218, 1343"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,196,1300,93/max/0/default.jpg",
+            "xywh": "187, 196, 1300, 93"
+        }
+    },
+    "short_id": "B38",
+    "label": "\"Au Berceau d’Or\"",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-0-A429",
+                    "short_id": "A429"
+                },
+                {
+                    "id": "BSCC-1951-118-0-A1764",
+                    "short_id": "A1764"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-0-C1218",
+                    "short_id": "C1218"
+                },
+                {
+                    "id": "BSCC-1951-118-0-C1343",
+                    "short_id": "C1343"
+                }
+            ],
+            "description": "The swiss company B38 trades with the british company A429 and A1764 in the goods C1218 and C1343"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "\"Au Berceau d’Or\""
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "4/6, Rôtisserie, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-23-A251",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "251. Braithwaite & Co. Structural Ltd., Great Bookham, Surrey. B 216, C 132.",
+        "corrected": "251. Braithwaite & Co. Structural Ltd., Great Bookham, Surrey. B 216, C 132"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1191,1252,38/max/0/default.jpg",
+            "xywh": "194, 1191, 1252, 38"
+        }
+    },
+    "short_id": "A251",
+    "label": "Braithwaite & Co. Structural Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-23-B216",
+                    "short_id": "B216"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-23-C132",
+                    "short_id": "C132"
+                }
+            ],
+            "description": "The british company A251 trades with the swiss company B216 in the goods C132"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Braithwaite & Co. Structural Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648154",
+            "lat": "51.27916",
+            "lng": "-0.37423",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Great Bookham",
+            "transcription": " Great Bookham, Surrey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

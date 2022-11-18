@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-7-B113",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "113. Brawand-Weingartner (H.), 1, Im Lettenacker, Binningen (Basle). A 1303, 1870, C 251, 464, 465, 729.",
+        "corrected": "113. Brawand-Weingartner (H.), 1, Im Lettenacker, Binningen (Basle).A 1303, 1870, C 251, 464, 465, 729"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,751,1348,74/max/0/default.jpg",
+            "xywh": "159, 751, 1348, 74"
+        }
+    },
+    "short_id": "B113",
+    "label": "Brawand-Weingartner (H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-7-A1303",
+                    "short_id": "A1303"
+                },
+                {
+                    "id": "BSCC-1951-120-7-A1870",
+                    "short_id": "A1870"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-7-C251",
+                    "short_id": "C251"
+                },
+                {
+                    "id": "BSCC-1951-120-7-C464",
+                    "short_id": "C464"
+                },
+                {
+                    "id": "BSCC-1951-120-7-C465",
+                    "short_id": "C465"
+                },
+                {
+                    "id": "BSCC-1951-120-7-C729",
+                    "short_id": "C729"
+                }
+            ],
+            "description": "The swiss company B113 trades with the british company A1303 and A1870 in the goods C251 and C464 and C465 and C729"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brawand-Weingartner (H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661499",
+            "lat": "47.54021",
+            "lng": "7.56932",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Binningen",
+            "transcription": "1, Im Lettenacker, Binningen (Basle)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

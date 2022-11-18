@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-0-B812",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "812. Werder (Gustav), 28, Kasernenstrasse, Aarau. A 653, 654, 788, 1152, 1269, 1331, 1523, 1808, C 784, 1299, 1302, 1348, 1355, 1405, 1414, 1417.",
+        "corrected": "812. Werder (Gustav), 28, Kasernenstrasse, Aarau.A 653, 654, 788, 1152, 1269, 1331, 1523, 1808, C 784, 1299, 1302, 1348, 1355, 1405, 1414, 1417"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,216,1324,148/max/0/default.jpg",
+            "xywh": "195, 216, 1324, 148"
+        }
+    },
+    "short_id": "B812",
+    "label": "Werder (Gustav)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-0-A653",
+                    "short_id": "A653"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A654",
+                    "short_id": "A654"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A788",
+                    "short_id": "A788"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A1152",
+                    "short_id": "A1152"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A1269",
+                    "short_id": "A1269"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A1331",
+                    "short_id": "A1331"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A1523",
+                    "short_id": "A1523"
+                },
+                {
+                    "id": "BSCC-1951-144-0-A1808",
+                    "short_id": "A1808"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-0-C784",
+                    "short_id": "C784"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1299",
+                    "short_id": "C1299"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1302",
+                    "short_id": "C1302"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1348",
+                    "short_id": "C1348"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1355",
+                    "short_id": "C1355"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1405",
+                    "short_id": "C1405"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1414",
+                    "short_id": "C1414"
+                },
+                {
+                    "id": "BSCC-1951-144-0-C1417",
+                    "short_id": "C1417"
+                }
+            ],
+            "description": "The swiss company B812 trades with the british company A653 and A654 and A788 and A1152 and A1269 and A1331 and A1523 and A1808 in the goods C784 and C1299 and C1302 and C1348 and C1355 and C1405 and C1414 and C1417"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Werder (Gustav)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661881",
+            "lat": "47.39254",
+            "lng": "8.04422",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Aarau",
+            "transcription": "28, Kasernenstrasse, Aarau."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

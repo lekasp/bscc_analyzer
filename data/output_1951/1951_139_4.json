@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-4-B673",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "673. Sciaroni (Attilio), Biasca (Tessin). A 367, 665, C 774, 809, 816, 817, 822.",
+        "corrected": "673. Sciaroni (Attilio), Biasca (Tessin). A 367, 665, C 774, 809, 816, 817, 822"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,514,1319,38/max/0/default.jpg",
+            "xywh": "272, 514, 1319, 38"
+        }
+    },
+    "short_id": "B673",
+    "label": "Sciaroni (Attilio)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-4-A367",
+                    "short_id": "A367"
+                },
+                {
+                    "id": "BSCC-1951-139-4-A665",
+                    "short_id": "A665"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-4-C774",
+                    "short_id": "C774"
+                },
+                {
+                    "id": "BSCC-1951-139-4-C809",
+                    "short_id": "C809"
+                },
+                {
+                    "id": "BSCC-1951-139-4-C816",
+                    "short_id": "C816"
+                },
+                {
+                    "id": "BSCC-1951-139-4-C817",
+                    "short_id": "C817"
+                },
+                {
+                    "id": "BSCC-1951-139-4-C822",
+                    "short_id": "C822"
+                }
+            ],
+            "description": "The swiss company B673 trades with the british company A367 and A665 in the goods C774 and C809 and C816 and C817 and C822"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sciaroni (Attilio)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661524",
+            "lat": "46.35972",
+            "lng": "8.96965",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Biasca",
+            "transcription": "Biasca (Tessin). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

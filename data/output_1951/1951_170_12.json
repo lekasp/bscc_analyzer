@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-170-1951-12-C700",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "700. Work projectors. A 1758, B 733.",
+        "corrected": "700. Work projectors. A 1758, B 733"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 170,
+            "canvas": "http://localhost:8182/iiif/3/0170.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0170.jpg/205,755,1295,57/max/0/default.jpg",
+            "xywh": "205, 755, 1295, 57"
+        }
+    },
+    "short_id": "C700",
+    "label": "Work projectors",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-170-12-A1758",
+                    "short_id": "A1758"
+                },
+                {
+                    "id": "BSCC-1951-170-12-B733",
+                    "short_id": "B733"
+                }
+            ],
+            "description": "with the british company A1758"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "7",
+            "level": 0,
+            "label": "Measuring, Control and Scientific Instruments",
+            "part_of": "0",
+            "page": "169",
+            "line_number": "4"
+        },
+        {
+            "id": "7B",
+            "level": 1,
+            "label": "General",
+            "part_of": "7",
+            "page": "169",
+            "line_number": "24"
+        }
+    ]
+}

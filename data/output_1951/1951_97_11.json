@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-97-1951-11-A1978",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1978. Tyrer (Thos.) & Co. Ltd., London E 15. B 308, C 905.",
+        "corrected": "1978. Tyrer (Thos.) & Co. Ltd., London E 15. B 308, C 905"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 97,
+            "canvas": "http://localhost:8182/iiif/3/0097.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0097.jpg/346,718,1247,39/max/0/default.jpg",
+            "xywh": "346, 718, 1247, 39"
+        }
+    },
+    "short_id": "A1978",
+    "label": "Tyrer (Thos.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-97-11-B308",
+                    "short_id": "B308"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-97-11-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The british company A1978 trades with the swiss company B308 in the goods C905"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Tyrer (Thos.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London E 15. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-18-B716",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "716. Steiner (Jean), Suhr (Aarg.). A 1389, C 209.",
+        "corrected": "716. Steiner (Jean), Suhr (Aarg.). A 1389, C 209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1505,1265,38/max/0/default.jpg",
+            "xywh": "219, 1505, 1265, 38"
+        }
+    },
+    "short_id": "B716",
+    "label": "Steiner (Jean)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-18-A1389",
+                    "short_id": "A1389"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-18-C209",
+                    "short_id": "C209"
+                }
+            ],
+            "description": "The swiss company B716 trades with the british company A1389 in the goods C209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Steiner (Jean)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658457",
+            "lat": "47.37172",
+            "lng": "8.07967",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Suhr",
+            "transcription": "Suhr (Aarg.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

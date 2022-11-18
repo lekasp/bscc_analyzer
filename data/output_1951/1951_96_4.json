@@ -1,0 +1,99 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-4-A1926",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1926. Telegraph Construction & Maintenance Co. Ltd., London EC 2. B 598, C 490, 551; B 724, C 775.",
+        "corrected": "1926. Telegraph Construction & Maintenance Co. Ltd., London EC 2.B 598, C 490, 551; B 724, C 775"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,437,1288,78/max/0/default.jpg",
+            "xywh": "164, 437, 1288, 78"
+        }
+    },
+    "short_id": "A1926",
+    "label": "Telegraph Construction & Maintenance Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-4-B598",
+                    "short_id": "B598"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-4-C490",
+                    "short_id": "C490"
+                },
+                {
+                    "id": "BSCC-1951-96-4-C551",
+                    "short_id": "C551"
+                }
+            ],
+            "description": "The british company A1926 trades with the swiss company B598 in the goods C490 and C551"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-4-B724",
+                    "short_id": "B724"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-4-C775",
+                    "short_id": "C775"
+                }
+            ],
+            "description": "The british company A1926 trades with the swiss company B724 in the goods C775"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Telegraph Construction & Maintenance Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 2."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

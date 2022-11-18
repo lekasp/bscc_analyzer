@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-172-1951-5-C769",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "769. Wall plugs, drills and special tools. A 1598, B 197.",
+        "corrected": "769. Wall plugs, drills and special tools. A 1598, B 197"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 172,
+            "canvas": "http://localhost:8182/iiif/3/0172.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0172.jpg/205,436,1259,39/max/0/default.jpg",
+            "xywh": "205, 436, 1259, 39"
+        }
+    },
+    "short_id": "C769",
+    "label": "Wall plugs, drills and special tools",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-172-5-A1598",
+                    "short_id": "A1598"
+                },
+                {
+                    "id": "BSCC-1951-172-5-B197",
+                    "short_id": "B197"
+                }
+            ],
+            "description": "with the british company A1598"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "8",
+            "level": 0,
+            "label": "Building Materials and Fittings, Sanitary Equipment, Heating, Ventilation, Gas and Water Circulation, Hardware and Ironmongery",
+            "part_of": "0",
+            "page": "170",
+            "line_number": "13"
+        },
+        {
+            "id": "8E",
+            "level": 1,
+            "label": "Hardware and Ironmongery",
+            "part_of": "8",
+            "page": "171",
+            "line_number": "23"
+        }
+    ]
+}

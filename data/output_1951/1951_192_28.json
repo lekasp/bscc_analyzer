@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-28-C1463",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1463. Insurance. A 77, 286a, 1187, 1195, 1250, 1278, 1430, 1832 - B 141, 260, 322, 331, 371. 446, 477.",
+        "corrected": "1463. Insurance.A 77, 286a, 1187, 1195, 1250, 1278, 1430, 1832 - B 141, 260, 322, 331, 371. 446, 477"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1993,1257,116/max/0/default.jpg",
+            "xywh": "222, 1993, 1257, 116"
+        }
+    },
+    "short_id": "C1463",
+    "label": "Insurance",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-28-A77",
+                    "short_id": "A77"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A286a",
+                    "short_id": "A286a"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A1187",
+                    "short_id": "A1187"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A1195",
+                    "short_id": "A1195"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A1250",
+                    "short_id": "A1250"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A1278",
+                    "short_id": "A1278"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A1430",
+                    "short_id": "A1430"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A260",
+                    "short_id": "A260"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A322",
+                    "short_id": "A322"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A331",
+                    "short_id": "A331"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A371446",
+                    "short_id": "A371446"
+                },
+                {
+                    "id": "BSCC-1951-192-28-A477",
+                    "short_id": "A477"
+                }
+            ],
+            "description": "with the british company A77 and A286a and A1187 and A1195 and A1250 and A1278 and A1430 and A260 and A322 and A331 and A371446 and A477"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "24",
+            "level": 0,
+            "label": "Finance, Insurance, Publicity, General Trading",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "24"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-10-C1298",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1298. Surgical dressings. A 1036, 1794, B 545, 661.",
+        "corrected": "1298. Surgical dressings. A 1036, 1794, B 545, 661"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,630,1281,43/max/0/default.jpg",
+            "xywh": "223, 630, 1281, 43"
+        }
+    },
+    "short_id": "C1298",
+    "label": "Surgical dressings",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-10-A1036",
+                    "short_id": "A1036"
+                },
+                {
+                    "id": "BSCC-1951-188-10-A1794",
+                    "short_id": "A1794"
+                },
+                {
+                    "id": "BSCC-1951-188-10-B545",
+                    "short_id": "B545"
+                },
+                {
+                    "id": "BSCC-1951-188-10-B661",
+                    "short_id": "B661"
+                }
+            ],
+            "description": "with the british company A1036 and A1794 and B661"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "17",
+            "level": 0,
+            "label": "Medical and Surgical Products",
+            "part_of": "0",
+            "page": "187",
+            "line_number": "31"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-15-B770",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "770. Vaudaux (Gebr.),50, Paradiesstrasse, Binningen (Basle). A 760, C 1297,1305.",
+        "corrected": "770. Vaudaux (Gebr.),50, Paradiesstrasse, Binningen (Basle). A 760, C 1297,1305"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1283,1294,42/max/0/default.jpg",
+            "xywh": "185, 1283, 1294, 42"
+        }
+    },
+    "short_id": "B770",
+    "label": "Vaudaux (Gebr.),50",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-15-A760",
+                    "short_id": "A760"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-142-15-C1297",
+                    "short_id": "C1297"
+                },
+                {
+                    "id": "BSCC-1951-142-15-C1305",
+                    "short_id": "C1305"
+                }
+            ],
+            "description": "The swiss company B770 trades with the british company A760 in the goods C1297 and C1305"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Vaudaux (Gebr.),50"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661499",
+            "lat": "47.54021",
+            "lng": "7.56932",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Binningen",
+            "transcription": "Paradiesstrasse, Binningen (Basle). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

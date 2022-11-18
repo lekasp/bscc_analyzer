@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-62-1951-1-A1073",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1073. Kenyon (James) & Son Ltd., Bury. B 433, C 1253, 1259.",
+        "corrected": "1073. Kenyon (James) & Son Ltd., Bury. B 433, C 1253, 1259"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 62,
+            "canvas": "http://localhost:8182/iiif/3/0062.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0062.jpg/182,290,1250,41/max/0/default.jpg",
+            "xywh": "182, 290, 1250, 41"
+        }
+    },
+    "short_id": "A1073",
+    "label": "Kenyon (James) & Son Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-62-1-B433",
+                    "short_id": "B433"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-62-1-C1253",
+                    "short_id": "C1253"
+                },
+                {
+                    "id": "BSCC-1951-62-1-C1259",
+                    "short_id": "C1259"
+                }
+            ],
+            "description": "The british company A1073 trades with the swiss company B433 in the goods C1253 and C1259"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kenyon (James) & Son Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654187",
+            "lat": "53.6",
+            "lng": "-2.3",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bury",
+            "transcription": " Bury. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

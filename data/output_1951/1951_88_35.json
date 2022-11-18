@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-35-A1686",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1686. Ruston & Hornsby Ltd., Lincoln. B 9, C 356.",
+        "corrected": "1686. Ruston & Hornsby Ltd., Lincoln. B 9, C 356"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1740,1195,40/max/0/default.jpg",
+            "xywh": "208, 1740, 1195, 40"
+        }
+    },
+    "short_id": "A1686",
+    "label": "Ruston & Hornsby Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-35-B9",
+                    "short_id": "B9"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-35-C356",
+                    "short_id": "C356"
+                }
+            ],
+            "description": "The british company A1686 trades with the swiss company B9 in the goods C356"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ruston & Hornsby Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644487",
+            "lat": "53.22683",
+            "lng": "-0.53792",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lincoln",
+            "transcription": " Lincoln. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

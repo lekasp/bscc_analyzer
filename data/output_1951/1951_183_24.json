@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-24-C1141",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1141. Curtain materials. A 575, 1776, 1939, B 157, 324, 538.",
+        "corrected": "1141. Curtain materials. A 575, 1776, 1939, B 157, 324, 538"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,1593,1290,43/max/0/default.jpg",
+            "xywh": "316, 1593, 1290, 43"
+        }
+    },
+    "short_id": "C1141",
+    "label": "Curtain materials",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-24-A575",
+                    "short_id": "A575"
+                },
+                {
+                    "id": "BSCC-1951-183-24-A1776",
+                    "short_id": "A1776"
+                },
+                {
+                    "id": "BSCC-1951-183-24-A1939",
+                    "short_id": "A1939"
+                },
+                {
+                    "id": "BSCC-1951-183-24-B157",
+                    "short_id": "B157"
+                },
+                {
+                    "id": "BSCC-1951-183-24-B324",
+                    "short_id": "B324"
+                },
+                {
+                    "id": "BSCC-1951-183-24-B538",
+                    "short_id": "B538"
+                }
+            ],
+            "description": "with the british company A575 and A1776 and A1939 and B324 and B538"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Ce",
+            "level": 2,
+            "label": "UNSPECIFIED AND VARIOUS",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "23"
+        }
+    ]
+}

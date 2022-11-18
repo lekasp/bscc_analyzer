@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-4-B702",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "702. Spyri (Ing. Heinrich), Merligen, Thunersee. A 700, 1341, C 653, 978, 986, 1007.",
+        "corrected": "702. Spyri (Ing. Heinrich), Merligen, Thunersee.A 700, 1341, C 653, 978, 986, 1007"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,595,1265,79/max/0/default.jpg",
+            "xywh": "219, 595, 1265, 79"
+        }
+    },
+    "short_id": "B702",
+    "label": "Spyri (Ing. Heinrich)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-4-A700",
+                    "short_id": "A700"
+                },
+                {
+                    "id": "BSCC-1951-140-4-A1341",
+                    "short_id": "A1341"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-4-C653",
+                    "short_id": "C653"
+                },
+                {
+                    "id": "BSCC-1951-140-4-C978",
+                    "short_id": "C978"
+                },
+                {
+                    "id": "BSCC-1951-140-4-C986",
+                    "short_id": "C986"
+                },
+                {
+                    "id": "BSCC-1951-140-4-C1007",
+                    "short_id": "C1007"
+                }
+            ],
+            "description": "The swiss company B702 trades with the british company A700 and A1341 in the goods C653 and C978 and C986 and C1007"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Spyri (Ing. Heinrich)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659679",
+            "lat": "46.69752",
+            "lng": "7.73869",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Merligen",
+            "transcription": "Merligen, Thunersee."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

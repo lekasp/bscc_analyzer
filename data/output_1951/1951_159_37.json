@@ -1,0 +1,90 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-37-C301",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "301. TEXTILE MACHINERY, GENERAL. A 726, 1275, B 188.",
+        "corrected": "301. TEXTILE MACHINERY, GENERAL. A 726, 1275, B 188"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,1901,1277,49/max/0/default.jpg",
+            "xywh": "306, 1901, 1277, 49"
+        }
+    },
+    "short_id": "C301",
+    "label": "TEXTILE MACHINERY, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-37-A726",
+                    "short_id": "A726"
+                },
+                {
+                    "id": "BSCC-1951-159-37-A1275",
+                    "short_id": "A1275"
+                },
+                {
+                    "id": "BSCC-1951-159-37-B188",
+                    "short_id": "B188"
+                }
+            ],
+            "description": "with the british company A726 and A1275"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Be",
+            "level": 2,
+            "label": "TEXTILES",
+            "part_of": "4B",
+            "page": "159",
+            "line_number": "36"
+        }
+    ]
+}

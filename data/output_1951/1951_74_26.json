@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-26-A1374",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1374. Mullard Electronic Products Ltd., London WC 2. B 470, C 529; B 473, C 553.",
+        "corrected": "1374. Mullard Electronic Products Ltd., London WC 2.B 470, C 529; B 473, C 553"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1486,1249,78/max/0/default.jpg",
+            "xywh": "184, 1486, 1249, 78"
+        }
+    },
+    "short_id": "A1374",
+    "label": "Mullard Electronic Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-26-B470",
+                    "short_id": "B470"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-26-C529",
+                    "short_id": "C529"
+                }
+            ],
+            "description": "The british company A1374 trades with the swiss company B470 in the goods C529"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-26-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-26-C553",
+                    "short_id": "C553"
+                }
+            ],
+            "description": "The british company A1374 trades with the swiss company B473 in the goods C553"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mullard Electronic Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London WC 2."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

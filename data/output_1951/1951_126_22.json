@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-22-B310",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "310. Hahn (Frédéric), 5, avenue P. Cérésole, Vevey. A 1585, C 740.",
+        "corrected": "310. Hahn (Frédéric), 5, avenue P. Cérésole, Vevey. A 1585, C 740"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1788,1299,41/max/0/default.jpg",
+            "xywh": "175, 1788, 1299, 41"
+        }
+    },
+    "short_id": "B310",
+    "label": "Hahn (Frédéric)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-22-A1585",
+                    "short_id": "A1585"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-22-C740",
+                    "short_id": "C740"
+                }
+            ],
+            "description": "The swiss company B310 trades with the british company A1585 in the goods C740"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hahn (Frédéric)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658145",
+            "lat": "46.46299",
+            "lng": "6.84345",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Vevey",
+            "transcription": "5, avenue P. Cérésole, Vevey. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

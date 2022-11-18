@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-28-B225",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "225. Ferro-Arc Elektroden AG., 703, Steghofweg, Lucerne. A 1581, C 436, 437.",
+        "corrected": "225. Ferro-Arc Elektroden AG., 703, Steghofweg, Lucerne. A 1581, C 436, 437"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,2067,1247,40/max/0/default.jpg",
+            "xywh": "304, 2067, 1247, 40"
+        }
+    },
+    "short_id": "B225",
+    "label": "Ferro-Arc Elektroden AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-28-A1581",
+                    "short_id": "A1581"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-28-C436",
+                    "short_id": "C436"
+                },
+                {
+                    "id": "BSCC-1951-123-28-C437",
+                    "short_id": "C437"
+                }
+            ],
+            "description": "The swiss company B225 trades with the british company A1581 in the goods C436 and C437"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ferro-Arc Elektroden AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659811",
+            "lat": "47.05048",
+            "lng": "8.30635",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lucerne",
+            "transcription": " 703, Steghofweg, Lucerne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

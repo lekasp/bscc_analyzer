@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-28-A2171",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2171. Wool Trading Co. Ltd., Bradford. B 337, C 1079, 1080.",
+        "corrected": "2171. Wool Trading Co. Ltd., Bradford. B 337, C 1079, 1080"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,1431,1264,42/max/0/default.jpg",
+            "xywh": "343, 1431, 1264, 42"
+        }
+    },
+    "short_id": "A2171",
+    "label": "Wool Trading Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-28-B337",
+                    "short_id": "B337"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-28-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-101-28-C1080",
+                    "short_id": "C1080"
+                }
+            ],
+            "description": "The british company A2171 trades with the swiss company B337 in the goods C1079 and C1080"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wool Trading Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

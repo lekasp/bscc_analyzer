@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-23-B602",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "602. Reymond (A.) & Cie., S.A., 115, Aarbergergasse, Biel (Bienne). A 627, 2122, C 328, 330.",
+        "corrected": "602. Reymond (A.) & Cie., S.A., 115, Aarbergergasse, Biel (Bienne).A 627, 2122, C 328, 330"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,2013,1317,78/max/0/default.jpg",
+            "xywh": "183, 2013, 1317, 78"
+        }
+    },
+    "short_id": "B602",
+    "label": "Reymond (A.) & Cie., S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-23-A627",
+                    "short_id": "A627"
+                },
+                {
+                    "id": "BSCC-1951-136-23-A2122",
+                    "short_id": "A2122"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-23-C328",
+                    "short_id": "C328"
+                },
+                {
+                    "id": "BSCC-1951-136-23-C330",
+                    "short_id": "C330"
+                }
+            ],
+            "description": "The swiss company B602 trades with the british company A627 and A2122 in the goods C328 and C330"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Reymond (A.) & Cie., S.A."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 115, Aarbergergasse, Biel (Bienne)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

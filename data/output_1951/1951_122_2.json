@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-2-B169",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 169. De Lengerke (J. E.), 2, rue Etraz, Lausanne. A 1277, 1644, C 713, 905.",
+        "corrected": "169. De Lengerke (J. E.), 2, rue Etraz, Lausanne. A 1277, 1644, C 713, 905"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,357,1285,42/max/0/default.jpg",
+            "xywh": "169, 357, 1285, 42"
+        }
+    },
+    "short_id": "B169",
+    "label": "De Lengerke (J. E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-2-A1277",
+                    "short_id": "A1277"
+                },
+                {
+                    "id": "BSCC-1951-122-2-A1644",
+                    "short_id": "A1644"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-2-C713",
+                    "short_id": "C713"
+                },
+                {
+                    "id": "BSCC-1951-122-2-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The swiss company B169 trades with the british company A1277 and A1644 in the goods C713 and C905"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "De Lengerke (J. E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": "2, rue Etraz, Lausanne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-15-B242",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "242. Forrer (Max), 25, Fraumünsterstrasse, Zurich. A 373, 570, 939, C 1084, 1088.",
+        "corrected": "242. Forrer (Max), 25, Fraumünsterstrasse, Zurich.A 373, 570, 939, C 1084, 1088"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1319,1320,80/max/0/default.jpg",
+            "xywh": "166, 1319, 1320, 80"
+        }
+    },
+    "short_id": "B242",
+    "label": "Forrer (Max)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-15-A373",
+                    "short_id": "A373"
+                },
+                {
+                    "id": "BSCC-1951-124-15-A570",
+                    "short_id": "A570"
+                },
+                {
+                    "id": "BSCC-1951-124-15-A939",
+                    "short_id": "A939"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-15-C1084",
+                    "short_id": "C1084"
+                },
+                {
+                    "id": "BSCC-1951-124-15-C1088",
+                    "short_id": "C1088"
+                }
+            ],
+            "description": "The swiss company B242 trades with the british company A373 and A570 and A939 in the goods C1084 and C1088"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Forrer (Max)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "25, Fraumünsterstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

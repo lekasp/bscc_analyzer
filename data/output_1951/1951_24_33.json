@@ -1,0 +1,111 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-33-A261",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "261. Bridge of Weir Leather Co. Ltd., Bridge of Weir, Scotland. B 488, C 849, 850, 856, 860, 869; B 647, C 869.",
+        "corrected": "261. Bridge of Weir Leather Co. Ltd., Bridge of Weir, Scotland.B 488, C 849, 850, 856, 860, 869; B 647, C 869"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1585,1252,80/max/0/default.jpg",
+            "xywh": "194, 1585, 1252, 80"
+        }
+    },
+    "short_id": "A261",
+    "label": "Bridge of Weir Leather Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-33-B488",
+                    "short_id": "B488"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-33-C849",
+                    "short_id": "C849"
+                },
+                {
+                    "id": "BSCC-1951-24-33-C850",
+                    "short_id": "C850"
+                },
+                {
+                    "id": "BSCC-1951-24-33-C856",
+                    "short_id": "C856"
+                },
+                {
+                    "id": "BSCC-1951-24-33-C860",
+                    "short_id": "C860"
+                },
+                {
+                    "id": "BSCC-1951-24-33-C869",
+                    "short_id": "C869"
+                }
+            ],
+            "description": "The british company A261 trades with the swiss company B488 in the goods C849 and C850 and C856 and C860 and C869"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-33-B647",
+                    "short_id": "B647"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-33-C869",
+                    "short_id": "C869"
+                }
+            ],
+            "description": "The british company A261 trades with the swiss company B647 in the goods C869"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bridge of Weir Leather Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654736",
+            "lat": "55.85582",
+            "lng": "-4.57894",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bridge of Weir",
+            "transcription": " Bridge of Weir, Scotland."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

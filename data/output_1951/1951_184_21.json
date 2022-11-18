@@ -1,0 +1,110 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-184-1951-21-C1168",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1168. Furs. A 1106, 1172, 1401, B 69, 112, 605.",
+        "corrected": "1168. Furs. A 1106, 1172, 1401, B 69, 112, 605"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 184,
+            "canvas": "http://localhost:8182/iiif/3/0184.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0184.jpg/236,1369,1310,39/max/0/default.jpg",
+            "xywh": "236, 1369, 1310, 39"
+        }
+    },
+    "short_id": "C1168",
+    "label": "Furs",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-184-21-A1106",
+                    "short_id": "A1106"
+                },
+                {
+                    "id": "BSCC-1951-184-21-A1172",
+                    "short_id": "A1172"
+                },
+                {
+                    "id": "BSCC-1951-184-21-A1401",
+                    "short_id": "A1401"
+                },
+                {
+                    "id": "BSCC-1951-184-21-B69",
+                    "short_id": "B69"
+                },
+                {
+                    "id": "BSCC-1951-184-21-B112",
+                    "short_id": "B112"
+                },
+                {
+                    "id": "BSCC-1951-184-21-B605",
+                    "short_id": "B605"
+                }
+            ],
+            "description": "with the british company A1106 and A1172 and A1401 and B112 and B605"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15D",
+            "level": 1,
+            "label": "Garments",
+            "part_of": "15",
+            "page": "184",
+            "line_number": "3"
+        },
+        {
+            "id": "15Da",
+            "level": 2,
+            "label": "OUTERWEAR",
+            "part_of": "15D",
+            "page": "184",
+            "line_number": "4"
+        },
+        {
+            "id": "15Da3",
+            "level": 3,
+            "label": "3. LADIES'",
+            "part_of": "15Da",
+            "page": "184",
+            "line_number": "17"
+        }
+    ]
+}

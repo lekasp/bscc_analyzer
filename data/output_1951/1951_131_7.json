@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-7-B444",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "444. Lier (H.), 53, Aeschenvorstadt, Basle. A 794, 1453, 1633, 1716, 1909, C 7, 20, 23, 37a.",
+        "corrected": "444. Lier (H.), 53, Aeschenvorstadt, Basle.A 794, 1453, 1633, 1716, 1909, C 7, 20, 23, 37a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,677,1265,77/max/0/default.jpg",
+            "xywh": "316, 677, 1265, 77"
+        }
+    },
+    "short_id": "B444",
+    "label": "Lier (H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-7-A794",
+                    "short_id": "A794"
+                },
+                {
+                    "id": "BSCC-1951-131-7-A1453",
+                    "short_id": "A1453"
+                },
+                {
+                    "id": "BSCC-1951-131-7-A1633",
+                    "short_id": "A1633"
+                },
+                {
+                    "id": "BSCC-1951-131-7-A1716",
+                    "short_id": "A1716"
+                },
+                {
+                    "id": "BSCC-1951-131-7-A1909",
+                    "short_id": "A1909"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-7-C7",
+                    "short_id": "C7"
+                },
+                {
+                    "id": "BSCC-1951-131-7-C20",
+                    "short_id": "C20"
+                },
+                {
+                    "id": "BSCC-1951-131-7-C23",
+                    "short_id": "C23"
+                },
+                {
+                    "id": "BSCC-1951-131-7-C37a",
+                    "short_id": "C37a"
+                }
+            ],
+            "description": "The swiss company B444 trades with the british company A794 and A1453 and A1633 and A1716 and A1909 in the goods C7 and C20 and C23 and C37a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lier (H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "53, Aeschenvorstadt, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

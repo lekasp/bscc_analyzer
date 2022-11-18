@@ -1,0 +1,106 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-185-1951-20-C1201",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1201. Gloves, general. A 556, 697, 723, 901, B 286, 451, 835.",
+        "corrected": "1201. Gloves, general. A 556, 697, 723, 901, B 286, 451, 835"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 185,
+            "canvas": "http://localhost:8182/iiif/3/0185.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0185.jpg/298,1293,1365,39/max/0/default.jpg",
+            "xywh": "298, 1293, 1365, 39"
+        }
+    },
+    "short_id": "C1201",
+    "label": "Gloves, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-185-20-A556",
+                    "short_id": "A556"
+                },
+                {
+                    "id": "BSCC-1951-185-20-A697",
+                    "short_id": "A697"
+                },
+                {
+                    "id": "BSCC-1951-185-20-A723",
+                    "short_id": "A723"
+                },
+                {
+                    "id": "BSCC-1951-185-20-A901",
+                    "short_id": "A901"
+                },
+                {
+                    "id": "BSCC-1951-185-20-B286",
+                    "short_id": "B286"
+                },
+                {
+                    "id": "BSCC-1951-185-20-B451",
+                    "short_id": "B451"
+                },
+                {
+                    "id": "BSCC-1951-185-20-B835",
+                    "short_id": "B835"
+                }
+            ],
+            "description": "with the british company A556 and A697 and A723 and A901 and B451 and B835"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15D",
+            "level": 1,
+            "label": "Garments",
+            "part_of": "15",
+            "page": "184",
+            "line_number": "3"
+        },
+        {
+            "id": "15Dd",
+            "level": 2,
+            "label": "HATS, GLOVES, NECKWEAR, ETC",
+            "part_of": "15D",
+            "page": "185",
+            "line_number": "14"
+        }
+    ]
+}

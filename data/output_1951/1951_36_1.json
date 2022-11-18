@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-1-A494",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "494. Crabtree (W. L.) & Co. Ltd., Bradford. B 540, C 1079, 1080, 1082.",
+        "corrected": "494. Crabtree (W. L.) & Co. Ltd., Bradford. B 540, C 1079, 1080, 1082"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,265,1261,41/max/0/default.jpg",
+            "xywh": "205, 265, 1261, 41"
+        }
+    },
+    "short_id": "A494",
+    "label": "Crabtree (W. L.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-1-B540",
+                    "short_id": "B540"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-1-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-36-1-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-36-1-C1082",
+                    "short_id": "C1082"
+                }
+            ],
+            "description": "The british company A494 trades with the swiss company B540 in the goods C1079 and C1080 and C1082"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Crabtree (W. L.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

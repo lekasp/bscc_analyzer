@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-80-1951-40-A1509",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1509. Pegley-Davies Ltd., London N 1. B 107, C 1399, 1400.",
+        "corrected": "1509. Pegley-Davies Ltd., London N 1. B 107, C 1399, 1400"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 80,
+            "canvas": "http://localhost:8182/iiif/3/0080.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0080.jpg/200,1822,1303,41/max/0/default.jpg",
+            "xywh": "200, 1822, 1303, 41"
+        }
+    },
+    "short_id": "A1509",
+    "label": "Pegley-Davies Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-80-40-B107",
+                    "short_id": "B107"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-80-40-C1399",
+                    "short_id": "C1399"
+                },
+                {
+                    "id": "BSCC-1951-80-40-C1400",
+                    "short_id": "C1400"
+                }
+            ],
+            "description": "The british company A1509 trades with the swiss company B107 in the goods C1399 and C1400"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pegley-Davies Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London N 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

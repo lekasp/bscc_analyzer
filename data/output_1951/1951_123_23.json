@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-23-B220",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "220. Fasler (Hermann), Grenchen (Sol.). A 317, C 628.",
+        "corrected": "220. Fasler (Hermann), Grenchen (Sol.). A 317, C 628"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1789,1247,41/max/0/default.jpg",
+            "xywh": "304, 1789, 1247, 41"
+        }
+    },
+    "short_id": "B220",
+    "label": "Fasler (Hermann)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-23-A317",
+                    "short_id": "A317"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-23-C628",
+                    "short_id": "C628"
+                }
+            ],
+            "description": "The swiss company B220 trades with the british company A317 in the goods C628"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fasler (Hermann)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660512",
+            "lat": "47.1921",
+            "lng": "7.39586",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Grenchen",
+            "transcription": "Grenchen (Sol.). "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

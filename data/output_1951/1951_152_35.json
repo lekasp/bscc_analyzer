@@ -1,0 +1,122 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-152-1951-35-C32",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "32. Confectionery, sweets. A 154, 903, 1222, 1258, 1490, 1647, 1742, 1921, B 13, 163, 354, 732, 755.",
+        "corrected": "32. Confectionery, sweets.A 154, 903, 1222, 1258, 1490, 1647, 1742, 1921, B 13, 163, 354, 732, 755"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 152,
+            "canvas": "http://localhost:8182/iiif/3/0152.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0152.jpg/202,2037,1293,78/max/0/default.jpg",
+            "xywh": "202, 2037, 1293, 78"
+        }
+    },
+    "short_id": "C32",
+    "label": "Confectionery, sweets",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-152-35-A154",
+                    "short_id": "A154"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A903",
+                    "short_id": "A903"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1222",
+                    "short_id": "A1222"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1258",
+                    "short_id": "A1258"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1490",
+                    "short_id": "A1490"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1647",
+                    "short_id": "A1647"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1742",
+                    "short_id": "A1742"
+                },
+                {
+                    "id": "BSCC-1951-152-35-A1921",
+                    "short_id": "A1921"
+                },
+                {
+                    "id": "BSCC-1951-152-35-B13",
+                    "short_id": "B13"
+                },
+                {
+                    "id": "BSCC-1951-152-35-B163",
+                    "short_id": "B163"
+                },
+                {
+                    "id": "BSCC-1951-152-35-B354",
+                    "short_id": "B354"
+                },
+                {
+                    "id": "BSCC-1951-152-35-B732",
+                    "short_id": "B732"
+                },
+                {
+                    "id": "BSCC-1951-152-35-B755",
+                    "short_id": "B755"
+                }
+            ],
+            "description": "with the british company A154 and A903 and A1222 and A1258 and A1490 and A1647 and A1742 and A1921 and B163 and B354 and B732 and B755"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1C",
+            "level": 1,
+            "label": "Manufactured Food Products",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "29"
+        }
+    ]
+}

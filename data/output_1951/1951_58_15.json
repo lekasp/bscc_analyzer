@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-15-A1003",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1003. International Tar & Chemical Products Ltd., Watford. B 364, C 59, 905.",
+        "corrected": "1003. International Tar & Chemical Products Ltd., Watford. B 364, C 59, 905"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,960,1267,39/max/0/default.jpg",
+            "xywh": "165, 960, 1267, 39"
+        }
+    },
+    "short_id": "A1003",
+    "label": "International Tar & Chemical Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-15-B364",
+                    "short_id": "B364"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-15-C59",
+                    "short_id": "C59"
+                },
+                {
+                    "id": "BSCC-1951-58-15-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The british company A1003 trades with the swiss company B364 in the goods C59 and C905"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "International Tar & Chemical Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634677",
+            "lat": "51.65531",
+            "lng": "-0.39602",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Watford",
+            "transcription": " Watford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-177-1951-12-C944",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "944. Bath salts. A 826, B 836.",
+        "corrected": "944. Bath salts. A 826, B 836"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 177,
+            "canvas": "http://localhost:8182/iiif/3/0177.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0177.jpg/294,856,1298,54/max/0/default.jpg",
+            "xywh": "294, 856, 1298, 54"
+        }
+    },
+    "short_id": "C944",
+    "label": "Bath salts",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-177-12-A826",
+                    "short_id": "A826"
+                },
+                {
+                    "id": "BSCC-1951-177-12-B836",
+                    "short_id": "B836"
+                }
+            ],
+            "description": "with the british company A826"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "11",
+            "level": 0,
+            "label": "Chemicals, Pharmaceuticals, Cosmetics and Perfumery",
+            "part_of": "0",
+            "page": "176",
+            "line_number": "2"
+        },
+        {
+            "id": "11B",
+            "level": 1,
+            "label": "Pharmaceuticals",
+            "part_of": "11",
+            "page": "176",
+            "line_number": "33"
+        }
+    ]
+}

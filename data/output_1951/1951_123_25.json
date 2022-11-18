@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-123-1951-25-B222",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "222. Fehrlin (Gustave), 37, Vadianstrasse, St. Gall. A 387, 1182, 1872, C 845, 853, 861, 864.",
+        "corrected": "222.Fehrlin (Gustave), 37, Vadianstrasse, St. Gall. A 387, 1182, 1872, C 845, 853, 861, 864"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 123,
+            "canvas": "http://localhost:8182/iiif/3/0123.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0123.jpg/304,1908,1247,79/max/0/default.jpg",
+            "xywh": "304, 1908, 1247, 79"
+        }
+    },
+    "short_id": "B222",
+    "label": "Fehrlin (Gustave)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-123-25-A387",
+                    "short_id": "A387"
+                },
+                {
+                    "id": "BSCC-1951-123-25-A1182",
+                    "short_id": "A1182"
+                },
+                {
+                    "id": "BSCC-1951-123-25-A1872",
+                    "short_id": "A1872"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-123-25-C845",
+                    "short_id": "C845"
+                },
+                {
+                    "id": "BSCC-1951-123-25-C853",
+                    "short_id": "C853"
+                },
+                {
+                    "id": "BSCC-1951-123-25-C861",
+                    "short_id": "C861"
+                },
+                {
+                    "id": "BSCC-1951-123-25-C864",
+                    "short_id": "C864"
+                }
+            ],
+            "description": "The swiss company B222 trades with the british company A387 and A1182 and A1872 in the goods C845 and C853 and C861 and C864"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fehrlin (Gustave)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658822",
+            "lat": "47.42391",
+            "lng": "9.37477",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Saint Gallen",
+            "transcription": "37, Vadianstrasse, St. Gall. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-22-A1140",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1140. Lee & Wigfull (Sheffield) Ltd., Sheffield. B 796, C 1373, 1374.",
+        "corrected": "1140. Lee & Wigfull (Sheffield) Ltd., Sheffield. B 796, C 1373, 1374"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,1152,1283,36/max/0/default.jpg",
+            "xywh": "195, 1152, 1283, 36"
+        }
+    },
+    "short_id": "A1140",
+    "label": "Lee & Wigfull (Sheffield) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-22-B796",
+                    "short_id": "B796"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-22-C1373",
+                    "short_id": "C1373"
+                },
+                {
+                    "id": "BSCC-1951-64-22-C1374",
+                    "short_id": "C1374"
+                }
+            ],
+            "description": "The british company A1140 trades with the swiss company B796 in the goods C1373 and C1374"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lee & Wigfull (Sheffield) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

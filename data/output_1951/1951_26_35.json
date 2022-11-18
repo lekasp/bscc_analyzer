@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-35-A309",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "309. British Titan Products Co. Ltd., York. B 363, C 932.",
+        "corrected": "309. British Titan Products Co. Ltd., York. B 363, C 932"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,1852,1290,39/max/0/default.jpg",
+            "xywh": "189, 1852, 1290, 39"
+        }
+    },
+    "short_id": "A309",
+    "label": "British Titan Products Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-35-B363",
+                    "short_id": "B363"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-35-C932",
+                    "short_id": "C932"
+                }
+            ],
+            "description": "The british company A309 trades with the swiss company B363 in the goods C932"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British Titan Products Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633352",
+            "lat": "53.95763",
+            "lng": "-1.08271",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "York",
+            "transcription": " York. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

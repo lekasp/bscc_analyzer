@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-12-C630",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "630. Auxiliary motors for bicycles. A 372, 495a, B 155, 577.",
+        "corrected": "630. Auxiliary motors for bicycles. A 372, 495a, B 155, 577"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,1009,1239,53/max/0/default.jpg",
+            "xywh": "200, 1009, 1239, 53"
+        }
+    },
+    "short_id": "C630",
+    "label": "Auxiliary motors for bicycles",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-12-A372",
+                    "short_id": "A372"
+                },
+                {
+                    "id": "BSCC-1951-168-12-A495a",
+                    "short_id": "A495a"
+                },
+                {
+                    "id": "BSCC-1951-168-12-B155",
+                    "short_id": "B155"
+                },
+                {
+                    "id": "BSCC-1951-168-12-B577",
+                    "short_id": "B577"
+                }
+            ],
+            "description": "with the british company A372 and A495a and B577"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6G",
+            "level": 1,
+            "label": "Cycle Accessories and Components",
+            "part_of": "6",
+            "page": "168",
+            "line_number": "11"
+        }
+    ]
+}

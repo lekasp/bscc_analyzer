@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-41-A576",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "576. Docker Bros., Manchester. B 504, C 968.",
+        "corrected": "576. Docker Bros., Manchester. B 504, C 968"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,1938,1111,39/max/0/default.jpg",
+            "xywh": "192, 1938, 1111, 39"
+        }
+    },
+    "short_id": "A576",
+    "label": "Docker Bros.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-41-B504",
+                    "short_id": "B504"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-41-C968",
+                    "short_id": "C968"
+                }
+            ],
+            "description": "The british company A576 trades with the swiss company B504 in the goods C968"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Docker Bros."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

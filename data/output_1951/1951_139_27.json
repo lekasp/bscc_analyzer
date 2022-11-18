@@ -1,0 +1,132 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-139-1951-27-B695",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "695. Specker's Erben (Emil), 31, Witikonerstrasse, Zurich. A 690, 910, 1138, 1361, 1491, 1494, 2009, C 1111, 1116, 1144, 1146, 1147, 1151, 1209, 1224.",
+        "corrected": "695. Specker's Erben (Emil), 31, Witikonerstrasse, Zurich.A 690, 910, 1138, 1361, 1491, 1494, 2009, C 1111, 1116, 1144, 1146, 1147, 1151, 1209, 1224"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 139,
+            "canvas": "http://localhost:8182/iiif/3/0139.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0139.jpg/272,1893,1319,112/max/0/default.jpg",
+            "xywh": "272, 1893, 1319, 112"
+        }
+    },
+    "short_id": "B695",
+    "label": "Specker's Erben (Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-139-27-A690",
+                    "short_id": "A690"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A910",
+                    "short_id": "A910"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A1138",
+                    "short_id": "A1138"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A1361",
+                    "short_id": "A1361"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A1491",
+                    "short_id": "A1491"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A1494",
+                    "short_id": "A1494"
+                },
+                {
+                    "id": "BSCC-1951-139-27-A2009",
+                    "short_id": "A2009"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-139-27-C1111",
+                    "short_id": "C1111"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1116",
+                    "short_id": "C1116"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1144",
+                    "short_id": "C1144"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1146",
+                    "short_id": "C1146"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1147",
+                    "short_id": "C1147"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1151",
+                    "short_id": "C1151"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1209",
+                    "short_id": "C1209"
+                },
+                {
+                    "id": "BSCC-1951-139-27-C1224",
+                    "short_id": "C1224"
+                }
+            ],
+            "description": "The swiss company B695 trades with the british company A690 and A910 and A1138 and A1361 and A1491 and A1494 and A2009 in the goods C1111 and C1116 and C1144 and C1146 and C1147 and C1151 and C1209 and C1224"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Specker's Erben (Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "31, Witikonerstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

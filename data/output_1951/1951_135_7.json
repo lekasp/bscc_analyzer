@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-7-B558",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "558. Pasche (Louis), 4/6, rue Petitot, Geneva. A 685, 1022, C 575, 581, 627, 629.",
+        "corrected": "558. Pasche (Louis), 4/6, rue Petitot, Geneva. A 685, 1022, C 575, 581, 627, 629"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,801,1298,39/max/0/default.jpg",
+            "xywh": "298, 801, 1298, 39"
+        }
+    },
+    "short_id": "B558",
+    "label": "Pasche (Louis)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-7-A685",
+                    "short_id": "A685"
+                },
+                {
+                    "id": "BSCC-1951-135-7-A1022",
+                    "short_id": "A1022"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-7-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-135-7-C581",
+                    "short_id": "C581"
+                },
+                {
+                    "id": "BSCC-1951-135-7-C627",
+                    "short_id": "C627"
+                },
+                {
+                    "id": "BSCC-1951-135-7-C629",
+                    "short_id": "C629"
+                }
+            ],
+            "description": "The swiss company B558 trades with the british company A685 and A1022 in the goods C575 and C581 and C627 and C629"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Pasche (Louis)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "4/6, rue Petitot, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

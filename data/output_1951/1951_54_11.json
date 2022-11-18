@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-11-A916",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "916. Hermer (S.), Bury St. Edmunds. B 559, C 1271.",
+        "corrected": "916. Hermer (S.), Bury St. Edmunds. B 559, C 1271"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,731,1211,41/max/0/default.jpg",
+            "xywh": "137, 731, 1211, 41"
+        }
+    },
+    "short_id": "A916",
+    "label": "Hermer (S.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-11-B559",
+                    "short_id": "B559"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-11-C1271",
+                    "short_id": "C1271"
+                }
+            ],
+            "description": "The british company A916 trades with the swiss company B559 in the goods C1271"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hermer (S.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2654187",
+            "lat": "53.6",
+            "lng": "-2.3",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bury",
+            "transcription": "Bury St. Edmunds. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-90-1951-6-A1702",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1702. Sanderson (R. & A.) & Co., Galashiels. B 699, C 1209.",
+        "corrected": "1702. Sanderson (R. & A.) & Co., Galashiels. B 699, C 1209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 90,
+            "canvas": "http://localhost:8182/iiif/3/0090.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0090.jpg/171,483,1298,38/max/0/default.jpg",
+            "xywh": "171, 483, 1298, 38"
+        }
+    },
+    "short_id": "A1702",
+    "label": "Sanderson (R. & A.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-90-6-B699",
+                    "short_id": "B699"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-90-6-C1209",
+                    "short_id": "C1209"
+                }
+            ],
+            "description": "The british company A1702 trades with the swiss company B699 in the goods C1209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sanderson (R. & A.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2648928",
+            "lat": "55.61458",
+            "lng": "-2.80695",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Galashiels",
+            "transcription": ", Galashiels. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

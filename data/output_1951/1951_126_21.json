@@ -1,0 +1,134 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-21-B309",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 309 Haecky (Jean), Import AG., 12/18, Laufenstrasse, Basle. A 69, 561, 799, 900, 1155, 1283, 1301, 1464, 1601, 1720, C 22, 27, 28, 39, 40. 41, 44, 45, 47, 54, 57.",
+        "corrected": "309 Haecky (Jean), Import AG., 12/18, Laufenstrasse, Basle.A 69, 561, 799, 900, 1155, 1283, 1301, 1464, 1601, 1720, C 22, 27, 28, 39, 40. 41, 44, 45, 47, 54, 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1669,1299,119/max/0/default.jpg",
+            "xywh": "175, 1669, 1299, 119"
+        }
+    },
+    "short_id": "B309",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-21-A69",
+                    "short_id": "A69"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A561",
+                    "short_id": "A561"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A799",
+                    "short_id": "A799"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A900",
+                    "short_id": "A900"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1155",
+                    "short_id": "A1155"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1283",
+                    "short_id": "A1283"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1301",
+                    "short_id": "A1301"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1464",
+                    "short_id": "A1464"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1601",
+                    "short_id": "A1601"
+                },
+                {
+                    "id": "BSCC-1951-126-21-A1720",
+                    "short_id": "A1720"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-21-C22",
+                    "short_id": "C22"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C27",
+                    "short_id": "C27"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C28",
+                    "short_id": "C28"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C39",
+                    "short_id": "C39"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C4041",
+                    "short_id": "C4041"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C44",
+                    "short_id": "C44"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C45",
+                    "short_id": "C45"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C47",
+                    "short_id": "C47"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C54",
+                    "short_id": "C54"
+                },
+                {
+                    "id": "BSCC-1951-126-21-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "with the british company A69 and A561 and A799 and A900 and A1155 and A1283 and A1301 and A1464 and A1601 and A1720 in the goods C22 and C27 and C28 and C39 and C4041 and C44 and C45 and C47 and C54 and C57"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

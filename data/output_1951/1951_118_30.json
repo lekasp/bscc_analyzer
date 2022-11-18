@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-30-B68",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "68. Bender (Dr.) & Dr. Hobein AG., 15a, Riedtlistrasse, Zurich. A 283, 631, 1156, C 923, 926, 1294.",
+        "corrected": "68. Bender (Dr.) & Dr. Hobein AG., 15a, Riedtlistrasse, Zurich.A 283, 631, 1156, C 923, 926, 1294"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,2086,1300,76/max/0/default.jpg",
+            "xywh": "187, 2086, 1300, 76"
+        }
+    },
+    "short_id": "B68",
+    "label": "Bender (Dr.) & Dr. Hobein AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-30-A283",
+                    "short_id": "A283"
+                },
+                {
+                    "id": "BSCC-1951-118-30-A631",
+                    "short_id": "A631"
+                },
+                {
+                    "id": "BSCC-1951-118-30-A1156",
+                    "short_id": "A1156"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-30-C923",
+                    "short_id": "C923"
+                },
+                {
+                    "id": "BSCC-1951-118-30-C926",
+                    "short_id": "C926"
+                },
+                {
+                    "id": "BSCC-1951-118-30-C1294",
+                    "short_id": "C1294"
+                }
+            ],
+            "description": "The swiss company B68 trades with the british company A283 and A631 and A1156 in the goods C923 and C926 and C1294"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bender (Dr.) & Dr. Hobein AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 15a, Riedtlistrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

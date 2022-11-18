@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-135-1951-22-B573",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "573. Picot (Michel H.), 48, rue du Stand, Geneva. A 2005, 2006, 2007, C 431, 432, 433.",
+        "corrected": "573. Picot (Michel H.), 48, rue du Stand, Geneva.A 2005, 2006, 2007, C 431, 432, 433"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 135,
+            "canvas": "http://localhost:8182/iiif/3/0135.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0135.jpg/298,1786,1298,79/max/0/default.jpg",
+            "xywh": "298, 1786, 1298, 79"
+        }
+    },
+    "short_id": "B573",
+    "label": "Picot (Michel H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-135-22-A2005",
+                    "short_id": "A2005"
+                },
+                {
+                    "id": "BSCC-1951-135-22-A2006",
+                    "short_id": "A2006"
+                },
+                {
+                    "id": "BSCC-1951-135-22-A2007",
+                    "short_id": "A2007"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-135-22-C431",
+                    "short_id": "C431"
+                },
+                {
+                    "id": "BSCC-1951-135-22-C432",
+                    "short_id": "C432"
+                },
+                {
+                    "id": "BSCC-1951-135-22-C433",
+                    "short_id": "C433"
+                }
+            ],
+            "description": "The swiss company B573 trades with the british company A2005 and A2006 and A2007 in the goods C431 and C432 and C433"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Picot (Michel H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "48, rue du Stand, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-16-B87",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 87. Blaufries Basel AG., 104, Voltastrasse, Basle. A 274, 953, 1919, C 22, 1455, 1458.",
+        "corrected": "87. Blaufries Basel AG., 104, Voltastrasse, Basle.A 274, 953, 1919, C 22, 1455, 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,1077,1336,82/max/0/default.jpg",
+            "xywh": "276, 1077, 1336, 82"
+        }
+    },
+    "short_id": "B87",
+    "label": "Blaufries Basel AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-16-A274",
+                    "short_id": "A274"
+                },
+                {
+                    "id": "BSCC-1951-119-16-A953",
+                    "short_id": "A953"
+                },
+                {
+                    "id": "BSCC-1951-119-16-A1919",
+                    "short_id": "A1919"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-16-C22",
+                    "short_id": "C22"
+                },
+                {
+                    "id": "BSCC-1951-119-16-C1455",
+                    "short_id": "C1455"
+                },
+                {
+                    "id": "BSCC-1951-119-16-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B87 trades with the british company A274 and A953 and A1919 in the goods C22 and C1455 and C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blaufries Basel AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 104, Voltastrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

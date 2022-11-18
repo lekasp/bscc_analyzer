@@ -1,0 +1,107 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-21-A648",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "648. English Steel Corp. Ltd., Sheffield. B 479, C 412; B 663, C 96, 99, 131, 142.",
+        "corrected": "648. English Steel Corp. Ltd., Sheffield.B 479, C 412; B 663, C 96, 99, 131, 142"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,1088,1259,82/max/0/default.jpg",
+            "xywh": "194, 1088, 1259, 82"
+        }
+    },
+    "short_id": "A648",
+    "label": "English Steel Corp. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-21-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-21-C412",
+                    "short_id": "C412"
+                }
+            ],
+            "description": "The british company A648 trades with the swiss company B479 in the goods C412"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-21-B663",
+                    "short_id": "B663"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-21-C96",
+                    "short_id": "C96"
+                },
+                {
+                    "id": "BSCC-1951-42-21-C99",
+                    "short_id": "C99"
+                },
+                {
+                    "id": "BSCC-1951-42-21-C131",
+                    "short_id": "C131"
+                },
+                {
+                    "id": "BSCC-1951-42-21-C142",
+                    "short_id": "C142"
+                }
+            ],
+            "description": "The british company A648 trades with the swiss company B663 in the goods C96 and C99 and C131 and C142"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "English Steel Corp. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638077",
+            "lat": "53.38297",
+            "lng": "-1.4659",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sheffield",
+            "transcription": " Sheffield."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

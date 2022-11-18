@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-40-A988",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "988. Imperial Typewriter Co. Ltd., Leicester. B 514, C 1049, 1072.",
+        "corrected": "988. Imperial Typewriter Co. Ltd., Leicester. B 514, C 1049, 1072"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,2181,1276,63/max/0/default.jpg",
+            "xywh": "158, 2181, 1276, 63"
+        }
+    },
+    "short_id": "A988",
+    "label": "Imperial Typewriter Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-40-B514",
+                    "short_id": "B514"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-40-C1049",
+                    "short_id": "C1049"
+                },
+                {
+                    "id": "BSCC-1951-56-40-C1072",
+                    "short_id": "C1072"
+                }
+            ],
+            "description": "The british company A988 trades with the swiss company B514 in the goods C1049 and C1072"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Imperial Typewriter Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Leicester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

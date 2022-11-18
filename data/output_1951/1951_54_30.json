@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-54-1951-30-A934",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "934. Hirst (C. & J.) & Sons Ltd., Longwood, Huddersfield. B 828, C 1129.",
+        "corrected": "934. Hirst (C. & J.) & Sons Ltd., Longwood, Huddersfield. B 828, C 1129"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 54,
+            "canvas": "http://localhost:8182/iiif/3/0054.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0054.jpg/137,1637,1211,42/max/0/default.jpg",
+            "xywh": "137, 1637, 1211, 42"
+        }
+    },
+    "short_id": "A934",
+    "label": "Hirst (C. & J.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-54-30-B828",
+                    "short_id": "B828"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-54-30-C1129",
+                    "short_id": "C1129"
+                }
+            ],
+            "description": "The british company A934 trades with the swiss company B828 in the goods C1129"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hirst (C. & J.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646458",
+            "lat": "53.64904",
+            "lng": "-1.78416",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Huddersfield",
+            "transcription": " Longwood, Huddersfield. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

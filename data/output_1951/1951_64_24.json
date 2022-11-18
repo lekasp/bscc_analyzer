@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-24-A1142",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1142. Lees (T. & W.) Ltd., Stockport. B 591, C 1206, 1207.",
+        "corrected": "1142. Lees (T. & W.) Ltd., Stockport. B 591, C 1206, 1207"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,1230,1283,41/max/0/default.jpg",
+            "xywh": "195, 1230, 1283, 41"
+        }
+    },
+    "short_id": "A1142",
+    "label": "Lees (T. & W.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-24-B591",
+                    "short_id": "B591"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-24-C1206",
+                    "short_id": "C1206"
+                },
+                {
+                    "id": "BSCC-1951-64-24-C1207",
+                    "short_id": "C1207"
+                }
+            ],
+            "description": "The british company A1142 trades with the swiss company B591 in the goods C1206 and C1207"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Lees (T. & W.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2636882",
+            "lat": "53.40979",
+            "lng": "-2.15761",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stockport",
+            "transcription": " Stockport. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

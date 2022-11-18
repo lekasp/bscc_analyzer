@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-15-C1373",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1373. CUTLERY, GENERAL. A 469, 777, 1140, 1245, 1701, 1775, 1957, 1966, B 235, 241, 429, 737, 796.",
+        "corrected": "1373. CUTLERY, GENERAL.A 469, 777, 1140, 1245, 1701, 1775, 1957, 1966, B 235, 241, 429, 737, 796"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1036,1327,86/max/0/default.jpg",
+            "xywh": "181, 1036, 1327, 86"
+        }
+    },
+    "short_id": "C1373",
+    "label": "CUTLERY, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-15-A469",
+                    "short_id": "A469"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A777",
+                    "short_id": "A777"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1140",
+                    "short_id": "A1140"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1245",
+                    "short_id": "A1245"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1701",
+                    "short_id": "A1701"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1775",
+                    "short_id": "A1775"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1957",
+                    "short_id": "A1957"
+                },
+                {
+                    "id": "BSCC-1951-190-15-A1966",
+                    "short_id": "A1966"
+                },
+                {
+                    "id": "BSCC-1951-190-15-B235",
+                    "short_id": "B235"
+                },
+                {
+                    "id": "BSCC-1951-190-15-B241",
+                    "short_id": "B241"
+                },
+                {
+                    "id": "BSCC-1951-190-15-B429",
+                    "short_id": "B429"
+                },
+                {
+                    "id": "BSCC-1951-190-15-B737",
+                    "short_id": "B737"
+                },
+                {
+                    "id": "BSCC-1951-190-15-B796",
+                    "short_id": "B796"
+                }
+            ],
+            "description": "with the british company A469 and A777 and A1140 and A1245 and A1701 and A1775 and A1957 and A1966 and B241 and B429 and B737 and B796"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "20",
+            "level": 0,
+            "label": "Cutlery, Silverware, Jewellery, etc.",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "14"
+        }
+    ]
+}

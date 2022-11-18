@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-28-B662",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "662. Schröder-Steinegger (R.), 5, Mühlegasse, Zurich. A 188, C 1330.",
+        "corrected": "662. Schröder-Steinegger (R.), 5, Mühlegasse, Zurich. A 188, C 1330"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1810,1287,43/max/0/default.jpg",
+            "xywh": "197, 1810, 1287, 43"
+        }
+    },
+    "short_id": "B662",
+    "label": "Schröder-Steinegger (R.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-28-A188",
+                    "short_id": "A188"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-28-C1330",
+                    "short_id": "C1330"
+                }
+            ],
+            "description": "The swiss company B662 trades with the british company A188 in the goods C1330"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schröder-Steinegger (R.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "5, Mühlegasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

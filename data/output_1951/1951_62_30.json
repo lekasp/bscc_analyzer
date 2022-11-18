@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-62-1951-30-A1102",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1102. Kolster Brandes Ltd., Sidcup. B 707, C 543, 549, 1288.",
+        "corrected": "1102. Kolster Brandes Ltd., Sidcup. B 707, C 543, 549, 1288"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 62,
+            "canvas": "http://localhost:8182/iiif/3/0062.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0062.jpg/182,1468,1250,39/max/0/default.jpg",
+            "xywh": "182, 1468, 1250, 39"
+        }
+    },
+    "short_id": "A1102",
+    "label": "Kolster Brandes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-62-30-B707",
+                    "short_id": "B707"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-62-30-C543",
+                    "short_id": "C543"
+                },
+                {
+                    "id": "BSCC-1951-62-30-C549",
+                    "short_id": "C549"
+                },
+                {
+                    "id": "BSCC-1951-62-30-C1288",
+                    "short_id": "C1288"
+                }
+            ],
+            "description": "The british company A1102 trades with the swiss company B707 in the goods C543 and C549 and C1288"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Kolster Brandes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637861",
+            "lat": "51.42619",
+            "lng": "0.1036",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sidcup",
+            "transcription": " Sidcup. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

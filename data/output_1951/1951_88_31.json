@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-31-A1682",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1682. Runbuken Electrical Products, Manchester. B 236, C 586.",
+        "corrected": "1682. Runbuken Electrical Products, Manchester. B 236, C 586"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1581,1195,39/max/0/default.jpg",
+            "xywh": "208, 1581, 1195, 39"
+        }
+    },
+    "short_id": "A1682",
+    "label": "Runbuken Electrical Products",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-31-B236",
+                    "short_id": "B236"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-31-C586",
+                    "short_id": "C586"
+                }
+            ],
+            "description": "The british company A1682 trades with the swiss company B236 in the goods C586"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Runbuken Electrical Products"
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": ", Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-5-B111",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿111. Brandenberger (AG., vormals O.), 55, Rigistrasse, Zurich. A 925, 1037, 1379, 1380, 2002, C 124, 140, 151, 152, 157, 158, 161, 166, 168, 169, 436, 437, 439.",
+        "corrected": "111. Brandenberger (AG., vormals O.), 55, Rigistrasse, Zurich.A 925, 1037, 1379, 1380, 2002, C 124, 140, 151, 152, 157, 158, 161, 166, 168, 169, 436, 437, 439"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,512,1348,121/max/0/default.jpg",
+            "xywh": "159, 512, 1348, 121"
+        }
+    },
+    "short_id": "B111",
+    "label": "Brandenberger (AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-5-A925",
+                    "short_id": "A925"
+                },
+                {
+                    "id": "BSCC-1951-120-5-A1037",
+                    "short_id": "A1037"
+                },
+                {
+                    "id": "BSCC-1951-120-5-A1379",
+                    "short_id": "A1379"
+                },
+                {
+                    "id": "BSCC-1951-120-5-A1380",
+                    "short_id": "A1380"
+                },
+                {
+                    "id": "BSCC-1951-120-5-A2002",
+                    "short_id": "A2002"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-5-C124",
+                    "short_id": "C124"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C140",
+                    "short_id": "C140"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C151",
+                    "short_id": "C151"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C152",
+                    "short_id": "C152"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C157",
+                    "short_id": "C157"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C158",
+                    "short_id": "C158"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C161",
+                    "short_id": "C161"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C166",
+                    "short_id": "C166"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C168",
+                    "short_id": "C168"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C169",
+                    "short_id": "C169"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C436",
+                    "short_id": "C436"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C437",
+                    "short_id": "C437"
+                },
+                {
+                    "id": "BSCC-1951-120-5-C439",
+                    "short_id": "C439"
+                }
+            ],
+            "description": "The swiss company B111 trades with the british company A925 and A1037 and A1379 and A1380 and A2002 in the goods C124 and C140 and C151 and C152 and C157 and C158 and C161 and C166 and C168 and C169 and C436 and C437 and C439"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brandenberger (AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " vormals O.), 55, Rigistrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

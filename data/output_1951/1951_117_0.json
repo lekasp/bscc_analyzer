@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-0-B1",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 1. Abt-Türler & Co. AG., 20, Aeschengraben, Basle. A 195, 674, 2142,C8, 17,58.",
+        "corrected": "1. Abt-Türler & Co. AG., 20, Aeschengraben, Basle. A 195, 674, 2142,C8, 17,58"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,208,1350,78/max/0/default.jpg",
+            "xywh": "278, 208, 1350, 78"
+        }
+    },
+    "short_id": "B1",
+    "label": "Abt-Türler & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-0-A195",
+                    "short_id": "A195"
+                },
+                {
+                    "id": "BSCC-1951-117-0-A674",
+                    "short_id": "A674"
+                },
+                {
+                    "id": "BSCC-1951-117-0-A2142",
+                    "short_id": "A2142"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-0-C8",
+                    "short_id": "C8"
+                },
+                {
+                    "id": "BSCC-1951-117-0-C17",
+                    "short_id": "C17"
+                },
+                {
+                    "id": "BSCC-1951-117-0-C58",
+                    "short_id": "C58"
+                }
+            ],
+            "description": "The swiss company B1 trades with the british company A195 and A674 and A2142 in the goods C8 and C17 and C58"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Abt-Türler & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 20, Aeschengraben, Basle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

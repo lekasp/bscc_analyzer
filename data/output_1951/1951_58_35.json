@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-58-1951-35-A1023",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1023. Jantzen Knitting Mills Ltd., Brentford. B 743, C 1194.",
+        "corrected": "1023. Jantzen Knitting Mills Ltd., Brentford. B 743, C 1194"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 58,
+            "canvas": "http://localhost:8182/iiif/3/0058.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0058.jpg/165,1912,1267,38/max/0/default.jpg",
+            "xywh": "165, 1912, 1267, 38"
+        }
+    },
+    "short_id": "A1023",
+    "label": "Jantzen Knitting Mills Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-58-35-B743",
+                    "short_id": "B743"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-58-35-C1194",
+                    "short_id": "C1194"
+                }
+            ],
+            "description": "The british company A1023 trades with the swiss company B743 in the goods C1194"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jantzen Knitting Mills Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654787",
+            "lat": "51.48619",
+            "lng": "-0.3083",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Brentford",
+            "transcription": " Brentford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

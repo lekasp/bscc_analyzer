@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-9-A957",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "957. Houldsworth (Thos.) & Co. Ltd., Reddish, nr Stockport. B 642, C 1084.",
+        "corrected": "957. Houldsworth (Thos.) & Co. Ltd., Reddish, nr Stockport. B 642, C 1084"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,645,1276,38/max/0/default.jpg",
+            "xywh": "158, 645, 1276, 38"
+        }
+    },
+    "short_id": "A957",
+    "label": "Houldsworth (Thos.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-9-B642",
+                    "short_id": "B642"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-9-C1084",
+                    "short_id": "C1084"
+                }
+            ],
+            "description": "The british company A957 trades with the swiss company B642 in the goods C1084"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Houldsworth (Thos.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "6691254",
+            "lat": "53.4418",
+            "lng": "-2.16096",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Reddish",
+            "transcription": " Reddish, nr Stockport. "
+        },
+        {
+            "id": "2636882",
+            "lat": "53.40979",
+            "lng": "-2.15761",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stockport",
+            "transcription": " Reddish, nr Stockport. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

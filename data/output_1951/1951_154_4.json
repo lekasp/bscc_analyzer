@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-4-C72",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿72. Graphite. A 10, 809, 1351, 2138, B 456, 501, 512, 650.",
+        "corrected": "72. Graphite. A 10, 809, 1351, 2138, B 456, 501, 512, 650"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,431,1243,39/max/0/default.jpg",
+            "xywh": "202, 431, 1243, 39"
+        }
+    },
+    "short_id": "C72",
+    "label": "Graphite",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-4-A10",
+                    "short_id": "A10"
+                },
+                {
+                    "id": "BSCC-1951-154-4-A809",
+                    "short_id": "A809"
+                },
+                {
+                    "id": "BSCC-1951-154-4-A1351",
+                    "short_id": "A1351"
+                },
+                {
+                    "id": "BSCC-1951-154-4-A2138",
+                    "short_id": "A2138"
+                },
+                {
+                    "id": "BSCC-1951-154-4-B456",
+                    "short_id": "B456"
+                },
+                {
+                    "id": "BSCC-1951-154-4-B501",
+                    "short_id": "B501"
+                },
+                {
+                    "id": "BSCC-1951-154-4-B512",
+                    "short_id": "B512"
+                },
+                {
+                    "id": "BSCC-1951-154-4-B650",
+                    "short_id": "B650"
+                }
+            ],
+            "description": "with the british company A10 and A809 and A1351 and A2138 and B501 and B512 and B650"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "2",
+            "level": 0,
+            "label": "Fuel, Oils and Fats, Raw Materials",
+            "part_of": "0",
+            "page": "153",
+            "line_number": "24"
+        },
+        {
+            "id": "2C",
+            "level": 1,
+            "label": "Other Oils, Fats and Lubricants",
+            "part_of": "2",
+            "page": "154",
+            "line_number": "2"
+        }
+    ]
+}

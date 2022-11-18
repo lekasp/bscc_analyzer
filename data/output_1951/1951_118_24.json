@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-24-B62",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "62. Baumgartner (Gottfried), 26, Innere Margarethenstrasse, Basle. A 438, 2134, C 1032, 1197, 1341.",
+        "corrected": "62. Baumgartner (Gottfried), 26, Innere Margarethenstrasse, Basle.A 438, 2134, C 1032, 1197, 1341"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,1731,1300,78/max/0/default.jpg",
+            "xywh": "187, 1731, 1300, 78"
+        }
+    },
+    "short_id": "B62",
+    "label": "Baumgartner (Gottfried)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-24-A438",
+                    "short_id": "A438"
+                },
+                {
+                    "id": "BSCC-1951-118-24-A2134",
+                    "short_id": "A2134"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-24-C1032",
+                    "short_id": "C1032"
+                },
+                {
+                    "id": "BSCC-1951-118-24-C1197",
+                    "short_id": "C1197"
+                },
+                {
+                    "id": "BSCC-1951-118-24-C1341",
+                    "short_id": "C1341"
+                }
+            ],
+            "description": "The swiss company B62 trades with the british company A438 and A2134 in the goods C1032 and C1197 and C1341"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Baumgartner (Gottfried)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "26, Innere Margarethenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

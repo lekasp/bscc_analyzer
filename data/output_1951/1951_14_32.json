@@ -1,0 +1,95 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-14-1951-32-A32",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "32. Albright & Wilson Ltd., London W 1. B 148, C 980; B 308, C 927.",
+        "corrected": "32. Albright & Wilson Ltd., London W 1. B 148, C 980; B 308, C 927"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 14,
+            "canvas": "http://localhost:8182/iiif/3/0014.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0014.jpg/212,1598,1220,40/max/0/default.jpg",
+            "xywh": "212, 1598, 1220, 40"
+        }
+    },
+    "short_id": "A32",
+    "label": "Albright & Wilson Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-32-B148",
+                    "short_id": "B148"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-32-C980",
+                    "short_id": "C980"
+                }
+            ],
+            "description": "The british company A32 trades with the swiss company B148 in the goods C980"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-14-32-B308",
+                    "short_id": "B308"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-14-32-C927",
+                    "short_id": "C927"
+                }
+            ],
+            "description": "The british company A32 trades with the swiss company B308 in the goods C927"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Albright & Wilson Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

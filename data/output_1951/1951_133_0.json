@@ -1,0 +1,124 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-133-1951-0-B492",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 492. Messerli (A.), 61, Lavaterstrasse, Zurich. A 376, 491, 938, 1061, 1530, 1533, 1431a, C 283, 290, 291, 296, 785, 1275.",
+        "corrected": "492. Messerli (A.), 61, Lavaterstrasse, Zurich.A 376, 491, 938, 1061, 1530, 1533, 1431a, C 283, 290, 291, 296, 785, 1275"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 133,
+            "canvas": "http://localhost:8182/iiif/3/0133.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0133.jpg/305,205,1317,106/max/0/default.jpg",
+            "xywh": "305, 205, 1317, 106"
+        }
+    },
+    "short_id": "B492",
+    "label": "Messerli (A.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-133-0-A376",
+                    "short_id": "A376"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A491",
+                    "short_id": "A491"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A938",
+                    "short_id": "A938"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A1061",
+                    "short_id": "A1061"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A1530",
+                    "short_id": "A1530"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A1533",
+                    "short_id": "A1533"
+                },
+                {
+                    "id": "BSCC-1951-133-0-A1431a",
+                    "short_id": "A1431a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-133-0-C283",
+                    "short_id": "C283"
+                },
+                {
+                    "id": "BSCC-1951-133-0-C290",
+                    "short_id": "C290"
+                },
+                {
+                    "id": "BSCC-1951-133-0-C291",
+                    "short_id": "C291"
+                },
+                {
+                    "id": "BSCC-1951-133-0-C296",
+                    "short_id": "C296"
+                },
+                {
+                    "id": "BSCC-1951-133-0-C785",
+                    "short_id": "C785"
+                },
+                {
+                    "id": "BSCC-1951-133-0-C1275",
+                    "short_id": "C1275"
+                }
+            ],
+            "description": "The swiss company B492 trades with the british company A376 and A491 and A938 and A1061 and A1530 and A1533 and A1431a in the goods C283 and C290 and C291 and C296 and C785 and C1275"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Messerli (A.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "61, Lavaterstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-40-1951-43-A625",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "625. Electric Resistance Furnace Co. Ltd., Weybridge. B 563, C 260, 261, 267.",
+        "corrected": "625. Electric Resistance Furnace Co. Ltd., Weybridge. B 563, C 260, 261, 267"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 40,
+            "canvas": "http://localhost:8182/iiif/3/0040.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0040.jpg/154,2012,1304,34/max/0/default.jpg",
+            "xywh": "154, 2012, 1304, 34"
+        }
+    },
+    "short_id": "A625",
+    "label": "Electric Resistance Furnace Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-40-43-B563",
+                    "short_id": "B563"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-40-43-C260",
+                    "short_id": "C260"
+                },
+                {
+                    "id": "BSCC-1951-40-43-C261",
+                    "short_id": "C261"
+                },
+                {
+                    "id": "BSCC-1951-40-43-C267",
+                    "short_id": "C267"
+                }
+            ],
+            "description": "The british company A625 trades with the swiss company B563 in the goods C260 and C261 and C267"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Electric Resistance Furnace Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634204",
+            "lat": "51.37178",
+            "lng": "-0.45975",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Weybridge",
+            "transcription": " Weybridge. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

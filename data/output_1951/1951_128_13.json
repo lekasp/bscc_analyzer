@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-13-B360",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 360. Im Obersteg (Hans) & Co. AG., 28, Aeschengraben, Basle. A 459a, A 2084a, C 1457, 1458.",
+        "corrected": "360. Im Obersteg (Hans) & Co. AG., 28, Aeschengraben, Basle.A 459a, A 2084a, C 1457, 1458"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1081,1277,75/max/0/default.jpg",
+            "xywh": "185, 1081, 1277, 75"
+        }
+    },
+    "short_id": "B360",
+    "label": "Im Obersteg (Hans) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-13-A459a",
+                    "short_id": "A459a"
+                }
+            ],
+            "description": "The swiss company B360 trades with the british company A459a"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-13-A2084a",
+                    "short_id": "A2084a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-13-C1457",
+                    "short_id": "C1457"
+                },
+                {
+                    "id": "BSCC-1951-128-13-C1458",
+                    "short_id": "C1458"
+                }
+            ],
+            "description": "The swiss company B360 trades with the british company A2084a in the goods C1457 and C1458"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Im Obersteg (Hans) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 28, Aeschengraben, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

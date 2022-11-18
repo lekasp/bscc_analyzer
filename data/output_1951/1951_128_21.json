@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-128-1951-21-B368",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "368. Inglo, Louis Jablonsky, 18, Brandschenkestrasse, Zurich, A 675, 1995, C 1173, 1177.",
+        "corrected": "368. Inglo, Louis Jablonsky, 18, Brandschenkestrasse, Zurich,A 675, 1995, C 1173, 1177"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 128,
+            "canvas": "http://localhost:8182/iiif/3/0128.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0128.jpg/185,1668,1277,81/max/0/default.jpg",
+            "xywh": "185, 1668, 1277, 81"
+        }
+    },
+    "short_id": "B368",
+    "label": "Inglo",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-128-21-A675",
+                    "short_id": "A675"
+                },
+                {
+                    "id": "BSCC-1951-128-21-A1995",
+                    "short_id": "A1995"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-128-21-C1173",
+                    "short_id": "C1173"
+                },
+                {
+                    "id": "BSCC-1951-128-21-C1177",
+                    "short_id": "C1177"
+                }
+            ],
+            "description": "The swiss company B368 trades with the british company A675 and A1995 in the goods C1173 and C1177"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Inglo"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "Louis Jablonsky, 18, Brandschenkestrasse, Zurich,"
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-48-1951-39-A803",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "803. Graesser (R.) Ltd., Sandycroft, Chester. B 728, C 905.",
+        "corrected": "803. Graesser (R.) Ltd., Sandycroft, Chester. B 728, C 905"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 48,
+            "canvas": "http://localhost:8182/iiif/3/0048.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0048.jpg/200,1792,1259,38/max/0/default.jpg",
+            "xywh": "200, 1792, 1259, 38"
+        }
+    },
+    "short_id": "A803",
+    "label": "Graesser (R.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-48-39-B728",
+                    "short_id": "B728"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-48-39-C905",
+                    "short_id": "C905"
+                }
+            ],
+            "description": "The british company A803 trades with the swiss company B728 in the goods C905"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Graesser (R.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2638528",
+            "lat": "53.19537",
+            "lng": "-2.9996",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sandycroft",
+            "transcription": " Sandycroft, Chester. "
+        },
+        {
+            "id": "2653228",
+            "lat": "53.1905",
+            "lng": "-2.89189",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Chester",
+            "transcription": " Sandycroft, Chester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

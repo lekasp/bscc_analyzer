@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-32-C455",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "455. Carbon products, general. A 1351, B 512.",
+        "corrected": "455. Carbon products, general. A 1351, B 512"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,1794,1245,40/max/0/default.jpg",
+            "xywh": "294, 1794, 1245, 40"
+        }
+    },
+    "short_id": "C455",
+    "label": "Carbon products, general",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-32-A1351",
+                    "short_id": "A1351"
+                },
+                {
+                    "id": "BSCC-1951-163-32-B512",
+                    "short_id": "B512"
+                }
+            ],
+            "description": "with the british company A1351"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Ef",
+            "level": 2,
+            "label": "SUNDRY EQUIPMENT",
+            "part_of": "4E",
+            "page": "163",
+            "line_number": "28"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-18-C1376",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1376. E. P. N. S. ware. A 544, 571, 632, 1699, B 50, 135, 429, 479,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,1204,1327,37/max/0/default.jpg",
+            "xywh": "181, 1204, 1327, 37"
+        }
+    },
+    "short_id": "C1376",
+    "label": "E. P. N. S. ware",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-18-A544",
+                    "short_id": "A544"
+                },
+                {
+                    "id": "BSCC-1951-190-18-A571",
+                    "short_id": "A571"
+                },
+                {
+                    "id": "BSCC-1951-190-18-A632",
+                    "short_id": "A632"
+                },
+                {
+                    "id": "BSCC-1951-190-18-A1699",
+                    "short_id": "A1699"
+                },
+                {
+                    "id": "BSCC-1951-190-18-B50",
+                    "short_id": "B50"
+                },
+                {
+                    "id": "BSCC-1951-190-18-B135",
+                    "short_id": "B135"
+                },
+                {
+                    "id": "BSCC-1951-190-18-B429",
+                    "short_id": "B429"
+                },
+                {
+                    "id": "BSCC-1951-190-18-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "description": "with the british company A544 and A571 and A632 and A1699 and B135 and B429 and B479"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "20",
+            "level": 0,
+            "label": "Cutlery, Silverware, Jewellery, etc.",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "14"
+        }
+    ]
+}

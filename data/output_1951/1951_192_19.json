@@ -1,0 +1,89 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-19-C1455",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1455. Airways. A 286, 298, 953, 1452, B 87, 119, 787,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,1328,1257,57/max/0/default.jpg",
+            "xywh": "222, 1328, 1257, 57"
+        }
+    },
+    "short_id": "C1455",
+    "label": "Airways",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-19-A286",
+                    "short_id": "A286"
+                },
+                {
+                    "id": "BSCC-1951-192-19-A298",
+                    "short_id": "A298"
+                },
+                {
+                    "id": "BSCC-1951-192-19-A953",
+                    "short_id": "A953"
+                },
+                {
+                    "id": "BSCC-1951-192-19-A1452",
+                    "short_id": "A1452"
+                },
+                {
+                    "id": "BSCC-1951-192-19-B87",
+                    "short_id": "B87"
+                },
+                {
+                    "id": "BSCC-1951-192-19-B119",
+                    "short_id": "B119"
+                },
+                {
+                    "id": "BSCC-1951-192-19-B787",
+                    "short_id": "B787"
+                }
+            ],
+            "description": "with the british company A286 and A298 and A953 and A1452 and B119 and B787"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "23",
+            "level": 0,
+            "label": "Travel and Transport",
+            "part_of": "0",
+            "page": "192",
+            "line_number": "18"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-56-1951-33-A981",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "981. Ibstock Knitting Co. Ltd., Ibstock, Leicester. B 180, C 1128a.",
+        "corrected": "981. Ibstock Knitting Co. Ltd., Ibstock, Leicester. B 180, C 1128a"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 56,
+            "canvas": "http://localhost:8182/iiif/3/0056.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0056.jpg/158,1765,1276,59/max/0/default.jpg",
+            "xywh": "158, 1765, 1276, 59"
+        }
+    },
+    "short_id": "A981",
+    "label": "Ibstock Knitting Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-56-33-B180",
+                    "short_id": "B180"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-56-33-C1128a",
+                    "short_id": "C1128a"
+                }
+            ],
+            "description": "The british company A981 trades with the swiss company B180 in the goods C1128a"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ibstock Knitting Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2646311",
+            "lat": "52.68554",
+            "lng": "-1.39965",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Ibstock",
+            "transcription": " Ibstock, Leicester. "
+        },
+        {
+            "id": "2644668",
+            "lat": "52.6386",
+            "lng": "-1.13169",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leicester",
+            "transcription": " Ibstock, Leicester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

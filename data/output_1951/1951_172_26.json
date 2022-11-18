@@ -1,0 +1,162 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-172-1951-26-C784",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "784. TECHNICAL RUBBER PRODUCTS, GENERAL. A 63, 348, 491, 562, 610, 642, 856, 991, 1007, 1152, 1603, 1656, 2072 - B 194 226, 253, 302, 378, 379, 439, 738, 783, 789, 812.",
+        "corrected": "784. TECHNICAL RUBBER PRODUCTS, GENERAL.A 63, 348, 491, 562, 610, 642, 856, 991, 1007, 1152, 1603, 1656, 2072 - B 194 226, 253, 302, 378, 379, 439, 738, 783, 789, 812"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 172,
+            "canvas": "http://localhost:8182/iiif/3/0172.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0172.jpg/205,1577,1259,132/max/0/default.jpg",
+            "xywh": "205, 1577, 1259, 132"
+        }
+    },
+    "short_id": "C784",
+    "label": "TECHNICAL RUBBER PRODUCTS, GENERAL",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-172-26-A63",
+                    "short_id": "A63"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A348",
+                    "short_id": "A348"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A491",
+                    "short_id": "A491"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A562",
+                    "short_id": "A562"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A610",
+                    "short_id": "A610"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A642",
+                    "short_id": "A642"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A856",
+                    "short_id": "A856"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A991",
+                    "short_id": "A991"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A1007",
+                    "short_id": "A1007"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A1152",
+                    "short_id": "A1152"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A1603",
+                    "short_id": "A1603"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A1656",
+                    "short_id": "A1656"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A253",
+                    "short_id": "A253"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A302",
+                    "short_id": "A302"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A378",
+                    "short_id": "A378"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A379",
+                    "short_id": "A379"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A439",
+                    "short_id": "A439"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A738",
+                    "short_id": "A738"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A783",
+                    "short_id": "A783"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A789",
+                    "short_id": "A789"
+                },
+                {
+                    "id": "BSCC-1951-172-26-A812",
+                    "short_id": "A812"
+                }
+            ],
+            "description": "with the british company A63 and A348 and A491 and A562 and A610 and A642 and A856 and A991 and A1007 and A1152 and A1603 and A1656 and A253 and A302 and A378 and A379 and A439 and A738 and A783 and A789 and A812"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "9",
+            "level": 0,
+            "label": "Rubber, Plastics, Asbestos",
+            "part_of": "0",
+            "page": "172",
+            "line_number": "10"
+        },
+        {
+            "id": "9A",
+            "level": 1,
+            "label": "Rubber and Rubber Products",
+            "part_of": "9",
+            "page": "172",
+            "line_number": "11"
+        },
+        {
+            "id": "9Ac",
+            "level": 2,
+            "label": "TECHNICAL RUBBER PRODUCTS",
+            "part_of": "9A",
+            "page": "172",
+            "line_number": "25"
+        }
+    ]
+}

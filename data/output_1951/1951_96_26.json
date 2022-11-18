@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-96-1951-26-A1948",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1948. Treforest Chrome Leather Works, Pontypridd, Glam. B 475, C 862.",
+        "corrected": "1948. Treforest Chrome Leather Works, Pontypridd, Glam. B 475, C 862"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 96,
+            "canvas": "http://localhost:8182/iiif/3/0096.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0096.jpg/164,1423,1288,40/max/0/default.jpg",
+            "xywh": "164, 1423, 1288, 40"
+        }
+    },
+    "short_id": "A1948",
+    "label": "Treforest Chrome Leather Works",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-96-26-B475",
+                    "short_id": "B475"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-96-26-C862",
+                    "short_id": "C862"
+                }
+            ],
+            "description": "The british company A1948 trades with the swiss company B475 in the goods C862"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Treforest Chrome Leather Works"
+        }
+    ],
+    "location": [
+        {
+            "id": "2640104",
+            "lat": "51.6021",
+            "lng": "-3.34211",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Pontypridd",
+            "transcription": ", Pontypridd, Glam. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

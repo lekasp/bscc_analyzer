@@ -1,0 +1,90 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-191-1951-3-C1399",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1399. Fishing rods. A 9, 866, 1509, B 107, 234.",
+        "corrected": "1399. Fishing rods. A 9, 866, 1509, B 107, 234"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 191,
+            "canvas": "http://localhost:8182/iiif/3/0191.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0191.jpg/304,352,1305,43/max/0/default.jpg",
+            "xywh": "304, 352, 1305, 43"
+        }
+    },
+    "short_id": "C1399",
+    "label": "Fishing rods",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-191-3-A9",
+                    "short_id": "A9"
+                },
+                {
+                    "id": "BSCC-1951-191-3-A866",
+                    "short_id": "A866"
+                },
+                {
+                    "id": "BSCC-1951-191-3-A1509",
+                    "short_id": "A1509"
+                },
+                {
+                    "id": "BSCC-1951-191-3-B107",
+                    "short_id": "B107"
+                },
+                {
+                    "id": "BSCC-1951-191-3-B234",
+                    "short_id": "B234"
+                }
+            ],
+            "description": "with the british company A9 and A866 and A1509 and B234"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21A",
+            "level": 1,
+            "label": "Sports Goods",
+            "part_of": "21",
+            "page": "190",
+            "line_number": "30"
+        }
+    ]
+}

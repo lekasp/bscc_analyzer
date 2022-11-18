@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-22-A649",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "649. Eno (J. C.) Ltd., Watford. B 179, 569, C 939.",
+        "corrected": "649. Eno (J. C.) Ltd., Watford. B 179, 569, C 939"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,1170,1259,38/max/0/default.jpg",
+            "xywh": "194, 1170, 1259, 38"
+        }
+    },
+    "short_id": "A649",
+    "label": "Eno (J. C.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-22-B179",
+                    "short_id": "B179"
+                },
+                {
+                    "id": "BSCC-1951-42-22-B569",
+                    "short_id": "B569"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-22-C939",
+                    "short_id": "C939"
+                }
+            ],
+            "description": "The british company A649 trades with the swiss company B179 and B569 in the goods C939"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Eno (J. C.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634677",
+            "lat": "51.65531",
+            "lng": "-0.39602",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Watford",
+            "transcription": " Watford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

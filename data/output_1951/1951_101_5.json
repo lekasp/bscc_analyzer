@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-101-1951-5-A2148",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "2148. Windolite Ltd., Harlow, Essex. B 496, C 719.",
+        "corrected": "2148. Windolite Ltd., Harlow, Essex. B 496, C 719"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 101,
+            "canvas": "http://localhost:8182/iiif/3/0101.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0101.jpg/343,441,1264,40/max/0/default.jpg",
+            "xywh": "343, 441, 1264, 40"
+        }
+    },
+    "short_id": "A2148",
+    "label": "Windolite Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-101-5-B496",
+                    "short_id": "B496"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-101-5-C719",
+                    "short_id": "C719"
+                }
+            ],
+            "description": "The british company A2148 trades with the swiss company B496 in the goods C719"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Windolite Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647461",
+            "lat": "51.77655",
+            "lng": "0.11158",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Harlow",
+            "transcription": " Harlow, Essex. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

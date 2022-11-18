@@ -1,0 +1,114 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-18-1951-31-A120",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "120. Avon India Rubber Co. Ltd., Melksham, Wilts. B 160, C 808; B 226, C 780, 781; B 508, C 1408.",
+        "corrected": "120. Avon India Rubber Co. Ltd., Melksham, Wilts.B 160, C 808; B 226, C 780, 781; B 508, C 1408"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 18,
+            "canvas": "http://localhost:8182/iiif/3/0018.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0018.jpg/219,1606,1236,82/max/0/default.jpg",
+            "xywh": "219, 1606, 1236, 82"
+        }
+    },
+    "short_id": "A120",
+    "label": "Avon India Rubber Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-31-B160",
+                    "short_id": "B160"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-31-C808",
+                    "short_id": "C808"
+                }
+            ],
+            "description": "The british company A120 trades with the swiss company B160 in the goods C808"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-31-B226",
+                    "short_id": "B226"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-31-C780",
+                    "short_id": "C780"
+                },
+                {
+                    "id": "BSCC-1951-18-31-C781",
+                    "short_id": "C781"
+                }
+            ],
+            "description": "The british company A120 trades with the swiss company B226 in the goods C780 and C781"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-18-31-B508",
+                    "short_id": "B508"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-18-31-C1408",
+                    "short_id": "C1408"
+                }
+            ],
+            "description": "The british company A120 trades with the swiss company B508 in the goods C1408"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Avon India Rubber Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642786",
+            "lat": "51.37281",
+            "lng": "-2.14002",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Melksham",
+            "transcription": " Melksham, Wilts."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

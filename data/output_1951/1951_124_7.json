@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-7-B234",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "234. Fischerei- & Sportartikel AG., 1, Stadthausquai, Zurich. A 9, 519, 1137, 1444, 2196, C 1397, 1398, 1399, 1400.",
+        "corrected": "234. Fischerei- & Sportartikel AG., 1, Stadthausquai, Zurich.A 9, 519, 1137, 1444, 2196, C 1397, 1398, 1399, 1400"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,766,1320,78/max/0/default.jpg",
+            "xywh": "166, 766, 1320, 78"
+        }
+    },
+    "short_id": "B234",
+    "label": "Fischerei- & Sportartikel AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-7-A9",
+                    "short_id": "A9"
+                },
+                {
+                    "id": "BSCC-1951-124-7-A519",
+                    "short_id": "A519"
+                },
+                {
+                    "id": "BSCC-1951-124-7-A1137",
+                    "short_id": "A1137"
+                },
+                {
+                    "id": "BSCC-1951-124-7-A1444",
+                    "short_id": "A1444"
+                },
+                {
+                    "id": "BSCC-1951-124-7-A2196",
+                    "short_id": "A2196"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-7-C1397",
+                    "short_id": "C1397"
+                },
+                {
+                    "id": "BSCC-1951-124-7-C1398",
+                    "short_id": "C1398"
+                },
+                {
+                    "id": "BSCC-1951-124-7-C1399",
+                    "short_id": "C1399"
+                },
+                {
+                    "id": "BSCC-1951-124-7-C1400",
+                    "short_id": "C1400"
+                }
+            ],
+            "description": "The swiss company B234 trades with the british company A9 and A519 and A1137 and A1444 and A2196 in the goods C1397 and C1398 and C1399 and C1400"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fischerei- & Sportartikel AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 1, Stadthausquai, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

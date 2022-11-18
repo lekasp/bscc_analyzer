@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-38-1951-47-A582",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "582. Dorman (W. H.) & Co. Ltd., Stafford. B 470, C 418.",
+        "corrected": "582. Dorman (W. H.) & Co. Ltd., Stafford. B 470, C 418"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 38,
+            "canvas": "http://localhost:8182/iiif/3/0038.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0038.jpg/192,2173,1111,62/max/0/default.jpg",
+            "xywh": "192, 2173, 1111, 62"
+        }
+    },
+    "short_id": "A582",
+    "label": "Dorman (W. H.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-38-47-B470",
+                    "short_id": "B470"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-38-47-C418",
+                    "short_id": "C418"
+                }
+            ],
+            "description": "The british company A582 trades with the swiss company B470 in the goods C418"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dorman (W. H.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637142",
+            "lat": "52.80521",
+            "lng": "-2.11636",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stafford",
+            "transcription": " Stafford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-169-1951-9-C657",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "657. Gamma-ray machines. A 669, B 487.",
+        "corrected": "657. Gamma-ray machines. A 669, B 487"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 169,
+            "canvas": "http://localhost:8182/iiif/3/0169.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0169.jpg/309,771,1320,38/max/0/default.jpg",
+            "xywh": "309, 771, 1320, 38"
+        }
+    },
+    "short_id": "C657",
+    "label": "Gamma-ray machines",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-169-9-A669",
+                    "short_id": "A669"
+                },
+                {
+                    "id": "BSCC-1951-169-9-B487",
+                    "short_id": "B487"
+                }
+            ],
+            "description": "with the british company A669"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "7",
+            "level": 0,
+            "label": "Measuring, Control and Scientific Instruments",
+            "part_of": "0",
+            "page": "169",
+            "line_number": "4"
+        },
+        {
+            "id": "7A",
+            "level": 1,
+            "label": "Electric and Electronic",
+            "part_of": "7",
+            "page": "169",
+            "line_number": "6"
+        }
+    ]
+}

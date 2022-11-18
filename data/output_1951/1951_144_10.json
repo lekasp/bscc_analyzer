@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-10-B822",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "822. Wiedmer (Percy), Garage Moderne, 13, Aeschengraben, Basle. A 1661+ C 562, 563.",
+        "corrected": "822. Wiedmer (Percy), Garage Moderne, 13, Aeschengraben, Basle.A 1661+ C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,957,1324,76/max/0/default.jpg",
+            "xywh": "195, 957, 1324, 76"
+        }
+    },
+    "short_id": "B822",
+    "label": "Wiedmer (Percy)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-10-A1661+C562",
+                    "short_id": "A1661+C562"
+                },
+                {
+                    "id": "BSCC-1951-144-10-A563",
+                    "short_id": "A563"
+                }
+            ],
+            "description": "The swiss company B822 trades with the british company A1661+C562 and A563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Wiedmer (Percy)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": "Garage Moderne, 13, Aeschengraben, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

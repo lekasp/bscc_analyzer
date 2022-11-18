@@ -1,0 +1,122 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-181-1951-1-C1082",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1082. Wool, waste. A 12, 214, 259, 260, 494, 995, 1105, 2096, B 248, 256, 426, 540, 579.",
+        "corrected": "1082. Wool, waste.A 12, 214, 259, 260, 494, 995, 1105, 2096, B 248, 256, 426, 540, 579"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 181,
+            "canvas": "http://localhost:8182/iiif/3/0181.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0181.jpg/320,274,1271,77/max/0/default.jpg",
+            "xywh": "320, 274, 1271, 77"
+        }
+    },
+    "short_id": "C1082",
+    "label": "Wool, waste",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-181-1-A12",
+                    "short_id": "A12"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A214",
+                    "short_id": "A214"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A259",
+                    "short_id": "A259"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A260",
+                    "short_id": "A260"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A494",
+                    "short_id": "A494"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A995",
+                    "short_id": "A995"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A1105",
+                    "short_id": "A1105"
+                },
+                {
+                    "id": "BSCC-1951-181-1-A2096",
+                    "short_id": "A2096"
+                },
+                {
+                    "id": "BSCC-1951-181-1-B248",
+                    "short_id": "B248"
+                },
+                {
+                    "id": "BSCC-1951-181-1-B256",
+                    "short_id": "B256"
+                },
+                {
+                    "id": "BSCC-1951-181-1-B426",
+                    "short_id": "B426"
+                },
+                {
+                    "id": "BSCC-1951-181-1-B540",
+                    "short_id": "B540"
+                },
+                {
+                    "id": "BSCC-1951-181-1-B579",
+                    "short_id": "B579"
+                }
+            ],
+            "description": "with the british company A12 and A214 and A259 and A260 and A494 and A995 and A1105 and A2096 and B256 and B426 and B540 and B579"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15A",
+            "level": 1,
+            "label": "Textile Raw Materials",
+            "part_of": "15",
+            "page": "180",
+            "line_number": "29"
+        }
+    ]
+}

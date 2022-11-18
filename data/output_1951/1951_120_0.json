@@ -1,0 +1,74 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-120-1951-0-B106",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 106. “B. P.“ Benzin & Petroleum AG., 35, Uraniastrasse, Zurich. * A 65, C 65, 68.",
+        "corrected": "106. “B. P.“ Benzin & Petroleum AG., 35, Uraniastrasse, Zurich.* A 65, C 65, 68"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 120,
+            "canvas": "http://localhost:8182/iiif/3/0120.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0120.jpg/159,207,1348,115/max/0/default.jpg",
+            "xywh": "159, 207, 1348, 115"
+        }
+    },
+    "short_id": "B106",
+    "label": "“B. P.“ Benzin & Petroleum AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-120-0-A65",
+                    "short_id": "A65"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-120-0-C65",
+                    "short_id": "C65"
+                },
+                {
+                    "id": "BSCC-1951-120-0-C68",
+                    "short_id": "C68"
+                }
+            ],
+            "description": "The swiss company B106 trades with the british company A65 in the goods C65 and C68"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "“B. P.“ Benzin & Petroleum AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 35, Uraniastrasse, Zurich.* "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-136-1951-2-B581",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "581. Poltéra, Masserey & Cie., 8, rue de Fribourg, Geneva. A 444, 1221, 1418, 2132, C 51, 53, 57.",
+        "corrected": "581. Poltéra, Masserey & Cie., 8, rue de Fribourg, Geneva.A 444, 1221, 1418, 2132, C 51, 53, 57"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 136,
+            "canvas": "http://localhost:8182/iiif/3/0136.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0136.jpg/183,346,1317,78/max/0/default.jpg",
+            "xywh": "183, 346, 1317, 78"
+        }
+    },
+    "short_id": "B581",
+    "label": "Poltéra, Masserey & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-136-2-A444",
+                    "short_id": "A444"
+                },
+                {
+                    "id": "BSCC-1951-136-2-A1221",
+                    "short_id": "A1221"
+                },
+                {
+                    "id": "BSCC-1951-136-2-A1418",
+                    "short_id": "A1418"
+                },
+                {
+                    "id": "BSCC-1951-136-2-A2132",
+                    "short_id": "A2132"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-136-2-C51",
+                    "short_id": "C51"
+                },
+                {
+                    "id": "BSCC-1951-136-2-C53",
+                    "short_id": "C53"
+                },
+                {
+                    "id": "BSCC-1951-136-2-C57",
+                    "short_id": "C57"
+                }
+            ],
+            "description": "The swiss company B581 trades with the british company A444 and A1221 and A1418 and A2132 in the goods C51 and C53 and C57"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Poltéra, Masserey & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 8, rue de Fribourg, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

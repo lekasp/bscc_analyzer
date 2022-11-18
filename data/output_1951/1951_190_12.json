@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-190-1951-12-C1371",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1371. Oven glassware. A 288, 1029, B 37, 479.",
+        "corrected": "1371. Oven glassware. A 288, 1029, B 37, 479"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 190,
+            "canvas": "http://localhost:8182/iiif/3/0190.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0190.jpg/181,842,1327,37/max/0/default.jpg",
+            "xywh": "181, 842, 1327, 37"
+        }
+    },
+    "short_id": "C1371",
+    "label": "Oven glassware",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-190-12-A288",
+                    "short_id": "A288"
+                },
+                {
+                    "id": "BSCC-1951-190-12-A1029",
+                    "short_id": "A1029"
+                },
+                {
+                    "id": "BSCC-1951-190-12-B37",
+                    "short_id": "B37"
+                },
+                {
+                    "id": "BSCC-1951-190-12-B479",
+                    "short_id": "B479"
+                }
+            ],
+            "description": "with the british company A288 and A1029 and B479"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "19",
+            "level": 0,
+            "label": "Ceramics and Glassware",
+            "part_of": "0",
+            "page": "189",
+            "line_number": "32"
+        },
+        {
+            "id": "19B",
+            "level": 1,
+            "label": "Glassware",
+            "part_of": "19",
+            "page": "190",
+            "line_number": "7"
+        }
+    ]
+}

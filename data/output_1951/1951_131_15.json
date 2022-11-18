@@ -1,0 +1,168 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-15-B452",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "452. Ludwig (E.), 6, Rotbuchstrasse, Zurich. A 16, 837, 893, 954, 1409, 1454, 1640, C 785, 1095, 1108, 1109, 1110, 1115, 1118, 1138, 1138a, 1143, 1145, 1146, 1147, 1149a, 1150, 1225, 1260.",
+        "corrected": "452. Ludwig (E.), 6, Rotbuchstrasse, Zurich.A 16, 837, 893, 954, 1409, 1454, 1640, C 785, 1095, 1108, 1109, 1110, 1115, 1118, 1138, 1138a, 1143, 1145, 1146, 1147, 1149a, 1150, 1225, 1260"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,1189,1265,116/max/0/default.jpg",
+            "xywh": "316, 1189, 1265, 116"
+        }
+    },
+    "short_id": "B452",
+    "label": "Ludwig (E.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-15-A16",
+                    "short_id": "A16"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A837",
+                    "short_id": "A837"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A893",
+                    "short_id": "A893"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A954",
+                    "short_id": "A954"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A1409",
+                    "short_id": "A1409"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A1454",
+                    "short_id": "A1454"
+                },
+                {
+                    "id": "BSCC-1951-131-15-A1640",
+                    "short_id": "A1640"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-15-C785",
+                    "short_id": "C785"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1095",
+                    "short_id": "C1095"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1109",
+                    "short_id": "C1109"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1110",
+                    "short_id": "C1110"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1115",
+                    "short_id": "C1115"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1118",
+                    "short_id": "C1118"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1138",
+                    "short_id": "C1138"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1138a",
+                    "short_id": "C1138a"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1143",
+                    "short_id": "C1143"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1145",
+                    "short_id": "C1145"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1146",
+                    "short_id": "C1146"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1147",
+                    "short_id": "C1147"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1149a",
+                    "short_id": "C1149a"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1150",
+                    "short_id": "C1150"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1225",
+                    "short_id": "C1225"
+                },
+                {
+                    "id": "BSCC-1951-131-15-C1260",
+                    "short_id": "C1260"
+                }
+            ],
+            "description": "The swiss company B452 trades with the british company A16 and A837 and A893 and A954 and A1409 and A1454 and A1640 in the goods C785 and C1095 and C1108 and C1109 and C1110 and C1115 and C1118 and C1138 and C1138a and C1143 and C1145 and C1146 and C1147 and C1149a and C1150 and C1225 and C1260"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Ludwig (E.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "6, Rotbuchstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

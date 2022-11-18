@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-155-1951-33-C137",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "137. Wire, steel cable. A 337, B 123.",
+        "corrected": "137. Wire, steel cable. A 337, B 123"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 155,
+            "canvas": "http://localhost:8182/iiif/3/0155.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0155.jpg/264,1880,1337,53/max/0/default.jpg",
+            "xywh": "264, 1880, 1337, 53"
+        }
+    },
+    "short_id": "C137",
+    "label": "Wire, steel cable",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-155-33-A337",
+                    "short_id": "A337"
+                },
+                {
+                    "id": "BSCC-1951-155-33-B123",
+                    "short_id": "B123"
+                }
+            ],
+            "description": "with the british company A337"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3A",
+            "level": 1,
+            "label": "Iron and Steel",
+            "part_of": "3",
+            "page": "154",
+            "line_number": "27"
+        },
+        {
+            "id": "3Ab",
+            "level": 2,
+            "label": "IRON AND STEEL PRODUCTS",
+            "part_of": "3A",
+            "page": "155",
+            "line_number": "14"
+        }
+    ]
+}

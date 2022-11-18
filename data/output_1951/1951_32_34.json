@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-32-1951-34-A434",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 434. Clayton Aniline Co. Ltd., Clayton, Manchester. B 146, C 912, 922.",
+        "corrected": "434. Clayton Aniline Co. Ltd., Clayton, Manchester. B 146, C 912, 922"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 32,
+            "canvas": "http://localhost:8182/iiif/3/0032.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0032.jpg/223,1624,1184,40/max/0/default.jpg",
+            "xywh": "223, 1624, 1184, 40"
+        }
+    },
+    "short_id": "A434",
+    "label": "Clayton Aniline Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-32-34-B146",
+                    "short_id": "B146"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-32-34-C912",
+                    "short_id": "C912"
+                },
+                {
+                    "id": "BSCC-1951-32-34-C922",
+                    "short_id": "C922"
+                }
+            ],
+            "description": "The british company A434 trades with the swiss company B146 in the goods C912 and C922"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clayton Aniline Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643123",
+            "lat": "53.48095",
+            "lng": "-2.23743",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Manchester",
+            "transcription": " Clayton, Manchester. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-131-1951-11-B448",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "448. Locher-Zweifel (E.) & Co., 6, Jenatschstrasse, Zurich. A 252, C 575.",
+        "corrected": "448. Locher-Zweifel (E.) & Co., 6, Jenatschstrasse, Zurich. A 252, C 575"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 131,
+            "canvas": "http://localhost:8182/iiif/3/0131.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0131.jpg/316,949,1265,44/max/0/default.jpg",
+            "xywh": "316, 949, 1265, 44"
+        }
+    },
+    "short_id": "B448",
+    "label": "Locher-Zweifel (E.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-131-11-A252",
+                    "short_id": "A252"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-131-11-C575",
+                    "short_id": "C575"
+                }
+            ],
+            "description": "The swiss company B448 trades with the british company A252 in the goods C575"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Locher-Zweifel (E.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 6, Jenatschstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

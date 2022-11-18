@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-22-C89",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "89. Paint industry raw materials. A 614, B 97.",
+        "corrected": "89. Paint industry raw materials. A 614, B 97"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,1192,1243,44/max/0/default.jpg",
+            "xywh": "202, 1192, 1243, 44"
+        }
+    },
+    "short_id": "C89",
+    "label": "Paint industry raw materials",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-22-A614",
+                    "short_id": "A614"
+                },
+                {
+                    "id": "BSCC-1951-154-22-B97",
+                    "short_id": "B97"
+                }
+            ],
+            "description": "with the british company A614"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "2",
+            "level": 0,
+            "label": "Fuel, Oils and Fats, Raw Materials",
+            "part_of": "0",
+            "page": "153",
+            "line_number": "24"
+        },
+        {
+            "id": "2D",
+            "level": 1,
+            "label": "Raw Materials not specified elsewhere",
+            "part_of": "2",
+            "page": "154",
+            "line_number": "12"
+        }
+    ]
+}

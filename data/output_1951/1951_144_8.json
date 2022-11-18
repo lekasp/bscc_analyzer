@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-144-1951-8-B820",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "820. Widmer-Huber (Adolf), 5a, Teufenerstrasse, St. Gall. A 1963, C 1011, 1018, 1036.",
+        "corrected": "820. Widmer-Huber (Adolf), 5a, Teufenerstrasse, St. Gall.A 1963, C 1011, 1018, 1036"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 144,
+            "canvas": "http://localhost:8182/iiif/3/0144.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0144.jpg/195,839,1324,77/max/0/default.jpg",
+            "xywh": "195, 839, 1324, 77"
+        }
+    },
+    "short_id": "B820",
+    "label": "Widmer-Huber (Adolf)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-144-8-A1963",
+                    "short_id": "A1963"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-144-8-C1011",
+                    "short_id": "C1011"
+                },
+                {
+                    "id": "BSCC-1951-144-8-C1018",
+                    "short_id": "C1018"
+                },
+                {
+                    "id": "BSCC-1951-144-8-C1036",
+                    "short_id": "C1036"
+                }
+            ],
+            "description": "The swiss company B820 trades with the british company A1963 in the goods C1011 and C1018 and C1036"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Widmer-Huber (Adolf)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658822",
+            "lat": "47.42391",
+            "lng": "9.37477",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Saint Gallen",
+            "transcription": "5a, Teufenerstrasse, St. Gall."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

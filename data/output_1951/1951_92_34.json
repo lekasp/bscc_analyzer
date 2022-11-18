@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-92-1951-34-A1776",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1776. Sixten & Cassey Ltd., London W 1. B 538, C 1141.",
+        "corrected": "1776. Sixten & Cassey Ltd., London W 1. B 538, C 1141"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 92,
+            "canvas": "http://localhost:8182/iiif/3/0092.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0092.jpg/190,1629,1276,39/max/0/default.jpg",
+            "xywh": "190, 1629, 1276, 39"
+        }
+    },
+    "short_id": "A1776",
+    "label": "Sixten & Cassey Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-92-34-B538",
+                    "short_id": "B538"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-92-34-C1141",
+                    "short_id": "C1141"
+                }
+            ],
+            "description": "The british company A1776 trades with the swiss company B538 in the goods C1141"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Sixten & Cassey Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London W 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

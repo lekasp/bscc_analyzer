@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-170-1951-9-C697",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "697. Thermometers. A 307, 375, 1792, B 307, 544, 764.",
+        "corrected": "697. Thermometers. A 307, 375, 1792, B 307, 544, 764"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 170,
+            "canvas": "http://localhost:8182/iiif/3/0170.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0170.jpg/205,634,1295,42/max/0/default.jpg",
+            "xywh": "205, 634, 1295, 42"
+        }
+    },
+    "short_id": "C697",
+    "label": "Thermometers",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-170-9-A307",
+                    "short_id": "A307"
+                },
+                {
+                    "id": "BSCC-1951-170-9-A375",
+                    "short_id": "A375"
+                },
+                {
+                    "id": "BSCC-1951-170-9-A1792",
+                    "short_id": "A1792"
+                },
+                {
+                    "id": "BSCC-1951-170-9-B307",
+                    "short_id": "B307"
+                },
+                {
+                    "id": "BSCC-1951-170-9-B544",
+                    "short_id": "B544"
+                },
+                {
+                    "id": "BSCC-1951-170-9-B764",
+                    "short_id": "B764"
+                }
+            ],
+            "description": "with the british company A307 and A375 and A1792 and B544 and B764"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "7",
+            "level": 0,
+            "label": "Measuring, Control and Scientific Instruments",
+            "part_of": "0",
+            "page": "169",
+            "line_number": "4"
+        },
+        {
+            "id": "7B",
+            "level": 1,
+            "label": "General",
+            "part_of": "7",
+            "page": "169",
+            "line_number": "24"
+        }
+    ]
+}

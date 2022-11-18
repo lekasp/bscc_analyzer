@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-16-1951-27-A71",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "71. Annolt (H.), London EC 3. B 267, C 7.",
+        "corrected": "71. Annolt (H.), London EC 3. B 267, C 7"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 16,
+            "canvas": "http://localhost:8182/iiif/3/0016.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0016.jpg/192,1436,1233,39/max/0/default.jpg",
+            "xywh": "192, 1436, 1233, 39"
+        }
+    },
+    "short_id": "A71",
+    "label": "Annolt (H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-16-27-B267",
+                    "short_id": "B267"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-16-27-C7",
+                    "short_id": "C7"
+                }
+            ],
+            "description": "The british company A71 trades with the swiss company B267 in the goods C7"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Annolt (H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": "London EC 3. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

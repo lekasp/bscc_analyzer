@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-29-C893",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "893. Stiffening material. A 116, B 496.",
+        "corrected": "893. Stiffening material. A 116, B 496"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,1538,1247,61/max/0/default.jpg",
+            "xywh": "296, 1538, 1247, 61"
+        }
+    },
+    "short_id": "C893",
+    "label": "Stiffening material",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-29-A116",
+                    "short_id": "A116"
+                },
+                {
+                    "id": "BSCC-1951-175-29-B496",
+                    "short_id": "B496"
+                }
+            ],
+            "description": "with the british company A116"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10C",
+            "level": 1,
+            "label": "Footwear Components and Accessories, Shoemakers' Supplies",
+            "part_of": "10",
+            "page": "175",
+            "line_number": "12"
+        }
+    ]
+}

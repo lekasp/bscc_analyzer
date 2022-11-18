@@ -1,0 +1,132 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-13-B479",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 479. Mayer (Guido) S.A., 9, rue du Port-Franc, Lausanne. A 288, 460, 648, 790, 849, 1135, 1634, 1699, C 412, 995, 1309, 1371, 1376, 1382, 1386.",
+        "corrected": "479. Mayer (Guido) S.A., 9, rue du Port-Franc, Lausanne.A 288, 460, 648, 790, 849, 1135, 1634, 1699, C 412, 995, 1309, 1371, 1376, 1382, 1386"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,1252,1311,118/max/0/default.jpg",
+            "xywh": "167, 1252, 1311, 118"
+        }
+    },
+    "short_id": "B479",
+    "label": "Mayer (Guido) S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-13-A288",
+                    "short_id": "A288"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A460",
+                    "short_id": "A460"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A648",
+                    "short_id": "A648"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A790",
+                    "short_id": "A790"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A849",
+                    "short_id": "A849"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A1135",
+                    "short_id": "A1135"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A1634",
+                    "short_id": "A1634"
+                },
+                {
+                    "id": "BSCC-1951-132-13-A1699",
+                    "short_id": "A1699"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-13-C412",
+                    "short_id": "C412"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C995",
+                    "short_id": "C995"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C1309",
+                    "short_id": "C1309"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C1371",
+                    "short_id": "C1371"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C1376",
+                    "short_id": "C1376"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C1382",
+                    "short_id": "C1382"
+                },
+                {
+                    "id": "BSCC-1951-132-13-C1386",
+                    "short_id": "C1386"
+                }
+            ],
+            "description": "The swiss company B479 trades with the british company A288 and A460 and A648 and A790 and A849 and A1135 and A1634 and A1699 in the goods C412 and C995 and C1309 and C1371 and C1376 and C1382 and C1386"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mayer (Guido) S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659994",
+            "lat": "46.516",
+            "lng": "6.63282",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Lausanne",
+            "transcription": " 9, rue du Port-Franc, Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

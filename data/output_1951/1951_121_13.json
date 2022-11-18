@@ -1,0 +1,98 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-13-B148",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 148. Clensol S. à r. l., 70, Grand'rue, Lutry/Lausanne. A 32, 57, 380, 588, C 729, 736, 739, 980, 1361.",
+        "corrected": "148. Clensol S. à r. l., 70, Grand'rue, Lutry/Lausanne.A 32, 57, 380, 588, C 729, 736, 739, 980, 1361"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,908,1272,81/max/0/default.jpg",
+            "xywh": "309, 908, 1272, 81"
+        }
+    },
+    "short_id": "B148",
+    "label": "Clensol S. à r. l.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-13-A32",
+                    "short_id": "A32"
+                },
+                {
+                    "id": "BSCC-1951-121-13-A57",
+                    "short_id": "A57"
+                },
+                {
+                    "id": "BSCC-1951-121-13-A380",
+                    "short_id": "A380"
+                },
+                {
+                    "id": "BSCC-1951-121-13-A588",
+                    "short_id": "A588"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-13-C729",
+                    "short_id": "C729"
+                },
+                {
+                    "id": "BSCC-1951-121-13-C736",
+                    "short_id": "C736"
+                },
+                {
+                    "id": "BSCC-1951-121-13-C739",
+                    "short_id": "C739"
+                },
+                {
+                    "id": "BSCC-1951-121-13-C980",
+                    "short_id": "C980"
+                },
+                {
+                    "id": "BSCC-1951-121-13-C1361",
+                    "short_id": "C1361"
+                }
+            ],
+            "description": "The swiss company B148 trades with the british company A32 and A57 and A380 and A588 in the goods C729 and C736 and C739 and C980 and C1361"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Clensol S. à r. l."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 70, Grand'rue, Lutry/Lausanne."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

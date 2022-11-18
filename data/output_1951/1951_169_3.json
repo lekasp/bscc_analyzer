@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-169-1951-3-C654",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "654. Traffic signals. A 113, B 15.",
+        "corrected": "654. Traffic signals. A 113, B 15"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 169,
+            "canvas": "http://localhost:8182/iiif/3/0169.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0169.jpg/309,379,1320,52/max/0/default.jpg",
+            "xywh": "309, 379, 1320, 52"
+        }
+    },
+    "short_id": "C654",
+    "label": "Traffic signals",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-169-3-A113",
+                    "short_id": "A113"
+                },
+                {
+                    "id": "BSCC-1951-169-3-B15",
+                    "short_id": "B15"
+                }
+            ],
+            "description": "with the british company A113"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6J",
+            "level": 1,
+            "label": "Road Traffic Equipment",
+            "part_of": "6",
+            "page": "169",
+            "line_number": "0"
+        }
+    ]
+}

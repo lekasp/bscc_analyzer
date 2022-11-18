@@ -1,0 +1,82 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-15-B150",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "150. Cohn (Alfred), 6, Tiefackerstrasse, Adliswil (Zürich). A 347, 827, 1441, C 1226, 1227.",
+        "corrected": "150. Cohn (Alfred), 6, Tiefackerstrasse, Adliswil (Zürich).A 347, 827, 1441, C 1226, 1227"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1030,1272,80/max/0/default.jpg",
+            "xywh": "309, 1030, 1272, 80"
+        }
+    },
+    "short_id": "B150",
+    "label": "Cohn (Alfred)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-15-A347",
+                    "short_id": "A347"
+                },
+                {
+                    "id": "BSCC-1951-121-15-A827",
+                    "short_id": "A827"
+                },
+                {
+                    "id": "BSCC-1951-121-15-A1441",
+                    "short_id": "A1441"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-15-C1226",
+                    "short_id": "C1226"
+                },
+                {
+                    "id": "BSCC-1951-121-15-C1227",
+                    "short_id": "C1227"
+                }
+            ],
+            "description": "The swiss company B150 trades with the british company A347 and A827 and A1441 in the goods C1226 and C1227"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cohn (Alfred)"
+        }
+    ],
+    "location": [
+        {
+            "transcription": "6, Tiefackerstrasse, Adliswil (Zürich)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

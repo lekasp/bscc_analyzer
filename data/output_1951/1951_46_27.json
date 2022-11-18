@@ -1,0 +1,92 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-46-1951-27-A748",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "748. Gandy Ltd., Wallasey, Cheshire. B 433, C 352, 426, 575, 581.",
+        "corrected": "748. Gandy Ltd., Wallasey, Cheshire. B 433, C 352, 426, 575, 581"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 46,
+            "canvas": "http://localhost:8182/iiif/3/0046.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0046.jpg/190,1514,1256,39/max/0/default.jpg",
+            "xywh": "190, 1514, 1256, 39"
+        }
+    },
+    "short_id": "A748",
+    "label": "Gandy Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-46-27-B433",
+                    "short_id": "B433"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-46-27-C352",
+                    "short_id": "C352"
+                },
+                {
+                    "id": "BSCC-1951-46-27-C426",
+                    "short_id": "C426"
+                },
+                {
+                    "id": "BSCC-1951-46-27-C575",
+                    "short_id": "C575"
+                },
+                {
+                    "id": "BSCC-1951-46-27-C581",
+                    "short_id": "C581"
+                }
+            ],
+            "description": "The british company A748 trades with the swiss company B433 in the goods C352 and C426 and C575 and C581"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gandy Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634873",
+            "lat": "53.42324",
+            "lng": "-3.06497",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wallasey",
+            "transcription": " Wallasey, Cheshire. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

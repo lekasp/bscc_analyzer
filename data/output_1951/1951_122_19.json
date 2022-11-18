@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-19-B185",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "185. Dreyfus (Louis), 2, Schöngrünstrasse, Solothurn. A 875, C 192, 209.",
+        "corrected": "185. Dreyfus (Louis), 2, Schöngrünstrasse, Solothurn. A 875, C 192, 209"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,1386,1285,43/max/0/default.jpg",
+            "xywh": "169, 1386, 1285, 43"
+        }
+    },
+    "short_id": "B185",
+    "label": "Dreyfus (Louis)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-19-A875",
+                    "short_id": "A875"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-19-C192",
+                    "short_id": "C192"
+                },
+                {
+                    "id": "BSCC-1951-122-19-C209",
+                    "short_id": "C209"
+                }
+            ],
+            "description": "The swiss company B185 trades with the british company A875 in the goods C192 and C209"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dreyfus (Louis)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2658564",
+            "lat": "47.20791",
+            "lng": "7.53714",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Solothurn",
+            "transcription": "2, Schöngrünstrasse, Solothurn. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

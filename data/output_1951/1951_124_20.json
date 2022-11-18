@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-20-B247",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "247. Frebal AG., 5, Nauenstrasse, Basle. A 506, 595, 1507, 1646, C 1307, 1310, 1312, 1315, 1316, 1322, 1323, 1326.",
+        "corrected": "247. Frebal AG., 5, Nauenstrasse, Basle.A 506, 595, 1507, 1646, C 1307, 1310, 1312, 1315, 1316, 1322, 1323, 1326"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1559,1320,75/max/0/default.jpg",
+            "xywh": "166, 1559, 1320, 75"
+        }
+    },
+    "short_id": "B247",
+    "label": "Frebal AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-20-A506",
+                    "short_id": "A506"
+                },
+                {
+                    "id": "BSCC-1951-124-20-A595",
+                    "short_id": "A595"
+                },
+                {
+                    "id": "BSCC-1951-124-20-A1507",
+                    "short_id": "A1507"
+                },
+                {
+                    "id": "BSCC-1951-124-20-A1646",
+                    "short_id": "A1646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-20-C1307",
+                    "short_id": "C1307"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1310",
+                    "short_id": "C1310"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1312",
+                    "short_id": "C1312"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1315",
+                    "short_id": "C1315"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1316",
+                    "short_id": "C1316"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1322",
+                    "short_id": "C1322"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1323",
+                    "short_id": "C1323"
+                },
+                {
+                    "id": "BSCC-1951-124-20-C1326",
+                    "short_id": "C1326"
+                }
+            ],
+            "description": "The swiss company B247 trades with the british company A506 and A595 and A1507 and A1646 in the goods C1307 and C1310 and C1312 and C1315 and C1316 and C1322 and C1323 and C1326"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frebal AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 5, Nauenstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

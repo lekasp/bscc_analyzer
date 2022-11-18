@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-24-1951-24-A252",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "252. Brake Linings Ltd., Buxton. B 448, C 575.",
+        "corrected": "252. Brake Linings Ltd., Buxton. B 448, C 575"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 24,
+            "canvas": "http://localhost:8182/iiif/3/0024.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0024.jpg/194,1229,1252,40/max/0/default.jpg",
+            "xywh": "194, 1229, 1252, 40"
+        }
+    },
+    "short_id": "A252",
+    "label": "Brake Linings Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-24-24-B448",
+                    "short_id": "B448"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-24-24-C575",
+                    "short_id": "C575"
+                }
+            ],
+            "description": "The british company A252 trades with the swiss company B448 in the goods C575"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Brake Linings Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654141",
+            "lat": "53.25741",
+            "lng": "-1.90982",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Buxton",
+            "transcription": " Buxton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-143-1951-21-B804",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 804. Weiss (M.) & Co. AG., 45, Lavaterstrasse, Zurich. A 542, 929, 2165, C 1074, 1108, 1138.",
+        "corrected": "804. Weiss (M.) & Co. AG., 45, Lavaterstrasse, Zurich.A 542, 929, 2165, C 1074, 1108, 1138"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 143,
+            "canvas": "http://localhost:8182/iiif/3/0143.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0143.jpg/297,1746,1304,80/max/0/default.jpg",
+            "xywh": "297, 1746, 1304, 80"
+        }
+    },
+    "short_id": "B804",
+    "label": "Weiss (M.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-143-21-A542",
+                    "short_id": "A542"
+                },
+                {
+                    "id": "BSCC-1951-143-21-A929",
+                    "short_id": "A929"
+                },
+                {
+                    "id": "BSCC-1951-143-21-A2165",
+                    "short_id": "A2165"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-143-21-C1074",
+                    "short_id": "C1074"
+                },
+                {
+                    "id": "BSCC-1951-143-21-C1108",
+                    "short_id": "C1108"
+                },
+                {
+                    "id": "BSCC-1951-143-21-C1138",
+                    "short_id": "C1138"
+                }
+            ],
+            "description": "The swiss company B804 trades with the british company A542 and A929 and A2165 in the goods C1074 and C1108 and C1138"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Weiss (M.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 45, Lavaterstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

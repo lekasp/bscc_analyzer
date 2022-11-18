@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-9-B266",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "266. Gartenmann (C.) & Co. AG., 22, Laubeggstrasse, Berne. A 833, C 709.",
+        "corrected": "266. Gartenmann (C.) & Co. AG., 22, Laubeggstrasse, Berne. A 833, C 709"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,768,1317,40/max/0/default.jpg",
+            "xywh": "288, 768, 1317, 40"
+        }
+    },
+    "short_id": "B266",
+    "label": "Gartenmann (C.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-9-A833",
+                    "short_id": "A833"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-9-C709",
+                    "short_id": "C709"
+                }
+            ],
+            "description": "The swiss company B266 trades with the british company A833 in the goods C709"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gartenmann (C.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": " 22, Laubeggstrasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-82-1951-39-A1557",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1557. Powell Duffryn Carbon Products Ltd., Hayes, Middx. B 252, C 446, 481, 488, 701, 702.",
+        "corrected": "1557. Powell Duffryn Carbon Products Ltd., Hayes, Middx.B 252, C 446, 481, 488, 701, 702"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 82,
+            "canvas": "http://localhost:8182/iiif/3/0082.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0082.jpg/205,1820,1308,77/max/0/default.jpg",
+            "xywh": "205, 1820, 1308, 77"
+        }
+    },
+    "short_id": "A1557",
+    "label": "Powell Duffryn Carbon Products Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-82-39-B252",
+                    "short_id": "B252"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-82-39-C446",
+                    "short_id": "C446"
+                },
+                {
+                    "id": "BSCC-1951-82-39-C481",
+                    "short_id": "C481"
+                },
+                {
+                    "id": "BSCC-1951-82-39-C488",
+                    "short_id": "C488"
+                },
+                {
+                    "id": "BSCC-1951-82-39-C701",
+                    "short_id": "C701"
+                },
+                {
+                    "id": "BSCC-1951-82-39-C702",
+                    "short_id": "C702"
+                }
+            ],
+            "description": "The british company A1557 trades with the swiss company B252 in the goods C446 and C481 and C488 and C701 and C702"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Powell Duffryn Carbon Products Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2647261",
+            "lat": "51.51579",
+            "lng": "-0.4234",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hayes",
+            "transcription": " Hayes, Middx."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

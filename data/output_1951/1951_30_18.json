@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-30-1951-18-A377",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "377. Campbell (Henry) & Co. Ltd., Carmoney, Belfast. B 772, C 1097.",
+        "corrected": "377. Campbell (Henry) & Co. Ltd., Carmoney, Belfast. B 772, C 1097"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 30,
+            "canvas": "http://localhost:8182/iiif/3/0030.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0030.jpg/197,1155,1260,40/max/0/default.jpg",
+            "xywh": "197, 1155, 1260, 40"
+        }
+    },
+    "short_id": "A377",
+    "label": "Campbell (Henry) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-30-18-B772",
+                    "short_id": "B772"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-30-18-C1097",
+                    "short_id": "C1097"
+                }
+            ],
+            "description": "The british company A377 trades with the swiss company B772 in the goods C1097"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Campbell (Henry) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653710",
+            "lat": "54.68333",
+            "lng": "-5.95",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Carnmoney",
+            "transcription": " Carmoney, Belfast. "
+        },
+        {
+            "id": "2655984",
+            "lat": "54.59682",
+            "lng": "-5.92541",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Belfast",
+            "transcription": " Carmoney, Belfast. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

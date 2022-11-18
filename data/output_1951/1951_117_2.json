@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-2-B3",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "3. Adam & Cie., Burgdorf. A 2192, C 1096, 1098, 1397.",
+        "corrected": "3. Adam & Cie., Burgdorf. A 2192, C 1096, 1098, 1397"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,326,1350,39/max/0/default.jpg",
+            "xywh": "278, 326, 1350, 39"
+        }
+    },
+    "short_id": "B3",
+    "label": "Adam & Cie.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-2-A2192",
+                    "short_id": "A2192"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-2-C1096",
+                    "short_id": "C1096"
+                },
+                {
+                    "id": "BSCC-1951-117-2-C1098",
+                    "short_id": "C1098"
+                },
+                {
+                    "id": "BSCC-1951-117-2-C1397",
+                    "short_id": "C1397"
+                }
+            ],
+            "description": "The swiss company B3 trades with the british company A2192 in the goods C1096 and C1098 and C1397"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Adam & Cie."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661321",
+            "lat": "47.05901",
+            "lng": "7.62786",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Burgdorf",
+            "transcription": " Burgdorf. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

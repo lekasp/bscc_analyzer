@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-28-A1238",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1238. Mander Bros. Ltd., Wolverhampton. B 80, C 956, 976.",
+        "corrected": "1238. Mander Bros. Ltd., Wolverhampton. B 80, C 956, 976"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,1527,1283,39/max/0/default.jpg",
+            "xywh": "167, 1527, 1283, 39"
+        }
+    },
+    "short_id": "A1238",
+    "label": "Mander Bros. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-28-B80",
+                    "short_id": "B80"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-28-C956",
+                    "short_id": "C956"
+                },
+                {
+                    "id": "BSCC-1951-68-28-C976",
+                    "short_id": "C976"
+                }
+            ],
+            "description": "The british company A1238 trades with the swiss company B80 in the goods C956 and C976"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Mander Bros. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2633691",
+            "lat": "52.58547",
+            "lng": "-2.12296",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Wolverhampton",
+            "transcription": " Wolverhampton. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-8-A681",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "681. Fenner (J. H.) & Co. Ltd., Marfleet, Hull. B 26, C 426.",
+        "corrected": "681. Fenner (J. H.) & Co. Ltd., Marfleet, Hull. B 26, C 426"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,576,1269,37/max/0/default.jpg",
+            "xywh": "189, 576, 1269, 37"
+        }
+    },
+    "short_id": "A681",
+    "label": "Fenner (J. H.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-8-B26",
+                    "short_id": "B26"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-8-C426",
+                    "short_id": "C426"
+                }
+            ],
+            "description": "The british company A681 trades with the swiss company B26 in the goods C426"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fenner (J. H.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643049",
+            "lat": "53.74953",
+            "lng": "-0.27258",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Marfleet",
+            "transcription": " Marfleet, Hull. "
+        },
+        {
+            "id": "2645425",
+            "lat": "53.7446",
+            "lng": "-0.33525",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Hull",
+            "transcription": " Marfleet, Hull. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

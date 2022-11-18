@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-142-1951-14-B769",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "769. V an Leisen S.A., 34, rue de la Synagogue, Geneva. A 343+ C 627, 629.",
+        "corrected": "769. V an Leisen S.A., 34, rue de la Synagogue, Geneva. A 343+ C 627, 629"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 142,
+            "canvas": "http://localhost:8182/iiif/3/0142.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0142.jpg/185,1230,1294,53/max/0/default.jpg",
+            "xywh": "185, 1230, 1294, 53"
+        }
+    },
+    "short_id": "B769",
+    "label": "V an Leisen S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-142-14-A343+C627",
+                    "short_id": "A343+C627"
+                },
+                {
+                    "id": "BSCC-1951-142-14-A629",
+                    "short_id": "A629"
+                }
+            ],
+            "description": "The swiss company B769 trades with the british company A343+C627 and A629"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "V an Leisen S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 34, rue de la Synagogue, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

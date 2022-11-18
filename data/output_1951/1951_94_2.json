@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-94-1951-2-A1836",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1836. Stanleigh (E. W. H.) & Co. Ltd., Coleraine, N. I. B 604, C 293.",
+        "corrected": "1836. Stanleigh (E. W. H.) & Co. Ltd., Coleraine, N. I. B 604, C 293"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 94,
+            "canvas": "http://localhost:8182/iiif/3/0094.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0094.jpg/182,372,1254,42/max/0/default.jpg",
+            "xywh": "182, 372, 1254, 42"
+        }
+    },
+    "short_id": "A1836",
+    "label": "Stanleigh (E. W. H.) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-94-2-B604",
+                    "short_id": "B604"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-94-2-C293",
+                    "short_id": "C293"
+                }
+            ],
+            "description": "The british company A1836 trades with the swiss company B604 in the goods C293"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Stanleigh (E. W. H.) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652586",
+            "lat": "55.13333",
+            "lng": "-6.66667",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coleraine",
+            "transcription": " Coleraine, N. I. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

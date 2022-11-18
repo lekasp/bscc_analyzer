@@ -1,0 +1,152 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-30-B196",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "° 196. Dürr (A.) & Co. AG., 12/14, Konradstrasse, Zurich. A 78, 394, 481, 607, 974, 1272, 1360, 1481, 1495, 1711, 1771, 1803, 1897, 1992, 2163, C 1446, 1449, 1452, 1453, 1454.",
+        "corrected": "196. Dürr (A.) & Co. AG., 12/14, Konradstrasse, Zurich.A 78, 394, 481, 607, 974, 1272, 1360, 1481, 1495, 1711, 1771, 1803, 1897, 1992, 2163, C 1446, 1449, 1452, 1453, 1454"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,2099,1285,138/max/0/default.jpg",
+            "xywh": "169, 2099, 1285, 138"
+        }
+    },
+    "short_id": "B196",
+    "label": "Dürr (A.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-30-A78",
+                    "short_id": "A78"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A394",
+                    "short_id": "A394"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A481",
+                    "short_id": "A481"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A607",
+                    "short_id": "A607"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A974",
+                    "short_id": "A974"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1272",
+                    "short_id": "A1272"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1360",
+                    "short_id": "A1360"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1481",
+                    "short_id": "A1481"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1495",
+                    "short_id": "A1495"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1711",
+                    "short_id": "A1711"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1771",
+                    "short_id": "A1771"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1803",
+                    "short_id": "A1803"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1897",
+                    "short_id": "A1897"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A1992",
+                    "short_id": "A1992"
+                },
+                {
+                    "id": "BSCC-1951-122-30-A2163",
+                    "short_id": "A2163"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-30-C1446",
+                    "short_id": "C1446"
+                },
+                {
+                    "id": "BSCC-1951-122-30-C1449",
+                    "short_id": "C1449"
+                },
+                {
+                    "id": "BSCC-1951-122-30-C1452",
+                    "short_id": "C1452"
+                },
+                {
+                    "id": "BSCC-1951-122-30-C1453",
+                    "short_id": "C1453"
+                },
+                {
+                    "id": "BSCC-1951-122-30-C1454",
+                    "short_id": "C1454"
+                }
+            ],
+            "description": "The swiss company B196 trades with the british company A78 and A394 and A481 and A607 and A974 and A1272 and A1360 and A1481 and A1495 and A1711 and A1771 and A1803 and A1897 and A1992 and A2163 in the goods C1446 and C1449 and C1452 and C1453 and C1454"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Dürr (A.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 12/14, Konradstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

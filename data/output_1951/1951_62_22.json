@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-62-1951-22-A1094",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1094. Klinger (Richard) Ltd., Sidcup. B 307, C 827.",
+        "corrected": "1094. Klinger (Richard) Ltd., Sidcup. B 307, C 827"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 62,
+            "canvas": "http://localhost:8182/iiif/3/0062.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0062.jpg/182,1154,1250,39/max/0/default.jpg",
+            "xywh": "182, 1154, 1250, 39"
+        }
+    },
+    "short_id": "A1094",
+    "label": "Klinger (Richard) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-62-22-B307",
+                    "short_id": "B307"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-62-22-C827",
+                    "short_id": "C827"
+                }
+            ],
+            "description": "The british company A1094 trades with the swiss company B307 in the goods C827"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Klinger (Richard) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637861",
+            "lat": "51.42619",
+            "lng": "0.1036",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Sidcup",
+            "transcription": " Sidcup. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

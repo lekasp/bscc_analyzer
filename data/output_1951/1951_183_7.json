@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-7-C1128a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1128a. Knitted fabrics. A 981, B 180.",
+        "corrected": "1128a. Knitted fabrics. A 981, B 180"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,526,1290,39/max/0/default.jpg",
+            "xywh": "316, 526, 1290, 39"
+        }
+    },
+    "short_id": "C1128a",
+    "label": "Knitted fabrics",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-7-A981",
+                    "short_id": "A981"
+                },
+                {
+                    "id": "BSCC-1951-183-7-B180",
+                    "short_id": "B180"
+                }
+            ],
+            "description": "with the british company A981"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Cb",
+            "level": 2,
+            "label": "WOOLLENS AND WORSTEDS",
+            "part_of": "15C",
+            "page": "182",
+            "line_number": "18"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-138-1951-23-B657",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 657. Schneider (Th.) & Co., Rapperswil (St. G.). A 466, 861, 1075, C 302, 318, 319, 320, 1256.",
+        "corrected": "657. Schneider (Th.) & Co., Rapperswil (St. G.).A 466, 861, 1075, C 302, 318, 319, 320, 1256"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 138,
+            "canvas": "http://localhost:8182/iiif/3/0138.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0138.jpg/197,1497,1287,76/max/0/default.jpg",
+            "xywh": "197, 1497, 1287, 76"
+        }
+    },
+    "short_id": "B657",
+    "label": "Schneider (Th.) & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-138-23-A466",
+                    "short_id": "A466"
+                },
+                {
+                    "id": "BSCC-1951-138-23-A861",
+                    "short_id": "A861"
+                },
+                {
+                    "id": "BSCC-1951-138-23-A1075",
+                    "short_id": "A1075"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-138-23-C302",
+                    "short_id": "C302"
+                },
+                {
+                    "id": "BSCC-1951-138-23-C318",
+                    "short_id": "C318"
+                },
+                {
+                    "id": "BSCC-1951-138-23-C319",
+                    "short_id": "C319"
+                },
+                {
+                    "id": "BSCC-1951-138-23-C320",
+                    "short_id": "C320"
+                },
+                {
+                    "id": "BSCC-1951-138-23-C1256",
+                    "short_id": "C1256"
+                }
+            ],
+            "description": "The swiss company B657 trades with the british company A466 and A861 and A1075 in the goods C302 and C318 and C319 and C320 and C1256"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Schneider (Th.) & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2659099",
+            "lat": "47.22557",
+            "lng": "8.82228",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rapperswil",
+            "transcription": ", Rapperswil (St. G.)."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

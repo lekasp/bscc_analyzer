@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-64-1951-15-A1133",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1133. Leather Cloth Co. Ltd., London EC 4. B 647, C 813, 818.",
+        "corrected": "1133. Leather Cloth Co. Ltd., London EC 4. B 647, C 813, 818"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 64,
+            "canvas": "http://localhost:8182/iiif/3/0064.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0064.jpg/195,878,1283,39/max/0/default.jpg",
+            "xywh": "195, 878, 1283, 39"
+        }
+    },
+    "short_id": "A1133",
+    "label": "Leather Cloth Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-64-15-B647",
+                    "short_id": "B647"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-64-15-C813",
+                    "short_id": "C813"
+                },
+                {
+                    "id": "BSCC-1951-64-15-C818",
+                    "short_id": "C818"
+                }
+            ],
+            "description": "The british company A1133 trades with the swiss company B647 in the goods C813 and C818"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Leather Cloth Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 4. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

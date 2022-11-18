@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-171-1951-27-C747",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "747. Castors. A 1620, B 474.",
+        "corrected": "747. Castors. A 1620, B 474"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 171,
+            "canvas": "http://localhost:8182/iiif/3/0171.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0171.jpg/285,1530,1300,40/max/0/default.jpg",
+            "xywh": "285, 1530, 1300, 40"
+        }
+    },
+    "short_id": "C747",
+    "label": "Castors",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-171-27-A1620",
+                    "short_id": "A1620"
+                },
+                {
+                    "id": "BSCC-1951-171-27-B474",
+                    "short_id": "B474"
+                }
+            ],
+            "description": "with the british company A1620"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "8",
+            "level": 0,
+            "label": "Building Materials and Fittings, Sanitary Equipment, Heating, Ventilation, Gas and Water Circulation, Hardware and Ironmongery",
+            "part_of": "0",
+            "page": "170",
+            "line_number": "13"
+        },
+        {
+            "id": "8E",
+            "level": 1,
+            "label": "Hardware and Ironmongery",
+            "part_of": "8",
+            "page": "171",
+            "line_number": "23"
+        }
+    ]
+}

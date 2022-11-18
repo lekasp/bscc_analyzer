@@ -1,0 +1,94 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-179-1951-30-C1039",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1039. Fountain pens. A 465, 1214, 1884a, B 369, 461, 795.",
+        "corrected": "1039. Fountain pens. A 465, 1214, 1884a, B 369, 461, 795"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 179,
+            "canvas": "http://localhost:8182/iiif/3/0179.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0179.jpg/315,1636,1123,41/max/0/default.jpg",
+            "xywh": "315, 1636, 1123, 41"
+        }
+    },
+    "short_id": "C1039",
+    "label": "Fountain pens",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-179-30-A465",
+                    "short_id": "A465"
+                },
+                {
+                    "id": "BSCC-1951-179-30-A1214",
+                    "short_id": "A1214"
+                },
+                {
+                    "id": "BSCC-1951-179-30-A1884a",
+                    "short_id": "A1884a"
+                },
+                {
+                    "id": "BSCC-1951-179-30-B369",
+                    "short_id": "B369"
+                },
+                {
+                    "id": "BSCC-1951-179-30-B461",
+                    "short_id": "B461"
+                },
+                {
+                    "id": "BSCC-1951-179-30-B795",
+                    "short_id": "B795"
+                }
+            ],
+            "description": "with the british company A465 and A1214 and A1884a and B461 and B795"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "13",
+            "level": 0,
+            "label": "Paper, Stationery, Artists' Materials, etc.",
+            "part_of": "0",
+            "page": "178",
+            "line_number": "40"
+        },
+        {
+            "id": "13B",
+            "level": 1,
+            "label": "Various Stationery Products, Artists' Materials",
+            "part_of": "13",
+            "page": "179",
+            "line_number": "26"
+        }
+    ]
+}

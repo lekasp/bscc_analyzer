@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-44-1951-46-A719",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "﻿719. Fordath Engineering Co. Ltd., West Bromwich. B 8, C 259, 263, 269.",
+        "corrected": "719. Fordath Engineering Co. Ltd., West Bromwich. B 8, C 259, 263, 269"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 44,
+            "canvas": "http://localhost:8182/iiif/3/0044.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0044.jpg/189,2153,1269,38/max/0/default.jpg",
+            "xywh": "189, 2153, 1269, 38"
+        }
+    },
+    "short_id": "A719",
+    "label": "Fordath Engineering Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-44-46-B8",
+                    "short_id": "B8"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-44-46-C259",
+                    "short_id": "C259"
+                },
+                {
+                    "id": "BSCC-1951-44-46-C263",
+                    "short_id": "C263"
+                },
+                {
+                    "id": "BSCC-1951-44-46-C269",
+                    "short_id": "C269"
+                }
+            ],
+            "description": "The british company A719 trades with the swiss company B8 in the goods C259 and C263 and C269"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fordath Engineering Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634491",
+            "lat": "52.51868",
+            "lng": "-1.9945",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "West Bromwich",
+            "transcription": " West Bromwich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

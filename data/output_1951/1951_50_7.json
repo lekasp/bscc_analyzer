@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-7-A820",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "820. Greening (N.) & Sons Ltd., Warrington. B 473, C 171, 176.",
+        "corrected": "820. Greening (N.) & Sons Ltd., Warrington. B 473, C 171, 176"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,547,1261,40/max/0/default.jpg",
+            "xywh": "153, 547, 1261, 40"
+        }
+    },
+    "short_id": "A820",
+    "label": "Greening (N.) & Sons Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-7-B473",
+                    "short_id": "B473"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-7-C171",
+                    "short_id": "C171"
+                },
+                {
+                    "id": "BSCC-1951-50-7-C176",
+                    "short_id": "C176"
+                }
+            ],
+            "description": "The british company A820 trades with the swiss company B473 in the goods C171 and C176"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Greening (N.) & Sons Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634739",
+            "lat": "53.39254",
+            "lng": "-2.58024",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Warrington",
+            "transcription": " Warrington. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

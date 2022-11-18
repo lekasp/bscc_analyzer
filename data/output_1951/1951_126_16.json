@@ -1,0 +1,96 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-126-1951-16-B304",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 304. Gürtler & Co., 3, Münzgasse, Winterthur. A 989, 1440, 1915, C 420, 429, 434.",
+        "corrected": "304. Gürtler & Co., 3, Münzgasse, Winterthur. A 989, 1440, 1915, C 420, 429, 434"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 126,
+            "canvas": "http://localhost:8182/iiif/3/0126.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0126.jpg/175,1271,1299,39/max/0/default.jpg",
+            "xywh": "175, 1271, 1299, 39"
+        }
+    },
+    "short_id": "B304",
+    "label": "Gürtler & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-126-16-A989",
+                    "short_id": "A989"
+                },
+                {
+                    "id": "BSCC-1951-126-16-A1440",
+                    "short_id": "A1440"
+                },
+                {
+                    "id": "BSCC-1951-126-16-A1915",
+                    "short_id": "A1915"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-126-16-C420",
+                    "short_id": "C420"
+                },
+                {
+                    "id": "BSCC-1951-126-16-C429",
+                    "short_id": "C429"
+                },
+                {
+                    "id": "BSCC-1951-126-16-C434",
+                    "short_id": "C434"
+                }
+            ],
+            "description": "The swiss company B304 trades with the british company A989 and A1440 and A1915 in the goods C420 and C429 and C434"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gürtler & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657970",
+            "lat": "47.50564",
+            "lng": "8.72413",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Winterthur",
+            "transcription": ", 3, Münzgasse, Winterthur. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

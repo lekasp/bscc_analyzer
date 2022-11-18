@@ -1,0 +1,93 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-14-A1224",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1224. Macleod (Kenneth), (Shawbost) Ltd., Shawbost, Stornoway, Isle of Lewis. B 186, C 1129.",
+        "corrected": "1224. Macleod (Kenneth), (Shawbost) Ltd., Shawbost, Stornoway, Isle of Lewis.B 186, C 1129"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,897,1283,76/max/0/default.jpg",
+            "xywh": "167, 897, 1283, 76"
+        }
+    },
+    "short_id": "A1224",
+    "label": "Macleod (Kenneth), (Shawbost) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-14-B186",
+                    "short_id": "B186"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-14-C1129",
+                    "short_id": "C1129"
+                }
+            ],
+            "description": "The british company A1224 trades with the swiss company B186 in the goods C1129"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Macleod (Kenneth), (Shawbost) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "12262195",
+            "lat": "58.33199",
+            "lng": "-6.68229",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Shawbost",
+            "transcription": " Shawbost, Stornoway, Isle of Lewis."
+        },
+        {
+            "id": "2636790",
+            "lat": "58.20925",
+            "lng": "-6.38649",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Stornoway",
+            "transcription": " Shawbost, Stornoway, Isle of Lewis."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

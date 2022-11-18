@@ -1,0 +1,136 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-9-B236",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "236. Fitra AG., 20, Trittligasse, Zurich. A 198, 402, 930, 949, 1082, 1365, 1682, C 93, 94, 178, 189, 363, 381, 385. 409, 411, 586.",
+        "corrected": "236. Fitra AG., 20, Trittligasse, Zurich.A 198, 402, 930, 949, 1082, 1365, 1682, C 93, 94, 178, 189, 363, 381, 385. 409, 411, 586"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,967,1320,117/max/0/default.jpg",
+            "xywh": "166, 967, 1320, 117"
+        }
+    },
+    "short_id": "B236",
+    "label": "Fitra AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-9-A198",
+                    "short_id": "A198"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A402",
+                    "short_id": "A402"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A930",
+                    "short_id": "A930"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A949",
+                    "short_id": "A949"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A1082",
+                    "short_id": "A1082"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A1365",
+                    "short_id": "A1365"
+                },
+                {
+                    "id": "BSCC-1951-124-9-A1682",
+                    "short_id": "A1682"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-9-C93",
+                    "short_id": "C93"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C94",
+                    "short_id": "C94"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C178",
+                    "short_id": "C178"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C189",
+                    "short_id": "C189"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C363",
+                    "short_id": "C363"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C381",
+                    "short_id": "C381"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C385409",
+                    "short_id": "C385409"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C411",
+                    "short_id": "C411"
+                },
+                {
+                    "id": "BSCC-1951-124-9-C586",
+                    "short_id": "C586"
+                }
+            ],
+            "description": "The swiss company B236 trades with the british company A198 and A402 and A930 and A949 and A1082 and A1365 and A1682 in the goods C93 and C94 and C178 and C189 and C363 and C381 and C385409 and C411 and C586"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fitra AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 20, Trittligasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

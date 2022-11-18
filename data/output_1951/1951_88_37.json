@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-88-1951-37-A1688",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1688. Rycroft Bros., Thackley, Bradford. B 93, C 1117.",
+        "corrected": "1688. Rycroft Bros., Thackley, Bradford. B 93, C 1117"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 88,
+            "canvas": "http://localhost:8182/iiif/3/0088.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0088.jpg/208,1817,1195,40/max/0/default.jpg",
+            "xywh": "208, 1817, 1195, 40"
+        }
+    },
+    "short_id": "A1688",
+    "label": "Rycroft Bros.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-88-37-B93",
+                    "short_id": "B93"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-88-37-C1117",
+                    "short_id": "C1117"
+                }
+            ],
+            "description": "The british company A1688 trades with the swiss company B93 in the goods C1117"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Rycroft Bros."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Thackley, Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

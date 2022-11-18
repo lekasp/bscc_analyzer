@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-192-1951-1-C1439",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1439. Gramophone records for language tuition. A 1169, B 351.",
+        "corrected": "1439. Gramophone records for language tuition. A 1169, B 351"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 192,
+            "canvas": "http://localhost:8182/iiif/3/0192.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0192.jpg/222,288,1257,38/max/0/default.jpg",
+            "xywh": "222, 288, 1257, 38"
+        }
+    },
+    "short_id": "C1439",
+    "label": "Gramophone records for language tuition",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-192-1-A1169",
+                    "short_id": "A1169"
+                },
+                {
+                    "id": "BSCC-1951-192-1-B351",
+                    "short_id": "B351"
+                }
+            ],
+            "description": "with the british company A1169"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "21",
+            "level": 0,
+            "label": "Sports, Games, Toys, Music",
+            "part_of": "0",
+            "page": "190",
+            "line_number": "29"
+        },
+        {
+            "id": "21C",
+            "level": 1,
+            "label": "Music",
+            "part_of": "21",
+            "page": "191",
+            "line_number": "43"
+        }
+    ]
+}

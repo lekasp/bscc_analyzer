@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-50-1951-26-A838",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "838. Hair’s Proprietaries (Dr.) Ltd., Staines. B 179, C 935.",
+        "corrected": "838. Hair’s Proprietaries (Dr.) Ltd., Staines. B 179, C 935"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 50,
+            "canvas": "http://localhost:8182/iiif/3/0050.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0050.jpg/153,1447,1261,41/max/0/default.jpg",
+            "xywh": "153, 1447, 1261, 41"
+        }
+    },
+    "short_id": "A838",
+    "label": "Hair’s Proprietaries (Dr.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-50-26-B179",
+                    "short_id": "B179"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-50-26-C935",
+                    "short_id": "C935"
+                }
+            ],
+            "description": "The british company A838 trades with the swiss company B179 in the goods C935"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Hair’s Proprietaries (Dr.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2637126",
+            "lat": "51.43092",
+            "lng": "-0.50606",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Staines-upon-Thames",
+            "transcription": " Staines. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

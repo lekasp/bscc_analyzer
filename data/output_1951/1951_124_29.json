@@ -1,0 +1,104 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-29-B256",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "256. Fuchs (Ernst), 3, Cäcilienstrasse, Zurich. A 995, 1105, 2096, C 1077, 1079, 1080, 1081, 1082.",
+        "corrected": "256. Fuchs (Ernst), 3, Cäcilienstrasse, Zurich.A 995, 1105, 2096, C 1077, 1079, 1080, 1081, 1082"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,2031,1320,79/max/0/default.jpg",
+            "xywh": "166, 2031, 1320, 79"
+        }
+    },
+    "short_id": "B256",
+    "label": "Fuchs (Ernst)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-29-A995",
+                    "short_id": "A995"
+                },
+                {
+                    "id": "BSCC-1951-124-29-A1105",
+                    "short_id": "A1105"
+                },
+                {
+                    "id": "BSCC-1951-124-29-A2096",
+                    "short_id": "A2096"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-29-C1077",
+                    "short_id": "C1077"
+                },
+                {
+                    "id": "BSCC-1951-124-29-C1079",
+                    "short_id": "C1079"
+                },
+                {
+                    "id": "BSCC-1951-124-29-C1080",
+                    "short_id": "C1080"
+                },
+                {
+                    "id": "BSCC-1951-124-29-C1081",
+                    "short_id": "C1081"
+                },
+                {
+                    "id": "BSCC-1951-124-29-C1082",
+                    "short_id": "C1082"
+                }
+            ],
+            "description": "The swiss company B256 trades with the british company A995 and A1105 and A2096 in the goods C1077 and C1079 and C1080 and C1081 and C1082"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Fuchs (Ernst)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "3, Cäcilienstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

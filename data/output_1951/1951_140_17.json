@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-140-1951-17-B715",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "715. Steinegger (A. G. K.), 7, Scheuerrain, Berne. A 923, 2131, C 912.",
+        "corrected": "715. Steinegger (A. G. K.), 7, Scheuerrain, Berne. A 923, 2131, C 912"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 140,
+            "canvas": "http://localhost:8182/iiif/3/0140.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0140.jpg/219,1462,1265,43/max/0/default.jpg",
+            "xywh": "219, 1462, 1265, 43"
+        }
+    },
+    "short_id": "B715",
+    "label": "Steinegger (A. G. K.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-140-17-A923",
+                    "short_id": "A923"
+                },
+                {
+                    "id": "BSCC-1951-140-17-A2131",
+                    "short_id": "A2131"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-140-17-C912",
+                    "short_id": "C912"
+                }
+            ],
+            "description": "The swiss company B715 trades with the british company A923 and A2131 in the goods C912"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Steinegger (A. G. K.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": "7, Scheuerrain, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

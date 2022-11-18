@@ -1,0 +1,126 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-185-1951-4-C1186",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1186. Knitted outerwear, ladies' and men's. A 579, 604, 1081, 1547, 1973, 2160, B 116, 207, 289, 311, 342, 356.",
+        "corrected": "1186. Knitted outerwear, ladies' and men's.A 579, 604, 1081, 1547, 1973, 2160, B 116, 207, 289, 311, 342, 356"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 185,
+            "canvas": "http://localhost:8182/iiif/3/0185.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0185.jpg/298,488,1365,81/max/0/default.jpg",
+            "xywh": "298, 488, 1365, 81"
+        }
+    },
+    "short_id": "C1186",
+    "label": "Knitted outerwear, ladies' and men's",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-185-4-A579",
+                    "short_id": "A579"
+                },
+                {
+                    "id": "BSCC-1951-185-4-A604",
+                    "short_id": "A604"
+                },
+                {
+                    "id": "BSCC-1951-185-4-A1081",
+                    "short_id": "A1081"
+                },
+                {
+                    "id": "BSCC-1951-185-4-A1547",
+                    "short_id": "A1547"
+                },
+                {
+                    "id": "BSCC-1951-185-4-A1973",
+                    "short_id": "A1973"
+                },
+                {
+                    "id": "BSCC-1951-185-4-A2160",
+                    "short_id": "A2160"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B116",
+                    "short_id": "B116"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B207",
+                    "short_id": "B207"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B289",
+                    "short_id": "B289"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B311",
+                    "short_id": "B311"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B342",
+                    "short_id": "B342"
+                },
+                {
+                    "id": "BSCC-1951-185-4-B356",
+                    "short_id": "B356"
+                }
+            ],
+            "description": "with the british company A579 and A604 and A1081 and A1547 and A1973 and A2160 and B207 and B289 and B311 and B342 and B356"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15D",
+            "level": 1,
+            "label": "Garments",
+            "part_of": "15",
+            "page": "184",
+            "line_number": "3"
+        },
+        {
+            "id": "15Dc",
+            "level": 2,
+            "label": "HOSIERY, KNITWEAR, SWIMWEAR",
+            "part_of": "15D",
+            "page": "185",
+            "line_number": "0"
+        }
+    ]
+}

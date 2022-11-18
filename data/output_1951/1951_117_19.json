@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-117-1951-19-B20",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "20. Aluminium Commercial S.A., 25, Bärengasse, Zurich. A 1429, C 143, 908.",
+        "corrected": "20. Aluminium Commercial S.A., 25, Bärengasse, Zurich. A 1429, C 143, 908"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 117,
+            "canvas": "http://localhost:8182/iiif/3/0117.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0117.jpg/278,1156,1350,40/max/0/default.jpg",
+            "xywh": "278, 1156, 1350, 40"
+        }
+    },
+    "short_id": "B20",
+    "label": "Aluminium Commercial S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-117-19-A1429",
+                    "short_id": "A1429"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-117-19-C143",
+                    "short_id": "C143"
+                },
+                {
+                    "id": "BSCC-1951-117-19-C908",
+                    "short_id": "C908"
+                }
+            ],
+            "description": "The swiss company B20 trades with the british company A1429 in the goods C143 and C908"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Aluminium Commercial S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 25, Bärengasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

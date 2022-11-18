@@ -1,0 +1,83 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-7-B45",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "45. Bachmann (Otto), Passage des Lions, Geneva. A 388, C 1052, 1071,"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,745,1300,39/max/0/default.jpg",
+            "xywh": "187, 745, 1300, 39"
+        }
+    },
+    "short_id": "B45",
+    "label": "Bachmann (Otto)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-7-A388",
+                    "short_id": "A388"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-7-C1052",
+                    "short_id": "C1052"
+                },
+                {
+                    "id": "BSCC-1951-118-7-C1071",
+                    "short_id": "C1071"
+                }
+            ],
+            "description": "The swiss company B45 trades with the british company A388 in the goods C1052 and C1071"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bachmann (Otto)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": "Passage des Lions, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

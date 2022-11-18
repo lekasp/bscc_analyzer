@@ -1,0 +1,212 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-118-1951-9-B47",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "47. Bachofen & Co., 5, Hedwigstrasse, Zurich. A 262, 353, 354, 543, 658, 769, 970, 1293, 1489, 1587, 1890, 2013, 2018, C 104. 124, 186, 214, 237, 394, 460, 485, 487a, 497, 511, 514, 517, 527, 540, 660, 665, 671, 672, 675, 715, 717, 1020.",
+        "corrected": "47. Bachofen & Co., 5, Hedwigstrasse, Zurich.A 262, 353, 354, 543, 658, 769, 970, 1293, 1489, 1587, 1890, 2013, 2018, C 104. 124, 186, 214, 237, 394, 460, 485, 487a, 497, 511, 514, 517, 527, 540, 660, 665, 671, 672, 675, 715, 717, 1020"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 118,
+            "canvas": "http://localhost:8182/iiif/3/0118.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0118.jpg/187,825,1300,154/max/0/default.jpg",
+            "xywh": "187, 825, 1300, 154"
+        }
+    },
+    "short_id": "B47",
+    "label": "Bachofen & Co.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-118-9-A262",
+                    "short_id": "A262"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A353",
+                    "short_id": "A353"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A354",
+                    "short_id": "A354"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A543",
+                    "short_id": "A543"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A658",
+                    "short_id": "A658"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A769",
+                    "short_id": "A769"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A970",
+                    "short_id": "A970"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A1293",
+                    "short_id": "A1293"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A1489",
+                    "short_id": "A1489"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A1587",
+                    "short_id": "A1587"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A1890",
+                    "short_id": "A1890"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A2013",
+                    "short_id": "A2013"
+                },
+                {
+                    "id": "BSCC-1951-118-9-A2018",
+                    "short_id": "A2018"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-118-9-C104124",
+                    "short_id": "C104124"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C186",
+                    "short_id": "C186"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C214",
+                    "short_id": "C214"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C237",
+                    "short_id": "C237"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C394",
+                    "short_id": "C394"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C460",
+                    "short_id": "C460"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C485",
+                    "short_id": "C485"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C487a",
+                    "short_id": "C487a"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C497",
+                    "short_id": "C497"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C511",
+                    "short_id": "C511"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C514",
+                    "short_id": "C514"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C517",
+                    "short_id": "C517"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C527",
+                    "short_id": "C527"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C540",
+                    "short_id": "C540"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C660",
+                    "short_id": "C660"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C665",
+                    "short_id": "C665"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C671",
+                    "short_id": "C671"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C672",
+                    "short_id": "C672"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C675",
+                    "short_id": "C675"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C715",
+                    "short_id": "C715"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C717",
+                    "short_id": "C717"
+                },
+                {
+                    "id": "BSCC-1951-118-9-C1020",
+                    "short_id": "C1020"
+                }
+            ],
+            "description": "The swiss company B47 trades with the british company A262 and A353 and A354 and A543 and A658 and A769 and A970 and A1293 and A1489 and A1587 and A1890 and A2013 and A2018 in the goods C104124 and C186 and C214 and C237 and C394 and C460 and C485 and C487a and C497 and C511 and C514 and C517 and C527 and C540 and C660 and C665 and C671 and C672 and C675 and C715 and C717 and C1020"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Bachofen & Co."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": ", 5, Hedwigstrasse, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

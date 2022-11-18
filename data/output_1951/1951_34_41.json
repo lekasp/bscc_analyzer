@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-34-1951-41-A489",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "489. Coventry Gauge & Tool Co. Ltd., Coventry. B 646, C 235, 678.",
+        "corrected": "489. Coventry Gauge & Tool Co. Ltd., Coventry. B 646, C 235, 678"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 34,
+            "canvas": "http://localhost:8182/iiif/3/0034.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0034.jpg/157,2063,1292,40/max/0/default.jpg",
+            "xywh": "157, 2063, 1292, 40"
+        }
+    },
+    "short_id": "A489",
+    "label": "Coventry Gauge & Tool Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-34-41-B646",
+                    "short_id": "B646"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-34-41-C235",
+                    "short_id": "C235"
+                },
+                {
+                    "id": "BSCC-1951-34-41-C678",
+                    "short_id": "C678"
+                }
+            ],
+            "description": "The british company A489 trades with the swiss company B646 in the goods C235 and C678"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Coventry Gauge & Tool Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2652221",
+            "lat": "52.40656",
+            "lng": "-1.51217",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Coventry",
+            "transcription": " Coventry. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

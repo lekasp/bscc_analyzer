@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-124-1951-23-B250",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿250. Frey (Emil), 44, Flurstrasse, Zurich. + A 110, 1020, C 562.",
+        "corrected": "250. Frey (Emil), 44, Flurstrasse, Zurich. + A 110, 1020, C 562"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 124,
+            "canvas": "http://localhost:8182/iiif/3/0124.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0124.jpg/166,1752,1320,42/max/0/default.jpg",
+            "xywh": "166, 1752, 1320, 42"
+        }
+    },
+    "short_id": "B250",
+    "label": "Frey (Emil)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-124-23-A110",
+                    "short_id": "A110"
+                },
+                {
+                    "id": "BSCC-1951-124-23-A1020",
+                    "short_id": "A1020"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-124-23-C562",
+                    "short_id": "C562"
+                }
+            ],
+            "description": "The swiss company B250 trades with the british company A110 and A1020 in the goods C562"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Frey (Emil)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "44, Flurstrasse, Zurich. + "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-84-1951-19-A1584",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1584. Radiant Heating Ltd., London NW 1. B 745, C 740, 741, 742.",
+        "corrected": "1584. Radiant Heating Ltd., London NW 1. B 745, C 740, 741, 742"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 84,
+            "canvas": "http://localhost:8182/iiif/3/0084.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0084.jpg/168,1224,1278,41/max/0/default.jpg",
+            "xywh": "168, 1224, 1278, 41"
+        }
+    },
+    "short_id": "A1584",
+    "label": "Radiant Heating Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-84-19-B745",
+                    "short_id": "B745"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-84-19-C740",
+                    "short_id": "C740"
+                },
+                {
+                    "id": "BSCC-1951-84-19-C741",
+                    "short_id": "C741"
+                },
+                {
+                    "id": "BSCC-1951-84-19-C742",
+                    "short_id": "C742"
+                }
+            ],
+            "description": "The british company A1584 trades with the swiss company B745 in the goods C740 and C741 and C742"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Radiant Heating Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London NW 1. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

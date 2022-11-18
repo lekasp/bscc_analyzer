@@ -1,0 +1,158 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-7-C627",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "627. A 80, 100, 343, 584, 645, 728, 1022, 1433, 1589, 1954, 1999, 2015, 2030 - B 172, 226, 246, 319, 379, 388, 558, 577, 709, 741, 769.",
+        "corrected": "627. A 80, 100, 343, 584, 645, 728, 1022, 1433, 1589, 1954, 1999, 2015, 2030 - B 172,226, 246, 319, 379, 388, 558, 577, 709, 741, 769"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,586,1239,88/max/0/default.jpg",
+            "xywh": "200, 586, 1239, 88"
+        }
+    },
+    "short_id": "C627",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-7-A80",
+                    "short_id": "A80"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A100",
+                    "short_id": "A100"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A343",
+                    "short_id": "A343"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A584",
+                    "short_id": "A584"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A645",
+                    "short_id": "A645"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A728",
+                    "short_id": "A728"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A1022",
+                    "short_id": "A1022"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A1433",
+                    "short_id": "A1433"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A1589",
+                    "short_id": "A1589"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A1954",
+                    "short_id": "A1954"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A1999",
+                    "short_id": "A1999"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A2015",
+                    "short_id": "A2015"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A226",
+                    "short_id": "A226"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A246",
+                    "short_id": "A246"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A319",
+                    "short_id": "A319"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A379",
+                    "short_id": "A379"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A388",
+                    "short_id": "A388"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A558",
+                    "short_id": "A558"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A577",
+                    "short_id": "A577"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A709",
+                    "short_id": "A709"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A741",
+                    "short_id": "A741"
+                },
+                {
+                    "id": "BSCC-1951-168-7-A769",
+                    "short_id": "A769"
+                }
+            ],
+            "description": "with the british company A80 and A100 and A343 and A584 and A645 and A728 and A1022 and A1433 and A1589 and A1954 and A1999 and A2015 and A226 and A246 and A319 and A379 and A388 and A558 and A577 and A709 and A741 and A769"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6E",
+            "level": 1,
+            "label": "Motor Cycles",
+            "part_of": "6",
+            "page": "168",
+            "line_number": "6"
+        }
+    ]
+}

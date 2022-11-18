@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-127-1951-30-B346",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "346. Huber (H.) & Co. AG., 270, Münchensteinerstrasse, Basle. x A 1410, C 448, 452, 726, 730, 733.",
+        "corrected": "346. Huber (H.) & Co. AG., 270, Münchensteinerstrasse, Basle.x A 1410, C 448, 452, 726, 730, 733"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 127,
+            "canvas": "http://localhost:8182/iiif/3/0127.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0127.jpg/316,2148,1233,104/max/0/default.jpg",
+            "xywh": "316, 2148, 1233, 104"
+        }
+    },
+    "short_id": "B346",
+    "label": "Huber (H.) & Co. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-127-30-A1410",
+                    "short_id": "A1410"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-127-30-C448",
+                    "short_id": "C448"
+                },
+                {
+                    "id": "BSCC-1951-127-30-C452",
+                    "short_id": "C452"
+                },
+                {
+                    "id": "BSCC-1951-127-30-C726",
+                    "short_id": "C726"
+                },
+                {
+                    "id": "BSCC-1951-127-30-C730",
+                    "short_id": "C730"
+                },
+                {
+                    "id": "BSCC-1951-127-30-C733",
+                    "short_id": "C733"
+                }
+            ],
+            "description": "The swiss company B346 trades with the british company A1410 in the goods C448 and C452 and C726 and C730 and C733"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Huber (H.) & Co. AG."
+        }
+    ],
+    "location": [
+        {
+            "transcription": " 270, Münchensteinerstrasse, Basle.x "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

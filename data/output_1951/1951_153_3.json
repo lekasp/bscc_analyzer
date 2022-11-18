@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-153-1951-3-C38",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "38. Jams and marmalades. A 419, B 574.",
+        "corrected": "38. Jams and marmalades. A 419, B 574"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 153,
+            "canvas": "http://localhost:8182/iiif/3/0153.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0153.jpg/304,363,1306,38/max/0/default.jpg",
+            "xywh": "304, 363, 1306, 38"
+        }
+    },
+    "short_id": "C38",
+    "label": "Jams and marmalades",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-153-3-A419",
+                    "short_id": "A419"
+                },
+                {
+                    "id": "BSCC-1951-153-3-B574",
+                    "short_id": "B574"
+                }
+            ],
+            "description": "with the british company A419"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "1",
+            "level": 0,
+            "label": "Foodstuffs and Beverages",
+            "part_of": "0",
+            "page": "152",
+            "line_number": "0"
+        },
+        {
+            "id": "1C",
+            "level": 1,
+            "label": "Manufactured Food Products",
+            "part_of": "1",
+            "page": "152",
+            "line_number": "29"
+        }
+    ]
+}

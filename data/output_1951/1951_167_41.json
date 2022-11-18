@@ -1,0 +1,78 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-167-1951-41-C618",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "618. Garage and towing cranes. A 879, B 676.",
+        "corrected": "618. Garage and towing cranes. A 879, B 676"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 167,
+            "canvas": "http://localhost:8182/iiif/3/0167.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0167.jpg/346,2104,1229,40/max/0/default.jpg",
+            "xywh": "346, 2104, 1229, 40"
+        }
+    },
+    "short_id": "C618",
+    "label": "Garage and towing cranes",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-167-41-A879",
+                    "short_id": "A879"
+                },
+                {
+                    "id": "BSCC-1951-167-41-B676",
+                    "short_id": "B676"
+                }
+            ],
+            "description": "with the british company A879"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6D",
+            "level": 1,
+            "label": "Garage Equipment",
+            "part_of": "6",
+            "page": "167",
+            "line_number": "34"
+        }
+    ]
+}

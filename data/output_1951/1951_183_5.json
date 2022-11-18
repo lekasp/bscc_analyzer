@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-183-1951-5-C1127",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1127. Homespuns. A 28, 526, 1696, B 63, 311, 510.",
+        "corrected": "1127. Homespuns. A 28, 526, 1696, B 63, 311, 510"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 183,
+            "canvas": "http://localhost:8182/iiif/3/0183.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0183.jpg/316,447,1290,41/max/0/default.jpg",
+            "xywh": "316, 447, 1290, 41"
+        }
+    },
+    "short_id": "C1127",
+    "label": "Homespuns",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-183-5-A28",
+                    "short_id": "A28"
+                },
+                {
+                    "id": "BSCC-1951-183-5-A526",
+                    "short_id": "A526"
+                },
+                {
+                    "id": "BSCC-1951-183-5-A1696",
+                    "short_id": "A1696"
+                },
+                {
+                    "id": "BSCC-1951-183-5-B63",
+                    "short_id": "B63"
+                },
+                {
+                    "id": "BSCC-1951-183-5-B311",
+                    "short_id": "B311"
+                },
+                {
+                    "id": "BSCC-1951-183-5-B510",
+                    "short_id": "B510"
+                }
+            ],
+            "description": "with the british company A28 and A526 and A1696 and B311 and B510"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Cb",
+            "level": 2,
+            "label": "WOOLLENS AND WORSTEDS",
+            "part_of": "15C",
+            "page": "182",
+            "line_number": "18"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-121-1951-20-B155",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ 155. Commercial Corporation S.A., 92, rue du Rhône, Geneva. A 98, 311, 372, 514, 886, 1280, 1327, C 563, 630, 638, 1324.",
+        "corrected": "155. Commercial Corporation S.A., 92, rue du Rhône, Geneva.A 98, 311, 372, 514, 886, 1280, 1327, C 563, 630, 638, 1324"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 121,
+            "canvas": "http://localhost:8182/iiif/3/0121.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0121.jpg/309,1303,1272,82/max/0/default.jpg",
+            "xywh": "309, 1303, 1272, 82"
+        }
+    },
+    "short_id": "B155",
+    "label": "Commercial Corporation S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-121-20-A98",
+                    "short_id": "A98"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A311",
+                    "short_id": "A311"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A372",
+                    "short_id": "A372"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A514",
+                    "short_id": "A514"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A886",
+                    "short_id": "A886"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A1280",
+                    "short_id": "A1280"
+                },
+                {
+                    "id": "BSCC-1951-121-20-A1327",
+                    "short_id": "A1327"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-121-20-C563",
+                    "short_id": "C563"
+                },
+                {
+                    "id": "BSCC-1951-121-20-C630",
+                    "short_id": "C630"
+                },
+                {
+                    "id": "BSCC-1951-121-20-C638",
+                    "short_id": "C638"
+                },
+                {
+                    "id": "BSCC-1951-121-20-C1324",
+                    "short_id": "C1324"
+                }
+            ],
+            "description": "The swiss company B155 trades with the british company A98 and A311 and A372 and A514 and A886 and A1280 and A1327 in the goods C563 and C630 and C638 and C1324"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Commercial Corporation S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 92, rue du Rhône, Geneva."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

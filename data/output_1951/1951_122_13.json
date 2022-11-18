@@ -1,0 +1,188 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-122-1951-13-B179",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "˚ ﻿179. Doetsch, Grether & Cie. AG., 23, Steinentorstrasse, Basle. A 45, 168, 282, 635, 649, 664, 734, 824, 838, 997, 1036, 1043, 1254, 1369, 1478, 1601, 1725, 1793, 2019, 2116, C 907, 933, 934, 935, 939, 945, 946, 949, 1350.",
+        "corrected": "179. Doetsch, Grether & Cie. AG., 23, Steinentorstrasse, Basle.A 45, 168, 282, 635, 649, 664, 734, 824, 838, 997, 1036, 1043, 1254, 1369, 1478, 1601, 1725, 1793, 2019, 2116, C 907, 933, 934, 935, 939, 945, 946, 949, 1350"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 122,
+            "canvas": "http://localhost:8182/iiif/3/0122.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0122.jpg/169,954,1285,154/max/0/default.jpg",
+            "xywh": "169, 954, 1285, 154"
+        }
+    },
+    "short_id": "B179",
+    "label": "Doetsch, Grether & Cie. AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-122-13-A45",
+                    "short_id": "A45"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A168",
+                    "short_id": "A168"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A282",
+                    "short_id": "A282"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A635",
+                    "short_id": "A635"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A649",
+                    "short_id": "A649"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A664",
+                    "short_id": "A664"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A734",
+                    "short_id": "A734"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A824",
+                    "short_id": "A824"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A838",
+                    "short_id": "A838"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A997",
+                    "short_id": "A997"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1036",
+                    "short_id": "A1036"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1043",
+                    "short_id": "A1043"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1254",
+                    "short_id": "A1254"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1369",
+                    "short_id": "A1369"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1478",
+                    "short_id": "A1478"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1601",
+                    "short_id": "A1601"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1725",
+                    "short_id": "A1725"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A1793",
+                    "short_id": "A1793"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A2019",
+                    "short_id": "A2019"
+                },
+                {
+                    "id": "BSCC-1951-122-13-A2116",
+                    "short_id": "A2116"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-122-13-C907",
+                    "short_id": "C907"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C933",
+                    "short_id": "C933"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C934",
+                    "short_id": "C934"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C935",
+                    "short_id": "C935"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C939",
+                    "short_id": "C939"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C945",
+                    "short_id": "C945"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C946",
+                    "short_id": "C946"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C949",
+                    "short_id": "C949"
+                },
+                {
+                    "id": "BSCC-1951-122-13-C1350",
+                    "short_id": "C1350"
+                }
+            ],
+            "description": "The swiss company B179 trades with the british company A45 and A168 and A282 and A635 and A649 and A664 and A734 and A824 and A838 and A997 and A1036 and A1043 and A1254 and A1369 and A1478 and A1601 and A1725 and A1793 and A2019 and A2116 in the goods C907 and C933 and C934 and C935 and C939 and C945 and C946 and C949 and C1350"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Doetsch, Grether & Cie. AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661604",
+            "lat": "47.55839",
+            "lng": "7.57327",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Basel",
+            "transcription": " 23, Steinentorstrasse, Basle."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

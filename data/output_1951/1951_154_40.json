@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-154-1951-40-C104",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "104. Magnet steel. A 1890, B 47.",
+        "corrected": "104. Magnet steel. A 1890, B 47"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 154,
+            "canvas": "http://localhost:8182/iiif/3/0154.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0154.jpg/202,2144,1243,40/max/0/default.jpg",
+            "xywh": "202, 2144, 1243, 40"
+        }
+    },
+    "short_id": "C104",
+    "label": "Magnet steel",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-154-40-A1890",
+                    "short_id": "A1890"
+                },
+                {
+                    "id": "BSCC-1951-154-40-B47",
+                    "short_id": "B47"
+                }
+            ],
+            "description": "with the british company A1890"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "3",
+            "level": 0,
+            "label": "Metals, Semi-finished and Heavy Metal Products",
+            "part_of": "0",
+            "page": "154",
+            "line_number": "26"
+        },
+        {
+            "id": "3A",
+            "level": 1,
+            "label": "Iron and Steel",
+            "part_of": "3",
+            "page": "154",
+            "line_number": "27"
+        },
+        {
+            "id": "3Aa",
+            "level": 2,
+            "label": "METALS AND SEMI-FABRICATED PRODUCTS",
+            "part_of": "3A",
+            "page": "154",
+            "line_number": "28"
+        }
+    ]
+}

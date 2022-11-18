@@ -1,0 +1,130 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-168-1951-10-C629",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "629. A 343, 915, 1022, 1589, 1648, 1885, 2028, B 174a, 183, 226, 388, 439, 558. 578, 769, 792.",
+        "corrected": "629. A 343, 915, 1022, 1589, 1648, 1885, 2028, B 174a, 183, 226, 388, 439, 558.578, 769, 792"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 168,
+            "canvas": "http://localhost:8182/iiif/3/0168.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0168.jpg/200,817,1239,117/max/0/default.jpg",
+            "xywh": "200, 817, 1239, 117"
+        }
+    },
+    "short_id": "C629",
+    "label": "",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-168-10-A343",
+                    "short_id": "A343"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A915",
+                    "short_id": "A915"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A1022",
+                    "short_id": "A1022"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A1589",
+                    "short_id": "A1589"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A1648",
+                    "short_id": "A1648"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A1885",
+                    "short_id": "A1885"
+                },
+                {
+                    "id": "BSCC-1951-168-10-A2028",
+                    "short_id": "A2028"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B174a",
+                    "short_id": "B174a"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B183",
+                    "short_id": "B183"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B226",
+                    "short_id": "B226"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B388",
+                    "short_id": "B388"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B439",
+                    "short_id": "B439"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B558578",
+                    "short_id": "B558578"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B769",
+                    "short_id": "B769"
+                },
+                {
+                    "id": "BSCC-1951-168-10-B792",
+                    "short_id": "B792"
+                }
+            ],
+            "description": "with the british company A343 and A915 and A1022 and A1589 and A1648 and A1885 and A2028 and B183 and B226 and B388 and B439 and B558578 and B769 and B792"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "6",
+            "level": 0,
+            "label": "Vehicles and Accessories, Aircraft",
+            "part_of": "0",
+            "page": "166",
+            "line_number": "17"
+        },
+        {
+            "id": "6F",
+            "level": 1,
+            "label": "Bicycles",
+            "part_of": "6",
+            "page": "168",
+            "line_number": "9"
+        }
+    ]
+}

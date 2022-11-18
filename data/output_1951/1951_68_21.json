@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-68-1951-21-A1231",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1231. Magneta Time Co. Ltd., Leatherhead. B 428, C 670.",
+        "corrected": "1231. Magneta Time Co. Ltd., Leatherhead. B 428, C 670"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 68,
+            "canvas": "http://localhost:8182/iiif/3/0068.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0068.jpg/167,1211,1283,41/max/0/default.jpg",
+            "xywh": "167, 1211, 1283, 41"
+        }
+    },
+    "short_id": "A1231",
+    "label": "Magneta Time Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-68-21-B428",
+                    "short_id": "B428"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-68-21-C670",
+                    "short_id": "C670"
+                }
+            ],
+            "description": "The british company A1231 trades with the swiss company B428 in the goods C670"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Magneta Time Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644726",
+            "lat": "51.29652",
+            "lng": "-0.3338",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Leatherhead",
+            "transcription": " Leatherhead. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

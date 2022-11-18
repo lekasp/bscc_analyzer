@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-52-1951-11-A893",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "893. Head & Rhodes (D. R.) Ltd., Bradford. B 452, C 1146, 1150.",
+        "corrected": "893. Head & Rhodes (D. R.) Ltd., Bradford. B 452, C 1146, 1150"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 52,
+            "canvas": "http://localhost:8182/iiif/3/0052.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0052.jpg/182,1731,1254,40/max/0/default.jpg",
+            "xywh": "182, 1731, 1254, 40"
+        }
+    },
+    "short_id": "A893",
+    "label": "Head & Rhodes (D. R.) Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-52-11-B452",
+                    "short_id": "B452"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-52-11-C1146",
+                    "short_id": "C1146"
+                },
+                {
+                    "id": "BSCC-1951-52-11-C1150",
+                    "short_id": "C1150"
+                }
+            ],
+            "description": "The british company A893 trades with the swiss company B452 in the goods C1146 and C1150"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Head & Rhodes (D. R.) Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2654993",
+            "lat": "53.79391",
+            "lng": "-1.75206",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bradford",
+            "transcription": " Bradford. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

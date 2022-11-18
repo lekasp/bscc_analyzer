@@ -1,0 +1,120 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-134-1951-0-B521",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "521. Multex AG., 21, Ottenweg, Zurich. A 169, 883, 1252, 1543, 1839, 1896, C 410, 509, 816, 1074, 1319, 1337.",
+        "corrected": "521. Multex AG., 21, Ottenweg, Zurich.A 169, 883, 1252, 1543, 1839, 1896, C 410, 509, 816, 1074, 1319, 1337"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 134,
+            "canvas": "http://localhost:8182/iiif/3/0134.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0134.jpg/187,201,1276,107/max/0/default.jpg",
+            "xywh": "187, 201, 1276, 107"
+        }
+    },
+    "short_id": "B521",
+    "label": "Multex AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-134-0-A169",
+                    "short_id": "A169"
+                },
+                {
+                    "id": "BSCC-1951-134-0-A883",
+                    "short_id": "A883"
+                },
+                {
+                    "id": "BSCC-1951-134-0-A1252",
+                    "short_id": "A1252"
+                },
+                {
+                    "id": "BSCC-1951-134-0-A1543",
+                    "short_id": "A1543"
+                },
+                {
+                    "id": "BSCC-1951-134-0-A1839",
+                    "short_id": "A1839"
+                },
+                {
+                    "id": "BSCC-1951-134-0-A1896",
+                    "short_id": "A1896"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-134-0-C410",
+                    "short_id": "C410"
+                },
+                {
+                    "id": "BSCC-1951-134-0-C509",
+                    "short_id": "C509"
+                },
+                {
+                    "id": "BSCC-1951-134-0-C816",
+                    "short_id": "C816"
+                },
+                {
+                    "id": "BSCC-1951-134-0-C1074",
+                    "short_id": "C1074"
+                },
+                {
+                    "id": "BSCC-1951-134-0-C1319",
+                    "short_id": "C1319"
+                },
+                {
+                    "id": "BSCC-1951-134-0-C1337",
+                    "short_id": "C1337"
+                }
+            ],
+            "description": "The swiss company B521 trades with the british company A169 and A883 and A1252 and A1543 and A1839 and A1896 in the goods C410 and C509 and C816 and C1074 and C1319 and C1337"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Multex AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": " 21, Ottenweg, Zurich."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

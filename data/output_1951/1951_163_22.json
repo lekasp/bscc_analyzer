@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-163-1951-22-C447",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "447. Pumps, centrifugal. A 1875, B 292.",
+        "corrected": "447. Pumps, centrifugal. A 1875, B 292"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 163,
+            "canvas": "http://localhost:8182/iiif/3/0163.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0163.jpg/294,1302,1245,41/max/0/default.jpg",
+            "xywh": "294, 1302, 1245, 41"
+        }
+    },
+    "short_id": "C447",
+    "label": "Pumps, centrifugal",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-163-22-A1875",
+                    "short_id": "A1875"
+                },
+                {
+                    "id": "BSCC-1951-163-22-B292",
+                    "short_id": "B292"
+                }
+            ],
+            "description": "with the british company A1875"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4E",
+            "level": 1,
+            "label": "General Engineering Equipment",
+            "part_of": "4",
+            "page": "162",
+            "line_number": "23"
+        },
+        {
+            "id": "4Ee",
+            "level": 2,
+            "label": "PUMPS, VALVES, PNEUMATIC EQUIPMENT",
+            "part_of": "4E",
+            "page": "163",
+            "line_number": "18"
+        }
+    ]
+}

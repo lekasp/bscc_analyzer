@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-93-1951-20-A1809",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1809. Souplex Ltd., Morecambe, Lancs. B 536, C 1383, 1384.",
+        "corrected": "1809. Souplex Ltd., Morecambe, Lancs. B 536, C 1383, 1384"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 93,
+            "canvas": "http://localhost:8182/iiif/3/0093.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0093.jpg/355,1135,1183,37/max/0/default.jpg",
+            "xywh": "355, 1135, 1183, 37"
+        }
+    },
+    "short_id": "A1809",
+    "label": "Souplex Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-93-20-B536",
+                    "short_id": "B536"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-93-20-C1383",
+                    "short_id": "C1383"
+                },
+                {
+                    "id": "BSCC-1951-93-20-C1384",
+                    "short_id": "C1384"
+                }
+            ],
+            "description": "The british company A1809 trades with the swiss company B536 in the goods C1383 and C1384"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Souplex Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2642214",
+            "lat": "54.06835",
+            "lng": "-2.86108",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Morecambe",
+            "transcription": " Morecambe, Lancs. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

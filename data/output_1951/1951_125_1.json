@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-125-1951-1-B259a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "259a. Gaewiller (J. H.), 10, Theaterstrasse, Zurich. A 1734a, C 563.",
+        "corrected": "259a. Gaewiller (J. H.), 10, Theaterstrasse, Zurich. A 1734a, C 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 125,
+            "canvas": "http://localhost:8182/iiif/3/0125.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0125.jpg/288,292,1317,41/max/0/default.jpg",
+            "xywh": "288, 292, 1317, 41"
+        }
+    },
+    "short_id": "B259a",
+    "label": "Gaewiller (J. H.)",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-125-1-A1734a",
+                    "short_id": "A1734a"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-125-1-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The swiss company B259a trades with the british company A1734a in the goods C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Gaewiller (J. H.)"
+        }
+    ],
+    "location": [
+        {
+            "id": "2657896",
+            "lat": "47.36667",
+            "lng": "8.55",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Zurich",
+            "transcription": "10, Theaterstrasse, Zurich. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

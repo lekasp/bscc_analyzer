@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-26-1951-12-A286a",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "286a. British & Foreign Marine Insurance Co. Ltd., Liverpool. B 371, C 1463.",
+        "corrected": "286a. British & Foreign Marine Insurance Co. Ltd., Liverpool. B 371, C 1463"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 26,
+            "canvas": "http://localhost:8182/iiif/3/0026.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0026.jpg/189,868,1290,38/max/0/default.jpg",
+            "xywh": "189, 868, 1290, 38"
+        }
+    },
+    "short_id": "A286a",
+    "label": "British & Foreign Marine Insurance Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-26-12-B371",
+                    "short_id": "B371"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-26-12-C1463",
+                    "short_id": "C1463"
+                }
+            ],
+            "description": "The british company A286a trades with the swiss company B371 in the goods C1463"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "British & Foreign Marine Insurance Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2644210",
+            "lat": "53.41058",
+            "lng": "-2.97794",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Liverpool",
+            "transcription": " Liverpool. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

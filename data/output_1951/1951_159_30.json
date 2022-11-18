@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-159-1951-30-C295",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "295. Photo-engraving and photo-lithographic equipment. A 1181, B 604.",
+        "corrected": "295. Photo-engraving and photo-lithographic equipment. A 1181, B 604"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 159,
+            "canvas": "http://localhost:8182/iiif/3/0159.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0159.jpg/306,1589,1277,37/max/0/default.jpg",
+            "xywh": "306, 1589, 1277, 37"
+        }
+    },
+    "short_id": "C295",
+    "label": "Photo-engraving and photo-lithographic equipment",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-159-30-A1181",
+                    "short_id": "A1181"
+                },
+                {
+                    "id": "BSCC-1951-159-30-B604",
+                    "short_id": "B604"
+                }
+            ],
+            "description": "with the british company A1181"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "4",
+            "level": 0,
+            "label": "Machines and Engineering Equipment",
+            "part_of": "0",
+            "page": "156",
+            "line_number": "37"
+        },
+        {
+            "id": "4B",
+            "level": 1,
+            "label": "Machinery and Equipment for specific industries",
+            "part_of": "4",
+            "page": "158",
+            "line_number": "16"
+        },
+        {
+            "id": "4Bd",
+            "level": 2,
+            "label": "PRINTING ",
+            "part_of": "4B",
+            "page": "159",
+            "line_number": "16"
+        }
+    ]
+}

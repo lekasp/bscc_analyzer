@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-132-1951-25-B491",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "491. Messapparate (AG. für), 33, Bundesgasse, Berne. A 663, 686, C 660.",
+        "corrected": "491. Messapparate (AG. für), 33, Bundesgasse, Berne. A 663, 686, C 660"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 132,
+            "canvas": "http://localhost:8182/iiif/3/0132.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0132.jpg/167,2162,1311,82/max/0/default.jpg",
+            "xywh": "167, 2162, 1311, 82"
+        }
+    },
+    "short_id": "B491",
+    "label": "Messapparate (AG.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-132-25-A663",
+                    "short_id": "A663"
+                },
+                {
+                    "id": "BSCC-1951-132-25-A686",
+                    "short_id": "A686"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-132-25-C660",
+                    "short_id": "C660"
+                }
+            ],
+            "description": "The swiss company B491 trades with the british company A663 and A686 in the goods C660"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Messapparate (AG."
+        }
+    ],
+    "location": [
+        {
+            "id": "2661552",
+            "lat": "46.94809",
+            "lng": "7.44744",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Bern",
+            "transcription": " für), 33, Bundesgasse, Berne. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

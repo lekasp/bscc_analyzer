@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-42-1951-31-A658",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "658. Evans Adlard & Co. Ltd., Winchcombe, Cheltenham. B 47, C 1020.",
+        "corrected": "658. Evans Adlard & Co. Ltd., Winchcombe, Cheltenham. B 47, C 1020"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 42,
+            "canvas": "http://localhost:8182/iiif/3/0042.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0042.jpg/194,1527,1259,38/max/0/default.jpg",
+            "xywh": "194, 1527, 1259, 38"
+        }
+    },
+    "short_id": "A658",
+    "label": "Evans Adlard & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-42-31-B47",
+                    "short_id": "B47"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-42-31-C1020",
+                    "short_id": "C1020"
+                }
+            ],
+            "description": "The british company A658 trades with the swiss company B47 in the goods C1020"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Evans Adlard & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653261",
+            "lat": "51.90006",
+            "lng": "-2.07972",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Cheltenham",
+            "transcription": " Winchcombe, Cheltenham. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

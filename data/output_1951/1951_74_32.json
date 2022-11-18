@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-32-A1380",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1380. Murex Welding Processes Ltd., Waltham Cross, Herts. B 111, C 436, 437.",
+        "corrected": "1380. Murex Welding Processes Ltd., Waltham Cross, Herts.B 111, C 436, 437"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1801,1249,79/max/0/default.jpg",
+            "xywh": "184, 1801, 1249, 79"
+        }
+    },
+    "short_id": "A1380",
+    "label": "Murex Welding Processes Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-32-B111",
+                    "short_id": "B111"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-32-C436",
+                    "short_id": "C436"
+                },
+                {
+                    "id": "BSCC-1951-74-32-C437",
+                    "short_id": "C437"
+                }
+            ],
+            "description": "The british company A1380 trades with the swiss company B111 in the goods C436 and C437"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Murex Welding Processes Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2634842",
+            "lat": "51.68602",
+            "lng": "-0.03575",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Waltham Cross",
+            "transcription": " Waltham Cross, Herts."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

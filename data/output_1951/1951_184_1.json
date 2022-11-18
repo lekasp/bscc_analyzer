@@ -1,0 +1,86 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-184-1951-1-C1152",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1152. Tie linings. A 1447, B 333.",
+        "corrected": "1152. Tie linings. A 1447, B 333"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 184,
+            "canvas": "http://localhost:8182/iiif/3/0184.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0184.jpg/236,273,1310,40/max/0/default.jpg",
+            "xywh": "236, 273, 1310, 40"
+        }
+    },
+    "short_id": "C1152",
+    "label": "Tie linings",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-184-1-A1447",
+                    "short_id": "A1447"
+                },
+                {
+                    "id": "BSCC-1951-184-1-B333",
+                    "short_id": "B333"
+                }
+            ],
+            "description": "with the british company A1447"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "15",
+            "level": 0,
+            "label": "Textiles, Clothing, Carpets, etc.",
+            "part_of": "0",
+            "page": "180",
+            "line_number": "27"
+        },
+        {
+            "id": "15C",
+            "level": 1,
+            "label": "Piece Goods",
+            "part_of": "15",
+            "page": "182",
+            "line_number": "7"
+        },
+        {
+            "id": "15Ce",
+            "level": 2,
+            "label": "UNSPECIFIED AND VARIOUS",
+            "part_of": "15C",
+            "page": "183",
+            "line_number": "23"
+        }
+    ]
+}

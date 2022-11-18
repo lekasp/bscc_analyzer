@@ -1,0 +1,84 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-119-1951-11-B82",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "82. Blanc & Paiche S.A., 50, Boul. des Tranchées, Geneva. A 1661, C 562, 563.",
+        "corrected": "82. Blanc & Paiche S.A., 50, Boul. des Tranchées, Geneva. A 1661, C 562, 563"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 119,
+            "canvas": "http://localhost:8182/iiif/3/0119.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0119.jpg/276,839,1336,39/max/0/default.jpg",
+            "xywh": "276, 839, 1336, 39"
+        }
+    },
+    "short_id": "B82",
+    "label": "Blanc & Paiche S.A.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-119-11-A1661",
+                    "short_id": "A1661"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-119-11-C562",
+                    "short_id": "C562"
+                },
+                {
+                    "id": "BSCC-1951-119-11-C563",
+                    "short_id": "C563"
+                }
+            ],
+            "description": "The swiss company B82 trades with the british company A1661 in the goods C562 and C563"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Blanc & Paiche S.A."
+        }
+    ],
+    "location": [
+        {
+            "id": "2660646",
+            "lat": "46.20222",
+            "lng": "6.14569",
+            "country": {
+                "id": "2658434",
+                "inferred": "Switzerland",
+                "code": "CH"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Geneva",
+            "transcription": " 50, Boul. des Tranchées, Geneva. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

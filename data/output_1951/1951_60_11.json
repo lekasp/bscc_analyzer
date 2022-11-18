@@ -1,0 +1,115 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-60-1951-11-A1042",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1042. Jones (Samuel) & Co. Ltd., London EC 4. B 445, C 986, 987, 1017, 1019, 1032, 1041; B 845, C 1040.",
+        "corrected": "1042. Jones (Samuel) & Co. Ltd., London EC 4.B 445, C 986, 987, 1017, 1019, 1032, 1041; B 845, C 1040"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 60,
+            "canvas": "http://localhost:8182/iiif/3/0060.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0060.jpg/175,846,1270,76/max/0/default.jpg",
+            "xywh": "175, 846, 1270, 76"
+        }
+    },
+    "short_id": "A1042",
+    "label": "Jones (Samuel) & Co. Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-60-11-B445",
+                    "short_id": "B445"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-60-11-C986",
+                    "short_id": "C986"
+                },
+                {
+                    "id": "BSCC-1951-60-11-C987",
+                    "short_id": "C987"
+                },
+                {
+                    "id": "BSCC-1951-60-11-C1017",
+                    "short_id": "C1017"
+                },
+                {
+                    "id": "BSCC-1951-60-11-C1019",
+                    "short_id": "C1019"
+                },
+                {
+                    "id": "BSCC-1951-60-11-C1032",
+                    "short_id": "C1032"
+                },
+                {
+                    "id": "BSCC-1951-60-11-C1041",
+                    "short_id": "C1041"
+                }
+            ],
+            "description": "The british company A1042 trades with the swiss company B445 in the goods C986 and C987 and C1017 and C1019 and C1032 and C1041"
+        },
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-60-11-B845",
+                    "short_id": "B845"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-60-11-C1040",
+                    "short_id": "C1040"
+                }
+            ],
+            "description": "The british company A1042 trades with the swiss company B845 in the goods C1040"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Jones (Samuel) & Co. Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2643743",
+            "lat": "51.50853",
+            "lng": "-0.12574",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "London",
+            "transcription": " London EC 4."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

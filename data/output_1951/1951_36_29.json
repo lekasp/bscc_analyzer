@@ -1,0 +1,80 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-36-1951-29-A520",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "520. Cumberland Mills Ltd., Carlisle. B 187, C 1119.",
+        "corrected": "520. Cumberland Mills Ltd., Carlisle. B 187, C 1119"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 36,
+            "canvas": "http://localhost:8182/iiif/3/0036.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0036.jpg/205,1456,1261,38/max/0/default.jpg",
+            "xywh": "205, 1456, 1261, 38"
+        }
+    },
+    "short_id": "A520",
+    "label": "Cumberland Mills Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-36-29-B187",
+                    "short_id": "B187"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-36-29-C1119",
+                    "short_id": "C1119"
+                }
+            ],
+            "description": "The british company A520 trades with the swiss company B187 in the goods C1119"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Cumberland Mills Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2653775",
+            "lat": "54.8951",
+            "lng": "-2.9382",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Carlisle",
+            "transcription": " Carlisle. "
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

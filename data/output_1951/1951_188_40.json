@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-188-1951-40-C1325",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1325. Refrigeration equipment. A 737, 1064, 1157, 1562, B 272, 547, 620, 703.",
+        "corrected": "1325. Refrigeration equipment. A 737, 1064, 1157, 1562, B 272, 547, 620, 703"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 188,
+            "canvas": "http://localhost:8182/iiif/3/0188.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0188.jpg/223,2024,1281,42/max/0/default.jpg",
+            "xywh": "223, 2024, 1281, 42"
+        }
+    },
+    "short_id": "C1325",
+    "label": "Refrigeration equipment",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-188-40-A737",
+                    "short_id": "A737"
+                },
+                {
+                    "id": "BSCC-1951-188-40-A1064",
+                    "short_id": "A1064"
+                },
+                {
+                    "id": "BSCC-1951-188-40-A1157",
+                    "short_id": "A1157"
+                },
+                {
+                    "id": "BSCC-1951-188-40-A1562",
+                    "short_id": "A1562"
+                },
+                {
+                    "id": "BSCC-1951-188-40-B272",
+                    "short_id": "B272"
+                },
+                {
+                    "id": "BSCC-1951-188-40-B547",
+                    "short_id": "B547"
+                },
+                {
+                    "id": "BSCC-1951-188-40-B620",
+                    "short_id": "B620"
+                },
+                {
+                    "id": "BSCC-1951-188-40-B703",
+                    "short_id": "B703"
+                }
+            ],
+            "description": "with the british company A737 and A1064 and A1157 and A1562 and B547 and B620 and B703"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "18",
+            "level": 0,
+            "label": "Catering Equipment, Domestic Articles, Furniture, Toilet Requisites",
+            "part_of": "0",
+            "page": "188",
+            "line_number": "20"
+        },
+        {
+            "id": "18A",
+            "level": 1,
+            "label": "Domestic and Catering Machines and Appliances",
+            "part_of": "18",
+            "page": "188",
+            "line_number": "21"
+        }
+    ]
+}

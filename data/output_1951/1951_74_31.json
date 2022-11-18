@@ -1,0 +1,108 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-74-1951-31-A1379",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "1379. Murex Ltd., Rainham, Essex. B 111, C 124, 140, 151, 152, 157, 158, 161, 166.",
+        "corrected": "1379. Murex Ltd., Rainham, Essex.B 111, C 124, 140, 151, 152, 157, 158, 161, 166"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 74,
+            "canvas": "http://localhost:8182/iiif/3/0074.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0074.jpg/184,1722,1249,79/max/0/default.jpg",
+            "xywh": "184, 1722, 1249, 79"
+        }
+    },
+    "short_id": "A1379",
+    "label": "Murex Ltd.",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-74-31-B111",
+                    "short_id": "B111"
+                }
+            ],
+            "what": [
+                {
+                    "id": "BSCC-1951-74-31-C124",
+                    "short_id": "C124"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C140",
+                    "short_id": "C140"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C151",
+                    "short_id": "C151"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C152",
+                    "short_id": "C152"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C157",
+                    "short_id": "C157"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C158",
+                    "short_id": "C158"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C161",
+                    "short_id": "C161"
+                },
+                {
+                    "id": "BSCC-1951-74-31-C166",
+                    "short_id": "C166"
+                }
+            ],
+            "description": "The british company A1379 trades with the swiss company B111 in the goods C124 and C140 and C151 and C152 and C157 and C158 and C161 and C166"
+        }
+    ],
+    "organisation": [
+        {
+            "transcription": "Murex Ltd."
+        }
+    ],
+    "location": [
+        {
+            "id": "2639690",
+            "lat": "51.51686",
+            "lng": "0.19432",
+            "country": {
+                "id": "2635167",
+                "inferred": "United Kingdom",
+                "code": "GB"
+            },
+            "scheme": "geonames.org",
+            "inferred": "Rainham",
+            "transcription": " Rainham, Essex."
+        }
+    ],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    }
+}

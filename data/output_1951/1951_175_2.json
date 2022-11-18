@@ -1,0 +1,150 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-175-1951-2-C870",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "870. Upper. A 50, 146, 294, 318a, 410, 847, 920, 1318, 1359, 2025, 2156, B 4, 297, 475, 488, 496.",
+        "corrected": "870. Upper. A 50, 146, 294, 318a, 410, 847, 920, 1318, 1359, 2025, 2156, B 4, 297,475, 488, 496"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 175,
+            "canvas": "http://localhost:8182/iiif/3/0175.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0175.jpg/296,318,1247,96/max/0/default.jpg",
+            "xywh": "296, 318, 1247, 96"
+        }
+    },
+    "short_id": "C870",
+    "label": "Upper",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-175-2-A50",
+                    "short_id": "A50"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A146",
+                    "short_id": "A146"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A294",
+                    "short_id": "A294"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A318a",
+                    "short_id": "A318a"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A410",
+                    "short_id": "A410"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A847",
+                    "short_id": "A847"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A920",
+                    "short_id": "A920"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A1318",
+                    "short_id": "A1318"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A1359",
+                    "short_id": "A1359"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A2025",
+                    "short_id": "A2025"
+                },
+                {
+                    "id": "BSCC-1951-175-2-A2156",
+                    "short_id": "A2156"
+                },
+                {
+                    "id": "BSCC-1951-175-2-B4",
+                    "short_id": "B4"
+                },
+                {
+                    "id": "BSCC-1951-175-2-B297",
+                    "short_id": "B297"
+                },
+                {
+                    "id": "BSCC-1951-175-2-B475",
+                    "short_id": "B475"
+                },
+                {
+                    "id": "BSCC-1951-175-2-B488",
+                    "short_id": "B488"
+                },
+                {
+                    "id": "BSCC-1951-175-2-B496",
+                    "short_id": "B496"
+                }
+            ],
+            "description": "with the british company A50 and A146 and A294 and A318a and A410 and A847 and A920 and A1318 and A1359 and A2025 and A2156 and B297 and B475 and B488 and B496"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "10",
+            "level": 0,
+            "label": "Leather, Leather Goods, Footwear",
+            "part_of": "0",
+            "page": "174",
+            "line_number": "2"
+        },
+        {
+            "id": "10A",
+            "level": 1,
+            "label": "Hides, Skins and Leather",
+            "part_of": "10",
+            "page": "174",
+            "line_number": "3"
+        },
+        {
+            "id": "10Ab",
+            "level": 2,
+            "label": "LEATHERS",
+            "part_of": "10A",
+            "page": "174",
+            "line_number": "14"
+        },
+        {
+            "id": "10Ab2",
+            "level": 3,
+            "label": "2. USES",
+            "part_of": "10Ab",
+            "page": "174",
+            "line_number": "32"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "$schema": [
+        "http://schemata.hasdai.org/historic-persons/historic-company-entry-v1.0.1.json"
+    ],
+    "id": "BSCC-178-1951-2-C972",
+    "status": "bscc entry",
+    "date": {
+        "ref": "1951"
+    },
+    "transcription": {
+        "original": "972. Printing inks. A 108, 1078, 2000, 2031, B 21, 142, 387, 443.",
+        "corrected": "972. Printing inks. A 108, 1078, 2000, 2031, B 21, 142, 387, 443"
+    },
+    "source": {
+        "id": "PLEASE_FILL_IN",
+        "title": "INDEX OF SWISS AGENTS REPRESENTING UNITED KINGDOM FIRMS",
+        "selector": {
+            "page": 178,
+            "canvas": "http://localhost:8182/iiif/3/0178.jpg/full/max/0/default.jpg",
+            "fragment": "http://localhost:8182/iiif/3/0178.jpg/229,317,1240,41/max/0/default.jpg",
+            "xywh": "229, 317, 1240, 41"
+        }
+    },
+    "short_id": "C972",
+    "label": "Printing inks",
+    "connection": [
+        {
+            "to": [
+                {
+                    "id": "BSCC-1951-178-2-A108",
+                    "short_id": "A108"
+                },
+                {
+                    "id": "BSCC-1951-178-2-A1078",
+                    "short_id": "A1078"
+                },
+                {
+                    "id": "BSCC-1951-178-2-A2000",
+                    "short_id": "A2000"
+                },
+                {
+                    "id": "BSCC-1951-178-2-A2031",
+                    "short_id": "A2031"
+                },
+                {
+                    "id": "BSCC-1951-178-2-B21",
+                    "short_id": "B21"
+                },
+                {
+                    "id": "BSCC-1951-178-2-B142",
+                    "short_id": "B142"
+                },
+                {
+                    "id": "BSCC-1951-178-2-B387",
+                    "short_id": "B387"
+                },
+                {
+                    "id": "BSCC-1951-178-2-B443",
+                    "short_id": "B443"
+                }
+            ],
+            "description": "with the british company A108 and A1078 and A2000 and A2031 and B142 and B387 and B443"
+        }
+    ],
+    "organisation": [],
+    "location": [],
+    "meta": {
+        "version": 1,
+        "partOf": "BSCC-1951",
+        "generated": "2022-11-18",
+        "actions": [
+            {
+                "actor": {
+                    "id": "0000-0002-9541-1202",
+                    "scheme": "ORCID",
+                    "name": "Sorin Marti"
+                },
+                "date": "2022-11-18",
+                "summary": "Parsed by v.2021-10-31-0 of the BSCC-Parser",
+                "classifiedAction": "auto_parse_bscc"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "id": "12",
+            "level": 0,
+            "label": "Paints, Varnishes, Cleaning and other Compounds",
+            "part_of": "0",
+            "page": "177",
+            "line_number": "24"
+        },
+        {
+            "id": "12A",
+            "level": 1,
+            "label": "Paints, Colours, etc., and Supplies for the Paint Industry",
+            "part_of": "12",
+            "page": "177",
+            "line_number": "25"
+        }
+    ]
+}
