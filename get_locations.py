@@ -61,7 +61,7 @@ def get_locations_with_count():
                          locations[loc]["country"]["code"],
                          locations[loc]["number_of_companies"]
                          ])
-    write_to_tsv('locations.tsv', loc_list)
+    write_to_tsv('data/locations.tsv', loc_list)
 
 
 get_locations_with_count()

@@ -8,7 +8,7 @@ import seaborn as sns
 cols = ["id", "name", "lat", "long", "country", "count"]
 
 # read df
-loc_df = pd.read_csv('locations.tsv', sep='\t', names=cols, header=None)
+loc_df = pd.read_csv('data/locations.tsv', sep='\t', names=cols, header=None)
 
 # Sort df and remove unknown locations
 loc_df_sorted = loc_df.sort_values(by=['count'], ascending=False)
