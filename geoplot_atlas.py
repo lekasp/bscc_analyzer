@@ -5,8 +5,9 @@ import adjustText as aT
 # create df from bscc_atlas_locations.tsv
 df = gpd.read_file('data/bscc_atlas_locations.tsv', sep='\t')
 
+
 # rename columns of df
-df.columns = ['name', 'gnd', 'lat', 'lng', 'address', 'country', 'country_code', 'country_gnd', 'geometry']
+df.columns = ['name', 'gnd', 'lat', 'lng', 'address', 'country', 'country_code', 'country_gnd', 'continent', 'geometry']
 
 # delete unnecessary columns
 df = df.drop(['gnd', 'address', 'country', 'country_code', 'country_gnd', 'geometry'], axis=1)
